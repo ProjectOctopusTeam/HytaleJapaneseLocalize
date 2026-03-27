@@ -1,0 +1,15 @@
+style.fantasy = ファンタジー
+style.modern = モダン
+style.costume = コスチューム
+style.special = スペシャル
+
+haircut.short = ショートヘア
+haircut.medium = ミディアムヘア
+haircut.long = ロングヘア
+HairLength.Short.name = ショート
+HairLength.Medium.name = ミディアム
+HairLength.Long.name = ロング
+Style.Fantasy.name = ファンタジー
+Style.Modern.name = モダン
+Style.Costume.name = コスチューム
+Style.Special.name = スペシャル
