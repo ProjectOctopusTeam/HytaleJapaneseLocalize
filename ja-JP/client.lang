@@ -1,385 +1,385 @@
 # === assetEditor ===
-assetEditor.launching = Starting Asset Editor
-assetEditor.mainMenu.connection.connecting = Connecting to server...
-assetEditor.mainMenu.connection.authenticating = Authenticating...
-assetEditor.mainMenu.title = Open Editor
-assetEditor.mainMenu.cosmeticsEditor = Cosmetics
-assetEditor.mainMenu.servers = Servers
-assetEditor.mainMenu.disconnectionContainer.title = Disconnected from Server!
-assetEditor.mainMenu.disconnectionContainer.reconnect = Reconnect
-assetEditor.mainMenu.connection.error.failedAuthentication = Failed to authenticate with server
-assetEditor.mainMenu.connection.error.failedToEstablishConnection = Failed to establish connection to server
-assetEditor.mainMenu.settingsButton = Settings
-nodeEditor.launching = Starting Node Editor
+assetEditor.launching = アセットエディターを起動中
+assetEditor.mainMenu.connection.connecting = サーバーに接続中...
+assetEditor.mainMenu.connection.authenticating = 認証中...
+assetEditor.mainMenu.title = エディターを開く
+assetEditor.mainMenu.cosmeticsEditor = コスメティック
+assetEditor.mainMenu.servers = サーバー
+assetEditor.mainMenu.disconnectionContainer.title = サーバーから切断されました！
+assetEditor.mainMenu.disconnectionContainer.reconnect = 再接続
+assetEditor.mainMenu.connection.error.failedAuthentication = サーバーでの認証に失敗しました
+assetEditor.mainMenu.connection.error.failedToEstablishConnection = サーバーへの接続を確立できませんでした
+assetEditor.mainMenu.settingsButton = 設定
+nodeEditor.launching = ノードエディターを起動中
 
-assetEditor.settings.title = Settings
+assetEditor.settings.title = 設定
 
-assetEditor.settings.setting.diagnosticMode = Diagnostic Mode
-assetEditor.settings.setting.useSystemLanguage = Use System Language
-assetEditor.settings.setting.language = Language
-assetEditor.settings.setting.fullscreen = Fullscreen
-assetEditor.settings.setting.exportPath = Export Folder
-assetEditor.settings.setting.exportPath.dialogTitle = Select an Export Folder
-assetEditor.settings.setting.exportPath.dialogConfirmationButton = Select as Export Folder
+assetEditor.settings.setting.diagnosticMode = 診断モード
+assetEditor.settings.setting.useSystemLanguage = システム言語を使用
+assetEditor.settings.setting.language = 言語
+assetEditor.settings.setting.fullscreen = 全画面
+assetEditor.settings.setting.exportPath = エクスポートフォルダ
+assetEditor.settings.setting.exportPath.dialogTitle = エクスポートフォルダを選択
+assetEditor.settings.setting.exportPath.dialogConfirmationButton = エクスポートフォルダとして選択
 
-assetEditor.mainMenu.errors.failedToSaveServerList = Failed to save server list
+assetEditor.mainMenu.errors.failedToSaveServerList = サーバーリストの保存に失敗しました
 
-assetEditor.mainMenu.serverModal.titleAdd = Add Server
-assetEditor.mainMenu.serverModal.titleEdit = Edit Server
-assetEditor.mainMenu.serverModal.titleRemove = Remove Server
-assetEditor.mainMenu.serverModal.errors.enterName = Please enter a name
-assetEditor.mainMenu.serverModal.errors.enterHostname = Please enter a hostname
-assetEditor.mainMenu.serverModal.errors.nameAlreadyInUse = This name is already in use.
-assetEditor.mainMenu.serverModal.errors.enterPort = Please enter a port
-assetEditor.mainMenu.serverModal.errors.invalidPort = Port is invalid
+assetEditor.mainMenu.serverModal.titleAdd = サーバーを追加
+assetEditor.mainMenu.serverModal.titleEdit = サーバーを編集
+assetEditor.mainMenu.serverModal.titleRemove = サーバーを削除
+assetEditor.mainMenu.serverModal.errors.enterName = 名前を入力してください
+assetEditor.mainMenu.serverModal.errors.enterHostname = ホスト名を入力してください
+assetEditor.mainMenu.serverModal.errors.nameAlreadyInUse = この名前は既に使用されています。
+assetEditor.mainMenu.serverModal.errors.enterPort = ポートを入力してください
+assetEditor.mainMenu.serverModal.errors.invalidPort = ポートが無効です
 
-assetEditor.mainMenu.removeServerModal.title = Remove server "{serverName}" from list?
+assetEditor.mainMenu.removeServerModal.title = リストからサーバー "{serverName}" を削除しますか？
 
-assetEditor.ipcServerConfirmation.title = Connect to Server?
-assetEditor.ipcServerConfirmation.description = Do you want to disconnect from this server and connect to "{serverName}"?
+assetEditor.ipcServerConfirmation.title = サーバーに接続しますか？
+assetEditor.ipcServerConfirmation.description = 現在のサーバーから切断し、"{serverName}" に接続しますか？
 
-assetEditor.assetBrowser.searchAssetsPlaceholder = Search Assets
-assetEditor.assetBrowser.findAsset = Find Asset
-assetEditor.assetBrowser.delete = Delete
-assetEditor.assetBrowser.rename = Rename
-assetEditor.assetBrowser.duplicate = Duplicate
-assetEditor.assetBrowser.findInFolder = Find in Folder
-assetEditor.assetBrowser.copyPath = Copy Path
-assetEditor.assetBrowser.showInFinder = Show in Finder
-assetEditor.assetBrowser.showInExplorer = Show in Explorer
-assetEditor.assetBrowser.createInFolder = Create {assetType} in Folder
-assetEditor.assetBrowser.createAssetInFolder = Create asset in Folder
-assetEditor.assetBrowser.createFolder = Create Folder
-assetEditor.assetBrowser.create = Create {assetType}
-assetEditor.assetBrowser.tabs.cosmetics = Cosmetics
-assetEditor.assetBrowser.tabs.server = Server
-assetEditor.assetBrowser.tabs.common = Common
-assetEditor.assetBrowser.tooltips.collapseAll = Collapse all directories
-assetEditor.assetBrowser.tooltips.createNewAsset = Create a new asset
-assetEditor.assetBrowser.tooltips.filter = Filter
-assetEditor.assetBrowser.export = Export Asset
-assetEditor.assetBrowser.exportAndDiscard = Export Asset & Discard
-assetEditor.assetBrowser.discard = Discard Changes
+assetEditor.assetBrowser.searchAssetsPlaceholder = アセットを検索
+assetEditor.assetBrowser.findAsset = アセットを見つける
+assetEditor.assetBrowser.delete = 削除
+assetEditor.assetBrowser.rename = 名前を変更
+assetEditor.assetBrowser.duplicate = 複製
+assetEditor.assetBrowser.findInFolder = フォルダ内で検索
+assetEditor.assetBrowser.copyPath = パスをコピー
+assetEditor.assetBrowser.showInFinder = Finderで表示
+assetEditor.assetBrowser.showInExplorer = エクスプローラーで表示
+assetEditor.assetBrowser.createInFolder = フォルダ内に {assetType} を作成
+assetEditor.assetBrowser.createAssetInFolder = フォルダ内にアセットを作成
+assetEditor.assetBrowser.createFolder = フォルダを作成
+assetEditor.assetBrowser.create = {assetType} を作成
+assetEditor.assetBrowser.tabs.cosmetics = コスメティック
+assetEditor.assetBrowser.tabs.server = サーバー
+assetEditor.assetBrowser.tabs.common = 共通
+assetEditor.assetBrowser.tooltips.collapseAll = すべてのディレクトリを折りたたむ
+assetEditor.assetBrowser.tooltips.createNewAsset = 新しいアセットを作成
+assetEditor.assetBrowser.tooltips.filter = フィルター
+assetEditor.assetBrowser.export = アセットをエクスポート
+assetEditor.assetBrowser.exportAndDiscard = アセットをエクスポートして変更を破棄
+assetEditor.assetBrowser.discard = 変更を破棄
 
-assetEditor.changeConfirmationModal.title = Confirmation required
-assetEditor.changeConfirmationModal.text = Changing this value will remove some existing properties.
+assetEditor.changeConfirmationModal.title = 確認が必要です
+assetEditor.changeConfirmationModal.text = この値を変更すると、既存のプロパティの一部が削除されます。
 
-assetEditor.assetReferenceOrInlineEditor.useExisting = Reference Existing
-assetEditor.assetReferenceOrInlineEditor.createEmbedded = Create Embedded
-assetEditor.assetReferenceOrInlineEditor.reference = Reference to {assetType}
+assetEditor.assetReferenceOrInlineEditor.useExisting = 既存のものを参照
+assetEditor.assetReferenceOrInlineEditor.createEmbedded = 埋め込みを作成
+assetEditor.assetReferenceOrInlineEditor.reference = {assetType} への参照
 
-assetEditor.assetDropdownEditor.openAssetTooltip = Open asset in new tab
-assetEditor.assetDropdownEditor.createAssetTooltip = Create and assign new {assetType}
+assetEditor.assetDropdownEditor.openAssetTooltip = アセットを新しいタブで開く
+assetEditor.assetDropdownEditor.createAssetTooltip = 新しい {assetType} を作成して割り当てる
 
-assetEditor.listEditor.empty = This list is empty
-assetEditor.listEditor.header = {count} List Entries
-assetEditor.mapEditor.empty = This map is empty
-assetEditor.mapEditor.header = {count} Map Entries
+assetEditor.listEditor.empty = リストが空です
+assetEditor.listEditor.header = {count} 個のリスト項目
+assetEditor.mapEditor.empty = マップが空です
+assetEditor.mapEditor.header = {count} 個のマップ項目
 
 assetEditor.jsonObjectEditor.json = JSON
-assetEditor.jsonObjectEditor.jsonParseError = JSON: Failed to parse
+assetEditor.jsonObjectEditor.jsonParseError = JSON: 解析に失敗しました
 
-assetEditor.changelogModal.newVersion = New
-assetEditor.changelogModal.title = What's new
+assetEditor.changelogModal.newVersion = 新規
+assetEditor.changelogModal.title = アップデート情報
 
-assetEditor.backends.local = Editing: Local Assets
-assetEditor.backends.server = Editing: Server Assets
-assetEditor.backends.tooltip = Click to open export directory
+assetEditor.backends.local = 編集：ローカルアセット
+assetEditor.backends.server = 編集：サーバーアセット
+assetEditor.backends.tooltip = クリックしてエクスポートディレクトリを開く
 
-assetEditor.mode.editor = Editor
-assetEditor.mode.source = Source
+assetEditor.mode.editor = エディター
+assetEditor.mode.source = ソース
 
-assetEditor.editor.searchProperties = Search Properties
+assetEditor.editor.searchProperties = プロパティを検索
 
-assetEditor.property.title = Property "{name}"
-assetEditor.property.remove = Remove
-assetEditor.property.renameKey = Rename Key
-assetEditor.property.moveDown = Move Down
-assetEditor.property.moveUp = Move Up
-assetEditor.property.createEmbeddedAsset = Convert to Embedded Asset
-assetEditor.property.createDedicatedAsset = Convert to Dedicated Asset
-assetEditor.property.collapseAllEntries = Collapse All Entries
-assetEditor.property.uncollapseAllEntries = Uncollapse All Entries
-assetEditor.property.openAssetInNewTab = Open Asset in new Tab
-assetEditor.property.copyAndReferenceAsset = Copy and Reference Asset
-assetEditor.property.createAndReferenceAsset = Create and Reference Asset
-assetEditor.property.insertSiblingBefore = Insert Sibling Before
-assetEditor.property.insertSiblingAfter = Insert Sibling After
-assetEditor.property.list = List
-assetEditor.property.map = Map
-assetEditor.property.copyValue = Copy Value
-assetEditor.property.pasteValue = Paste Value
-assetEditor.property.map.insertLabel = Insert
-assetEditor.property.errors.keyAlreadyExists = This key is already used
+assetEditor.property.title = プロパティ "{name}"
+assetEditor.property.remove = 削除
+assetEditor.property.renameKey = キー名を変更
+assetEditor.property.moveDown = 下に移動
+assetEditor.property.moveUp = 上に移動
+assetEditor.property.createEmbeddedAsset = 埋め込みアセットに変換
+assetEditor.property.createDedicatedAsset = 専用アセットに変換
+assetEditor.property.collapseAllEntries = すべての項目を折りたたむ
+assetEditor.property.uncollapseAllEntries = すべての項目を展開する
+assetEditor.property.openAssetInNewTab = アセットを新しいタブで開く
+assetEditor.property.copyAndReferenceAsset = アセットをコピーして参照
+assetEditor.property.createAndReferenceAsset = アセットを作成して参照
+assetEditor.property.insertSiblingBefore = 前に兄弟項目を挿入
+assetEditor.property.insertSiblingAfter = 後ろに兄弟項目を挿入
+assetEditor.property.list = リスト
+assetEditor.property.map = マップ
+assetEditor.property.copyValue = 値をコピー
+assetEditor.property.pasteValue = 値を貼り付け
+assetEditor.property.map.insertLabel = 挿入
+assetEditor.property.errors.keyAlreadyExists = このキーは既に使用されています
 
-assetEditor.property.tooltip.arrayItem = Index: {index}
-assetEditor.property.tooltip.mapItem = Key: {key}
-assetEditor.property.tooltip.inheritedProperty = Inherited from {asset} => {value}
-assetEditor.property.tooltip.listEntries = {count} List Entries
-assetEditor.property.tooltip.objectEntries = {count} Object Entries
+assetEditor.property.tooltip.arrayItem = インデックス: {index}
+assetEditor.property.tooltip.mapItem = キー: {key}
+assetEditor.property.tooltip.inheritedProperty = {asset} から継承 => {value}
+assetEditor.property.tooltip.listEntries = {count} 個のリスト項目
+assetEditor.property.tooltip.objectEntries = {count} 個のオブジェクト項目
 
-assetEditor.configEditor.button.collapseAll = Collapse All
-assetEditor.configEditor.button.expandAll = Expand All
-assetEditor.configEditor.button.showDefinedProperties = Toggle: Show Defined Properties Only
-assetEditor.configEditor.button.quickInspect = Quick Inspect
+assetEditor.configEditor.button.collapseAll = すべて折りたたむ
+assetEditor.configEditor.button.expandAll = すべて展開
+assetEditor.configEditor.button.showDefinedProperties = 切替：定義済みのプロパティのみ表示
+assetEditor.configEditor.button.quickInspect = クイックインスペクト
 
-assetEditor.sourceEditor.apply = Apply Changes
-assetEditor.sourceEditor.discard = Discard Changes
-assetEditor.sourceEditor.unsavedChangesModal.title = Unsaved Changes
-assetEditor.sourceEditor.unsavedChangesModal.text = There are unsaved changes in the code editor. Are you sure you want to continue?
-assetEditor.sourceEditor.unsavedChangesModal.discardChanges = Discard Changes
+assetEditor.sourceEditor.apply = 変更を適用
+assetEditor.sourceEditor.discard = 変更を破棄
+assetEditor.sourceEditor.unsavedChangesModal.title = 未保存の変更
+assetEditor.sourceEditor.unsavedChangesModal.text = コードエディターに未保存の変更があります。続行してもよろしいですか？
+assetEditor.sourceEditor.unsavedChangesModal.discardChanges = 変更を破棄
 
-assetEditor.assetSelector.findAsset = Find Asset...
+assetEditor.assetSelector.findAsset = アセットを見つける...
 
-assetEditor.fileSelector.placeholder = Select a File
-assetEditor.fileSelector.filesSelected = {count} Files Selected
-assetEditor.fileSelector.findFile = Find File...
-assetEditor.fileSelector.createDirectory = Create Folder
-assetEditor.fileSelector.newDirectoryNamePlaceholder = New Folder Name...
+assetEditor.fileSelector.placeholder = ファイルを選択
+assetEditor.fileSelector.filesSelected = {count} 個のファイルを選択済み
+assetEditor.fileSelector.findFile = ファイルを見つける...
+assetEditor.fileSelector.createDirectory = フォルダを作成
+assetEditor.fileSelector.newDirectoryNamePlaceholder = 新しいフォルダ名...
 
-assetEditor.timelineEditor.insertAt = Insert value at {hour}
-assetEditor.timelineEditor.updateAt = Hour: {hour}\n\
+assetEditor.timelineEditor.insertAt = {hour} に値を挿入
+assetEditor.timelineEditor.updateAt = 時間: {hour}\n\
 \n\
-Right-click to remove
+右クリックで削除
 
-assetEditor.modal.applyChangesLocally = Also apply change locally
+assetEditor.modal.applyChangesLocally = ローカルにも変更を適用する
 
-assetEditor.deleteAssetModal.title = Delete Asset?
-assetEditor.deleteAssetModal.text = Are you sure you want to delete "{assetId}"?
-assetEditor.deleteAssetModal.confirmButton = Delete
+assetEditor.deleteAssetModal.title = アセットを削除しますか？
+assetEditor.deleteAssetModal.text = "{assetId}" を削除してもよろしいですか？
+assetEditor.deleteAssetModal.confirmButton = 削除
 
-assetEditor.deleteDirectoryModal.title = Delete Folder?
-assetEditor.deleteDirectoryModal.text = Are you sure you want to delete "{path}"?
-assetEditor.deleteDirectoryModal.confirmButton = Delete
+assetEditor.deleteDirectoryModal.title = フォルダを削除しますか？
+assetEditor.deleteDirectoryModal.text = "{path}" を削除してもよろしいですか？
+assetEditor.deleteDirectoryModal.confirmButton = 削除
 
-assetEditor.keyModal.renameTitle = Rename Key
-assetEditor.keyModal.insertTitle = Insert Key
-assetEditor.keyModal.renameButton = Rename
-assetEditor.keyModal.insertButton = Insert
-assetEditor.keyModal.errors.existingKey = An entry with this key already exists!
-assetEditor.keyModal.errors.invalidProperty = Invalid property
-assetEditor.keyModal.errors.fieldEmpty = Please enter a new key!
+assetEditor.keyModal.renameTitle = キー名を変更
+assetEditor.keyModal.insertTitle = キーを挿入
+assetEditor.keyModal.renameButton = 名前を変更
+assetEditor.keyModal.insertButton = 挿入
+assetEditor.keyModal.errors.existingKey = このキーのエントリは既に存在します！
+assetEditor.keyModal.errors.invalidProperty = 無効なプロパティ
+assetEditor.keyModal.errors.fieldEmpty = 新しいキーを入力してください！
 
-assetEditor.iconExporterModal.export = Save Icon
-assetEditor.iconExporterModal.reset = Reset to Defaults
-assetEditor.iconExporterModal.previewZoom = Preview Zoom
-assetEditor.iconExporterModal.rotationX = Rotation X
-assetEditor.iconExporterModal.rotationY = Rotation Y
-assetEditor.iconExporterModal.rotationZ = Rotation Z
-assetEditor.iconExporterModal.translationX = Position X
-assetEditor.iconExporterModal.translationY = Position Y
-assetEditor.iconExporterModal.scale = Scale
-assetEditor.iconExporterModal.errors.invalidConfig = This item is not properly set up to render a preview
+assetEditor.iconExporterModal.export = アイコンを保存
+assetEditor.iconExporterModal.reset = デフォルトにリセット
+assetEditor.iconExporterModal.previewZoom = プレビューズーム
+assetEditor.iconExporterModal.rotationX = 回転 X
+assetEditor.iconExporterModal.rotationY = 回転 Y
+assetEditor.iconExporterModal.rotationZ = 回転 Z
+assetEditor.iconExporterModal.translationX = 位置 X
+assetEditor.iconExporterModal.translationY = 位置 Y
+assetEditor.iconExporterModal.scale = スケール
+assetEditor.iconExporterModal.errors.invalidConfig = この項目はプレビューを表示するための設定が正しくありません
 
-assetEditor.renameModal.titleAsset = Rename Asset
-assetEditor.renameModal.titleFolder = Rename Folder
-assetEditor.renameModal.renameButton = Rename
-assetEditor.renameModal.newId = New Id
-assetEditor.renameModal.newName = New Name
-assetEditor.renameModal.errors.invalidId = Please enter a valid id. An ID can only contain letters and numbers, as well as _ for marking certain categories of ids.
-assetEditor.renameModal.warning = Warning: Renaming an asset will not change references to it in other JSON files. This action might break other assets.
+assetEditor.renameModal.titleAsset = アセットの名前を変更
+assetEditor.renameModal.titleFolder = フォルダの名前を変更
+assetEditor.renameModal.renameButton = 名前を変更
+assetEditor.renameModal.newId = 新しいID
+assetEditor.renameModal.newName = 新しい名前
+assetEditor.renameModal.errors.invalidId = 有効なIDを入力してください。IDには英数字、およびカテゴリを分けるためのアンダースコア（_）のみ使用できます。
+assetEditor.renameModal.warning = 警告：アセットの名前を変更しても、他のJSONファイルからの参照は更新されません。この操作により、他のアセットが破損する可能性があります。
 
-assetEditor.idValidation.empty = The id field cannot be empty
-assetEditor.idValidation.minLength = An id needs to consist out of at least {count} characters
-assetEditor.idValidation.maxLength = An id cannot consist out of more than {count} characters
-assetEditor.idValidation.onlyLettersAndDigits = An id can only contain letters and digits
-assetEditor.idValidation.firstUppercase = The first letter of an id or after an underscore must be uppercase
-assetEditor.idValidation.firstLetter = The first character of an id or after an underscore must be a letter
-assetEditor.idValidation.underscoreEmpty = An id cannot start or end with an underscore and an underscore cannot be followed by another underscore
+assetEditor.idValidation.empty = IDフィールドを空にすることはできません
+assetEditor.idValidation.minLength = IDは少なくとも {count} 文字以上である必要があります
+assetEditor.idValidation.maxLength = IDは {count} 文字以内である必要があります
+assetEditor.idValidation.onlyLettersAndDigits = IDに使用できるのは英数字のみです
+assetEditor.idValidation.firstUppercase = IDの先頭、またはアンダースコアの後の文字は大文字である必要があります
+assetEditor.idValidation.firstLetter = IDの先頭、またはアンダースコアの後の文字はアルファベットである必要があります
+assetEditor.idValidation.underscoreEmpty = IDの先頭や末尾にアンダースコアを使用することや、アンダースコアを連続させることはできません
 
-assetEditor.createAssetModal.title = Create new {assetType} asset
-assetEditor.createAssetModal.assetPack = Asset Pack
-assetEditor.createAssetModal.assetType = Asset Type
-assetEditor.createAssetModal.folder = Folder
-assetEditor.createAssetModal.assetId = Unique Asset ID
-assetEditor.createAssetModal.assetIdHelp = Allowed characters: A-Z 0-9 _\nExamples: Wood_Ash_Roots, Zone3_Cloudy_Medium, Battleaxe_Swing_Left
-assetEditor.createAssetModal.copyAsset = Copy Asset
-assetEditor.createAssetModal.tab.properties = Properties
-assetEditor.createAssetModal.tab.source = Source
-assetEditor.createAssetModal.createButton = Create
-assetEditor.createAssetModal.assetPackDropdown.noEntries = Create a new Asset Pack first
-assetEditor.createAssetModal.errors.existingId = An asset with this id already exists!
-assetEditor.createAssetModal.errors.invalidAssetType = Invalid asset type
-assetEditor.createAssetModal.errors.noAssetPackSelected = An asset pack to create the asset in must be selected
+assetEditor.createAssetModal.title = 新しい {assetType} アセットを作成
+assetEditor.createAssetModal.assetPack = アセットパック
+assetEditor.createAssetModal.assetType = アセットタイプ
+assetEditor.createAssetModal.folder = フォルダ
+assetEditor.createAssetModal.assetId = 一意のアセットID
+assetEditor.createAssetModal.assetIdHelp = 使用可能な文字：A-Z 0-9 _\n例：Wood_Ash_Roots, Zone3_Cloudy_Medium, Battleaxe_Swing_Left
+assetEditor.createAssetModal.copyAsset = アセットをコピー
+assetEditor.createAssetModal.tab.properties = プロパティ
+assetEditor.createAssetModal.tab.source = ソース
+assetEditor.createAssetModal.createButton = 作成
+assetEditor.createAssetModal.assetPackDropdown.noEntries = まず新しいアセットパックを作成してください
+assetEditor.createAssetModal.errors.existingId = このIDのアセットは既に存在します！
+assetEditor.createAssetModal.errors.invalidAssetType = 無効なアセットタイプ
+assetEditor.createAssetModal.errors.noAssetPackSelected = アセットを作成するアセットパックを選択する必要があります
 
-assetEditor.exportModal.title = Recently Edited Assets
-assetEditor.exportModal.deselectAllButton = Deselect All
-assetEditor.exportModal.selectAllButton = Select All
-assetEditor.exportModal.exportButton = Export Selection
-assetEditor.exportModal.launcherAssetsWarning = Assets cannot be exported when using assets from the launcher!
-assetEditor.exportModal.discardChangesModal.title = Discard Changes?
-assetEditor.exportModal.discardChangesModal.text = Discard changes of {assetId} ({assetType})
-assetEditor.exportModal.discardChangesModal.confirmButton = Discard Changes
-assetEditor.exportModal.discardChangesCheckBox = Discard changes on server after export
-assetEditor.exportModal.discardChangesCheckBoxDescription = If this option is active, the original state of selected assets will be restored on the server by loading these assets from the assets folder again. This is useful when work on certain assets is complete and ready to be pushed to a repository, as these files will be removed from this list. If the server and client are sharing the same asset directory (e.g. in Singleplayer) then all this option does is remove these entries from the list above.
-assetEditor.exportModal.discardButtonTooltip = Discard Changes
-assetEditor.exportModal.columns.file = File
-assetEditor.exportModal.columns.lastChangeDate = Last Change
-assetEditor.exportModal.columns.lastChangeUsername = By
-assetEditor.exportModal.tooltips.deleted = Asset was deleted
-assetEditor.exportModal.tooltips.new = Asset was created
-assetEditor.exportModal.tooltips.renamed = Asset was renamed from {oldPath}
-assetEditor.exportModal.tooltips.changed = Asset was changed
+assetEditor.exportModal.title = 最近編集されたアセット
+assetEditor.exportModal.deselectAllButton = すべて選択解除
+assetEditor.exportModal.selectAllButton = すべて選択
+assetEditor.exportModal.exportButton = 選択項目をエクスポート
+assetEditor.exportModal.launcherAssetsWarning = ランチャーのアセットを使用している間は、アセットをエクスポートできません！
+assetEditor.exportModal.discardChangesModal.title = 変更を破棄しますか？
+assetEditor.exportModal.discardChangesModal.text = {assetId} ({assetType}) の変更を破棄
+assetEditor.exportModal.discardChangesModal.confirmButton = 変更を破棄
+assetEditor.exportModal.discardChangesCheckBox = エクスポート後にサーバー上の変更を破棄
+assetEditor.exportModal.discardChangesCheckBoxDescription = このオプションが有効な場合、選択されたアセットの元の状態が、アセットフォルダから再度読み込まれることでサーバー上で復元されます。これは、特定のアセットの作業が完了し、リポジトリにプッシュする準備が整った場合に便利です（これらのファイルがこのリストから削除されるため）。サーバーとクライアントが同じアセットディレクトリを共有している場合（例：シングルプレイヤー）、このオプションは上記のリストからこれらのエントリを削除するだけの動作をします。
+assetEditor.exportModal.discardButtonTooltip = 変更を破棄
+assetEditor.exportModal.columns.file = ファイル
+assetEditor.exportModal.columns.lastChangeDate = 最終変更
+assetEditor.exportModal.columns.lastChangeUsername = 変更者
+assetEditor.exportModal.tooltips.deleted = アセットが削除されました
+assetEditor.exportModal.tooltips.new = アセットが作成されました
+assetEditor.exportModal.tooltips.renamed = アセット名が {oldPath} から変更されました
+assetEditor.exportModal.tooltips.changed = アセットが変更されました
 
-assetEditor.filterModal.title = Filter by asset types
-assetEditor.filterModal.searchPlaceholder = Search Asset Types
+assetEditor.filterModal.title = アセットタイプでフィルター
+assetEditor.filterModal.searchPlaceholder = アセットタイプを検索
 
-assetEditor.iconMassExportModal.title = Item Icon Mass Export
-assetEditor.iconMassExportModal.startButton = Start Export
-assetEditor.iconMassExportModal.statusLabel = Status:
-assetEditor.iconMassExportModal.iconSize = Icon Size
-assetEditor.iconMassExportModal.starting = Starting...
-assetEditor.iconMassExportModal.status = {completeCount}/{totalCount} – {percentage}% - {failedCount} Failed - {skippedCount} Skipped
+assetEditor.iconMassExportModal.title = アイテムアイコンの一括エクスポート
+assetEditor.iconMassExportModal.startButton = エクスポート開始
+assetEditor.iconMassExportModal.statusLabel = ステータス：
+assetEditor.iconMassExportModal.iconSize = アイコンサイズ
+assetEditor.iconMassExportModal.starting = 開始中...
+assetEditor.iconMassExportModal.status = {completeCount}/{totalCount} – {percentage}% - 失敗: {failedCount} - スキップ: {skippedCount}
 
-assetEditor.errors.invalidAssetsDirectory = A valid assets directory must contain a Server and Common folder
-assetEditor.errors.failedToFetchAsset = Failed to fetch asset "{path}"
-assetEditor.errors.failedToFetchParent = An error occurred fetching an asset parent
-assetEditor.errors.recursiveParent = Asset could not be loaded as some parent assets are referencing each other (cyclic dependency)
-assetEditor.errors.errorOccurredFetching = An error occurred fetching this asset
-assetEditor.errors.assetNotFound = This asset does not exist
-assetEditor.errors.unknownAssetType = Unknown asset type "{assetType}"
-assetEditor.errors.fileFormatNotSupported = This file format is not supported
-assetEditor.errors.invalidJson = Invalid JSON
-assetEditor.errors.invalidAssetType = Invalid asset type
-assetEditor.errors.missingId = Please enter an id
-assetEditor.errors.failedExportErrors = Could not export assets because some contain validation errors
-assetEditor.errors.failedToSetupAssetTypes = Failed to set up asset types
-assetEditor.errors.failedToLoadAssetFiles = Failed to load asset files
-assetEditor.errors.failedToLoadCommonAssetFiles = Failed to load common asset files
-assetEditor.errors.failedToRenameAsset = Failed to rename asset
-assetEditor.errors.failedToDeleteAsset = Failed to delete asset
-assetEditor.errors.failedToCreateAsset = Failed to create asset
-assetEditor.errors.assetTypeNotSetupForEditor = This asset type is not set up to be edited from the editor interface
-assetEditor.errors.createDirectoryInvalidPath = Failed to create directory because it is not within the assets directory
-assetEditor.errors.createDirectoryExists = Failed to create directory because it already exists
-assetEditor.errors.createDirectoryOther = Failed to create directory
-assetEditor.errors.renameDirectoryInvalidPath = Failed to rename directory because it is not within the assets directory
-assetEditor.errors.renameDirectoryExists = Failed to rename directory because a directory with the same name already exists
-assetEditor.errors.renameDirectoryMissing = Failed to rename directory because the directory to rename does not exist
-assetEditor.errors.renameDirectoryOther = Failed to rename directory
-assetEditor.errors.deleteDirectoryInvalidPath = Failed to delete directory because it is not within the assets directory
-assetEditor.errors.deleteDirectoryMissing = Failed to delete directory because the directory does not exist
-assetEditor.errors.deleteDirectoryOther = Failed to delete directory
-assetEditor.errors.directoryInvalidCharacters = Directory names cannot include characters such as {backslash} or {slash}
-assetEditor.errors.exportInProgress = An export is still in progress
-assetEditor.errors.cannotRevealUnexportedAsset = Cannot show file in explorer/finder because the file has not been exported yet.
-assetEditor.errors.cannotPasteWrongType = Cannot paste value: invalid type
+assetEditor.errors.invalidAssetsDirectory = 有効なアセットディレクトリには Server フォルダと Common フォルダが含まれている必要があります
+assetEditor.errors.failedToFetchAsset = アセット "{path}" の取得に失敗しました
+assetEditor.errors.failedToFetchParent = 親アセットの取得中にエラーが発生しました
+assetEditor.errors.recursiveParent = 一部の親アセットが互いに参照し合っているため（循環参照）、アセットを読み込めませんでした
+assetEditor.errors.errorOccurredFetching = このアセットの取得中にエラーが発生しました
+assetEditor.errors.assetNotFound = このアセットは存在しません
+assetEditor.errors.unknownAssetType = 不明なアセットタイプ "{assetType}"
+assetEditor.errors.fileFormatNotSupported = このファイル形式はサポートされていません
+assetEditor.errors.invalidJson = 無効な JSON
+assetEditor.errors.invalidAssetType = 無効なアセットタイプ
+assetEditor.errors.missingId = IDを入力してください
+assetEditor.errors.failedExportErrors = バリデーションエラーが含まれているため、アセットをエクスポートできませんでした
+assetEditor.errors.failedToSetupAssetTypes = アセットタイプのセットアップに失敗しました
+assetEditor.errors.failedToLoadAssetFiles = アセットファイルの読み込みに失敗しました
+assetEditor.errors.failedToLoadCommonAssetFiles = 共通アセットファイルの読み込みに失敗しました
+assetEditor.errors.failedToRenameAsset = アセットの名前変更に失敗しました
+assetEditor.errors.failedToDeleteAsset = アセットの削除に失敗しました
+assetEditor.errors.failedToCreateAsset = アセットの作成に失敗しました
+assetEditor.errors.assetTypeNotSetupForEditor = このアセットタイプはエディターインターフェースからの編集に対応していません
+assetEditor.errors.createDirectoryInvalidPath = ディレクトリがアセットディレクトリ内にないため、作成に失敗しました
+assetEditor.errors.createDirectoryExists = ディレクトリが既に存在するため、作成に失敗しました
+assetEditor.errors.createDirectoryOther = ディレクトリの作成に失敗しました
+assetEditor.errors.renameDirectoryInvalidPath = ディレクトリがアセットディレクトリ内にないため、名前の変更に失敗しました
+assetEditor.errors.renameDirectoryExists = 同じ名前のディレクトリが既に存在するため、名前の変更に失敗しました
+assetEditor.errors.renameDirectoryMissing = 名前を変更しようとしたディレクトリが存在しないため、失敗しました
+assetEditor.errors.renameDirectoryOther = ディレクトリの名前変更に失敗しました
+assetEditor.errors.deleteDirectoryInvalidPath = ディレクトリがアセットディレクトリ内にないため、削除に失敗しました
+assetEditor.errors.deleteDirectoryMissing = ディレクトリが存在しないため、削除に失敗しました
+assetEditor.errors.deleteDirectoryOther = ディレクトリの削除に失敗しました
+assetEditor.errors.directoryInvalidCharacters = ディレクトリ名には {backslash} や {slash} などの文字を含めることはできません
+assetEditor.errors.exportInProgress = エクスポートがまだ進行中です
+assetEditor.errors.cannotRevealUnexportedAsset = ファイルがまだエクスポートされていないため、エクスプローラー/Finder で表示できません。
+assetEditor.errors.cannotPasteWrongType = 値を貼り付けられません：無効なタイプです
 
-assetEditor.messages.assetExport.success = {count} assets have been saved
-assetEditor.messages.assetExport.none = No assets have been saved
-assetEditor.messages.assetExport.errors = Failed to save assets because some contain errors
-assetEditor.messages.assetExport.failedSaving = Failed to save assets
-assetEditor.messages.undoStackEmpty = Nothing to undo
-assetEditor.messages.redoStackEmpty = Nothing to redo
-assetEditor.messages.directoryDeleted = Directory was successfully deleted
-assetEditor.messages.directoryCreated = Directory was successfully created
+assetEditor.messages.assetExport.success = {count} 個のアセットが保存されました
+assetEditor.messages.assetExport.none = 保存されたアセットはありません
+assetEditor.messages.assetExport.errors = エラーが含まれているため、アセットを保存できませんでした
+assetEditor.messages.assetExport.failedSaving = アセットの保存に失敗しました
+assetEditor.messages.undoStackEmpty = 元に戻す操作はありません
+assetEditor.messages.redoStackEmpty = やり直す操作はありません
+assetEditor.messages.directoryDeleted = ディレクトリが正常に削除されました
+assetEditor.messages.directoryCreated = ディレクトリが正常に作成されました
 
-assetEditor.unexportedAssetsModal.quitTitle = Quit Client?
-assetEditor.unexportedAssetsModal.continueTitle = Continue?
-assetEditor.unexportedAssetsModal.text = There are unexported changes in the asset editor.
-assetEditor.unexportedAssetsModal.quitButton = Quit Anyway
-assetEditor.unexportedAssetsModal.continueButton = Continue Anyway
+assetEditor.unexportedAssetsModal.quitTitle = クライアントを終了しますか？
+assetEditor.unexportedAssetsModal.continueTitle = 続行しますか？
+assetEditor.unexportedAssetsModal.text = アセットエディターに未エクスポートの変更があります。
+assetEditor.unexportedAssetsModal.quitButton = 強制終了
+assetEditor.unexportedAssetsModal.continueButton = 強制続行
 
-assetEditor.diagnosticsTooltip.errors = Errors:
-assetEditor.diagnosticsTooltip.warnings = Warnings:
-assetEditor.diagnosticsTooltip.hasChildErrors = Some child properties contain errors.
-assetEditor.diagnosticsTooltip.hasChildWarnings = Some child properties contain warnings.
+assetEditor.diagnosticsTooltip.errors = エラー：
+assetEditor.diagnosticsTooltip.warnings = 警告：
+assetEditor.diagnosticsTooltip.hasChildErrors = 一部の下位プロパティにエラーがあります。
+assetEditor.diagnosticsTooltip.hasChildWarnings = 一部の下位プロパティに警告があります。
 
-assetEditor.configEditor.errors.failedToLoad = Failed to load editor. Check log for more details
-assetEditor.configEditor.showAllProperties = Show All Properties
+assetEditor.configEditor.errors.failedToLoad = エディターの読み込みに失敗しました。詳細はログを確認してください
+assetEditor.configEditor.showAllProperties = すべてのプロパティを表示
 
-assetEditor.tabs.popup.close = Close
-assetEditor.tabs.popup.closeAll = Close All
-assetEditor.tabs.popup.copyId = Copy ID
+assetEditor.tabs.popup.close = 閉じる
+assetEditor.tabs.popup.closeAll = すべて閉じる
+assetEditor.tabs.popup.copyId = IDをコピー
 
-assetEditor.weatherDaytimeBar.togglePauseTime = Pause/Continue time
-assetEditor.weatherDaytimeBar.previousDay = Set to previous day
-assetEditor.weatherDaytimeBar.nextDay = Set to next day
-assetEditor.weatherDaytimeBar.lockTimeAndWeather = Click to toggle keeping current weather and time even after leaving asset editor
-assetEditor.weatherDaytimeBar.currentDay = Day {day, number}
+assetEditor.weatherDaytimeBar.togglePauseTime = 時間の一時停止/再開
+assetEditor.weatherDaytimeBar.previousDay = 前の日に設定
+assetEditor.weatherDaytimeBar.nextDay = 次の日に設定
+assetEditor.weatherDaytimeBar.lockTimeAndWeather = クリックして、アセットエディターを終了した後も現在の天候と時間を維持するかどうかを切り替えます
+assetEditor.weatherDaytimeBar.currentDay = {day, number} 日目
 
-assetEditor.initializeButton.inactive = Initialize object
-assetEditor.initializeButton.active = Remove object
+assetEditor.initializeButton.inactive = オブジェクトを初期化
+assetEditor.initializeButton.active = オブジェクトを削除
 
-assetEditor.fileSaveStatus.Saved = Changes Saved
-assetEditor.fileSaveStatus.Saving = Saving Changes...
-assetEditor.fileSaveStatus.Unsaved = Unsaved Changes
+assetEditor.fileSaveStatus.Saved = 変更保存済み
+assetEditor.fileSaveStatus.Saving = 変更を保存中...
+assetEditor.fileSaveStatus.Unsaved = 未保存の変更
 
-assetEditor.options.title = Options
-assetEditor.options.disconnect = Disconnect from server
-assetEditor.options.exportItemIcons = Export Item Icons
-assetEditor.options.settings = Settings
+assetEditor.options.title = オプション
+assetEditor.options.disconnect = サーバーから切断
+assetEditor.options.exportItemIcons = アイテムアイコンをエクスポート
+assetEditor.options.settings = 設定
 
-assetEditor.tabs.tooltip = {type} Asset\n\
+assetEditor.tabs.tooltip = {type} アセット\n\
 \n\
-Pack: {pack}
+パック: {pack}
 
-assetEditor.packModal.title.edit = Edit Pack
-assetEditor.packModal.title.add = Add Pack
-assetEditor.packModal.readOnlyMessage = This pack is read-only and cannot be edited.
-assetEditor.packModal.editModeNote = Changing the Name or Group of an asset pack will only take effect after restarting the server.
-assetEditor.packModal.identifierChangeWarning = WARNING: You are changing the pack identifier (Name or Group). This change will take effect immediately but may cause unexpected behavior at runtime. Assets referencing this pack may become broken until the server is restarted.
-assetEditor.packModal.field.name = Name
-assetEditor.packModal.field.name.placeholder = Pack name (a unique identifier for the pack)
-assetEditor.packModal.field.group = Group
-assetEditor.packModal.field.group.placeholder = Pack group (e.g. Your Name)
-assetEditor.packModal.field.version = Version
+assetEditor.packModal.title.edit = パックを編集
+assetEditor.packModal.title.add = パックを追加
+assetEditor.packModal.readOnlyMessage = このパックは読み取り専用で、編集できません。
+assetEditor.packModal.editModeNote = アセットパックの名前またはグループの変更は、サーバーを再起動した後にのみ有効になります。
+assetEditor.packModal.identifierChangeWarning = 警告：パック識別子（名前またはグループ）を変更しようとしています。この変更はすぐに適用されますが、実行時に予期しない動作を引き起こす可能性があります。このパックを参照しているアセットは、サーバーが再起動されるまで破損する可能性があります。
+assetEditor.packModal.field.name = 名前
+assetEditor.packModal.field.name.placeholder = パック名（パックの一意の識別子）
+assetEditor.packModal.field.group = グループ
+assetEditor.packModal.field.group.placeholder = パックグループ（例：あなたの名前）
+assetEditor.packModal.field.version = バージョン
 assetEditor.packModal.field.version.placeholder = 1.0.0 (semver)
-assetEditor.packModal.field.serverVersion = Server Version
-assetEditor.packModal.field.serverVersion.setCurrent = Current
-assetEditor.packModal.field.website = Website
-assetEditor.packModal.field.website.placeholder = Website URL (optional)
-assetEditor.packModal.field.description = Description
-assetEditor.packModal.field.description.placeholder = Pack description (optional)
-assetEditor.packModal.field.authors = Authors
-assetEditor.packModal.authors.add = + Add
-assetEditor.packModal.authors.empty = No authors added
-assetEditor.packModal.authors.entry = Author
-assetEditor.packModal.authors.name.placeholder = Name
-assetEditor.packModal.authors.email.placeholder = Email (optional)
-assetEditor.packModal.authors.url.placeholder = URL (optional)
-assetEditor.packModal.button.save = Save
-assetEditor.packModal.errors.nameRequired = Pack name is required
-assetEditor.packModal.errors.groupRequired = Pack group is required
-assetEditor.packModal.errors.versionRequired = Version is required
-assetEditor.packModal.errors.versionInvalid = Invalid version format. Use semantic versioning (e.g., 1.0.0, 2.1.3-beta, 1.0.0+build123)
-assetEditor.packModal.errors.serverVersionRequired = Server version is required
-assetEditor.packModal.field.targetDirectory = Target Directory
-assetEditor.packModal.targetDirectory.worldMods = World Mods Folder ({path})
-assetEditor.packModal.targetDirectory.globalMods = Global Mods Folder ({path})
+assetEditor.packModal.field.serverVersion = サーバーバージョン
+assetEditor.packModal.field.serverVersion.setCurrent = 現在のバージョン
+assetEditor.packModal.field.website = ウェブサイト
+assetEditor.packModal.field.website.placeholder = ウェブサイト URL（任意）
+assetEditor.packModal.field.description = 説明
+assetEditor.packModal.field.description.placeholder = パックの説明（任意）
+assetEditor.packModal.field.authors = 著者
+assetEditor.packModal.authors.add = + 追加
+assetEditor.packModal.authors.empty = 著者が追加されていません
+assetEditor.packModal.authors.entry = 著者
+assetEditor.packModal.authors.name.placeholder = 名前
+assetEditor.packModal.authors.email.placeholder = メールアドレス（任意）
+assetEditor.packModal.authors.url.placeholder = URL（任意）
+assetEditor.packModal.button.save = 保存
+assetEditor.packModal.errors.nameRequired = パック名は必須です
+assetEditor.packModal.errors.groupRequired = パックグループは必須です
+assetEditor.packModal.errors.versionRequired = バージョンは必須です
+assetEditor.packModal.errors.versionInvalid = バージョン形式が無効です。セマンティックバージョニング（例：1.0.0, 2.1.3-beta, 1.0.0+build123）を使用してください。
+assetEditor.packModal.errors.serverVersionRequired = サーバーバージョンは必須です
+assetEditor.packModal.field.targetDirectory = ターゲットディレクトリ
+assetEditor.packModal.targetDirectory.worldMods = ワールド Mod フォルダ ({path})
+assetEditor.packModal.targetDirectory.globalMods = グローバル Mod フォルダ ({path})
 
-assetEditor.readOnlyAssetBar.message = This asset is read-only and cannot be edited, since the asset pack is read-only.
-assetEditor.readOnlyAssetBar.overrideButton = Override Asset
-assetEditor.readOnlyAssetBar.tooltip = This asset cannot be edited because the asset pack it's in is read-only.\n\
-You can override assets through a custom asset pack.
-assetEditor.readOnlyAssetBar.tooltipAdditionalInfo = \n\nYou can add or override the asset by manually creating a file in the Common folder of your custom asset pack.\n\
-Please be aware that you need to match the filename and folder structure for the original file to be overridden.
+assetEditor.readOnlyAssetBar.message = このアセットパックは読み取り専用のため、このアセットは編集できません。
+assetEditor.readOnlyAssetBar.overrideButton = アセットを上書き
+assetEditor.readOnlyAssetBar.tooltip = このアセットが含まれるアセットパックが読み取り専用のため、編集できません。\n\
+カスタムアセットパックを介してアセットを上書きできます。
+assetEditor.readOnlyAssetBar.tooltipAdditionalInfo = \n\nカスタムアセットパックの Common フォルダに手動でファイルを作成することで、アセットを追加または上書きできます。\n\
+元のファイルを上書きするには、ファイル名とフォルダ構造を一致させる必要がありますのでご注意ください。
 
-assetEditor.inheritanceWarning.message = Warning: This asset has a Parent and inheritance is not yet supported in the property editor.
-assetEditor.inheritanceWarning.tooltip = This asset is inheriting properties from another asset (specified in the "Parent" property).\n\n\
-The property editor currently does not fully support inheritance and will only show you the properties defined in this asset. \n\n\
-Properties that use a value from the parent asset are marked with a *.
+assetEditor.inheritanceWarning.message = 警告：このアセットには親アセットがありますが、プロパティエディターでは継承がまだサポートされていません。
+assetEditor.inheritanceWarning.tooltip = このアセットは別のアセットからプロパティを継承しています（"Parent" プロパティで指定）。\n\n\
+現在、プロパティエディターは継承を完全にはサポートしておらず、このアセットで定義されているプロパティのみを表示します。\n\n\
+親アセットの値を使用しているプロパティには * マークが付いています。
 
-assetEditor.managePacksMenu.editPack = Edit Pack
-assetEditor.managePacksMenu.addPack = Add Pack
-assetEditor.managePacksMenu.removePack = Remove Pack
+assetEditor.managePacksMenu.editPack = パックを編集
+assetEditor.managePacksMenu.addPack = パックを追加
+assetEditor.managePacksMenu.removePack = パックを削除
 
-assetEditor.confirmationModal.typeToConfirm = Type "{value}" to confirm:
+assetEditor.confirmationModal.typeToConfirm = 確認のため "{value}" と入力してください：
 
-assetEditor.deletePackModal.title = Delete Asset Pack?
-assetEditor.deletePackModal.text = Are you sure you want to delete the asset pack "{packId}"?\n\
+assetEditor.deletePackModal.title = アセットパックを削除しますか？
+assetEditor.deletePackModal.text = アセットパック "{packId}" を削除してもよろしいですか？\n\
 \n\
-WARNING: This is a DANGEROUS operation!\n\
+警告：これは非常に危険な操作です！\n\
 \n\
-• All assets within this pack will be permanently deleted\n\
-• Deleting an asset pack at runtime can lead to unexpected behavior, crashes, or data corruption\n\
-• Any references to assets in this pack from other packs will become broken\n\
-• This action cannot be undone\n\
+• このパック内のすべてのアセットが完全に削除されます\n\
+• 実行時にアセットパックを削除すると、予期しない動作、クラッシュ、またはデータの破損を招く可能性があります\n\
+• 他のパックからこのパックのアセットへの参照がすべて破損します\n\
+• この操作は元に戻せません\n\
 \n\
-Only proceed if you fully understand the consequences.
-assetEditor.deletePackModal.confirmButton = Delete Pack
+結果を十分に理解している場合のみ続行してください。
+assetEditor.deletePackModal.confirmButton = パックを削除
 
-assetEditor.newAssetButton.readOnlyPackTooltip = You cannot create new assets because the selected asset pack is read-only.
+assetEditor.newAssetButton.readOnlyPackTooltip = 選択したアセットパックが読み取り専用のため、新しいアセットを作成できません。
 # === auth ===
 auth.sessionExpired.title = Session Expired
 auth.sessionExpired.message = Your session could not be refreshed. You have been switched to offline mode.\n\nYou can continue playing, but you won't be able to join servers or start new worlds until you restart the game.
