@@ -3067,175 +3067,175 @@ timeline.toolbar.toggleLoop = ループ切り替え
 timeline.events.add = イベントを追加
 
 # === Feedback Dialog ===
-feedback.title = Submit Bug or Feedback
-feedback.selectType = What would you like to submit?
+feedback.title = バグ報告・フィードバック
+feedback.selectType = 何を報告しますか？
 
-feedback.feedback.title = Submit Feedback
-feedback.feedback.description = Help us improve Hytale by sharing your thoughts and suggestions.
-feedback.feedback.button.label = Feedback
-feedback.feedback.button.tooltip = Submit feedback
+feedback.feedback.title = フィードバックを送る
+feedback.feedback.description = あなたの意見や提案を共有して、Hytale の改善にご協力ください。
+feedback.feedback.button.label = フィードバック
+feedback.feedback.button.tooltip = フィードバックを送信
 
-feedback.bugreport.title = Report a Bug
-feedback.bugreport.description = Found something that doesn't work? Let us know so we can fix it.
-feedback.bugreport.button.label = Report Bug
-feedback.bugreport.button.tooltip = Report a bug
-feedback.bugreport.includeLogFile = Include current log file
+feedback.bugreport.title = バグを報告する
+feedback.bugreport.description = 動作しないものを見つけましたか？修正できるようにお知らせください。
+feedback.bugreport.button.label = バグ報告
+feedback.bugreport.button.tooltip = バグを報告
+feedback.bugreport.includeLogFile = 現在のログファイルを含める
 
-feedback.contactPermission = Give permission for us to contact you about this report
+feedback.contactPermission = この報告に関して、こちらから連絡することに同意する
 
-feedback.type.feedback = Feedback
-feedback.type.bugreport = Bug Report
+feedback.type.feedback = フィードバック
+feedback.type.bugreport = バグ報告
 
-feedback.warning.abuse = Abuse of the bug report and feedback feature may lead to an account suspension.
+feedback.warning.abuse = バグ報告やフィードバック機能を悪用すると、アカウントが停止される場合があります。
 
-feedback.field.type = Type
-feedback.field.category = Category
-feedback.field.summary = Summary
-feedback.field.summary.placeholder = Brief summary of your feedback or bug
-feedback.field.description = Description
-feedback.field.description.placeholder = Provide detailed information about your feedback or bug report
-feedback.field.attachments = Attachments
+feedback.field.type = 種類
+feedback.field.category = カテゴリ
+feedback.field.summary = 概要
+feedback.field.summary.placeholder = フィードバックやバグの簡単な概要
+feedback.field.description = 説明
+feedback.field.description.placeholder = フィードバックやバグ報告に関する詳細な情報を提供してください
+feedback.field.attachments = 添付ファイル
 
-feedback.category.placeholder = Select a category
-feedback.category.website = Website
-feedback.category.game = Game
-feedback.category.launcher = Launcher
-feedback.category.tools = Tools
-feedback.category.accounts = Accounts
-feedback.category.billing = Billing
+feedback.category.placeholder = カテゴリを選択
+feedback.category.website = ウェブサイト
+feedback.category.game = ゲーム
+feedback.category.launcher = ランチャー
+feedback.category.tools = ツール
+feedback.category.accounts = アカウント
+feedback.category.billing = 支払い
 
-feedback.attachments.addScreenshot = Add Screenshots
-feedback.attachments.addLogFile = Add Extra Log Files
-feedback.attachments.selectScreenshot = Select screenshots to attach
-feedback.attachments.selectLogFile = Select log files to attach
+feedback.attachments.addScreenshot = スクリーンショットを追加
+feedback.attachments.addLogFile = ログファイルを追加
+feedback.attachments.selectScreenshot = 添付するスクリーンショットを選択
+feedback.attachments.selectLogFile = 添付するログファイルを選択
 
-feedback.submit = Submit
-feedback.submitting = Submitting...
+feedback.submit = 送信する
+feedback.submitting = 送信中...
 
-feedback.error.categoryRequired = Please select a category
-feedback.error.summaryRequired = Please enter a summary
-feedback.error.descriptionRequired = Please enter a description
-feedback.error.unknown = An error occurred. Please try again.
-feedback.error.maxAttachments = You can only attach up to 3 files
-feedback.error.fileTooLarge = "{file}" is too large ({size}MB). Maximum file size is {maxSize}
-feedback.error.invalidFileType = "{file}" is not a supported file type. Only .jpg, .jpeg, .png, and .log files are allowed
-feedback.error.fileNotFound = "{file}" could not be found
-feedback.error.fileError = Could not read "{file}"
+feedback.error.categoryRequired = カテゴリを選択してください
+feedback.error.summaryRequired = 概要を入力してください
+feedback.error.descriptionRequired = 説明を入力してください
+feedback.error.unknown = エラーが発生しました。もう一度お試しください。
+feedback.error.maxAttachments = 添付できるファイルは最大3つまでです
+feedback.error.fileTooLarge = "{file}" が大きすぎます ({size}MB)。最大ファイルサイズは {maxSize}MB です
+feedback.error.invalidFileType = "{file}" はサポートされていないファイル形式です。.jpg, .jpeg, .png, .log ファイルのみ許可されています
+feedback.error.fileNotFound = "{file}" が見つかりませんでした
+feedback.error.fileError = "{file}" を読み込めませんでした
 
-feedback.success.title = Thank You!
-feedback.success.feedback = Your feedback has been submitted successfully. We appreciate your input!
-feedback.success.bugreport = Your bug report has been submitted successfully. We'll look into it!
-feedback.success.reportId = Report ID: {id}
-feedback.success.submitMore = Submit More
+feedback.success.title = ありがとうございます！
+feedback.success.feedback = フィードバックが正常に送信されました。ご協力ありがとうございます！
+feedback.success.bugreport = バグ報告が正常に送信されました。内容を確認いたします。
+feedback.success.reportId = 報告 ID: {id}
+feedback.success.submitMore = さらに報告する
 
-feedback.redirect.support = For account or billing issues, please visit support.hytale.com.
-feedback.redirect.button = Open Support
-feedback.bugReportButton.tooltip = Report a Bug or Feedback
+feedback.redirect.support = アカウントや支払いに関する問題については、support.hytale.com をご覧ください。
+feedback.redirect.button = サポートを開く
+feedback.bugReportButton.tooltip = バグ報告・フィードバック
 
 # === patchline ===
 # Patchlines allow early release of content to help players test new features
 
-patchline.launchNotification.title = Pre-release Patchline
-patchline.launchNotification.text = You are running a pre-release patchline of Hytale.\n\n\
-    This version may contain experimental features and bugs.\n\n\
-    Your feedback helps us improve the game!
+patchline.launchNotification.title = プレリリース・パッチライン
+patchline.launchNotification.text = Hytale のプレリリース・パッチラインを実行しています。\n\n\
+    このバージョンには実験的な機能やバグが含まれている可能性があります。\n\n\
+    皆様のフィードバックがゲームの改善に役立ちます！
 
-patchline.worldWarning.title = Patchline Warning
-patchline.worldWarning.text = You are about to open a world using a different patchline.\n\n\
-    Opening this world may introduce changes that could affect your save.\n\n\
-    We recommend creating a backup copy before continuing.
-patchline.worldWarning.openAnyway = Open Anyway
-patchline.worldWarning.duplicateWorld = Duplicate World
+patchline.worldWarning.title = パッチラインの警告
+patchline.worldWarning.text = 異なるパッチラインを使用しているワールドを開こうとしています。\n\n\
+    このワールドを開くと、セーブデータに影響を与える変更が加えられる可能性があります。\n\n\
+    続行する前にバックアップを作成することをお勧めします。
+patchline.worldWarning.openAnyway = 強制的に開く
+patchline.worldWarning.duplicateWorld = ワールドを複製
 
 # === cosmetics ===
 
 # Hair Gradients
-cosmetics.color.PitchBlack = Pitch Black
-cosmetics.color.Black = Black
-cosmetics.color.BrownDarker = Darker Brown
-cosmetics.color.BrownDark = Dark Brown
-cosmetics.color.BrownSemiDark = Semi-Dark Brown
-cosmetics.color.Brown = Brown
-cosmetics.color.BrownSemiLight = Semi-Light Brown
-cosmetics.color.BrownLight = Light Brown
-cosmetics.color.Blond = Blond
-cosmetics.color.BlondPlatinum = Platinum Blond
-cosmetics.color.BlondSand = Sand Blond
-cosmetics.color.BlondCaramel = Caramel Blond
-cosmetics.color.Copper = Copper
-cosmetics.color.Red = Red
-cosmetics.color.RedDark = Dark Red
-cosmetics.color.Pink = Pink
-cosmetics.color.PinkBerry = Berry Pink
-cosmetics.color.Bubblegum = Bubblegum
-cosmetics.color.Purple = Purple
-cosmetics.color.Lavender = Lavender
-cosmetics.color.BlueDark = Dark Blue
-cosmetics.color.Blue = Blue
-cosmetics.color.BlueLight = Light Blue
-cosmetics.color.Turquoise = Turquoise
-cosmetics.color.Green = Green
-cosmetics.color.White = White
-cosmetics.color.GreyAsh = Ash Grey
-cosmetics.color.Grey = Grey
-cosmetics.color.GreyPurple = Purple Grey
-cosmetics.color.Blue_Anthracite = Anthracite Blue
+cosmetics.color.PitchBlack = 漆黒
+cosmetics.color.Black = 黒
+cosmetics.color.BrownDarker = かなり濃い茶色
+cosmetics.color.BrownDark = 濃い茶色
+cosmetics.color.BrownSemiDark = やや濃い茶色
+cosmetics.color.Brown = 茶色
+cosmetics.color.BrownSemiLight = やや明るい茶色
+cosmetics.color.BrownLight = 明るい茶色
+cosmetics.color.Blond = ブロンド
+cosmetics.color.BlondPlatinum = プラチナブロンド
+cosmetics.color.BlondSand = サンドブロンド
+cosmetics.color.BlondCaramel = キャラメルブロンド
+cosmetics.color.Copper = カッパー
+cosmetics.color.Red = 赤
+cosmetics.color.RedDark = 濃い赤
+cosmetics.color.Pink = ピンク
+cosmetics.color.PinkBerry = ベリーピンク
+cosmetics.color.Bubblegum = バブルガム
+cosmetics.color.Purple = 紫
+cosmetics.color.Lavender = ラベンダー
+cosmetics.color.BlueDark = 濃い青
+cosmetics.color.Blue = 青
+cosmetics.color.BlueLight = 明るい青
+cosmetics.color.Turquoise = ターコイズ
+cosmetics.color.Green = 緑
+cosmetics.color.White = 白
+cosmetics.color.GreyAsh = アッシュグレー
+cosmetics.color.Grey = グレー
+cosmetics.color.GreyPurple = パープルグレー
+cosmetics.color.Blue_Anthracite = アンスラサイトブルー
 
 # Shiny_Fabric Gradients
-cosmetics.color.Lime = Lime
-cosmetics.color.Orange = Orange
-cosmetics.color.Yellow = Yellow
-cosmetics.color.Violet = Violet
+cosmetics.color.Lime = ライム
+cosmetics.color.Orange = オレンジ
+cosmetics.color.Yellow = 黄色
+cosmetics.color.Violet = バイオレット
 
 # Jean_Generic Gradients
-cosmetics.color.BluePastel = Pastel Blue
-cosmetics.color.GreyDark = Dark Grey
-cosmetics.color.GreyLight = Light Grey
-cosmetics.color.GreyBlue = Blue Grey
-cosmetics.color.Marine_Blue = Marine Blue
-cosmetics.color.Maroon = Maroon
-cosmetics.color.Blue_Night = Night Blue
-cosmetics.color.Turquoise_Dark = Dark Turquoise
+cosmetics.color.BluePastel = パステルブルー
+cosmetics.color.GreyDark = ダークグレー
+cosmetics.color.GreyLight = ライトグレー
+cosmetics.color.GreyBlue = ブルーグレー
+cosmetics.color.Marine_Blue = マリンブルー
+cosmetics.color.Maroon = マルーン
+cosmetics.color.Blue_Night = ナイトブルー
+cosmetics.color.Turquoise_Dark = ダークターコイズ
 
 # Faded_Leather Gradients
-cosmetics.color.Orange_Tan = Tan Orange
+cosmetics.color.Orange_Tan = タンオレンジ
 
 # Flashy_Synthetic Gradients
-cosmetics.color.OrangePastel = Pastel Orange
-cosmetics.color.PinkPastel = Pastel Pink
+cosmetics.color.OrangePastel = パステルオレンジ
+cosmetics.color.PinkPastel = パステルピンク
 
 # Colored_Cotton Gradients
-cosmetics.color.Cream = Cream
-cosmetics.color.Charcoal = Charcoal
+cosmetics.color.Cream = クリーム
+cosmetics.color.Charcoal = チャコール
 
 # Pastel_Cotton Gradients
-cosmetics.color.Carmin = Carmine
-cosmetics.color.PurplePastel = Pastel Purple
+cosmetics.color.Carmin = カーマイン
+cosmetics.color.PurplePastel = パステルパープル
 
 # Fantasy_Cotton Gradients
-cosmetics.color.Beige = Beige
+cosmetics.color.Beige = ベージュ
 
 # Eyes Gradients
-cosmetics.color.Honey = Honey
-cosmetics.color.GreenLight = Light Green
+cosmetics.color.Honey = ハニー
+cosmetics.color.GreenLight = ライトグリーン
 
 # Ornamented_Metal Gradients
-cosmetics.color.Gold_Red = Gold
-cosmetics.color.Silver_Blue = Silver
-cosmetics.color.Copper_Green = Copper
-cosmetics.color.Brass_Purple = Brass
-cosmetics.color.Iron_Black = Steel
-cosmetics.color.Black_Red = Iron
+cosmetics.color.Gold_Red = ゴールド
+cosmetics.color.Silver_Blue = シルバー
+cosmetics.color.Copper_Green = カッパー
+cosmetics.color.Brass_Purple = ブラス
+cosmetics.color.Iron_Black = スチール
+cosmetics.color.Black_Red = アイアン
 
 # === social ===
 # Social sidebar context menu
-ui.social.menu.viewProfile = View Profile
-ui.social.menu.inviteToParty = Invite to Party
-ui.social.menu.removeFriend = Remove Friend
-ui.social.menu.block = Block
+ui.social.menu.viewProfile = プロフィールを表示
+ui.social.menu.inviteToParty = パーティーに招待
+ui.social.menu.removeFriend = フレンドを削除
+ui.social.menu.block = ブロック
 # Social sidebar section headers
-ui.social.header.inYourWorld = IN YOUR WORLD - {count}
-ui.social.header.friendRequests = FRIEND REQUESTS - {count}
-ui.social.header.friends = FRIENDS - {count}
-ui.social.header.group = GROUP - {count}
-ui.social.header.partyInvites = PARTY INVITES - {count}
+ui.social.header.inYourWorld = ワールド内 - {count}
+ui.social.header.friendRequests = フレンドリクエスト - {count}
+ui.social.header.friends = フレンド - {count}
+ui.social.header.group = グループ - {count}
+ui.social.header.partyInvites = パーティー招待 - {count}
