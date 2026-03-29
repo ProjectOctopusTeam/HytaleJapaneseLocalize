@@ -1,4 +1,4 @@
-title = Quit Game
-text = Are you sure you want to quit?
-buttons.returnToGame = Return to Game
-buttons.quitToDesktop = Quit to Desktop
+title = ゲームを終了
+text = 本当に終了しますか？
+buttons.returnToGame = ゲームに戻る
+buttons.quitToDesktop = デスクトップに戻る

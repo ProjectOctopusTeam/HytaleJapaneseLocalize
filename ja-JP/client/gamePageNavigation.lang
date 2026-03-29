@@ -1,8 +1,8 @@
-buttons.Inventory = Inventory
-buttons.Map = Map
-buttons.ContentCreation = Creative Tools
-buttons.ContentCreation.disabledTooltip = The creative menu is only available in Creative mode.
-buttons.ContentCreation.disabledTooltip.title = CREATIVE MODE
-buttons.ContentCreation.disabledTooltip.description = In creative mode you gain access to powerful editing tools. To swap to creative mode, use '/op self' then toggle gamemode with "{key}" hotkey.
-buttons.ContentCreation.disabledTooltipUnassigned.description = In creative mode you gain access to powerful editing tools. To swap to creative mode, use '/op self' then type '/gm c'.
-earlyAccess = Early Access
+buttons.Inventory = インベントリ
+buttons.Map = マップ
+buttons.ContentCreation = クリエイティブツール
+buttons.ContentCreation.disabledTooltip = クリエイティブメニューはクリエイティブモードでのみ使用可能です。
+buttons.ContentCreation.disabledTooltip.title = クリエイティブモード
+buttons.ContentCreation.disabledTooltip.description = クリエイティブモードでは、強力な編集ツールにアクセスできます。クリエイティブモードに切り替えるには、'/op self' を使用してから "{key}" ホットキーでゲームモードを切り替えてください。
+buttons.ContentCreation.disabledTooltipUnassigned.description = クリエイティブモードでは、強力な編集ツールにアクセスできます。クリエイティブモードに切り替えるには、'/op self' を使用してから '/gm c' と入力してください。
+earlyAccess = 早期アクセス
