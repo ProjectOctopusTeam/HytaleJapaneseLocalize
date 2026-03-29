@@ -1,6 +1,6 @@
-header = Your player info:\n\
+header = プレイヤー情報:\n\
   UUID: {uuid}\n\
-  Username: {username}\n\
-  Language: {language}
-desc = Prints your player information
-other.desc = Print another player's information
+  ユーザー名: {username}\n\
+  言語: {language}
+desc = 自身のプレイヤー情報を表示します
+other.desc = 別のプレイヤーの情報を表示します

@@ -1,2 +1,2 @@
-desc = List who is on the server
+desc = サーバー上のプレイヤーを一覧表示します
 playerWithDisplayName = {displayName} ({username})
