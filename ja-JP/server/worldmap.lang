@@ -1,0 +1,7 @@
+markers.create.tooManyPersonal = You may only place up to {limit} personal markers!
+markers.create.tooManyShared = Each player may only place up to {limit} shared markers!
+markers.create.nameTooLong = That marker name is too long!
+markers.create.creationDisabled = Creating markers is disabled!
+markers.edit.tooFar = You may not edit a marker that far away from you!
+markers.edit.notOwner = You may not edit other players' markers!
+markers.edit.notFound = Couldn't find the map marker you're trying to edit!

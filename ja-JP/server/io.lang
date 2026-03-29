@@ -1,0 +1,11 @@
+landiscovery.enabled = Enabled LAN Discovery Thread
+landiscovery.alreadyToggled = LAN Discovery Thread is already {enabled, select, true {enabled} other {disabled}}
+landiscovery.disabled = Disabled LAN Discovery Thread
+servermanager.bindings = Bindings
+servermanager.bindings.description = Displays all network bindings/listeners for the server.
+setuppackethandler.otherLoginAttempt = Someone tried to login with your account! We have disconnected the other user.
+gamepackethandler.localCommandDenied = Can't handle local command: {message}
+gamepackethandler.invalidMessageContent = Invalid chat message: contains control characters.
+gamepackethandler.sceneUpdateSent = Scene update sent to all players
+gamepackethander.sceneUpdateSentToPlayer = Scene update sent to {name}
+gamepackethandler.playerNotFound = Unable to find player with name {name}

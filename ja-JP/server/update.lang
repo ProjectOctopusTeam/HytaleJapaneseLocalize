@@ -1,0 +1,3 @@
+notify_players = Server update {version} is available. An admin can run '/update download' to stage it.
+auto_apply_warning = Update {version} will be automatically applied in {minutes, plural, one {1 minute} other {{minutes} minutes}}. Please save your progress.
+auto_apply_now = Update {version} is being applied now. Server is restarting...
