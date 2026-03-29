@@ -1,0 +1,4 @@
+desc = Set the second position of your selection
+x.desc = The X coordinate (optional, uses current position if not specified)
+y.desc = The Y coordinate (optional, uses current position if not specified)
+z.desc = The Z coordinate (optional, uses current position if not specified)

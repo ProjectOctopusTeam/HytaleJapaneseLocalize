@@ -1,0 +1,9 @@
+extentsThresholdNeeded = Using the extents threshold of {threshold} the total number of filler blocks needed is: {nb}
+notFound = No hitbox with name '{name}'
+boundingBox = Bounding Box: {box}
+details.header = Detail Boxes
+box = (({minX, number}, {minY, number}, {minZ, number}), ({maxX, number}, {maxY, number}, {maxZ, number}))
+desc = Return the hitbox data for the given hitbox id
+hitbox.desc = The name of the hitbox to display information for
+extents.desc = Calculate the total number of filler blocks needed for all hitboxes
+extents.threshold.desc = The threshold value for calculating extents (default: 0.5)

@@ -1,0 +1,9 @@
+social.menu.viewProfile = View Profile
+social.menu.inviteToParty = Invite to Party
+social.menu.removeFriend = Remove Friend
+social.menu.block = Block
+social.header.inYourWorld = IN YOUR WORLD - {count}
+social.header.friendRequests = FRIEND REQUESTS - {count}
+social.header.friends = FRIENDS - {count}
+social.header.group = GROUP - {count}
+social.header.partyInvites = PARTY INVITES - {count}

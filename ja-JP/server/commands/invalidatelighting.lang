@@ -1,0 +1,3 @@
+desc = Force all loaded chunks to have their lighting updated!
+one.desc = Invalidate only the chunk the player is in
+success = Invalidated lighting in chunk {chunkPosition}

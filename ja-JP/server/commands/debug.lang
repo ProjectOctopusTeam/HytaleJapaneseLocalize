@@ -1,0 +1,15 @@
+desc = Debug commands
+shape.desc = Debug shape commands
+shape.sphere.desc = Display a debug sphere shape at your position
+shape.sphere.success = Debug sphere shape displayed
+shape.cube.desc = Display a debug cube shape at your position
+shape.cube.success = Debug cube shape displayed
+shape.cylinder.desc = Display a debug cylinder shape at your position
+shape.cylinder.success = Debug cylinder shape displayed
+shape.cone.desc = Display a debug cone shape at your position
+shape.cone.success = Debug cone shape displayed
+shape.arrow.desc = Display a debug arrow shape in the direction you're looking
+shape.arrow.success = Debug arrow shape displayed
+shape.clear.desc = Clear all debug shapes for all players in the world
+shape.clear.success = All debug shapes cleared
+shape.showforce.desc = Toggle the display of force debug shapes

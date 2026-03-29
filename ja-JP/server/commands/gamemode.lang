@@ -1,0 +1,7 @@
+alreadyInMode.other = {username} is already in this game mode
+alreadyInMode.self = You are already in this game mode
+gamemode.desc = The game mode to set (adventure, creative, or their abbreviations: a, c)
+success.other = {username}'s game mode has been set to {mode}
+success.self = Your game mode has been set to {mode}
+desc = Change player game mode
+other.desc = Change another player's game mode

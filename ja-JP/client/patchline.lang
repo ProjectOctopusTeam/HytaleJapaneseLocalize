@@ -1,0 +1,10 @@
+launchNotification.title = Pre-release Patchline
+launchNotification.text = You are running a pre-release patchline of Hytale.\n\n\
+    This version may contain experimental features and bugs.\n\n\
+    Your feedback helps us improve the game!
+worldWarning.title = Patchline Warning
+worldWarning.text = You are about to open a world using a different patchline.\n\n\
+    Opening this world may introduce changes that could affect your save.\n\n\
+    We recommend creating a backup copy before continuing.
+worldWarning.openAnyway = Open Anyway
+worldWarning.duplicateWorld = Duplicate World

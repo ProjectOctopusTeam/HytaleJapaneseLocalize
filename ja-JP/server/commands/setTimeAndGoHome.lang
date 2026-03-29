@@ -1,0 +1,4 @@
+desc = Sets the time of day and teleports the user.
+timeOfDay.desc = The time of day to set the world to.
+world.desc = The world to tp to.
+world.default.desc = The default world

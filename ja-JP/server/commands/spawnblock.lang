@@ -1,0 +1,5 @@
+success = Spawned BlockEntity with id: {id}
+desc = Spawn a block entity
+arg.block.desc = The block type to spawn
+arg.position.desc = The position to spawn the block
+arg.rotation.desc = The rotation of the block

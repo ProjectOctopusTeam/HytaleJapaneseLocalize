@@ -1,0 +1,5 @@
+desc = Set all blocks in your selection to Empty, or all blocks within a specified area
+positionOne.desc = The first position of the cube that you want to clear
+positionTwo.desc = The second position of the cube that you want to clear
+noSelection = You have no selection
+success = Blocks cleared.

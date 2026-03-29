@@ -1,0 +1,16 @@
+desc = Extend the target face
+x.desc = The X coordinate
+y.desc = The Y coordinate
+z.desc = The Z coordinate
+normalX.desc = The normal X component
+normalY.desc = The normal Y component
+normalZ.desc = The normal Z component
+toolParam.desc = The tool parameter (extrude depth)
+shapeRange.desc = The shape range (radius allowed)
+blockType.desc = The block type key
+xMin.desc = The minimum X coordinate of the region
+yMin.desc = The minimum Y coordinate of the region
+zMin.desc = The minimum Z coordinate of the region
+xMax.desc = The maximum X coordinate of the region
+yMax.desc = The maximum Y coordinate of the region
+zMax.desc = The maximum Z coordinate of the region

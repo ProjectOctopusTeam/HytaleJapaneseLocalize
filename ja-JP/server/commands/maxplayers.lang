@@ -1,0 +1,6 @@
+get = Max players is set to {maxPlayers, number}
+getInfinite = Max players is set to infinite
+set = Max players has been set to {maxPlayers, number}
+setInfinite = Max players has been set to infinite
+amount.desc = The maximum number of players allowed on the server
+desc = Set the max player count

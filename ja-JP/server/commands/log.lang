@@ -1,0 +1,9 @@
+desc = Set various log levels
+logger.desc = The logger name (or "global" for the global logger)
+level.desc = The log level to set
+save.desc = Save the level to config
+reset.desc = Remove the logger from config
+setLogger = Set logger '{name}' to level {level}{saved}
+removedLogger = Removed logger '{name}' from config!
+setLoggerNoSave = Logger '{name}' is set to level {level}
+invalidLevel = '{input}' is not a valid log level! Using {level}.

@@ -1,0 +1,53 @@
+viewradius.desc = Commands for managing player view radius
+viewradius.get.desc = Get the player's current view radius
+viewradius.set.desc = Set the player's view radius
+viewradius.set.radius.desc = The view radius value (number or "default")
+viewradius.set.blocks.desc = Specify the radius in blocks instead of chunks
+viewradius.set.bypass.desc = Bypass the maximum view radius limit
+viewradius.info = View radius: {radius, plural,\
+    one {1 chunk}\
+    other {{radius, number} chunks}} (Client: {clientRadius, plural,\
+    one {1 chunk}\
+    other {{clientRadius, number} chunks}}) ({radiusBlocks, plural, one {1 block} other {{radiusBlocks, number} blocks}})
+viewradius.set.invalidNumber = Invalid number: {value}
+viewradius.set.noHigherThan = Cannot set view radius higher than {radius, plural,\
+    one {1 chunk}\
+    other {{radius, number} chunks}} without --bypass flag
+viewradius.set.success = View radius set to {radius, plural,\
+    one {1 chunk}\
+    other {{radius, number} chunks}} ({radiusBlocks, plural, one {1 block} other {{radiusBlocks, number} blocks}})
+desc = Commands related to players
+respawn.desc = Respawn yourself
+respawn.other.desc = Respawn another player
+respawn.success.self = Respawned
+respawn.success.other = Respawned {username}
+reset.desc = Resets the data of the player
+zone.desc = Displays the current zone and biome of the player
+zone.noData = No zone or biome data available for this world.
+zone.currentZone = Current Zone: {zone}
+zone.currentBiome = Current Biome: {biome}
+effect.desc = Apply or manage player effects
+effect.apply.desc = Apply an entity effect to the player
+effect.apply.other.desc = Apply an entity effect to another player
+effect.apply.effect.desc = The entity effect to apply
+effect.apply.duration.desc = The duration of the effect in seconds
+effect.apply.success.self = Applied {effect} for {duration, plural, one {1 second} other {{duration, number} seconds}}
+effect.apply.success.other = Applied {effect} to {username} for {duration, plural, one {1 second} other {{duration, number} seconds}}
+effect.clear.desc = Clears the entity effects from the player
+effect.clear.other.desc = Clear entity effects from another player
+effect.clear.success.self = Cleared all effects
+effect.clear.success.other = Cleared all effects from {username}
+stats.desc = Prefix for player stat operation commands
+stats.dump.desc = Dump stat values for a player to console and chat
+stats.set.desc = Set the value of a specified stat on a player to a specified value
+stats.set.statName.desc = The name of the stat to set
+stats.set.statValue.desc = The value to set the stat to
+stats.settomax.desc = Set a stat to its max value
+stats.settomax.statName.desc = The name of the stat to set to max
+stats.add.desc = Increment (or decrement if negative) the value of a specified stat on a player
+stats.add.statName.desc = The name of the stat to add to
+stats.add.statAmount.desc = The amount to add to the stat
+stats.reset.desc = Reset the value of a specified stat on a player to its initial value
+stats.reset.statName.desc = The name of the stat to reset
+stats.get.desc = Retrieve the value of a specified stat on a player
+stats.get.statName.desc = The name of the stat to get

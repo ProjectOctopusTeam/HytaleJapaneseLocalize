@@ -1,0 +1,11 @@
+desc = Draw a line of blocks between two points
+start.desc = Start position (x y z, supports ~ for relative)
+end.desc = End position (x y z, supports ~ for relative)
+material.desc = Block material pattern (e.g. Rock_Stone or Rock_Stone,Soil_Grass)
+width.desc = Line width (default: 1)
+height.desc = Line height (default: 1)
+wallThickness.desc = Wall thickness for hollow lines (0 = solid)
+shape.desc = Line shape (Cube, Sphere, Cylinder, Cone, etc.)
+origin.desc = Shape origin point (Center, Bottom, Top)
+spacing.desc = Block interval along the line (default: 1)
+density.desc = Random chance (1-100) that each block is placed (default: 100)

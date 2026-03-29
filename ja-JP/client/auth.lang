@@ -1,0 +1,2 @@
+sessionExpired.title = Session Expired
+sessionExpired.message = Your session could not be refreshed. You have been switched to offline mode.\n\nYou can continue playing, but you won't be able to join servers or start new worlds until you restart the game.

@@ -1,0 +1,4 @@
+success = EntityStat "{name}" set to {value}!
+entityStatNotFound = EntityStat "{name}" not found!
+valueReset = "{name}" reset: {value, number}
+value = {name}: {value, number}

@@ -1,0 +1,5 @@
+desc = Move your selection and its contents by the specified amount in the direction you're looking, or in a specified direction
+distance.desc = The distance to move the selection
+direction.desc = The direction to move the selection
+empty.desc = Move only empty blocks
+entities.desc = Include entities in the move

@@ -1,0 +1,10 @@
+insufficientInvSpace = Unable to give {quantity, number} of {item}; insufficient inventory space.
+gave = You gave {targetUsername} {quantity, number} of {item}
+received = Received {quantity, number} of {item}
+item.desc = The item to give
+quantity.desc = The quantity of items to give
+metadata.desc = Item metadata as a JSON string
+durability.desc = Item durability
+invalidMetadata = Invalid metadata format: {error}
+desc = Gives an item to a player
+other.desc = Give an item to another player

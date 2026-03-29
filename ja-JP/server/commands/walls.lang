@@ -1,0 +1,6 @@
+desc = Sets the material on the walls of your selection with the specified thickness
+blockType.desc = The type of block to set the walls to
+thickness.desc = The thickness of the wall
+floor.desc = Includes the bottom of the selection in the operation
+roof.desc = Includes the top of the selection in the operation
+perimeter.desc = Includes the top and bottom of the selection in the operation

@@ -1,0 +1,17 @@
+desc = Commands for managing operator permissions
+self.nonVanillaPermissions = The permissions system on this server is handled by a third-party plugin and this command is unsupported.
+self.singleplayerOwnerReq = Cannot use this command. This is a singleplayer server and you aren't the owner.
+self.multiplayerTip = As this is a standalone server, OP yourself (/{uuidCommand}) in the '{permissionFile}' file while the server is off, or temporarily use the '{launchArg}' program launch argument.
+self.added = You're now OP!
+self.removed = No longer OP.
+self.desc = Adds you to the OP permission group
+add.desc = Adds a player to the operator permission group
+add.player.desc = The UUID or online player username to add to the operator group
+remove.desc = Removes a player from the operator permission group
+remove.player.desc = The UUID or online player username to remove from the operator group
+added = {username} is now an operator!
+added.target = You have been made an operator.
+removed = {username} is no longer an operator.
+removed.target = You have been removed as operator.
+already = {username} is already an operator.
+notOp = {username} is not an operator.

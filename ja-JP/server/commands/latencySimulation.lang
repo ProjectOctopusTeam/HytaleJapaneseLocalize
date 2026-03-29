@@ -1,0 +1,6 @@
+desc = Commands for latency simulation settings
+set.desc = Set latency simulation for a player's connection
+set.delay.desc = The delay in milliseconds to simulate
+set.success = Set latency simulation to {millis}ms
+reset.desc = Reset (remove) latency simulation for a player's connection
+reset.success = Latency simulation has been reset

@@ -1,0 +1,8 @@
+desc = Manage weather in worlds
+set.desc = Set the forced weather in a world
+set.weather.desc = The weather to force
+set.forcedWeatherSet = Forced weather in {worldName} to {weather}
+get.desc = Get the current forced weather in a world
+get.getForcedWeather = Weather in {worldName} is currently {weather}
+reset.desc = Reset the forced weather in a world to default
+reset.forcedWeatherReset = Reset forced weather in {worldName}

@@ -1,0 +1,14 @@
+desc = Memories commands
+clear.desc = Clear all memories
+clear.success = Memories cleared
+capacity.desc = Set capacity of memories
+capacity.capacity.desc = The memory capacity to set
+capacity.success = Memory capacity set to {capacity, number}
+level.desc = Get the memories level
+level.success = Current Memory level is {level}
+unlockAll.desc = Unlock all memories
+unlockAll.success = All Memories unlocked
+setCount.desc = Set the number of recorded memories for testing
+setCount.count.desc = The number of memories to record
+setCount.success = Set recorded memories to {actual, number} (requested: {requested, number})
+setCount.invalid = Invalid count. Must be 0 or greater.

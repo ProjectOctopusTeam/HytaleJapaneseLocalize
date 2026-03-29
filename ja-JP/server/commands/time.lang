@@ -1,0 +1,16 @@
+set.desc = Set the world time
+get.desc = Get the world time
+info = Time in world '{worldName}' is currently {timePaused} at {time} on {dayOfWeek} day of week, on {weekOfMonth} week of month, on {weekOfYear} week of year, on {dayOfYear} day of year, with {moonPhase} moon phase
+set = Set time in world '{worldName}' to {time}
+paused = paused
+unpaused = unpaused
+period.day.desc = Set the world time to day
+period.night.desc = Set the world time to night
+period.midday.desc = Set the world time to midday
+period.midnight.desc = Set the world time to midnight
+period.dawn.desc = Sets the world time to dawn.
+period.dusk.desc = Sets the world time to dusk.
+set.timeArg.desc = The hour of the day (between 0 and 24) to set the time to
+dilation.desc = Change the time dilation scaling of the server, also modifies any online clients with the updated value
+dilation.timeDilation.desc = The time dilation value (must be >0.01 and <=4)
+dilation.set.success = Time dilation set: {timeDilation, number}

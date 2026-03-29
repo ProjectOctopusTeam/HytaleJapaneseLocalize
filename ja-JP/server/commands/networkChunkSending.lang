@@ -1,0 +1,4 @@
+noComponent = Player missing ChunkTracker component
+set = Set chunk network sending for {username}: {enabled}
+sendNetworkChunks.desc = Whether chunks should be sent over the network to yourself.
+desc = Stops sending chunks over the network.

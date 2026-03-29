@@ -1,0 +1,13 @@
+cannotUseCommandDuringExec = You cannot use this command while the config is executing. Use '/sb exit' to stop execution.
+cleared = Scripted brush cleared.
+debug.notStarted = You must begin execution before debug stepping.
+debug.finished = Finished executing all operations.
+debug.executed = Executed operations
+list.sequentialOperation = {index, number}: {name}
+list.globalOperation = {name}:
+list.sequentialOperation.header = Sequential Brush Operations
+list.globalOperation.header = Global Brush Operations
+list.setting = \t{name} => {value}
+loaded = Loaded scripted brush: {name}
+load.error.notFound = Scripted brush not found: {name}
+load.error.loadFailed = Failed to load scripted brush '{name}': {error}

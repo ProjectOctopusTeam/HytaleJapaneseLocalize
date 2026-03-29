@@ -1,0 +1,17 @@
+loaded = # = Hot, & = Cold, % = Loading, X = Needs Unload, ' ' = Not loaded\n\
+    {grid}\n\
+    View Radius: {viewRadius, number}\n\
+    Sent View Radius: {sentViewRadius, number}\n\
+    Hot Radius: {hotRadius, number}\n\
+    Ready For Chunks: {readyForChunks}\n\
+    Loaded: {loaded, number}\n\
+    Loading: {loading, number}
+summary = Chunks:\n\
+    \tMax chunks per second: {maxChunksPerSecond, number}\n\
+    \tMax chunks per tick: {maxChunksPerTick, number}\n\
+    \tChunk loaded radius:\n\
+    \t\tMin: {minChunkLoadedRadius, number}\n\
+    \t\tMax hot loaded: {maxHotChunkLoadedRadius, number}\n\
+    \tLoaded chunks (player): {loadedPlayerChunks, number}\n\
+    \tLoading chunks (player): {loadingPlayerChunks, number}\n\
+    Loaded chunks (world): {loadedWorldChunks, number}

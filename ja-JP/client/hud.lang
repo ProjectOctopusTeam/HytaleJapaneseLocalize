@@ -1,0 +1,43 @@
+playerList.onlinePlayers = Online Players
+playerList.username = Username
+playerList.ping = Ping
+itemSlotSelector.noItem = No Item
+itemSlotSelector.empty = Empty
+itemSlotSelector.invalidItem = Invalid Item
+entityEffects.defaultBuffName = Buff
+entityEffects.defaultDebuffName = Debuff
+portalPanel.title = {name}
+portalPanel.portalLabel = Fragment of Orbis
+portalPanel.timeUntilBreach = Time until void breach
+portalPanel.timeUntilClose = Time until portal closes
+inputBindings.inventory = Inventory
+inputBindings.creationTools = Creative Tools
+inputBindings.map = Map
+inputBindings.rotateBlock = Rotate
+inputBindings.selectBlockVariant = Block Variant
+networkQuality.ping.good = Low Latency (<50ms)
+networkQuality.ping.okay = Moderate Latency (50-100ms) - you may notice minor lag.
+networkQuality.ping.poor = High Latency (100-200ms) - you may experience lag.
+networkQuality.ping.bad = Very High Latency  (>=200ms) - gameplay may be slow or unresponsive.
+networkQuality.jitter.good = Low Jitter (<5ms)
+networkQuality.jitter.okay = Moderate Jitter (5-15ms) - you may notice minor stutter.
+networkQuality.jitter.poor = High Jitter (15-30ms) - gameplay may feel uneven.
+networkQuality.jitter.bad = Very High Jitter  (>=30ms) - frequent lag spikes or rubberbanding may occur.
+networkQuality.packetLoss.good = Low Packet Loss (<0.1%)
+networkQuality.packetLoss.okay = Moderate Packet Loss (0.1-1%) - you may notice occasional delays or missing actions.
+networkQuality.packetLoss.poor = High Packet Loss (1-3%) - some actions or updates may not register.
+networkQuality.packetLoss.bad = Very High Packet Loss (>=3%) - severe desync or disconnections may occur.
+networkQuality.worldSaving = Saving world
+networkQuality.offlineMode = Offline Mode - Your session expired. Restart the game to go back online.
+sleep.awaiting = {asleep}/{total} players asleep...
+sleep.waitingOn = Waiting on {who}
+creative.speedMultiplier = Speed Multiplier: {value}
+creative.collisionDisabled = Collision Disabled
+creative.collisionEnabled = Collision Enabled
+debug.wireframeEnabled = Wireframe: OnAll
+debug.wireframeDisabled = Wireframe: Off
+debug.shadersReloaded = Shaders have been reloaded.
+debug.shaderTexturesReloaded = Shader textures have been reloaded.
+debug.mapTransparency = Debug Map Transparency: {current} / {max}
+debug.textureArrayLayer = Debug Texture Array Layer: {current} / {max}
+debug.drawMapLevel = Draw Map Level: {current} / {max}

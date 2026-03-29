@@ -1,0 +1,4 @@
+success.new = Successfully created world where you can create a new prefab
+success.load = Successfully loaded prefabs into new world
+existingEditSession = You are already in an edit session, please exit your current one if you want to start a new one
+alreadyBeingEdited = The prefab you are trying to edit is already being edited by someone else: {path}

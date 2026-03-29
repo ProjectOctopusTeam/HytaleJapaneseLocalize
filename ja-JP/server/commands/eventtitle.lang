@@ -1,0 +1,6 @@
+desc = Show an event title to all players on the server (for testing purposes)
+major.desc = Show as a major event title
+secondary.desc = The secondary title text
+secondary.defaultDesc = Event
+title.desc = The primary title text
+titleRequired = A title must be provided

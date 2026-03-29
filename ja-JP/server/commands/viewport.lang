@@ -1,0 +1,5 @@
+desc = Establishes a worldgen viewport on the selected region.
+delete.desc = Deletes the existing Viewport instance.
+radius.desc = Creates a viewport with the given radius in chunks around the player.
+removed = Viewport was removed and will no longer refresh.
+created = Viewport created for the selected region.

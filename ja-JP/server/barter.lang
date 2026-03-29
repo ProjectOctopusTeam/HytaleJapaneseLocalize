@@ -1,0 +1,10 @@
+klops_merchant.title = Klops Merchant
+kweebec_merchant.title = Rootling Merchant
+customUI.barterPage.restocksToday = Restocks today at {restockTime, time}
+customUI.barterPage.restocksTomorrow = Restocks tomorrow at {restockTime, time}
+customUI.barterPage.restocksInDays = Restocks in {days} {days, plural, one {day} other {days}}
+customUI.barterPage.noStock = OUT OF STOCK
+customUI.barterPage.inStock = Stock: {count}
+customUI.barterPage.quantityStock = Have: {count}
+customUI.barterPage.invalidItem = Invalid Item
+customUI.barterPage.cost = Cost:

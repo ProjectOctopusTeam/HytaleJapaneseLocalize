@@ -1,0 +1,3 @@
+desc = Shift selection
+distance.desc = The distance to shift the selection
+axis.desc = The axis to shift along

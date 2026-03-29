@@ -1,0 +1,2 @@
+desc = Flip the blocks in your clipboard
+direction.desc = The direction to flip (x, y, or z axis)

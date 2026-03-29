@@ -1,0 +1,52 @@
+pageTitle = Creative Tools
+introText = This is the hub from which you can access various tools and editors that can aid in the creation of content in Hytale.\n\
+\n\
+Simply choose one of the tools from the menu above to get started.
+notification.noBlockTargeted = You need to target a block to open it in the Asset Editor.
+modal.blockbench.installRequired.title = Blockbench Installation Required
+modal.blockbench.installRequired.text = We are using Blockbench for 3D model editing. It seems like you don't have Blockbench installed.\n\nIt is only possible to launch Blockbench from Hytale if you installed Blockbench using the installer. \n\nWould you like to install it now from their website?
+modal.blockbench.installRequired.confirm = Install Blockbench
+modal.blockbench.pluginRequired.title = Hytale Plugin Required
+modal.blockbench.pluginRequired.text = It seems like you have Blockbench installed, but the Hytale plugin is missing.\n\nPlease install the Hytale plugin. You can find the instructions for doing so on the Blockbench website.
+modal.blockbench.pluginRequired.confirm = Show Install Instructions
+modal.blockbench.launchFailed.title = Failed to Launch Blockbench
+modal.blockbench.launchFailed.text = Blockbench was found on your system, but we were unable to launch it.\n\nPlease try launching Blockbench manually.
+navigation.assets = Assets
+navigation.assetEditor = Asset Editor
+navigation.assetEditor.tooltipTitle = Launch Asset Editor App
+navigation.assetEditor.tooltipDesc = This launches an external program that allows you to live-edit game config assets. You can launch this quickly with the hotkey ALT+B or open it to a specific hovered item/block with SHIFT+H.
+navigation.blockbench = Model Editor
+navigation.blockbench.tooltipTitle = Launch Blockbench App (Model Editor)
+navigation.blockbench.tooltipDesc = Create your own models and animations for Hytale.
+navigation.nodeeditor = Asset Node Editor
+navigation.nodeeditor.tooltipTitle = Launch Asset Node Editor App
+navigation.nodeeditor.tooltipDesc = Edit assets using a visual scripting node editor.
+navigation.machinima = Machinima
+navigation.machinima.tooltipTitle = Open Machinima Editor
+navigation.machinima.tooltipDesc = Create your own movies inside Hytale using the Machinima editor.
+navigation.buildertools = Builder Tools
+navigation.buildertools.tooltipTitle = Open Builder Tools
+navigation.buildertools.tooltipDesc = Block Editing Tools (Selection, Brush, Sculpt, Etc.)\n\
+\n\
+Modify the blocks in your world with the block editing tools found in the tools tabs of the creative inventory.
+modal.nodeeditor.nonsupported.title = Unsupported platform
+modal.nodeeditor.nonsupported.text = The node editor is currently not supported on your platform.\n\nAt this time we only support Windows and are working on bringing this feature to all PC platforms.
+navigation.worldtools = World
+navigation.worldtools.prefabEditor = Prefab Editor
+navigation.worldtools.prefabEditor.tooltipTitle = Create or edit prefabs in a separate space.
+navigation.worldtools.prefabList = Prefab List
+navigation.worldtools.prefabList.tooltipTitle = List all user created prefabs; click one to load it into the Paste Tool.
+navigation.worldtools.spawnEntity = Spawn Entity
+navigation.worldtools.spawnParticle = Spawn Particle
+navigation.worldtools.changeModel = Change Player Model
+navigation.worldtools.tintChunk = Tint Chunk
+navigation.worldtools.instances = Instances
+navigation.worldtools.playSound = Play Sound
+navigation.worldtools.playSound.tooltipTitle = Browse and play sound events.
+navigation.worldtools.importObj = Import OBJ
+navigation.worldtools.importObj.tooltipTitle = Convert 3D OBJ models to voxels and copy to clipboard.
+navigation.worldtools.importImage = Import Image
+navigation.help = Help
+navigation.help.commands = Commands
+navigation.help.clientLogs = Client Logs
+navigation.help.serverLogs = Server Logs

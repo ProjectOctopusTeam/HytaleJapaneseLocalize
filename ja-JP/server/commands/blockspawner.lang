@@ -1,0 +1,9 @@
+blockSpawnerSet = Set BlockSpawner to {id}!
+currentBlockSpawner = The BlockSpawner for this block is {id}
+noBlockSpawnerSet = No BlockSpawner set for this block
+desc = Commands for working with block spawners
+set.desc = Sets a BlockSpawner id for a BlockSpawner block you look at
+set.blockSpawnerId.desc = The BlockSpawner table ID to set
+arg.ignoreChecks = Prevent the command from validating the input
+get.desc = Gets the BlockSpawner id for a BlockSpawner block you look at
+position.desc = The position of the block spawner (or raycast from player if not specified)

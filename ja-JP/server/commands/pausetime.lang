@@ -1,0 +1,2 @@
+timeInfo = Time cycle {msg} in {worldName} at {time}
+desc = Toggle the passing of time.
