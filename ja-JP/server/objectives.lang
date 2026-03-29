@@ -1,44 +1,44 @@
-Zone1_Forgotten_Temple.title = Temple Entrance
-Zone1_Forgotten_Temple.taskSet.0.task.0 = Kill the Golem!
-Objective_Gameplay_Trailer.title = Hytale Objective
-Objective_Gameplay_Trailer.desc = Find and Destroy the Skeletons
-Objective_Gameplay_Trailer.taskSet.0.task.0 = Find and Destroy the Skeletons
-Objective_Kill.title = Kill objective
-Objective_Kill.desc = Test to check it works
-Objective_Kill.taskSet.0.task.0 = Kill Trork Warrior
-Objective_Craft.title = Craft objective
-Objective_Craft.desc = Test to check it works
-Objective_Craft.taskSet.0.task.0 = Craft a <item is="Furniture_Crude_Bed"/>
-Objective_Gather.title = Gather objective
-Objective_Gather.desc = Test to check it works
-Objective_Gather.taskSet.0.task.0 = Gather <item is="Soil_Dirt"/>
-Objective_UseBlock.title = UseBlock objective
-Objective_UseBlock.desc = Test to check it works
-Objective_UseBlock.taskSet.0.task.0 = Set your bed with at least 2 <item is="Soil_Dirt"/> in your inventory
-Objective_UseEntity.title = UseEntity objective
-Objective_UseEntity.desc = Test to check it works
-Objective_UseEntity.taskSet.0.task.0 = Say hi to Test_Interaction_Complete_Task
-Objective_TreasureMap.title = TreasureMap objective
-Objective_TreasureMap.desc = Find and open the hidden chest
-Objective_TreasureMap.taskSet.0.task.0 = Find and open the hidden chest
-Objective_Tutorial.title = Tutorial
-Objective_Tutorial.desc = The tutorial objective
-Objective_Tutorial.taskSet.0.task.0 = Gather some <item is="Ingredient_Stick"/>
-Objective_Tutorial.taskSet.0.task.1 = Gather some rubbles
-Objective_Tutorial.taskSet.0.task.2 = Gather some <item is="Ingredient_Fibre"/>
-Objective_Tutorial.taskSet.0.task.3 = Craft a Hatchet
-Objective_Tutorial.taskSet.1.task.0 = Collect materials and craft a Stone Pickaxe
-Objective_Tutorial.taskSet.2.task.0 = Make a campfire to cook some berries or mushrooms
-Objective_Tutorial.taskSet.3.task.0 = Craft a bedroll and use it to set your home
-Objective_Tutorial.taskSet.4.task.0 = Collect materials and craft a Workbench
-bounty.marker = Bounty Target
-treasure.marker = Chest
-itemObjectiveCompletion = Earned: {item}
-Objective_Bounty.title = Bounty objective
-Objective_Bounty.taskSet.0.task.0 = Kill the nearby Trork.
-Objective_KillSpawnBeacon.title = KillSpawnBeacon objective
-Objective_KillSpawnBeacon.taskSet.0.task.0 = Kill the nearby Trorks.
-Objective_KillSpawnMarker.title = KillSpawnMarker objective
-Objective_KillSpawnMarker.taskSet.0.task.0 = Kill the nearby Trorks.
-Objective_ReachLocation.title = ReachLocation objective
-Objective_ReachLocation.taskSet.0.task.0 = Reach the target location.
+Zone1_Forgotten_Temple.title = 神殿の入口
+Zone1_Forgotten_Temple.taskSet.0.task.0 = ゴーレムを倒せ！
+Objective_Gameplay_Trailer.title = ハイテールの目標
+Objective_Gameplay_Trailer.desc = スケルトンを見つけて倒せ
+Objective_Gameplay_Trailer.taskSet.0.task.0 = スケルトンを見つけて倒せ
+Objective_Kill.title = 討伐目標
+Objective_Kill.desc = 動作確認用テスト
+Objective_Kill.taskSet.0.task.0 = トロルクウォリアーを倒せ
+Objective_Craft.title = クラフト目標
+Objective_Craft.desc = 動作確認用テスト
+Objective_Craft.taskSet.0.task.0 = <item is="Furniture_Crude_Bed"/> をクラフトしろ
+Objective_Gather.title = 採集目標
+Objective_Gather.desc = 動作確認用テスト
+Objective_Gather.taskSet.0.task.0 = <item is="Soil_Dirt"/> を採集しろ
+Objective_UseBlock.title = ブロック使用目標
+Objective_UseBlock.desc = 動作確認用テスト
+Objective_UseBlock.taskSet.0.task.0 = インベントリに <item is="Soil_Dirt"/> を 2 個以上持った状態でベッドをセットしろ
+Objective_UseEntity.title = エンティティ使用目標
+Objective_UseEntity.desc = 動作確認用テスト
+Objective_UseEntity.taskSet.0.task.0 = Test_Interaction_Complete_Task に挨拶しろ
+Objective_TreasureMap.title = 宝の地図目標
+Objective_TreasureMap.desc = 隠された宝箱を見つけて開けろ
+Objective_TreasureMap.taskSet.0.task.0 = 隠された宝箱を見つけて開けろ
+Objective_Tutorial.title = チュートリアル
+Objective_Tutorial.desc = チュートリアル目標
+Objective_Tutorial.taskSet.0.task.0 = <item is="Ingredient_Stick"/> を集めろ
+Objective_Tutorial.taskSet.0.task.1 = 瓦礫を集めろ
+Objective_Tutorial.taskSet.0.task.2 = <item is="Ingredient_Fibre"/> を集めろ
+Objective_Tutorial.taskSet.0.task.3 = ハチェットをクラフトしろ
+Objective_Tutorial.taskSet.1.task.0 = 素材を集めて石のツルハシをクラフトしろ
+Objective_Tutorial.taskSet.2.task.0 = 焚き火を作ってベリーやキノコを調理しろ
+Objective_Tutorial.taskSet.3.task.0 = 寝袋をクラフトしてホームを設定しろ
+Objective_Tutorial.taskSet.4.task.0 = 素材を集めて作業台をクラフトしろ
+bounty.marker = 賞金首ターゲット
+treasure.marker = 宝箱
+itemObjectiveCompletion = 獲得: {item}
+Objective_Bounty.title = 賞金首目標
+Objective_Bounty.taskSet.0.task.0 = 近くのトロルクを倒せ。
+Objective_KillSpawnBeacon.title = スポーンビーコン討伐目標
+Objective_KillSpawnBeacon.taskSet.0.task.0 = 近くのトロルクたちを倒せ。
+Objective_KillSpawnMarker.title = スポーンマーカー討伐目標
+Objective_KillSpawnMarker.taskSet.0.task.0 = 近くのトロルクたちを倒せ。
+Objective_ReachLocation.title = 場所到達目標
+Objective_ReachLocation.taskSet.0.task.0 = 目標の場所に到達しろ。

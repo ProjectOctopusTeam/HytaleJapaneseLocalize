@@ -1,2 +1,2 @@
-spawn.notSet = World '{worldName}' doesn't have a spawn point set!
-notFound = Couldn't find world '{worldName}'!
+spawn.notSet = ワールド「{worldName}」にはスポーン地点が設定されていません！
+notFound = ワールド「{worldName}」が見つかりませんでした！

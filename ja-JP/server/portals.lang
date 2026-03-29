@@ -1,55 +1,55 @@
-desert = Howling Sands
-hederas_lair = The Dread Wade
-henges = Silent Henges
-oasis = Windrider Valley
-jungles = Tal'Kesi Refuge
-boreal = Dragonspire Weald
-discoverySubtitle = Fragment of Orbis
-incomplete.description = <b>The energies within this Fragment have yet to take their final form. All you encounter within - lore, function, and form - awaits its true shape.</b>
-hederas_lair.description = Few have experienced the terrors that lurk in Orbis' murkier depths. Fewer still have returned unchanged.\n\
+desert = 轟く砂漠
+hederas_lair = ドレッドの浅瀬
+henges = 静寂のヘンジ
+oasis = ウィンドライダーの谷
+jungles = タル・ケシの避難所
+boreal = ドラゴンスパイアの森
+discoverySubtitle = オービスの欠片
+incomplete.description = <b>この欠片の中のエネルギーはまだ最終的な形を取っていない。内部で出会うすべて――伝承、機能、形――は真の姿を待ち望んでいる。</b>
+hederas_lair.description = オービスの暗い深淵に潜む恐怖を経験した者は少ない。無傷で戻ってきた者はさらに少ない。\n\
 \n\
 <msg key="server.portals.incomplete.description"/>
-boreal.description = There are frozen forests into which not even an Outlander dares set foot, no matter how the whispers beckon.\n\
+boreal.description = どんなにささやき声が誘っても、アウトランダーでさえ足を踏み入れない凍った森がある。\n\
 \n\
-Legends about the region's name pile up: Mountains obscuring the sky, towering trees grazing the clouds, or perhaps ancient creatures born of elemental ice slumbering among the peaks.\n\
-\n\
-<msg key="server.portals.incomplete.description"/>
-henges.description = At times, the line between truth and fiction blurs. Not every Fragment the Ancient Gateway shows you will hold the truths you seek.\n\
-\n\
-Yet, surely nothing exists without purpose. Perhaps that leads us to a different question: who built these Ancient Gateways, and why?\n\
+この地域の名にまつわる伝説は積み重なっている：空を覆う山々、雲に届く巨木、あるいは峰の間に眠る精霊の氷から生まれた古代の生き物か。\n\
 \n\
 <msg key="server.portals.incomplete.description"/>
-oasis.description = A Feran values freedom above all else, and nowhere is that freedom embodied more than in the winds of Windrider Valley.\n\
+henges.description = 時に、真実と虚構の境界は曖昧になる。古代のゲートウェイが見せる欠片のすべてが、求める真実を持つわけではない。\n\
 \n\
-It was here that they sought refuge in the darkest years of their history, setting up camps where the towering canyon walls might hide them from view.\n\
-\n\
-<msg key="server.portals.incomplete.description"/>
-jungles.description = Deep beneath the desolate wastelands left by an ancient civilization, a primordial haven thrives.\n\
+それでも、目的のないものは存在しない。それは別の問いへと導く：誰がこれらの古代のゲートウェイを建て、何のために？\n\
 \n\
 <msg key="server.portals.incomplete.description"/>
-taiga.tip1 = <color is="#05c09a">A mythical beast sleeps here, bound in an\n\
-eternal slumber.</color>
-hederas_lair.tip1 = <color is="#05c09a">A ravenous menace lurks at the heart the swamp.</color>
-hederas_lair.tip2 = <color is="#05c09a">The murky shallows are home to dangerous fauna.</color>
-windsurf_valley.tip1 = <color is="#05c09a">On occasion, a Mage Tower may be found here.</color>
-tags.orbis = [TMP] Orbis
-tabs.zone1 = [TMP] Zone 1
-tags.corrupted = [TMP] Corruption
-tags.poison = [TMP] Poison
-tags.frost = [TMP] Frost
-tags.lush = [TMP] Lush
-tags.desolate = [TMP] Desolate
-tags.glider = [TMP] Gliding
-device.blockTypeMisconfigured = The portal block's type at {x}, {y}, {z} is invalid, this is an asset misconfiguration
-device.blockStateMisconfigured = The portal block's state '{state}' doesn't exist, this is an asset misconfiguration
-device.blockEntityMisconfigured = The portal block requires a "Portal" block component, this is an asset misconfiguration
-device.internalErrorSpawning = There was an internal error spawning the portal
-device.worldNoSpawn = This portal is not quite ready, it's still channeling a return conduit!
-device.worldIsDead = The target world of this portal doesn't exist or disappeared
-device.refInvalid = Your entity reference is invalid! Are you in a world?
-device.blockEntityRefInvalid = The associated block entity reference is invalid!
-device.notInPortalWorld = You aren't in a portal world, so nothing happens!
-device.adjusted = The portal device was invalid and has been adjusted!
-attuningToWorld = The portal is still attuning to your new presence in this world...
-portalWorld.unnamed = Unnamed
-exit.marker = Fragment Exit
+oasis.description = フェランは何よりも自由を重んじ、その自由がもっとも体現されているのはウィンドライダーの谷の風の中だ。\n\
+\n\
+彼らが歴史の最も暗い時代に避難所を求めたのはここで、そびえる峡谷の壁が彼らを視界から隠す場所にキャンプを張った。\n\
+\n\
+<msg key="server.portals.incomplete.description"/>
+jungles.description = 古代文明が残した荒廃した不毛の地の深い底に、原始的な楽園が息づいている。\n\
+\n\
+<msg key="server.portals.incomplete.description"/>
+taiga.tip1 = <color is="#05c09a">神話の獣がここで眠っている、\n\
+永遠の眠りに縛られて。</color>
+hederas_lair.tip1 = <color is="#05c09a">貪欲な脅威が沼の中心に潜んでいる。</color>
+hederas_lair.tip2 = <color is="#05c09a">濁った浅瀬には危険な生き物が住んでいる。</color>
+windsurf_valley.tip1 = <color is="#05c09a">時折、魔法使いの塔がここで見つかることがある。</color>
+tags.orbis = [TMP] オービス
+tabs.zone1 = [TMP] ゾーン 1
+tags.corrupted = [TMP] 汚染
+tags.poison = [TMP] 毒
+tags.frost = [TMP] 霜
+tags.lush = [TMP] 豊かな
+tags.desolate = [TMP] 荒廃
+tags.glider = [TMP] グライダー
+device.blockTypeMisconfigured = {x}, {y}, {z} のポータルブロックのタイプが無効です。アセットの設定ミスです
+device.blockStateMisconfigured = ポータルブロックのステート '{state}' が存在しません。アセットの設定ミスです
+device.blockEntityMisconfigured = ポータルブロックには「Portal」ブロックコンポーネントが必要です。アセットの設定ミスです
+device.internalErrorSpawning = ポータルのスポーン中に内部エラーが発生しました
+device.worldNoSpawn = このポータルはまだ準備ができていません。帰還コンジットをチャネリング中です！
+device.worldIsDead = このポータルのターゲットワールドが存在しないか、消えてしまいました
+device.refInvalid = エンティティの参照が無効です！ワールド内にいますか？
+device.blockEntityRefInvalid = 関連するブロックエンティティの参照が無効です！
+device.notInPortalWorld = ポータルワールドにいないため、何も起こりません！
+device.adjusted = ポータルデバイスが無効だったため、調整されました！
+attuningToWorld = ポータルはまだこのワールドでのあなたの新たな存在に同調しています...
+portalWorld.unnamed = 名称未設定
+exit.marker = 欠片の出口

@@ -1,7 +1,7 @@
-markers.create.tooManyPersonal = You may only place up to {limit} personal markers!
-markers.create.tooManyShared = Each player may only place up to {limit} shared markers!
-markers.create.nameTooLong = That marker name is too long!
-markers.create.creationDisabled = Creating markers is disabled!
-markers.edit.tooFar = You may not edit a marker that far away from you!
-markers.edit.notOwner = You may not edit other players' markers!
-markers.edit.notFound = Couldn't find the map marker you're trying to edit!
+markers.create.tooManyPersonal = 個人マーカーは最大 {limit} 個までしか設置できません！
+markers.create.tooManyShared = プレイヤーごとに共有マーカーは最大 {limit} 個までしか設置できません！
+markers.create.nameTooLong = そのマーカー名は長すぎます！
+markers.create.creationDisabled = マーカーの作成は無効になっています！
+markers.edit.tooFar = 遠すぎてマーカーを編集できません！
+markers.edit.notOwner = 他のプレイヤーのマーカーは編集できません！
+markers.edit.notFound = 編集しようとしているマップマーカーが見つかりませんでした！
