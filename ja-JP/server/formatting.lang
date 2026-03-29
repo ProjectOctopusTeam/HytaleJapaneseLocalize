@@ -1,5 +1,5 @@
 list.header = "{header} ({count, number}): "
 list.row = - {value}
 list.itemSeparator = ", "
-list.empty = "(empty)"
+list.empty = "(空)"
 list.inlineHeaderSuffix = ": "
