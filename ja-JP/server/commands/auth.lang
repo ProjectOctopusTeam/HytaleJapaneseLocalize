@@ -1,68 +1,68 @@
-desc = サーバー認証を管理します
-status.desc = 現在の認証ステータスを表示します
-status.format = === サーバー認証ステータス ===\n\
-    接続認証: {connectionMode}\n\
-    トークンソース: {tokenMode}\n\
-    プロフィール: {profile}\n\
-    セッショントークン: {sessionToken}\n\
-    アイデンティティトークン: {identityToken}\n\
-    有効期限: {expiry}\n\
-    証明書: {certificate}
-status.remaining = 残り {hours}:{minutes}:{seconds}
-status.expired = 期限切れ
-status.certificate.unknown = 不明
-status.certificate.notLoaded = 未読み込み
-status.connectionMode.authenticated = 認証済み (mTLS + JWT)
-status.connectionMode.offline = オフライン
-status.connectionMode.insecure = 非セキュア (開発用)
-status.mode.none = 未認証
-status.mode.singleplayer = シングルプレイヤー
-status.mode.external = 外部セッション
-status.mode.oauthBrowser = OAuth ブラウザ
-status.mode.oauthDevice = OAuth デバイス
-status.mode.oauthStore = OAuth ストア
-status.tokenPresent = あり
-status.tokenMissing = なし
-status.help = 認証するには '/auth login browser' または '/auth login device' を使用してください。
-status.pending = プロフィールの選択待ちです。'/auth select <番号>' を使用して選択してください:
-login.desc = サーバーを認証します
-login.singleplayer = シングルプレイヤーモードではログインを利用できません。トークンはクライアントから提供されます。
-login.alreadyAuthenticated = サーバーは既に認証されています。先に '/auth logout' を使用してください。
-login.browser.desc = OAuth2 ブラウザフローを開始します (ローカルサーバー用)
-login.browser.starting = OAuth2 ブラウザフローを開始しています。URLについてはブラウザまたはコンソールを確認してください。
-login.browser.success = 認証に成功しました！詳細を表示するには '/auth status' を使用してください。
-login.browser.failed = ブラウザ認証に失敗しました。サーバーログを確認してください。
-login.device.desc = OAuth2 デバイスフローを開始します (ヘッドレス/リモートサーバー用)
-login.device.starting = OAuth2 デバイスフローを開始しています。確認用URLについてはコンソールを確認してください。
-login.device.success = 認証に成功しました！詳細を表示するには '/auth status' を使用してください。
-login.device.failed = デバイス認証に失敗しました。サーバーログを確認してください。
-login.pending = 複数のプロフィールが利用可能です。'/auth select <番号>' を使用して選択してください:
-logout.desc = サーバーの認証情報を消去します
-logout.singleplayer = シングルプレイヤーモードではログアウトを利用できません。
-logout.notAuthenticated = サーバーは現在認証されていません。
-logout.success = サーバーからログアウトしました。以前のモード: {previousMode}
-select.desc = 複数が利用可能な場合にゲームプロフィールを選択します
-select.noPending = プロフィールの選択待ちがありません。先に '/auth login' を実行してください。
-select.success = プロフィールを選択しました！詳細を表示するには '/auth status' を使用してください。
-select.failed = 選択したプロフィールでの認証完了に失敗しました。
-select.availableProfiles = 利用可能なプロフィール:
-select.usage = '/auth select <番号>' または '/auth select <ユーザー名>' を使用してください
+desc = Manage server authentication
+status.desc = Show current authentication status
+status.format = === Server Authentication Status ===\n\
+    Connection Auth: {connectionMode}\n\
+    Token Source: {tokenMode}\n\
+    Profile: {profile}\n\
+    Session Token: {sessionToken}\n\
+    Identity Token: {identityToken}\n\
+    Expiry: {expiry}\n\
+    Certificate: {certificate}
+status.remaining = {hours}:{minutes}:{seconds} remaining
+status.expired = EXPIRED
+status.certificate.unknown = Unknown
+status.certificate.notLoaded = Not loaded
+status.connectionMode.authenticated = Authenticated (mTLS + JWT)
+status.connectionMode.offline = Offline
+status.connectionMode.insecure = Insecure (dev)
+status.mode.none = Not authenticated
+status.mode.singleplayer = Singleplayer
+status.mode.external = External Session
+status.mode.oauthBrowser = OAuth Browser
+status.mode.oauthDevice = OAuth Device
+status.mode.oauthStore = OAuth Store
+status.tokenPresent = Present
+status.tokenMissing = Missing
+status.help = Use '/auth login browser' or '/auth login device' to authenticate.
+status.pending = Profile selection pending. Use '/auth select <number>' to choose:
+login.desc = Authenticate the server
+login.singleplayer = Login not available in singleplayer mode. Tokens are provided by the client.
+login.alreadyAuthenticated = Server is already authenticated. Use '/auth logout' first.
+login.browser.desc = Start OAuth2 browser flow (for local servers)
+login.browser.starting = Starting OAuth2 browser flow. Check browser or console for URL.
+login.browser.success = Authentication successful! Use '/auth status' to view details.
+login.browser.failed = Browser authentication failed. Check server logs.
+login.device.desc = Start OAuth2 device flow (for headless/remote servers)
+login.device.starting = Starting OAuth2 device flow. Check console for verification URL.
+login.device.success = Authentication successful! Use '/auth status' to view details.
+login.device.failed = Device authentication failed. Check server logs.
+login.pending = Multiple profiles available. Use '/auth select <number>' to choose:
+logout.desc = Clear server credentials
+logout.singleplayer = Logout not available in singleplayer mode.
+logout.notAuthenticated = Server is not currently authenticated.
+logout.success = Server logged out. Previous mode: {previousMode}
+select.desc = Select a game profile when multiple are available
+select.noPending = No profile selection pending. Run '/auth login' first.
+select.success = Profile selected! Use '/auth status' to view details.
+select.failed = Failed to complete authentication with selected profile.
+select.availableProfiles = Available profiles:
+select.usage = Use '/auth select <number>' or '/auth select <username>'
 select.profileItem = [{index, number}] {username} ({uuid})
-select.profile.desc = 選択するプロフィール番号またはユーザー名
-select.variant.desc = 番号またはユーザー名でプロフィールを選択します
-cancel.desc = アクティブなログインフローをキャンセルします
-cancel.singleplayer = シングルプレイヤーモードでは適用されません。
-cancel.success = アクティブなログインフローをキャンセルしました。
-cancel.nothing = キャンセルするアクティブなログインフローがありません。
-persistence.desc = 認証情報の保存方法を表示または変更します
-persistence.singleplayer = シングルプレイヤーモードでは適用されません。
-persistence.current = 認証情報の保存先: {type}
-persistence.changed = 認証情報の保存先を {type} に変更しました
-persistence.unknownType = 未知の保存タイプ: {type}
-persistence.available = 利用可能なタイプ: {types}
-persistence.type.desc = 保存タイプ (例: Memory, File)
-persistence.variant.desc = 認証情報の保存方法を変更します
-login.persistence.memory = 警告: 認証情報はメモリ内にのみ保存されています - 再起動時に失われます！\n\
-    認証情報を永続化するには、/auth persistence <タイプ> を実行してください。\n\
-    利用可能なタイプ: {types}
-login.persistence.saved = 認証情報は {type} を使用して保存されました
+select.profile.desc = Profile number or username to select
+select.variant.desc = Select a profile by number or username
+cancel.desc = Cancel active login flow
+cancel.singleplayer = Not applicable in singleplayer mode.
+cancel.success = Active login flow cancelled.
+cancel.nothing = No active login flow to cancel.
+persistence.desc = View or change credential storage method
+persistence.singleplayer = Not applicable in singleplayer mode.
+persistence.current = Credential storage: {type}
+persistence.changed = Credential storage changed to: {type}
+persistence.unknownType = Unknown storage type: {type}
+persistence.available = Available types: {types}
+persistence.type.desc = Storage type (e.g. Memory, File)
+persistence.variant.desc = Change credential storage method
+login.persistence.memory = WARNING: Credentials stored in memory only - they will be lost on restart!\n\
+    To persist credentials, run: /auth persistence <type>\n\
+    Available types: {types}
+login.persistence.saved = Credentials saved using: {type}

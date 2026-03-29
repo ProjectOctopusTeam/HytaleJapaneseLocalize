@@ -1,2 +1,2 @@
-desc = プレイヤーを BAN します
-player.desc = BAN するプレイヤー (ユーザー名または UUID)
+desc = Ban a player
+player.desc = The player to ban (username or UUID)

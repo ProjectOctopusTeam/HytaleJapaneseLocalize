@@ -1,3 +1,3 @@
-desc = 新しいワールドを追加します
-arg.name.desc = 作成するワールドの名前
-arg.gen.desc = 使用するジェネレーターのID
+desc = Add a new world
+arg.name.desc = The name of the world to create
+arg.gen.desc = The id of the generator to use

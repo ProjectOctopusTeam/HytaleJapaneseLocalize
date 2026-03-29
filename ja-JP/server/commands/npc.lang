@@ -1,4 +1,4 @@
- = Commands relating to NPCs
+Commands relating to NPCs = 
 all.desc = Spawn all NPC roles
 all.distance = Distance between spawned NPCs
 all.noRolesToSpawn = No roles to spawn

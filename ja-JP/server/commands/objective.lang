@@ -1,4 +1,4 @@
- = Commands related to objectives
+Commands related to objectives = 
 objectiveNotFound = Objective '{id}' not found!
 objectiveLineNotFound = Objective line '{id}' not found!
 noTaskForIndex = No task found for specified index!
