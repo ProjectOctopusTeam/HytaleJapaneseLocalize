@@ -1,368 +1,368 @@
-desc = Remove all entities within the current selection
-noSelection = You don't have anything selected!
-cleared = Removed {count, plural, one {1 entity} other {{count, number} entities}} from selection
-notFurther = Cannot teleport further in this direction!
-worldNotLoaded = This world is no longer loaded!
-worldRemoved = The world "{name}" no longer exists and has been removed from your teleport history.
-teleportedToCoordinates = You have been teleported to ({x, number}, {y, number}, {z, number}).
-teleportedToCoordinatesWithLook = You have been teleported to ({x, number}, {y, number}, {z, number}, {yaw, number}, {pitch, number}, {roll, number}).
-teleportedSelfHome = You have been teleported home.
-teleportedToCoordinatesNotification = You have been teleported to ({x, number}, {y, number}, {z, number}).
-teleportedWithLookNotification = You have been teleported to ({x, number}, {y, number}, {z, number}, {yaw, number}, {pitch, number}, {roll, number}).
-teleportedOtherToPlayer = Teleported {targetName} to {toName}.
-teleportedToPlayer = You have been teleported to {toName}.
-teleportedToTop = You have been teleported to the top of the world!
-teleportEveryone = Teleported everyone in world "{world}" to ({x, number}, {y, number}, {z, number}).
-teleportEveryoneWithLook = Teleported everyone in world "{world}" to ({x, number}, {y, number}, {z, number}, {yaw, number}, {pitch, number}, {roll, number}).
-teleportedBackToWaypoint = You have been teleported back to {name} at ({x, number}, {y, number}, {z, number}). [{remaining, number} back, {otherDirection, number} forward]
-teleportedBackToCoordinates = You have been teleported back to ({x, number}, {y, number}, {z, number}). [{remaining, number} back, {otherDirection, number} forward]
-teleportedForwardToWaypoint = You have been teleported forward to {name} at ({x, number}, {y, number}, {z, number}). [{remaining, number} forward, {otherDirection, number} back]
-teleportedForwardToCoordinates = You have been teleported forward to ({x, number}, {y, number}, {z, number}). [{remaining, number} forward, {otherDirection, number} back]
-teleportedToWorld = You have been teleported to world "{worldName}" at ({x, number}, {y, number}, {z, number}).
-indexNotFound = Invalid spawn index (max index is {maxIndex})!
-teleported = You have been teleported to the spawn location ({x, number}, {y, number}, {z, number}).
-teleportedOther = {username} has been teleported to the spawn location ({x, number}, {y, number}, {z, number}).
-objectiveNotFound = Objective '{id}' not found!
-objectiveLineNotFound = Objective line '{id}' not found!
-noTaskForIndex = No task found for specified index!
-taskAlreadyCompleted = The specified task has already been completed!
-start = Commands to start an objective or objective line
-complete = Commands to complete either a task, taskSet, or objective
-panel = Open the objective panel admin
-history = Print the history of completed objectives and objective lines
-locationMarker = Commands to add/enable/disable ObjectiveLocationMarker
-reachLocationMarker = Commands to add ReachLocationMarker
-notInPortal = You aren't in a Fragment!
-uncursedTemp = Your cursed items have been cleansed. This is a temporary feature of the /leave command while portals are in development.
-notHoldingItem = Hold an item in your hand to curse it
-done = Set held item Cursed state to {state}
+desc = 現在の選択範囲内のすべてのエンティティを削除します
+noSelection = 何も選択されていません！
+cleared = 選択から{count, plural, one {1つのエンティティ} other {{count, number}個のエンティティ}}を削除しました
+notFurther = この方向にはこれ以上テレポートできません！
+worldNotLoaded = このワールドはもう読み込まれていません！
+worldRemoved = ワールド「{name}」は存在しなくなったため、テレポート履歴から削除されました。
+teleportedToCoordinates = ({x, number}, {y, number}, {z, number}) にテレポートしました。
+teleportedToCoordinatesWithLook = ({x, number}, {y, number}, {z, number}, {yaw, number}, {pitch, number}, {roll, number}) にテレポートしました。
+teleportedSelfHome = ホームにテレポートしました。
+teleportedToCoordinatesNotification = ({x, number}, {y, number}, {z, number}) にテレポートしました。
+teleportedWithLookNotification = ({x, number}, {y, number}, {z, number}, {yaw, number}, {pitch, number}, {roll, number}) にテレポートしました。
+teleportedOtherToPlayer = {targetName} を {toName} へテレポートしました。
+teleportedToPlayer = {toName} へテレポートしました。
+teleportedToTop = ワールドの最上部にテレポートしました！
+teleportEveryone = ワールド「{world}」の全員を ({x, number}, {y, number}, {z, number}) へテレポートしました。
+teleportEveryoneWithLook = ワールド「{world}」の全員を ({x, number}, {y, number}, {z, number}, {yaw, number}, {pitch, number}, {roll, number}) へテレポートしました。
+teleportedBackToWaypoint = {name} の ({x, number}, {y, number}, {z, number}) に戻りました。[残り {remaining, number} 戻る、{otherDirection, number} 進む]
+teleportedBackToCoordinates = ({x, number}, {y, number}, {z, number}) に戻りました。[残り {remaining, number} 戻る、{otherDirection, number} 進む]
+teleportedForwardToWaypoint = {name} の ({x, number}, {y, number}, {z, number}) へ進みました。[残り {remaining, number} 進む、{otherDirection, number} 戻る]
+teleportedForwardToCoordinates = ({x, number}, {y, number}, {z, number}) へ進みました。[残り {remaining, number} 進む、{otherDirection, number} 戻る]
+teleportedToWorld = ワールド「{worldName}」の ({x, number}, {y, number}, {z, number}) へテレポートしました。
+indexNotFound = スポーンインデックスが無効です（最大インデックスは {maxIndex} です）！
+teleported = スポーン地点 ({x, number}, {y, number}, {z, number}) へテレポートしました。
+teleportedOther = {username} がスポーン地点 ({x, number}, {y, number}, {z, number}) へテレポートしました。
+objectiveNotFound = オブジェクティブ '{id}' が見つかりません！
+objectiveLineNotFound = オブジェクティブライン '{id}' が見つかりません！
+noTaskForIndex = 指定されたインデックスに対応するタスクが見つかりません！
+taskAlreadyCompleted = 指定されたタスクはすでに完了しています！
+start = オブジェクティブまたはオブジェクティブラインを開始するコマンド
+complete = タスク、タスクセット、またはオブジェクティブを完了するコマンド
+panel = オブジェクティブパネル管理を開く
+history = 完了したオブジェクティブとオブジェクティブラインの履歴を表示する
+locationMarker = ObjectiveLocationMarker の追加・有効化・無効化コマンド
+reachLocationMarker = ReachLocationMarker を追加するコマンド
+notInPortal = フラグメント内にいません！
+uncursedTemp = 呪われたアイテムが浄化されました。これはポータル開発中の /leave コマンドの一時的な機能です。
+notHoldingItem = アイテムを手に持って呪いをかけてください
+done = 手持ちアイテムの呪い状態を {state} に設定しました
 response = HytaleServer v{version} ({patchline})
-removed = Viewport was removed and will no longer refresh.
-created = Viewport created for the selected region.
-blockSpawnerSet = Set BlockSpawner to {id}!
-currentBlockSpawner = The BlockSpawner for this block is {id}
-noBlockSpawnerSet = No BlockSpawner set for this block
-success = Blocks cleared.
-invalidStoreType = {storeType} is not a valid prefab store!
-fromRequired = From argument is required for fluid replacement
-invalidRegex = Unable to parse regex: {error}
-noMatchingBlocks = No matching blocks: {blockType}
-set = Selection history enabled: {enabled}
-unknownFluid = Unknown fluid (or no fluid provided)
-maxFluidLevelClamped = Clamping max fluid level to {level, number}
-directionInvalid = The direction "{direction}" is not valid!
-prefabNotFound = Could not find a prefab with the name '{name}'
-loading = Loading prefabs and creating world..
-notInEditSession = You are not in an prefab editing session
-alreadyInEditSession = You are already in a prefab editing session
-noPrefabSelected = You do not have any prefab selected. Please select one with the "/editprefab select" command
-unselected = Prefab unselected
-somethingWentWrong = Something has gone wrong trying to parse settings
-finishProcessingError = Error while processing prefabs: {error}
-noPrefabsInPath = No prefab files found, searched paths
-notInEditWorldWarning = You must be in the prefab editor world to run this command! Use /pedit back to return to the prefab editor world.
-closedEditSession = Prefab Editor session has been closed.
-existingEditSession = You are already in an edit session, please exit your current one if you want to start a new one
-alreadyBeingEdited = The prefab you are trying to edit is already being edited by someone else: {path}
-cannotUseCommandDuringExec = You cannot use this command while the config is executing. Use '/sb exit' to stop execution.
-loaded = Loaded scripted brush: {name}
-copiedInstanceAssetConfig = Duplicated instance {origin} into {destination}
-createdInstanceAssetConfig = Created instance asset config for: {name}
-beginLoading = Started loading for instance asset: {name}
-doneLoading = Finished loading instance asset at world: {world}
-dismountAttempted = Dismount attempted
-dismountOther = Dismounted {username}
-noComponent = You don't have a Mounted component
-mountedToEntity = You are mounted to an entity
-mountedToBlock = You are mounted to a block
-unknownStatus = Your mounted status is unknown
-matches = {blocktype} matches TagPattern '{pattern}'
-noMatches = {blocktype} does not match TagPattern '{pattern}'
-container = This message contains: {content}
-example = A number: {random}
-usage = Usage
-usagecolon = Usage: {usage}
-noPermissibleSubCommand = No permissible subcommands
-useHelpOnAnySubCommand = Append --help to any subcommand!
-useHelpToLearnMore = Use "/{command} --help" to learn more!
-waitForBoot = The server is still booting up, please retry the command in a moment.
-noSuchPlayer = No such player '{username}'.
-noSuchWorld = No such world '{name}'.
-noSuchEnum = Could not find enum of type {type} with a name: '{name}'.
-worldUnspecified = Ambiguous world argument
-permission = You don't have permission to execute that command! Requires {permission}
-sender = Wrong sender type, expecting {sender}
-noWorld = No world exists or is specified
-playerNotInWorld = Player is not in valid world
-targetNotInWorld = Target is not in valid world
-targetNotFound = Target {uuid} not found
-chunkNotLoaded = Chunk at {chunkX}, {chunkZ} is not loaded in world '{world}'
-no_entity_in_view = No entity in view! Either look at an entity or use --{option}=<uuid>
-playerOrArg = Sender must be a player or provide the --{option} option!
-relativePositionArg = Sender must be a player to use relative coordinates!
-playerNotLookingAtBlock = You must be looking at a block
-providePosition = Position must be provided if run from console!
-not_npc = Entity is not an NPC: {uuid}
-spawnIndexOutOfRange = Spawn index is out of range
-playerOnly = This command can only be used by players
-exception = There was an error running this command, see server logs.
-notInHubWorld = You are not in a Crossroads-enabled world!
-alreadyInHub = You are already in the Crossroads!
-cantHideFromSelf = You can't hide from yourself
-shownTo = {username} is visible to {targetUsername}
-hiddenFrom = {username} is hidden from {targetUsername}
-hiddenFromAll = {username} is hidden from all players
-shownToAll = {username} is visible to all players
-allHiddenFromAll = All players are now hidden from each other
-allShownToAll = All players are now visible to each other
-enabled = Enabled block placement override
-disabled = Disabled block placement override
-invalidusage = Invalid usage! Valid usage: /sudo <player>
-header = You are currently:\n\
-  World: {world}\n\
-  Chunk: {chunkX, number}, {chunkY, number}, {chunkZ, number}\n\
-  Position: {posX, number}, {posY, number}, {posZ, number}\n\
-  Look: {yaw, number}, {pitch, number}, {roll, number}\n\
-  Direction: {direction}\n\
-  Axis Direction: {axisDirection}\n\
-  Axis: {axis}
-needsSaving = Needs Saving: {needsSaving}
-insufficientInvSpace = Unable to give {quantity, number} of {item}; insufficient inventory space.
-gave = You gave {targetUsername} {quantity, number} of {item}
-received = Received {quantity, number} of {item}
-invalidMetadata = Invalid metadata format: {error}
-get = Max players is set to {maxPlayers, number}
-getInfinite = Max players is set to infinite
-setInfinite = Max players has been set to infinite
-starting = Starting a backup...
-notConfigured = The server must be started with --backup-dir to use this command!
-notInitialized = AssetModule is not initialized.
-noneLoaded = No asset packs are loaded.
-listHeader = Loaded asset packs
+removed = ビューポートが削除され、更新されなくなります。
+created = 選択領域のビューポートが作成されました。
+blockSpawnerSet = BlockSpawner を {id} に設定しました！
+currentBlockSpawner = このブロックの BlockSpawner は {id} です
+noBlockSpawnerSet = このブロックに BlockSpawner は設定されていません
+success = ブロックをクリアしました。
+invalidStoreType = {storeType} は有効なプレハブストアではありません！
+fromRequired = 液体の置き換えには From 引数が必要です
+invalidRegex = 正規表現を解析できません: {error}
+noMatchingBlocks = 一致するブロックがありません: {blockType}
+set = 選択履歴が有効になりました: {enabled}
+unknownFluid = 不明な液体（または液体が指定されていません）
+maxFluidLevelClamped = 最大液体レベルを {level, number} に制限します
+directionInvalid = 方向「{direction}」は無効です！
+prefabNotFound = 名前「{name}」のプレハブが見つかりませんでした
+loading = プレハブを読み込み、ワールドを作成しています..
+notInEditSession = プレハブ編集セッション中ではありません
+alreadyInEditSession = すでにプレハブ編集セッション中です
+noPrefabSelected = プレハブが選択されていません。「/editprefab select」コマンドで選択してください
+unselected = プレハブの選択を解除しました
+somethingWentWrong = 設定の解析中に問題が発生しました
+finishProcessingError = プレハブの処理中にエラーが発生しました: {error}
+noPrefabsInPath = プレハブファイルが見つかりません。検索されたパス
+notInEditWorldWarning = このコマンドを実行するにはプレハブエディターのワールドにいる必要があります！/pedit back でプレハブエディターワールドに戻ってください。
+closedEditSession = プレハブエディターセッションが閉じられました。
+existingEditSession = すでに編集セッション中です。新しいセッションを開始する場合は現在のセッションを終了してください
+alreadyBeingEdited = 編集しようとしているプレハブはすでに他のユーザーが編集中です: {path}
+cannotUseCommandDuringExec = 設定の実行中はこのコマンドを使用できません。'/sb exit' で実行を停止してください。
+loaded = スクリプトブラシを読み込みました: {name}
+copiedInstanceAssetConfig = インスタンス {origin} を {destination} に複製しました
+createdInstanceAssetConfig = インスタンスアセット設定を作成しました: {name}
+beginLoading = インスタンスアセットの読み込みを開始しました: {name}
+doneLoading = ワールドでインスタンスアセットの読み込みが完了しました: {world}
+dismountAttempted = 降車を試みました
+dismountOther = {username} を降車させました
+noComponent = Mounted コンポーネントがありません
+mountedToEntity = エンティティに乗っています
+mountedToBlock = ブロックに乗っています
+unknownStatus = 騎乗状態が不明です
+matches = {blocktype} はタグパターン '{pattern}' に一致します
+noMatches = {blocktype} はタグパターン '{pattern}' に一致しません
+container = このメッセージには次の内容が含まれています: {content}
+example = 数値の例: {random}
+usage = 使用方法
+usagecolon = 使用方法: {usage}
+noPermissibleSubCommand = 使用可能なサブコマンドがありません
+useHelpOnAnySubCommand = サブコマンドに --help を追加してください！
+useHelpToLearnMore = 詳細は「/{command} --help」を使用してください！
+waitForBoot = サーバーはまだ起動中です。しばらく待ってからコマンドを再実行してください。
+noSuchPlayer = プレイヤー '{username}' が見つかりません。
+noSuchWorld = ワールド '{name}' が見つかりません。
+noSuchEnum = タイプ {type} で名前「{name}」の列挙型が見つかりませんでした。
+worldUnspecified = ワールドの引数が曖昧です
+permission = そのコマンドを実行する権限がありません！{permission} が必要です
+sender = 送信者のタイプが正しくありません。{sender} が必要です
+noWorld = ワールドが存在しないか指定されていません
+playerNotInWorld = プレイヤーが有効なワールドにいません
+targetNotInWorld = ターゲットが有効なワールドにいません
+targetNotFound = ターゲット {uuid} が見つかりません
+chunkNotLoaded = ワールド '{world}' のチャンク ({chunkX}, {chunkZ}) は読み込まれていません
+no_entity_in_view = 視界にエンティティがありません！エンティティを見るか、--{option}=<uuid> を使用してください
+playerOrArg = 送信者はプレイヤーであるか、--{option} オプションを指定する必要があります！
+relativePositionArg = 相対座標を使用するには送信者がプレイヤーである必要があります！
+playerNotLookingAtBlock = ブロックを見ている必要があります
+providePosition = コンソールから実行する場合は位置を指定する必要があります！
+not_npc = エンティティはNPCではありません: {uuid}
+spawnIndexOutOfRange = スポーンインデックスが範囲外です
+playerOnly = このコマンドはプレイヤーのみ使用できます
+exception = このコマンドの実行中にエラーが発生しました。サーバーログを確認してください。
+notInHubWorld = Crossroads が有効なワールドにいません！
+alreadyInHub = すでに Crossroads にいます！
+cantHideFromSelf = 自分自身から非表示にすることはできません
+shownTo = {username} は {targetUsername} に表示されています
+hiddenFrom = {username} は {targetUsername} から非表示です
+hiddenFromAll = {username} はすべてのプレイヤーから非表示です
+shownToAll = {username} はすべてのプレイヤーに表示されています
+allHiddenFromAll = すべてのプレイヤーが互いに非表示になりました
+allShownToAll = すべてのプレイヤーが互いに表示されるようになりました
+enabled = ブロック配置のオーバーライドを有効にしました
+disabled = ブロック配置のオーバーライドを無効にしました
+invalidusage = 使い方が正しくありません！正しい使い方: /sudo <player>
+header = 現在の状態:\n\
+  ワールド: {world}\n\
+  チャンク: {chunkX, number}, {chunkY, number}, {chunkZ, number}\n\
+  位置: {posX, number}, {posY, number}, {posZ, number}\n\
+  向き: {yaw, number}, {pitch, number}, {roll, number}\n\
+  方向: {direction}\n\
+  軸方向: {axisDirection}\n\
+  軸: {axis}
+needsSaving = 保存が必要: {needsSaving}
+insufficientInvSpace = {item} を {quantity, number} 個付与できません。インベントリの空きが不足しています。
+gave = {targetUsername} に {item} を {quantity, number} 個渡しました
+received = {item} を {quantity, number} 個受け取りました
+invalidMetadata = メタデータのフォーマットが無効です: {error}
+get = 最大プレイヤー数は {maxPlayers, number} に設定されています
+getInfinite = 最大プレイヤー数は無制限に設定されています
+setInfinite = 最大プレイヤー数を無制限に設定しました
+starting = バックアップを開始しています...
+notConfigured = このコマンドを使用するには、サーバーを --backup-dir オプションで起動する必要があります！
+notInitialized = AssetModule が初期化されていません。
+noneLoaded = アセットパックが読み込まれていません。
+listHeader = 読み込み済みアセットパック
 listEntry = {name} ({root})
-serialized = Serialized chunk data to console.
-chunk = Chunk {chunkX}, {chunkZ}:\n\
-  \tFlags: \n\
-    \t\tStart Init: {startInit}\n\
-    \t\tInit: {init}\n\
-    \t\tNewly Generated: {newlyGenerated}\n\
-    \t\tOn Disk: {onDisk}\n\
-    \t\tTicking: {ticking}\n\
-  \tKeep Loaded: {keepLoaded}\n\
-  \tNeeds Saving: {saving}\n\
-  \tMetadata:\n\
+serialized = チャンクデータをコンソールにシリアライズしました。
+chunk = チャンク {chunkX}, {chunkZ}:\n\
+  \tフラグ: \n\
+    \t\t初期化開始: {startInit}\n\
+    \t\t初期化済み: {init}\n\
+    \t\t新規生成: {newlyGenerated}\n\
+    \t\tディスク上: {onDisk}\n\
+    \t\tティック中: {ticking}\n\
+  \t読み込み維持: {keepLoaded}\n\
+  \t保存が必要: {saving}\n\
+  \tメタデータ:\n\
   \tBlockChunk:\n\
-    \t\tNeeds Saving: {savingChunk}
-section = \t\tSection {index}:\n
-dataType = \t\t\tData Type: {data}\n
-sectionInfo = \t\t\tHas Ticking: {ticking}\n\
-      \t\t\tIs Solid Air: {solidAir}\n\
-      \t\t\tBlock Count: {count}\n\
-      \t\t\tBlock Counts: {counts}
-blockStateChunk = \tBlock State Chunk:\n\
-    \t\tNeeds Saving: {saving}\n\
-    \t\tBlock States: {countStates}\n\
-    \t\tUnknown Block States: {countUnknown}\n\
-    \t\tSendable Block States: {countSendable}\n\
-    \t\tTickable Block States: {countTickable}\n\
-  \tEntity Chunk:\n\
-    \t\tNeeds Saving: {savingEntity}\n\
-    \t\tEntities: {countEntities}
-rocksdb = Commands that work on rocksdb chunk storage
-toggled = Toggled visual feedback for hit detection to {debug}
-singlePlayerOnly = This option only works in singleplayer!
-clientPIDRunning = Client PID: {pid} {running}
-isRunning = is running
-isNotRunning = is not running
+    \t\t保存が必要: {savingChunk}
+section = \t\tセクション {index}:\n
+dataType = \t\t\tデータタイプ: {data}\n
+sectionInfo = \t\t\tティックあり: {ticking}\n\
+      \t\t\tソリッドエア: {solidAir}\n\
+      \t\t\tブロック数: {count}\n\
+      \t\t\tブロック数詳細: {counts}
+blockStateChunk = \tブロック状態チャンク:\n\
+    \t\t保存が必要: {saving}\n\
+    \t\tブロック状態数: {countStates}\n\
+    \t\t不明なブロック状態数: {countUnknown}\n\
+    \t\t送信可能ブロック状態数: {countSendable}\n\
+    \t\tティック可能ブロック状態数: {countTickable}\n\
+  \tエンティティチャンク:\n\
+    \t\t保存が必要: {savingEntity}\n\
+    \t\tエンティティ数: {countEntities}
+rocksdb = rocksdb チャンクストレージに関するコマンド
+toggled = ヒット検出のビジュアルフィードバックを {debug} に切り替えました
+singlePlayerOnly = このオプションはシングルプレイヤーでのみ有効です！
+clientPIDRunning = クライアント PID: {pid} {running}
+isRunning = 実行中
+isNotRunning = 実行されていません
 PIDRunning = PID: {pid} {running}
-pidRequired = A PID must be provided when --singleplayer is not specified
-forgotten = You have forgotten the recipe for '{id}'!
-alreadyNotKnown = You don't know the recipe for '{id}'!
-knownRecipes = Known Recipes: {list}
-typeNotFound = Failed to find armor of type '{type}'!
-noItem = This requires a held item
-invalidStore = {store} is not a valid prefab store!
-defaultWorldNull = Default world is null!
-invalidPath = Specified path is outside of the HytaleServer directory.
-failed = Failed to convert prefabs
-skipped = Skipped prefabs
-value = Red: {red}, Green: {green}, Blue: {blue}, Sky: {sky}
-setCalculation = Set the chunk lighting calculation to '{calculation}'!
-alreadyFullBright = The chunk lighting calculation is already full bright!
-setCalculationWithDelegate = Set the chunk lighting calculation to full bright with delegate of '{delegate}'!
-playerReset = Reset player: {uuid}
-localLightingStatus = Send Local Lighting has been {enabled, select, true {enabled} other {disabled}}
-globalLightingStatus = Send Global Lighting has been {enabled, select, true {enabled} other {disabled}}
-setPercent = Set sleep offset percent: {newValue} (was {oldValue})
-getPercent = Sleep offset percent: {value}
-getOffset = Sleep offset: {value}
-test = Sleep Test\n  - Delta: Min: {deltaMin}, Max: {deltaMax}, Avg: {deltaAvg} - {deltaTime}\n  - Offset: Min: {offsetMin}, Max: {offsetMax}, Avg: {offsetAvg} - {offsetTime}
-interrupted = Sleep test interrupted
-droplistSet = Set droplist!
-currentDroplist = Current droplist: {droplist}
-noDroplist = No droplist for container.
-alreadyInProgress = Benchmark already in progress.
-benchmarkNotSupported = This worldgen implementation doesn't support benchmarking!
-abort = Someone else started a benchmark at the same time. Aborting.
-started = Started benchmark for seed "{seed}" in "{worldName}" with {size} chunks.
-progress = Progress: {percent}%
-saving = Saving results...
-saveDone = ... done! Saved as {fileName}
-saveFailed = ... FAILED! See console.
-clearimages = Cleared world map images!
-reloadFailed = Failed to reload world map: {error}
-zoneNames = Zone Names: {zoneNames}
-zonesNotDiscovered = You haven't discovered: {zoneNames}!
-zoneNotFound = Failed to find zone '{zoneName}'!
-zoneDiscovered = Added zone '{zoneName}' to your discovered zones!
-zoneAlreadyDiscovered = You have already discovered zone '{zoneName}'!
-zonesDiscovered = You have discovered: {zoneNames}!
-zoneRemovedFromDiscovered = Removed zone '{zoneName}' from your discovered zones!
-zoneNotDiscoveredYet = You haven't discovered zone '{zoneName}' yet!
-allZonesDiscovered = Added all zones to your discovered zones!
-allZonesRemovedFromDiscovered = Removed all zones from your discovered zones!
-markersCleared = Cleared world map markers!
-chunkLoadUsage = Use the command `/load {chunkX} {chunkZ}` to load the chunk.
-blocksInChunkTick = Marked all blocks in chunk {chunkX}, {chunkZ} as ticking!
-timeInfo = Time cycle {msg} in {worldName} at {time}
-info = Time in world '{worldName}' is currently {timePaused} at {time} on {dayOfWeek} day of week, on {weekOfMonth} week of month, on {weekOfYear} week of year, on {dayOfYear} day of year, with {moonPhase} moon phase
-paused = paused
-unpaused = unpaused
-emoteNotFound = Failed to find emote: {id}
-extentsThresholdNeeded = Using the extents threshold of {threshold} the total number of filler blocks needed is: {nb}
-notFound = No hitbox with name '{name}'
-boundingBox = Bounding Box: {box}
+pidRequired = --singleplayer が指定されていない場合は PID を指定する必要があります
+forgotten = '{id}' のレシピを忘れました！
+alreadyNotKnown = '{id}' のレシピを知りません！
+knownRecipes = 既知のレシピ: {list}
+typeNotFound = タイプ '{type}' の防具が見つかりませんでした！
+noItem = 手にアイテムを持つ必要があります
+invalidStore = {store} は有効なプレハブストアではありません！
+defaultWorldNull = デフォルトワールドがnullです！
+invalidPath = 指定されたパスは HytaleServer ディレクトリの外にあります。
+failed = プレハブの変換に失敗しました
+skipped = プレハブをスキップしました
+value = 赤: {red}, 緑: {green}, 青: {blue}, 空: {sky}
+setCalculation = チャンクライティングの計算を '{calculation}' に設定しました！
+alreadyFullBright = チャンクライティングの計算はすでにフルブライトです！
+setCalculationWithDelegate = チャンクライティングの計算をフルブライトに設定し、デリゲートを '{delegate}' にしました！
+playerReset = プレイヤーをリセットしました: {uuid}
+localLightingStatus = ローカルライティングの送信が{enabled, select, true {有効} other {無効}}になりました
+globalLightingStatus = グローバルライティングの送信が{enabled, select, true {有効} other {無効}}になりました
+setPercent = スリープオフセットのパーセントを {newValue} に設定しました（変更前: {oldValue}）
+getPercent = スリープオフセットのパーセント: {value}
+getOffset = スリープオフセット: {value}
+test = スリープテスト\n  - デルタ: 最小: {deltaMin}, 最大: {deltaMax}, 平均: {deltaAvg} - {deltaTime}\n  - オフセット: 最小: {offsetMin}, 最大: {offsetMax}, 平均: {offsetAvg} - {offsetTime}
+interrupted = スリープテストが中断されました
+droplistSet = ドロップリストを設定しました！
+currentDroplist = 現在のドロップリスト: {droplist}
+noDroplist = コンテナにドロップリストがありません。
+alreadyInProgress = ベンチマークはすでに実行中です。
+benchmarkNotSupported = このワールド生成実装はベンチマークをサポートしていません！
+abort = 他のユーザーが同時にベンチマークを開始しました。中止します。
+started = シード「{seed}」、ワールド「{worldName}」で {size} チャンクのベンチマークを開始しました。
+progress = 進捗: {percent}%
+saving = 結果を保存しています...
+saveDone = ... 完了！{fileName} として保存されました
+saveFailed = ... 失敗しました！コンソールを確認してください。
+clearimages = ワールドマップ画像をクリアしました！
+reloadFailed = ワールドマップのリロードに失敗しました: {error}
+zoneNames = ゾーン名: {zoneNames}
+zonesNotDiscovered = まだ発見していません: {zoneNames}！
+zoneNotFound = ゾーン '{zoneName}' が見つかりませんでした！
+zoneDiscovered = ゾーン '{zoneName}' を発見済みゾーンに追加しました！
+zoneAlreadyDiscovered = ゾーン '{zoneName}' はすでに発見済みです！
+zonesDiscovered = 発見済みゾーン: {zoneNames}！
+zoneRemovedFromDiscovered = ゾーン '{zoneName}' を発見済みゾーンから削除しました！
+zoneNotDiscoveredYet = ゾーン '{zoneName}' はまだ発見されていません！
+allZonesDiscovered = すべてのゾーンを発見済みゾーンに追加しました！
+allZonesRemovedFromDiscovered = すべてのゾーンを発見済みゾーンから削除しました！
+markersCleared = ワールドマップのマーカーをクリアしました！
+chunkLoadUsage = チャンクを読み込むには `/load {chunkX} {chunkZ}` コマンドを使用してください。
+blocksInChunkTick = チャンク {chunkX}, {chunkZ} のすべてのブロックをティック中としてマークしました！
+timeInfo = {worldName} の時間サイクル {msg} が {time} に実行されました
+info = ワールド '{worldName}' の時間は現在 {timePaused} で {time}、曜日は週の {dayOfWeek} 日目、月の {weekOfMonth} 週目、年の {weekOfYear} 週目、年の {dayOfYear} 日目、月相は {moonPhase} です
+paused = 一時停止中
+unpaused = 再開中
+emoteNotFound = エモート {id} が見つかりませんでした
+extentsThresholdNeeded = 境界しきい値 {threshold} を使用すると、必要な充填ブロックの総数は {nb} です
+notFound = 名前 '{name}' のヒットボックスが見つかりません
+boundingBox = バウンディングボックス: {box}
 box = (({minX, number}, {minY, number}, {minZ, number}), ({maxX, number}, {maxY, number}, {maxZ, number}))
-noAuthSkin = {name} doesn't have a skin set by auth! Try '/model [player] {model}' to set to the default player skin
-noAuthSkinForPlayer = You don't have a skin set by auth! Try '/model [player] {model}' to set to the default player skin
-modelReset = Reset model for {name}!
-modelResetForPlayer = Your model has been reset!
-modelSet = Set model for {playerName} to {modelName}
-modelSetForPlayer = Your model has been set to {modelName}
-not_authenticated = Cannot check for updates - server is not authenticated. Use /auth login first.
-check_failed = Failed to check for updates. See server logs for details.
-no_update = Already running the latest version.
-download_failed = Failed to download update. See server logs for details.
-download_complete = Update downloaded and staged.\nRun '/update apply --confirm' to apply and restart.
-download_in_progress = A download is already in progress. Use '/update cancel' to abort it.
-invalid_layout_download = Cannot download update: folder layout not compatible with auto-update.\nExpected Assets.zip and launcher scripts in parent directory.\nUse '/update download --force' to download anyway.
-downloading = Downloading update {version}...
-download_progress = Download progress: {percent}% ({downloaded} / {total})
-checking = Checking for updates...
-already_latest = Already running the latest version: {version}
-update_available = Update available: {latest} (current: {current})\nRun '/update download' to stage the update.
-status = Version: {version}\nPatchline: {patchline}\nStaged: {staged}\nLatest: {latest}\nDownloading: {downloading}
-nothing_to_cancel = No download in progress and no staged update to cancel.
-download_cancelled = Download cancelled.
-cancel_failed = Failed to delete staged update. See server logs for details.
-cancelled = Staged update {version} has been cancelled and deleted.
-no_staged = No staged update to apply. Run '/update download' first.
-backup_failed = Failed to create backups. Update aborted. See server logs for details.
-apply_confirm_required = About to apply update {version} and restart the server.\nRun '/update apply --confirm' to proceed.
-applying_no_launcher = Applying update {version}...\nWarning: No launcher script detected - update files must be moved manually after shutdown.
-applying = Applying update {version}...\nServer will shut down and restart with the new version.
-download_setup_hint = Update staged to updater/staging/. To complete setup, stop the server:\n\
-    1. Copy the contents of updater/staging/ to where you want the server\n\
-    2. Move your existing server files (config, saves, mods - not HytaleServer.jar) into the Server/ folder\n\
-    3. Launch using start.sh or start.bat
-spawnerNotFoundAtTarget = Could not find prefab spawner at target block {pos}
-offlineMode = This command is unavailable when offline. If you wish to use this command, restart in online mode.
-singleplayerOnlyPrivate = Private Play can only be enabled/disabled in singleplayer!
-singleplayerOnlyLan = LAN Play can only be enabled/disabled in singleplayer!
-singleplayerOnlyFriend = Friend Play can only be enabled/disabled in singleplayer!
-singleplayerOnlyOpen = Open Play can only be enabled/disabled in singleplayer!
-accessDisabledPrivate = Disabled Private Play
-accessDisabledLan = Disabled LAN Play
-accessDisabledFriend = Disabled Friend Play
-accessDisabledOpen = Disabled Open Play
-accessEnabledPrivate = Enabled Private Play
-accessEnabledLan = Enabled LAN Play
-accessEnabledFriend = Enabled Friend Play
-accessEnabledOpen = Enabled Open Play
-accessAlreadyToggledPrivate = Private Play is already {enabled, select, true {enabled} other {disabled}}
-accessAlreadyToggledLan = LAN Play is already {enabled, select, true {enabled} other {disabled}}
-accessAlreadyToggledFriend = Friend Play is already {enabled, select, true {enabled} other {disabled}}
-accessAlreadyToggledOpen = Open Play is already {enabled, select, true {enabled} other {disabled}}
-addPermToGroup = Added permissions to group: {group}
-permRemovedFromGroup = Removed permissions from group: {group}
-permAddedToUser = Added permissions to user: {uuid}
-permRemovedFromUser = Removed permissions from user: {uuid}
-userAddedToGroup = Added user '{uuid}' to group '{group}'
-userRemovedFromGroup = Removed user '{uuid}' from group '{group}'
+noAuthSkin = {name} には認証によるスキンが設定されていません！デフォルトのプレイヤースキンを設定するには '/model [player] {model}' を試してください
+noAuthSkinForPlayer = 認証によるスキンが設定されていません！デフォルトのプレイヤースキンを設定するには '/model [player] {model}' を試してください
+modelReset = {name} のモデルをリセットしました！
+modelResetForPlayer = あなたのモデルがリセットされました！
+modelSet = {playerName} のモデルを {modelName} に設定しました
+modelSetForPlayer = あなたのモデルが {modelName} に設定されました
+not_authenticated = アップデートを確認できません - サーバーが認証されていません。先に /auth login を使用してください。
+check_failed = アップデートの確認に失敗しました。サーバーログを確認してください。
+no_update = すでに最新バージョンを実行しています。
+download_failed = アップデートのダウンロードに失敗しました。サーバーログを確認してください。
+download_complete = アップデートがダウンロードされ、適用待ちになりました。\n適用して再起動するには '/update apply --confirm' を実行してください。
+download_in_progress = ダウンロードがすでに進行中です。中止するには '/update cancel' を使用してください。
+invalid_layout_download = アップデートをダウンロードできません: フォルダのレイアウトが自動アップデートに対応していません。\n親ディレクトリに Assets.zip とランチャースクリプトが必要です。\n強制的にダウンロードするには '/update download --force' を使用してください。
+downloading = アップデート {version} をダウンロードしています...
+download_progress = ダウンロードの進捗: {percent}% ({downloaded} / {total})
+checking = アップデートを確認しています...
+already_latest = すでに最新バージョンを実行しています: {version}
+update_available = アップデートが利用可能です: {latest}（現在: {current}）\nアップデートを適用するには '/update download' を実行してください。
+status = バージョン: {version}\nパッチライン: {patchline}\n適用待ち: {staged}\n最新: {latest}\nダウンロード中: {downloading}
+nothing_to_cancel = 進行中のダウンロードも適用待ちのアップデートもありません。
+download_cancelled = ダウンロードがキャンセルされました。
+cancel_failed = 適用待ちのアップデートの削除に失敗しました。詳細はサーバーログを確認してください。
+cancelled = 適用待ちのアップデート {version} がキャンセルされ、削除されました。
+no_staged = 適用待ちのアップデートがありません。先に '/update download' を実行してください。
+backup_failed = バックアップの作成に失敗しました。アップデートを中止します。詳細はサーバーログを確認してください。
+apply_confirm_required = アップデート {version} を適用してサーバーを再起動しようとしています。\n続行するには '/update apply --confirm' を実行してください。
+applying_no_launcher = アップデート {version} を適用しています...\n警告: ランチャースクリプトが検出されませんでした - シャットダウン後にアップデートファイルを手動で移動する必要があります。
+applying = アップデート {version} を適用しています...\nサーバーがシャットダウンし、新しいバージョンで再起動します。
+download_setup_hint = アップデートが updater/staging/ に適用待ちとして保存されました。セットアップを完了するにはサーバーを停止してください:\n\
+    1. updater/staging/ の内容をサーバーを置きたい場所にコピーする\n\
+    2. 既存のサーバーファイル（config、saves、mods ※ HytaleServer.jar を除く）を Server/ フォルダに移動する\n\
+    3. start.sh または start.bat を使用して起動する
+spawnerNotFoundAtTarget = ターゲットブロック {pos} にプレハブスポナーが見つかりませんでした
+offlineMode = オフライン時はこのコマンドを使用できません。使用する場合はオンラインモードで再起動してください。
+singleplayerOnlyPrivate = プライベートプレイはシングルプレイヤーでのみ有効・無効にできます！
+singleplayerOnlyLan = LAN プレイはシングルプレイヤーでのみ有効・無効にできます！
+singleplayerOnlyFriend = フレンドプレイはシングルプレイヤーでのみ有効・無効にできます！
+singleplayerOnlyOpen = オープンプレイはシングルプレイヤーでのみ有効・無効にできます！
+accessDisabledPrivate = プライベートプレイを無効にしました
+accessDisabledLan = LAN プレイを無効にしました
+accessDisabledFriend = フレンドプレイを無効にしました
+accessDisabledOpen = オープンプレイを無効にしました
+accessEnabledPrivate = プライベートプレイを有効にしました
+accessEnabledLan = LAN プレイを有効にしました
+accessEnabledFriend = フレンドプレイを有効にしました
+accessEnabledOpen = オープンプレイを有効にしました
+accessAlreadyToggledPrivate = プライベートプレイはすでに{enabled, select, true {有効} other {無効}}です
+accessAlreadyToggledLan = LAN プレイはすでに{enabled, select, true {有効} other {無効}}です
+accessAlreadyToggledFriend = フレンドプレイはすでに{enabled, select, true {有効} other {無効}}です
+accessAlreadyToggledOpen = オープンプレイはすでに{enabled, select, true {有効} other {無効}}です
+addPermToGroup = グループに権限を追加しました: {group}
+permRemovedFromGroup = グループから権限を削除しました: {group}
+permAddedToUser = ユーザーに権限を追加しました: {uuid}
+permRemovedFromUser = ユーザーから権限を削除しました: {uuid}
+userAddedToGroup = ユーザー '{uuid}' をグループ '{group}' に追加しました
+userRemovedFromGroup = ユーザー '{uuid}' をグループ '{group}' から削除しました
 hasPermission = {permission}: {hasPermission}
-plugins = Plugins
-pluginLoading = Plugin {id} loading...
-pluginLoaded = Plugin {id} loaded!
-failedToLoadPlugin = Failed to load plugin {id}!
-failedToLoadInvalidState = Failed to load the plugin {id} because it in an invalid state!
-failedToLoadSetup = Failed to load the plugin {id} because it being setup!
-failedToLoadStarted = Failed to load the plugin {id} because it being started!
-failedToLoadAlreadyEnabled = Failed to load the plugin {id} because it is already enabled!
-failedPluginState = Failed, plugin state is {state}
-failedToUnloadState = Failed to unload the plugin {id} because it in an invalid state!
-failedToUnloadSetup = Failed to unload the plugin {id} because it being setup!
-failedToUnloadStarted = Failed to unload the plugin {id} because it being started!
-pluginUnloading = Plugin {id} unloading...
-pluginUnloaded = Plugin {id} unloaded!
-failedToUnload = Failed to unload plugin {id}!
-failedToUnloadDisabled = Failed to unload the plugin {id} because it is disabled!
-notLoaded = The plugin {id} is not loaded!
-failedToReloadState = Failed to reload the plugin {id} because it in an invalid state!
-failedToReloadSetup = Failed to reload the plugin {id} because it being setup!
-failedToReloadStarted = Failed to reload the plugin {id} because it being started!
-pluginReloaded = Plugin {id} reloaded!
-failedToReload = Failed to reload plugin {id}!
-failedToReloadDisabled = Failed to reload the plugin {id} because it is disabled!
-bootListEnabled = Plugin {id} enabled on plugins boot list!
-bootListDisabled = Plugin {id} disabled on plugins boot list!
-setLogger = Set logger '{name}' to level {level}{saved}
-removedLogger = Removed logger '{name}' from config!
-setLoggerNoSave = Logger '{name}' is set to level {level}
-invalidLevel = '{input}' is not a valid log level! Using {level}.
-dealt = Dealt {damage} damage to {victim}
-desyncDamageEnabled = Desync damage enabled: {enabled}
-invalidPort = Invalid port number. Must be between 1 and 65535.
+plugins = プラグイン
+pluginLoading = プラグイン {id} を読み込んでいます...
+pluginLoaded = プラグイン {id} が読み込まれました！
+failedToLoadPlugin = プラグイン {id} の読み込みに失敗しました！
+failedToLoadInvalidState = プラグイン {id} は無効な状態のため読み込みに失敗しました！
+failedToLoadSetup = プラグイン {id} はセットアップ中のため読み込みに失敗しました！
+failedToLoadStarted = プラグイン {id} は起動中のため読み込みに失敗しました！
+failedToLoadAlreadyEnabled = プラグイン {id} はすでに有効なため読み込みに失敗しました！
+failedPluginState = 失敗しました。プラグインの状態は {state} です
+failedToUnloadState = プラグイン {id} は無効な状態のためアンロードに失敗しました！
+failedToUnloadSetup = プラグイン {id} はセットアップ中のためアンロードに失敗しました！
+failedToUnloadStarted = プラグイン {id} は起動中のためアンロードに失敗しました！
+pluginUnloading = プラグイン {id} をアンロードしています...
+pluginUnloaded = プラグイン {id} がアンロードされました！
+failedToUnload = プラグイン {id} のアンロードに失敗しました！
+failedToUnloadDisabled = プラグイン {id} は無効なためアンロードに失敗しました！
+notLoaded = プラグイン {id} は読み込まれていません！
+failedToReloadState = プラグイン {id} は無効な状態のためリロードに失敗しました！
+failedToReloadSetup = プラグイン {id} はセットアップ中のためリロードに失敗しました！
+failedToReloadStarted = プラグイン {id} は起動中のためリロードに失敗しました！
+pluginReloaded = プラグイン {id} がリロードされました！
+failedToReload = プラグイン {id} のリロードに失敗しました！
+failedToReloadDisabled = プラグイン {id} は無効なためリロードに失敗しました！
+bootListEnabled = プラグイン {id} がプラグイン起動リストで有効になりました！
+bootListDisabled = プラグイン {id} がプラグイン起動リストで無効になりました！
+setLogger = ロガー '{name}' のレベルを {level}{saved} に設定しました
+removedLogger = ロガー '{name}' を設定から削除しました！
+setLoggerNoSave = ロガー '{name}' のレベルは {level} に設定されています
+invalidLevel = '{input}' は有効なログレベルではありません！{level} を使用します。
+dealt = {victim} に {damage} ダメージを与えました
+desyncDamageEnabled = デシンクダメージが有効: {enabled}
+invalidPort = ポート番号が無効です。1 から 65535 の間で指定してください。
 playerWithDisplayName = {displayName} ({username})
-titleRequired = A title must be provided
-spawned = Spawned {quantity}x {item}
-spawnedMultiple = Spawned {count} item entities with {quantity}x {item} each (total: {total}x {item})
-historyCleared = Ping history cleared
-entityStatNotFound = EntityStat "{name}" not found!
-valueReset = "{name}" reset: {value, number}
-stopped = Stopped stress test
-alreadyStarted = Stress test already started
-notStarted = Stress test not started
-invalidName = Invalid name '{name}' (must be alphanumeric)
-knockbackServerPredictionEnabled = Server knockback: {enabled}
-knockbackDebugEnabled = Knockback debug: {enabled}
-summary = Entities:\n\
-    \tVisible: {visibleCount, number}\n\
-    \tLOD Excluded: {lodExcludedCount, number}\n\
-    \tHidden: {hiddenCount, number}\n\
-    \tTotal: {totalCount, number}\n\
-    World Total: {worldTotalCount, number}\n\
-    View Radius: {viewRadius, number} ({viewRadiusBlocks, number})
-result = Your positions:\n\
-    Position: {bodyPosition}\n\
-    Rotation: {bodyRotation}\n\
-    Head Rotation: {headRotation}\n\
-    Teleport: {teleport}\n\
-    Pending Teleport: {pendingTeleport}
-notify = Spawned a blue debug thingy on your position.
-notAvailable = Packet stats not available
-row = Count: {count, number}, Size: {size}, Avg: {avg}, Min: {min}, Max: {max}
-stats = Packet {name} [#{id, number}] Stats\n\
-    Sent:\n\
-    \tTotal: {sentTotal}\n\
-    \tRecent: {sentRecent}\n\
-    Received:\n\
-    \tTotal: {receivedTotal}\n\
-    \tRecent: {receivedRecent}
-uniqueItemAlreadyUsed = An item of this type can only be used once and you have already used one!
-updated = The world is now {state}
-tooManyPlayers = Cannot pause outside singleplayer or if there is more than one player present!
-blockSetsSearched = Searched BlockSets: [
-added = {username} is now an operator!
-already = {username} is already an operator.
-notOp = {username} is not an operator.
-empty = No drops for droplist '{droplistId}'!
+titleRequired = タイトルを指定する必要があります
+spawned = {item} を {quantity}個スポーンしました
+spawnedMultiple = {item} を {quantity}個ずつ {count} 個のアイテムエンティティをスポーンしました（合計: {total}個の {item}）
+historyCleared = Ping 履歴をクリアしました
+entityStatNotFound = EntityStat「{name}」が見つかりません！
+valueReset = 「{name}」をリセットしました: {value, number}
+stopped = ストレステストを停止しました
+alreadyStarted = ストレステストはすでに開始されています
+notStarted = ストレステストは開始されていません
+invalidName = 名前「{name}」が無効です（英数字のみ使用できます）
+knockbackServerPredictionEnabled = サーバーノックバック: {enabled}
+knockbackDebugEnabled = ノックバックデバッグ: {enabled}
+summary = エンティティ:\n\
+    \t表示中: {visibleCount, number}\n\
+    \tLOD除外: {lodExcludedCount, number}\n\
+    \t非表示: {hiddenCount, number}\n\
+    \t合計: {totalCount, number}\n\
+    ワールド合計: {worldTotalCount, number}\n\
+    表示半径: {viewRadius, number} ({viewRadiusBlocks, number})
+result = 現在の位置情報:\n\
+    位置: {bodyPosition}\n\
+    回転: {bodyRotation}\n\
+    頭部の回転: {headRotation}\n\
+    テレポート: {teleport}\n\
+    保留中のテレポート: {pendingTeleport}
+notify = 現在の位置に青いデバッグオブジェクトをスポーンしました。
+notAvailable = パケット統計情報は利用できません
+row = 数: {count, number}, サイズ: {size}, 平均: {avg}, 最小: {min}, 最大: {max}
+stats = パケット {name} [#{id, number}] 統計情報\n\
+    送信:\n\
+    \t合計: {sentTotal}\n\
+    \t最近: {sentRecent}\n\
+    受信:\n\
+    \t合計: {receivedTotal}\n\
+    \t最近: {receivedRecent}
+uniqueItemAlreadyUsed = このタイプのアイテムは一度しか使用できず、すでに使用済みです！
+updated = ワールドが {state} になりました
+tooManyPlayers = シングルプレイヤー以外、またはプレイヤーが2人以上いる場合は一時停止できません！
+blockSetsSearched = 検索された BlockSets: [
+added = {username} がオペレーターになりました！
+already = {username} はすでにオペレーターです。
+notOp = {username} はオペレーターではありません。
+empty = ドロップリスト '{droplistId}' にドロップ品がありません！
