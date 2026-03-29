@@ -1,758 +1,758 @@
-name = Builder Tools
-selectTool = Select Tool
-useTool = Use Tool
-canNotUse = Can't use builder tools outside of Creative mode!
-selectATool = Left-click a builder tool in your inventory or hotbar to configure it.
-noToolSettings = This tool doesn't require configuration.
-favorites.nameTitle = Tool Favorite Name
-favorites.nameDescription = Please enter a name for this favorite tool
-settings.ToolReachDistance.name = Reach Distance
-settings.ToolReachDistance.description = Specifies the max (or locked) reach distance to use for tools
-settings.ToolDelayMin.name = Tool Delay Min
-settings.ToolDelayMin.description = Specifies the min delay (in ms) allowed between each tool use
-settings.UndoGroupSize.description = Number of brush executions grouped into a single undo entry. Lower values give finer undo control, higher values reduce undo steps for long strokes.
-settings.GizmoScale.description = Controls the on-screen size of rotation and translation gizmos
-settings.BrushOpacity.name = Brush Opacity
-settings.BrushOpacity.description = Controls the opacity of the rendered brush tools
-settings.SelectionOpacity.name = Selection Box Opacity
-settings.SelectionOpacity.description = Controls the opacity of the selection box.
-settings.SelectionPanelOpacity.name = Selection Panel Opacity
-settings.SelectionPanelOpacity.description = Controls the opacity of the draggable panels on the selection box.
-settings.FlightInertia.name = Flight Drift
-settings.FlightInertia.description = Adds momentum and gradual deceleration to creative flight (0 = instant stop, 100 = maximum drift)
-settings.FlightMode.name = Flight Mode
-settings.FlightMode.description = Choose between hovering in place or flying toward camera direction
-settings.DisplayLegend.name = Display Legend
-settings.DisplayLegend.description = Shows or hides the builder tools legend panel with control hints
-settings.NoClip.name = No Collision
-settings.NoClip.description = Disables collision detection when flying, allowing you to pass through blocks
-settings.AirPlacement.name = Air Placement
-settings.AirPlacement.description = Allows placing blocks in air at range without requiring support. Use mouse wheel to adjust placement distance
-settings.QuickReplace.name = Quick Replace
-settings.QuickReplace.description = Allows right clicking blocks to replace them with the block currently being held.
-settings.AllowNPCDetection.name = Visible to NPCs
-settings.AllowNPCDetection.description = When enabled, NPCs can detect and react to you while in Creative mode
-settings.RespondToHit.name = Respond To Hit
-settings.RespondToHit.description = When enabled, you can receive knockback and other hit effects while invincible in Creative mode
-settings.BrushShapeRendering.name = Brush Block Rendering
-settings.BrushShapeRendering.description = Toggles the brush preview render between wireframe and block style
-settings.FlightSpeedMultiplier.description = Adjust flight and movement speed
-settings.BrushSoundVolume.description = Adjust the volume of brush tool sound effects
-settings.HideHud.description = Hide all HUD elements
-settings.HideHotbar.description = Hide the hotbar while in Creative mode
-settings.HideCompass.description = Hide the compass while in Creative mode
-settings.HideNotifications.description = Hide notifications while in Creative mode
-settings.HideChat.description = Hide the chat window while in Creative mode
-settings.HideHeldItem.description = Hide the item in your hand while in Creative mode
-settings.ShowEntityMarkers.description = Show entity markers while in Creative mode
-settings.Fullbright.description = Enable fullbright mode, making all blocks fully lit regardless of light level
-panel.settings = Settings
-panel.brushes = Brushes
-panel.brushSettings = Brushes
-panel.generalSettings = General Settings
-panel.maskSettings = Mask Settings
-panel.quickSettings = Settings
-quickSettings.title = Creative Mode Quick Settings
-panel.clearSelection = Clear selection
-panel.enableEmptyFilter = Enable "Empty" filter
-panel.invertEntireMask = Invert entire mask
-panel.useCustomMaskCommandEntry = Use custom mask command entry
-replace.materialsToReplace = Materials to be replaced:
-replace.replaceWith = Replace with:
-legend.title = Legend
-legend.pickMaterial = Pick material
-legend.setMask = Set as mask
-legend.addMask = Add to mask
-legend.changeHeight = Change height of shape
-legend.changeWidth = Change width of shape
-legend.changeRotation = Change rotation direction
-legend.favoriteMaterials = Favorite materials
-legend.selectedMaterial = Selected material
-legend.shiftFasterChange = Hold Shift for faster changes
-legend.undo = Undo
-legend.redo = Redo
-legend.addRemoveFavorite = Add/remove favorite material
+name = ビルダーツール
+selectTool = ツールを選択
+useTool = ツールを使用
+canNotUse = クリエイティブモード以外ではビルダーツールを使用できません！
+selectATool = インベントリまたはホットバーのビルダーツールを左クリックして設定します。
+noToolSettings = このツールは設定不要です。
+favorites.nameTitle = お気に入りツール名
+favorites.nameDescription = このお気に入りツールの名前を入力してください
+settings.ToolReachDistance.name = リーチ距離
+settings.ToolReachDistance.description = ツールに使用する最大（またはロック）リーチ距離を指定します
+settings.ToolDelayMin.name = ツール最小遅延
+settings.ToolDelayMin.description = ツールの各使用間隔に許可される最小遅延（ミリ秒）を指定します
+settings.UndoGroupSize.description = 1つの元に戻すエントリにまとめるブラシ実行回数。値が小さいほど細かく元に戻せ、大きいほど長いストロークの操作を減らせます。
+settings.GizmoScale.description = 回転・移動ギズモの画面上のサイズを調整します
+settings.BrushOpacity.name = ブラシ透明度
+settings.BrushOpacity.description = レンダリングされるブラシツールの透明度を調整します
+settings.SelectionOpacity.name = 選択ボックス透明度
+settings.SelectionOpacity.description = 選択ボックスの透明度を調整します。
+settings.SelectionPanelOpacity.name = 選択パネル透明度
+settings.SelectionPanelOpacity.description = 選択ボックス上のドラッグ可能なパネルの透明度を調整します。
+settings.FlightInertia.name = 飛行ドリフト
+settings.FlightInertia.description = クリエイティブ飛行に慣性と緩やかな減速を追加します（0 = 即時停止、100 = 最大ドリフト）
+settings.FlightMode.name = 飛行モード
+settings.FlightMode.description = その場でホバリングするか、カメラの向きに飛行するかを選択します
+settings.DisplayLegend.name = 凡例を表示
+settings.DisplayLegend.description = 操作ヒント付きのビルダーツール凡例パネルの表示・非表示を切り替えます
+settings.NoClip.name = 衝突なし
+settings.NoClip.description = 飛行中の衝突判定を無効にし、ブロックをすり抜けられるようにします
+settings.AirPlacement.name = 空中設置
+settings.AirPlacement.description = 支持なしで範囲内の空中にブロックを設置できます。マウスホイールで設置距離を調整します
+settings.QuickReplace.name = クイック交換
+settings.QuickReplace.description = ブロックを右クリックして、現在持っているブロックと置き換えられます。
+settings.AllowNPCDetection.name = NPCに認識される
+settings.AllowNPCDetection.description = 有効にすると、クリエイティブモード中にNPCがプレイヤーを検知して反応します
+settings.RespondToHit.name = 被弾に反応
+settings.RespondToHit.description = 有効にすると、クリエイティブモードで無敵中もノックバックなどの被弾エフェクトを受けます
+settings.BrushShapeRendering.name = ブラシブロック描画
+settings.BrushShapeRendering.description = ブラシのプレビュー描画をワイヤーフレームとブロックスタイルで切り替えます
+settings.FlightSpeedMultiplier.description = 飛行・移動速度を調整します
+settings.BrushSoundVolume.description = ブラシツールの効果音の音量を調整します
+settings.HideHud.description = すべてのHUD要素を非表示にします
+settings.HideHotbar.description = クリエイティブモード中にホットバーを非表示にします
+settings.HideCompass.description = クリエイティブモード中にコンパスを非表示にします
+settings.HideNotifications.description = クリエイティブモード中に通知を非表示にします
+settings.HideChat.description = クリエイティブモード中にチャットウィンドウを非表示にします
+settings.HideHeldItem.description = クリエイティブモード中に手持ちアイテムを非表示にします
+settings.ShowEntityMarkers.description = クリエイティブモード中にエンティティマーカーを表示します
+settings.Fullbright.description = フルブライトモードを有効にし、光レベルに関わらずすべてのブロックを完全に明るくします
+panel.settings = 設定
+panel.brushes = ブラシ
+panel.brushSettings = ブラシ
+panel.generalSettings = 全般設定
+panel.maskSettings = マスク設定
+panel.quickSettings = 設定
+quickSettings.title = クリエイティブモードのクイック設定
+panel.clearSelection = 選択を解除
+panel.enableEmptyFilter = 「空」フィルターを有効にする
+panel.invertEntireMask = マスク全体を反転
+panel.useCustomMaskCommandEntry = カスタムマスクコマンド入力を使用
+replace.materialsToReplace = 置き換えるマテリアル:
+replace.replaceWith = 置き換え先:
+legend.title = 凡例
+legend.pickMaterial = マテリアルを取得
+legend.setMask = マスクとして設定
+legend.addMask = マスクに追加
+legend.changeHeight = 形状の高さを変更
+legend.changeWidth = 形状の幅を変更
+legend.changeRotation = 回転方向を変更
+legend.favoriteMaterials = お気に入りマテリアル
+legend.selectedMaterial = 選択中のマテリアル
+legend.shiftFasterChange = Shiftを押しながらで素早く変更
+legend.undo = 元に戻す
+legend.redo = やり直す
+legend.addRemoveFavorite = お気に入りマテリアルの追加/削除
 legend.alt = Alt +
 legend.shiftalt = Shift + Alt +
 legend.shift = Shift +
-legend.ScriptedBrushPage.Title = [TMP] Scriptable Brushes
-legend.ScriptedBrushPage.Description = [TMP] This is a brush made in the Node Editor without any coding. If you want to make your own brush like this one, you can:
-legend.ScriptedBrushPage.ToolSettings = [TMP] Open the tool settings.
-legend.ScriptedBrushPage.ExampleScriptedBrush.Title = [TMP] Opening the Node Editor for Scripted Brushes:
-legend.ScriptedBrushPage.ExampleScriptedBrush.Description = [TMP] 1. Go to Assets > Asset Node Editor.\n\
-2. The Node Editor tool will pop up.\n\
-3. In the Node Editor, click on Root Node: Demo Workspace and select Scriptable Brush. If asked if you want to continue, say OK.\n\
-4. You are now in the Scriptable Brush workspace and can make a brush!
-legend.ScriptedBrushPage.NodeEditorBasics.Title = [TMP] Scriptable Brush Node Editor Basics:
-legend.ScriptedBrushPage.NodeEditorBasics.Description = [TMP] Now that you in the workspace, you can make your brush by:\n\
-- Use Right-Click to create a Node\n\
-- Use Left-Click on the bubble on the created Node and drag it to the bubble on the Root Node to connect it.\n\
-4. You are now in the Scriptable Brush workspace to start making a scripted brush!
-legend.ScriptedBrushPage.NodeEditorSavingAndTesting.Title = [TMP] Saving and Testing:
-legend.ScriptedBrushPage.NodeEditorSavingAndTesting.Description = [TMP] 1. Go to File > Save or Save As, and save it to an Asset Pack.\n\
-2. Go back to your game, and equip a Paint Brush Tool in your hand.\n\
-4. Type in chat /sb load, and go to the brush you made.\n\
-5. You can now start using your brush!
-legend.SelectTargetMaterial = [TMP] Select targeted material
-legend.AddTargetMaterial = [TMP] Add targeted material as multi-material
-legend.UndoLastBrush = [TMP] Undo last brush action
-legend.RedoLastUndo = [TMP] Redo last undone action
-legend.TipsAndTricks.Title = [TMP] Tips and Tricks
-legend.TipsAndTricks.Description = [TMP] Here are some tips and tricks for how to use this brush:
-legend.EditInventoryProperties = [TMP] Edit the brush's settings from the inventory
-legend.SettingDescription = [TMP] Below are descriptions of what each setting does for this brush:
-legend.BlockMasking = [TMP] Block Masking
-legend.BlockMaskingDescription = [TMP] Allows you to set materials to the brush that limit changes to blocks that match those materials
-legend.BlockMaskingMenuDescription = [TMP] To see all the masking options and what they do, you can:
-legend.BrushMenuMaskingTab = [TMP] Open the Brush Settings
-legend.BlockMaskingMenuTabDescription = [TMP] Open the Brush Masking Tab (near top right)
-legend.BlockMaskTarget.Title = [TMP] Mask:
-legend.BlockMaskTarget.Description = [TMP] Replace only blocks in this list
-legend.BlockMaskAbove.Title = [TMP] > Above:
-legend.BlockMaskAbove.Description = [TMP] Replace only blocks above the ones in this list
-legend.BlockMaskNot.Title = [TMP] ! Not:
-legend.BlockMaskNot.Description = [TMP] Don't replace blocks in this list
-legend.BlockMaskBelow.Title = [TMP] < Below:
-legend.BlockMaskBelow.Description = [TMP] Replace only blocks below the ones in this list
-legend.BlockMaskAdjacent.Title = [TMP] ~ Adjacent:
-legend.BlockMaskAdjacent.Description = [TMP] Replace only blocks next to the ones in this list
-legend.BlockMaskNeighbor.Title = [TMP] ^ Neighbor:
-legend.BlockMaskNeighbor.Description = [TMP] Replace only blocks touching the ones in this list
-legend.PaintBrush.Page1.Title = [TMP] Paint Brush
-legend.PaintBrush.Page1.Description = [TMP] The Paint Brush Tool allows you to place and remove blocks in different shapes, sizes, and materials
-legend.PaintBrush.Page1.DestroyBlocks = Destroy blocks where you're aiming
-legend.PaintBrush.Page1.PlaceBlocks = Place blocks where you're aiming, according to the material you've set
-legend.PaintBrush.Page1.SelectTargetMaterial = Select targeted material
-legend.PaintBrush.Page1.AddTargetMaterial = Add targeted material as multi-material
-legend.PaintBrush.Page1.UndoLastBrush = Undo last brush action
-legend.PaintBrush.Page1.RedoLastUndo = Redo last undone action
-legend.PaintBrush.Page1.EditInventoryProperties = Edit materials, size, shape, and other properties from the inventory
-legend.PaintBrush.Page1.AirPlacementTitle = Air Placement
-legend.PaintBrush.Page1.AirPlacementHotkey = Toggle Air Placement targeting mode
-legend.PaintBrush.Page1.AirPlacementDistanceChange = Change distance of air placement
-legend.PaintBrush.Page2.AxisLock = Axis Lock
-legend.PaintBrush.Page2.AxisLockDescription = Allows you to stick the brush to a flat, moveable, rotateable surface. The following hotkeys allow you to show, edit, and exit the surface mode.
-legend.PaintBrush.Page2.ShowSurfaceMoveTool = Show Surface Move Tool
-legend.PaintBrush.Page2.ShowSurfaceRotationTool = Show Surface Rotation Tool
-legend.PaintBrush.Page2.UseBrush = Use Brush
-legend.PaintBrush.Page2.ExitAxisLockMode = Exit Axis Lock mode
-legend.CaveBrush.Page1.Title = [TMP] Cave Brush
-legend.CaveBrush.Page1.Description = [TMP] The Cave Brush Tool allows you to make caves and ravines.
-legend.CaveBrush.Page1.DecorateArea = [TMP] Add cave decorations where you're aiming
-legend.CaveBrush.Page1.ShapeArea = [TMP] Sculpt the cave area where you're aiming
-legend.CaveBrush.Page2.BlockTip.Title = [TMP] Customizing a Cave:
-legend.CaveBrush.Page2.BlockTip.Description = [TMP] You can customize what blocks the cave is made out of by dragging and dropping blocks from the inventory into the settings.\n\nYou can also remove blocks by double-clicking on blocks in the setting.
-legend.CaveBrush.Page2.Example1.Title = [TMP] Making and Decorating a Cave:
-legend.CaveBrush.Page2.Example1.Description = [TMP] 1. Look at the ground, the side of a mountain, or a solid chunk of land.\n\
-2. Hold down the sculpt key, usually Right-Click, to start sculpting the shape of the cave.\n\
-3. In the sculpted cave, look at the floor and hold down the decorate key, usually Left-Click, to add decorations.\n\
-4. In the sculpted cave, look at the ceiling and hold down the decorate key, usually Left-Click, to add decorations.\n\
-5. You now have a cave with decorations!
-legend.CaveBrush.Page3.Title = [TMP] Settings (1/2)
-legend.CaveBrush.Page3.CaveBlocks.Title = [TMP] Cave Blocks:
-legend.CaveBrush.Page3.CaveBlocks.Description = [TMP] - The blocks to make the cave out of.
-legend.CaveBrush.Page3.CaveBlockDecorations.Title = [TMP] Cave Block Decorations:
-legend.CaveBrush.Page3.CaveBlockDecorations.Description = [TMP] - The blocks to decorate the cave floor with on the sides of the Floor Blocks. Comes with a Density slider to control how many to place.
-legend.CaveBrush.Page3.TopDecorations.Title = [TMP] Top Decorations:
-legend.CaveBrush.Page3.TopDecorations.Description = [TMP] - The blocks to decorate the cave ceiling with. Comes with a Density slider to control how many to place.
-legend.CaveBrush.Page3.FloorBlocks.Title = [TMP] Floor Blocks:
-legend.CaveBrush.Page3.FloorBlocks.Description = [TMP] - The blocks to decorate the cave floor with. Comes with a Density slider to control how many to place.
-legend.CaveBrush.Page3.FloorDecorations.Title = [TMP] Floor Decorations:
-legend.CaveBrush.Page3.FloorDecorations.Description = [TMP] - The blocks to place as decoration on top of the Floor Blocks. Comes with a Density slider to control how many to place.
-legend.CaveBrush.Page3.OreBlocks.Title = [TMP] Ore Blocks:
-legend.CaveBrush.Page3.OreBlocks.Description = [TMP] - The ore blocks to place around the cave. Comes with a Density slider to control how many to place.
-legend.CaveBrush.Page4.Title = [TMP] Settings (2/2)
-legend.CaveBrush.Page4.Randomize.Title = [TMP] Randomize:
-legend.CaveBrush.Page4.Randomize.Description = [TMP] - When checked, makes the shape smaller or larger at random when shaping the cave.
-legend.CaveBrush.Page4.MeltStrength.Title = [TMP] Melt Strength:
-legend.CaveBrush.Page4.MeltStrength.Description = [TMP] - Controls the carving strength of the brush. Higher = removes more blocks, Lower = removes less blocks.
-legend.CaveBrush.Page4.SmoothStrength.Title = [TMP] Smooth Strength:
-legend.CaveBrush.Page4.SmoothStrength.Description = [TMP] - Controls the smoothing strength of the brush. Higher = more smooth, Lower = less smooth.
-legend.BoulderBrush.Page1.Title = [TMP] Boulder Brush
-legend.BoulderBrush.Page1.Description = [TMP] The Boulder Brush Tool allows you to make boulders and rock formations.
-legend.BoulderBrush.Page1.DecorateArea = [TMP] Decorate the boulder where you're aiming
-legend.BoulderBrush.Page1.ShapeArea = [TMP] Place a boulder where you're aiming
-legend.BoulderBrush.Page2.BlockTip.Title = [TMP] Customizing a Boulder:
-legend.BoulderBrush.Page2.BlockTip.Description = [TMP] You can customize what blocks the boulder is made out of by dragging and dropping blocks from the inventory into the settings.\n\nYou can also remove blocks by double-clicking on blocks in the setting.
-legend.BoulderBrush.Page2.Example1.Title = [TMP] Making and Decorating a Boulder:
-legend.BoulderBrush.Page2.Example1.Description = [TMP] 1. Look at the ground.\n\
-2. Press the place key, usually Right-Click, to place a boulder\n\
-3. Change the Origin to Center.\n\
-4. Look at the boulder and press the decorate key, usually Left-Click, to add decorations.\n\
-5. You now have a boulder with decorations!
-legend.BoulderBrush.Page3.Title = [TMP] Settings (1/2)
-legend.BoulderBrush.Page3.RockBlocks.Title = [TMP] Rock Blocks:
-legend.BoulderBrush.Page3.RockBlocks.Description = [TMP] - The blocks to make the boulder out of.
-legend.BoulderBrush.Page3.TopBlocks.Title = [TMP] Top Blocks:
-legend.BoulderBrush.Page3.TopBlocks.Description = [TMP] - The blocks to decorate the top of the boulder. Comes with a Density slider to control how many to place.
-legend.BoulderBrush.Page3.TopDecor.Title = [TMP] Top Decor:
-legend.BoulderBrush.Page3.TopDecor.Description = [TMP] - The blocks to place on top of the Top Blocks. Comes with a Density slider to control how many to place.
-legend.BoulderBrush.Page3.RockDecor.Title = [TMP] Rock Decor:
-legend.BoulderBrush.Page3.RockDecor.Description = [TMP] - The blocks to place on top of the Rock Blocks. Comes with a Density slider to control how many to place.
-legend.BoulderBrush.Page3.BoulderPoints.Title = [TMP] Boulder Points:
-legend.BoulderBrush.Page3.BoulderPoints.Description = [TMP] - The number of sub-boulders to use to make the boulder. The sub-boulders can be spaced with Boulder Radius to make one boulder, or a group of boulders.
-legend.BoulderBrush.Page3.BoulderRadius.Title = [TMP] Boulder Radius:
-legend.BoulderBrush.Page3.BoulderRadius.Description = [TMP] - Controls the spacing between the Boulder Points. This can be used to make the boulder wider, or create a group of boulders.
-legend.BoulderBrush.Page4.Title = [TMP] Settings (2/2)
-legend.BoulderBrush.Page4.Randomization.Title = [TMP] Randomization:
-legend.BoulderBrush.Page4.Randomization.Description = [TMP] - Controls how random the boulder looks. Higher = more random, Lower = less random.
-legend.BoulderBrush.Page4.Smoothness.Title = [TMP] Smoothness:
-legend.BoulderBrush.Page4.Smoothness.Description = [TMP] - Controls how smooth the boulder is. Higher = more smooth, Lower = less smooth.
-legend.BoulderBrush.Page4.StackSize.Title = [TMP] Stack Size (Advanced):
-legend.BoulderBrush.Page4.StackSize.Description = [TMP] - Controls how many times to stack the boulder using it's Width. This is a different way to shape boulders. The boulder will place the current shape down, move it up by the Height, decrease the Width, and place again and keep doing this.
-legend.BoulderBrush.Page4.StackRandomization.Title = [TMP] Stack Randomization (Advanced):
-legend.BoulderBrush.Page4.StackRandomization.Description = [TMP] - The randomization between the height layers of the boulder. Higher = more random, Lower = less random.
-legend.BoulderBrush.Page4.StackTip.Title = [TMP] Advanced Settings Tip:
-legend.BoulderBrush.Page4.StackTip.Description = [TMP] - To see how the Stack Size and Stack Randomization work, turn Smoothness to 0, Shape to Cube, Stack Size to above 0, and try out different Width and Heights.
-legend.BuildingBrush.Page1.Title = [TMP] Building Brush
-legend.BuildingBrush.Page1.Description = [TMP] The Building Brush Tool allows you to make buildings and form structures.
-legend.BuildingBrush.Page1.ShapeArea = [TMP] Place a building where you're aiming
-legend.BuildingBrush.Page2.BlockTip.Title = [TMP] Customizing a Building:
-legend.BuildingBrush.Page2.BlockTip.Description = [TMP] You can customize what blocks the building is made out of by dragging and dropping blocks from the inventory into the settings.\n\nYou can also remove blocks by double-clicking on blocks in the setting.
-legend.BuildingBrush.Page2.Example1.Title = [TMP] Making a Tower with Windows:
-legend.BuildingBrush.Page2.Example1.Description = [TMP] 1. Use the settings to make Width and Height to what you want.\n\
-2. Change the Number of Floors to how many floors you want the tower to have.\n\
-3. Change the Number of Windows to how many windows you want, and change the Window Radius so that the windows are placed properly in the wall. Windows take trial and error currently to get them placed properly in the wall.\n\
-4. Change the Roof settings to be what you want.\n\
-5. Press the place key, usually Right-Click, to place the building.\n\
-6. You now have a tower!
-legend.BuildingBrush.Page3.Title = [TMP] Settings
-legend.BuildingBrush.Page3.MainBlock.Title = [TMP] Main Block:
-legend.BuildingBrush.Page3.MainBlock.Description = [TMP] - The main blocks to make the building out of.
-legend.BuildingBrush.Page3.SecondaryBlock.Title = [TMP] Secondary Block:
-legend.BuildingBrush.Page3.SecondaryBlock.Description = [TMP] - The blocks used as decoration across the center of the walls of the building.
-legend.BuildingBrush.Page3.FloorBlock.Title = [TMP] Floor Block:
-legend.BuildingBrush.Page3.FloorBlock.Description = [TMP] - The blocks used for the floors in the building.
-legend.BuildingBrush.Page3.EnableWindows.Title = [TMP] Enable Windows:
-legend.BuildingBrush.Page3.EnableWindows.Description = [TMP] - Enables windows to be placed on the building.
-legend.BuildingBrush.Page3.WindowRadius.Title = [TMP] Window Radius:
-legend.BuildingBrush.Page3.WindowRadius.Description = [TMP] - The radius of where the windows should be placed. This setting may take playing around with to get it right.
-legend.BuildingBrush.Page3.EnableRoof.Title = [TMP] Enable Roof:
-legend.BuildingBrush.Page3.EnableRoof.Description = [TMP] - Enables the roof to be placed on the building. Turning off the roof is good for making walls.
-legend.DecorationBrush.Page1.Title = [TMP] Decoration Brush
-legend.DecorationBrush.Page1.Description = [TMP] The Decoration Brush Tool allows you to paint decoration.
-legend.DecorationBrush.Page1.DecorateArea = [TMP] Clear blocks that match the blocks in Blocks to Clear.
-legend.DecorationBrush.Page1.ShapeArea = [TMP] Paint the decorations where you're aiming
-legend.DecorationBrush.Page2.BlockTip.Title = [TMP] Customizing the Decorations:
-legend.DecorationBrush.Page2.BlockTip.Description = [TMP] You can customize what blocks are used for the decorations by dragging and dropping blocks from the inventory into the settings.\n\nYou can also remove blocks by double-clicking on blocks in the setting.
-legend.DecorationBrush.Page2.Example1.Title = [TMP] Clearing an area and adding ground decorations:
-legend.DecorationBrush.Page2.Example1.Description = [TMP] 1. Find an area you want to add decorations.\n\
-2. Hold down the clearing key, usually Left-Click, to remove blocks from the area.\n\
-3. Open the settings and add any decorations you want into the settings.\n\
-4. Hold down the painting key, usually Right-Click, to paint the decorations on the area.\n\
-5. You have now decorated the area!
-legend.DecorationBrush.Page3.Title = [TMP] Settings
-legend.DecorationBrush.Page3.BlocksToClear.Title = [TMP] Blocks to Clear:
-legend.DecorationBrush.Page3.BlocksToClear.Description = [TMP] - The blocks to clear when using the clear blocks key, usually Left-Click.
-legend.DecorationBrush.Page3.FloorBlocks.Title = [TMP] Floor Blocks:
-legend.DecorationBrush.Page3.FloorBlocks.Description = [TMP] - The blocks to decorate with. Comes with a Density slider to control how many to place.
-legend.DecorationBrush.Page3.DecorationBlocks.Title = [TMP] Decoration Blocks:
-legend.DecorationBrush.Page3.DecorationBlocks.Description = [TMP] - The blocks to place on top of Floor Blocks. Comes with a Density slider to control how many to place.
-legend.ForestBrush.Page1.Title = [TMP] Forest Brush
-legend.ForestBrush.Page1.Description = [TMP] The Forest Brush Tool allows you to make forests and leafy brush.
-legend.ForestBrush.Page1.DecorateArea = [TMP] Add the selected decorations type where you're aiming
-legend.ForestBrush.Page1.ShapeArea = [TMP] Paints the ground where you're aiming
-legend.ForestBrush.Page2.BlockTip.Title = [TMP] Customizing a Forest:
-legend.ForestBrush.Page2.BlockTip.Description = [TMP] You can customize what blocks the forest is made out of by dragging and dropping blocks from the inventory into the settings.\n\nYou can also remove blocks by double-clicking on blocks in the setting.
-legend.ForestBrush.Page2.Example1.Title = [TMP] Making and Decorating a Forest:
-legend.ForestBrush.Page2.Example1.Description = [TMP] 1. Look at the area where you want to make the forest.\n\
-2. Hold down the paint ground key, usually Right-Click, to start painting the forest floor.\n\
-3. Add ground decorations by changing the type to Foliage, and adding the blocks you want to use for plants in the Foliage Blocks.\n\
-4. Hold down the decorate key, usually Left-Click, to place the foliage decorations.\n\
-5. Add trees by changing the type to Trees.\n\
-6. Hold down the decorate key, usually Left-Click, to place the trees.\n\
-5. You now have a forest!
-legend.ForestBrush.Page3.Title = [TMP] Settings
-legend.ForestBrush.Page3.NumDecorations.Title = [TMP] # of Decorations:
-legend.ForestBrush.Page3.NumDecorations.Description = [TMP] - The number of decorations to place. Only applies when the Decoration Types is set to Trees or Boulders.
-legend.ForestBrush.Page3.DecorationSpacing.Title = [TMP] Decoration Spacing:
-legend.ForestBrush.Page3.DecorationSpacing.Description = [TMP] - The spacing between decorations to be placed. Only applies when the Decoration Types is set to Trees or Boulders.
-legend.ForestBrush.Page3.FloorBlocks.Title = [TMP] Floor Blocks:
-legend.ForestBrush.Page3.FloorBlocks.Description = [TMP] - The blocks to decorate the forest floor with. Comes with a Density slider to control how many to place.
-legend.ForestBrush.Page3.FloorOutlineBlocks.Title = [TMP] Floor Outline Blocks:
-legend.ForestBrush.Page3.FloorOutlineBlocks.Description = [TMP] - The blocks to decorate the outline of the forest floor with. Comes with a Density slider to control how many to place.
-legend.ForestBrush.Page3.FloorPatchBlocks.Title = [TMP] Floor Patch Blocks:
-legend.ForestBrush.Page3.FloorPatchBlocks.Description = [TMP] - The blocks to place randomly throughout the forest floor for decoration. Comes with a Density slider to control how many to place.
-legend.ForestBrush.Page3.FoliageBlocks.Title = [TMP] Foliage Blocks:
-legend.ForestBrush.Page3.FoliageBlocks.Description = [TMP] - The blocks to use for foliage on the forest floor. Comes with a Density slider to control how many to place. Only applies when the Decoration Types is set to Foliage.
-legend.MountainBrush.Page1.Title = [TMP] Mountain Brush
-legend.MountainBrush.Page1.Description = [TMP] The Mountain Brush Tool allows you to sculpt mountains and terrain.
-legend.MountainBrush.Page1.ShapeArea = [TMP] Sculpt a mountain where you're aiming
-legend.MountainBrush.Page2.BlockTip.Title = [TMP] Customizing a Mountain:
-legend.MountainBrush.Page2.BlockTip.Description = [TMP] You can customize what blocks the mountain is made out of by dragging and dropping blocks from the inventory into the settings.\n\nYou can also remove blocks by double-clicking on blocks in the setting.
-legend.MountainBrush.Page2.Example1.Title = [TMP] Making a Mountain:
-legend.MountainBrush.Page2.Example1.Description = [TMP] 1. Look at the ground.\n\
-2. Customize the blocks to use for the mountain by placing blocks in the Layer settings.\n\
-3. Hold down the sculpt key, usually Right-Click, to start sculpting the shape of the mountain.\n\
-4. You now can sculpt mountains!
-legend.MountainBrush.Page2.Example2.Title = [TMP] Making a Valley:
-legend.MountainBrush.Page2.Example2.Description = [TMP] 1. Look at the ground.\n\
-2. Change the Number of Points to 1, and Point Spacing to above 40.\n\
-3. Hold down the sculpt key, usually Right-Click, to start sculpting. Notice that you now have 2 places where the terrain is being formed.\n\
-4. Sculpt in a straight line moving up and down to build up a cliff on both sides.\n\
-5. You now can sculpt a valley! This ability can also be used to make multiple mountains or details in the mountains at the same time.
-legend.MountainBrush.Page3.Title = [TMP] Settings
-legend.MountainBrush.Page3.TopLayer.Title = [TMP] Top Layer:
-legend.MountainBrush.Page3.TopLayer.Description = [TMP] - The blocks that will be on the top of the terrain.
-legend.MountainBrush.Page3.MiddleLayer.Title = [TMP] Middle Layer:
-legend.MountainBrush.Page3.MiddleLayer.Description = [TMP] - The blocks that will be in the middle of the terrain.
-legend.MountainBrush.Page3.BottomLayer.Title = [TMP] Bottom Layer:
-legend.MountainBrush.Page3.BottomLayer.Description = [TMP] - The blocks that will be on the bottom of the terrain.
-legend.MountainBrush.Page3.NumberOfPoints.Title = [TMP] Number of Points:
-legend.MountainBrush.Page3.NumberOfPoints.Description = [TMP] - The number of points to use to sculpt the mountains.
-legend.MountainBrush.Page3.PointSpacing.Title = [TMP] Point Spacing:
-legend.MountainBrush.Page3.PointSpacing.Description = [TMP] - The spacing between the Number of Points used to sculpt the mountain.
-legend.MountainBrush.Page3.Smoothness.Title = [TMP] Smoothness:
-legend.MountainBrush.Page3.Smoothness.Description = [TMP] - Controls how smooth the sculpted terrain will be. Higher = more smooth, lower = less smooth
-legend.PathBrush.Page1.Title = [TMP] Path Brush
-legend.PathBrush.Page1.Description = [TMP] The Path Brush Tool allows you to make paths.
-legend.PathBrush.Page1.DecorateArea = [TMP] Adds half-blocks near level changes to make the path smoother
-legend.PathBrush.Page1.ShapeArea = [TMP] Draw a path where you're aiming
-legend.PathBrush.Page2.BlockTip.Title = [TMP] Customizing a Path:
-legend.PathBrush.Page2.BlockTip.Description = [TMP] You can customize what blocks the path is made out of by dragging and dropping blocks from the inventory into the settings.\n\nYou can also remove blocks by double-clicking on blocks in the setting.
-legend.PathBrush.Page2.Example1.Title = [TMP] Making a Path:
-legend.PathBrush.Page2.Example1.Description = [TMP] 1. Look at the ground.\n\
-2. Customize the blocks to use for the path by placing blocks in the settings.\n\
-3. Hold down the draw key, usually Right-Click, to start drawing the path.\n\
-4. Hold down the half-block key, usually Left-Click, to place down half-blocks near un-level area to make them smoother.\n\
-6. You now have a path with decorations!
-legend.PathBrush.Page3.Title = [TMP] Settings
-legend.PathBrush.Page3.PathBlocks.Title = [TMP] Path Blocks:
-legend.PathBrush.Page3.PathBlocks.Description = [TMP] - The main blocks the path will be made out of. Comes with a Density slider to control how many to place.
-legend.PathBrush.Page3.OutlineBlocks.Title = [TMP] Outline Blocks:
-legend.PathBrush.Page3.OutlineBlocks.Description = [TMP] - The blocks to place on the outline of the path. Comes with a Density slider to control how many to place. Comes with a Width slider to control how wide it will be.
-legend.PathBrush.Page3.DecorationBlocks.Title = [TMP] Decoration Blocks:
-legend.PathBrush.Page3.DecorationBlocks.Description = [TMP] - The blocks to add as decorations along the path. Comes with a Density slider to control how many to place. Comes with a Width slider to control how wide it will be.
-legend.PathBrush.Page3.HalfBlocks.Title = [TMP] Half-Blocks on Path:
-legend.PathBrush.Page3.HalfBlocks.Description = [TMP] - The half-blocks to be placed near un-level areas to make them smoother.
-legend.RiverBrush.Page1.Title = [TMP] River Brush
-legend.RiverBrush.Page1.Description = [TMP] The River Brush Tool allows you to make rivers and oceans.
-legend.RiverBrush.Page1.DecorateArea = [TMP] Adds decorations where you're aiming
-legend.RiverBrush.Page1.ShapeArea = [TMP] Draw a river where you're aiming
-legend.RiverBrush.Page2.BlockTip.Title = [TMP] Customizing a River:
-legend.RiverBrush.Page2.BlockTip.Description = [TMP] You can customize what blocks the river is made out of by dragging and dropping blocks from the inventory into the settings.\n\nYou can also remove blocks by double-clicking on blocks in the setting.
-legend.RiverBrush.Page2.Example1.Title = [TMP] Making a River/Waterfall:
-legend.RiverBrush.Page2.Example1.Description = [TMP] 1. Look at a surface.\n\
-2. Customize the blocks to use for the river by placing blocks in the settings.\n\
-3. Hold down the draw key, usually Right-Click, to start drawing the river.\n\
-4. Hold down the decoration key, usually Left-Click, to place down decorations on the side of the river, under the water, and on top of the water.\n\
-5. You now have a river, and or waterfall!
-legend.RiverBrush.Page3.Title = [TMP] Settings
-legend.RiverBrush.Page3.FluidMaterial.Title = [TMP] Fluid Material:
-legend.RiverBrush.Page3.FluidMaterial.Description = [TMP] - The fluid material the river will be made out of.
-legend.RiverBrush.Page3.SurfaceBlocks.Title = [TMP] Blocks above Fluid:
-legend.RiverBrush.Page3.SurfaceBlocks.Description = [TMP] - The blocks to place on the side and under the fluid of the river. Comes with a Density slider to control how many to place. Comes with a Width slider to control how wide it will be.
-legend.RiverBrush.Page3.SubsurfaceBlocks.Title = [TMP] Blocks under Fluid:
-legend.RiverBrush.Page3.SubsurfaceBlocks.Description = [TMP] - The blocks to place under the fluid of the river. Comes with a Density slider to control how many to place.
-legend.RiverBrush.Page3.UnderDecorations.Title = [TMP] Decorations under Fluid:
-legend.RiverBrush.Page3.UnderDecorations.Description = [TMP] - The decorations to under the fluid. Comes with a Density slider to control how many to place.
-legend.RiverBrush.Page3.SideDecorations.Title = [TMP] Decorations on side of Fluid:
-legend.RiverBrush.Page3.SideDecorations.Description = [TMP] - The decorations to add on the side of the river. Comes with a Density slider to control how many to place.
-legend.RiverBrush.Page3.TopDecorations.Title = [TMP] Decorations on top of the Fluid:
-legend.RiverBrush.Page3.TopDecorations.Description = [TMP] - The decorations to add on the top of the river. Comes with a Density slider to control how many to place.
-legend.SpiralBrush.Page1.Title = [TMP] Spiral Brush
-legend.SpiralBrush.Page1.Description = [TMP] The Spiral Brush Tool allows you to make spirals and circular patterns.
-legend.SpiralBrush.Page1.ShapeArea = [TMP] Place a spiral where you're aiming
-legend.SpiralBrush.Page2.BlockTip.Title = [TMP] Customizing a Spiral:
-legend.SpiralBrush.Page2.BlockTip.Description = [TMP] You can customize what blocks the spiral is made out of by dragging and dropping blocks from the inventory into the settings.\n\nYou can also remove blocks by double-clicking on blocks in the setting.
-legend.SpiralBrush.Page2.Example1.Title = [TMP] Making a Custom Spiral:
-legend.SpiralBrush.Page2.Example1.Description = [TMP] 1. Look at a surface.\n\
-2. Customize the blocks to use for the spiral by placing blocks in the settings.\n\
-3. Change the Number of Points to be what you need. Higher = more points in the spiral, Lower = less points in the spiral.\n\
-4. Change the Radius to be 15. This will make it wide enough to see what the tool does.\n\
-5. If you want a spiral going upward, change the Vertical Spacing to be higher than 0.\n\
-6. Change which way the spiral is drawn by checking the Flip, Rotate Direction, or Invert Direction boxes.\n\
-7. You can also add smoothing to the spiral by changing the Smoothness to be higher than 0.\n\
-8. You can also choose to Hollow Center to make the center of the spiral made of air.\n\
-9. You now have a spiral!
-legend.SpiralBrush.Page3.Title = [TMP] Settings
-legend.SpiralBrush.Page3.NumberPoints.Title = [TMP] Number of Points:
-legend.SpiralBrush.Page3.NumberPoints.Description = [TMP] - The number of points on the spiral.
-legend.SpiralBrush.Page3.Radius.Title = [TMP] Radius:
-legend.SpiralBrush.Page3.Radius.Description = [TMP] - The radius of the spiral, which is how wide it will be.
-legend.SpiralBrush.Page3.VerticalSpacing.Title = [TMP] Vertical Spacing:
-legend.SpiralBrush.Page3.VerticalSpacing.Description = [TMP] - How far apart each point in the spiral is from each other, which is how tall it will be.
-legend.SpiralBrush.Page3.Flip.Title = [TMP] Flip
-legend.SpiralBrush.Page3.Flip.Description = [TMP] - Flips the order the spiral is drawn.
-legend.SpiralBrush.Page3.RotateDirection.Title = [TMP] Rotate Direction
-legend.SpiralBrush.Page3.RotateDirection.Description = [TMP] - Rotates the spiral 180 degrees.
-legend.SpiralBrush.Page3.InvertDirection.Title = [TMP] Invert Direction
-legend.SpiralBrush.Page3.InvertDirection.Description = [TMP] - Inverts the direction the spiral is drawn.
-legend.SpiralBrush.Page3.Smoothness.Title = [TMP] Smoothness
-legend.SpiralBrush.Page3.Smoothness.Description = [TMP] - Controls how smooth the spiral will be. Higher = more smooth, Lower = less smooth.
-legend.SpiralBrush.Page3.HollowCenter.Title = [TMP] Hollow Center
-legend.SpiralBrush.Page3.HollowCenter.Description = [TMP] - If enabled replaces the center of the spiral with air from where you clicked.
-legend.RevolveTool.Page1.Title = [TMP] Revolve Tool
-legend.RevolveTool.Page1.Description = [TMP] The Revolve Tool allows you to rotate and paste, a selection. This tool will only work if a selection has been made.
-legend.RevolveTool.Page1.ShapeArea = [TMP] Does the revolve. Depending on what settings you are using, it will do the revolve around where you are aiming, or yourself.
-legend.RevolveTool.Page2.Example1.Title = [TMP] Revolving with the Brush:
-legend.RevolveTool.Page2.Example1.Description = [TMP] 1. Make a selection that you want to have revolved.\n\
-2. Equip the Revolve Tool.\n\
-3. Set settings to what you want.\n\
-4. Aim the brush to where you want the selection to be revolved around.\n\
-5. Press the revolve key, usually Right-Click.\n\
-6. You now have revolved your selection!
-legend.RevolveTool.Page2.Example2.Title = [TMP] Making a Full Circle around Yourself:
-legend.RevolveTool.Page2.Example2.Description = [TMP] 1. Make a selection that you want to have revolved.\n\
-2. Equip the Revolve Tool.\n\
-3. Set the Fully Revolve setting to checked, and change the Target to Player (Self).\n\
-4. Move yourself so you are some blocks away from your selection.\n\
-5. Press the revolve key, usually Right-Click.\n\
-6. You now fully revolved the selection around yourself!
-legend.RevolveTool.Page3.Title = [TMP] Settings
-legend.RevolveTool.Page3.Sampling.Title = [TMP] Fill Strategy:
-legend.RevolveTool.Page3.Sampling.Description = [TMP] - The strategy to fill holes in the revolve. Revolving can sometimes leave holes, this will attempt to fill those holes.
-legend.RevolveTool.Page3.FullyRevolve.Title = [TMP] Fully Revolve:
-legend.RevolveTool.Page3.FullyRevolve.Description = [TMP] - Will revolve the selection entirely in a circle. This will ignore the Place Count and entirely revolve the selection.
-legend.RevolveTool.Page3.PlaceCount.Title = [TMP] Paste Count:
-legend.RevolveTool.Page3.PlaceCount.Description = [TMP] - Controls how many times to paste the selection in the revolve. For example, if this set to 5 then the selection will paste 5 times.
-legend.RevolveTool.Page3.CenterAround.Title = [TMP] Center Around:
-legend.RevolveTool.Page3.CenterAround.Description = [TMP] - Controls the target to revolve around. Brush Target = revolve around where the brush is aimed, Player (Self) = revolves around where you are.
-legend.RevolveTool.Page3.UseCustomDistance.Title = [TMP] Use Custom Radius:
-legend.RevolveTool.Page3.UseCustomDistance.Description = [TMP] - Pastes and revolves the selection where aimed, and uses Custom Radius to control the spacing from the center.
-legend.RevolveTool.Page3.PlaceDistance.Title = [TMP] Custom Radius:
-legend.RevolveTool.Page3.PlaceDistance.Description = [TMP] - The radius to control the spacing between the center and the revolve points. Higher = more wide, Lower = less wide.
-legend.RevolveTool.Page4.Title = [TMP] Settings (2/2)
-legend.LineBrush.Page1.Title = Line Brush
-legend.LineBrush.Page1.Description = Allows you to build straight lines of blocks
-legend.LineBrush.Page1.StartOrAddPoint = Start or add point to the line
-legend.LineBrush.Page1.CancelLine = Cancel Line
-legend.LineBrush.Page1.SnapToAngles = Hold to enable snapping to different 45° angles
-legend.LineBrush.Page1.EditInventoryProperties = Edit materials, size, and other properties from the inventory
-legend.MachinimaTool.Page1.Title = Getting Started
-legend.MachinimaTool.Page1.Description = Create keyframed animations using actors, cameras, particles, sounds, and more! Perfect for cinematics and cutscenes.
-legend.MachinimaTool.Page1.OpensMenu = Open Machinima Editor UI
-legend.MachinimaTool.Page1.BaseCommand = Base command for all machinima operations
-legend.MachinimaTool.Page1.Scenes = Scenes\n\
-A Scene is a container for your machinima. It stores all actors, keyframes, and settings.
-legend.MachinimaTool.Page1.CreatingFirstScene = Creating your first Scene\n\
-1. Find a nice spot for your machinima\n\
-2. Open the Machinima Menu\n\
-3. Click the + icon to create a new Scene\n\
-4. Add your first Actor!
-legend.MachinimaTool.Page1.Actors = Actors\n\
-An Actor is a keyframe-animatable object. See the next page for actor types.
-legend.MachinimaTool.Page1.AddingCameraActor = Adding a Camera Actor\n\
-1. Position yourself where you want the camera\n\
-2. Open the Machinima Menu\n\
-3. Click the + icon under the scene list\n\
-4. Select "Camera" from the dropdown\n\
-5. You can now click on the camera to reposition it, and press C to toggle the camera view!
-legend.MachinimaTool.Page2.Title = Actor Types
-legend.MachinimaTool.Page2.Description = Different actor types serve different purposes in your machinima. They're all animateable objects that allow you to control position, rotation, and other values. Actors are added via the Machinima Menu
-legend.MachinimaTool.Page2.CameraHeader = Camera
-legend.MachinimaTool.Page2.CameraDesc = Allows you to move a camera across paths and animate various settings such as FOV and Speed.
-legend.MachinimaTool.Page2.EntityHeader = Entity
-legend.MachinimaTool.Page2.EntityDesc = Animated characters with models. Supports body/head rotation and animation events.
-legend.MachinimaTool.Page2.PlayerHeader = Player
-legend.MachinimaTool.Page2.PlayerDesc = Similar to Entity, references the local player.
-legend.MachinimaTool.Page2.ReferenceHeader = Reference
-legend.MachinimaTool.Page2.ReferenceDesc = Invisible marker points. Useful for targeting and reference positions. Allows you to set camera targets to track the points.
-legend.MachinimaTool.Page2.ItemHeader = Item
-legend.MachinimaTool.Page2.ItemDesc = Displays items in the world. Can be positioned and animated.
-legend.MachinimaTool.Page2.AddActorCommand = Command: .mach actor add [type] [name]\n\
-Types: camera, entity, player, ref, item
-legend.MachinimaTool.Page3.Title = Playback Controls
-legend.MachinimaTool.Page3.Description = Playback controls let you preview your scene by animating all actors along their keyframe paths. Use these to scrub through time, jump between keyframes, and test your animations. Every frame will update all the actors along their keyframe paths, running the animations.
-legend.MachinimaTool.Page3.TogglePause = Toggle Play / Pause
-legend.MachinimaTool.Page3.ContinuousPlayback = Toggle Continuous Playback (loops)
-legend.MachinimaTool.Page3.AutoRestart = Toggle Auto-Restart on scene end
-legend.MachinimaTool.Page3.RestartScene = Restart Scene from beginning
-legend.MachinimaTool.Page3.EndScene = Skip to final frame
-legend.MachinimaTool.Page3.NavigationTitle = Frame Navigation:
-legend.MachinimaTool.Page3.FrameScrub = Scrub through frames (hold for continuous)
-legend.MachinimaTool.Page3.JumpKeyframe = Jump to previous / next keyframe point
-legend.MachinimaTool.Page3.SpeedModifiers = Hold SHIFT for 2x speed, ALT for 0.5x speed
-legend.MachinimaTool.Page4.Title = Keyframe Editing
-legend.MachinimaTool.Page4.Description = Keyframes define an actor's position, rotation, and settings at specific points in time. The system interpolates between keyframes to create smooth animation paths. Add keyframes to create motion, edit them to fine-tune timing and positioning.
-legend.MachinimaTool.Page4.AddKeyframe = Add new keyframe at the end of the actor's track, extending the animation
-legend.MachinimaTool.Page4.AddAtCurrentFrame = Insert a keyframe at the current playback position
-legend.MachinimaTool.Page4.CopyKeyframe = Copy selected keyframe settings to paste on another actor or frame
-legend.MachinimaTool.Page4.DeleteKeyframe = Remove the keyframe you're hovering over
-legend.MachinimaTool.Page4.EditKeyframe = Open gizmo to adjust keyframe position and rotation
-legend.MachinimaTool.Page4.MoveActor = Reposition the entire actor path as a whole
-legend.MachinimaTool.Page4.EditFrameTime = Change when this keyframe occurs in the timeline
-legend.MachinimaTool.Page4.AdjustFrameTime = Nudge keyframe timing earlier or later
-legend.MachinimaTool.Page5.Title = Mouse Interactions
-legend.MachinimaTool.Page5.Description = Click on keyframe nodes in the world to interact:
-legend.MachinimaTool.Page5.SelectKeyframe = Select keyframe (enter Free Move mode)
-legend.MachinimaTool.Page5.JumpToKeyframe = Set as active and jump to frame
-legend.MachinimaTool.Page5.GizmoTitle = Gizmo Controls:
-legend.MachinimaTool.Page5.TranslationGizmo = Open Translation Gizmo (axis-locked)
-legend.MachinimaTool.Page5.RotationGizmo = Open Rotation Gizmo (head/body)
-legend.MachinimaTool.Page5.FreeMoveTitle = Free Move Mode:
-legend.MachinimaTool.Page5.FreeMoveDescription = Left-click to confirm position, Right-click to cancel.\n\
-Hold SHIFT to snap to surfaces at distance.\n\
-Hold ALT to ignore surface snapping.
-legend.MachinimaTool.Page6.Title = Selection Modes
-legend.MachinimaTool.Page6.Description = Selection modes determine what gets moved when you use transformation tools. Choose the right mode based on what you want to reposition.
-legend.MachinimaTool.Page6.CycleMode = Cycle between selection modes
-legend.MachinimaTool.Page6.KeyframeModeTitle = Keyframe Mode (Default)
-legend.MachinimaTool.Page6.KeyframeModeDesc = Moves only the selected keyframe. Use this for precise adjustments to individual points along an actor's path without affecting other keyframes.
-legend.MachinimaTool.Page6.ActorModeTitle = Actor Mode
-legend.MachinimaTool.Page6.ActorModeDesc = Moves all keyframes for the selected actor together. The entire path shifts as one unit, preserving the shape of the animation.
-legend.MachinimaTool.Page6.SceneModeTitle = Scene Mode
-legend.MachinimaTool.Page6.SceneModeDesc = Moves the entire scene origin, shifting all actors and their paths together. Useful for relocating your whole machinima to a different area.
-legend.MachinimaTool.Page7.Title = Display & Origin
-legend.MachinimaTool.Page7.DisplayTitle = Display Toggles:
-legend.MachinimaTool.Page7.ToggleDisplay = Toggle editor overlay display
-legend.MachinimaTool.Page7.TogglePathNodes = Toggle path node visibility
-legend.MachinimaTool.Page7.ToggleCamera = Toggle camera actor on/off
-legend.MachinimaTool.Page7.ToggleFrustum = Toggle camera frustum display
-legend.MachinimaTool.Page7.OriginTitle = Scene Origin Controls:
-legend.MachinimaTool.Page7.GoToOrigin = Teleport to scene origin
-legend.MachinimaTool.Page7.SetOrigin = Set scene origin to player position
-legend.MachinimaTool.Page7.OffsetToOrigin = Offset entire scene to player position
-legend.MachinimaTool.Page8.Title = Paths & Curves
-legend.MachinimaTool.Page8.Description = Choose how keyframes are interpolated:
-legend.MachinimaTool.Page8.LinearHeader = Linear (Default)
-legend.MachinimaTool.Page8.LinearDesc = Straight lines between keyframes. Simple and predictable movement.
-legend.MachinimaTool.Page8.BezierHeader = Bezier
-legend.MachinimaTool.Page8.BezierDesc = Smooth curves with control handles you can drag to shape the path.
-legend.MachinimaTool.Page8.SplineHeader = Spline
-legend.MachinimaTool.Page8.SplineDesc = Automatic smooth curves that pass through all keyframes.
-legend.MachinimaTool.Page8.BezierCommands = Path Commands:
-legend.MachinimaTool.Page8.EnableBezier = Enable bezier
-legend.MachinimaTool.Page8.SmoothBezier = Smooth handles
-legend.MachinimaTool.Page8.EnableSpline = Enable spline
-legend.MachinimaTool.Page9.Title = Console Commands
-legend.MachinimaTool.Page9.SceneCommands = Scene: .mach scene [load | copy | rename]
-legend.MachinimaTool.Page9.ActorCommands = Actor: .mach actor [list | add | remove | set | model | move | clone | rotate | scale | clear]
-legend.MachinimaTool.Page9.EventCommands = Events: .mach event [list | add | remove]\n\
-Event types: animation, camera, command, particle, target
-legend.MachinimaTool.Page9.FileCommands = Files: .mach save | load | files | autosave [seconds]
-legend.MachinimaTool.Page9.UtilityCommands = Utility: .mach tool | speed [value] | align | restart
-legend.PasteTool.Page1.Title = Prefab Pasting Brush
-legend.PasteTool.Page1.Description = Allows you to rapidly paste prefabs as if using a brush. Supports most features of the Paintbrush.
-legend.PasteTool.Page1.LoadPrefabOrCopy = Load a prefab or copy a selection
-legend.PasteTool.Page1.UseSelectionContents = To use the contents of a selection, make a selection using the selection tool and type '/copy' then come back to the paste tool to use your copy
-legend.PasteTool.Page1.OpensPrefabList = Open the Prefab List; click a prefab to load
-legend.PasteTool.Page1.PastePrefab = Paste prefab; hold to brush prefab
-legend.PasteTool.Page1.StickPrefab = Attach the prefab to your target or detach if already attached
-legend.PasteTool.Page1.RotatePrefabY = Rotate around Y
-legend.PasteTool.Page1.RotatePrefabX = Rotate around X
-legend.PasteTool.Page1.RotatePrefabZ = Rotate around Z
-legend.PasteTool.Page1.ShowTexture = Toggle texture of blocks
-legend.PasteTool.Page1.CycleOrigin = Cycle origin (Bottom/Center/Top)
-legend.PasteTool.Page2.Title = Modifier Keys
-legend.PasteTool.Page2.ShiftPrefabLeftRight = Shift prefab left or right
-legend.PasteTool.Page2.ShiftPrefabForwardBackward = Shift prefab forward or backward
-legend.PasteTool.Page2.ShiftPrefabUp = Shift prefab up
-legend.PasteTool.Page2.ShiftPrefabDown = Shift prefab down
-legend.PasteTool.Page2.RotatePrefabLeftRight = Rotate prefab left or right
-legend.PasteTool.Page2.RollPrefabLeftRight = Roll prefab left or right
-legend.PasteTool.Page2.RollPrefabForwardBackward = Roll prefab forward or backward
-legend.PasteTool.Page2.ResetShifting = Reset shifting
-legend.PasteTool.Page2.ResetRotation = Reset rotation
-legend.TintBrush.Page1.Title = Tint Brush
-legend.TintBrush.Page1.Description = Allows you to paint or blend tints on blocks.
-legend.TintBrush.Page1.BlendTints = Blend the tints where you're aiming
-legend.TintBrush.Page1.PaintTints = Paint your color where you're aiming
-legend.TintBrush.Page1.PickColor = Copy tint from target
-legend.TintBrush.Page1.UndoLastBrush = Undo last brush action
-legend.TintBrush.Page1.RedoLastUndo = Redo last undone action
-legend.TintBrush.Page1.EditInventoryProperties = Edit color, opacity, size, shape from the inventory
-legend.SculptBrush.Page1.Title = Sculpt Brush
-legend.SculptBrush.Page1.Description = Allows you to raise and lower the terrain to more accurately sculpt and blend shapes. Supports most features of the Paintbrush.
-legend.SculptBrush.Page1.MeltAwayBlocks = Melt away blocks where you are aiming, layer by layer
-legend.SculptBrush.Page1.RaiseLayer = Raise a layer of blocks where you're aiming
-legend.SculptBrush.Page1.Smooth = Smooth rough terrain
-legend.SculptBrush.Page1.MaterialSelectedDescription = When a material is selected, places a layer of that material where you're aiming
-legend.SculptBrush.Page1.SelectTargetMaterial = Select targeted material
-legend.SculptBrush.Page1.UndoLastBrush = Undo last brush action
-legend.SculptBrush.Page1.RedoLastUndo = Redo last undone action
-legend.SculptBrush.Page1.EditInventoryProperties = Edit materials, size, shape, and other properties from the inventory
-legend.SelectionTool.Page1.Title = Basic Selections
-legend.SelectionTool.Page1.CreatingSelection = Creating a Selection:
-legend.SelectionTool.Page1.HoldAndDrag = 1. Hold and drag to select first axis, then release
-legend.SelectionTool.Page1.AdjustAndClick = 2. Adjust your mouse, then click again to set the third dimension
-legend.SelectionTool.Page1.ClearSelection = Clear Selection
-legend.SelectionTool.Page1.ClickDragPanels = Click & Drag on Selection Panels
-legend.SelectionTool.Page1.ChangeSelectionSize = Change Selection Size
-legend.SelectionTool.Page1.MoveSelection = Move Selection
-legend.SelectionTool.Page1.ExtrudeFace = Extrude Face
-legend.SelectionTool.Page1.MultipleSelections = Multiple Selections:
-legend.SelectionTool.Page1.NextSelection = Next Selection
-legend.SelectionTool.Page1.PreviousSelection = Previous Selection
-legend.SelectionTool.Page1.SetRedPoint = Set Red point to target
-legend.SelectionTool.Page1.SetGreenPoint = Set Green point to target
-legend.SelectionTool.Page2.Title = Copy / Move / Rotate
-legend.SelectionTool.Page2.WithSelectionCreated = With a selection created:
-legend.SelectionTool.Page2.ShowMoveTool = Show Move Tool
-legend.SelectionTool.Page2.AttachToCursor = Attach Selection to Cursor
-legend.SelectionTool.Page2.ShowRotationTool = Show Rotation Tool
-legend.SelectionTool.Page2.PasteAndExit = Paste and Exit
-legend.SelectionTool.Page2.DuplicatePasteContinue = Duplicate, Paste, and Continue
-legend.SelectionTool.Page2.CancelMovement = Cancel movement and rotation
-legend.SelectionTool.Page2.DuplicateSelection = Duplicate selection, then enter Move / Rotate mode
-legend.SelectionTool.Page2.UsingYourSelection = Using your Selection:
-legend.SelectionTool.Page2.CopySelection = Copy Selection
-legend.SelectionTool.Page2.CopyUsageOptions = Then use the Paste Tool (brush + preview) or '/paste' command
-legend.SelectionTool.Page2.SavingPrefabs = Saving Prefabs:
-legend.SelectionTool.Page2.SavePrefabCommand = Save selection as prefab with chat command
-legend.SelectionTool.Page2.LoadPrefabReference = See Paste Tool legend for loading prefabs via UI
-legend.SelectionTool.Page3.Title = Selection Commands
-legend.SelectionTool.Page3.BasicCommands = Basic Commands:\n\
-- /set [Sets selection to blocks]\n\
-- /clear [Clears all blocks in the selection]\n\
-- /walls [Adds walls to selection]\n\
-- /move [Moves the contents of the selection the direction you're facing]\n\
-- /undo and /redo [Undo and Redo X times]\n\
-- /copy [Copies the selection to clipboard]\n\
-- /cut [Cuts the selection to clipboard]\n\
-- /paste [Pastes clipboard at your position]\n\
-- /stack [Stacks the selection in the direction you're facing X times]\n\
-- /replace [Replace one material with another]\n\
-- /hollow [Hollows out a shape leaving the center empty]\n\
-- /flip [Mirror the blocks in the direction you're looking]\n\
-- /rotate [Rotate the selection]\n\
-- /expand [Expand the selection in the direction you're looking]\n\
-- /contract [Shrink the selection by a distance]\n\
-- /deselect [Clear the selection box]
-legend.SelectionTool.Page3.SeeHelpMenu = See the '/help' menu for more commands you can run on your selection!
-legend.RulerTool.Page1.Title = Basic Measurements
-legend.RulerTool.Page1.Description = The Ruler Tool allows you to measure distances between multiple points in 3D space, with support for multiple measurement lines.
-legend.RulerTool.Page1.PlacePoint = Place a measurement point at your target location
-legend.RulerTool.Page1.EndCurrentLine = End the current measurement line and start a new one
-legend.RulerTool.Page1.SnapToAngles = Hold to enable snapping to 45° angles for precise measurements
-legend.RulerTool.Page1.DistanceMeasurement = Distance measurements are displayed at each point and along each line segment. Lines are color-coded: Red (X-axis), Green (Y-axis), Blue (Z-axis), White (diagonal)
-legend.RulerTool.Page2.Title = Editing Points & Lines
-legend.RulerTool.Page2.PointEditing = Editing existing points:
-legend.RulerTool.Page2.MovePoint = Right-click on an existing point to pick it up and move it
-legend.RulerTool.Page2.DropPoint = Right-click again to drop the point at the new location
-legend.RulerTool.Page2.DeletePoint = Delete the hovered point
-legend.RulerTool.Page2.ClearCurrentLine = Clear all points from the current line
-legend.RulerTool.Page2.ClearAllLines = Clear all lines and reset the tool
-legend.RulerTool.Page3.Title = Multiple Measurement Lines
-legend.RulerTool.Page3.Description = The Ruler Tool supports creating and managing multiple separate measurement lines. Each line is tracked independently and can be edited separately.
-legend.RulerTool.Page3.NextLine = Switch to the next measurement line
-legend.RulerTool.Page3.PreviousLine = Switch to the previous measurement line
-legend.RulerTool.Page3.SwitchToLine = Left-click on a point from another line to switch to that line
-legend.RulerTool.Page3.WorkflowTip = Tip: After placing points on one line, left-click to finish it and automatically start a new line. Inactive lines are displayed with reduced opacity.
-legend.SelectPrefabTool.Page1.Title = Prefab Selector
-legend.SelectPrefabTool.Page1.Description = The prefab editor creates a temporary environment for editing prefabs and saving them again. If you leave the prefab editor without saving, your changes will be lost.
-legend.SelectPrefabTool.Page1.SelectingPrefabs = Selecting Prefabs:
-legend.SelectPrefabTool.Page1.SelectPrefab = Select a prefab by clicking its anchor
-legend.SelectPrefabTool.Page1.UnselectPrefab = Unselect the currently selected prefab
-legend.SelectPrefabTool.Page1.EditingPrefabs = Editing Prefabs:
-legend.SelectPrefabTool.Page1.OpenSaveUI = Open the save/settings UI
-legend.SelectPrefabTool.Page1.UpdateBoundingBox = Update the selected prefab's bounding box to your current selection
-legend.SelectPrefabTool.Page1.TeleportToPrefab = Open teleport to prefab UI
-legend.SelectPrefabTool.Page1.QuickAccess = Quick Access:
-legend.SelectPrefabTool.Page1.SwitchWorlds = Go back to last world
-legend.SelectPrefabTool.Page1.SetAnchor = Set the anchor point at the position you are looking at
-legend.SelectPrefabTool.Page1.UsefulCommands = Useful Commands:
-legend.SelectPrefabTool.Page1.KillCommand = /pedit kill - Removes all entities from the selected prefab\n\
-/pedit exit - Exits the prefab editor without saving changes
-tools.Paste.args.Origin.name = Origin
-tools.Paste.args.Origin.values.Anchor = Anchor
-tools.Paste.args.Origin.values.Bottom = Bottom
-tools.Paste.args.Origin.values.Center = Center
-tools.Paste.args.Origin.values.Top = Top
-legend.EntityTool.Page1.Title = Entity Tool
-legend.EntityTool.Page1.Description = Spawn NPCs and models of items, blocks, and creatures. Select, move, rotate, and scale entities in your world.
-legend.EntityTool.Page1.SelectingEntities = Selecting Entities:
-legend.EntityTool.Page1.SelectEntity = Select/grab entity
-legend.EntityTool.Page1.FreeMove = Free move entity (hold and drag)
-legend.EntityTool.Page1.CancelMovement = Cancel movement and revert position
-legend.EntityTool.Page1.AdjustDistance = Adjust entity distance
-legend.EntityTool.Page2.Title = Transform Modes
-legend.EntityTool.Page2.TransformModes = Transform Modes:
-legend.EntityTool.Page2.TranslateMode = Enter movement mode
-legend.EntityTool.Page2.RotateMode = Enter rotation mode
-legend.EntityTool.Page2.RotateHeadMode = Enter head rotation mode
-legend.EntityTool.Page2.FreeMoveMode = Attach to cursor
-legend.EntityTool.Page2.Scale = Scale selected entity
-legend.EntityTool.Page3.Title = Actions
-legend.EntityTool.Page3.EntityActions = Entity Actions:
-legend.EntityTool.Page3.Clone = Clone selected entity
-legend.EntityTool.Page3.Remove = Remove selected entity
-legend.EntityTool.Page3.Freeze = Toggle entity freeze
-legend.EntityTool.Page3.MovementOptions = Movement Options:
-legend.EntityTool.Page3.SurfaceLock = Toggle surface lock mode
-legend.EntityTool.Page3.SpawnUI = Spawn UI:
-legend.EntityTool.Page3.OpenSpawnUI = Open Entity Spawn UI
-panel.selectedEntity = Selected Entity
-panel.entitySettings = Entity Tool Settings
-panel.noSelection = No entity selected
-panel.entityType = Type
-panel.entityModel = Model
-panel.entityName = Name
-panel.entityPosition = Position
-panel.entityRotation = Rotation
-panel.entityScale = Scale
-panel.entityAllowPickup = Allow Pickup
-panel.entityCollision = Collision
-panel.collisionType.none = None
-panel.collisionType.soft = Soft
-panel.collisionType.hard = Hard
-panel.entityClone = Clone
-panel.entityRemove = Remove
-panel.entityPin = Pin Entity
-panel.entityUnpin = Unpin Entity
-panel.surfaceLock = Lock to Surface
-panel.gridSnap = Grid Snap
-panel.gridSize = Grid Size
-commands.log.argValueChanged = {argKey} changed to {argValue}
-commands.mode = Mode
-commands.keepEmptyBlocks = Keep 'Editor Empty' Blocks
-commands.executeCommand = Execute Command
-commands.material = Material
-commands.weight = Weight
-commands.removeMaterial = Remove Material
-commands.pitch = Pitch
-commands.addMaterial = Add Material
-commands.direction = Direction
-commands.includeEmpty = Include Empty
-commands.includeEntities = Include Entities
-commands.wall.thickness = Thickness
-commands.wall.roof = Roof
-commands.wall.floor = Floor
-commands.stack.count = Count
-commands.stack.spacing = Spacing
-commands.move.distance = Distance
-commands.clear.description = Clears all blocks in the current selection.
-commands.clearEntities.description = Removes all entities in the current selection.
-commands.selection.set = SET
-commands.selection.wall = WALL
-commands.selection.fill = FILL
-commands.selection.replace = REPLACE
-commands.selection.clear = CLEAR
-commands.selection.clear_entities = CLEAR ENTITIES
-commands.selection.stack = STACK
-commands.selection.move = MOVE
-commands.direction.forward = Forward
-commands.direction.backward = Backward
-commands.direction.left = Left
-commands.direction.right = Right
-commands.direction.up = Up
-commands.direction.down = Down
+legend.ScriptedBrushPage.Title = [TMP] スクリプタブルブラシ
+legend.ScriptedBrushPage.Description = [TMP] これはノードエディターでコーディングなしに作られたブラシです。このようなブラシを自作したい場合は以下の方法があります:
+legend.ScriptedBrushPage.ToolSettings = [TMP] ツール設定を開きます。
+legend.ScriptedBrushPage.ExampleScriptedBrush.Title = [TMP] スクリプタブルブラシ用ノードエディターを開く:
+legend.ScriptedBrushPage.ExampleScriptedBrush.Description = [TMP] 1. アセット > アセットノードエディターに移動します。\n\
+2. ノードエディターツールが表示されます。\n\
+3. ノードエディターで「ルートノード: デモワークスペース」をクリックし、「スクリプタブルブラシ」を選択します。続行確認が出たらOKを押します。\n\
+4. スクリプタブルブラシのワークスペースに入り、ブラシを作成できます！
+legend.ScriptedBrushPage.NodeEditorBasics.Title = [TMP] スクリプタブルブラシ ノードエディター基本:
+legend.ScriptedBrushPage.NodeEditorBasics.Description = [TMP] ワークスペースに入ったら、以下の操作でブラシを作成できます:\n\
+- 右クリックでノードを作成\n\
+- 作成したノードのバブルを左クリックしてドラッグし、ルートノードのバブルに接続します。\n\
+4. スクリプタブルブラシのワークスペースでスクリプトブラシの作成を始められます！
+legend.ScriptedBrushPage.NodeEditorSavingAndTesting.Title = [TMP] 保存とテスト:
+legend.ScriptedBrushPage.NodeEditorSavingAndTesting.Description = [TMP] 1. ファイル > 保存 または 名前をつけて保存 でアセットパックに保存します。\n\
+2. ゲームに戻り、ペイントブラシツールを手に持ちます。\n\
+4. チャットに /sb load と入力し、作成したブラシを選択します。\n\
+5. これでブラシを使い始められます！
+legend.SelectTargetMaterial = [TMP] ターゲットのマテリアルを選択
+legend.AddTargetMaterial = [TMP] ターゲットのマテリアルをマルチマテリアルとして追加
+legend.UndoLastBrush = [TMP] 最後のブラシ操作を元に戻す
+legend.RedoLastUndo = [TMP] 最後に元に戻した操作をやり直す
+legend.TipsAndTricks.Title = [TMP] ヒントとコツ
+legend.TipsAndTricks.Description = [TMP] このブラシの使い方に関するヒントとコツです:
+legend.EditInventoryProperties = [TMP] インベントリからブラシの設定を編集する
+legend.SettingDescription = [TMP] 各設定の説明は以下の通りです:
+legend.BlockMasking = [TMP] ブロックマスキング
+legend.BlockMaskingDescription = [TMP] 指定したマテリアルに一致するブロックのみ変更を制限するマテリアルをブラシに設定できます
+legend.BlockMaskingMenuDescription = [TMP] マスキングオプションの一覧と説明を確認するには:
+legend.BrushMenuMaskingTab = [TMP] ブラシ設定を開く
+legend.BlockMaskingMenuTabDescription = [TMP] ブラシマスキングタブを開く（右上付近）
+legend.BlockMaskTarget.Title = [TMP] マスク:
+legend.BlockMaskTarget.Description = [TMP] このリストのブロックのみ置き換えます
+legend.BlockMaskAbove.Title = [TMP] > 上:
+legend.BlockMaskAbove.Description = [TMP] このリストのブロックの上にあるブロックのみ置き換えます
+legend.BlockMaskNot.Title = [TMP] ! 除外:
+legend.BlockMaskNot.Description = [TMP] このリストのブロックは置き換えません
+legend.BlockMaskBelow.Title = [TMP] < 下:
+legend.BlockMaskBelow.Description = [TMP] このリストのブロックの下にあるブロックのみ置き換えます
+legend.BlockMaskAdjacent.Title = [TMP] ~ 隣接:
+legend.BlockMaskAdjacent.Description = [TMP] このリストのブロックの隣にあるブロックのみ置き換えます
+legend.BlockMaskNeighbor.Title = [TMP] ^ 接触:
+legend.BlockMaskNeighbor.Description = [TMP] このリストのブロックに接しているブロックのみ置き換えます
+legend.PaintBrush.Page1.Title = [TMP] ペイントブラシ
+legend.PaintBrush.Page1.Description = [TMP] ペイントブラシツールを使うと、さまざまな形・サイズ・マテリアルでブロックを設置・削除できます
+legend.PaintBrush.Page1.DestroyBlocks = 狙った場所のブロックを破壊する
+legend.PaintBrush.Page1.PlaceBlocks = 設定したマテリアルで狙った場所にブロックを設置する
+legend.PaintBrush.Page1.SelectTargetMaterial = ターゲットのマテリアルを選択
+legend.PaintBrush.Page1.AddTargetMaterial = ターゲットのマテリアルをマルチマテリアルとして追加
+legend.PaintBrush.Page1.UndoLastBrush = 最後のブラシ操作を元に戻す
+legend.PaintBrush.Page1.RedoLastUndo = 最後に元に戻した操作をやり直す
+legend.PaintBrush.Page1.EditInventoryProperties = インベントリからマテリアル・サイズ・形状などのプロパティを編集する
+legend.PaintBrush.Page1.AirPlacementTitle = 空中設置
+legend.PaintBrush.Page1.AirPlacementHotkey = 空中設置ターゲットモードを切り替える
+legend.PaintBrush.Page1.AirPlacementDistanceChange = 空中設置の距離を変更する
+legend.PaintBrush.Page2.AxisLock = 軸ロック
+legend.PaintBrush.Page2.AxisLockDescription = ブラシを平坦で移動・回転可能なサーフェスに固定できます。以下のホットキーでサーフェスモードの表示・編集・終了ができます。
+legend.PaintBrush.Page2.ShowSurfaceMoveTool = サーフェス移動ツールを表示
+legend.PaintBrush.Page2.ShowSurfaceRotationTool = サーフェス回転ツールを表示
+legend.PaintBrush.Page2.UseBrush = ブラシを使用
+legend.PaintBrush.Page2.ExitAxisLockMode = 軸ロックモードを終了
+legend.CaveBrush.Page1.Title = [TMP] ケーブブラシ
+legend.CaveBrush.Page1.Description = [TMP] ケーブブラシツールを使うと、洞窟や渓谷を作ることができます。
+legend.CaveBrush.Page1.DecorateArea = [TMP] 狙った場所に洞窟の装飾を追加する
+legend.CaveBrush.Page1.ShapeArea = [TMP] 狙った場所の洞窟エリアを彫刻する
+legend.CaveBrush.Page2.BlockTip.Title = [TMP] 洞窟のカスタマイズ:
+legend.CaveBrush.Page2.BlockTip.Description = [TMP] インベントリからブロックをドラッグ＆ドロップして設定に追加することで、洞窟を構成するブロックをカスタマイズできます。\n\n設定内のブロックをダブルクリックして削除することもできます。
+legend.CaveBrush.Page2.Example1.Title = [TMP] 洞窟の作成と装飾:
+legend.CaveBrush.Page2.Example1.Description = [TMP] 1. 地面、山の側面、または固まった地塊を見ます。\n\
+2. 通常は右クリックである彫刻キーを押し続けて、洞窟の形状を彫刻し始めます。\n\
+3. 彫刻した洞窟内で床を見て、通常は左クリックである装飾キーを押し続けて装飾を追加します。\n\
+4. 彫刻した洞窟内で天井を見て、通常は左クリックである装飾キーを押し続けて装飾を追加します。\n\
+5. 装飾付きの洞窟が完成しました！
+legend.CaveBrush.Page3.Title = [TMP] 設定 (1/2)
+legend.CaveBrush.Page3.CaveBlocks.Title = [TMP] 洞窟ブロック:
+legend.CaveBrush.Page3.CaveBlocks.Description = [TMP] - 洞窟を構成するブロック。
+legend.CaveBrush.Page3.CaveBlockDecorations.Title = [TMP] 洞窟ブロック装飾:
+legend.CaveBrush.Page3.CaveBlockDecorations.Description = [TMP] - 床ブロックの側面に配置する洞窟床の装飾ブロック。配置数を調整する密度スライダー付き。
+legend.CaveBrush.Page3.TopDecorations.Title = [TMP] 天井装飾:
+legend.CaveBrush.Page3.TopDecorations.Description = [TMP] - 洞窟の天井を装飾するブロック。配置数を調整する密度スライダー付き。
+legend.CaveBrush.Page3.FloorBlocks.Title = [TMP] 床ブロック:
+legend.CaveBrush.Page3.FloorBlocks.Description = [TMP] - 洞窟の床を装飾するブロック。配置数を調整する密度スライダー付き。
+legend.CaveBrush.Page3.FloorDecorations.Title = [TMP] 床装飾:
+legend.CaveBrush.Page3.FloorDecorations.Description = [TMP] - 床ブロックの上に装飾として配置するブロック。配置数を調整する密度スライダー付き。
+legend.CaveBrush.Page3.OreBlocks.Title = [TMP] 鉱石ブロック:
+legend.CaveBrush.Page3.OreBlocks.Description = [TMP] - 洞窟周辺に配置する鉱石ブロック。配置数を調整する密度スライダー付き。
+legend.CaveBrush.Page4.Title = [TMP] 設定 (2/2)
+legend.CaveBrush.Page4.Randomize.Title = [TMP] ランダム化:
+legend.CaveBrush.Page4.Randomize.Description = [TMP] - チェックすると、洞窟の彫刻時に形状がランダムに小さくまたは大きくなります。
+legend.CaveBrush.Page4.MeltStrength.Title = [TMP] 溶解強度:
+legend.CaveBrush.Page4.MeltStrength.Description = [TMP] - ブラシの掘削強度を調整します。高い = より多くのブロックを削除、低い = 削除するブロックが少なくなります。
+legend.CaveBrush.Page4.SmoothStrength.Title = [TMP] スムース強度:
+legend.CaveBrush.Page4.SmoothStrength.Description = [TMP] - ブラシのスムース強度を調整します。高い = よりなめらか、低い = 粗くなります。
+legend.BoulderBrush.Page1.Title = [TMP] ボルダーブラシ
+legend.BoulderBrush.Page1.Description = [TMP] ボルダーブラシツールを使うと、巨石や岩層を作ることができます。
+legend.BoulderBrush.Page1.DecorateArea = [TMP] 狙った場所の巨石を装飾する
+legend.BoulderBrush.Page1.ShapeArea = [TMP] 狙った場所に巨石を配置する
+legend.BoulderBrush.Page2.BlockTip.Title = [TMP] 巨石のカスタマイズ:
+legend.BoulderBrush.Page2.BlockTip.Description = [TMP] インベントリからブロックをドラッグ＆ドロップして設定に追加することで、巨石を構成するブロックをカスタマイズできます。\n\n設定内のブロックをダブルクリックして削除することもできます。
+legend.BoulderBrush.Page2.Example1.Title = [TMP] 巨石の作成と装飾:
+legend.BoulderBrush.Page2.Example1.Description = [TMP] 1. 地面を見ます。\n\
+2. 通常は右クリックである設置キーを押して巨石を配置します。\n\
+3. 原点をCenterに変更します。\n\
+4. 巨石を見て、通常は左クリックである装飾キーを押して装飾を追加します。\n\
+5. 装飾付きの巨石が完成しました！
+legend.BoulderBrush.Page3.Title = [TMP] 設定 (1/2)
+legend.BoulderBrush.Page3.RockBlocks.Title = [TMP] 岩ブロック:
+legend.BoulderBrush.Page3.RockBlocks.Description = [TMP] - 巨石を構成するブロック。
+legend.BoulderBrush.Page3.TopBlocks.Title = [TMP] 頂部ブロック:
+legend.BoulderBrush.Page3.TopBlocks.Description = [TMP] - 巨石の頂部を装飾するブロック。配置数を調整する密度スライダー付き。
+legend.BoulderBrush.Page3.TopDecor.Title = [TMP] 頂部装飾:
+legend.BoulderBrush.Page3.TopDecor.Description = [TMP] - 頂部ブロックの上に配置するブロック。配置数を調整する密度スライダー付き。
+legend.BoulderBrush.Page3.RockDecor.Title = [TMP] 岩装飾:
+legend.BoulderBrush.Page3.RockDecor.Description = [TMP] - 岩ブロックの上に配置するブロック。配置数を調整する密度スライダー付き。
+legend.BoulderBrush.Page3.BoulderPoints.Title = [TMP] 巨石ポイント:
+legend.BoulderBrush.Page3.BoulderPoints.Description = [TMP] - 巨石を構成するサブ巨石の数。サブ巨石は「巨石半径」で間隔を空けて1つの巨石、またはグループにできます。
+legend.BoulderBrush.Page3.BoulderRadius.Title = [TMP] 巨石半径:
+legend.BoulderBrush.Page3.BoulderRadius.Description = [TMP] - 巨石ポイント間の間隔を調整します。巨石を広くしたり、複数の巨石グループを作るのに使用できます。
+legend.BoulderBrush.Page4.Title = [TMP] 設定 (2/2)
+legend.BoulderBrush.Page4.Randomization.Title = [TMP] ランダム化:
+legend.BoulderBrush.Page4.Randomization.Description = [TMP] - 巨石の形状のランダム度を調整します。高い = よりランダム、低い = 規則的になります。
+legend.BoulderBrush.Page4.Smoothness.Title = [TMP] スムース度:
+legend.BoulderBrush.Page4.Smoothness.Description = [TMP] - 巨石の滑らかさを調整します。高い = よりなめらか、低い = 粗くなります。
+legend.BoulderBrush.Page4.StackSize.Title = [TMP] スタックサイズ（上級）:
+legend.BoulderBrush.Page4.StackSize.Description = [TMP] - 幅を使って巨石を積み重ねる回数を調整します。現在の形状を配置し、高さ分上に移動して幅を縮小して再配置を繰り返す別の形状調整方法です。
+legend.BoulderBrush.Page4.StackRandomization.Title = [TMP] スタックランダム化（上級）:
+legend.BoulderBrush.Page4.StackRandomization.Description = [TMP] - 巨石の高さレイヤー間のランダム化。高い = よりランダム、低い = 規則的になります。
+legend.BoulderBrush.Page4.StackTip.Title = [TMP] 上級設定のヒント:
+legend.BoulderBrush.Page4.StackTip.Description = [TMP] - スタックサイズとスタックランダム化の動作を確認するには、スムース度を0、形状をキューブ、スタックサイズを0より大きくして、さまざまな幅と高さを試してみてください。
+legend.BuildingBrush.Page1.Title = [TMP] ビルディングブラシ
+legend.BuildingBrush.Page1.Description = [TMP] ビルディングブラシツールを使うと、建物や構造物を作ることができます。
+legend.BuildingBrush.Page1.ShapeArea = [TMP] 狙った場所に建物を配置する
+legend.BuildingBrush.Page2.BlockTip.Title = [TMP] 建物のカスタマイズ:
+legend.BuildingBrush.Page2.BlockTip.Description = [TMP] インベントリからブロックをドラッグ＆ドロップして設定に追加することで、建物を構成するブロックをカスタマイズできます。\n\n設定内のブロックをダブルクリックして削除することもできます。
+legend.BuildingBrush.Page2.Example1.Title = [TMP] 窓付きの塔を作る:
+legend.BuildingBrush.Page2.Example1.Description = [TMP] 1. 設定で幅と高さを好みに合わせます。\n\
+2. 塔の階数を「フロア数」で設定します。\n\
+3. 窓の数を「窓数」で設定し、「窓半径」を調整して壁に正しく配置されるようにします。窓の配置は試行錯誤が必要です。\n\
+4. 屋根の設定を好みに合わせます。\n\
+5. 通常は右クリックである設置キーを押して建物を配置します。\n\
+6. 塔が完成しました！
+legend.BuildingBrush.Page3.Title = [TMP] 設定
+legend.BuildingBrush.Page3.MainBlock.Title = [TMP] メインブロック:
+legend.BuildingBrush.Page3.MainBlock.Description = [TMP] - 建物を構成するメインブロック。
+legend.BuildingBrush.Page3.SecondaryBlock.Title = [TMP] サブブロック:
+legend.BuildingBrush.Page3.SecondaryBlock.Description = [TMP] - 建物の壁の中央を装飾するブロック。
+legend.BuildingBrush.Page3.FloorBlock.Title = [TMP] 床ブロック:
+legend.BuildingBrush.Page3.FloorBlock.Description = [TMP] - 建物の各フロアに使用するブロック。
+legend.BuildingBrush.Page3.EnableWindows.Title = [TMP] 窓を有効にする:
+legend.BuildingBrush.Page3.EnableWindows.Description = [TMP] - 建物に窓を配置できるようにします。
+legend.BuildingBrush.Page3.WindowRadius.Title = [TMP] 窓半径:
+legend.BuildingBrush.Page3.WindowRadius.Description = [TMP] - 窓を配置する半径。正しく配置するには調整が必要な場合があります。
+legend.BuildingBrush.Page3.EnableRoof.Title = [TMP] 屋根を有効にする:
+legend.BuildingBrush.Page3.EnableRoof.Description = [TMP] - 建物に屋根を配置できるようにします。屋根をオフにすると壁だけの構造を作るのに便利です。
+legend.DecorationBrush.Page1.Title = [TMP] デコレーションブラシ
+legend.DecorationBrush.Page1.Description = [TMP] デコレーションブラシツールを使うと、装飾を塗ることができます。
+legend.DecorationBrush.Page1.DecorateArea = [TMP] 「クリアするブロック」に設定されたブロックを消去する
+legend.DecorationBrush.Page1.ShapeArea = [TMP] 狙った場所に装飾を塗る
+legend.DecorationBrush.Page2.BlockTip.Title = [TMP] 装飾のカスタマイズ:
+legend.DecorationBrush.Page2.BlockTip.Description = [TMP] インベントリからブロックをドラッグ＆ドロップして設定に追加することで、装飾に使用するブロックをカスタマイズできます。\n\n設定内のブロックをダブルクリックして削除することもできます。
+legend.DecorationBrush.Page2.Example1.Title = [TMP] エリアの除去と地面装飾の追加:
+legend.DecorationBrush.Page2.Example1.Description = [TMP] 1. 装飾を追加したいエリアを見つけます。\n\
+2. 通常は左クリックである除去キーを押し続けてエリアのブロックを削除します。\n\
+3. 設定を開き、使いたい装飾を追加します。\n\
+4. 通常は右クリックである塗りつけキーを押し続けてエリアに装飾を塗ります。\n\
+5. エリアの装飾が完成しました！
+legend.DecorationBrush.Page3.Title = [TMP] 設定
+legend.DecorationBrush.Page3.BlocksToClear.Title = [TMP] クリアするブロック:
+legend.DecorationBrush.Page3.BlocksToClear.Description = [TMP] - 通常は左クリックである除去キーを使ったときに消去するブロック。
+legend.DecorationBrush.Page3.FloorBlocks.Title = [TMP] 床ブロック:
+legend.DecorationBrush.Page3.FloorBlocks.Description = [TMP] - 装飾に使用するブロック。配置数を調整する密度スライダー付き。
+legend.DecorationBrush.Page3.DecorationBlocks.Title = [TMP] 装飾ブロック:
+legend.DecorationBrush.Page3.DecorationBlocks.Description = [TMP] - 床ブロックの上に配置するブロック。配置数を調整する密度スライダー付き。
+legend.ForestBrush.Page1.Title = [TMP] フォレストブラシ
+legend.ForestBrush.Page1.Description = [TMP] フォレストブラシツールを使うと、森や茂みを作ることができます。
+legend.ForestBrush.Page1.DecorateArea = [TMP] 選択した装飾タイプを狙った場所に追加する
+legend.ForestBrush.Page1.ShapeArea = [TMP] 狙った場所の地面を塗る
+legend.ForestBrush.Page2.BlockTip.Title = [TMP] 森のカスタマイズ:
+legend.ForestBrush.Page2.BlockTip.Description = [TMP] インベントリからブロックをドラッグ＆ドロップして設定に追加することで、森を構成するブロックをカスタマイズできます。\n\n設定内のブロックをダブルクリックして削除することもできます。
+legend.ForestBrush.Page2.Example1.Title = [TMP] 森の作成と装飾:
+legend.ForestBrush.Page2.Example1.Description = [TMP] 1. 森を作りたいエリアを見ます。\n\
+2. 通常は右クリックである地面塗りキーを押し続けて森の地面を塗り始めます。\n\
+3. タイプを「葉叢」に変更し、植物に使いたいブロックを「葉叢ブロック」に追加して地面装飾を追加します。\n\
+4. 通常は左クリックである装飾キーを押し続けて葉叢の装飾を配置します。\n\
+5. タイプを「木」に変更して木を追加します。\n\
+6. 通常は左クリックである装飾キーを押し続けて木を配置します。\n\
+5. 森が完成しました！
+legend.ForestBrush.Page3.Title = [TMP] 設定
+legend.ForestBrush.Page3.NumDecorations.Title = [TMP] 装飾数:
+legend.ForestBrush.Page3.NumDecorations.Description = [TMP] - 配置する装飾の数。装飾タイプが「木」または「岩」の場合のみ適用されます。
+legend.ForestBrush.Page3.DecorationSpacing.Title = [TMP] 装飾間隔:
+legend.ForestBrush.Page3.DecorationSpacing.Description = [TMP] - 配置する装飾間の間隔。装飾タイプが「木」または「岩」の場合のみ適用されます。
+legend.ForestBrush.Page3.FloorBlocks.Title = [TMP] 床ブロック:
+legend.ForestBrush.Page3.FloorBlocks.Description = [TMP] - 森の地面を装飾するブロック。配置数を調整する密度スライダー付き。
+legend.ForestBrush.Page3.FloorOutlineBlocks.Title = [TMP] 床外枠ブロック:
+legend.ForestBrush.Page3.FloorOutlineBlocks.Description = [TMP] - 森の地面の外枠を装飾するブロック。配置数を調整する密度スライダー付き。
+legend.ForestBrush.Page3.FloorPatchBlocks.Title = [TMP] 床パッチブロック:
+legend.ForestBrush.Page3.FloorPatchBlocks.Description = [TMP] - 森の地面全体にランダムに配置される装飾ブロック。配置数を調整する密度スライダー付き。
+legend.ForestBrush.Page3.FoliageBlocks.Title = [TMP] 葉叢ブロック:
+legend.ForestBrush.Page3.FoliageBlocks.Description = [TMP] - 森の地面の葉叢に使用するブロック。配置数を調整する密度スライダー付き。装飾タイプが「葉叢」の場合のみ適用されます。
+legend.MountainBrush.Page1.Title = [TMP] マウンテンブラシ
+legend.MountainBrush.Page1.Description = [TMP] マウンテンブラシツールを使うと、山や地形を彫刻できます。
+legend.MountainBrush.Page1.ShapeArea = [TMP] 狙った場所に山を彫刻する
+legend.MountainBrush.Page2.BlockTip.Title = [TMP] 山のカスタマイズ:
+legend.MountainBrush.Page2.BlockTip.Description = [TMP] インベントリからブロックをドラッグ＆ドロップして設定に追加することで、山を構成するブロックをカスタマイズできます。\n\n設定内のブロックをダブルクリックして削除することもできます。
+legend.MountainBrush.Page2.Example1.Title = [TMP] 山の作成:
+legend.MountainBrush.Page2.Example1.Description = [TMP] 1. 地面を見ます。\n\
+2. レイヤー設定にブロックを配置して山に使うブロックをカスタマイズします。\n\
+3. 通常は右クリックである彫刻キーを押し続けて山の形状を彫刻し始めます。\n\
+4. 山が彫刻できるようになりました！
+legend.MountainBrush.Page2.Example2.Title = [TMP] 渓谷の作成:
+legend.MountainBrush.Page2.Example2.Description = [TMP] 1. 地面を見ます。\n\
+2. 「ポイント数」を1に、「ポイント間隔」を40以上に変更します。\n\
+3. 通常は右クリックである彫刻キーを押し続けて彫刻します。地形が2か所で形成されることに気づきます。\n\
+4. 上下に移動しながら直線で彫刻して両側に崖を形成します。\n\
+5. 渓谷が彫刻できるようになりました！複数の山や山の細部を同時に作成するのにも使えます。
+legend.MountainBrush.Page3.Title = [TMP] 設定
+legend.MountainBrush.Page3.TopLayer.Title = [TMP] 頂部レイヤー:
+legend.MountainBrush.Page3.TopLayer.Description = [TMP] - 地形の頂部に配置されるブロック。
+legend.MountainBrush.Page3.MiddleLayer.Title = [TMP] 中間レイヤー:
+legend.MountainBrush.Page3.MiddleLayer.Description = [TMP] - 地形の中間に配置されるブロック。
+legend.MountainBrush.Page3.BottomLayer.Title = [TMP] 底部レイヤー:
+legend.MountainBrush.Page3.BottomLayer.Description = [TMP] - 地形の底部に配置されるブロック。
+legend.MountainBrush.Page3.NumberOfPoints.Title = [TMP] ポイント数:
+legend.MountainBrush.Page3.NumberOfPoints.Description = [TMP] - 山の彫刻に使用するポイントの数。
+legend.MountainBrush.Page3.PointSpacing.Title = [TMP] ポイント間隔:
+legend.MountainBrush.Page3.PointSpacing.Description = [TMP] - 山の彫刻に使用するポイント間の間隔。
+legend.MountainBrush.Page3.Smoothness.Title = [TMP] スムース度:
+legend.MountainBrush.Page3.Smoothness.Description = [TMP] - 彫刻する地形の滑らかさを調整します。高い = よりなめらか、低い = 粗くなります
+legend.PathBrush.Page1.Title = [TMP] パスブラシ
+legend.PathBrush.Page1.Description = [TMP] パスブラシツールを使うと、道を作ることができます。
+legend.PathBrush.Page1.DecorateArea = [TMP] 高さの変化がある箇所付近にハーフブロックを追加してパスをなめらかにする
+legend.PathBrush.Page1.ShapeArea = [TMP] 狙った場所に道を引く
+legend.PathBrush.Page2.BlockTip.Title = [TMP] パスのカスタマイズ:
+legend.PathBrush.Page2.BlockTip.Description = [TMP] インベントリからブロックをドラッグ＆ドロップして設定に追加することで、道を構成するブロックをカスタマイズできます。\n\n設定内のブロックをダブルクリックして削除することもできます。
+legend.PathBrush.Page2.Example1.Title = [TMP] 道の作成:
+legend.PathBrush.Page2.Example1.Description = [TMP] 1. 地面を見ます。\n\
+2. 設定にブロックを配置して道に使うブロックをカスタマイズします。\n\
+3. 通常は右クリックである描画キーを押し続けて道を描き始めます。\n\
+4. 通常は左クリックであるハーフブロックキーを押し続けて、段差がある場所付近にハーフブロックを配置してなめらかにします。\n\
+6. 装飾付きの道が完成しました！
+legend.PathBrush.Page3.Title = [TMP] 設定
+legend.PathBrush.Page3.PathBlocks.Title = [TMP] パスブロック:
+legend.PathBrush.Page3.PathBlocks.Description = [TMP] - 道を構成するメインブロック。配置数を調整する密度スライダー付き。
+legend.PathBrush.Page3.OutlineBlocks.Title = [TMP] 外枠ブロック:
+legend.PathBrush.Page3.OutlineBlocks.Description = [TMP] - 道の外枠に配置するブロック。配置数を調整する密度スライダーと幅を調整する幅スライダー付き。
+legend.PathBrush.Page3.DecorationBlocks.Title = [TMP] 装飾ブロック:
+legend.PathBrush.Page3.DecorationBlocks.Description = [TMP] - 道沿いに追加する装飾ブロック。配置数を調整する密度スライダーと幅を調整する幅スライダー付き。
+legend.PathBrush.Page3.HalfBlocks.Title = [TMP] パス上のハーフブロック:
+legend.PathBrush.Page3.HalfBlocks.Description = [TMP] - 段差がある場所付近に配置されてなめらかにするハーフブロック。
+legend.RiverBrush.Page1.Title = [TMP] リバーブラシ
+legend.RiverBrush.Page1.Description = [TMP] リバーブラシツールを使うと、川や海を作ることができます。
+legend.RiverBrush.Page1.DecorateArea = [TMP] 狙った場所に装飾を追加する
+legend.RiverBrush.Page1.ShapeArea = [TMP] 狙った場所に川を引く
+legend.RiverBrush.Page2.BlockTip.Title = [TMP] 川のカスタマイズ:
+legend.RiverBrush.Page2.BlockTip.Description = [TMP] インベントリからブロックをドラッグ＆ドロップして設定に追加することで、川を構成するブロックをカスタマイズできます。\n\n設定内のブロックをダブルクリックして削除することもできます。
+legend.RiverBrush.Page2.Example1.Title = [TMP] 川/滝の作成:
+legend.RiverBrush.Page2.Example1.Description = [TMP] 1. サーフェスを見ます。\n\
+2. 設定にブロックを配置して川に使うブロックをカスタマイズします。\n\
+3. 通常は右クリックである描画キーを押し続けて川を描き始めます。\n\
+4. 通常は左クリックである装飾キーを押し続けて、川の側面・水中・水上に装飾を配置します。\n\
+5. 川と滝が完成しました！
+legend.RiverBrush.Page3.Title = [TMP] 設定
+legend.RiverBrush.Page3.FluidMaterial.Title = [TMP] 流体マテリアル:
+legend.RiverBrush.Page3.FluidMaterial.Description = [TMP] - 川を構成する流体マテリアル。
+legend.RiverBrush.Page3.SurfaceBlocks.Title = [TMP] 流体上部のブロック:
+legend.RiverBrush.Page3.SurfaceBlocks.Description = [TMP] - 川の側面と流体の下に配置するブロック。配置数を調整する密度スライダーと幅を調整する幅スライダー付き。
+legend.RiverBrush.Page3.SubsurfaceBlocks.Title = [TMP] 流体下部のブロック:
+legend.RiverBrush.Page3.SubsurfaceBlocks.Description = [TMP] - 川の流体の下に配置するブロック。配置数を調整する密度スライダー付き。
+legend.RiverBrush.Page3.UnderDecorations.Title = [TMP] 流体下の装飾:
+legend.RiverBrush.Page3.UnderDecorations.Description = [TMP] - 流体の下に配置する装飾。配置数を調整する密度スライダー付き。
+legend.RiverBrush.Page3.SideDecorations.Title = [TMP] 流体側面の装飾:
+legend.RiverBrush.Page3.SideDecorations.Description = [TMP] - 川の側面に追加する装飾。配置数を調整する密度スライダー付き。
+legend.RiverBrush.Page3.TopDecorations.Title = [TMP] 流体上部の装飾:
+legend.RiverBrush.Page3.TopDecorations.Description = [TMP] - 川の上部に追加する装飾。配置数を調整する密度スライダー付き。
+legend.SpiralBrush.Page1.Title = [TMP] スパイラルブラシ
+legend.SpiralBrush.Page1.Description = [TMP] スパイラルブラシツールを使うと、らせんや円形のパターンを作ることができます。
+legend.SpiralBrush.Page1.ShapeArea = [TMP] 狙った場所にらせんを配置する
+legend.SpiralBrush.Page2.BlockTip.Title = [TMP] らせんのカスタマイズ:
+legend.SpiralBrush.Page2.BlockTip.Description = [TMP] インベントリからブロックをドラッグ＆ドロップして設定に追加することで、らせんを構成するブロックをカスタマイズできます。\n\n設定内のブロックをダブルクリックして削除することもできます。
+legend.SpiralBrush.Page2.Example1.Title = [TMP] カスタムらせんの作成:
+legend.SpiralBrush.Page2.Example1.Description = [TMP] 1. サーフェスを見ます。\n\
+2. 設定にブロックを配置してらせんに使うブロックをカスタマイズします。\n\
+3. 必要なポイント数を「ポイント数」で設定します。高い = らせんのポイントが多い、低い = 少なくなります。\n\
+4. 「半径」を15に変更します。ツールの動作が確認できる幅になります。\n\
+5. らせんを上方向に伸ばしたい場合は、「垂直間隔」を0より大きくします。\n\
+6. 「反転」「回転方向」「逆方向」のチェックボックスでらせんの向きを変更します。\n\
+7. 「スムース度」を0より大きくしてらせんを滑らかにすることもできます。\n\
+8. 「中心を空洞化」を選択してらせんの中心を空気で満たすこともできます。\n\
+9. らせんが完成しました！
+legend.SpiralBrush.Page3.Title = [TMP] 設定
+legend.SpiralBrush.Page3.NumberPoints.Title = [TMP] ポイント数:
+legend.SpiralBrush.Page3.NumberPoints.Description = [TMP] - らせんのポイント数。
+legend.SpiralBrush.Page3.Radius.Title = [TMP] 半径:
+legend.SpiralBrush.Page3.Radius.Description = [TMP] - らせんの半径（幅）。
+legend.SpiralBrush.Page3.VerticalSpacing.Title = [TMP] 垂直間隔:
+legend.SpiralBrush.Page3.VerticalSpacing.Description = [TMP] - らせんの各ポイント間の距離（高さ）。
+legend.SpiralBrush.Page3.Flip.Title = [TMP] 反転
+legend.SpiralBrush.Page3.Flip.Description = [TMP] - らせんを描く順序を反転します。
+legend.SpiralBrush.Page3.RotateDirection.Title = [TMP] 回転方向
+legend.SpiralBrush.Page3.RotateDirection.Description = [TMP] - らせんを180度回転します。
+legend.SpiralBrush.Page3.InvertDirection.Title = [TMP] 逆方向
+legend.SpiralBrush.Page3.InvertDirection.Description = [TMP] - らせんを描く方向を逆にします。
+legend.SpiralBrush.Page3.Smoothness.Title = [TMP] スムース度
+legend.SpiralBrush.Page3.Smoothness.Description = [TMP] - らせんの滑らかさを調整します。高い = よりなめらか、低い = 粗くなります。
+legend.SpiralBrush.Page3.HollowCenter.Title = [TMP] 中心を空洞化
+legend.SpiralBrush.Page3.HollowCenter.Description = [TMP] - 有効にするとクリックした場所かららせんの中心を空気で置き換えます。
+legend.RevolveTool.Page1.Title = [TMP] 回転ツール
+legend.RevolveTool.Page1.Description = [TMP] 回転ツールを使うと、選択範囲を回転・貼り付けできます。選択範囲がある場合のみ機能します。
+legend.RevolveTool.Page1.ShapeArea = [TMP] 回転を実行します。設定に応じて、狙った場所またはプレイヤー自身の周りで回転します。
+legend.RevolveTool.Page2.Example1.Title = [TMP] ブラシで回転させる:
+legend.RevolveTool.Page2.Example1.Description = [TMP] 1. 回転させたい選択範囲を作成します。\n\
+2. 回転ツールを装備します。\n\
+3. 設定を好みに合わせます。\n\
+4. 選択範囲を回転させたい場所にブラシを向けます。\n\
+5. 通常は右クリックである回転キーを押します。\n\
+6. 選択範囲が回転しました！
+legend.RevolveTool.Page2.Example2.Title = [TMP] 自分の周りで完全な円を作る:
+legend.RevolveTool.Page2.Example2.Description = [TMP] 1. 回転させたい選択範囲を作成します。\n\
+2. 回転ツールを装備します。\n\
+3. 「完全回転」をチェックし、「ターゲット」を「プレイヤー（自分）」に変更します。\n\
+4. 選択範囲から少し離れた場所に移動します。\n\
+5. 通常は右クリックである回転キーを押します。\n\
+6. 自分の周りで選択範囲が完全に回転しました！
+legend.RevolveTool.Page3.Title = [TMP] 設定
+legend.RevolveTool.Page3.Sampling.Title = [TMP] 塗りつぶし戦略:
+legend.RevolveTool.Page3.Sampling.Description = [TMP] - 回転時の隙間を埋める戦略。回転操作で隙間が生じることがあり、これを埋めようとします。
+legend.RevolveTool.Page3.FullyRevolve.Title = [TMP] 完全回転:
+legend.RevolveTool.Page3.FullyRevolve.Description = [TMP] - 選択範囲を完全に円形に回転させます。「貼り付け回数」を無視して選択範囲を完全に回転させます。
+legend.RevolveTool.Page3.PlaceCount.Title = [TMP] 貼り付け回数:
+legend.RevolveTool.Page3.PlaceCount.Description = [TMP] - 回転中に選択範囲を貼り付ける回数。例えば5に設定すると選択範囲が5回貼り付けられます。
+legend.RevolveTool.Page3.CenterAround.Title = [TMP] 回転中心:
+legend.RevolveTool.Page3.CenterAround.Description = [TMP] - 回転の中心となるターゲットを設定します。ブラシターゲット = ブラシが向いている場所の周りで回転、プレイヤー（自分）= 自分の周りで回転。
+legend.RevolveTool.Page3.UseCustomDistance.Title = [TMP] カスタム半径を使用:
+legend.RevolveTool.Page3.UseCustomDistance.Description = [TMP] - 狙った場所に選択範囲を貼り付けて回転し、「カスタム半径」で中心からの間隔を調整します。
+legend.RevolveTool.Page3.PlaceDistance.Title = [TMP] カスタム半径:
+legend.RevolveTool.Page3.PlaceDistance.Description = [TMP] - 中心と回転ポイント間の間隔を調整する半径。高い = より広い、低い = より狭くなります。
+legend.RevolveTool.Page4.Title = [TMP] 設定 (2/2)
+legend.LineBrush.Page1.Title = ラインブラシ
+legend.LineBrush.Page1.Description = ブロックの直線を引けます
+legend.LineBrush.Page1.StartOrAddPoint = ラインの開始点または追加点を設定する
+legend.LineBrush.Page1.CancelLine = ラインをキャンセル
+legend.LineBrush.Page1.SnapToAngles = 押し続けると45°の角度スナップを有効にする
+legend.LineBrush.Page1.EditInventoryProperties = インベントリからマテリアル・サイズなどのプロパティを編集する
+legend.MachinimaTool.Page1.Title = はじめに
+legend.MachinimaTool.Page1.Description = アクター・カメラ・パーティクル・サウンドなどを使ったキーフレームアニメーションを作成しましょう！シネマティクスやカットシーンに最適です。
+legend.MachinimaTool.Page1.OpensMenu = マキニマエディターUIを開く
+legend.MachinimaTool.Page1.BaseCommand = すべてのマキニマ操作の基本コマンド
+legend.MachinimaTool.Page1.Scenes = シーン\n\
+シーンはマキニマのコンテナです。すべてのアクター、キーフレーム、設定を格納します。
+legend.MachinimaTool.Page1.CreatingFirstScene = 最初のシーンを作成する\n\
+1. マキニマに適した場所を選びます\n\
+2. マキニマメニューを開きます\n\
+3. + アイコンをクリックして新しいシーンを作成します\n\
+4. 最初のアクターを追加しましょう！
+legend.MachinimaTool.Page1.Actors = アクター\n\
+アクターはキーフレームでアニメーションできるオブジェクトです。次のページでアクターの種類を確認できます。
+legend.MachinimaTool.Page1.AddingCameraActor = カメラアクターを追加する\n\
+1. カメラを配置したい場所に移動します\n\
+2. マキニマメニューを開きます\n\
+3. シーンリスト下の + アイコンをクリックします\n\
+4. ドロップダウンから「カメラ」を選択します\n\
+5. カメラをクリックして位置を変更し、Cキーでカメラビューを切り替えられます！
+legend.MachinimaTool.Page2.Title = アクタータイプ
+legend.MachinimaTool.Page2.Description = アクタータイプごとにマキニマ内での役割が異なります。すべてアニメーション可能なオブジェクトで、位置・回転などの値を制御できます。アクターはマキニマメニューから追加します
+legend.MachinimaTool.Page2.CameraHeader = カメラ
+legend.MachinimaTool.Page2.CameraDesc = カメラをパスに沿って移動させ、FOVやスピードなどの設定をアニメーションできます。
+legend.MachinimaTool.Page2.EntityHeader = エンティティ
+legend.MachinimaTool.Page2.EntityDesc = モデルを持つアニメーションキャラクター。体・頭の回転とアニメーションイベントをサポートします。
+legend.MachinimaTool.Page2.PlayerHeader = プレイヤー
+legend.MachinimaTool.Page2.PlayerDesc = エンティティに似ていますが、ローカルプレイヤーを参照します。
+legend.MachinimaTool.Page2.ReferenceHeader = リファレンス
+legend.MachinimaTool.Page2.ReferenceDesc = 不可視のマーカーポイント。ターゲット設定や参照位置に便利です。カメラのターゲットとして追跡させることもできます。
+legend.MachinimaTool.Page2.ItemHeader = アイテム
+legend.MachinimaTool.Page2.ItemDesc = ワールドにアイテムを表示します。位置の設定とアニメーションができます。
+legend.MachinimaTool.Page2.AddActorCommand = コマンド: .mach actor add [タイプ] [名前]\n\
+タイプ: camera, entity, player, ref, item
+legend.MachinimaTool.Page3.Title = 再生コントロール
+legend.MachinimaTool.Page3.Description = 再生コントロールを使うと、すべてのアクターをキーフレームパスに沿ってアニメーションさせてシーンをプレビューできます。時間のスクラブ、キーフレーム間のジャンプ、アニメーションのテストに使用します。各フレームですべてのアクターがキーフレームパスに沿って更新され、アニメーションが実行されます。
+legend.MachinimaTool.Page3.TogglePause = 再生 / 一時停止を切り替える
+legend.MachinimaTool.Page3.ContinuousPlayback = 連続再生を切り替える（ループ）
+legend.MachinimaTool.Page3.AutoRestart = シーン終了時の自動再スタートを切り替える
+legend.MachinimaTool.Page3.RestartScene = シーンを最初から再スタートする
+legend.MachinimaTool.Page3.EndScene = 最終フレームにスキップする
+legend.MachinimaTool.Page3.NavigationTitle = フレームナビゲーション:
+legend.MachinimaTool.Page3.FrameScrub = フレームをスクラブする（押し続けで連続）
+legend.MachinimaTool.Page3.JumpKeyframe = 前 / 次のキーフレームにジャンプする
+legend.MachinimaTool.Page3.SpeedModifiers = SHIFTで2倍速、ALTで0.5倍速
+legend.MachinimaTool.Page4.Title = キーフレーム編集
+legend.MachinimaTool.Page4.Description = キーフレームはアクターの位置・回転・設定を特定の時点で定義します。システムはキーフレーム間を補間してなめらかなアニメーションパスを生成します。キーフレームを追加してモーションを作成し、編集してタイミングと位置を調整します。
+legend.MachinimaTool.Page4.AddKeyframe = アクタートラックの末尾に新しいキーフレームを追加してアニメーションを延長する
+legend.MachinimaTool.Page4.AddAtCurrentFrame = 現在の再生位置にキーフレームを挿入する
+legend.MachinimaTool.Page4.CopyKeyframe = 選択したキーフレームの設定をコピーして別のアクターまたはフレームに貼り付ける
+legend.MachinimaTool.Page4.DeleteKeyframe = ホバーしているキーフレームを削除する
+legend.MachinimaTool.Page4.EditKeyframe = ギズモを開いてキーフレームの位置と回転を調整する
+legend.MachinimaTool.Page4.MoveActor = アクターパス全体を再配置する
+legend.MachinimaTool.Page4.EditFrameTime = このキーフレームがタイムライン上で発生するタイミングを変更する
+legend.MachinimaTool.Page4.AdjustFrameTime = キーフレームのタイミングを前後に微調整する
+legend.MachinimaTool.Page5.Title = マウス操作
+legend.MachinimaTool.Page5.Description = ワールド内のキーフレームノードをクリックして操作:
+legend.MachinimaTool.Page5.SelectKeyframe = キーフレームを選択する（フリームーブモードに入る）
+legend.MachinimaTool.Page5.JumpToKeyframe = アクティブに設定してフレームにジャンプする
+legend.MachinimaTool.Page5.GizmoTitle = ギズモコントロール:
+legend.MachinimaTool.Page5.TranslationGizmo = 移動ギズモを開く（軸ロック）
+legend.MachinimaTool.Page5.RotationGizmo = 回転ギズモを開く（頭/体）
+legend.MachinimaTool.Page5.FreeMoveTitle = フリームーブモード:
+legend.MachinimaTool.Page5.FreeMoveDescription = 左クリックで位置を確定、右クリックでキャンセル。\n\
+SHIFTを押しながらで距離のあるサーフェスにスナップ。\n\
+ALTを押しながらでサーフェススナップを無視。
+legend.MachinimaTool.Page6.Title = 選択モード
+legend.MachinimaTool.Page6.Description = 選択モードは変換ツール使用時に何が移動するかを決定します。再配置したい対象に応じて適切なモードを選んでください。
+legend.MachinimaTool.Page6.CycleMode = 選択モードを切り替える
+legend.MachinimaTool.Page6.KeyframeModeTitle = キーフレームモード（デフォルト）
+legend.MachinimaTool.Page6.KeyframeModeDesc = 選択したキーフレームのみを移動します。他のキーフレームに影響を与えずアクターパス上の個別ポイントを精密に調整できます。
+legend.MachinimaTool.Page6.ActorModeTitle = アクターモード
+legend.MachinimaTool.Page6.ActorModeDesc = 選択したアクターのすべてのキーフレームをまとめて移動します。アニメーションの形状を維持したままパス全体がシフトします。
+legend.MachinimaTool.Page6.SceneModeTitle = シーンモード
+legend.MachinimaTool.Page6.SceneModeDesc = シーン全体の原点を移動し、すべてのアクターとパスをまとめてシフトします。マキニマ全体を別の場所に移動するのに便利です。
+legend.MachinimaTool.Page7.Title = 表示と原点
+legend.MachinimaTool.Page7.DisplayTitle = 表示切り替え:
+legend.MachinimaTool.Page7.ToggleDisplay = エディターオーバーレイ表示を切り替える
+legend.MachinimaTool.Page7.TogglePathNodes = パスノードの表示を切り替える
+legend.MachinimaTool.Page7.ToggleCamera = カメラアクターのオン/オフを切り替える
+legend.MachinimaTool.Page7.ToggleFrustum = カメラフラスタムの表示を切り替える
+legend.MachinimaTool.Page7.OriginTitle = シーン原点コントロール:
+legend.MachinimaTool.Page7.GoToOrigin = シーン原点にテレポートする
+legend.MachinimaTool.Page7.SetOrigin = シーン原点をプレイヤーの位置に設定する
+legend.MachinimaTool.Page7.OffsetToOrigin = シーン全体をプレイヤーの位置にオフセットする
+legend.MachinimaTool.Page8.Title = パスとカーブ
+legend.MachinimaTool.Page8.Description = キーフレームの補間方法を選択:
+legend.MachinimaTool.Page8.LinearHeader = リニア（デフォルト）
+legend.MachinimaTool.Page8.LinearDesc = キーフレーム間を直線で結びます。シンプルで予測しやすい動きです。
+legend.MachinimaTool.Page8.BezierHeader = ベジェ
+legend.MachinimaTool.Page8.BezierDesc = ドラッグして形状を調整できるコントロールハンドル付きのなめらかなカーブ。
+legend.MachinimaTool.Page8.SplineHeader = スプライン
+legend.MachinimaTool.Page8.SplineDesc = すべてのキーフレームを通過する自動的になめらかなカーブ。
+legend.MachinimaTool.Page8.BezierCommands = パスコマンド:
+legend.MachinimaTool.Page8.EnableBezier = ベジェを有効にする
+legend.MachinimaTool.Page8.SmoothBezier = ハンドルをスムースにする
+legend.MachinimaTool.Page8.EnableSpline = スプラインを有効にする
+legend.MachinimaTool.Page9.Title = コンソールコマンド
+legend.MachinimaTool.Page9.SceneCommands = シーン: .mach scene [load | copy | rename]
+legend.MachinimaTool.Page9.ActorCommands = アクター: .mach actor [list | add | remove | set | model | move | clone | rotate | scale | clear]
+legend.MachinimaTool.Page9.EventCommands = イベント: .mach event [list | add | remove]\n\
+イベントタイプ: animation, camera, command, particle, target
+legend.MachinimaTool.Page9.FileCommands = ファイル: .mach save | load | files | autosave [秒]
+legend.MachinimaTool.Page9.UtilityCommands = ユーティリティ: .mach tool | speed [値] | align | restart
+legend.PasteTool.Page1.Title = プレハブ貼り付けブラシ
+legend.PasteTool.Page1.Description = ブラシのようにプレハブを素早く貼り付けられます。ペイントブラシのほとんどの機能をサポートします。
+legend.PasteTool.Page1.LoadPrefabOrCopy = プレハブを読み込むか選択範囲をコピーする
+legend.PasteTool.Page1.UseSelectionContents = 選択範囲の内容を使用するには、選択ツールで選択範囲を作成して '/copy' と入力し、このツールに戻って使用します
+legend.PasteTool.Page1.OpensPrefabList = プレハブリストを開く。プレハブをクリックして読み込む
+legend.PasteTool.Page1.PastePrefab = プレハブを貼り付ける。押し続けでブラシとして使用
+legend.PasteTool.Page1.StickPrefab = プレハブをターゲットに付着させる、またはすでに付着している場合は解除する
+legend.PasteTool.Page1.RotatePrefabY = Y軸を中心に回転
+legend.PasteTool.Page1.RotatePrefabX = X軸を中心に回転
+legend.PasteTool.Page1.RotatePrefabZ = Z軸を中心に回転
+legend.PasteTool.Page1.ShowTexture = ブロックのテクスチャを切り替える
+legend.PasteTool.Page1.CycleOrigin = 原点を切り替える（下/中央/上）
+legend.PasteTool.Page2.Title = 修飾キー
+legend.PasteTool.Page2.ShiftPrefabLeftRight = プレハブを左右にシフトする
+legend.PasteTool.Page2.ShiftPrefabForwardBackward = プレハブを前後にシフトする
+legend.PasteTool.Page2.ShiftPrefabUp = プレハブを上にシフトする
+legend.PasteTool.Page2.ShiftPrefabDown = プレハブを下にシフトする
+legend.PasteTool.Page2.RotatePrefabLeftRight = プレハブを左右に回転する
+legend.PasteTool.Page2.RollPrefabLeftRight = プレハブを左右にロールする
+legend.PasteTool.Page2.RollPrefabForwardBackward = プレハブを前後にロールする
+legend.PasteTool.Page2.ResetShifting = シフトをリセットする
+legend.PasteTool.Page2.ResetRotation = 回転をリセットする
+legend.TintBrush.Page1.Title = ティントブラシ
+legend.TintBrush.Page1.Description = ブロックにティントを塗ったりブレンドしたりできます。
+legend.TintBrush.Page1.BlendTints = 狙った場所のティントをブレンドする
+legend.TintBrush.Page1.PaintTints = 狙った場所に色を塗る
+legend.TintBrush.Page1.PickColor = ターゲットからティントをコピーする
+legend.TintBrush.Page1.UndoLastBrush = 最後のブラシ操作を元に戻す
+legend.TintBrush.Page1.RedoLastUndo = 最後に元に戻した操作をやり直す
+legend.TintBrush.Page1.EditInventoryProperties = インベントリから色・透明度・サイズ・形状を編集する
+legend.SculptBrush.Page1.Title = スカルプトブラシ
+legend.SculptBrush.Page1.Description = 地形を隆起・降下させて、形状をより正確に彫刻・ブレンドできます。ペイントブラシのほとんどの機能をサポートします。
+legend.SculptBrush.Page1.MeltAwayBlocks = 狙った場所のブロックをレイヤーごとに溶かして除去する
+legend.SculptBrush.Page1.RaiseLayer = 狙った場所のブロックレイヤーを隆起させる
+legend.SculptBrush.Page1.Smooth = 粗い地形をなめらかにする
+legend.SculptBrush.Page1.MaterialSelectedDescription = マテリアルを選択している場合、狙った場所にそのマテリアルのレイヤーを配置します
+legend.SculptBrush.Page1.SelectTargetMaterial = ターゲットのマテリアルを選択する
+legend.SculptBrush.Page1.UndoLastBrush = 最後のブラシ操作を元に戻す
+legend.SculptBrush.Page1.RedoLastUndo = 最後に元に戻した操作をやり直す
+legend.SculptBrush.Page1.EditInventoryProperties = インベントリからマテリアル・サイズ・形状などのプロパティを編集する
+legend.SelectionTool.Page1.Title = 基本選択
+legend.SelectionTool.Page1.CreatingSelection = 選択範囲の作成:
+legend.SelectionTool.Page1.HoldAndDrag = 1. 押し続けてドラッグして最初の軸を選択し、離す
+legend.SelectionTool.Page1.AdjustAndClick = 2. マウスを調整してクリックし、3番目の次元を設定する
+legend.SelectionTool.Page1.ClearSelection = 選択を解除
+legend.SelectionTool.Page1.ClickDragPanels = 選択パネルをクリック＆ドラッグする
+legend.SelectionTool.Page1.ChangeSelectionSize = 選択範囲のサイズを変更する
+legend.SelectionTool.Page1.MoveSelection = 選択範囲を移動する
+legend.SelectionTool.Page1.ExtrudeFace = 面を押し出す
+legend.SelectionTool.Page1.MultipleSelections = 複数の選択範囲:
+legend.SelectionTool.Page1.NextSelection = 次の選択範囲
+legend.SelectionTool.Page1.PreviousSelection = 前の選択範囲
+legend.SelectionTool.Page1.SetRedPoint = 赤い点をターゲットに設定する
+legend.SelectionTool.Page1.SetGreenPoint = 緑の点をターゲットに設定する
+legend.SelectionTool.Page2.Title = コピー / 移動 / 回転
+legend.SelectionTool.Page2.WithSelectionCreated = 選択範囲を作成した状態で:
+legend.SelectionTool.Page2.ShowMoveTool = 移動ツールを表示する
+legend.SelectionTool.Page2.AttachToCursor = 選択範囲をカーソルに付着させる
+legend.SelectionTool.Page2.ShowRotationTool = 回転ツールを表示する
+legend.SelectionTool.Page2.PasteAndExit = 貼り付けて終了する
+legend.SelectionTool.Page2.DuplicatePasteContinue = 複製・貼り付けして続行する
+legend.SelectionTool.Page2.CancelMovement = 移動と回転をキャンセルする
+legend.SelectionTool.Page2.DuplicateSelection = 選択範囲を複製して移動/回転モードに入る
+legend.SelectionTool.Page2.UsingYourSelection = 選択範囲の使い方:
+legend.SelectionTool.Page2.CopySelection = 選択範囲をコピーする
+legend.SelectionTool.Page2.CopyUsageOptions = 貼り付けツール（ブラシ＋プレビュー）または '/paste' コマンドを使用する
+legend.SelectionTool.Page2.SavingPrefabs = プレハブの保存:
+legend.SelectionTool.Page2.SavePrefabCommand = チャットコマンドで選択範囲をプレハブとして保存する
+legend.SelectionTool.Page2.LoadPrefabReference = UIからプレハブを読み込む方法は貼り付けツールの凡例を参照
+legend.SelectionTool.Page3.Title = 選択コマンド
+legend.SelectionTool.Page3.BasicCommands = 基本コマンド:\n\
+- /set [選択範囲をブロックで設定]\n\
+- /clear [選択範囲内のすべてのブロックをクリア]\n\
+- /walls [選択範囲に壁を追加]\n\
+- /move [選択範囲の内容を向いている方向に移動]\n\
+- /undo と /redo [X回分元に戻す/やり直す]\n\
+- /copy [選択範囲をクリップボードにコピー]\n\
+- /cut [選択範囲をクリップボードに切り取り]\n\
+- /paste [クリップボードを現在位置に貼り付け]\n\
+- /stack [選択範囲を向いている方向にX回スタック]\n\
+- /replace [あるマテリアルを別のものに置き換え]\n\
+- /hollow [形状を中空にして中心を空にする]\n\
+- /flip [向いている方向にブロックを反転]\n\
+- /rotate [選択範囲を回転]\n\
+- /expand [向いている方向に選択範囲を拡大]\n\
+- /contract [指定距離分選択範囲を縮小]\n\
+- /deselect [選択ボックスをクリア]
+legend.SelectionTool.Page3.SeeHelpMenu = '/help' メニューで選択範囲に実行できるその他のコマンドを確認できます！
+legend.RulerTool.Page1.Title = 基本測定
+legend.RulerTool.Page1.Description = ルーラーツールを使うと、3D空間内の複数のポイント間の距離を測定でき、複数の測定ラインにも対応しています。
+legend.RulerTool.Page1.PlacePoint = ターゲット位置に測定ポイントを配置する
+legend.RulerTool.Page1.EndCurrentLine = 現在の測定ラインを終了して新しいラインを開始する
+legend.RulerTool.Page1.SnapToAngles = 押し続けると45°角度スナップを有効にして正確な測定ができる
+legend.RulerTool.Page1.DistanceMeasurement = 距離の測定値は各ポイントと各ラインセグメント沿いに表示されます。ラインは色分けされています: 赤（X軸）、緑（Y軸）、青（Z軸）、白（斜め）
+legend.RulerTool.Page2.Title = ポイントとラインの編集
+legend.RulerTool.Page2.PointEditing = 既存ポイントの編集:
+legend.RulerTool.Page2.MovePoint = 既存ポイントを右クリックしてつかみ、移動する
+legend.RulerTool.Page2.DropPoint = 再度右クリックして新しい位置にポイントを置く
+legend.RulerTool.Page2.DeletePoint = ホバーしているポイントを削除する
+legend.RulerTool.Page2.ClearCurrentLine = 現在のラインのすべてのポイントをクリアする
+legend.RulerTool.Page2.ClearAllLines = すべてのラインをクリアしてツールをリセットする
+legend.RulerTool.Page3.Title = 複数の測定ライン
+legend.RulerTool.Page3.Description = ルーラーツールは複数の独立した測定ラインの作成と管理をサポートします。各ラインは独立して追跡・編集できます。
+legend.RulerTool.Page3.NextLine = 次の測定ラインに切り替える
+legend.RulerTool.Page3.PreviousLine = 前の測定ラインに切り替える
+legend.RulerTool.Page3.SwitchToLine = 別のラインのポイントを左クリックしてそのラインに切り替える
+legend.RulerTool.Page3.WorkflowTip = ヒント: 1つのラインにポイントを配置した後、左クリックで終了して自動的に新しいラインを開始します。非アクティブなラインは透明度を下げて表示されます。
+legend.SelectPrefabTool.Page1.Title = プレハブセレクター
+legend.SelectPrefabTool.Page1.Description = プレハブエディターはプレハブを編集して再保存するための一時的な環境を作成します。保存せずにプレハブエディターを離れると変更は失われます。
+legend.SelectPrefabTool.Page1.SelectingPrefabs = プレハブの選択:
+legend.SelectPrefabTool.Page1.SelectPrefab = アンカーをクリックしてプレハブを選択する
+legend.SelectPrefabTool.Page1.UnselectPrefab = 現在選択中のプレハブの選択を解除する
+legend.SelectPrefabTool.Page1.EditingPrefabs = プレハブの編集:
+legend.SelectPrefabTool.Page1.OpenSaveUI = 保存/設定UIを開く
+legend.SelectPrefabTool.Page1.UpdateBoundingBox = 現在の選択範囲に選択プレハブのバウンディングボックスを更新する
+legend.SelectPrefabTool.Page1.TeleportToPrefab = プレハブへのテレポートUIを開く
+legend.SelectPrefabTool.Page1.QuickAccess = クイックアクセス:
+legend.SelectPrefabTool.Page1.SwitchWorlds = 最後のワールドに戻る
+legend.SelectPrefabTool.Page1.SetAnchor = 見ている位置にアンカーポイントを設定する
+legend.SelectPrefabTool.Page1.UsefulCommands = 便利なコマンド:
+legend.SelectPrefabTool.Page1.KillCommand = /pedit kill - 選択プレハブからすべてのエンティティを削除\n\
+/pedit exit - 変更を保存せずにプレハブエディターを終了
+tools.Paste.args.Origin.name = 原点
+tools.Paste.args.Origin.values.Anchor = アンカー
+tools.Paste.args.Origin.values.Bottom = 下
+tools.Paste.args.Origin.values.Center = 中央
+tools.Paste.args.Origin.values.Top = 上
+legend.EntityTool.Page1.Title = エンティティツール
+legend.EntityTool.Page1.Description = NPCやアイテム・ブロック・クリーチャーのモデルをスポーンさせます。ワールド内のエンティティを選択・移動・回転・スケール変更できます。
+legend.EntityTool.Page1.SelectingEntities = エンティティの選択:
+legend.EntityTool.Page1.SelectEntity = エンティティを選択/つかむ
+legend.EntityTool.Page1.FreeMove = エンティティを自由移動する（押し続けてドラッグ）
+legend.EntityTool.Page1.CancelMovement = 移動をキャンセルして元の位置に戻す
+legend.EntityTool.Page1.AdjustDistance = エンティティの距離を調整する
+legend.EntityTool.Page2.Title = 変換モード
+legend.EntityTool.Page2.TransformModes = 変換モード:
+legend.EntityTool.Page2.TranslateMode = 移動モードに入る
+legend.EntityTool.Page2.RotateMode = 回転モードに入る
+legend.EntityTool.Page2.RotateHeadMode = 頭の回転モードに入る
+legend.EntityTool.Page2.FreeMoveMode = カーソルに付着させる
+legend.EntityTool.Page2.Scale = 選択したエンティティをスケール変更する
+legend.EntityTool.Page3.Title = アクション
+legend.EntityTool.Page3.EntityActions = エンティティアクション:
+legend.EntityTool.Page3.Clone = 選択したエンティティを複製する
+legend.EntityTool.Page3.Remove = 選択したエンティティを削除する
+legend.EntityTool.Page3.Freeze = エンティティのフリーズを切り替える
+legend.EntityTool.Page3.MovementOptions = 移動オプション:
+legend.EntityTool.Page3.SurfaceLock = サーフェスロックモードを切り替える
+legend.EntityTool.Page3.SpawnUI = スポーンUI:
+legend.EntityTool.Page3.OpenSpawnUI = エンティティスポーンUIを開く
+panel.selectedEntity = 選択中のエンティティ
+panel.entitySettings = エンティティツール設定
+panel.noSelection = エンティティが選択されていません
+panel.entityType = タイプ
+panel.entityModel = モデル
+panel.entityName = 名前
+panel.entityPosition = 位置
+panel.entityRotation = 回転
+panel.entityScale = スケール
+panel.entityAllowPickup = ピックアップを許可
+panel.entityCollision = 衝突判定
+panel.collisionType.none = なし
+panel.collisionType.soft = ソフト
+panel.collisionType.hard = ハード
+panel.entityClone = 複製
+panel.entityRemove = 削除
+panel.entityPin = エンティティをピン留め
+panel.entityUnpin = エンティティのピン留めを解除
+panel.surfaceLock = サーフェスにロック
+panel.gridSnap = グリッドスナップ
+panel.gridSize = グリッドサイズ
+commands.log.argValueChanged = {argKey} が {argValue} に変更されました
+commands.mode = モード
+commands.keepEmptyBlocks = 「エディター空」ブロックを保持
+commands.executeCommand = コマンドを実行
+commands.material = マテリアル
+commands.weight = 重み
+commands.removeMaterial = マテリアルを削除
+commands.pitch = ピッチ
+commands.addMaterial = マテリアルを追加
+commands.direction = 方向
+commands.includeEmpty = 空を含める
+commands.includeEntities = エンティティを含める
+commands.wall.thickness = 厚さ
+commands.wall.roof = 屋根
+commands.wall.floor = 床
+commands.stack.count = 回数
+commands.stack.spacing = 間隔
+commands.move.distance = 距離
+commands.clear.description = 現在の選択範囲内のすべてのブロックをクリアします。
+commands.clearEntities.description = 現在の選択範囲内のすべてのエンティティを削除します。
+commands.selection.set = 設定
+commands.selection.wall = 壁
+commands.selection.fill = 塗りつぶし
+commands.selection.replace = 置き換え
+commands.selection.clear = クリア
+commands.selection.clear_entities = エンティティをクリア
+commands.selection.stack = スタック
+commands.selection.move = 移動
+commands.direction.forward = 前
+commands.direction.backward = 後
+commands.direction.left = 左
+commands.direction.right = 右
+commands.direction.up = 上
+commands.direction.down = 下
 entityType.npc = NPC
-entityType.item = Item
-entityType.model = Model
-entityType.block = Block
-entityType.unknown = Unknown
+entityType.item = アイテム
+entityType.model = モデル
+entityType.block = ブロック
+entityType.unknown = 不明
 entityModel.fallback.npc = NPC #{id}
-entityModel.fallback.item = Item #{id}
-entityModel.fallback.model = Model #{id}
-entityModel.fallback.block = Block #{id}
+entityModel.fallback.item = アイテム #{id}
+entityModel.fallback.model = モデル #{id}
+entityModel.fallback.block = ブロック #{id}
 entityModel.fallback.unknown = #{id}
-panel.entityLightEnabled = Light Enabled
-panel.entityLightColor = Light Color
-panel.entityLightRadius = Bright Radius
-panel.npcDebug = NPC Debug
-panel.npcState = State
-panel.npcHealth = Health
-panel.npcStamina = Stamina
-panel.npcSpeed = Speed
-panel.npcTarget = Target
-panel.npcTarget.none = None
-brush.log.setPaintMode = Set paint mode for Paint Brush to: {value}
-brush.log.setBrushOrigin = Set brush origin to: {origin}
-brush.log.setBrushShape = Set brush shape to: {shape}
-brush.log.removedFavoriteMaterial = Removed from favorite materials: {block}
-brush.log.addedFavoriteMaterial = Added to favorite materials: {block}
-log.brushMaterialChanged = Brush Material changed to: {value}
-log.brushKeyChanged = Brush Key changed to: {value}
-log.argChanged = {key} changed to: {value}
-log.invalidBlockType = '{block}' is not a valid block type
+panel.entityLightEnabled = ライトを有効にする
+panel.entityLightColor = ライトの色
+panel.entityLightRadius = 明るさの半径
+panel.npcDebug = NPCデバッグ
+panel.npcState = 状態
+panel.npcHealth = HP
+panel.npcStamina = スタミナ
+panel.npcSpeed = スピード
+panel.npcTarget = ターゲット
+panel.npcTarget.none = なし
+brush.log.setPaintMode = ペイントブラシのペイントモードを {value} に設定しました
+brush.log.setBrushOrigin = ブラシの原点を {origin} に設定しました
+brush.log.setBrushShape = ブラシの形状を {shape} に設定しました
+brush.log.removedFavoriteMaterial = お気に入りマテリアルから削除しました: {block}
+brush.log.addedFavoriteMaterial = お気に入りマテリアルに追加しました: {block}
+log.brushMaterialChanged = ブラシマテリアルが {value} に変更されました
+log.brushKeyChanged = ブラシキーが {value} に変更されました
+log.argChanged = {key} が {value} に変更されました
+log.invalidBlockType = '{block}' は有効なブロックタイプではありません
