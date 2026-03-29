@@ -1,21 +1,21 @@
-earSide = 耳の側
+earSide = 耳の向き
 earSide.left = 左
 earSide.right = 右
 earSide.both = 両方
 
-pattern.skull = スカルパターン
-pattern.star = スターパターン
-pattern.gaia = プリズマティック・ツリーパターン
-pattern.cat = キャットパターン
-pattern.bunny = バニーパターン
-pattern.unicorn = ユニコーンパターン
-pattern.cat = キャットパターン
-pattern.play = 再生ボタンパターン
-pattern.play_inverted = 反転再生ボタンパターン
+pattern.skull = ドクロ柄
+pattern.star = スター柄
+pattern.gaia = 虹色の木柄
+pattern.cat = ネコ柄
+pattern.bunny = うさぎ柄
+pattern.unicorn = ユニコーン柄
+pattern.cat = ネコ柄
+pattern.play = 再生ボタン柄
+pattern.play_inverted = 反転再生ボタン柄
 
-pants.dungareesshorts = ダンガリーショーツ
+pants.dungareesshorts = サロペットショーツ
 pants.bracedshorts = ブレース付きショーツ
-pants.dungarees = ダンガリー
+pants.dungarees = サロペット
 pants.bracedpants = ブレース付きパンツ
 pants.hiddenbelt = 隠しベルト
 
@@ -25,27 +25,27 @@ option.c = オプション C
 
 default = デフォルト
 
-overtops.Scavenger_Poncho = スカルなし
+overtops.Scavenger_Poncho = ドクロなし
 
-capes.no_neck = 首元なし
+capes.no_neck = 首なし
 
-haircuts.Dreadlocks01.name = ドレッドヘア 1
-haircuts.Dreadlocks02.name = ドレッドヘア 2
-haircuts.Dreadlocks03.name = ドレッドヘア 3
-haircuts.FrizzyBun01.name = フリジーお団子 1
-haircuts.FrizzyBun02.name = フリジーお団子 2
-haircuts.SlickbackCowlick.name = アホ毛付きオールバック
+haircuts.Dreadlocks01.name = ドレッドロックス 1
+haircuts.Dreadlocks02.name = ドレッドロックス 2
+haircuts.Dreadlocks03.name = ドレッドロックス 3
+haircuts.FrizzyBun01.name = くせ毛お団子 1
+haircuts.FrizzyBun02.name = くせ毛お団子 2
+haircuts.SlickbackCowlick.name = つむじ跳ねオールバック
 haircuts.Hairstrand.name = ヘアストランド
-haircuts.GoldenBangles.name = ゴールデンバングル
+haircuts.GoldenBangles.name = ゴールドバングル
 
-haircuts.Messy.name = メッシ
+haircuts.Messy.name = くせ毛
 haircuts.Braids.name = 三つ編み
-haircuts.Locks.name = ロック
+haircuts.Locks.name = ロックス
 haircuts.Wild.name = ワイルド
 
 headaccessory.Logo_Cap_Movie.name = ムービーロゴ
 headaccessory.Logo_Cap_Heart.name = ハートロゴ
-headaccessory.Logo_Cap_Hypixel.name = Hypixelロゴ
+headaccessory.Logo_Cap_Hypixel.name = ハイピクセルロゴ
 
 left_arm.name = 左腕
 right_arm.name = 右腕
