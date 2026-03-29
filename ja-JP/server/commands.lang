@@ -1,0 +1,368 @@
+desc = Remove all entities within the current selection
+noSelection = You don't have anything selected!
+cleared = Removed {count, plural, one {1 entity} other {{count, number} entities}} from selection
+notFurther = Cannot teleport further in this direction!
+worldNotLoaded = This world is no longer loaded!
+worldRemoved = The world "{name}" no longer exists and has been removed from your teleport history.
+teleportedToCoordinates = You have been teleported to ({x, number}, {y, number}, {z, number}).
+teleportedToCoordinatesWithLook = You have been teleported to ({x, number}, {y, number}, {z, number}, {yaw, number}, {pitch, number}, {roll, number}).
+teleportedSelfHome = You have been teleported home.
+teleportedToCoordinatesNotification = You have been teleported to ({x, number}, {y, number}, {z, number}).
+teleportedWithLookNotification = You have been teleported to ({x, number}, {y, number}, {z, number}, {yaw, number}, {pitch, number}, {roll, number}).
+teleportedOtherToPlayer = Teleported {targetName} to {toName}.
+teleportedToPlayer = You have been teleported to {toName}.
+teleportedToTop = You have been teleported to the top of the world!
+teleportEveryone = Teleported everyone in world "{world}" to ({x, number}, {y, number}, {z, number}).
+teleportEveryoneWithLook = Teleported everyone in world "{world}" to ({x, number}, {y, number}, {z, number}, {yaw, number}, {pitch, number}, {roll, number}).
+teleportedBackToWaypoint = You have been teleported back to {name} at ({x, number}, {y, number}, {z, number}). [{remaining, number} back, {otherDirection, number} forward]
+teleportedBackToCoordinates = You have been teleported back to ({x, number}, {y, number}, {z, number}). [{remaining, number} back, {otherDirection, number} forward]
+teleportedForwardToWaypoint = You have been teleported forward to {name} at ({x, number}, {y, number}, {z, number}). [{remaining, number} forward, {otherDirection, number} back]
+teleportedForwardToCoordinates = You have been teleported forward to ({x, number}, {y, number}, {z, number}). [{remaining, number} forward, {otherDirection, number} back]
+teleportedToWorld = You have been teleported to world "{worldName}" at ({x, number}, {y, number}, {z, number}).
+indexNotFound = Invalid spawn index (max index is {maxIndex})!
+teleported = You have been teleported to the spawn location ({x, number}, {y, number}, {z, number}).
+teleportedOther = {username} has been teleported to the spawn location ({x, number}, {y, number}, {z, number}).
+objectiveNotFound = Objective '{id}' not found!
+objectiveLineNotFound = Objective line '{id}' not found!
+noTaskForIndex = No task found for specified index!
+taskAlreadyCompleted = The specified task has already been completed!
+start = Commands to start an objective or objective line
+complete = Commands to complete either a task, taskSet, or objective
+panel = Open the objective panel admin
+history = Print the history of completed objectives and objective lines
+locationMarker = Commands to add/enable/disable ObjectiveLocationMarker
+reachLocationMarker = Commands to add ReachLocationMarker
+notInPortal = You aren't in a Fragment!
+uncursedTemp = Your cursed items have been cleansed. This is a temporary feature of the /leave command while portals are in development.
+notHoldingItem = Hold an item in your hand to curse it
+done = Set held item Cursed state to {state}
+response = HytaleServer v{version} ({patchline})
+removed = Viewport was removed and will no longer refresh.
+created = Viewport created for the selected region.
+blockSpawnerSet = Set BlockSpawner to {id}!
+currentBlockSpawner = The BlockSpawner for this block is {id}
+noBlockSpawnerSet = No BlockSpawner set for this block
+success = Blocks cleared.
+invalidStoreType = {storeType} is not a valid prefab store!
+fromRequired = From argument is required for fluid replacement
+invalidRegex = Unable to parse regex: {error}
+noMatchingBlocks = No matching blocks: {blockType}
+set = Selection history enabled: {enabled}
+unknownFluid = Unknown fluid (or no fluid provided)
+maxFluidLevelClamped = Clamping max fluid level to {level, number}
+directionInvalid = The direction "{direction}" is not valid!
+prefabNotFound = Could not find a prefab with the name '{name}'
+loading = Loading prefabs and creating world..
+notInEditSession = You are not in an prefab editing session
+alreadyInEditSession = You are already in a prefab editing session
+noPrefabSelected = You do not have any prefab selected. Please select one with the "/editprefab select" command
+unselected = Prefab unselected
+somethingWentWrong = Something has gone wrong trying to parse settings
+finishProcessingError = Error while processing prefabs: {error}
+noPrefabsInPath = No prefab files found, searched paths
+notInEditWorldWarning = You must be in the prefab editor world to run this command! Use /pedit back to return to the prefab editor world.
+closedEditSession = Prefab Editor session has been closed.
+existingEditSession = You are already in an edit session, please exit your current one if you want to start a new one
+alreadyBeingEdited = The prefab you are trying to edit is already being edited by someone else: {path}
+cannotUseCommandDuringExec = You cannot use this command while the config is executing. Use '/sb exit' to stop execution.
+loaded = Loaded scripted brush: {name}
+copiedInstanceAssetConfig = Duplicated instance {origin} into {destination}
+createdInstanceAssetConfig = Created instance asset config for: {name}
+beginLoading = Started loading for instance asset: {name}
+doneLoading = Finished loading instance asset at world: {world}
+dismountAttempted = Dismount attempted
+dismountOther = Dismounted {username}
+noComponent = You don't have a Mounted component
+mountedToEntity = You are mounted to an entity
+mountedToBlock = You are mounted to a block
+unknownStatus = Your mounted status is unknown
+matches = {blocktype} matches TagPattern '{pattern}'
+noMatches = {blocktype} does not match TagPattern '{pattern}'
+container = This message contains: {content}
+example = A number: {random}
+usage = Usage
+usagecolon = Usage: {usage}
+noPermissibleSubCommand = No permissible subcommands
+useHelpOnAnySubCommand = Append --help to any subcommand!
+useHelpToLearnMore = Use "/{command} --help" to learn more!
+waitForBoot = The server is still booting up, please retry the command in a moment.
+noSuchPlayer = No such player '{username}'.
+noSuchWorld = No such world '{name}'.
+noSuchEnum = Could not find enum of type {type} with a name: '{name}'.
+worldUnspecified = Ambiguous world argument
+permission = You don't have permission to execute that command! Requires {permission}
+sender = Wrong sender type, expecting {sender}
+noWorld = No world exists or is specified
+playerNotInWorld = Player is not in valid world
+targetNotInWorld = Target is not in valid world
+targetNotFound = Target {uuid} not found
+chunkNotLoaded = Chunk at {chunkX}, {chunkZ} is not loaded in world '{world}'
+no_entity_in_view = No entity in view! Either look at an entity or use --{option}=<uuid>
+playerOrArg = Sender must be a player or provide the --{option} option!
+relativePositionArg = Sender must be a player to use relative coordinates!
+playerNotLookingAtBlock = You must be looking at a block
+providePosition = Position must be provided if run from console!
+not_npc = Entity is not an NPC: {uuid}
+spawnIndexOutOfRange = Spawn index is out of range
+playerOnly = This command can only be used by players
+exception = There was an error running this command, see server logs.
+notInHubWorld = You are not in a Crossroads-enabled world!
+alreadyInHub = You are already in the Crossroads!
+cantHideFromSelf = You can't hide from yourself
+shownTo = {username} is visible to {targetUsername}
+hiddenFrom = {username} is hidden from {targetUsername}
+hiddenFromAll = {username} is hidden from all players
+shownToAll = {username} is visible to all players
+allHiddenFromAll = All players are now hidden from each other
+allShownToAll = All players are now visible to each other
+enabled = Enabled block placement override
+disabled = Disabled block placement override
+invalidusage = Invalid usage! Valid usage: /sudo <player>
+header = You are currently:\n\
+  World: {world}\n\
+  Chunk: {chunkX, number}, {chunkY, number}, {chunkZ, number}\n\
+  Position: {posX, number}, {posY, number}, {posZ, number}\n\
+  Look: {yaw, number}, {pitch, number}, {roll, number}\n\
+  Direction: {direction}\n\
+  Axis Direction: {axisDirection}\n\
+  Axis: {axis}
+needsSaving = Needs Saving: {needsSaving}
+insufficientInvSpace = Unable to give {quantity, number} of {item}; insufficient inventory space.
+gave = You gave {targetUsername} {quantity, number} of {item}
+received = Received {quantity, number} of {item}
+invalidMetadata = Invalid metadata format: {error}
+get = Max players is set to {maxPlayers, number}
+getInfinite = Max players is set to infinite
+setInfinite = Max players has been set to infinite
+starting = Starting a backup...
+notConfigured = The server must be started with --backup-dir to use this command!
+notInitialized = AssetModule is not initialized.
+noneLoaded = No asset packs are loaded.
+listHeader = Loaded asset packs
+listEntry = {name} ({root})
+serialized = Serialized chunk data to console.
+chunk = Chunk {chunkX}, {chunkZ}:\n\
+  \tFlags: \n\
+    \t\tStart Init: {startInit}\n\
+    \t\tInit: {init}\n\
+    \t\tNewly Generated: {newlyGenerated}\n\
+    \t\tOn Disk: {onDisk}\n\
+    \t\tTicking: {ticking}\n\
+  \tKeep Loaded: {keepLoaded}\n\
+  \tNeeds Saving: {saving}\n\
+  \tMetadata:\n\
+  \tBlockChunk:\n\
+    \t\tNeeds Saving: {savingChunk}
+section = \t\tSection {index}:\n
+dataType = \t\t\tData Type: {data}\n
+sectionInfo = \t\t\tHas Ticking: {ticking}\n\
+      \t\t\tIs Solid Air: {solidAir}\n\
+      \t\t\tBlock Count: {count}\n\
+      \t\t\tBlock Counts: {counts}
+blockStateChunk = \tBlock State Chunk:\n\
+    \t\tNeeds Saving: {saving}\n\
+    \t\tBlock States: {countStates}\n\
+    \t\tUnknown Block States: {countUnknown}\n\
+    \t\tSendable Block States: {countSendable}\n\
+    \t\tTickable Block States: {countTickable}\n\
+  \tEntity Chunk:\n\
+    \t\tNeeds Saving: {savingEntity}\n\
+    \t\tEntities: {countEntities}
+rocksdb = Commands that work on rocksdb chunk storage
+toggled = Toggled visual feedback for hit detection to {debug}
+singlePlayerOnly = This option only works in singleplayer!
+clientPIDRunning = Client PID: {pid} {running}
+isRunning = is running
+isNotRunning = is not running
+PIDRunning = PID: {pid} {running}
+pidRequired = A PID must be provided when --singleplayer is not specified
+forgotten = You have forgotten the recipe for '{id}'!
+alreadyNotKnown = You don't know the recipe for '{id}'!
+knownRecipes = Known Recipes: {list}
+typeNotFound = Failed to find armor of type '{type}'!
+noItem = This requires a held item
+invalidStore = {store} is not a valid prefab store!
+defaultWorldNull = Default world is null!
+invalidPath = Specified path is outside of the HytaleServer directory.
+failed = Failed to convert prefabs
+skipped = Skipped prefabs
+value = Red: {red}, Green: {green}, Blue: {blue}, Sky: {sky}
+setCalculation = Set the chunk lighting calculation to '{calculation}'!
+alreadyFullBright = The chunk lighting calculation is already full bright!
+setCalculationWithDelegate = Set the chunk lighting calculation to full bright with delegate of '{delegate}'!
+playerReset = Reset player: {uuid}
+localLightingStatus = Send Local Lighting has been {enabled, select, true {enabled} other {disabled}}
+globalLightingStatus = Send Global Lighting has been {enabled, select, true {enabled} other {disabled}}
+setPercent = Set sleep offset percent: {newValue} (was {oldValue})
+getPercent = Sleep offset percent: {value}
+getOffset = Sleep offset: {value}
+test = Sleep Test\n  - Delta: Min: {deltaMin}, Max: {deltaMax}, Avg: {deltaAvg} - {deltaTime}\n  - Offset: Min: {offsetMin}, Max: {offsetMax}, Avg: {offsetAvg} - {offsetTime}
+interrupted = Sleep test interrupted
+droplistSet = Set droplist!
+currentDroplist = Current droplist: {droplist}
+noDroplist = No droplist for container.
+alreadyInProgress = Benchmark already in progress.
+benchmarkNotSupported = This worldgen implementation doesn't support benchmarking!
+abort = Someone else started a benchmark at the same time. Aborting.
+started = Started benchmark for seed "{seed}" in "{worldName}" with {size} chunks.
+progress = Progress: {percent}%
+saving = Saving results...
+saveDone = ... done! Saved as {fileName}
+saveFailed = ... FAILED! See console.
+clearimages = Cleared world map images!
+reloadFailed = Failed to reload world map: {error}
+zoneNames = Zone Names: {zoneNames}
+zonesNotDiscovered = You haven't discovered: {zoneNames}!
+zoneNotFound = Failed to find zone '{zoneName}'!
+zoneDiscovered = Added zone '{zoneName}' to your discovered zones!
+zoneAlreadyDiscovered = You have already discovered zone '{zoneName}'!
+zonesDiscovered = You have discovered: {zoneNames}!
+zoneRemovedFromDiscovered = Removed zone '{zoneName}' from your discovered zones!
+zoneNotDiscoveredYet = You haven't discovered zone '{zoneName}' yet!
+allZonesDiscovered = Added all zones to your discovered zones!
+allZonesRemovedFromDiscovered = Removed all zones from your discovered zones!
+markersCleared = Cleared world map markers!
+chunkLoadUsage = Use the command `/load {chunkX} {chunkZ}` to load the chunk.
+blocksInChunkTick = Marked all blocks in chunk {chunkX}, {chunkZ} as ticking!
+timeInfo = Time cycle {msg} in {worldName} at {time}
+info = Time in world '{worldName}' is currently {timePaused} at {time} on {dayOfWeek} day of week, on {weekOfMonth} week of month, on {weekOfYear} week of year, on {dayOfYear} day of year, with {moonPhase} moon phase
+paused = paused
+unpaused = unpaused
+emoteNotFound = Failed to find emote: {id}
+extentsThresholdNeeded = Using the extents threshold of {threshold} the total number of filler blocks needed is: {nb}
+notFound = No hitbox with name '{name}'
+boundingBox = Bounding Box: {box}
+box = (({minX, number}, {minY, number}, {minZ, number}), ({maxX, number}, {maxY, number}, {maxZ, number}))
+noAuthSkin = {name} doesn't have a skin set by auth! Try '/model [player] {model}' to set to the default player skin
+noAuthSkinForPlayer = You don't have a skin set by auth! Try '/model [player] {model}' to set to the default player skin
+modelReset = Reset model for {name}!
+modelResetForPlayer = Your model has been reset!
+modelSet = Set model for {playerName} to {modelName}
+modelSetForPlayer = Your model has been set to {modelName}
+not_authenticated = Cannot check for updates - server is not authenticated. Use /auth login first.
+check_failed = Failed to check for updates. See server logs for details.
+no_update = Already running the latest version.
+download_failed = Failed to download update. See server logs for details.
+download_complete = Update downloaded and staged.\nRun '/update apply --confirm' to apply and restart.
+download_in_progress = A download is already in progress. Use '/update cancel' to abort it.
+invalid_layout_download = Cannot download update: folder layout not compatible with auto-update.\nExpected Assets.zip and launcher scripts in parent directory.\nUse '/update download --force' to download anyway.
+downloading = Downloading update {version}...
+download_progress = Download progress: {percent}% ({downloaded} / {total})
+checking = Checking for updates...
+already_latest = Already running the latest version: {version}
+update_available = Update available: {latest} (current: {current})\nRun '/update download' to stage the update.
+status = Version: {version}\nPatchline: {patchline}\nStaged: {staged}\nLatest: {latest}\nDownloading: {downloading}
+nothing_to_cancel = No download in progress and no staged update to cancel.
+download_cancelled = Download cancelled.
+cancel_failed = Failed to delete staged update. See server logs for details.
+cancelled = Staged update {version} has been cancelled and deleted.
+no_staged = No staged update to apply. Run '/update download' first.
+backup_failed = Failed to create backups. Update aborted. See server logs for details.
+apply_confirm_required = About to apply update {version} and restart the server.\nRun '/update apply --confirm' to proceed.
+applying_no_launcher = Applying update {version}...\nWarning: No launcher script detected - update files must be moved manually after shutdown.
+applying = Applying update {version}...\nServer will shut down and restart with the new version.
+download_setup_hint = Update staged to updater/staging/. To complete setup, stop the server:\n\
+    1. Copy the contents of updater/staging/ to where you want the server\n\
+    2. Move your existing server files (config, saves, mods - not HytaleServer.jar) into the Server/ folder\n\
+    3. Launch using start.sh or start.bat
+spawnerNotFoundAtTarget = Could not find prefab spawner at target block {pos}
+offlineMode = This command is unavailable when offline. If you wish to use this command, restart in online mode.
+singleplayerOnlyPrivate = Private Play can only be enabled/disabled in singleplayer!
+singleplayerOnlyLan = LAN Play can only be enabled/disabled in singleplayer!
+singleplayerOnlyFriend = Friend Play can only be enabled/disabled in singleplayer!
+singleplayerOnlyOpen = Open Play can only be enabled/disabled in singleplayer!
+accessDisabledPrivate = Disabled Private Play
+accessDisabledLan = Disabled LAN Play
+accessDisabledFriend = Disabled Friend Play
+accessDisabledOpen = Disabled Open Play
+accessEnabledPrivate = Enabled Private Play
+accessEnabledLan = Enabled LAN Play
+accessEnabledFriend = Enabled Friend Play
+accessEnabledOpen = Enabled Open Play
+accessAlreadyToggledPrivate = Private Play is already {enabled, select, true {enabled} other {disabled}}
+accessAlreadyToggledLan = LAN Play is already {enabled, select, true {enabled} other {disabled}}
+accessAlreadyToggledFriend = Friend Play is already {enabled, select, true {enabled} other {disabled}}
+accessAlreadyToggledOpen = Open Play is already {enabled, select, true {enabled} other {disabled}}
+addPermToGroup = Added permissions to group: {group}
+permRemovedFromGroup = Removed permissions from group: {group}
+permAddedToUser = Added permissions to user: {uuid}
+permRemovedFromUser = Removed permissions from user: {uuid}
+userAddedToGroup = Added user '{uuid}' to group '{group}'
+userRemovedFromGroup = Removed user '{uuid}' from group '{group}'
+hasPermission = {permission}: {hasPermission}
+plugins = Plugins
+pluginLoading = Plugin {id} loading...
+pluginLoaded = Plugin {id} loaded!
+failedToLoadPlugin = Failed to load plugin {id}!
+failedToLoadInvalidState = Failed to load the plugin {id} because it in an invalid state!
+failedToLoadSetup = Failed to load the plugin {id} because it being setup!
+failedToLoadStarted = Failed to load the plugin {id} because it being started!
+failedToLoadAlreadyEnabled = Failed to load the plugin {id} because it is already enabled!
+failedPluginState = Failed, plugin state is {state}
+failedToUnloadState = Failed to unload the plugin {id} because it in an invalid state!
+failedToUnloadSetup = Failed to unload the plugin {id} because it being setup!
+failedToUnloadStarted = Failed to unload the plugin {id} because it being started!
+pluginUnloading = Plugin {id} unloading...
+pluginUnloaded = Plugin {id} unloaded!
+failedToUnload = Failed to unload plugin {id}!
+failedToUnloadDisabled = Failed to unload the plugin {id} because it is disabled!
+notLoaded = The plugin {id} is not loaded!
+failedToReloadState = Failed to reload the plugin {id} because it in an invalid state!
+failedToReloadSetup = Failed to reload the plugin {id} because it being setup!
+failedToReloadStarted = Failed to reload the plugin {id} because it being started!
+pluginReloaded = Plugin {id} reloaded!
+failedToReload = Failed to reload plugin {id}!
+failedToReloadDisabled = Failed to reload the plugin {id} because it is disabled!
+bootListEnabled = Plugin {id} enabled on plugins boot list!
+bootListDisabled = Plugin {id} disabled on plugins boot list!
+setLogger = Set logger '{name}' to level {level}{saved}
+removedLogger = Removed logger '{name}' from config!
+setLoggerNoSave = Logger '{name}' is set to level {level}
+invalidLevel = '{input}' is not a valid log level! Using {level}.
+dealt = Dealt {damage} damage to {victim}
+desyncDamageEnabled = Desync damage enabled: {enabled}
+invalidPort = Invalid port number. Must be between 1 and 65535.
+playerWithDisplayName = {displayName} ({username})
+titleRequired = A title must be provided
+spawned = Spawned {quantity}x {item}
+spawnedMultiple = Spawned {count} item entities with {quantity}x {item} each (total: {total}x {item})
+historyCleared = Ping history cleared
+entityStatNotFound = EntityStat "{name}" not found!
+valueReset = "{name}" reset: {value, number}
+stopped = Stopped stress test
+alreadyStarted = Stress test already started
+notStarted = Stress test not started
+invalidName = Invalid name '{name}' (must be alphanumeric)
+knockbackServerPredictionEnabled = Server knockback: {enabled}
+knockbackDebugEnabled = Knockback debug: {enabled}
+summary = Entities:\n\
+    \tVisible: {visibleCount, number}\n\
+    \tLOD Excluded: {lodExcludedCount, number}\n\
+    \tHidden: {hiddenCount, number}\n\
+    \tTotal: {totalCount, number}\n\
+    World Total: {worldTotalCount, number}\n\
+    View Radius: {viewRadius, number} ({viewRadiusBlocks, number})
+result = Your positions:\n\
+    Position: {bodyPosition}\n\
+    Rotation: {bodyRotation}\n\
+    Head Rotation: {headRotation}\n\
+    Teleport: {teleport}\n\
+    Pending Teleport: {pendingTeleport}
+notify = Spawned a blue debug thingy on your position.
+notAvailable = Packet stats not available
+row = Count: {count, number}, Size: {size}, Avg: {avg}, Min: {min}, Max: {max}
+stats = Packet {name} [#{id, number}] Stats\n\
+    Sent:\n\
+    \tTotal: {sentTotal}\n\
+    \tRecent: {sentRecent}\n\
+    Received:\n\
+    \tTotal: {receivedTotal}\n\
+    \tRecent: {receivedRecent}
+uniqueItemAlreadyUsed = An item of this type can only be used once and you have already used one!
+updated = The world is now {state}
+tooManyPlayers = Cannot pause outside singleplayer or if there is more than one player present!
+blockSetsSearched = Searched BlockSets: [
+added = {username} is now an operator!
+already = {username} is already an operator.
+notOp = {username} is not an operator.
+empty = No drops for droplist '{droplistId}'!
