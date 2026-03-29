@@ -3930,72 +3930,72 @@ Metal_Zinc_Roof_Flat.name = Zinc Roof - Flat
 Metal_Zinc_Roof_Shallow.name = Zinc Roof - Shallow
 Metal_Zinc_Roof_Steep.name = Zinc Roof - Steep
 Metal_Zinc_Stairs.name = Zinc - Stairs
-Build_Black_Cube.name=Black Build Cube = 
-Build_Black_Half.name=Black Build - Half Slab = 
-Build_Black_Stairs.name=Black Build - Stairs = 
-Build_Black_Fence.name=Black Build - Fence = 
-Build_Black_Pipe.name=Black Build Pipe = 
-Build_Black_Pipe_Corner.name=Black Build Pipe Corner = 
-Build_Black_Roof.name=Black Build Roof = 
-Build_Black_Roof_Flat.name=Black Build Roof - Flat = 
-Build_Black_Roof_Shallow.name=Black Build Roof - Shallow = 
-Build_Black_Roof_Steep.name=Black Build Roof - Steep = 
-Build_GreyDark_Cube.name=Grey Dark Build Cube = 
-Build_GreyDark_Fence.name=Grey Dark Build - Fence = 
-Build_GreyDark_Half.name=Grey Dark Build - Half Slab = 
-Build_GreyDark_Pipe.name=Grey Dark Build Pipe = 
-Build_GreyDark_Pipe_Corner.name=Grey Dark Build Pipe Corner = 
-Build_GreyDark_Roof.name=Grey Dark Build Roof = 
-Build_GreyDark_Roof_Flat.name=Grey Dark Build Roof - Flat = 
-Build_GreyDark_Roof_Shallow.name=Grey Dark Build Roof - Shallow = 
-Build_GreyDark_Roof_Steep.name=Grey Dark Build Roof - Steep = 
-Build_GreyDark_Stairs.name=Grey Dark Build - Stairs = 
-Build_GreyLight_Cube.name=Grey Light Build Cube = 
-Build_GreyLight_Fence.name=Grey Light Build - Fence = 
-Build_GreyLight_Half.name=Grey Light Build - Half Slab = 
-Build_GreyLight_Pipe.name=Grey Light Build Pipe = 
-Build_GreyLight_Pipe_Corner.name=Grey Light Build Pipe Corner = 
-Build_GreyLight_Roof.name=Grey Light Build Roof = 
-Build_GreyLight_Roof_Flat.name=Grey Light Build Roof - Flat = 
-Build_GreyLight_Roof_Shallow.name=Grey Light Build Roof - Shallow = 
-Build_GreyLight_Roof_Steep.name=Grey Light Build Roof - Steep = 
-Build_GreyLight_Stairs.name=Grey Light Build - Stairs = 
-Build_Grey_Cube.name=Grey Build Cube = 
-Build_Grey_Fence.name=Grey Build - Fence = 
-Build_Grey_Half.name=Grey Build - Half Slab = 
-Build_Grey_Pipe.name=Grey Build Pipe = 
-Build_Grey_Pipe_Corner.name=Grey Build Pipe Corner = 
-Build_Grey_Roof.name=Grey Build Roof = 
-Build_Grey_Roof_Flat.name=Grey Build Roof - Flat = 
-Build_Grey_Roof_Shallow.name=Grey Build Roof - Shallow = 
-Build_Grey_Roof_Steep.name=Grey Build Roof - Steep = 
-Build_Grey_Stairs.name=Grey Build - Stairs = 
-Build_Lightsource_Blue.name=Blue Build Lightsource = 
-Build_Lightsource_Cyan.name=Cyan Build Lightsource = 
-Build_Lightsource_White.name=White Build Lightsource = 
-Build_Lightsource_Orange.name=Orange Build Lightsource = 
-Build_Lightsource_Pink.name=Pink Build Lightsource = 
-Build_Lightsource_Red.name=Red Build Lightsource = 
-Build_Lightsource_Yellow.name=Yellow Build Lightsource = 
-Build_Lightsource_YellowLight.name=Yellow Light Build Lightsource = 
-Build_White_Cube.name=White Build Cube = 
-Build_White_Fence.name=White Build - Fence = 
-Build_White_Half.name=White Build - Half Slab = 
-Build_White_Pipe.name=White Build Pipe = 
-Build_White_Pipe_Corner.name=White Build Pipe Corner = 
-Build_White_Roof.name=White Build Roof = 
-Build_White_Roof_Flat.name=White Build Roof - Flat = 
-Build_White_Roof_Shallow.name=White Build Roof - Shallow = 
-Build_White_Roof_Steep.name=White Build Roof - Steep = 
-Build_White_Stairs.name=White Build - Stairs = 
-Prototype_Rock_Concrete_Brick_Decorative.name=Concrete Brick - Decorative = 
-Prototype_Rock_Concrete_Brick_Ornate.name=Concrete Brick - Ornate = 
-Prototype_Rock_Concrete_Slab.name=Concrete Slab = 
-Prototype_Rock_Concrete_Slab_Brick.name=Concrete Slab Brick = 
-Prototype_Rock_Concrete_Slab_Brick_Decorative.name=Concrete Slab Brick - Decorative = 
-Prototype_Rock_Concrete_Slab_Brick_Half.name=Concrete Slab Brick - Half Slab = 
-Prototype_Rock_Concrete_Slab_Mid_Top.name=Concrete Slab Mid Top = 
-Prototype_Rock_Concrete_Slab_Stairs.name=Concrete Slab - Stairs = 
+Build_Black_Cube.name=Black Build Cube
+Build_Black_Half.name=Black Build - Half Slab
+Build_Black_Stairs.name=Black Build - Stairs
+Build_Black_Fence.name=Black Build - Fence
+Build_Black_Pipe.name=Black Build Pipe
+Build_Black_Pipe_Corner.name=Black Build Pipe Corner
+Build_Black_Roof.name=Black Build Roof
+Build_Black_Roof_Flat.name=Black Build Roof - Flat
+Build_Black_Roof_Shallow.name=Black Build Roof - Shallow
+Build_Black_Roof_Steep.name=Black Build Roof - Steep
+Build_GreyDark_Cube.name=Grey Dark Build Cube
+Build_GreyDark_Fence.name=Grey Dark Build - Fence
+Build_GreyDark_Half.name=Grey Dark Build - Half Slab
+Build_GreyDark_Pipe.name=Grey Dark Build Pipe
+Build_GreyDark_Pipe_Corner.name=Grey Dark Build Pipe Corner
+Build_GreyDark_Roof.name=Grey Dark Build Roof
+Build_GreyDark_Roof_Flat.name=Grey Dark Build Roof - Flat
+Build_GreyDark_Roof_Shallow.name=Grey Dark Build Roof - Shallow
+Build_GreyDark_Roof_Steep.name=Grey Dark Build Roof - Steep
+Build_GreyDark_Stairs.name=Grey Dark Build - Stairs
+Build_GreyLight_Cube.name=Grey Light Build Cube
+Build_GreyLight_Fence.name=Grey Light Build - Fence
+Build_GreyLight_Half.name=Grey Light Build - Half Slab
+Build_GreyLight_Pipe.name=Grey Light Build Pipe
+Build_GreyLight_Pipe_Corner.name=Grey Light Build Pipe Corner
+Build_GreyLight_Roof.name=Grey Light Build Roof
+Build_GreyLight_Roof_Flat.name=Grey Light Build Roof - Flat
+Build_GreyLight_Roof_Shallow.name=Grey Light Build Roof - Shallow
+Build_GreyLight_Roof_Steep.name=Grey Light Build Roof - Steep
+Build_GreyLight_Stairs.name=Grey Light Build - Stairs
+Build_Grey_Cube.name=Grey Build Cube
+Build_Grey_Fence.name=Grey Build - Fence
+Build_Grey_Half.name=Grey Build - Half Slab
+Build_Grey_Pipe.name=Grey Build Pipe
+Build_Grey_Pipe_Corner.name=Grey Build Pipe Corner
+Build_Grey_Roof.name=Grey Build Roof
+Build_Grey_Roof_Flat.name=Grey Build Roof - Flat
+Build_Grey_Roof_Shallow.name=Grey Build Roof - Shallow
+Build_Grey_Roof_Steep.name=Grey Build Roof - Steep
+Build_Grey_Stairs.name=Grey Build - Stairs
+Build_Lightsource_Blue.name=Blue Build Lightsource
+Build_Lightsource_Cyan.name=Cyan Build Lightsource
+Build_Lightsource_White.name=White Build Lightsource
+Build_Lightsource_Orange.name=Orange Build Lightsource
+Build_Lightsource_Pink.name=Pink Build Lightsource
+Build_Lightsource_Red.name=Red Build Lightsource
+Build_Lightsource_Yellow.name=Yellow Build Lightsource
+Build_Lightsource_YellowLight.name=Yellow Light Build Lightsource
+Build_White_Cube.name=White Build Cube
+Build_White_Fence.name=White Build - Fence
+Build_White_Half.name=White Build - Half Slab
+Build_White_Pipe.name=White Build Pipe
+Build_White_Pipe_Corner.name=White Build Pipe Corner
+Build_White_Roof.name=White Build Roof
+Build_White_Roof_Flat.name=White Build Roof - Flat
+Build_White_Roof_Shallow.name=White Build Roof - Shallow
+Build_White_Roof_Steep.name=White Build Roof - Steep
+Build_White_Stairs.name=White Build - Stairs
+Prototype_Rock_Concrete_Brick_Decorative.name=Concrete Brick - Decorative
+Prototype_Rock_Concrete_Brick_Ornate.name=Concrete Brick - Ornate
+Prototype_Rock_Concrete_Slab.name=Concrete Slab
+Prototype_Rock_Concrete_Slab_Brick.name=Concrete Slab Brick
+Prototype_Rock_Concrete_Slab_Brick_Decorative.name=Concrete Slab Brick - Decorative
+Prototype_Rock_Concrete_Slab_Brick_Half.name=Concrete Slab Brick - Half Slab
+Prototype_Rock_Concrete_Slab_Mid_Top.name=Concrete Slab Mid Top
+Prototype_Rock_Concrete_Slab_Stairs.name=Concrete Slab - Stairs
 Cloth_Roof_Blue_Steep.name = Blue Cloth Roof - Steep
 Cloth_Roof_Blue_Shallow.name = Blue Cloth Roof - Shallow
 Cloth_Roof_Green_Steep.name = Green Cloth Roof - Steep
