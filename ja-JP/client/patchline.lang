@@ -1,10 +1,10 @@
-launchNotification.title = Pre-release Patchline
-launchNotification.text = You are running a pre-release patchline of Hytale.\n\n\
-    This version may contain experimental features and bugs.\n\n\
-    Your feedback helps us improve the game!
-worldWarning.title = Patchline Warning
-worldWarning.text = You are about to open a world using a different patchline.\n\n\
-    Opening this world may introduce changes that could affect your save.\n\n\
-    We recommend creating a backup copy before continuing.
-worldWarning.openAnyway = Open Anyway
-worldWarning.duplicateWorld = Duplicate World
+launchNotification.title = プレリリース パッチライン
+launchNotification.text = Hytaleのプレリリースパッチラインを実行しています。\n\n\
+    このバージョンには実験的な機能やバグが含まれている場合があります。\n\n\
+    皆さんのフィードバックがゲームの改善に役立ちます！
+worldWarning.title = パッチライン警告
+worldWarning.text = 異なるパッチラインのワールドを開こうとしています。\n\n\
+    このワールドを開くと、セーブデータに影響を与える変更が生じる可能性があります。\n\n\
+    続行前にバックアップコピーを作成することをお勧めします。
+worldWarning.openAnyway = このまま開く
+worldWarning.duplicateWorld = ワールドを複製

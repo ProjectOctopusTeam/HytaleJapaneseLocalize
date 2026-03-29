@@ -1,6 +1,6 @@
-buttons.returnToGame = Return to Game
-buttons.quitToDesktop = Quit to Desktop
-buttons.quitToMainMenu = Quit to Main Menu
-buttons.settings = Settings
-buttons.feedback = Submit Bug or Feedback
-buttons.onlinePlay = Online Play
+buttons.returnToGame = ゲームに戻る
+buttons.quitToDesktop = デスクトップに戻る
+buttons.quitToMainMenu = メインメニューに戻る
+buttons.settings = 設定
+buttons.feedback = バグ報告・フィードバックを送る
+buttons.onlinePlay = オンラインプレイ
