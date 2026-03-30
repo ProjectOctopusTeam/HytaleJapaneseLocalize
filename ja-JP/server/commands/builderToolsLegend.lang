@@ -1,2 +1,2 @@
-desc = Show or hide the builder tools legend HUD component
-hide.desc = Hide the builder tools legend instead of showing it
+desc = ビルダーツールの凡例HUDコンポーネントを表示または非表示にします
+hide.desc = 表示する代わりにビルダーツールの凡例を非表示にします

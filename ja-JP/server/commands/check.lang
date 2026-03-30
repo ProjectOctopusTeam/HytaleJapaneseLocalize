@@ -1,5 +1,5 @@
-desc = Check your mounted status
-noComponent = You don't have a Mounted component
-mountedToEntity = You are mounted to an entity
-mountedToBlock = You are mounted to a block
-unknownStatus = Your mounted status is unknown
+desc = マウント状態を確認します
+noComponent = Mountedコンポーネントがありません
+mountedToEntity = エンティティにマウントしています
+mountedToBlock = ブロックにマウントしています
+unknownStatus = マウント状態が不明です

@@ -1,5 +1,5 @@
-desc = Set all blocks in your selection to Empty, or all blocks within a specified area
-positionOne.desc = The first position of the cube that you want to clear
-positionTwo.desc = The second position of the cube that you want to clear
-noSelection = You have no selection
-success = Blocks cleared.
+desc = 選択範囲内のすべてのブロックを空にします。または指定したエリア内のすべてのブロックを空にします
+positionOne.desc = クリアしたい立方体の最初の位置
+positionTwo.desc = クリアしたい立方体の2番目の位置
+noSelection = 選択範囲がありません
+success = ブロックをクリアしました。

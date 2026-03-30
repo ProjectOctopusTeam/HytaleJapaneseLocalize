@@ -1,2 +1,2 @@
-desc = List the block sets and contents
-blockset.desc = The name of the block set to show contents for
+desc = ブロックセットとその内容を一覧表示します
+blockset.desc = 内容を表示するブロックセットの名前

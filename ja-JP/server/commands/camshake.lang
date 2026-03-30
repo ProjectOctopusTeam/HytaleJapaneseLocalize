@@ -1,9 +1,9 @@
-desc = Commands for manipulating camera effects
-effect.desc = The camera effect to apply
-damage.desc = Adds damage to the target player to test a specific effect or damage source
-damage.cause.desc = The cause of the damage
-damage.amount.desc = The amount of damage to apply
-damage.success = Added camera damage effect '{effect}': cause={cause}, damage={amount}
-debug.desc = Adds a camera effect to the target player with the provided intensity
-debug.intensity.desc = The intensity of the camera effect
-debug.success = Added camera effect '{effect}': intensity={intensity}
+desc = カメラエフェクトを操作するコマンド
+effect.desc = 適用するカメラエフェクト
+damage.desc = 特定のエフェクトまたはダメージソースをテストするためにターゲットプレイヤーにダメージを与えます
+damage.cause.desc = ダメージの原因
+damage.amount.desc = 与えるダメージ量
+damage.success = カメラダメージエフェクト '{effect}' を追加しました: cause={cause}, damage={amount}
+debug.desc = 指定した強度でターゲットプレイヤーにカメラエフェクトを追加します
+debug.intensity.desc = カメラエフェクトの強度
+debug.success = カメラエフェクト '{effect}' を追加しました: intensity={intensity}

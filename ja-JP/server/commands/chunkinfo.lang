@@ -1,30 +1,30 @@
-load.usage = Use the command `/chunk load {chunkX} {chunkZ}` to load the chunk.
-serialized = Serialized chunk data to console.
-serialized.failed = Failed to serialize chunk. Please check console.
-chunk = Chunk {chunkX}, {chunkZ}:\n\
-  \tFlags: \n\
-    \t\tStart Init: {startInit}\n\
-    \t\tInit: {init}\n\
-    \t\tNewly Generated: {newlyGenerated}\n\
-    \t\tOn Disk: {onDisk}\n\
-    \t\tTicking: {ticking}\n\
-  \tKeep Loaded: {keepLoaded}\n\
-  \tNeeds Saving: {saving}\n\
-  \tMetadata:\n\
-  \tBlockChunk:\n\
-    \t\tNeeds Saving: {savingChunk}
-section = \t\tSection {index}:\n
-dataType = \t\t\tData Type: {data}\n
-sectionInfo = \t\t\tHas Ticking: {ticking}\n\
-      \t\t\tIs Solid Air: {solidAir}\n\
-      \t\t\tBlock Count: {count}\n\
-      \t\t\tBlock Counts: {counts}
-blockStateChunk = \tBlock State Chunk:\n\
-    \t\tNeeds Saving: {saving}\n\
-    \t\tBlock States: {countStates}\n\
-    \t\tUnknown Block States: {countUnknown}\n\
-    \t\tSendable Block States: {countSendable}\n\
-    \t\tTickable Block States: {countTickable}\n\
-  \tEntity Chunk:\n\
-    \t\tNeeds Saving: {savingEntity}\n\
-    \t\tEntities: {countEntities}
+load.usage = チャンクをロードするには `/chunk load {chunkX} {chunkZ}` コマンドを使用してください。
+serialized = チャンクデータをコンソールにシリアライズしました。
+serialized.failed = チャンクのシリアライズに失敗しました。コンソールを確認してください。
+chunk = チャンク {chunkX}, {chunkZ}:\n\
+  \tフラグ: \n\
+    \t\t初期化開始: {startInit}\n\
+    \t\t初期化済み: {init}\n\
+    \t\t新規生成: {newlyGenerated}\n\
+    \t\tディスク上: {onDisk}\n\
+    \t\tティック中: {ticking}\n\
+  \tロード維持: {keepLoaded}\n\
+  \t保存が必要: {saving}\n\
+  \tメタデータ:\n\
+  \tブロックチャンク:\n\
+    \t\t保存が必要: {savingChunk}
+section = \t\tセクション {index}:\n
+dataType = \t\t\tデータタイプ: {data}\n
+sectionInfo = \t\t\tティックあり: {ticking}\n\
+      \t\t\tソリッドエア: {solidAir}\n\
+      \t\t\tブロック数: {count}\n\
+      \t\t\tブロック数詳細: {counts}
+blockStateChunk = \tブロックステートチャンク:\n\
+    \t\t保存が必要: {saving}\n\
+    \t\tブロックステート数: {countStates}\n\
+    \t\t不明なブロックステート数: {countUnknown}\n\
+    \t\t送信可能なブロックステート数: {countSendable}\n\
+    \t\tティック可能なブロックステート数: {countTickable}\n\
+  \tエンティティチャンク:\n\
+    \t\t保存が必要: {savingEntity}\n\
+    \t\tエンティティ数: {countEntities}

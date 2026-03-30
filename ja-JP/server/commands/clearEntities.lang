@@ -1,3 +1,3 @@
-desc = Remove all entities within the current selection
-noSelection = You don't have anything selected!
-cleared = Removed {count, plural, one {1 entity} other {{count, number} entities}} from selection
+desc = 現在の選択範囲内のすべてのエンティティを削除します
+noSelection = 何も選択されていません！
+cleared = 選択範囲から {count, plural, one {1 エンティティ} other {{count, number} エンティティ}} を削除しました

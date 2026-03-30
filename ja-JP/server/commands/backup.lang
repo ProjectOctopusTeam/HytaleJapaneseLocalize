@@ -1,4 +1,4 @@
-starting = Starting a backup...
-complete = Backup completed!
-notConfigured = The server must be started with --backup-dir to use this command!
-desc = Run a backup of the universe
+starting = バックアップを開始しています...
+complete = バックアップが完了しました！
+notConfigured = このコマンドを使用するには、サーバーを --backup-dir オプションで起動する必要があります！
+desc = ユニバースのバックアップを実行します
