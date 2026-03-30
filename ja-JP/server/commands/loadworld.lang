@@ -1,2 +1,2 @@
-desc = Load an existing world
-arg.name.desc = The name of the world to load
+desc = 既存のワールドを読み込みます
+arg.name.desc = 読み込むワールドの名前

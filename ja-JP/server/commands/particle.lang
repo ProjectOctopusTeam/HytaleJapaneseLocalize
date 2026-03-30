@@ -1,4 +1,4 @@
-desc = Commands related to particle systems
-spawn.desc = Spawn a particle system at the player's position
-spawn.page.desc = Open the particle spawn page
-spawn.particle.desc = The particle system to spawn
+desc = パーティクルシステムに関するコマンド
+spawn.desc = プレイヤーの位置にパーティクルシステムをスポーンします
+spawn.page.desc = パーティクルスポーンページを開きます
+spawn.particle.desc = スポーンするパーティクルシステム

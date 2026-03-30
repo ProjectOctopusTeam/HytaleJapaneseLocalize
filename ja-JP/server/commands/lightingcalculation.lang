@@ -1,5 +1,5 @@
-desc = Change the lighting calculation used in a world
-calculation.desc = The light calculation type (flood, fullbright)
-invalidate.desc = Invalidate loaded chunks after changing calculation type
-setCalculation = Set the chunk lighting calculation to '{calculation}'!
-alreadyFullBright = The chunk lighting calculation is already full bright!
+desc = ワールドで使用するライティング計算を変更します
+calculation.desc = ライティング計算タイプ（flood、fullbright）
+invalidate.desc = 計算タイプ変更後にロード済みチャンクを無効化します
+setCalculation = チャンクのライティング計算を '{calculation}' に設定しました！
+alreadyFullBright = チャンクのライティング計算はすでにフルブライトです！

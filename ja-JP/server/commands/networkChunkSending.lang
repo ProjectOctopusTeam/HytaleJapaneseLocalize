@@ -1,4 +1,4 @@
-noComponent = Player missing ChunkTracker component
-set = Set chunk network sending for {username}: {enabled}
-sendNetworkChunks.desc = Whether chunks should be sent over the network to yourself.
-desc = Stops sending chunks over the network.
+noComponent = プレイヤーにChunkTrackerコンポーネントがありません
+set = {username} のチャンクネットワーク送信を設定しました: {enabled}
+sendNetworkChunks.desc = チャンクをネットワーク経由で自分自身に送信するかどうか。
+desc = ネットワーク経由のチャンク送信を停止します。

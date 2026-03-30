@@ -1,6 +1,6 @@
-desc = Commands related to asset packs
-list.desc = List all loaded asset packs
-notInitialized = AssetModule is not initialized.
-noneLoaded = No asset packs are loaded.
-listHeader = Loaded asset packs
+desc = アセットパックに関するコマンド
+list.desc = 読み込まれている全アセットパックを一覧表示します
+notInitialized = AssetModuleが初期化されていません。
+noneLoaded = アセットパックが読み込まれていません。
+listHeader = 読み込み済みアセットパック
 listEntry = {name} ({root})

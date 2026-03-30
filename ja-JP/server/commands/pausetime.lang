@@ -1,2 +1,2 @@
-timeInfo = Time cycle {msg} in {worldName} at {time}
-desc = Toggle the passing of time.
+timeInfo = {worldName} の時刻サイクルが {time} で {msg}
+desc = 時間の経過をトグルします。

@@ -1,5 +1,5 @@
-desc = Pauses/unpauses the game
-updated = The world is now {state}
-paused = paused
-unpaused = unpaused
-tooManyPlayers = Cannot pause outside singleplayer or if there is more than one player present!
+desc = ゲームを一時停止／再開します
+updated = ワールドは現在 {state} です
+paused = 一時停止中
+unpaused = 再開中
+tooManyPlayers = シングルプレイヤーまたはプレイヤーが1人の場合以外は一時停止できません！

@@ -1,6 +1,6 @@
-get = Max players is set to {maxPlayers, number}
-getInfinite = Max players is set to infinite
-set = Max players has been set to {maxPlayers, number}
-setInfinite = Max players has been set to infinite
-amount.desc = The maximum number of players allowed on the server
-desc = Set the max player count
+get = 最大プレイヤー数は {maxPlayers, number} に設定されています
+getInfinite = 最大プレイヤー数は無制限に設定されています
+set = 最大プレイヤー数を {maxPlayers, number} に設定しました
+setInfinite = 最大プレイヤー数を無制限に設定しました
+amount.desc = サーバーに許可するプレイヤーの最大人数
+desc = 最大プレイヤー数を設定します

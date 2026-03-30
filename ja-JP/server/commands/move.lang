@@ -1,5 +1,5 @@
-desc = Move your selection and its contents by the specified amount in the direction you're looking, or in a specified direction
-distance.desc = The distance to move the selection
-direction.desc = The direction to move the selection
-empty.desc = Move only empty blocks
-entities.desc = Include entities in the move
+desc = 選択範囲とその内容を、向いている方向または指定した方向に指定した距離だけ移動します
+distance.desc = 選択範囲を移動する距離
+direction.desc = 選択範囲を移動する方向
+empty.desc = 空のブロックのみを移動します
+entities.desc = 移動にエンティティを含めます

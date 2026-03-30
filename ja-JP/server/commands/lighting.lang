@@ -1,8 +1,8 @@
-desc = Commands for managing world lighting
-info.desc = Display lighting information
-info.detail.desc = Show detailed chunk information
-info.summary = Queue Size: {queueSize, number}\n\
-    Light Calculation: {lightCalculation}
-info.chunkDetails = Total Chunk Sections: {totalChunkSections, number}\n\
-    Chunks With Local Light: {chunksWithLocalLight, number}\n\
-    Chunks With Global Light: {chunksWithGlobalLight, number}
+desc = ワールドのライティングを管理するコマンド
+info.desc = ライティング情報を表示します
+info.detail.desc = チャンクの詳細情報を表示します
+info.summary = キューサイズ: {queueSize, number}\n\
+    ライティング計算: {lightCalculation}
+info.chunkDetails = チャンクセクション総数: {totalChunkSections, number}\n\
+    ローカルライトのあるチャンク: {chunksWithLocalLight, number}\n\
+    グローバルライトのあるチャンク: {chunksWithGlobalLight, number}

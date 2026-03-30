@@ -1,4 +1,4 @@
-desc = Commands related to.... commands
-dump.desc = Dump all registered commands to a file
-dump.success = Dumped commands to {file}
-dump.error = There was a problem, see server logs
+desc = コマンドに関するコマンド
+dump.desc = 登録されているすべてのコマンドをファイルにダンプします
+dump.success = コマンドを {file} にダンプしました
+dump.error = 問題が発生しました。サーバーログを確認してください

@@ -1,2 +1,2 @@
-desc = Send a notification to all players across all worlds
-message.desc = The notification message to send
+desc = 全ワールドの全プレイヤーに通知を送信します
+message.desc = 送信する通知メッセージ

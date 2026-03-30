@@ -1,2 +1,2 @@
-container = This message contains: {content}
-example = A number: {random}
+container = このメッセージには次の内容が含まれています: {content}
+example = 数値: {random}
