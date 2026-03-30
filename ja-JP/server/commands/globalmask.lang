@@ -1,3 +1,3 @@
-desc = Sets the global block mask
-clear.desc = Clears/disables the global block mask
-mask.desc = The block mask to set
+desc = グローバルブロックマスクを設定します
+clear.desc = グローバルブロックマスクをクリア／無効にします
+mask.desc = 設定するブロックマスク

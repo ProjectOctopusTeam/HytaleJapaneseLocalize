@@ -1,6 +1,6 @@
-desc = Sets the material on the inside of the selection, excluding walls of the set thickness
-blockType.desc = The type of block to set the inside to
-thickness.desc = The thickness of the walls to be left alone
-floor.desc = Includes the bottom of the selection in the operation
-roof.desc = Includes the top of the selection in the operation
-perimeter.desc = Includes the top and bottom of the selection in the operation
+desc = 選択範囲の内側（指定した厚さの壁を除く）にマテリアルを設定します
+blockType.desc = 内側に設定するブロックタイプ
+thickness.desc = そのままにする壁の厚さ
+floor.desc = 操作に選択範囲の底面を含めます
+roof.desc = 操作に選択範囲の上面を含めます
+perimeter.desc = 操作に選択範囲の上面と底面を含めます

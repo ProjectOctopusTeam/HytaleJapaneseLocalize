@@ -1,6 +1,6 @@
-desc = Internationalization related commands
-gen.desc = Generate default localization files
-gen.immutable = The assets folder is presently immutable and cannot be modified
-gen.done = Generated default localization files
-gen.cleaned = Generated default localization files (cleaned unused keys)
-gen.clean.desc = Removes unused keys which are on disk but not in the generated files
+desc = 国際化関連のコマンド
+gen.desc = デフォルトのローカライズファイルを生成します
+gen.immutable = アセットフォルダーは現在変更不可のため変更できません
+gen.done = デフォルトのローカライズファイルを生成しました
+gen.cleaned = デフォルトのローカライズファイルを生成しました（未使用のキーをクリーンアップ済み）
+gen.clean.desc = ディスク上に存在するが生成されたファイルに含まれていない未使用のキーを削除します

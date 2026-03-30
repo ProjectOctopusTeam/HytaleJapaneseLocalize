@@ -1,4 +1,4 @@
-desc = Commands for when you're inside a portal fragment
-timer.desc = Set the remaining timer on the fragment
-timer.arg.seconds.desc = How many seconds
-timer.success = Adjusted fragment timer from {before}s to {after}s
+desc = ポータルフラグメント内にいるときのコマンド
+timer.desc = フラグメントの残りタイマーを設定します
+timer.arg.seconds.desc = 秒数
+timer.success = フラグメントタイマーを {before}秒 から {after}秒 に変更しました

@@ -1,3 +1,3 @@
-desc = Sets your hotbar to a previously saved value
-hotbarSlot.desc = The hotbar slot between 0 and 9 to set your hotbar to
-save.desc = Save the hotbar slot to a number instead of loading it
+desc = ホットバーを以前保存した値に設定します
+hotbarSlot.desc = ホットバーに設定する0〜9のスロット番号
+save.desc = ホットバースロットをロードする代わりに番号で保存します

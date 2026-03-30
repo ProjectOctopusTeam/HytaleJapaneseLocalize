@@ -1,3 +1,3 @@
-desc = Expand your selection in all directions, or by the specified amount in a direction
-distance.desc = The distance to expand the selection
-axis.desc = The axis to expand along
+desc = 選択範囲をすべての方向に拡張します。または指定した方向に指定した量だけ拡張します
+distance.desc = 選択範囲を拡張する距離
+axis.desc = 拡張する軸

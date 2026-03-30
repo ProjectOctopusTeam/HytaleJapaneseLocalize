@@ -1,6 +1,6 @@
-desc = Hides the hotbar to test if the HudManager systems are working properly
-reset.desc = Reset (show) the HUD instead of hiding it
-shown.self = Hotbar HUD has been shown
-shown.other = Hotbar HUD has been shown for {username}
-hidden.self = Hotbar HUD has been hidden
-hidden.other = Hotbar HUD has been hidden for {username}
+desc = ホットバーを非表示にしてHudManagerシステムが正常に動作しているかテストします
+reset.desc = HUDを非表示にする代わりにリセット（表示）します
+shown.self = ホットバーHUDを表示しました
+shown.other = {username} のホットバーHUDを表示しました
+hidden.self = ホットバーHUDを非表示にしました
+hidden.other = {username} のホットバーHUDを非表示にしました

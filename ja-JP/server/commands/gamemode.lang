@@ -1,7 +1,7 @@
-alreadyInMode.other = {username} is already in this game mode
-alreadyInMode.self = You are already in this game mode
-gamemode.desc = The game mode to set (adventure, creative, or their abbreviations: a, c)
-success.other = {username}'s game mode has been set to {mode}
-success.self = Your game mode has been set to {mode}
-desc = Change player game mode
-other.desc = Change another player's game mode
+alreadyInMode.other = {username} はすでにこのゲームモードです
+alreadyInMode.self = あなたはすでにこのゲームモードです
+gamemode.desc = 設定するゲームモード（adventure、creative、または略称: a、c）
+success.other = {username} のゲームモードを {mode} に設定しました
+success.self = ゲームモードを {mode} に設定しました
+desc = プレイヤーのゲームモードを変更します
+other.desc = 他のプレイヤーのゲームモードを変更します

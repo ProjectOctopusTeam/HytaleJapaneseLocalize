@@ -1,1 +1,1 @@
-success = {id} at {x, number}, {y, number}, {z, number} has level {level, number}
+success = ({x, number}, {y, number}, {z, number}) の {id} はレベル {level, number} です

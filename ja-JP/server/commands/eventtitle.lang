@@ -1,6 +1,6 @@
-desc = Show an event title to all players on the server (for testing purposes)
-major.desc = Show as a major event title
-secondary.desc = The secondary title text
-secondary.defaultDesc = Event
-title.desc = The primary title text
-titleRequired = A title must be provided
+desc = サーバー上のすべてのプレイヤーにイベントタイトルを表示します（テスト用）
+major.desc = メジャーイベントタイトルとして表示します
+secondary.desc = サブタイトルのテキスト
+secondary.defaultDesc = イベント
+title.desc = メインタイトルのテキスト
+titleRequired = タイトルを指定する必要があります

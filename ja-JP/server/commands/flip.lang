@@ -1,2 +1,2 @@
-desc = Flip the blocks in your clipboard
-direction.desc = The direction to flip (x, y, or z axis)
+desc = クリップボード内のブロックを反転します
+direction.desc = 反転する方向（x、y、または z 軸）
