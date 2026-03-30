@@ -1,2 +1,2 @@
-desc = Redo last change
-count.desc = The number of operations to redo
+desc = 最後の変更をやり直します
+count.desc = やり直す操作の回数

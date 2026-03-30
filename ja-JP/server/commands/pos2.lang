@@ -1,4 +1,4 @@
-desc = Set the second position of your selection
-x.desc = The X coordinate (optional, uses current position if not specified)
-y.desc = The Y coordinate (optional, uses current position if not specified)
-z.desc = The Z coordinate (optional, uses current position if not specified)
+desc = 選択範囲の2番目の位置を設定します
+x.desc = X座標（省略可能。指定しない場合は現在位置を使用）
+y.desc = Y座標（省略可能。指定しない場合は現在位置を使用）
+z.desc = Z座標（省略可能。指定しない場合は現在位置を使用）

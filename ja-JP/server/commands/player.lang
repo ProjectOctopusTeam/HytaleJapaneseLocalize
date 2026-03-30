@@ -1,53 +1,53 @@
-viewradius.desc = Commands for managing player view radius
-viewradius.get.desc = Get the player's current view radius
-viewradius.set.desc = Set the player's view radius
-viewradius.set.radius.desc = The view radius value (number or "default")
-viewradius.set.blocks.desc = Specify the radius in blocks instead of chunks
-viewradius.set.bypass.desc = Bypass the maximum view radius limit
-viewradius.info = View radius: {radius, plural,\
-    one {1 chunk}\
-    other {{radius, number} chunks}} (Client: {clientRadius, plural,\
-    one {1 chunk}\
-    other {{clientRadius, number} chunks}}) ({radiusBlocks, plural, one {1 block} other {{radiusBlocks, number} blocks}})
-viewradius.set.invalidNumber = Invalid number: {value}
-viewradius.set.noHigherThan = Cannot set view radius higher than {radius, plural,\
-    one {1 chunk}\
-    other {{radius, number} chunks}} without --bypass flag
-viewradius.set.success = View radius set to {radius, plural,\
-    one {1 chunk}\
-    other {{radius, number} chunks}} ({radiusBlocks, plural, one {1 block} other {{radiusBlocks, number} blocks}})
-desc = Commands related to players
-respawn.desc = Respawn yourself
-respawn.other.desc = Respawn another player
-respawn.success.self = Respawned
-respawn.success.other = Respawned {username}
-reset.desc = Resets the data of the player
-zone.desc = Displays the current zone and biome of the player
-zone.noData = No zone or biome data available for this world.
-zone.currentZone = Current Zone: {zone}
-zone.currentBiome = Current Biome: {biome}
-effect.desc = Apply or manage player effects
-effect.apply.desc = Apply an entity effect to the player
-effect.apply.other.desc = Apply an entity effect to another player
-effect.apply.effect.desc = The entity effect to apply
-effect.apply.duration.desc = The duration of the effect in seconds
-effect.apply.success.self = Applied {effect} for {duration, plural, one {1 second} other {{duration, number} seconds}}
-effect.apply.success.other = Applied {effect} to {username} for {duration, plural, one {1 second} other {{duration, number} seconds}}
-effect.clear.desc = Clears the entity effects from the player
-effect.clear.other.desc = Clear entity effects from another player
-effect.clear.success.self = Cleared all effects
-effect.clear.success.other = Cleared all effects from {username}
-stats.desc = Prefix for player stat operation commands
-stats.dump.desc = Dump stat values for a player to console and chat
-stats.set.desc = Set the value of a specified stat on a player to a specified value
-stats.set.statName.desc = The name of the stat to set
-stats.set.statValue.desc = The value to set the stat to
-stats.settomax.desc = Set a stat to its max value
-stats.settomax.statName.desc = The name of the stat to set to max
-stats.add.desc = Increment (or decrement if negative) the value of a specified stat on a player
-stats.add.statName.desc = The name of the stat to add to
-stats.add.statAmount.desc = The amount to add to the stat
-stats.reset.desc = Reset the value of a specified stat on a player to its initial value
-stats.reset.statName.desc = The name of the stat to reset
-stats.get.desc = Retrieve the value of a specified stat on a player
-stats.get.statName.desc = The name of the stat to get
+viewradius.desc = プレイヤーの視野半径を管理するコマンド
+viewradius.get.desc = プレイヤーの現在の視野半径を取得します
+viewradius.set.desc = プレイヤーの視野半径を設定します
+viewradius.set.radius.desc = 視野半径の値（数値または "default"）
+viewradius.set.blocks.desc = 半径をチャンクではなくブロック単位で指定します
+viewradius.set.bypass.desc = 最大視野半径の制限を無視します
+viewradius.info = 視野半径: {radius, plural,\
+    one {1 チャンク}\
+    other {{radius, number} チャンク}} (クライアント: {clientRadius, plural,\
+    one {1 チャンク}\
+    other {{clientRadius, number} チャンク}}) ({radiusBlocks, plural, one {1 ブロック} other {{radiusBlocks, number} ブロック}})
+viewradius.set.invalidNumber = 無効な数値: {value}
+viewradius.set.noHigherThan = --bypass フラグなしでは {radius, plural,\
+    one {1 チャンク}\
+    other {{radius, number} チャンク}} より大きな視野半径を設定できません
+viewradius.set.success = 視野半径を {radius, plural,\
+    one {1 チャンク}\
+    other {{radius, number} チャンク}} ({radiusBlocks, plural, one {1 ブロック} other {{radiusBlocks, number} ブロック}}) に設定しました
+desc = プレイヤーに関するコマンド
+respawn.desc = 自分自身をリスポーンします
+respawn.other.desc = 別のプレイヤーをリスポーンします
+respawn.success.self = リスポーンしました
+respawn.success.other = {username} をリスポーンしました
+reset.desc = プレイヤーのデータをリセットします
+zone.desc = プレイヤーの現在のゾーンとバイオームを表示します
+zone.noData = このワールドではゾーンまたはバイオームのデータがありません。
+zone.currentZone = 現在のゾーン: {zone}
+zone.currentBiome = 現在のバイオーム: {biome}
+effect.desc = プレイヤーエフェクトを適用または管理します
+effect.apply.desc = プレイヤーにエンティティエフェクトを適用します
+effect.apply.other.desc = 別のプレイヤーにエンティティエフェクトを適用します
+effect.apply.effect.desc = 適用するエンティティエフェクト
+effect.apply.duration.desc = エフェクトの持続時間（秒）
+effect.apply.success.self = {effect} を {duration, plural, one {1 秒} other {{duration, number} 秒}} 適用しました
+effect.apply.success.other = {username} に {effect} を {duration, plural, one {1 秒} other {{duration, number} 秒}} 適用しました
+effect.clear.desc = プレイヤーのエンティティエフェクトをクリアします
+effect.clear.other.desc = 別のプレイヤーのエンティティエフェクトをクリアします
+effect.clear.success.self = 全エフェクトをクリアしました
+effect.clear.success.other = {username} の全エフェクトをクリアしました
+stats.desc = プレイヤーのステータス操作コマンドのプレフィックス
+stats.dump.desc = プレイヤーのステータス値をコンソールとチャットにダンプします
+stats.set.desc = プレイヤーの指定ステータスを指定した値に設定します
+stats.set.statName.desc = 設定するステータスの名前
+stats.set.statValue.desc = ステータスに設定する値
+stats.settomax.desc = ステータスを最大値に設定します
+stats.settomax.statName.desc = 最大値に設定するステータスの名前
+stats.add.desc = プレイヤーの指定ステータスの値を増加（または負の値で減少）させます
+stats.add.statName.desc = 追加するステータスの名前
+stats.add.statAmount.desc = ステータスに追加する量
+stats.reset.desc = プレイヤーの指定ステータスを初期値にリセットします
+stats.reset.statName.desc = リセットするステータスの名前
+stats.get.desc = プレイヤーの指定ステータスの値を取得します
+stats.get.statName.desc = 取得するステータスの名前

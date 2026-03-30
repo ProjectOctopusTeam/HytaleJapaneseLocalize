@@ -1,9 +1,9 @@
-singlePlayerOnly = This option only works in singleplayer!
-clientPIDRunning = Client PID: {pid} {running}
-isRunning = is running
-isNotRunning = is not running
+singlePlayerOnly = このオプションはシングルプレイヤーでのみ使用できます！
+clientPIDRunning = クライアントPID: {pid} {running}
+isRunning = 実行中
+isNotRunning = 実行していません
 PIDRunning = PID: {pid} {running}
-desc = Check if a PID is running
-singleplayer.desc = Check the client PID in singleplayer mode
-pid.desc = The process ID to check
-pidRequired = A PID must be provided when --singleplayer is not specified
+desc = PIDが実行中かどうかを確認します
+singleplayer.desc = シングルプレイヤーモードでクライアントPIDを確認します
+pid.desc = 確認するプロセスID
+pidRequired = --singleplayer が指定されていない場合はPIDを指定する必要があります

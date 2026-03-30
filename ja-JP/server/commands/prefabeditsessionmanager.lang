@@ -1,4 +1,4 @@
-success.new = Successfully created world where you can create a new prefab
-success.load = Successfully loaded prefabs into new world
-existingEditSession = You are already in an edit session, please exit your current one if you want to start a new one
-alreadyBeingEdited = The prefab you are trying to edit is already being edited by someone else: {path}
+success.new = 新しいプレハブを作成できるワールドを正常に作成しました
+success.load = 新しいワールドにプレハブを正常に読み込みました
+existingEditSession = すでに編集セッション中です。新しいセッションを開始する場合は現在のセッションを終了してください
+alreadyBeingEdited = 編集しようとしているプレハブは他のユーザーがすでに編集中です: {path}

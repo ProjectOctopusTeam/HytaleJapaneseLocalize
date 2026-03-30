@@ -1,2 +1,2 @@
-desc = Remove a new world
-arg.name.desc = The name of the world to remove
+desc = ワールドを削除します
+arg.name.desc = 削除するワールドの名前
