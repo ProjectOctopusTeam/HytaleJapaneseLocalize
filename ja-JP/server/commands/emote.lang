@@ -1,3 +1,3 @@
-emoteNotFound = Failed to find emote: {id}
-desc = Play an emote
-emote.desc = The emote to play
+emoteNotFound = エモートが見つかりませんでした: {id}
+desc = エモートを再生します
+emote.desc = 再生するエモート

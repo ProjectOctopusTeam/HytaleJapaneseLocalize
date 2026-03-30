@@ -1,2 +1,2 @@
-desc = Sets the environment in the selected area
-environment.desc = The environment asset to apply
+desc = 選択範囲内の環境を設定します
+environment.desc = 適用する環境アセット

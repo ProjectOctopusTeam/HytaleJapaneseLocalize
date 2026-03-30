@@ -1,2 +1,2 @@
-desc = Echos the text you input to the user.
-message.desc = The message to send to the user of this command
+desc = 入力したテキストをユーザーにエコーします。
+message.desc = コマンドの使用者に送信するメッセージ

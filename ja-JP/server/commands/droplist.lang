@@ -1,7 +1,7 @@
-desc = Simulate the drops for a given droplist
-set.droplist.desc = The id of the droplist used to simulate drops.
-result = Here are the drop results for droplist '{droplistId}':
+desc = 指定したドロップリストのドロップをシミュレートします
+set.droplist.desc = ドロップのシミュレーションに使用するドロップリストのID。
+result = ドロップリスト '{droplistId}' のドロップ結果:
 result.item = - {itemName} x{itemQuantity}
-empty = No drops for droplist '{droplistId}'!
-notFound = No droplist asset found for id '{droplistId}'!
-set.count.desc = The number of times the simulation will run.
+empty = ドロップリスト '{droplistId}' にドロップがありません！
+notFound = ID '{droplistId}' のドロップリストアセットが見つかりませんでした！
+set.count.desc = シミュレーションを実行する回数。

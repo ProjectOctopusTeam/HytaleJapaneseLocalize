@@ -1,11 +1,11 @@
-desc = Draw a line of blocks between two points
-start.desc = Start position (x y z, supports ~ for relative)
-end.desc = End position (x y z, supports ~ for relative)
-material.desc = Block material pattern (e.g. Rock_Stone or Rock_Stone,Soil_Grass)
-width.desc = Line width (default: 1)
-height.desc = Line height (default: 1)
-wallThickness.desc = Wall thickness for hollow lines (0 = solid)
-shape.desc = Line shape (Cube, Sphere, Cylinder, Cone, etc.)
-origin.desc = Shape origin point (Center, Bottom, Top)
-spacing.desc = Block interval along the line (default: 1)
-density.desc = Random chance (1-100) that each block is placed (default: 100)
+desc = 2点間にブロックのラインを描画します
+start.desc = 開始位置（x y z、~で相対座標指定可）
+end.desc = 終了位置（x y z、~で相対座標指定可）
+material.desc = ブロックマテリアルパターン（例: Rock_Stone または Rock_Stone,Soil_Grass）
+width.desc = ラインの幅（デフォルト: 1）
+height.desc = ラインの高さ（デフォルト: 1）
+wallThickness.desc = 中空ラインの壁の厚さ（0 = 中実）
+shape.desc = ラインの形状（Cube、Sphere、Cylinder、Cone など）
+origin.desc = シェイプの基点（Center、Bottom、Top）
+spacing.desc = ライン上のブロック間隔（デフォルト: 1）
+density.desc = 各ブロックが配置されるランダムな確率（1〜100）（デフォルト: 100）

@@ -1,4 +1,4 @@
-desc = Dismount from whatever you've mounted
-dismountAttempted = Dismount attempted
-dismountOther = Dismounted {username}
-other.desc = Dismount another player
+desc = マウントしているものから降ります
+dismountAttempted = 降車を試みました
+dismountOther = {username} を降車させました
+other.desc = 他のプレイヤーを降車させます
