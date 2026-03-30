@@ -1,4 +1,4 @@
-success.self = You killed yourself
-success.other = Killed {username}
-desc = Kills and respawns the player
-other.desc = Kill another player
+success.self = 自分自身をキルしました
+success.other = {username} をキルしました
+desc = プレイヤーをキルしてリスポーンさせます
+other.desc = 他のプレイヤーをキルします

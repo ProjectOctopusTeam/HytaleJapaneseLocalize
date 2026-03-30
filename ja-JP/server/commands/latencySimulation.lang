@@ -1,6 +1,6 @@
-desc = Commands for latency simulation settings
-set.desc = Set latency simulation for a player's connection
-set.delay.desc = The delay in milliseconds to simulate
-set.success = Set latency simulation to {millis}ms
-reset.desc = Reset (remove) latency simulation for a player's connection
-reset.success = Latency simulation has been reset
+desc = レイテンシシミュレーション設定のコマンド
+set.desc = プレイヤーの接続にレイテンシシミュレーションを設定します
+set.delay.desc = シミュレートする遅延（ミリ秒）
+set.success = レイテンシシミュレーションを {millis}ms に設定しました
+reset.desc = プレイヤーの接続のレイテンシシミュレーションをリセット（削除）します
+reset.success = レイテンシシミュレーションをリセットしました

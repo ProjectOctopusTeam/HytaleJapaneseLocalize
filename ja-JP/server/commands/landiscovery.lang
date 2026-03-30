@@ -1,2 +1,2 @@
-desc = Enable or disable lan discovery
-enabled.desc = Whether to enable LAN discovery (true/false)
+desc = LAN検出を有効・無効にします
+enabled.desc = LAN検出を有効にするかどうか（true/false）

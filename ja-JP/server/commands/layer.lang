@@ -1,4 +1,4 @@
-desc = Applies layering to the selection.
-direction.desc = Direction to apply the layers.
-layers.desc = Layers to apply to the selection. NOTE: If the block patterns use percentages, separate each entry with a ';' instead of a ','.
-directionInvalid = The direction "{direction}" is not valid!
+desc = 選択範囲にレイヤーを適用します。
+direction.desc = レイヤーを適用する方向。
+layers.desc = 選択範囲に適用するレイヤー。注: ブロックパターンにパーセンテージを使用する場合は、各エントリを ',' ではなく ';' で区切ってください。
+directionInvalid = 方向 "{direction}" は有効ではありません！

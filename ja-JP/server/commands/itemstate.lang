@@ -1,3 +1,3 @@
-desc = Set the state of the item currently held
-noItem = This requires a held item
-state.desc = The item state to set
+desc = 現在手に持っているアイテムのステートを設定します
+noItem = これには手持ちのアイテムが必要です
+state.desc = 設定するアイテムステート
