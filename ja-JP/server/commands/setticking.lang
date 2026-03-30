@@ -1,2 +1,2 @@
-desc = Set if a world should be ticking
-ticking.desc = True to enable ticking, false to disable it
+desc = ワールドのティッキングを有効にするかどうかを設定します
+ticking.desc = trueでティッキングを有効化、falseで無効化します

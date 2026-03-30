@@ -1,3 +1,3 @@
-desc = Record selection box changes in the undo/redo history
-enabled.desc = Whether to enable selection history recording (true/false)
-set = Selection history enabled: {enabled}
+desc = 選択ボックスの変更をアンドゥ/リドゥ履歴に記録します
+enabled.desc = 選択履歴の記録を有効にするかどうか（true/false）
+set = 選択履歴が有効化されました: {enabled}

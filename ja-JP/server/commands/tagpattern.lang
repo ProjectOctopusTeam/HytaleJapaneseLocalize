@@ -1,5 +1,5 @@
-desc = Test whether a specified block matches a specified tag pattern
-tagPattern.desc = The TagPattern to test
-blockType.desc = The BlockType to test against
-matches = {blocktype} matches TagPattern '{pattern}'
-noMatches = {blocktype} does not match TagPattern '{pattern}'
+desc = 指定したブロックが指定したタグパターンに一致するかテストします
+tagPattern.desc = テストするTagPattern
+blockType.desc = テスト対象のBlockType
+matches = {blocktype} はTagPattern '{pattern}' に一致します
+noMatches = {blocktype} はTagPattern '{pattern}' に一致しません

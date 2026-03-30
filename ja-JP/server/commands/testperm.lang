@@ -1,2 +1,2 @@
 hasPermission = {permission}: {hasPermission}
-desc = Test permissions
+desc = 権限をテストします

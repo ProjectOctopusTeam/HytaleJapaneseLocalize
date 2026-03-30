@@ -1,4 +1,4 @@
-desc = Validate CPB (Compressed Prefab Buffer) files
-path.desc = The path to validate (optional, validates all asset packs if not specified)
-failed = Failed:\n {failed}\n
-invalidPath = Invalid path - must be within the working directory.
+desc = CPB（圧縮プレハブバッファ）ファイルを検証します
+path.desc = 検証するパス（省略可能。指定しない場合は全アセットパックを検証）
+failed = 失敗:\n {failed}\n
+invalidPath = 無効なパスです - 作業ディレクトリ内でなければなりません。

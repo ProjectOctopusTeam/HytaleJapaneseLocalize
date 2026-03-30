@@ -1,5 +1,5 @@
-desc = Stack selection
-count.desc = The number of times to stack
-direction.desc = The direction to stack
-spacing.desc = The spacing between stacked copies
-empty.desc = Stack only empty blocks
+desc = 選択範囲をスタックします
+count.desc = スタックする回数
+direction.desc = スタックする方向
+spacing.desc = スタックされたコピー間の間隔
+empty.desc = 空ブロックのみスタックします

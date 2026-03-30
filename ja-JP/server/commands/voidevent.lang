@@ -1,7 +1,7 @@
-desc = Void-event related commands (for portal fragments)
-start.desc = Test starting the portal void event
-start.alreadyRunning = Event already running and this command can't stop it
-start.overrode = Overrode your world to pretend it's a portal world
-start.botchedConfig = Failed to override because the {config} gameplay config is missing Portal info
-start.success = Maybe void event started!
-start.overrideArg = Will override your current world hack it into a portal world
+desc = ボイドイベント関連コマンド（ポータルフラグメント用）
+start.desc = ポータルボイドイベントの開始をテストします
+start.alreadyRunning = イベントはすでに実行中で、このコマンドでは停止できません
+start.overrode = ワールドをポータルワールドとして扱うようにオーバーライドしました
+start.botchedConfig = {config} ゲームプレイ設定にポータル情報がないためオーバーライドに失敗しました
+start.success = ボイドイベントが開始されたかもしれません！
+start.overrideArg = 現在のワールドをポータルワールドにハックしてオーバーライドします

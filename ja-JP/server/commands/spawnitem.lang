@@ -1,7 +1,7 @@
-desc = Spawn an item
-item.desc = The item to spawn
-quantity.desc = The quantity of items to spawn (default: 1)
-count.desc = How many item entities to spawn
-force.desc = The force multiplier for throwing items (default: 1.0)
-spawned = Spawned {quantity}x {item}
-spawnedMultiple = Spawned {count} item entities with {quantity}x {item} each (total: {total}x {item})
+desc = アイテムをスポーンします
+item.desc = スポーンするアイテム
+quantity.desc = スポーンするアイテムの数量（デフォルト: 1）
+count.desc = スポーンするアイテムエンティティの数
+force.desc = アイテムを投げる際の力の倍率（デフォルト: 1.0）
+spawned = {quantity}x {item} をスポーンしました
+spawnedMultiple = {quantity}x {item} を持つアイテムエンティティを {count} 個スポーンしました（合計: {total}x {item}）

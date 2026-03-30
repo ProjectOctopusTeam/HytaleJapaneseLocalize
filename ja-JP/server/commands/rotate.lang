@@ -1,8 +1,8 @@
-desc = Rotate your clipboard
-angle.desc = The angle to rotate (must be a multiple of 90)
-axis.desc = The axis to rotate around
-axis.variant.desc = Rotate by angle around an axis (90-degree increments)
-yaw.desc = Yaw rotation angle in degrees (around Y-axis)
-pitch.desc = Pitch rotation angle in degrees (around X-axis)
-roll.desc = Roll rotation angle in degrees (around Z-axis)
-arbitrary.variant.desc = Rotate by arbitrary yaw/pitch/roll angles
+desc = クリップボードを回転します
+angle.desc = 回転角度（90の倍数でなければなりません）
+axis.desc = 回転軸
+axis.variant.desc = 指定した軸を中心に角度分回転します（90度刻み）
+yaw.desc = ヨーの回転角度（度数法、Y軸周り）
+pitch.desc = ピッチの回転角度（度数法、X軸周り）
+roll.desc = ロールの回転角度（度数法、Z軸周り）
+arbitrary.variant.desc = 任意のヨー/ピッチ/ロール角度で回転します

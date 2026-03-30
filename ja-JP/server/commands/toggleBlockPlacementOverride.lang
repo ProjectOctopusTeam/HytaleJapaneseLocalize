@@ -1,3 +1,3 @@
-desc = Toggles allowing you to break the rules of block placement
-enabled = Enabled block placement override
-disabled = Disabled block placement override
+desc = ブロック配置のルールを無視できるようにするオプションをトグルします
+enabled = ブロック配置オーバーライドを有効化しました
+disabled = ブロック配置オーバーライドを無効化しました

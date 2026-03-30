@@ -1,2 +1,2 @@
-desc = Tints the selection with the specified color
-color.desc = The color to tint with
+desc = 選択範囲を指定した色で着色します
+color.desc = 着色に使用する色

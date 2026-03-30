@@ -1,4 +1,4 @@
-desc = Waits a specified amount of time before completing asynchronously
-arg.time = The amount of time (in seconds) to wait
-arg.print = If specified, the command will print to chat when completed
-complete = Waiting complete!
+desc = 指定した時間待機した後、非同期で完了します
+arg.time = 待機する時間（秒単位）
+arg.print = 指定した場合、完了時にチャットに出力します
+complete = 待機完了！

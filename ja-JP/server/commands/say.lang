@@ -1,2 +1,2 @@
-desc = Announce a message to the whole server
-message.desc = The message to broadcast
+desc = サーバー全体にメッセージをアナウンスします
+message.desc = ブロードキャストするメッセージ

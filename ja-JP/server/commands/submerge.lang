@@ -1,2 +1,2 @@
-desc = Submerges the selection with a fluid. Use 'Empty' to unsubmerge the section.
-fluidType.desc = The type of fluid to submerge with
+desc = 選択範囲を流体で水没させます。'Empty' を指定すると水没を解除します。
+fluidType.desc = 水没に使用する流体の種類

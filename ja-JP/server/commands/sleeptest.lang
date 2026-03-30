@@ -1,8 +1,8 @@
-desc = Test sleep performance
-sleep.desc = Sleep duration in milliseconds
+desc = スリープのパフォーマンスをテストします
+sleep.desc = スリープ時間（ミリ秒）
 sleep.defaultDesc = 10
-count.desc = Number of test iterations
+count.desc = テストの繰り返し回数
 count.defaultDesc = 1000
-starting = Starting Sleep Test: Count: {count}, Sleep: {sleep}ms (Length: {ms})
-test = Sleep Test\n  - Delta: Min: {deltaMin}, Max: {deltaMax}, Avg: {deltaAvg} - {deltaTime}\n  - Offset: Min: {offsetMin}, Max: {offsetMax}, Avg: {offsetAvg} - {offsetTime}
-interrupted = Sleep test interrupted
+starting = スリープテストを開始します。回数: {count}、スリープ: {sleep}ms（合計時間: {ms}）
+test = スリープテスト\n  - デルタ: 最小: {deltaMin}、最大: {deltaMax}、平均: {deltaAvg} - {deltaTime}\n  - オフセット: 最小: {offsetMin}、最大: {offsetMax}、平均: {offsetAvg} - {offsetTime}
+interrupted = スリープテストが中断されました

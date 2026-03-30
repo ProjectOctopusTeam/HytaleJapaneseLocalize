@@ -1,5 +1,5 @@
-success = Spawned BlockEntity with id: {id}
-desc = Spawn a block entity
-arg.block.desc = The block type to spawn
-arg.position.desc = The position to spawn the block
-arg.rotation.desc = The rotation of the block
+success = ブロックエンティティをスポーンしました。ID: {id}
+desc = ブロックエンティティをスポーンします
+arg.block.desc = スポーンするブロックタイプ
+arg.position.desc = ブロックをスポーンする位置
+arg.rotation.desc = ブロックの向き

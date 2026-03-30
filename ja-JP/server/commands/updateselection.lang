@@ -1,7 +1,7 @@
-desc = Update selection
-xMin.desc = The minimum X coordinate
-yMin.desc = The minimum Y coordinate
-zMin.desc = The minimum Z coordinate
-xMax.desc = The maximum X coordinate
-yMax.desc = The maximum Y coordinate
-zMax.desc = The maximum Z coordinate
+desc = 選択範囲を更新します
+xMin.desc = X座標の最小値
+yMin.desc = Y座標の最小値
+zMin.desc = Z座標の最小値
+xMax.desc = X座標の最大値
+yMax.desc = Y座標の最大値
+zMax.desc = Z座標の最大値

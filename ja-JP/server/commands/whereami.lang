@@ -1,20 +1,6 @@
-header = You are currently:\n\
-  World: {world}\n\
-  Chunk: {chunkX, number}, {chunkY, number}, {chunkZ, number}\n\
-  Position: {posX, number}, {posY, number}, {posZ, number}\n\
-  Look: {yaw, number}, {pitch, number}, {roll, number}\n\
-  Direction: {direction}\n\
-  Axis Direction: {axisDirection}\n\
-  Axis: {axis}
-header.other = {username} is currently:\n\
-  World: {world}\n\
-  Chunk: {chunkX, number}, {chunkY, number}, {chunkZ, number}\n\
-  Position: {posX, number}, {posY, number}, {posZ, number}\n\
-  Look: {yaw, number}, {pitch, number}, {roll, number}\n\
-  Direction: {direction}\n\
-  Axis Direction: {axisDirection}\n\
-  Axis: {axis}
-needsSaving = Needs Saving: {needsSaving}
-chunkNotLoaded = Chunk is not loaded!
-desc = Prints the current location of a player
-other.desc = Print another player's location
+header = 現在の場所:\n\  ワールド: {world}\n\  チャンク: {chunkX, number}, {chunkY, number}, {chunkZ, number}\n\  位置: {posX, number}, {posY, number}, {posZ, number}\n\  視点: {yaw, number}, {pitch, number}, {roll, number}\n\  方向: {direction}\n\  軸方向: {axisDirection}\n\  軸: {axis}
+header.other = {username} の現在の場所:\n\  ワールド: {world}\n\  チャンク: {chunkX, number}, {chunkY, number}, {chunkZ, number}\n\  位置: {posX, number}, {posY, number}, {posZ, number}\n\  視点: {yaw, number}, {pitch, number}, {roll, number}\n\  方向: {direction}\n\  軸方向: {axisDirection}\n\  軸: {axis}
+needsSaving = 保存が必要: {needsSaving}
+chunkNotLoaded = チャンクが読み込まれていません！
+desc = プレイヤーの現在位置を表示します
+other.desc = 別のプレイヤーの現在位置を表示します

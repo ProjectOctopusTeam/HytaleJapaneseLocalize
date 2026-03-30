@@ -1,5 +1,5 @@
-droplistSet = Set droplist!
-currentDroplist = Current droplist: {droplist}
-noDroplist = No droplist for container.
-setDroplist.desc = Set a droplist for the Chest you're looking at
-getDroplist.desc = Get a droplist for the Chest you're looking at
+droplistSet = ドロップリストを設定しました！
+currentDroplist = 現在のドロップリスト: {droplist}
+noDroplist = このコンテナにドロップリストはありません。
+setDroplist.desc = 見ているチェストにドロップリストを設定します
+getDroplist.desc = 見ているチェストのドロップリストを取得します

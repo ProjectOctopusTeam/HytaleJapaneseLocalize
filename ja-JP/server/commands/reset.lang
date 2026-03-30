@@ -1,1 +1,1 @@
-playerReset = Reset player: {uuid}
+playerReset = プレイヤーをリセットしました: {uuid}

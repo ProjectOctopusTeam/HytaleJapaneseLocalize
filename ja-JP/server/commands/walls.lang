@@ -1,6 +1,6 @@
-desc = Sets the material on the walls of your selection with the specified thickness
-blockType.desc = The type of block to set the walls to
-thickness.desc = The thickness of the wall
-floor.desc = Includes the bottom of the selection in the operation
-roof.desc = Includes the top of the selection in the operation
-perimeter.desc = Includes the top and bottom of the selection in the operation
+desc = 選択範囲の壁に指定した厚さで素材を設定します
+blockType.desc = 壁に設定するブロックタイプ
+thickness.desc = 壁の厚さ
+floor.desc = 操作に選択範囲の底面を含めます
+roof.desc = 操作に選択範囲の天面を含めます
+perimeter.desc = 操作に選択範囲の天面と底面を含めます

@@ -1,27 +1,27 @@
-desc = Voice chat configuration
-status.desc = Show voice chat status
-status.enabledInfo = Voice chat: enabled, maxdistance={maxDistance}, fullvolumedistance={fullVolumeDistance}, muted players count: {mutedCount}
-status.disabledInfo = Voice chat: disabled, maxdistance={maxDistance}, fullvolumedistance={fullVolumeDistance}, muted players count: {mutedCount}
-enabled.desc = Enable or disable voice chat
-enabled.arg.desc = Whether voice chat is enabled
-status.enabled = Voice chat is enabled!
-status.disabled = Voice chat is disabled!
-maxdistance.desc = Set voice maximum audible distance
-maxdistance.arg.desc = Maximum distance in blocks
-maxdistance.invalid = Invalid distance: must be positive
-maxdistance.set = Voice max distance set to {distance}
-fullvolumedistance.desc = Set voice full volume distance
-fullvolumedistance.arg.desc = Full volume distance in blocks
-fullvolumedistance.invalid = Invalid distance: must be positive and less than max distance
-fullvolumedistance.set = Voice full volume distance set to {distance}
-mute.desc = Server-mute a player's voice
-mute.arg.desc = Player to mute
-mute.already = {player} is already voice muted
-mute.success = Muted {player}'s voice chat
-unmute.desc = Server-unmute a player's voice
-unmute.arg.desc = Player to unmute
-unmute.notmuted = {player} is not voice muted
-unmute.success = Unmuted {player}'s voice chat
-muted.desc = List server-muted players
-muted.empty = No players are voice muted
-muted.list = Voice muted {count, plural, one {player} other {players}} ({count}): {players}
+desc = ボイスチャット設定
+status.desc = ボイスチャットの状態を表示します
+status.enabledInfo = ボイスチャット: 有効、最大距離={maxDistance}、フル音量距離={fullVolumeDistance}、ミュートプレイヤー数: {mutedCount}
+status.disabledInfo = ボイスチャット: 無効、最大距離={maxDistance}、フル音量距離={fullVolumeDistance}、ミュートプレイヤー数: {mutedCount}
+enabled.desc = ボイスチャットを有効または無効にします
+enabled.arg.desc = ボイスチャットを有効にするかどうか
+status.enabled = ボイスチャットが有効です！
+status.disabled = ボイスチャットが無効です！
+maxdistance.desc = ボイスの最大聴取距離を設定します
+maxdistance.arg.desc = 最大距離（ブロック単位）
+maxdistance.invalid = 無効な距離です: 正の値でなければなりません
+maxdistance.set = ボイスの最大距離を {distance} に設定しました
+fullvolumedistance.desc = ボイスのフル音量距離を設定します
+fullvolumedistance.arg.desc = フル音量距離（ブロック単位）
+fullvolumedistance.invalid = 無効な距離です: 正の値かつ最大距離より小さい値でなければなりません
+fullvolumedistance.set = ボイスのフル音量距離を {distance} に設定しました
+mute.desc = プレイヤーのボイスをサーバーでミュートします
+mute.arg.desc = ミュートするプレイヤー
+mute.already = {player} はすでにボイスミュートされています
+mute.success = {player} のボイスチャットをミュートしました
+unmute.desc = プレイヤーのボイスのサーバーミュートを解除します
+unmute.arg.desc = ミュートを解除するプレイヤー
+unmute.notmuted = {player} はボイスミュートされていません
+unmute.success = {player} のボイスチャットのミュートを解除しました
+muted.desc = サーバーでミュートされているプレイヤーを一覧表示します
+muted.empty = ボイスミュートされているプレイヤーはいません
+muted.list = ボイスミュート中の{count, plural, one {プレイヤー} other {プレイヤー}}（{count}人）: {players}

@@ -1,8 +1,8 @@
-desc = Manage weather in worlds
-set.desc = Set the forced weather in a world
-set.weather.desc = The weather to force
-set.forcedWeatherSet = Forced weather in {worldName} to {weather}
-get.desc = Get the current forced weather in a world
-get.getForcedWeather = Weather in {worldName} is currently {weather}
-reset.desc = Reset the forced weather in a world to default
-reset.forcedWeatherReset = Reset forced weather in {worldName}
+desc = ワールドの天候を管理します
+set.desc = ワールドに天候を強制設定します
+set.weather.desc = 強制する天候
+set.forcedWeatherSet = {worldName} の天候を {weather} に強制設定しました
+get.desc = ワールドの現在の強制天候を取得します
+get.getForcedWeather = {worldName} の天候は現在 {weather} です
+reset.desc = ワールドの強制天候をデフォルトにリセットします
+reset.forcedWeatherReset = {worldName} の強制天候をリセットしました

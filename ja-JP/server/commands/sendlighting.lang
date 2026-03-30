@@ -1,7 +1,7 @@
-desc = Commands for toggling lighting data sending
-local.desc = Toggle sending local lighting data
-local.enabled.desc = Whether to enable or disable sending local lighting data
-global.desc = Toggle sending global lighting data
-global.enabled.desc = Whether to enable or disable sending global lighting data
-localLightingStatus = Send Local Lighting has been {enabled, select, true {enabled} other {disabled}}
-globalLightingStatus = Send Global Lighting has been {enabled, select, true {enabled} other {disabled}}
+desc = ライティングデータ送信のトグルコマンド
+local.desc = ローカルライティングデータの送信をトグルします
+local.enabled.desc = ローカルライティングデータの送信を有効または無効にするかどうか
+global.desc = グローバルライティングデータの送信をトグルします
+global.enabled.desc = グローバルライティングデータの送信を有効または無効にするかどうか
+localLightingStatus = ローカルライティング送信が {enabled, select, true {有効} other {無効}} になりました
+globalLightingStatus = グローバルライティング送信が {enabled, select, true {有効} other {無効}} になりました
