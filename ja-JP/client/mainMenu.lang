@@ -243,3 +243,9 @@ missingModWarning.title = 不足している {count, plural, one {Mod} other {Mo
 missingModWarning.text = 以下の {count, plural, one {Mod} other {Mod}} はこのワールドで以前使用されていましたが、現在見つかりません:\n\n{modList}\
     {count, plural, one {このMod} other {これらのMod}} を再インストールするか、無効化してください。
 missingModWarning.continue = 無効にしてこのまま続行
+worlds.modSource.world = ワールド
+worlds.modSource.global = グローバル
+worlds.modMissing.title = 必須Modが見つかりません
+worlds.modMissing.message = 以下の必須Modが見つかりません:\n{mods}
+worlds.modRequiredBy.title = 他のModに必要なMod
+worlds.modRequiredBy.message = 以下のModは {mod} に依存しているため、同時に無効化されます:\n{mods}

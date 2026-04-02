@@ -50,3 +50,4 @@ success.submitMore = 続けて送信
 redirect.support = アカウントや課金の問題はsupport.hytale.comをご覧ください。
 redirect.button = サポートを開く
 bugReportButton.tooltip = バグ・フィードバックを報告
+feedback.description.link = ご意見やご提案をお聞かせください。Hytaleの改善に役立てます。ブラウザで開きます。

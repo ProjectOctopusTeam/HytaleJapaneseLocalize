@@ -561,3 +561,6 @@ inputMode.hold = 押し続ける
 inputMode.toggle = トグル
 resetToDefaultsConfirmationModal.title = 設定をリセット
 resetToDefaultsConfirmationModal.text = すべての設定をデフォルト値にリセットしてもよろしいですか？
+prototype.enableController = [TMP] コントローラーサポートを有効にする
+legacy_networking = レガシーネットワークスタックを使用
+legacy_networking.description = デフォルトのQuicheスタックの代わりに、レガシーのMSQuicネットワークスタックを使用します。マルチプレイヤーワールドに参加する前に切り替える必要があります。

@@ -756,3 +756,5 @@ log.brushMaterialChanged = ブラシマテリアルが {value} に変更され�
 log.brushKeyChanged = ブラシキーが {value} に変更されました
 log.argChanged = {key} が {value} に変更されました
 log.invalidBlockType = '{block}' は有効なブロックタイプではありません
+legend.PathBrush.Page3.ClearObstacles.Title = [TMP] 障害物をクリア:
+legend.PathBrush.Page3.ClearObstacles.Description = [TMP] - 有効にすると、パスの妨げになる障害物を取り除きます。
