@@ -249,3 +249,4 @@ worlds.modMissing.title = 必須Modが見つかりません
 worlds.modMissing.message = 以下の必須Modが見つかりません:\n{mods}
 worlds.modRequiredBy.title = 他のModに必要なMod
 worlds.modRequiredBy.message = 以下のModは {mod} に依存しているため、同時に無効化されます:\n{mods}
+worlds.settings.storageType.tooltipDisabled = [TMP] この設定は現在無効です。このワールドで一度プレイすると有効になります。

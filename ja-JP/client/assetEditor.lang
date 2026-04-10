@@ -326,3 +326,4 @@ deletePackModal.text = アセットパック「{packId}」を削除してもよ�
 影響を十分に理解した上で続行してください。
 deletePackModal.confirmButton = パックを削除
 newAssetButton.readOnlyPackTooltip = 選択しているアセットパックが読み取り専用のため、新しいアセットを作成できません。
+packModal.success.created = アセットパックを正常に作成しました

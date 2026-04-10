@@ -35,3 +35,5 @@ shutdownReason.authFailed.offlineTokenValidationFailed = [TMP] 認証に失敗�
 shutdownReason.authFailed.tokenValidationFailed = [TMP] 認証に失敗しました:\nトークンの検証に失敗しました。指定されたトークンが期限切れ、改ざん、または不正な形式の可能性があります。無効なトークンを削除するか、有効なものを指定してください。
 shutdownReason.verifyError.chunksCorrupted = ワールド {world} の検証に失敗しました。{total} チャンク中 {corrupted} チャンクが破損しています
 shutdownReason.verifyError.detail = ワールド {world} の {action} に失敗しました\n{detail}
+shutdownReason.recoverError = ワールド "{world}" の復元に失敗しました\n{detail}
+shutdownReason.verifyError = ワールド "{world}" の検証に失敗しました\n{detail}
