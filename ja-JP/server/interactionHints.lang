@@ -17,3 +17,4 @@ trade = [{key}] キーで取引する
 mount = [{key}] キーで乗る
 burst = [{key}] キーで {name} を破裂させる
 pickup = [{key}] キーで {name} を拾う
+inspect = [TMP] [{key}] を押して {name} を調べる

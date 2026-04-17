@@ -63,3 +63,5 @@ buttons.useModel = モデルを使用
 buttons.resetModel = モデルをリセット
 buttons.createAndEquipItem = アイテムを作成して装備
 buttons.createAndUseModel = モデルを作成して使用
+messages.packDeleted = アセットパックを正常に削除しました
+messages.packDeletionFailed = アセットパックの削除に失敗しました

@@ -123,3 +123,4 @@ disconnect.unknownRecipe = 不明なレシピのクラフトが試みられま�
 disconnect.worldCrashed = 接続していたワールドがクラッシュしました
 disconnect.worldCrashedCause = 接続していたワールドがクラッシュしました（原因の可能性: {cause}）
 disconnect.worldRemoved = 接続していたワールドが削除されました
+disconnect.invalidInventorySection = 無効なインベントリセクションID: {inventorySectionId}

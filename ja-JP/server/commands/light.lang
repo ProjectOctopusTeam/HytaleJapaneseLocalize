@@ -3,3 +3,4 @@ get = ワールド '{worldName}' の ({x}, {y}, {z}) のライト値:
 get.desc = 指定した位置のライト値を取得します
 get.position.desc = 位置（x y z）
 get.hex.desc = ライト値を16進数形式で表示します
+getHex = ワールド "{worldName}" の {x}, {y}, {z} における光の色は #{hex} です

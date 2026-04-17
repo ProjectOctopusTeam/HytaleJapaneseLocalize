@@ -1,0 +1,7 @@
+desc = [TMP] プレイヤーの権限グループを設定します
+self.desc = [TMP] 自分自身の権限グループを設定します
+other.desc = [TMP] 他のプレイヤーの権限グループを設定します
+group.desc = [TMP] 割り当てる権限グループ
+player.desc = [TMP] グループを割り当てるプレイヤー
+success = [TMP] {uuid} のグループを '{group}' に設定しました。
+unknownGroup = [TMP] 不明な権限グループ: '{group}'

@@ -145,3 +145,5 @@ argtype.playerUuidLookup.notFound = プレイヤー '{input}' はローカルで
 argtype.pluginidentifier.name = プラグイン識別子
 argtype.pluginidentifier.usage = プラグイン識別子（例: "com.example:plugin"）
 argtype.pluginidentifier.fail = 無効なプラグイン識別子: {input} ({error})
+argtype.asset.musiccontainer.name = MusicContainerアセット
+argtype.asset.musiccontainer.usage = MusicContainerタイプのアセットへの参照

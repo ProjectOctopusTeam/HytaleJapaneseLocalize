@@ -11,3 +11,5 @@ list.setting = \t{name} => {value}
 loaded = スクリプトブラシを読み込みました: {name}
 load.error.notFound = スクリプトブラシが見つかりません: {name}
 load.error.loadFailed = スクリプトブラシ '{name}' の読み込みに失敗しました: {error}
+noHotbarComponent = プレイヤーエンティティにホットバーコンポーネントがありません。
+load.error.noHotbar = プレイヤーエンティティにホットバーコンポーネントが見つかりません

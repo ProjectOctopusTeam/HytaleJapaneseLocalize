@@ -48,3 +48,4 @@ teleportedForwardToCoordinates = ({x, number}, {y, number}, {z, number}) に進�
 history.empty = テレポート履歴が空です。
 history.info = テレポート履歴: {backCount, number} 件後方、{forwardCount, number} 件前方
 teleportedToWorld = ワールド「{worldName}」の ({x, number}, {y, number}, {z, number}) にテレポートしました。
+notFurtherBack = これ以上履歴を遡ってテレポートすることはできません！

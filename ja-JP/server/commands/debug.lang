@@ -13,3 +13,5 @@ shape.arrow.success = デバッグ用矢印シェイプを表示しました
 shape.clear.desc = ワールド内のすべてのプレイヤーのデバッグシェイプをクリアします
 shape.clear.success = すべてのデバッグシェイプをクリアしました
 shape.showforce.desc = 力のデバッグシェイプの表示を切り替えます
+shape.showforce.enabled = 力の表示: 有効
+shape.showforce.disabled = 力の表示: 無効

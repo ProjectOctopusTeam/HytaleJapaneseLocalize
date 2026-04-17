@@ -4097,3 +4097,7 @@ Metal_Copper_Roof_Flat.name = 銅屋根 - 平坦
 Metal_Iron_Fence.name = 鉄 - 柵
 Metal_Bronze_Fence.name = ブロンズ - 柵
 Metal_Copper_Fence.name = 銅 - 柵
+Metal_Gold_Pipe_Long.name = [TMP] 金のパイプ - ロング
+Metal_Gold_Pipe_Large.name = [TMP] 金のパイプ - ラージ
+Metal_Gold_Pipe_Large_Mouthpiece.name = [TMP] 金のパイプ - ラージマウスピース
+Soil_Clay_Smooth_GreenDark.name = 濃緑の粘土 - 滑らか

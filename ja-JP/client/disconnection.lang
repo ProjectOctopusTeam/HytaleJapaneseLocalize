@@ -37,3 +37,4 @@ shutdownReason.verifyError.chunksCorrupted = ワールド {world} の検証に�
 shutdownReason.verifyError.detail = ワールド {world} の {action} に失敗しました\n{detail}
 shutdownReason.recoverError = ワールド "{world}" の復元に失敗しました\n{detail}
 shutdownReason.verifyError = ワールド "{world}" の検証に失敗しました\n{detail}
+shutdownReason.packDuplicate = 重複するアセットパックの読み込みを試みました: {pack}

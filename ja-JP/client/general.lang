@@ -99,3 +99,5 @@ p2p.worldOpenedLocal = ローカルネットワークにワールドを開放し
 p2p.failedToOpenWorld = ワールドの開放に失敗しました: {error}
 p2p.tryManualPortForwarding = 手動でポートフォワーディングを設定するか、TailscaleなどのVPNをご利用ください。
 p2p.failedToOpenWorldTimeout = ワールドの開放に失敗しました: 接続のセットアップがタイムアウトしました。
+flyCamera.nowControllingPlayer = プレイヤーを操作中です。
+flyCamera.nowControllingCamera = カメラを操作中です。
