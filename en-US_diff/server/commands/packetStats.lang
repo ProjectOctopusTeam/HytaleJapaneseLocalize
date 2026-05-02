@@ -1,0 +1,12 @@
+desc = Display packet statistics for a specific packet
+packet.desc = The name of the packet to get statistics for
+notFound = No packet stats found for '{name}'
+notAvailable = Packet stats not available
+row = Count: {count, number}, Size: {size}, Avg: {avg}, Min: {min}, Max: {max}
+stats = Packet {name} [#{id, number}] Stats\n\
+    Sent:\n\
+    \tTotal: {sentTotal}\n\
+    \tRecent: {sentRecent}\n\
+    Received:\n\
+    \tTotal: {receivedTotal}\n\
+    \tRecent: {receivedRecent}

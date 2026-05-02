@@ -1,0 +1,15 @@
+desc = Interaction execution commands
+run.desc = Run an interaction
+run.interactionType.desc = The type of interaction to run
+run.started = Started interaction: {type}
+run.rootNotFound = No root interaction found for interaction type: {type}
+run.interactionAssetNotFound = Root interaction asset '{root}' not found for interaction type: {type}
+runSpecific.desc = Run a specific interaction by ID
+runSpecific.rootinteraction.desc = The Root Interaction asset to run
+runSpecific.started = Started interaction: {type} with root: {root}
+snapshotSource.desc = Get or set the snapshot source for interactions
+snapshotSource.get = Snapshot source: {source}
+snapshotSource.set.desc = Set the snapshot source for interactions
+snapshotSource.set.snapshotSource.desc = The snapshot source to set (CLIENT or SERVER)
+snapshotSource.set = Snapshot source set to: {source}
+clear.desc = Clear a player's interactions

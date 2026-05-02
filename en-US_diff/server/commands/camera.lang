@@ -1,0 +1,12 @@
+desc = Commands for manipulating the player camera
+reset.desc = Reset the camera to default view
+reset.success = Camera has been reset to default view
+topdown.desc = Set the camera to topdown view
+topdown.success = Camera has been set to topdown view
+sidescroller.desc = Set the camera to side-scroller view
+sidescroller.success = Camera has been set to side-scroller view
+demo.desc = Camera demo mode commands
+demo.activate.desc = Activate camera demo mode
+demo.deactivate.desc = Deactivate camera demo mode
+demo.enabled = Camera demo activated.
+demo.disabled = Camera demo deactivated.

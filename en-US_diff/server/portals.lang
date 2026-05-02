@@ -1,0 +1,55 @@
+desert = Howling Sands
+hederas_lair = The Dread Wade
+henges = Silent Henges
+oasis = Windrider Valley
+jungles = Tal'Kesi Refuge
+boreal = Dragonspire Weald
+discoverySubtitle = Fragment of Orbis
+incomplete.description = <b>The energies within this Fragment have yet to take their final form. All you encounter within - lore, function, and form - awaits its true shape.</b>
+hederas_lair.description = Few have experienced the terrors that lurk in Orbis' murkier depths. Fewer still have returned unchanged.\n\
+\n\
+<msg key="server.portals.incomplete.description"/>
+boreal.description = There are frozen forests into which not even an Outlander dares set foot, no matter how the whispers beckon.\n\
+\n\
+Legends about the region's name pile up: Mountains obscuring the sky, towering trees grazing the clouds, or perhaps ancient creatures born of elemental ice slumbering among the peaks.\n\
+\n\
+<msg key="server.portals.incomplete.description"/>
+henges.description = At times, the line between truth and fiction blurs. Not every Fragment the Ancient Gateway shows you will hold the truths you seek.\n\
+\n\
+Yet, surely nothing exists without purpose. Perhaps that leads us to a different question: who built these Ancient Gateways, and why?\n\
+\n\
+<msg key="server.portals.incomplete.description"/>
+oasis.description = A Feran values freedom above all else, and nowhere is that freedom embodied more than in the winds of Windrider Valley.\n\
+\n\
+It was here that they sought refuge in the darkest years of their history, setting up camps where the towering canyon walls might hide them from view.\n\
+\n\
+<msg key="server.portals.incomplete.description"/>
+jungles.description = Deep beneath the desolate wastelands left by an ancient civilization, a primordial haven thrives.\n\
+\n\
+<msg key="server.portals.incomplete.description"/>
+taiga.tip1 = <color is="#05c09a">A mythical beast sleeps here, bound in an\n\
+eternal slumber.</color>
+hederas_lair.tip1 = <color is="#05c09a">A ravenous menace lurks at the heart the swamp.</color>
+hederas_lair.tip2 = <color is="#05c09a">The murky shallows are home to dangerous fauna.</color>
+windsurf_valley.tip1 = <color is="#05c09a">On occasion, a Mage Tower may be found here.</color>
+tags.orbis = [TMP] Orbis
+tabs.zone1 = [TMP] Zone 1
+tags.corrupted = [TMP] Corruption
+tags.poison = [TMP] Poison
+tags.frost = [TMP] Frost
+tags.lush = [TMP] Lush
+tags.desolate = [TMP] Desolate
+tags.glider = [TMP] Gliding
+device.blockTypeMisconfigured = The portal block's type at {x}, {y}, {z} is invalid, this is an asset misconfiguration
+device.blockStateMisconfigured = The portal block's state '{state}' doesn't exist, this is an asset misconfiguration
+device.blockEntityMisconfigured = The portal block requires a "Portal" block component, this is an asset misconfiguration
+device.internalErrorSpawning = There was an internal error spawning the portal
+device.worldNoSpawn = This portal is not quite ready, it's still channeling a return conduit!
+device.worldIsDead = The target world of this portal doesn't exist or disappeared
+device.refInvalid = Your entity reference is invalid! Are you in a world?
+device.blockEntityRefInvalid = The associated block entity reference is invalid!
+device.notInPortalWorld = You aren't in a portal world, so nothing happens!
+device.adjusted = The portal device was invalid and has been adjusted!
+attuningToWorld = The portal is still attuning to your new presence in this world...
+portalWorld.unnamed = Unnamed
+exit.marker = Fragment Exit

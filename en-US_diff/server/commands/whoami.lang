@@ -1,0 +1,6 @@
+header = Your player info:\n\
+  UUID: {uuid}\n\
+  Username: {username}\n\
+  Language: {language}
+desc = Prints your player information
+other.desc = Print another player's information

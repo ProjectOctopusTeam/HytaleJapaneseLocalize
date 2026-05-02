@@ -1,0 +1,5 @@
+desc = Change the lighting calculation used in a world
+calculation.desc = The light calculation type (flood, fullbright)
+invalidate.desc = Invalidate loaded chunks after changing calculation type
+setCalculation = Set the chunk lighting calculation to '{calculation}'!
+alreadyFullBright = The chunk lighting calculation is already full bright!

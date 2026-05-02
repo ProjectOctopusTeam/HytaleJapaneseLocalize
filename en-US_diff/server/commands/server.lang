@@ -1,0 +1,34 @@
+desc = Server-related commands
+stats.desc = Provide stats about the machine hosting the server
+stats.fullInfoUnavailable = Full information unavailable (unsupported host)
+stats.cpu.desc = Provide CPU stats
+stats.cpu.fullUsageInfo = System CPU Load: {systemLoad, number}\n\
+    Process CPU Load: {processLoad, number}
+stats.cpu.usageInfo = Load Average: {loadAverage, number}\n\
+    Process Uptime: {processUptime}
+stats.gc.desc = Provide GC stats
+stats.gc.usageInfo = Name: {name}\n\
+    Memory Pool Names: {poolNames}\n\
+    Collection Count: {collectionCount, number}\n\
+    Collection Time: {collectionTime}
+stats.memory.desc = Provide memory usage stats
+stats.memory.fullUsageInfo = Total Physical Memory: {totalPhysicalMemory}\n\
+    Free Physical Memory: {freePhysicalMemory}\n\
+    Total Swap Memory: {totalSwapMemory}\n\
+    Free Swap Memory: {freeSwapMemory}
+stats.memory.usageInfo = Heap Memory Usage:\n{heapMemoryUsage}\n\
+    Non-Heap Memory Usage:\n{nonHeapMemoryUsage}\n\
+    Objects Pending Finalization: {objectsPendingFinalizationCount, number}
+stats.memory.usage = \tInit: {init}\n\
+    \tUsed: {used}\n\
+    \tCommitted: {committed}\n\
+    \tMax: {max}\n\
+    \tFree: {free}
+gc.desc = Force the server to do a GC
+gc.forcedgc = Forced GC! Freed: {bytes}
+gc.forcedgc.increased = Forced GC! Didn't free; increased by {bytes}. Server is probably doing its job!
+dump.desc = Dump the server's state
+dump.dumpingState = Dumping current server state!
+dump.finished = Dump finished! File saved to: {filepath}
+dump.error = Failed to write dump: {error}
+dump.json.desc = Dump as JSON format

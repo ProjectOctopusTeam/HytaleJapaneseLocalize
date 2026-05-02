@@ -1,0 +1,3 @@
+success = Shutting down!
+crash.desc = Crash the server instead of shutting down normally
+desc = Stop the server

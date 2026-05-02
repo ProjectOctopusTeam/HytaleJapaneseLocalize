@@ -1,0 +1,6 @@
+desc = Commands related to asset packs
+list.desc = List all loaded asset packs
+notInitialized = AssetModule is not initialized.
+noneLoaded = No asset packs are loaded.
+listHeader = Loaded asset packs
+listEntry = {name} ({root})

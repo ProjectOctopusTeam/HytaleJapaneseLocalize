@@ -1,0 +1,2 @@
+desc = Enable or disable lan discovery
+enabled.desc = Whether to enable LAN discovery (true/false)

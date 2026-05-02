@@ -1,0 +1,5 @@
+get = Light at {x}, {y}, {z} in world "{worldName}" is Red: {red}, Green: {green}, Blue: {blue}, Sky: {sky}
+getHex = Light at {x}, {y}, {z} in world "{worldName}" is #{hex}
+get.desc = Get the light value at a specific position
+get.position.desc = The position (x y z)
+get.hex.desc = Display the light value in hexadecimal format

@@ -1,0 +1,17 @@
+desc = Commands for managing player recipes
+learn.desc = Learn a recipe for an item
+learn.other.desc = Teach another player a recipe
+learn.success.other = Taught {username} the recipe for {name}
+learn.alreadyKnown.other = {username} already knows the recipe for {name}
+learn.item.desc = The item for which to learn the recipe
+forget.desc = Forget a recipe for an item
+forget.other.desc = Make another player forget a recipe
+forget.item.desc = The item for which to forget the recipe
+list.desc = List all recipes you know
+list.other.desc = List another player's known recipes
+forgotten = You have forgotten the recipe for '{id}'!
+forgotten.other = {username} has forgotten the recipe for '{id}'
+alreadyNotKnown = You don't know the recipe for '{id}'!
+alreadyNotKnown.other = {username} doesn't know the recipe for '{id}'
+knownRecipes = Known Recipes: {list}
+knownRecipes.other = {username}'s Known Recipes: {list}

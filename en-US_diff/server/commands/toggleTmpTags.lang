@@ -1,0 +1,3 @@
+desc = Toggles displaying [ TMP ] tags on temporary strings
+enabled = Display of [ TMP ] tags on on temporary strings is now ENABLED. Please restart the server to see full effects. Also take note of the client-side setting in the Visual tab of the client settings menu.
+disabled = Display of [ TMP ] tags on on temporary strings is now DISABLED. Please restart the server to see full effects. Also take note of the client-side setting in the Visual tab of the client settings menu.

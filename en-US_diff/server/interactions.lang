@@ -1,0 +1,14 @@
+invalidBlockState = Cannot perform {interaction} interaction on unsupported BlockState type {blockState}
+teleporter.failedCollectMore = Placement limit reached, collect more Memories to increase the limit!
+teleporter.failed = Placement limit reached
+didNotMount = Unknown mount error: {state}
+sleep.disabled = Sleeping is disabled in this world.
+sleep.gameTimePaused = Sleeping is disabled because game time is paused in this world!
+sleep.notWithinHours = You can't sleep at this hour.
+sleep.durationHours = {hours}h{mins}m
+sleep.durationMins = {mins}m
+sleep.sleepAtTheseHours = You may sleep starting at {timeValue, time}. (in {until})
+sleep.notificationSingle = {player} is in bed waiting to sleep!
+sleep.notificationSmall = {sleepers} {sleepers, plural, one {player is} other {players are}} waiting for you to sleep!
+sleep.notificationBig = {sleepers} out of {total} players {sleepers, plural, one {is} other {are}} in bed waiting to sleep!
+sleep.notificationSingleEnter = {player} has entered a bed to sleep!

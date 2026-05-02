@@ -1,0 +1,7 @@
+desc = Get or set the sleep offset
+percent.desc = Show/set as percentage
+offset.desc = The sleep offset value to set
+setPercent = Set sleep offset percent: {newValue} (was {oldValue})
+set = Set sleep offset: {newValue} (was {oldValue})
+getPercent = Sleep offset percent: {value}
+getOffset = Sleep offset: {value}

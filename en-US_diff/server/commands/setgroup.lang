@@ -1,0 +1,7 @@
+desc = [TMP] Set a player's permission group
+self.desc = [TMP] Set your own permission group
+other.desc = [TMP] Set another player's permission group
+group.desc = [TMP] The permission group to assign
+player.desc = [TMP] The player to assign the group to
+success = [TMP] Set group to '{group}' for {uuid}.
+unknownGroup = [TMP] Unknown permission group: '{group}'

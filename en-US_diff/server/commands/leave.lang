@@ -1,0 +1,3 @@
+desc = Leave the Fragment world you're in
+notInPortal = You aren't in a Fragment!
+uncursedTemp = Your cursed items have been cleansed. This is a temporary feature of the /leave command while portals are in development.

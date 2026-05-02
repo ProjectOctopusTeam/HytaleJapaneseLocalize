@@ -1,0 +1,4 @@
+desc = Applies layering to the selection.
+direction.desc = Direction to apply the layers.
+layers.desc = Layers to apply to the selection. NOTE: If the block patterns use percentages, separate each entry with a ';' instead of a ','.
+directionInvalid = The direction "{direction}" is not valid!

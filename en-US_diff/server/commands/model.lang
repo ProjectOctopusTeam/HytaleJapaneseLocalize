@@ -1,0 +1,16 @@
+noAuthSkin = {name} doesn't have a skin set by auth! Try '/model [player] {model}' to set to the default player skin
+noAuthSkinForPlayer = You don't have a skin set by auth! Try '/model [player] {model}' to set to the default player skin
+modelReset = Reset model for {name}!
+modelResetForPlayer = Your model has been reset!
+modelSet = Set model for {playerName} to {modelName}
+modelSetForPlayer = Your model has been set to {modelName}
+desc = Open the model selection page
+other.desc = Open the model selection page for another player
+set.desc = Set your model
+set.other.desc = Set another player's model
+set.model.desc = The model asset to set
+set.scale.desc = The scale of the model
+set.bypassScaleLimits.desc = Bypass configured model scale limits
+reset.desc = Reset your model to your default skin-based model
+reset.other.desc = Reset another player's model to their default skin-based model
+reset.scale.desc = The scale of the model

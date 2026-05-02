@@ -1,0 +1,2 @@
+playerMessage = {username}: {message}
+broadcastMessage = {username}: {message}

@@ -1,0 +1,8 @@
+desc = Rotate your clipboard
+angle.desc = The angle to rotate (must be a multiple of 90)
+axis.desc = The axis to rotate around
+axis.variant.desc = Rotate by angle around an axis (90-degree increments)
+yaw.desc = Yaw rotation angle in degrees (around Y-axis)
+pitch.desc = Pitch rotation angle in degrees (around X-axis)
+roll.desc = Roll rotation angle in degrees (around Z-axis)
+arbitrary.variant.desc = Rotate by arbitrary yaw/pitch/roll angles

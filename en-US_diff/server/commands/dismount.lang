@@ -1,0 +1,4 @@
+desc = Dismount from whatever you've mounted
+dismountAttempted = Dismount attempted
+dismountOther = Dismounted {username}
+other.desc = Dismount another player

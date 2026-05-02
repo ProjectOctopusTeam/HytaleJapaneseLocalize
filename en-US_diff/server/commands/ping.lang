@@ -1,0 +1,10 @@
+desc = Network ping information
+detail.desc = Show detailed ping information
+clear.desc = Clear ping information history
+graph.desc = Print ping information as a graph
+graph.width.desc = The width of the graph
+graph.width.default = 100
+graph.height.desc = The height of the graph
+graph.height.default = 10
+graph.period = Ping Graph {time}:\n
+historyCleared = Ping history cleared

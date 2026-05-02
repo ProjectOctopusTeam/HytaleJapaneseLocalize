@@ -1,0 +1,3 @@
+desc = Paste the contents of your clipboard
+position.desc = The position to paste at
+technical.desc = Paste empty blocks as Editor_Empty blocks instead of air

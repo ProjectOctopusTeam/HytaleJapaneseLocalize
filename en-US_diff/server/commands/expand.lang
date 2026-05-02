@@ -1,0 +1,3 @@
+desc = Expand your selection in all directions, or by the specified amount in a direction
+distance.desc = The distance to expand the selection
+axis.desc = The axis to expand along

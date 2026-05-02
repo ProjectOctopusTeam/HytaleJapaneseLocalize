@@ -1,0 +1,3 @@
+desc = Make your selection smaller in all directions, or by the specified amount in a direction
+arg.distance.desc = The number of blocks you want to move your selection inwards
+arg.axis.desc = The axis used to do the operation.

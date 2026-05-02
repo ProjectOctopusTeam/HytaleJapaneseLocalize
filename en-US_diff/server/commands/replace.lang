@@ -1,0 +1,13 @@
+desc = Replace a selection from specified block(s) with a block.
+from.desc = The block mask to match blocks to replace (supports mask syntax like >Block, !Block, ^Block)
+toBlock.desc = The block type to replace with
+swap.desc = Perform substring replacement on block names (e.g., Hardwood to Softwood replaces Plank_Hardwood with Plank_Softwood)
+swap.from.desc = The substring to search for in block names (comma-separated for multiple)
+swap.to.desc = The replacement substring
+regex.desc = Replace blocks matching a regex pattern (e.g., Rock_.* matches all Rock blocks, .*_Hardwood matches blocks ending in _Hardwood)
+regex.from.desc = The regex pattern to match block names against (must match the full block key)
+regex.to.desc = The block pattern to replace matched blocks with
+fromRequired = From argument is required for fluid replacement
+invalidRegex = Unable to parse regex: {error}
+success = Replaced blocks matching {regex} with {replacement} in selection
+noMatchingBlocks = No matching blocks: {blockType}

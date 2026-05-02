@@ -1,0 +1,2 @@
+chunkLoadUsage = Use the command `/load {chunkX} {chunkZ}` to load the chunk.
+blocksInChunkTick = Marked all blocks in chunk {chunkX}, {chunkZ} as ticking!

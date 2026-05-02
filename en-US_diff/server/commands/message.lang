@@ -1,0 +1,2 @@
+container = This message contains: {content}
+example = A number: {random}

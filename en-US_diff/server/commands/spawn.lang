@@ -1,0 +1,11 @@
+desc = Teleport to the world spawn
+other.desc = Teleport another player to spawn
+index.desc = The spawn point index to teleport to
+indexNotFound = Invalid spawn index (max index is {maxIndex})!
+teleported = You have been teleported to the spawn location ({x, number}, {y, number}, {z, number}).
+teleportedOther = {username} has been teleported to the spawn location ({x, number}, {y, number}, {z, number}).
+set.desc = Set the spawn point of the world
+set.position.desc = The position to set the spawn point to (defaults to your current position)
+set.rotation.desc = The rotation to set the spawn point to (defaults to your current rotation or forward)
+set.rotation.default.desc = Forward
+set.default.desc = Set the spawn point of the world to the default/original spawn from when world was created

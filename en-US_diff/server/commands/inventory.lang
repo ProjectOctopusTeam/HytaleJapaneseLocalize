@@ -1,0 +1,7 @@
+desc = Manage player inventories
+backpack.size = Your backpack capacity has now increased to {capacity, number}!
+backpack.resized = Backpack capacity resized to {capacity, number} (dropped {dropped, plural,\
+    one {1 item}\
+    other {{dropped, number} items}})
+item.noItemInHand = Player must be holding an item
+item.noContainerOnItem = Item does not have a container

@@ -1,0 +1,5 @@
+desc = Test whether a specified block matches a specified tag pattern
+tagPattern.desc = The TagPattern to test
+blockType.desc = The BlockType to test against
+matches = {blocktype} matches TagPattern '{pattern}'
+noMatches = {blocktype} does not match TagPattern '{pattern}'
