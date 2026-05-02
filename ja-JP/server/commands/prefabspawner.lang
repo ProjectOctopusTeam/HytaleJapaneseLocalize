@@ -1,22 +1,22 @@
-desc = プレハブスポーナーブロックのプロパティを表示および編集します
-spawnerNotFoundAtTarget = 対象ブロック {pos} にプレハブスポーナーが見つかりませんでした
-get.desc = 対象プレハブスポーナーブロックのプロパティを表示します
+desc = プレハブスポナーブロックのプロパティを表示・編集する
+spawnerNotFoundAtTarget = 対象ブロック {pos} にプレハブスポナーが見つかりませんでした
+get.desc = 対象のプレハブスポナーブロックのプロパティを出力する
 get.path = 現在のプレハブパス: {prefab}
 get.fitsHeightmap = - FitHeightmap = {fitHeightmap}
 get.inheritsSeed = - InheritSeed = {inheritSeed}
 get.inheritsHeightCheck = - InheritHeightCheck = {inheritHeightCheck}
-get.defaultWeight = - デフォルトウェイト: {weight}
-get.weights = - プレハブウェイト: {weights}
-set.desc = 見ているBlockSpawnerブロックにプレハブパスを設定します | [heightMap]: プレハブが高さマップに従うかどうかを設定 | [inheritSeed]: プレハブが親のワールドジェンIDを継承するかを設定 | [inheritHeightCheck]: プレハブが親のHeightConditionを使用するかを設定 | [defaultWeight]: ウェイトマッピングが未割り当てのプレハブに割り当てるデフォルトウェイトを設定
+get.defaultWeight = - DefaultWeight: {weight}
+get.weights = - PrefabWeights: {weights}
+set.desc = 見ているBlockSpawnerブロックにプレハブパスを設定する | [heightMap]: プレハブが高さマップに従うかどうかを設定する | [inheritSeed]: プレハブが親のワールド生成IDを継承するかどうかを設定する | [inheritHeightCheck]: プレハブが親のHeightConditionを使用するかどうかを設定する | [defaultWeight] ウェイトマッピングが割り当てられていないプレハブに付与されるデフォルトのウェイトを設定する
 set = PrefabSpawnerを設定しました！
-weight.desc = スポーナーのパスがプレハブフォルダを指している場合に個別プレハブファイルのウェイトを設定します | <prefab> 拡張子を除いたプレハブファイル名 | <weight> プレハブに割り当てるウェイト値（-1で削除）
+weight.desc = スポナーのパスがプレハブフォルダを指している場合に個々のプレハブファイルのウェイトを設定する | <prefab> 拡張子を除いたプレハブファイル名 | <weight> プレハブに割り当てるウェイト値（-1で削除）
 weight.remove = プレハブ {prefab} のウェイトを削除しました
 weight.set = プレハブ {prefab} のウェイトを {weight} に設定しました
-position.desc = プレハブスポーナーの位置（指定しない場合はプレイヤーからレイキャスト）
+position.desc = プレハブスポナーの位置（指定しない場合はプレイヤーからレイキャスト）
 set.prefab.desc = 設定するプレハブパス
 set.fitHeightmap.desc = 高さマップに合わせるかどうか（true/false）
 set.inheritSeed.desc = シードを継承するかどうか（true/false）
 set.inheritHeightCheck.desc = 高さチェックを継承するかどうか（true/false）
 set.defaultWeight.desc = プレハブのデフォルトウェイト
 weight.prefab.desc = プレハブパス
-weight.weight.desc = ウェイト（削除するには負の値）
+weight.weight.desc = ウェイト（削除する場合は負の値）

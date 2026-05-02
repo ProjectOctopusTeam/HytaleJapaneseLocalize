@@ -1,9 +1,9 @@
 desc = ワープコマンド
-set.desc = 現在位置をワープとして設定します
-list.desc = 利用可能なワープを一覧表示します
-remove.desc = ワープを削除します
-reload.desc = ワープを再読み込みします
-go.desc = 選択したワープにテレポートします
+set.desc = 現在位置をワープとして設定する
+list.desc = 利用可能なワープを一覧表示する
+remove.desc = ワープを削除する
+reload.desc = ワープを再読み込みする
+go.desc = 選択したワープにテレポートする
 warpName.desc = ワープの名前
 set.name.desc = 新しいワープの名前
 remove.name.desc = 削除するワープの名前

@@ -1,8 +1,8 @@
-desc = ワールドの天候を管理します
-set.desc = ワールドに天候を強制設定します
-set.weather.desc = 強制する天候
-set.forcedWeatherSet = {worldName} の天候を {weather} に強制設定しました
-get.desc = ワールドの現在の強制天候を取得します
-get.getForcedWeather = {worldName} の天候は現在 {weather} です
-reset.desc = ワールドの強制天候をデフォルトにリセットします
-reset.forcedWeatherReset = {worldName} の強制天候をリセットしました
+desc = ワールドの天気を管理する
+set.desc = ワールドに強制する天気を設定する
+set.weather.desc = 強制する天気
+set.forcedWeatherSet = {worldName} の天気を {weather} に強制設定しました
+get.desc = ワールドで現在強制されている天気を取得する
+get.getForcedWeather = {worldName} の現在の天気は {weather} です
+reset.desc = ワールドの強制天気をデフォルトにリセットする
+reset.forcedWeatherReset = {worldName} の強制天気をリセットしました

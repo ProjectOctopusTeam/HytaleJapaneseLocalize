@@ -1,17 +1,17 @@
-loaded = # = ホット、& = コールド、% = ロード中、X = アンロード待ち、' ' = 未ロード\n\
+loaded = # = ホット、& = コールド、% = ロード中、X = アンロード要、' ' = 未ロード\n\
     {grid}\n\
-    表示半径: {viewRadius, number}\n\
-    送信済み表示半径: {sentViewRadius, number}\n\
-    ホット半径: {hotRadius, number}\n\
-    チャンク受信準備完了: {readyForChunks}\n\
-    ロード済み: {loaded, number}\n\
-    ロード中: {loading, number}
-summary = チャンク:\n\
-    \t1秒あたりの最大チャンク数: {maxChunksPerSecond, number}\n\
-    \t1ティックあたりの最大チャンク数: {maxChunksPerTick, number}\n\
-    \tチャンクロード半径:\n\
-    \t\t最小: {minChunkLoadedRadius, number}\n\
-    \t\tホット最大ロード: {maxHotChunkLoadedRadius, number}\n\
-    \tロード済みチャンク（プレイヤー）: {loadedPlayerChunks, number}\n\
-    \tロード中チャンク（プレイヤー）: {loadingPlayerChunks, number}\n\
-    ロード済みチャンク（ワールド）: {loadedWorldChunks, number}
+    表示半径：{viewRadius, number}\n\
+    送信済み表示半径：{sentViewRadius, number}\n\
+    ホット半径：{hotRadius, number}\n\
+    チャンク受信準備完了：{readyForChunks}\n\
+    ロード済み：{loaded, number}\n\
+    ロード中：{loading, number}
+summary = チャンク：\n\
+    \t1秒あたりの最大チャンク数：{maxChunksPerSecond, number}\n\
+    \t1ティックあたりの最大チャンク数：{maxChunksPerTick, number}\n\
+    \tチャンクロード半径：\n\
+    \t\t最小：{minChunkLoadedRadius, number}\n\
+    \t\t最大ホットロード：{maxHotChunkLoadedRadius, number}\n\
+    \tロード済みチャンク（プレイヤー）：{loadedPlayerChunks, number}\n\
+    \tロード中チャンク（プレイヤー）：{loadingPlayerChunks, number}\n\
+    ロード済みチャンク（ワールド）：{loadedWorldChunks, number}

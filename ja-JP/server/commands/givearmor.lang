@@ -1,6 +1,6 @@
-desc = 検索文字列に基づいてプレイヤーに防具を渡します
-typeNotFound = タイプ '{type}' の防具が見つかりませんでした！
-success = 防具を渡しました！
-player.desc = ターゲットプレイヤー（全プレイヤーには '*' を使用）
-search.desc = 検索する防具タイプ（例: 'Iron'、'Gold'）
-set.desc = 新しい防具を追加する前に既存の防具をクリアします
+desc = 検索文字列に基づいてプレイヤーに防具を付与する
+typeNotFound = タイプ'{type}'の防具が見つかりませんでした！
+success = 防具を付与しました！
+player.desc = ターゲットプレイヤー（'*'ですべてのプレイヤー）
+search.desc = 検索する防具タイプ（例：'Iron'、'Gold'）
+set.desc = 新しい防具を追加する前に既存の防具をクリアする

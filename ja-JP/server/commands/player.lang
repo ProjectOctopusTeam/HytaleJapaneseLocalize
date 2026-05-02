@@ -1,53 +1,53 @@
 viewradius.desc = プレイヤーの視野半径を管理するコマンド
-viewradius.get.desc = プレイヤーの現在の視野半径を取得します
-viewradius.set.desc = プレイヤーの視野半径を設定します
+viewradius.get.desc = プレイヤーの現在の視野半径を取得する
+viewradius.set.desc = プレイヤーの視野半径を設定する
 viewradius.set.radius.desc = 視野半径の値（数値または "default"）
-viewradius.set.blocks.desc = 半径をチャンクではなくブロック単位で指定します
-viewradius.set.bypass.desc = 最大視野半径の制限を無視します
+viewradius.set.blocks.desc = チャンクではなくブロック単位で半径を指定する
+viewradius.set.bypass.desc = 最大視野半径の制限を無視する
 viewradius.info = 視野半径: {radius, plural,\
     one {1 チャンク}\
     other {{radius, number} チャンク}} (クライアント: {clientRadius, plural,\
     one {1 チャンク}\
     other {{clientRadius, number} チャンク}}) ({radiusBlocks, plural, one {1 ブロック} other {{radiusBlocks, number} ブロック}})
 viewradius.set.invalidNumber = 無効な数値: {value}
-viewradius.set.noHigherThan = --bypass フラグなしでは {radius, plural,\
+viewradius.set.noHigherThan = --bypass フラグなしでは視野半径を {radius, plural,\
     one {1 チャンク}\
-    other {{radius, number} チャンク}} より大きな視野半径を設定できません
+    other {{radius, number} チャンク}} より大きく設定できません
 viewradius.set.success = 視野半径を {radius, plural,\
     one {1 チャンク}\
     other {{radius, number} チャンク}} ({radiusBlocks, plural, one {1 ブロック} other {{radiusBlocks, number} ブロック}}) に設定しました
 desc = プレイヤーに関するコマンド
-respawn.desc = 自分自身をリスポーンします
-respawn.other.desc = 別のプレイヤーをリスポーンします
+respawn.desc = 自分自身をリスポーンする
+respawn.other.desc = 別のプレイヤーをリスポーンする
 respawn.success.self = リスポーンしました
 respawn.success.other = {username} をリスポーンしました
-reset.desc = プレイヤーのデータをリセットします
-zone.desc = プレイヤーの現在のゾーンとバイオームを表示します
-zone.noData = このワールドではゾーンまたはバイオームのデータがありません。
+reset.desc = プレイヤーのデータをリセットする
+zone.desc = プレイヤーの現在のゾーンとバイオームを表示する
+zone.noData = このワールドにはゾーンまたはバイオームのデータがありません。
 zone.currentZone = 現在のゾーン: {zone}
 zone.currentBiome = 現在のバイオーム: {biome}
-effect.desc = プレイヤーエフェクトを適用または管理します
-effect.apply.desc = プレイヤーにエンティティエフェクトを適用します
-effect.apply.other.desc = 別のプレイヤーにエンティティエフェクトを適用します
-effect.apply.effect.desc = 適用するエンティティエフェクト
+effect.desc = プレイヤーのエフェクトを付与または管理する
+effect.apply.desc = プレイヤーにエンティティエフェクトを付与する
+effect.apply.other.desc = 別のプレイヤーにエンティティエフェクトを付与する
+effect.apply.effect.desc = 付与するエンティティエフェクト
 effect.apply.duration.desc = エフェクトの持続時間（秒）
-effect.apply.success.self = {effect} を {duration, plural, one {1 秒} other {{duration, number} 秒}} 適用しました
-effect.apply.success.other = {username} に {effect} を {duration, plural, one {1 秒} other {{duration, number} 秒}} 適用しました
-effect.clear.desc = プレイヤーのエンティティエフェクトをクリアします
-effect.clear.other.desc = 別のプレイヤーのエンティティエフェクトをクリアします
-effect.clear.success.self = 全エフェクトをクリアしました
-effect.clear.success.other = {username} の全エフェクトをクリアしました
+effect.apply.success.self = {effect} を {duration, plural, one {1 秒} other {{duration, number} 秒}} 付与しました
+effect.apply.success.other = {username} に {effect} を {duration, plural, one {1 秒} other {{duration, number} 秒}} 付与しました
+effect.clear.desc = プレイヤーのエンティティエフェクトをすべて解除する
+effect.clear.other.desc = 別のプレイヤーのエンティティエフェクトをすべて解除する
+effect.clear.success.self = すべてのエフェクトを解除しました
+effect.clear.success.other = {username} のすべてのエフェクトを解除しました
 stats.desc = プレイヤーのステータス操作コマンドのプレフィックス
-stats.dump.desc = プレイヤーのステータス値をコンソールとチャットにダンプします
-stats.set.desc = プレイヤーの指定ステータスを指定した値に設定します
+stats.dump.desc = プレイヤーのステータス値をコンソールとチャットにダンプする
+stats.set.desc = プレイヤーの指定したステータスの値を指定した値に設定する
 stats.set.statName.desc = 設定するステータスの名前
-stats.set.statValue.desc = ステータスに設定する値
-stats.settomax.desc = ステータスを最大値に設定します
+stats.set.statValue.desc = 設定する値
+stats.settomax.desc = ステータスを最大値に設定する
 stats.settomax.statName.desc = 最大値に設定するステータスの名前
-stats.add.desc = プレイヤーの指定ステータスの値を増加（または負の値で減少）させます
-stats.add.statName.desc = 追加するステータスの名前
-stats.add.statAmount.desc = ステータスに追加する量
-stats.reset.desc = プレイヤーの指定ステータスを初期値にリセットします
+stats.add.desc = プレイヤーの指定したステータスの値を増減する（負の値で減少）
+stats.add.statName.desc = 加算するステータスの名前
+stats.add.statAmount.desc = ステータスに加算する値
+stats.reset.desc = プレイヤーの指定したステータスの値を初期値にリセットする
 stats.reset.statName.desc = リセットするステータスの名前
-stats.get.desc = プレイヤーの指定ステータスの値を取得します
+stats.get.desc = プレイヤーの指定したステータスの値を取得する
 stats.get.statName.desc = 取得するステータスの名前

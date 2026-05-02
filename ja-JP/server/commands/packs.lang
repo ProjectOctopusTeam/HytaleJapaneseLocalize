@@ -1,6 +1,6 @@
 desc = アセットパックに関するコマンド
-list.desc = 読み込まれている全アセットパックを一覧表示します
+list.desc = ロード済みのすべてのアセットパックを一覧表示する
 notInitialized = AssetModuleが初期化されていません。
-noneLoaded = アセットパックが読み込まれていません。
-listHeader = 読み込み済みアセットパック
-listEntry = {name} ({root})
+noneLoaded = アセットパックがロードされていません。
+listHeader = ロード済みアセットパック
+listEntry = {name}（{root}）

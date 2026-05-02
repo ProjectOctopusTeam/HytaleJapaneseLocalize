@@ -1,6 +1,6 @@
 desc = エンティティまたは自分自身にRepulsionコンポーネントを追加/削除するコマンド
 add.desc = エンティティまたは自分自身にRepulsionコンポーネントを追加するコマンド
-add.repulsionConfig.desc = 使用するRepulsion設定
+add.repulsionConfig.desc = 使用するRepulsionの設定
 add.entity.desc = エンティティにRepulsionコンポーネントを追加するコマンド
 add.entityArg.desc = コンポーネントを追加するエンティティ
 add.self.desc = 自分自身にRepulsionコンポーネントを追加するコマンド

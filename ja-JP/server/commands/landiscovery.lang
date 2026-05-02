@@ -1,2 +1,2 @@
-desc = LAN検出を有効・無効にします
+desc = LAN検出を有効または無効にする
 enabled.desc = LAN検出を有効にするかどうか（true/false）

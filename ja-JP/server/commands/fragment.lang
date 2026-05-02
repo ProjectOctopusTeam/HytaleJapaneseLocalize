@@ -1,4 +1,4 @@
-desc = ポータルフラグメント内にいるときのコマンド
-timer.desc = フラグメントの残りタイマーを設定します
+desc = ポータルフラグメント内にいる場合のコマンド
+timer.desc = フラグメントの残りタイマーを設定する
 timer.arg.seconds.desc = 秒数
-timer.success = フラグメントタイマーを {before}秒 から {after}秒 に変更しました
+timer.success = フラグメントタイマーを{before}秒から{after}秒に変更しました

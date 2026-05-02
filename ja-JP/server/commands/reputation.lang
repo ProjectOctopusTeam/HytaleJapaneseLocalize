@@ -1,11 +1,11 @@
-check.value.desc = レピュテーション値を確認します
+check.value.desc = レピュテーション値を確認する
 check.value.reputationGroupId.desc = 値を確認するレピュテーショングループ
-check.rank.desc = レピュテーションランクを確認します
+check.rank.desc = レピュテーションランクを確認する
 check.rank.reputationGroupId.desc = ランクを確認するレピュテーショングループ
-add.desc = 値を加算/減算します
+add.desc = 値を加算/減算する
 add.reputationGroupId.desc = 加算するレピュテーショングループ
 add.value.desc = 加算する量（負の値も可）
-set.desc = 値を設定します
+set.desc = 値を設定する
 set.reputationGroupId.desc = 設定するレピュテーショングループ
 set.value.desc = レピュテーションに設定する値
 desc = レピュテーションを管理するコマンド

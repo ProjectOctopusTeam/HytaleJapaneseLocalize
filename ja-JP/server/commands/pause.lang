@@ -1,5 +1,5 @@
-desc = ゲームを一時停止／再開します
-updated = ワールドは現在 {state} です
+desc = ゲームを一時停止/再開する
+updated = ワールドが{state}になりました
 paused = 一時停止中
 unpaused = 再開中
-tooManyPlayers = シングルプレイヤーまたはプレイヤーが1人の場合以外は一時停止できません！
+tooManyPlayers = シングルプレイヤー以外またはプレイヤーが2人以上いる場合は一時停止できません！

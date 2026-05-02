@@ -1,20 +1,34 @@
-desc = サーバー関連コマンド
-stats.desc = サーバーをホストしているマシンの統計情報を表示します
-stats.fullInfoUnavailable = 詳細情報を取得できません（非対応のホスト）
-stats.cpu.desc = CPU統計情報を表示します
-stats.cpu.fullUsageInfo = システムCPU負荷: {systemLoad, number}\n\    プロセスCPU負荷: {processLoad, number}
-stats.cpu.usageInfo = ロード平均: {loadAverage, number}\n\    プロセス稼働時間: {processUptime}
-stats.gc.desc = GC統計情報を表示します
-stats.gc.usageInfo = 名前: {name}\n\    メモリプール名: {poolNames}\n\    GC回数: {collectionCount, number}\n\    GC時間: {collectionTime}
-stats.memory.desc = メモリ使用量の統計情報を表示します
-stats.memory.fullUsageInfo = 物理メモリ合計: {totalPhysicalMemory}\n\    空き物理メモリ: {freePhysicalMemory}\n\    スワップメモリ合計: {totalSwapMemory}\n\    空きスワップメモリ: {freeSwapMemory}
-stats.memory.usageInfo = ヒープメモリ使用量:\n{heapMemoryUsage}\n\    非ヒープメモリ使用量:\n{nonHeapMemoryUsage}\n\    ファイナライズ待ちオブジェクト数: {objectsPendingFinalizationCount, number}
-stats.memory.usage = \tInit: {init}\n\    \t使用中: {used}\n\    \tコミット済み: {committed}\n\    \t最大: {max}\n\    \t空き: {free}
-gc.desc = サーバーにGCを強制実行させます
-gc.forcedgc = GCを強制実行しました！解放済み: {bytes}
-gc.forcedgc.increased = GCを強制実行しましたが解放されませんでした。{bytes} 増加しました。サーバーは正常に動作中です！
-dump.desc = サーバーの状態をダンプします
+desc = サーバー関連のコマンド
+stats.desc = サーバーをホストしているマシンの統計情報を表示する
+stats.fullInfoUnavailable = 詳細情報を取得できません（サポートされていないホスト）
+stats.cpu.desc = CPUの統計情報を表示する
+stats.cpu.fullUsageInfo = システムCPU使用率: {systemLoad, number}\\n\
+    プロセスCPU使用率: {processLoad, number}
+stats.cpu.usageInfo = 負荷平均: {loadAverage, number}\\n\
+    プロセス稼働時間: {processUptime}
+stats.gc.desc = GCの統計情報を表示する
+stats.gc.usageInfo = 名前: {name}\\n\
+    メモリプール名: {poolNames}\\n\
+    コレクション回数: {collectionCount, number}\\n\
+    コレクション時間: {collectionTime}
+stats.memory.desc = メモリ使用量の統計情報を表示する
+stats.memory.fullUsageInfo = 物理メモリ合計: {totalPhysicalMemory}\\n\
+    物理メモリ空き容量: {freePhysicalMemory}\\n\
+    スワップメモリ合計: {totalSwapMemory}\\n\
+    スワップメモリ空き容量: {freeSwapMemory}
+stats.memory.usageInfo = ヒープメモリ使用量:\n{heapMemoryUsage}\\n\
+    非ヒープメモリ使用量:\n{nonHeapMemoryUsage}\\n\
+    ファイナライズ待ちオブジェクト数: {objectsPendingFinalizationCount, number}
+stats.memory.usage = \\t初期値: {init}\\n\
+    \\t使用中: {used}\\n\
+    \\tコミット済み: {committed}\\n\
+    \\t最大: {max}\\n\
+    \\t空き: {free}
+gc.desc = サーバーに強制的にGCを実行させる
+gc.forcedgc = GCを強制実行しました！解放されたメモリ: {bytes}
+gc.forcedgc.increased = GCを強制実行しましたが解放されませんでした。{bytes} 増加しました。サーバーが正常に動作している可能性があります！
+dump.desc = サーバーの状態をダンプする
 dump.dumpingState = 現在のサーバー状態をダンプ中！
-dump.finished = ダンプ完了！ファイルの保存先: {filepath}
+dump.finished = ダンプが完了しました！ファイルの保存先: {filepath}
 dump.error = ダンプの書き込みに失敗しました: {error}
-dump.json.desc = JSON形式でダンプします
+dump.json.desc = JSON形式でダンプする

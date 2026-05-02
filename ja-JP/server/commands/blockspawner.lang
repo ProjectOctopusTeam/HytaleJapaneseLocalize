@@ -1,9 +1,9 @@
-blockSpawnerSet = BlockSpawnerを {id} に設定しました！
-currentBlockSpawner = このブロックのBlockSpawnerは {id} です
-noBlockSpawnerSet = このブロックにBlockSpawnerは設定されていません
+blockSpawnerSet = BlockSpawnerを{id}に設定しました！
+currentBlockSpawner = このブロックのBlockSpawnerは{id}です
+noBlockSpawnerSet = このブロックにBlockSpawnerが設定されていません
 desc = ブロックスポナーを操作するコマンド
-set.desc = 見ているBlockSpawnerブロックにBlockSpawner IDを設定します
+set.desc = 見ているBlockSpawnerブロックにBlockSpawner IDを設定する
 set.blockSpawnerId.desc = 設定するBlockSpawnerテーブルID
-arg.ignoreChecks = コマンドの入力バリデーションを無効にします
-get.desc = 見ているBlockSpawnerブロックのBlockSpawner IDを取得します
-position.desc = ブロックスポナーの位置（指定しない場合はプレイヤーからレイキャスト）
+arg.ignoreChecks = コマンドの入力検証を無効にする
+get.desc = 見ているBlockSpawnerブロックのBlockSpawner IDを取得する
+position.desc = ブロックスポナーの位置（指定がない場合はプレイヤーからのレイキャスト）

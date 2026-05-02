@@ -1,4 +1,4 @@
-desc = マウント状態を確認します
+desc = マウント状態を確認する
 noComponent = Mountedコンポーネントがありません
 mountedToEntity = エンティティにマウントしています
 mountedToBlock = ブロックにマウントしています

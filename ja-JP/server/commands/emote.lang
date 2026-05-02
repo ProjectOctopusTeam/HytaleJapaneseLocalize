@@ -1,3 +1,3 @@
-emoteNotFound = エモートが見つかりませんでした: {id}
-desc = エモートを再生します
+emoteNotFound = エモート'{id}'が見つかりませんでした
+desc = エモートを再生する
 emote.desc = 再生するエモート

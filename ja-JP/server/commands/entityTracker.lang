@@ -1,7 +1,7 @@
-summary = エンティティ:\n\
-    \t表示中: {visibleCount, number}\n\
-    \tLOD除外: {lodExcludedCount, number}\n\
-    \t非表示: {hiddenCount, number}\n\
-    \t合計: {totalCount, number}\n\
-    ワールド合計: {worldTotalCount, number}\n\
-    表示半径: {viewRadius, number} ({viewRadiusBlocks, number})
+summary = エンティティ：\n\
+    \t表示中：{visibleCount, number}\n\
+    \tLOD除外：{lodExcludedCount, number}\n\
+    \t非表示：{hiddenCount, number}\n\
+    \t合計：{totalCount, number}\n\
+    ワールド合計：{worldTotalCount, number}\n\
+    表示半径：{viewRadius, number}（{viewRadiusBlocks, number}）

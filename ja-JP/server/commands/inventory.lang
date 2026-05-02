@@ -1,7 +1,7 @@
-desc = プレイヤーのインベントリを管理します
-backpack.size = バックパックの容量が {capacity, number} に増加しました！
-backpack.resized = バックパックの容量を {capacity, number} にリサイズしました（{dropped, plural,\
-    one {1 アイテム}\
-    other {{dropped, number} アイテム}}をドロップしました）
-item.noItemInHand = プレイヤーはアイテムを手に持っている必要があります
-item.noContainerOnItem = そのアイテムにはコンテナがありません
+desc = プレイヤーのインベントリを管理する
+backpack.size = バックパックの容量が{capacity, number}に増加しました！
+backpack.resized = バックパックの容量を{capacity, number}にリサイズしました（{dropped, plural,\
+    one {1個のアイテムをドロップ}\
+    other {{dropped, number}個のアイテムをドロップ}}）
+item.noItemInHand = プレイヤーはアイテムを持っている必要があります
+item.noContainerOnItem = アイテムにコンテナがありません

@@ -1,9 +1,9 @@
-desc = 各種ログレベルを設定します
-logger.desc = ロガー名（グローバルロガーの場合は "global"）
+desc = 各種ログレベルを設定する
+logger.desc = ロガー名（グローバルロガーの場合は"global"）
 level.desc = 設定するログレベル
-save.desc = レベルを設定ファイルに保存します
-reset.desc = 設定からロガーを削除します
-setLogger = ロガー '{name}' をレベル {level}{saved} に設定しました
-removedLogger = 設定からロガー '{name}' を削除しました！
-setLoggerNoSave = ロガー '{name}' はレベル {level} に設定されています
-invalidLevel = '{input}' は有効なログレベルではありません！{level} を使用します。
+save.desc = 設定をコンフィグに保存する
+reset.desc = コンフィグからロガーを削除する
+setLogger = ロガー'{name}'をレベル{level}に設定しました{saved}
+removedLogger = コンフィグからロガー'{name}'を削除しました！
+setLoggerNoSave = ロガー'{name}'はレベル{level}に設定されています
+invalidLevel = '{input}'は有効なログレベルではありません！{level}を使用します。

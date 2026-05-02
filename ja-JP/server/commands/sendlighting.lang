@@ -1,7 +1,7 @@
-desc = ライティングデータ送信のトグルコマンド
-local.desc = ローカルライティングデータの送信をトグルします
+desc = ライティングデータの送信を切り替えるコマンド
+local.desc = ローカルライティングデータの送信を切り替える
 local.enabled.desc = ローカルライティングデータの送信を有効または無効にするかどうか
-global.desc = グローバルライティングデータの送信をトグルします
+global.desc = グローバルライティングデータの送信を切り替える
 global.enabled.desc = グローバルライティングデータの送信を有効または無効にするかどうか
-localLightingStatus = ローカルライティング送信が {enabled, select, true {有効} other {無効}} になりました
-globalLightingStatus = グローバルライティング送信が {enabled, select, true {有効} other {無効}} になりました
+localLightingStatus = ローカルライティングの送信が{enabled, select, true {有効} other {無効}}になりました
+globalLightingStatus = グローバルライティングの送信が{enabled, select, true {有効} other {無効}}になりました

@@ -1,45 +1,55 @@
-desc = サーバーアップデート管理コマンド
-check.desc = 利用可能なアップデートを確認します
-download.desc = 利用可能なアップデートをステージングにダウンロードします
-apply.desc = ステージングされたアップデートを適用してサーバーを再起動します
-apply.confirm.desc = アップデートの適用を確認します
-status.desc = 現在のバージョンとアップデート状態を表示します
-cancel.desc = 進行中のダウンロードをキャンセルするか、ステージングされたアップデートを削除します
-patchline.desc = アップデートのパッチラインを表示または設定します
+desc = サーバーアップデートの管理コマンド
+check.desc = 利用可能なアップデートを確認する
+download.desc = 利用可能なアップデートをステージングにダウンロードする
+apply.desc = ステージングされたアップデートを適用してサーバーを再起動する
+apply.confirm.desc = アップデートの適用を確認する
+status.desc = 現在のバージョンとアップデートの状態を表示する
+cancel.desc = 進行中のダウンロードをキャンセルするか、ステージングされたアップデートを削除する
+patchline.desc = アップデートのパッチラインを表示または設定する
 patchline.arg.desc = 切り替えるパッチライン（例: release、stage）
-patchline.set.desc = アップデートのパッチラインを設定します
+patchline.set.desc = アップデートのパッチラインを設定する
 patchline.current = 現在のパッチライン: {patchline}
 patchline.changed = パッチラインを変更しました: {patchline}
-not_authenticated = アップデートを確認できません - サーバーが認証されていません。先に /auth login を実行してください。
-check_failed = アップデートの確認に失敗しました。サーバーログを確認してください。
-no_update = すでに最新バージョンを実行しています。
-download_failed = アップデートのダウンロードに失敗しました。サーバーログを確認してください。
-download_complete = アップデートをダウンロードしてステージングしました。\nRun '/update apply --confirm' to apply and restart.
-download_in_progress = ダウンロードがすでに進行中です。'/update cancel' で中止してください。
-invalid_layout_download = アップデートをダウンロードできません: フォルダ構成が自動アップデートに対応していません。\n親ディレクトリに Assets.zip とランチャースクリプトが必要です。\n'/update download --force' で強制的にダウンロードできます。
-download.force.desc = フォルダ構成が無効な場合でも強制的にダウンロードします
+not_authenticated = アップデートを確認できません - サーバーが認証されていません。まず /auth login を使用してください。
+check_failed = アップデートの確認に失敗しました。詳細はサーバーログを確認してください。
+no_update = すでに最新バージョンを実行中です。
+download_failed = アップデートのダウンロードに失敗しました。詳細はサーバーログを確認してください。
+download_complete = アップデートをダウンロードしてステージングしました。\\n'/update apply --confirm' を実行して適用・再起動してください。
+download_in_progress = ダウンロードがすでに進行中です。'/update cancel' を使用して中止してください。
+invalid_layout_download = アップデートをダウンロードできません: フォルダ構成が自動アップデートに対応していません。\\n親ディレクトリに Assets.zip とランチャースクリプトが必要です。\\nそれでもダウンロードする場合は '/update download --force' を使用してください。
+download.force.desc = フォルダ構成が無効でも強制的にダウンロードする
 downloading = アップデート {version} をダウンロード中...
-download_progress = ダウンロードの進捗: {percent}%（{downloaded} / {total}）
+download_progress = ダウンロード進捗: {percent}%（{downloaded} / {total}）
 checking = アップデートを確認中...
-already_latest = すでに最新バージョンを実行しています: {version}
-update_available = アップデートが利用可能です: {latest}（現在: {current}）\n'/update download' でアップデートをステージングしてください。
-status = バージョン: {version}\nパッチライン: {patchline}\nステージング済み: {staged}\n最新バージョン: {latest}\nダウンロード中: {downloading}
-nothing_to_cancel = 進行中のダウンロードもステージングされたアップデートもありません。
+already_latest = すでに最新バージョン {version} を実行中です
+update_available = アップデートが利用可能です: {latest}（現在: {current}）\\n'/update download' を実行してアップデートをステージングしてください。
+status = バージョン: {version}\\nパッチライン: {patchline}\\nステージング: {staged}\\n最新: {latest}\\nダウンロード中: {downloading}
+nothing_to_cancel = 進行中のダウンロードも、キャンセルできるステージングされたアップデートもありません。
 download_cancelled = ダウンロードをキャンセルしました。
-cancel_failed = ステージングされたアップデートの削除に失敗しました。サーバーログを確認してください。
+cancel_failed = ステージングされたアップデートの削除に失敗しました。詳細はサーバーログを確認してください。
 cancelled = ステージングされたアップデート {version} をキャンセルして削除しました。
-no_staged = 適用するアップデートがありません。先に '/update download' を実行してください。
-backup_failed = バックアップの作成に失敗しました。アップデートを中止しました。サーバーログを確認してください。
-apply_confirm_required = アップデート {version} を適用してサーバーを再起動しようとしています。\n'/update apply --confirm' で続行してください。
-applying_no_launcher = アップデート {version} を適用中...\n警告: ランチャースクリプトが検出されませんでした - シャットダウン後にアップデートファイルを手動で移動する必要があります。
-applying = アップデート {version} を適用中...\nサーバーがシャットダウンして新しいバージョンで再起動します。
-disabled = アップデートコマンドはサーバーホストによって無効化されています。
-download_setup_hint = アップデートを updater/staging/ にステージングしました。セットアップを完了するにはサーバーを停止してください:\n\    1. updater/staging/ の内容をサーバーの設置先にコピーしてください\n\    2. 既存のサーバーファイル（config、saves、mods - HytaleServer.jar 以外）を Server/ フォルダに移動してください\n\    3. start.sh または start.bat で起動してください
-setup.desc = 親ディレクトリにランチャーラッパースクリプトを展開します
-setup.force.desc = ディレクトリ名が予期しない場合やスクリプトが既に存在する場合でも強制的にセットアップします
-setup.not_jar = セットアップを実行できません: JARファイルから実行されていません（開発/IDEモード）。
-setup.invalid_directory = 警告: サーバーが 'Server/' という名前のディレクトリから実行されていません。\n\    ラッパースクリプトはサーバーJARが 'Server/' サブディレクトリに存在することを想定しています。\n\    '/update setup --force' でスクリプトを強制的に書き込めます。
-setup.already_exist = ラッパースクリプトが親ディレクトリにすでに存在します。\n\    '/update setup --force' で上書きできます。
-setup.complete = ランチャースクリプト（start.sh、start.bat）を親ディレクトリに書き込みました。\n\    サーバーを停止し、今後は start.sh または start.bat で起動してください。
-setup.failed = ラッパースクリプトの展開に失敗しました。サーバーログを確認してください。
-setup.no_assets = 警告: 親ディレクトリに Assets.zip が見つかりません。\n\    ランチャースクリプトは start.sh/start.bat と同じ場所に Assets.zip があることを想定しています。\n\    Assets.zip をそこにコピーするか、'/update download --force' でフルパッケージをダウンロードしてください。
+no_staged = 適用できるステージングされたアップデートがありません。先に '/update download' を実行してください。
+backup_failed = バックアップの作成に失敗しました。アップデートを中止しました。詳細はサーバーログを確認してください。
+apply_confirm_required = アップデート {version} を適用してサーバーを再起動しようとしています。\\n実行するには '/update apply --confirm' を実行してください。
+applying_no_launcher = アップデート {version} を適用中...\\n警告: ランチャースクリプトが検出されませんでした - シャットダウン後にアップデートファイルを手動で移動する必要があります。
+applying = アップデート {version} を適用中...\\nサーバーがシャットダウンし、新しいバージョンで再起動します。
+disabled = アップデートコマンドはサーバーホストによって無効にされています。
+download_setup_hint = アップデートを updater/staging/ にステージングしました。セットアップを完了するには、サーバーを停止してください:\\n\
+    1. updater/staging/ の内容をサーバーを配置したい場所にコピーする\\n\
+    2. 既存のサーバーファイル（config、saves、mods - HytaleServer.jarを除く）を Server/ フォルダに移動する\\n\
+    3. start.sh または start.bat を使用して起動する
+setup.desc = 親ディレクトリにランチャーラッパースクリプトを展開する
+setup.force.desc = ディレクトリ名が想定外またはスクリプトが既に存在していても強制的にセットアップする
+setup.not_jar = セットアップを実行できません: JARファイルから起動されていません（開発/IDEモード）。
+setup.invalid_directory = 警告: サーバーが 'Server/' という名前のディレクトリから起動されていません。\\n\
+    ラッパースクリプトはサーバーJARが 'Server/' サブディレクトリにあることを前提としています。\\n\
+    それでもスクリプトを生成する場合は '/update setup --force' を使用してください。
+setup.already_exist = ラッパースクリプトがすでに親ディレクトリに存在します。\\n\
+    上書きするには '/update setup --force' を使用してください。
+setup.complete = ランチャースクリプト（start.sh、start.bat）を親ディレクトリに生成しました。\\n\
+    サーバーを停止して、今後は start.sh または start.bat を使用して起動してください。
+setup.failed = ラッパースクリプトの展開に失敗しました。詳細はサーバーログを確認してください。
+setup.no_assets = 警告: 親ディレクトリに Assets.zip が見つかりません。\\n\
+    ランチャースクリプトは start.sh/start.bat と同じ場所に Assets.zip があることを前提としています。\\n\
+    Assets.zip をそこにコピーするか、'/update download --force' を使用してフルパッケージをダウンロードしてください。
+bootstrap_complete = ブートストラップのインストールが完了しました。現在のディレクトリから start.sh または start.bat を使用してサーバーを起動してください。

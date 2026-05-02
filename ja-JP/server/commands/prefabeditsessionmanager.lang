@@ -1,4 +1,4 @@
 success.new = 新しいプレハブを作成できるワールドを正常に作成しました
 success.load = 新しいワールドにプレハブを正常に読み込みました
-existingEditSession = すでに編集セッション中です。新しいセッションを開始する場合は現在のセッションを終了してください
-alreadyBeingEdited = 編集しようとしているプレハブは他のユーザーがすでに編集中です: {path}
+existingEditSession = すでに編集セッション中です。新しいセッションを開始するには、現在のセッションを終了してください
+alreadyBeingEdited = 編集しようとしているプレハブはすでに他のユーザーが編集中です: {path}
