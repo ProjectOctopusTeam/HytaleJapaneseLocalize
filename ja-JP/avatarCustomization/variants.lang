@@ -1,58 +1,45 @@
-earSide = 耳の向き
+earSide = 耳の側面
 earSide.left = 左
 earSide.right = 右
 earSide.both = 両方
-
 pattern.skull = ドクロ柄
-pattern.star = スター柄
-pattern.gaia = 虹色の木柄
-pattern.cat = ネコ柄
+pattern.star = 星柄
+pattern.gaia = プリズマティックツリー柄
+pattern.cat = 猫柄
 pattern.bunny = うさぎ柄
 pattern.unicorn = ユニコーン柄
-pattern.cat = ネコ柄
 pattern.play = 再生ボタン柄
 pattern.play_inverted = 反転再生ボタン柄
-
-pants.dungareesshorts = サロペットショーツ
-pants.bracedshorts = ブレース付きショーツ
-pants.dungarees = サロペット
-pants.bracedpants = ブレース付きパンツ
+pants.dungareesshorts = ダンガリーショートパンツ
+pants.bracedshorts = ブレースショートパンツ
+pants.dungarees = ダンガリーズ
+pants.bracedpants = ブレースパンツ
 pants.hiddenbelt = 隠しベルト
-
-option.a = オプション A
-option.b = オプション B
-option.c = オプション C
-
+option.a = オプションA
+option.b = オプションB
+option.c = オプションC
 default = デフォルト
-
 overtops.Scavenger_Poncho = ドクロなし
-
 capes.no_neck = 首なし
-
-haircuts.Dreadlocks01.name = ドレッドロックス 1
-haircuts.Dreadlocks02.name = ドレッドロックス 2
-haircuts.Dreadlocks03.name = ドレッドロックス 3
-haircuts.FrizzyBun01.name = くせ毛お団子 1
-haircuts.FrizzyBun02.name = くせ毛お団子 2
-haircuts.SlickbackCowlick.name = つむじ跳ねオールバック
+haircuts.Dreadlocks01.name = ドレッドロック1
+haircuts.Dreadlocks02.name = ドレッドロック2
+haircuts.Dreadlocks03.name = ドレッドロック3
+haircuts.FrizzyBun01.name = ふわふわお団子1
+haircuts.FrizzyBun02.name = ふわふわお団子2
+haircuts.SlickbackCowlick.name = つむじオールバック
 haircuts.Hairstrand.name = ヘアストランド
-haircuts.GoldenBangles.name = ゴールドバングル
-
-haircuts.Messy.name = くせ毛
+haircuts.GoldenBangles.name = ゴールデンバングル
+haircuts.Messy.name = ボサボサ
 haircuts.Braids.name = 三つ編み
-haircuts.Locks.name = ロックス
+haircuts.Locks.name = ロック
 haircuts.Wild.name = ワイルド
-
-headaccessory.Logo_Cap_Movie.name = ムービーロゴ
+headaccessory.Logo_Cap_Movie.name = 映画ロゴ
 headaccessory.Logo_Cap_Heart.name = ハートロゴ
 headaccessory.Logo_Cap_Hypixel.name = ハイピクセルロゴ
-
 left_arm.name = 左腕
 right_arm.name = 右腕
-
 thin.name = 細い
 thick.name = 太い
 lefteye.name = 左目
 righteye.name = 右目
-
 faceaccessory.BanditMask_SideKnot.name = サイドノット
