@@ -1,4 +1,1 @@
-forgotten_temple.title = 忘れられた神殿
-forgotten_temple.subtitle = エコーの果て
-creative_hub.title = クロスロード
-creative_hub.subtitle = 創造のコスモス
+portal.returnHint = マップのボタンを使用してクロスロードに戻るか、/crossroadsコマンドを使用してください
