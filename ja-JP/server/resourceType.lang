@@ -2,9 +2,9 @@ Bone.name = 骨
 Books.name = 本
 Bricks.name = あらゆるレンガ
 Charcoal.name = 木炭
-Clays.name = 粘土類
+Clays.name = 粘土
 Copper_Iron_Bar.name = 銅または鉄のインゴット
-Crystal_Shards.name = あらゆるクリスタルの欠片
+Crystal_Shards.name = あらゆる結晶の破片
 Fish.name = あらゆる魚
 Fish_Common.name = あらゆるコモンの魚
 Fish_Epic.name = あらゆるエピックの魚
@@ -22,20 +22,20 @@ Milk_Mosshorn_Bucket.name = あらゆるモスホーンのミルクバケツ
 Moss.name = あらゆるコケ
 Mushrooms.name = あらゆるキノコ
 Plant_Red.name = 赤い植物素材
-Prototype_Rock_Concrete.name = ロックコンクリートまたはロックコンクリート敷石
-Prototype_Rock_Concrete_Brick.name = ロックコンクリートレンガ
+Prototype_Rock_Concrete.name = 岩石コンクリートまたは岩石コンクリートコブルストーン
+Prototype_Rock_Concrete_Brick.name = 岩石コンクリートレンガ
 Rock.name = あらゆる石
 Rock_Aqua.name = アクアストーンまたはアクアコブル
 Rock_Aqua_Brick.name = アクアレンガ
 Rock_Basalt.name = 玄武岩または玄武岩コブル
 Rock_Basalt_Brick.name = 玄武岩レンガ
-Rock_Calcite.name = 方解石または方解石コブル
-Rock_Calcite_Brick.name = 方解石レンガ
-Rock_Chalk.name = チョーク岩またはチョーク岩コブル
-Rock_Chalk_Brick.name = チョーク岩レンガ
+Rock_Calcite.name = カルサイトまたはカルサイトコブル
+Rock_Calcite_Brick.name = カルサイトレンガ
+Rock_Chalk.name = チョークまたはチョークコブル
+Rock_Chalk_Brick.name = チョークレンガ
 Rock_Gold_Brick.name = 金レンガ
-Rock_Ledge.name = レッジストーンまたはレッジストーンコブル
-Rock_Ledge_Brick.name = レッジレンガ
+Rock_Ledge.name = 棚石または棚石コブル
+Rock_Ledge_Brick.name = 棚石レンガ
 Rock_Lime.name = 石灰岩または石灰岩コブル
 Rock_Lime_Brick.name = 石灰岩レンガ
 Rock_Marble.name = 大理石または大理石コブル
@@ -46,7 +46,7 @@ Rock_Quartzite.name = 珪岩または珪岩コブル
 Rock_Quartzite_Brick.name = 珪岩レンガ
 Rock_Runic_Blue_Brick.name = ルーン青レンガ
 Rock_Runic_Brick.name = ルーンレンガ
-Rock_Runic_Dark_Brick.name = ルーン黒レンガ
+Rock_Runic_Dark_Brick.name = ルーン暗黒レンガ
 Rock_Runic_Teal_Brick.name = ルーンティールレンガ
 Rock_Sandstone.name = 砂岩または砂岩コブル
 Rock_Sandstone_Brick.name = 砂岩レンガ
@@ -58,9 +58,9 @@ Rock_Shale.name = 頁岩または頁岩コブル
 Rock_Shale_Brick.name = 頁岩レンガ
 Rock_Slate.name = スレートまたはスレートコブル
 Rock_Slate_Brick.name = スレートレンガ
-Rock_Stone.name = 石または敷石
+Rock_Stone.name = 石または丸石
 Rock_Stone_Brick.name = 石レンガ
-Rock_Stone_Mossy.name = コケ石またはコケ敷石
+Rock_Stone_Mossy.name = コケの生えた石またはコケの生えた丸石
 Rock_Volcanic.name = 火山岩または火山岩コブル
 Rock_Volcanic_Brick.name = 火山岩レンガ
 Rubble.name = あらゆる瓦礫
@@ -81,8 +81,8 @@ Sands.name = あらゆる砂
 Soil_Clay_Brick.name = 粘土レンガ
 Soil_Clay_Ocean_Brick.name = 海洋粘土レンガ
 Soil_Hive_Brick.name = ハイブレンガ
-Soil_Hive_Corrupted.name = 汚染ハイブまたは汚染ハイブ敷石
-Soil_Hive_Corrupted_Brick.name = 汚染ハイブレンガ
+Soil_Hive_Corrupted.name = 汚染されたハイブまたは汚染されたハイブコブルストーン
+Soil_Hive_Corrupted_Brick.name = 汚染されたハイブレンガ
 Soil_Snow_Brick.name = 雪レンガ
 Soils.name = あらゆる土壌
 Vegetables.name = あらゆる野菜
@@ -90,40 +90,40 @@ Wood_All.name = あらゆる木材
 Wood_All_Trunk.name = あらゆる木材
 Wood_Blackwood.name = ブラックウッド
 Wood_Blackwood_Deadwood.name = ブラックウッドまたはデッドウッド
-Wood_Blackwood_Trunk.name = ブラックウッドの原木
+Wood_Blackwood_Trunk.name = ブラックウッドの丸太
 Wood_Blackwood_Trunk.description = ブラックウッドの木:\n• <color is="#ffffff">ファイア</color>\n• <color is="#ffffff">バーント</color>
 Wood_Darkwood.name = ダークウッド
-Wood_Darkwood_Trunk.name = ダークウッドの原木
-Wood_Darkwood_Trunk.description = ダークウッドの木:\n• <color is="#ffffff">シダー</color>
+Wood_Darkwood_Trunk.name = ダークウッドの丸太
+Wood_Darkwood_Trunk.description = ダークウッドの木:\n• <color is="#ffffff">セダー</color>
 Wood_Deadwood.name = デッドウッド
-Wood_Deadwood_Trunk.name = デッドウッドの原木
+Wood_Deadwood_Trunk.name = デッドウッドの丸太
 Wood_Deadwood_Trunk.description = デッドウッドの木:\n• <color is="#ffffff">ポイズンド</color>\n• <color is="#ffffff">ペトリファイド</color>
 Wood_Drywood.name = ドライウッド
 Wood_Drywood_Goldenwood.name = ドライウッドまたはゴールデンウッドの板材
-Wood_Drywood_Trunk.name = ドライウッドの原木
-Wood_Drywood_Trunk.description = ドライウッドの木:\n• <color is="#ffffff">ドライ</color>\n• <color is="#ffffff">ボトルツリー</color>
+Wood_Drywood_Trunk.name = ドライウッドの丸太
+Wood_Drywood_Trunk.description = ドライウッドの木:\n• <color is="#ffffff">ドライ</color>\n• <color is="#ffffff">ボトルトゥリー</color>
 Wood_Goldenwood.name = ゴールデンウッド
-Wood_Goldenwood_Trunk.name = ゴールデンウッドの原木
+Wood_Goldenwood_Trunk.name = ゴールデンウッドの丸太
 Wood_Goldenwood_Trunk.description = ゴールデンウッドの木:\n• <color is="#ffffff">サロウ</color>
 Wood_Greenwood.name = グリーンウッド
-Wood_Greenwood_Trunk.name = グリーンウッドの原木
+Wood_Greenwood_Trunk.name = グリーンウッドの丸太
 Wood_Greenwood_Trunk.description = グリーンウッドの木:\n• <color is="#ffffff">パロ</color>\n• <color is="#ffffff">ジャングル</color>
 Wood_Hardwood.name = ハードウッド
-Wood_Hardwood_Trunk.name = ハードウッドの原木
+Wood_Hardwood_Trunk.name = ハードウッドの丸太
 Wood_Hardwood_Trunk.description = ハードウッドの木:\n• <color is="#ffffff">オーク</color>\n• <color is="#ffffff">アッシュ</color>\n• <color is="#ffffff">モミ</color>
 Wood_Ice.name = フロストウッド
 Wood_Lightwood.name = ライトウッド
 Wood_Lightwood_Softwood.name = ライトウッドまたはソフトウッド
-Wood_Lightwood_Trunk.name = ライトウッドの原木
+Wood_Lightwood_Trunk.name = ライトウッドの丸太
 Wood_Lightwood_Trunk.description = ライトウッドの木:\n• <color is="#ffffff">バーチ</color>\n• <color is="#ffffff">カンファー</color>\n• <color is="#ffffff">ガンボアブ</color>
 Wood_Planks.name = あらゆる板材
 Wood_Redwood.name = レッドウッド
-Wood_Redwood_Trunk.name = レッドウッドの原木
-Wood_Redwood_Trunk.description = レッドウッドの木:\n• <color is="#ffffff">レッドウッド</color>\n• <color is="#ffffff">メープル</color>\n• <color is="#ffffff">ブルーフィグ</color>
+Wood_Redwood_Trunk.name = レッドウッドの丸太
+Wood_Redwood_Trunk.description = レッドウッドの木:\n• <color is="#ffffff">レッドウッド</color>\n• <color is="#ffffff">カエデ</color>\n• <color is="#ffffff">ブルーフィグ</color>
 Wood_Softwood.name = ソフトウッド
-Wood_Softwood_Trunk.name = ソフトウッドの原木
+Wood_Softwood_Trunk.name = ソフトウッドの丸太
 Wood_Softwood_Trunk.description = ソフトウッドの木:\n• <color is="#ffffff">バニヤン</color>\n• <color is="#ffffff">ブナ</color>\n• <color is="#ffffff">アスペン</color>
 Wood_Tropicalwood.name = トロピカルウッド
-Wood_Tropicalwood_Trunk.name = トロピカルウッドの原木
+Wood_Tropicalwood_Trunk.name = トロピカルウッドの丸太
 Wood_Tropicalwood_Trunk.description = トロピカルウッドの木:\n• <color is="#ffffff">バンブー</color>
-Wood_Trunk.name = あらゆる原木
+Wood_Trunk.name = あらゆる木の丸太
