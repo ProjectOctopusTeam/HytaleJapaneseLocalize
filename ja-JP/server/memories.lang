@@ -39,5 +39,5 @@ general.chestActive.level3.rewards = \n以下のクラフトが可能になり�
 general.chestActive.level4.rewards = \n以下のクラフトが可能になります:\n• 古代の関門 (魔術師の作業台)\n• ポータルフラグメント (魔術師の作業台)\n• バックパックアップグレードII (作業台)\n• +3 装飾チェスト (家具作業台)\n• +2 永遠の種 (農夫の作業台)\n\n+2 最大テレポーター数\n\n作業中
 general.chestActive.level5.rewards = \n以下のクラフトが可能になります:\n• 収穫トロフィー (農夫の作業台)\n• +2 装飾チェスト (家具作業台)\n• +2 永遠の種 (農夫の作業台)\n\n+2 最大テレポーター数\n\n作業中
 general.memoriesLevelMax = メモリーレベル: {level} (最大レベル)
-general.totalCollected = 収集総数:
+general.totalCollected = 収集合計: {current}/{max}
 general.foundIn = {location}で発見、{dateValue, date}

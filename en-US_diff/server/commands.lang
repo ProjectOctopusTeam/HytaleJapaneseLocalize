@@ -1,4 +1,4 @@
-desc = Echos the text you input to the user.
+desc = [TMP] Equips debug armor.
 noSelection = You have no current BuilderTools selection made
 cleared = Scripted brush cleared.
 notFurther = Cannot teleport further forward in history!
@@ -376,3 +376,4 @@ added = {username} is now an operator!
 already = {username} is already an operator.
 notOp = {username} is not an operator.
 empty = No drops for droplist '{droplistId}'!
+targetConflict = Cannot combine --player and --all. Choose one targeting mode

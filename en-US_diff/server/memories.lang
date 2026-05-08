@@ -39,5 +39,5 @@ general.chestActive.level3.rewards = \nCan craft the following:\n• Morph Potio
 general.chestActive.level4.rewards = \nCan craft the following:\n• Ancient Gateway (Arcanist's Workbench)\n• Portal Fragments (Arcanist's Workbench)\n• Backpack Upgrade II (Workbench)\n• +3 Decorative Chests (Furniture Workbench)\n• +2 Eternal Seeds (Farmer's Workbench)\n\n+2 Maximum Teleporters\n\nWork in Progress
 general.chestActive.level5.rewards = \nCan craft the following:\n• Harvest Trophy (Farmer's Workbench)\n• +2 Decorative Chests (Furniture Workbench)\n• +2 Eternal Seeds (Farmer's Workbench)\n\n+2 Maximum Teleporters\n\nWork in Progress
 general.memoriesLevelMax = Memories Level: {level} (level max)
-general.totalCollected = Total collected:
+general.totalCollected = Total collected: {current}/{max}
 general.foundIn = Found in {location}, {dateValue, date}

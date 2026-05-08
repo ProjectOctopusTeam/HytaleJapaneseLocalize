@@ -4096,3 +4096,6 @@ Prototype_Rock_Concrete_Slab_Brick_Decorative.name = コンクリートスラブ
 Prototype_Rock_Concrete_Slab_Brick_Half.name = コンクリートスラブレンガ - ハーフスラブ
 Prototype_Rock_Concrete_Slab_Mid_Top.name = コンクリートスラブ中央上部
 Prototype_Rock_Concrete_Slab_Stairs.name = コンクリートスラブ - 階段
+Debug_Falling_Barrel.name = デバッグ落下樽
+Debug_Stick_Spawn_Deployable.name = デプロイアブルスポーンの棒
+Unknown.name = 不明

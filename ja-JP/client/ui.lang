@@ -89,3 +89,5 @@ social.toast.worldInvite.headline = {playerName}からワールドへの招待�
 social.toast.partyInvite.headline = {playerName}からパーティーへの招待が届きました
 social.toast.accept = 承認
 social.toast.dismiss = 辞退
+social.party.createTooltip = パーティを作成する
+social.party.memberStatus = パーティ中

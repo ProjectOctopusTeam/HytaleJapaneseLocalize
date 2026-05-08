@@ -359,3 +359,5 @@ WARNING: This is a DANGEROUS operation!\n\
 Only proceed if you fully understand the consequences.
 deletePackModal.confirmButton = Delete Pack
 newAssetButton.readOnlyPackTooltip = You cannot create new assets because the selected asset pack is read-only.
+tabs.popup.closeOthers = Close Others
+tabs.popup.copyPath = Copy Path

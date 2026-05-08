@@ -27,3 +27,6 @@ playerListEntry.tooltip.mute = プレイヤーをミュート
 marker.localPlayer = あなた
 marker.targetLocation = 目標地点
 returnToCrossroads = クロスロードに戻る
+actions.quickMarker = [TMP] クイックマーカー
+actions.zoomIn = [TMP] ズームイン
+actions.zoomOut = [TMP] ズームアウト

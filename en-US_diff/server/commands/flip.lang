@@ -1,2 +1,3 @@
 desc = Flip the blocks in your clipboard
 direction.desc = The direction to flip (x, y, or z axis)
+direction.invalid = [TMP] Invalid direction or axis: '{input}'. Use: forward, backward, left, right, up, down, X, Y, Z

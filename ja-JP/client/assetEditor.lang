@@ -359,3 +359,5 @@ deletePackModal.text = アセットパック"{packId}"を削除しますか？\n
 結果を十分に理解した上でのみ進めてください。
 deletePackModal.confirmButton = パックを削除
 newAssetButton.readOnlyPackTooltip = 選択したアセットパックが読み取り専用のため、新しいアセットを作成できません。
+tabs.popup.closeOthers = 他を閉じる
+tabs.popup.copyPath = パスをコピー

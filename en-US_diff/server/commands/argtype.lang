@@ -1,1 +1,2 @@
 player.desc = An online player
+all.desc = If true, target every player in the sender's current world

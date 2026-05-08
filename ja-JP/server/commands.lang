@@ -1,4 +1,4 @@
-desc = 入力したテキストをユーザーにエコーします。
+desc = [TMP] デバッグ用アーマーを装備します。
 noSelection = BuilderTools の選択範囲がありません
 cleared = スクリプトブラシをクリアしました。
 notFurther = これ以上前方にテレポートできません！
@@ -376,3 +376,4 @@ added = {username} がオペレーターになりました！
 already = {username} はすでにオペレーターです。
 notOp = {username} はオペレーターではありません。
 empty = ドロップリスト '{droplistId}' にドロップがありません！
+targetConflict = --player と --all を同時に使用することはできません。いずれか一方のターゲットモードを選択してください。

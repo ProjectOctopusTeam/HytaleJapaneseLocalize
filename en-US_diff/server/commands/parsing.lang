@@ -147,3 +147,5 @@ argtype.playerUuidLookup.notFound = Player '{input}' was not found locally or vi
 argtype.pluginidentifier.name = Plugin Identifier
 argtype.pluginidentifier.usage = A plugin identifier (e.g., "com.example:plugin")
 argtype.pluginidentifier.fail = Invalid plugin identifier: {input} ({error})
+argtype.asset.audiostate.name = AudioState Asset
+argtype.asset.audiostate.usage = A reference to an Asset of type AudioState

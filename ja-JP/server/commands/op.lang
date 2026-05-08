@@ -15,3 +15,4 @@ removed = {username}はオペレーターではなくなりました。
 removed.target = あなたはオペレーターから削除されました。
 already = {username}はすでにオペレーターです。
 notOp = {username}はオペレーターではありません。
+self.currentlyOpNote = [TMP] あなたはすでにOPです！

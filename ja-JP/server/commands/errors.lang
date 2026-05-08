@@ -22,3 +22,4 @@ npc.unknown_role = 不明なNPCロール：{role}
 npc.unknown_debug_preset = 不明なデバッグプリセット：{preset}
 spawnIndexOutOfRange = スポーンインデックスが範囲外です
 playerOnly = このコマンドはプレイヤーのみ使用できます
+targetConflict = --player と --all を同時に使用することはできません。いずれか一方のターゲットモードを選択してください

@@ -4099,3 +4099,6 @@ Metal_Copper_Roof_Flat.name = Copper Roof - Flat
 Metal_Iron_Fence.name = Iron - Fence
 Metal_Bronze_Fence.name = Bronze - Fence
 Metal_Copper_Fence.name = Copper - Fence
+Debug_Falling_Barrel.name = Debug Falling Barrel
+Debug_Stick_Spawn_Deployable.name = The Stick of Deployable Spawning
+Unknown.name = Unknown

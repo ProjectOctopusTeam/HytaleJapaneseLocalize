@@ -15,3 +15,4 @@ removed = {username} is no longer an operator.
 removed.target = You have been removed as operator.
 already = {username} is already an operator.
 notOp = {username} is not an operator.
+self.currentlyOpNote = [TMP] You're already OP!
