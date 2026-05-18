@@ -646,3 +646,6 @@ bindings.PastePreview.description = [TMP] 貼り付けプレビューをブロ�
 bindings.SelectionSwitchToPaste = [TMP] 選択 - 貼り付けに切り替え
 bindings.PasteFlip = [TMP] 貼り付け - 反転
 bindings.TriggerVolumeDuplicate = [TMP] トリガーボリューム - 複製
+groups.gamepad.movement = [TMP] 移動
+gamepad.movementStickDeadzone = [TMP] 移動スティックのデッドゾーン
+fog = [TMP] フォグ

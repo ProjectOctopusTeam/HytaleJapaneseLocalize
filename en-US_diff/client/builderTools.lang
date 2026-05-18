@@ -922,3 +922,57 @@ paste.previewMode.Blocks = [TMP] Blocks
 paste.previewMode.Outline = [TMP] Outline
 paste.previewMode.Target = [TMP] Target
 paste.bypassNonSolidBlocks = [TMP] Place on Solid Blocks
+settings.Fog.description = [TMP] Toggle fog rendering
+panel.maskPresetBlank = [TMP] [ Blank ]
+panel.addMask = [TMP] Add Mask
+panel.saveMaskPreset = [TMP] Save Mask
+panel.deleteMaskPreset = [TMP] Delete Mask
+panel.maskPresetName = [TMP] Preset Name...
+panel.maskCommandPlaceholder =[TMP] Enter mask command...
+panel.maskPresetConfirm = [TMP] Confirm
+panel.maskPresetCancel = [TMP] Cancel
+panel.maskPresetDropdown = [TMP] Mask Presets
+panel.maskType.targetblock = [TMP] Target
+panel.maskType.targetblock.description = [TMP] Replace only blocks in this list
+panel.maskType.aboveblock = [TMP] Above >
+panel.maskType.aboveblock.description = [TMP] Replace only blocks above the ones in this list
+panel.maskType.not = [TMP] Not !
+panel.maskType.not.description = [TMP] Don't replace blocks in this list
+panel.maskType.belowblock = [TMP] Below <
+panel.maskType.belowblock.description = [TMP] Replace only blocks below the ones in this list
+panel.maskType.adjacentblock = [TMP] Adjacent ~
+panel.maskType.adjacentblock.description = [TMP] Replace only blocks next to the ones in this list
+panel.maskType.neighborblock = [TMP] Neighbor ^
+panel.maskType.neighborblock.description = [TMP] Replace only blocks touching the ones in this list
+panel.maskType.command = [TMP] Command
+panel.maskType.command.description = [TMP] Use mask commands to build a mask. The following symbols represent mask types:\n\
+\n\
+Above = >\nBelow = <\nNot = !\nAdjacent = ~\nNeighbor = ^\n\
+\n\
+Example: To mask grass blocks that are above dirt, you do:\n\
+\n\
+Soil_Grass,>Soil_Dirt
+panel.maskInvert = [TMP] Invert\n\
+\n\
+Turns the current mask type into its opposite. For example, inverting a mask type of Above would make it search for blocks that aren't Above, which is equal to Below.
+legend.CreatingAndUsingMask = [TMP] Saving/Delete Mask Presets:
+legend.CreatingAndUsingMask.Description = [TMP] The "Save Mask" button allows you to save your mask as a preset to be used again.\n\
+The "Delete Mask" button will delete the current mask preset you have loaded.
+legend.InvertingMask = [TMP] Inverting a Mask:
+legend.InvertingMask.Description = [TMP] The "Invert" button allows you to invert your current mask type to cover the opposite.\n\
+\n\
+For example, if the mask type is Above then it becomes Below.
+legend.SculptBrush.Page2.Title = [TMP] Sampling
+legend.SculptBrush.Page2.Intro = [TMP] How surrounding blocks are weighted during smoothing
+legend.SculptBrush.Page2.Normal.Name = [TMP] Normal
+legend.SculptBrush.Page2.Normal.Description = [TMP] Faces weighted most, edges less, corners least
+legend.SculptBrush.Page2.Uniform.Name = [TMP] Uniform
+legend.SculptBrush.Page2.Uniform.Description = [TMP] All 26 neighbors weighted equally
+legend.SculptBrush.Page2.Gaussian.Name = [TMP] Gaussian
+legend.SculptBrush.Page2.Gaussian.Description = [TMP] More center weighted than Normal
+legend.SculptBrush.Page2.Neighbour.Name = [TMP] Neighbour
+legend.SculptBrush.Page2.Neighbour.Description = [TMP] Only the 6 directly adjacent faces count
+legend.SculptBrush.Page2.Square.Name = [TMP] Square
+legend.SculptBrush.Page2.Square.Description = [TMP] Like Neighbour but samples a wider cuboid region
+log.gmaskSave = [TMP] Saved global mask preset '{name}'.
+log.gmaskPresetNotFound = [TMP] Mask preset '{name}' not found.

@@ -8,3 +8,5 @@ warpName.desc = ワープの名前
 set.name.desc = 新しいワープの名前
 remove.name.desc = 削除するワープの名前
 list.page.desc = 表示するページ番号
+set.force.desc = 同じ名前の既存のワープを強制的に置き換えます
+remove.force.desc = 既存のワープを強制的に削除します

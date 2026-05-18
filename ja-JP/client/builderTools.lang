@@ -922,3 +922,57 @@ paste.previewMode.Blocks = [TMP] ブロック
 paste.previewMode.Outline = [TMP] アウトライン
 paste.previewMode.Target = [TMP] ターゲット
 paste.bypassNonSolidBlocks = [TMP] 固体ブロックの上に配置
+settings.Fog.description = [TMP] フォグレンダリングの切り替え
+panel.maskPresetBlank = [TMP] [ 空白 ]
+panel.addMask = [TMP] マスクを追加
+panel.saveMaskPreset = [TMP] マスクを保存
+panel.deleteMaskPreset = [TMP] マスクを削除
+panel.maskPresetName = [TMP] プリセット名...
+panel.maskCommandPlaceholder =[TMP] マスクコマンドを入力...
+panel.maskPresetConfirm = [TMP] 確認
+panel.maskPresetCancel = [TMP] キャンセル
+panel.maskPresetDropdown = [TMP] マスクプリセット
+panel.maskType.targetblock = [TMP] ターゲット
+panel.maskType.targetblock.description = [TMP] リスト内のブロックのみ置き換える
+panel.maskType.aboveblock = [TMP] 上 >
+panel.maskType.aboveblock.description = [TMP] リスト内のブロックより上にあるブロックのみ置き換える
+panel.maskType.not = [TMP] 除外 !
+panel.maskType.not.description = [TMP] リスト内のブロックを置き換えない
+panel.maskType.belowblock = [TMP] 下 
+panel.maskType.belowblock.description = [TMP] リスト内のブロックより下にあるブロックのみ置き換える
+panel.maskType.adjacentblock = [TMP] 隣接 ~
+panel.maskType.adjacentblock.description = [TMP] リスト内のブロックの隣にあるブロックのみ置き換える
+panel.maskType.neighborblock = [TMP] 近接 ^
+panel.maskType.neighborblock.description = [TMP] リスト内のブロックに接しているブロックのみ置き換える
+panel.maskType.command = [TMP] コマンド
+panel.maskType.command.description = [TMP] マスクコマンドを使用してマスクを構築します。以下の記号はマスクの種類を表します：\n\
+\n\
+上 = >\n下 = <\n除外 = !\n隣接 = ~\n近接 = ^\n\
+\n\
+例：土の上にある草ブロックをマスクするには：\n\
+\n\
+Soil_Grass,>Soil_Dirt
+panel.maskInvert = [TMP] 反転\n\
+\n\
+現在のマスクタイプをその逆に変換します。例えば、「上」のマスクタイプを反転すると、「上」以外のブロック、つまり「下」と同等の条件を検索するようになります。
+legend.CreatingAndUsingMask = [TMP] マスクプリセットの保存／削除：
+legend.CreatingAndUsingMask.Description = [TMP] 「マスクを保存」ボタンを使用すると、マスクをプリセットとして保存して再利用できます。\n\
+「マスクを削除」ボタンは、現在読み込まれているマスクプリセットを削除します。
+legend.InvertingMask = [TMP] マスクの反転：
+legend.InvertingMask.Description = [TMP] 「反転」ボタンを使用すると、現在のマスクタイプを逆の範囲をカバーするように反転できます。\n\
+\n\
+例えば、マスクタイプが「上」の場合、「下」に変わります。
+legend.SculptBrush.Page2.Title = [TMP] サンプリング
+legend.SculptBrush.Page2.Intro = [TMP] スムージング時の周囲ブロックの重み付け方法
+legend.SculptBrush.Page2.Normal.Name = [TMP] 通常
+legend.SculptBrush.Page2.Normal.Description = [TMP] 面の重みが最も大きく、辺は中程度、角は最小
+legend.SculptBrush.Page2.Uniform.Name = [TMP] 均一
+legend.SculptBrush.Page2.Uniform.Description = [TMP] 26個すべての隣接ブロックを均等に重み付け
+legend.SculptBrush.Page2.Gaussian.Name = [TMP] ガウス
+legend.SculptBrush.Page2.Gaussian.Description = [TMP] 通常より中心の重みが大きい
+legend.SculptBrush.Page2.Neighbour.Name = [TMP] 近接
+legend.SculptBrush.Page2.Neighbour.Description = [TMP] 直接隣接する6面のみを対象とする
+legend.SculptBrush.Page2.Square.Name = [TMP] 四角
+legend.SculptBrush.Page2.Square.Description = [TMP] 近接と同様だが、より広い直方体領域をサンプリングする
+log.gmaskSave = [TMP] グローバルマスクプリセット '{name}' を保存しました。
+log.gmaskPresetNotFound = [TMP] マスクプリセット '{name}' が見つかりません。

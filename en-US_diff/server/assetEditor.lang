@@ -65,3 +65,4 @@ buttons.useModel = Use Model
 buttons.resetModel = Reset Model
 buttons.createAndEquipItem = Create and Equip Item
 buttons.createAndUseModel = Create and Use Model
+messages.invalidServerVersion = Invalid ServerVersion range. See the modder documentation for valid syntax (e.g. *, >=0.5.0, 0.5.x, ^0.5.0).

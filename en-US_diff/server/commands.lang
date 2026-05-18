@@ -1,4 +1,4 @@
-desc = [TMP] Equips debug armor.
+desc = Manage your server discovery status.
 noSelection = You have no current BuilderTools selection made
 cleared = Scripted brush cleared.
 notFurther = Cannot teleport further forward in history!
@@ -377,3 +377,4 @@ already = {username} is already an operator.
 notOp = {username} is not an operator.
 empty = No drops for droplist '{droplistId}'!
 targetConflict = Cannot combine --player and --all. Choose one targeting mode
+notEnabled = Server discovery isn't enabled! Please check back later.

@@ -646,3 +646,6 @@ bindings.PastePreview.description = [TMP] Cycles the paste preview between Block
 bindings.SelectionSwitchToPaste = [TMP] Selection - Switch to Paste
 bindings.PasteFlip = [TMP] Paste - Flip
 bindings.TriggerVolumeDuplicate = [TMP] Trigger Volume - Duplicate
+groups.gamepad.movement = [TMP] Movement
+gamepad.movementStickDeadzone = [TMP] Movement Stick Dead Zone
+fog = [TMP] Fog

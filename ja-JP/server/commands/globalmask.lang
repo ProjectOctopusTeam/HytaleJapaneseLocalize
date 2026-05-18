@@ -1,3 +1,10 @@
 desc = グローバルブロックマスクを設定する
 clear.desc = グローバルブロックマスクをクリア/無効にする
 mask.desc = 設定するブロックマスク
+save.desc = [TMP] 現在のグローバルマスクをプリセットとして保存します
+save.name.desc = [TMP] プリセットの名前
+save.noMask = [TMP] 現在グローバルマスクが設定されていません
+load.desc = [TMP] マスクプリセットをグローバルマスクとして読み込みます
+load.name.desc = [TMP] 読み込むプリセットの名前
+load.empty = [TMP] プリセットのデータが空です
+load.failed = [TMP] マスクプリセットの読み込みに失敗しました：{reason}

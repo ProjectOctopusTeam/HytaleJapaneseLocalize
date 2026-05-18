@@ -1,4 +1,4 @@
-desc = [TMP] デバッグ用アーマーを装備します。
+desc = サーバーの公開状態を管理します。
 noSelection = BuilderTools の選択範囲がありません
 cleared = スクリプトブラシをクリアしました。
 notFurther = これ以上前方にテレポートできません！
@@ -377,3 +377,4 @@ already = {username} はすでにオペレーターです。
 notOp = {username} はオペレーターではありません。
 empty = ドロップリスト '{droplistId}' にドロップがありません！
 targetConflict = --player と --all を同時に使用することはできません。いずれか一方のターゲットモードを選択してください。
+notEnabled = サーバーの公開機能は有効になっていません。後ほど再度ご確認ください。

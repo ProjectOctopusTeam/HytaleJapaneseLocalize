@@ -5,3 +5,5 @@ backpack.resized = Backpack capacity resized to {capacity, number} (dropped {dro
     other {{dropped, number} items}})
 item.noItemInHand = Player must be holding an item
 item.noContainerOnItem = Item does not have a container
+backpack.upgradeNotApplied = [TMP] Your backpack is already at this capacity or larger than what this upgrade grants.
+backpack.usePreviousUpgrade = [TMP] You need to use the previous upgrade before you can use this one.

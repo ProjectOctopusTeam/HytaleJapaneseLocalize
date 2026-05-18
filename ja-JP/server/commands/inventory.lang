@@ -5,3 +5,5 @@ backpack.resized = バックパックの容量を{capacity, number}にリサイ�
     other {{dropped, number}個のアイテムをドロップ}}）
 item.noItemInHand = プレイヤーはアイテムを持っている必要があります
 item.noContainerOnItem = アイテムにコンテナがありません
+backpack.upgradeNotApplied = [TMP] バックパックはすでにこのアップグレードで付与される容量以上になっています。
+backpack.usePreviousUpgrade = [TMP] このアップグレードを使用する前に、ひとつ前のアップグレードを使用する必要があります。

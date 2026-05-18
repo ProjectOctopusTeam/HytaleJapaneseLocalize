@@ -49,3 +49,4 @@ teleportedForwardToCoordinates = You have been teleported forward to ({x, number
 history.empty = Your teleport history is empty.
 history.info = Teleport history: {backCount, number} back, {forwardCount, number} forward
 teleportedToWorld = You have been teleported to world "{worldName}" at ({x, number}, {y, number}, {z, number}).
+warp.modify.cancelled = Warp "{name}" is protected. Use --force to override

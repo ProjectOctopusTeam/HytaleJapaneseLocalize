@@ -65,3 +65,4 @@ buttons.useModel = モデルを使用
 buttons.resetModel = モデルをリセット
 buttons.createAndEquipItem = アイテムを作成して装備
 buttons.createAndUseModel = モデルを作成して使用
+messages.invalidServerVersion = サーバーバージョンの範囲が無効です。有効な構文については Modder ドキュメントを参照してください（例：*、>=0.5.0、0.5.x、^0.5.0）。

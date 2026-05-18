@@ -18,3 +18,4 @@ mount = [{key}] に乗る
 burst = [{key}] で {name} を破裂させる
 pickup = [{key}] で {name} を拾う
 inspect = [TMP] [{key}] で {name} を調べる
+closeDoor = [{key}] を押して閉める

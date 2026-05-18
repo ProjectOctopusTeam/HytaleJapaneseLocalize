@@ -49,3 +49,4 @@ teleportedForwardToCoordinates = ({x, number}, {y, number}, {z, number}) に進�
 history.empty = テレポート履歴が空です。
 history.info = テレポート履歴: {backCount, number}個前、{forwardCount, number}個先
 teleportedToWorld = ワールド "{worldName}" の ({x, number}, {y, number}, {z, number}) にテレポートしました。
+warp.modify.cancelled = ワープ「{name}」は保護されています。上書きするには --force を使用してください

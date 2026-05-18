@@ -361,3 +361,5 @@ deletePackModal.confirmButton = Delete Pack
 newAssetButton.readOnlyPackTooltip = You cannot create new assets because the selected asset pack is read-only.
 tabs.popup.closeOthers = Close Others
 tabs.popup.copyPath = Copy Path
+errors.cannotUpdateJsonAsset = Unable to update json asset, unknown error
+packModal.errors.serverVersionInvalid = Server version must be a valid SemverRange (e.g. *, >=0.5.0, 0.5.x, ^0.5.0).
