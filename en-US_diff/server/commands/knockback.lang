@@ -1,0 +1,11 @@
+desc = [TMP] Applies test knockback to entities.
+apply.desc = [TMP] Applies a knockback component with a direction preset.
+apply.self.desc = [TMP] Applies knockback to yourself.
+apply.aimed.desc = [TMP] Applies knockback to the entity you are aiming at.
+apply.direction.desc = [TMP] Horizontal direction: left|l, right|r, forward|f, backward|b.
+apply.y.desc = [TMP] Y velocity value.
+apply.force.desc = [TMP] Horizontal force value.
+apply.preset.desc = [TMP] Velocity config preset: null, linear, exp, def.
+apply.success = [TMP] Applied knockback (direction: {direction}, y: {y}, force: {force}, preset: {preset}).
+apply.invalidDirection = [TMP] Invalid direction '{direction}'. Expected one of: {values}.
+apply.invalidPreset = [TMP] Invalid preset '{preset}'. Expected one of: {values}.

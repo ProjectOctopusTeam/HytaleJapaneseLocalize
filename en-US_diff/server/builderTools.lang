@@ -746,3 +746,5 @@ tools.Sculpt.args.fluidMode.values.Remove = [TMP] Clear Fluids
 tools.Sculpt.args.fluidMode.values.Remove.tooltip = [TMP] Clears all fluids in the brush area
 tools.Sculpt.args.fluidMode.values.Ignore = [TMP] Ignore Fluids
 tools.Sculpt.args.fluidMode.values.Ignore.tooltip = [TMP] Leaves fluids unchanged
+tools.Sculpt.args.sampling.values.Neighbor = [TMP] Neighbor
+tools.Sculpt.args.sampling.values.Neighbor.tooltip = [TMP] Only uses the adjacent blocks

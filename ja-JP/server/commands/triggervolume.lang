@@ -54,7 +54,7 @@ argtype.volumeName.usage = [TMP] トリガーボリュームの名前
 test.msg.enter = [TMP] テスト: ボリュームに入りました
 test.msg.exit = [TMP] テスト: ボリュームから出ました
 test.msg.tick = [TMP] テスト: ティック（2秒間隔）
-test.msg.conditional = [TMP] テスト: 条件が発動しました（3秒クールダウン）
+test.msg.conditional = [TMP] テスト：ランダム確率条件が受け入れられました
 test.msg.delayed = [TMP] テスト: このメッセージは2秒遅延して表示されました
 test.msg.seq1 = [TMP] テスト: シーケンスステップ1（即時）
 test.msg.seq2 = [TMP] テスト: シーケンスステップ2（1秒遅延）
@@ -94,3 +94,23 @@ effects.desc = [TMP] トリガーボリュームのエフェクトエディタ�
 effects.volumeName.desc = [TMP] ボリューム名（省略した場合は選択中のものを使用）。
 effects.noSelection = [TMP] ボリュームが指定されておらず、選択中のボリュームもありません。先にボリュームを選択するか名前を指定してください。
 effects.group.desc = [TMP] このボリュームのエディタではなく、グループエディタを開く。
+test.msg.cooldownConditionPerPlayerAccepted = [TMP] テスト：プレイヤーごとのクールダウン条件が受け入れられました
+test.msg.cooldownConditionPerPlayerRejected = [TMP] テスト：プレイヤーごとのクールダウン条件が拒否されました
+test.msg.cooldownConditionWholeVolumeAccepted = [TMP] テスト：ボリューム全体のクールダウン条件が受け入れられました
+test.msg.cooldownConditionWholeVolumeRejected = [TMP] テスト：ボリューム全体のクールダウン条件が拒否されました
+test.msg.gameModeAccepted = [TMP] テスト：ゲームモード条件が受け入れられました
+test.msg.gameModeRejected = [TMP] テスト：ゲームモード条件が拒否されました
+test.msg.permissionAccepted = [TMP] テスト：権限条件が受け入れられました
+test.msg.permissionRejected = [TMP] テスト：権限条件が拒否されました
+test.msg.itemAccepted = [TMP] テスト：手持ちアイテム条件が受け入れられました
+test.msg.itemRejected = [TMP] テスト：この条件を受け入れるにはPotion_Emptyを手に持ってください
+test.msg.afterDelayAccepted = [TMP] テスト：遅延後の条件が受け入れられました
+test.msg.afterDelayRejected = [TMP] テスト：遅延後の条件が拒否されました
+test.msg.blockPlaced = [TMP] テスト：このボリューム内にSoil_Dirtが設置されました
+test.msg.tagMutationEnter = [TMP] テスト：このボリュームにtvtest_state=activeを追加しています
+test.msg.tagAdded = [TMP] テスト：tvtest_state=activeに対してTAG_ADDEDが発動しました
+test.msg.tagRemoved = [TMP] テスト：tvtest_state=activeに対してTAG_REMOVEDが発動しました
+test.msg.remoteControllerEnter = [TMP] テスト：コントローラーが別の対象ボリュームにtvtest_remote_state=armedを追加しています
+test.msg.remoteControllerExit = [TMP] テスト：コントローラーが別の対象ボリュームからtvtest_remote_stateを削除しています
+test.msg.remoteTagAdded = [TMP] テスト：リモート対象がタグ追加によって起動し、tvtest_remote_state=armed条件を通過しました
+test.msg.remoteTagRemoved = [TMP] テスト：リモート対象がタグ削除によって起動し、tvtest_remote_state=armed条件を通過しました

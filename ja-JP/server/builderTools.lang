@@ -746,3 +746,5 @@ tools.Sculpt.args.fluidMode.values.Remove = [TMP] 流体を消去
 tools.Sculpt.args.fluidMode.values.Remove.tooltip = [TMP] ブラシ範囲内のすべての流体を消去する
 tools.Sculpt.args.fluidMode.values.Ignore = [TMP] 流体を無視
 tools.Sculpt.args.fluidMode.values.Ignore.tooltip = [TMP] 流体をそのままにする
+tools.Sculpt.args.sampling.values.Neighbor = [TMP] 近接
+tools.Sculpt.args.sampling.values.Neighbor.tooltip = [TMP] 隣接するブロックのみを使用

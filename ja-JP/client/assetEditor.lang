@@ -363,3 +363,5 @@ tabs.popup.closeOthers = 他を閉じる
 tabs.popup.copyPath = パスをコピー
 errors.cannotUpdateJsonAsset = JSONアセットを更新できません。不明なエラーが発生しました
 packModal.errors.serverVersionInvalid = サーバーバージョンは有効な SemverRange である必要があります（例：*、>=0.5.0、0.5.x、^0.5.0）。
+window.textEditor = テキストエディター
+errors.failedToOpenWorkspace = ワークスペースを開けませんでした
