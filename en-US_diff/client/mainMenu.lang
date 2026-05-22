@@ -304,3 +304,4 @@ servers.ping.unit = [TMP]ms
 servers.details.likes = [TMP]{count, plural, one {{count, number} like} other {{count, number} likes}}
 servers.details.favorites = [TMP]{count, plural, one {{count, number} favorite} other {{count, number} favorites}}
 servers.details.likeAction = [TMP]Like
+servers.hideAddresses = Hide server addresses

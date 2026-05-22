@@ -304,3 +304,4 @@ servers.ping.unit = [TMP]ms
 servers.details.likes = [TMP]{count, plural, one {{count, number} 件のいいね} other {{count, number} 件のいいね}}
 servers.details.favorites = [TMP]{count, plural, one {{count, number} 件のお気に入り} other {{count, number} 件のお気に入り}}
 servers.details.likeAction = [TMP]いいね
+servers.hideAddresses = サーバーアドレスを非表示にする
