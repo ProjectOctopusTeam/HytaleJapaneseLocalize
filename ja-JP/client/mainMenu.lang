@@ -305,3 +305,6 @@ servers.details.likes = [TMP]{count, plural, one {{count, number} 件のいい�
 servers.details.favorites = [TMP]{count, plural, one {{count, number} 件のお気に入り} other {{count, number} 件のお気に入り}}
 servers.details.likeAction = [TMP]いいね
 servers.hideAddresses = サーバーアドレスを非表示にする
+news.heading = 新着情報
+newsTiles.prevButton.tooltip = 前へ
+newsTiles.nextButton.tooltip = 次へ

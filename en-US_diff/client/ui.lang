@@ -91,3 +91,6 @@ social.toast.accept = ACCEPT
 social.toast.dismiss = DECLINE
 social.party.createTooltip = Start a party
 social.party.memberStatus = In party
+social.settings.tooltip = Open social settings
+social.discord.linkPrompt = Link your Discord account to find friends and share your status
+social.discord.linkButton = LINK

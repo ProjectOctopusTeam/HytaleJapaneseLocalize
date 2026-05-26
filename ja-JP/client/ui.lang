@@ -91,3 +91,6 @@ social.toast.accept = 承認
 social.toast.dismiss = 辞退
 social.party.createTooltip = パーティを作成する
 social.party.memberStatus = パーティ中
+social.settings.tooltip = ソーシャル設定を開く
+social.discord.linkPrompt = Discord アカウントを連携してフレンドを見つけ、ステータスを共有しましょう
+social.discord.linkButton = 連携する
