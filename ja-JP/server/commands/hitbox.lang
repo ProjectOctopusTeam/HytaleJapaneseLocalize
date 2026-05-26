@@ -1,9 +1,9 @@
-extentsThresholdNeeded = 閾値 {threshold} を使用した場合、必要なフィラーブロックの総数は {nb} 個です
-notFound = 名前 '{name}' のヒットボックスが見つかりません
-boundingBox = バウンディングボックス: {box}
+extentsThresholdNeeded = 閾値{threshold}を使用した場合、必要なフィラーブロックの総数は{nb}です
+notFound = 名前'{name}'のヒットボックスが見つかりません
+boundingBox = バウンディングボックス：{box}
 details.header = 詳細ボックス
 box = (({minX, number}, {minY, number}, {minZ, number}), ({maxX, number}, {maxY, number}, {maxZ, number}))
-desc = 指定したヒットボックスIDのヒットボックスデータを返します
+desc = 指定したヒットボックスIDのヒットボックスデータを返す
 hitbox.desc = 情報を表示するヒットボックスの名前
-extents.desc = すべてのヒットボックスに必要なフィラーブロックの総数を計算します
-extents.threshold.desc = 範囲計算の閾値（デフォルト: 0.5）
+extents.desc = すべてのヒットボックスに必要なフィラーブロックの総数を計算する
+extents.threshold.desc = 範囲計算の閾値（デフォルト：0.5）

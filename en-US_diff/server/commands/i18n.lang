@@ -1,0 +1,6 @@
+desc = Internationalization related commands
+gen.desc = Generate default localization files
+gen.immutable = The assets folder is presently immutable and cannot be modified
+gen.done = Generated default localization files
+gen.cleaned = Generated default localization files (cleaned unused keys)
+gen.clean.desc = Removes unused keys which are on disk but not in the generated files

@@ -1,0 +1,3 @@
+desc = Curses the item held in your hand
+notHoldingItem = Hold an item in your hand to curse it
+done = Set held item Cursed state to {state}

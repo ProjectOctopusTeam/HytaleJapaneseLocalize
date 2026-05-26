@@ -1,4 +1,4 @@
-desc = 時刻を設定してユーザーをテレポートします。
+desc = 時刻を設定してユーザーをテレポートする。
 timeOfDay.desc = ワールドに設定する時刻。
 world.desc = テレポート先のワールド。
 world.default.desc = デフォルトのワールド

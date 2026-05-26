@@ -1,0 +1,8 @@
+desc = Test sleep performance
+sleep.desc = Sleep duration in milliseconds
+sleep.defaultDesc = 10
+count.desc = Number of test iterations
+count.defaultDesc = 1000
+starting = Starting Sleep Test: Count: {count}, Sleep: {sleep}ms (Length: {ms})
+test = Sleep Test\n  - Delta: Min: {deltaMin}, Max: {deltaMax}, Avg: {deltaAvg} - {deltaTime}\n  - Offset: Min: {offsetMin}, Max: {offsetMax}, Avg: {offsetAvg} - {offsetTime}
+interrupted = Sleep test interrupted

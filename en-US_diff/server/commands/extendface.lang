@@ -1,0 +1,15 @@
+desc = Extend the target face
+x.desc = The X coordinate
+y.desc = The Y coordinate
+z.desc = The Z coordinate
+depth.desc = [TMP] The depth to extend or shrink
+width.desc = [TMP] The width of the affected area
+length.desc = [TMP] The length of the affected area
+direction.desc = [TMP] The direction to extend (up, down, east, west, north, south)
+pattern.desc = [TMP] An optional block pattern to use instead of the surface blocks
+filter.desc = [TMP] Block filter mode
+strategy.desc = [TMP] Extrude strategy mode
+shrink.desc = [TMP] Shrink blocks inward instead of extending outward
+argtype.direction = [TMP] Direction
+argtype.filter = [TMP] Filter
+argtype.strategy = [TMP] Strategy

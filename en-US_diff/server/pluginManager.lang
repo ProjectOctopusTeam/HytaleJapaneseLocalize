@@ -1,0 +1,2 @@
+outOfDatePlugins = The following {count, plural, one {plugin is} other {plugins are}} targeting a different server version.\n\
+    It is recommended to update {count, plural, one {this plugin} other {these plugins}} to ensure compatibility:{mods}

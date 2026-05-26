@@ -1,0 +1,6 @@
+desc = Hides the hotbar to test if the HudManager systems are working properly
+reset.desc = Reset (show) the HUD instead of hiding it
+shown.self = Hotbar HUD has been shown
+shown.other = Hotbar HUD has been shown for {username}
+hidden.self = Hotbar HUD has been hidden
+hidden.other = Hotbar HUD has been hidden for {username}

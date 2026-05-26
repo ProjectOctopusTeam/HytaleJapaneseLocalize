@@ -1,0 +1,2 @@
+desc = Unban a player
+player.desc = The player to unban (username or UUID)

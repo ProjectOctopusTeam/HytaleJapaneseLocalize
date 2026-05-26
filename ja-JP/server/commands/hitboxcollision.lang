@@ -1,10 +1,10 @@
-desc = エンティティ・自分自身にHitboxCollisionコンポーネントを追加・削除するコマンド
-add.desc = エンティティ・自分自身にHitboxCollisionコンポーネントを追加するコマンド
+desc = エンティティまたは自分自身にHitboxCollisionコンポーネントを追加/削除するコマンド
+add.desc = エンティティまたは自分自身にHitboxCollisionコンポーネントを追加するコマンド
 add.entity.desc = エンティティにHitboxCollisionコンポーネントを追加するコマンド
 add.entityArg.desc = コンポーネントを追加するエンティティ
 add.self.desc = 自分自身にHitboxCollisionコンポーネントを追加するコマンド
-add.hitboxCollisionConfig.desc = 使用するヒットボックスコリジョン設定
-remove.desc = エンティティ・自分自身からHitboxCollisionコンポーネントを削除するコマンド
+add.hitboxCollisionConfig.desc = 使用するヒットボックスコリジョンの設定
+remove.desc = エンティティまたは自分自身からHitboxCollisionコンポーネントを削除するコマンド
 remove.entity.desc = エンティティからHitboxCollisionコンポーネントを削除するコマンド
 remove.entityArg.desc = コンポーネントを削除するエンティティ
 remove.self.desc = 自分自身からHitboxCollisionコンポーネントを削除するコマンド

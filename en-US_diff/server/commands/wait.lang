@@ -1,0 +1,4 @@
+desc = Waits a specified amount of time before completing asynchronously
+arg.time = The amount of time (in seconds) to wait
+arg.print = If specified, the command will print to chat when completed
+complete = Waiting complete!

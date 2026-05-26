@@ -1,0 +1,5 @@
+droplistSet = Set droplist!
+currentDroplist = Current droplist: {droplist}
+noDroplist = No droplist for container.
+setDroplist.desc = Set a droplist for the Chest you're looking at
+getDroplist.desc = Get a droplist for the Chest you're looking at

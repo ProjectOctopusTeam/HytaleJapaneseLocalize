@@ -1,0 +1,3 @@
+desc = Displays version information about the currently running server.
+response = HytaleServer v{version} ({patchline})
+response.withEnvironment = HytaleServer v{version} ({patchline}, {environment})

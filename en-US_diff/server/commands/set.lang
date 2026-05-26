@@ -1,0 +1,5 @@
+desc = Set all blocks in your selection to the specified blocktype
+args.blocktype.desc = The blocktype to set your selection to
+unknownFluid = Unknown fluid (or no fluid provided)
+maxFluidLevelClamped = Clamping max fluid level to {level, number}
+success = Set {x, number}, {y, number}, {z, number} to {id} with level {level, number}

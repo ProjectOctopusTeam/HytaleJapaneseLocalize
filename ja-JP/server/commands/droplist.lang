@@ -1,7 +1,7 @@
-desc = 指定したドロップリストのドロップをシミュレートします
-set.droplist.desc = ドロップのシミュレーションに使用するドロップリストのID。
-result = ドロップリスト '{droplistId}' のドロップ結果:
+desc = 指定したドロップリストのドロップをシミュレートする
+set.droplist.desc = ドロップシミュレートに使用するドロップリストのID
+result = ドロップリスト'{droplistId}'のドロップ結果：
 result.item = - {itemName} x{itemQuantity}
-empty = ドロップリスト '{droplistId}' にドロップがありません！
-notFound = ID '{droplistId}' のドロップリストアセットが見つかりませんでした！
-set.count.desc = シミュレーションを実行する回数。
+empty = ドロップリスト'{droplistId}'にドロップがありません！
+notFound = ID'{droplistId}'のドロップリストアセットが見つかりません！
+set.count.desc = シミュレーションの実行回数

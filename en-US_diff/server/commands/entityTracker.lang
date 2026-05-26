@@ -1,0 +1,7 @@
+summary = Entities:\n\
+    \tVisible: {visibleCount, number}\n\
+    \tLOD Excluded: {lodExcludedCount, number}\n\
+    \tHidden: {hiddenCount, number}\n\
+    \tTotal: {totalCount, number}\n\
+    World Total: {worldTotalCount, number}\n\
+    View Radius: {viewRadius, number} ({viewRadiusBlocks, number})

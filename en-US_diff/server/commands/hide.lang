@@ -1,0 +1,13 @@
+desc = Hide and show players from/to other players
+player.desc = Hide a player from a target player or all players
+showPlayer.desc = Show a player to a target player or all players
+all.desc = Hide all players from each other
+showAll.desc = Show all players to each other
+target.desc = The target player to hide/show the player from/to. If not specified, affects all players
+cantHideFromSelf = You can't hide from yourself
+shownTo = {username} is visible to {targetUsername}
+hiddenFrom = {username} is hidden from {targetUsername}
+hiddenFromAll = {username} is hidden from all players
+shownToAll = {username} is visible to all players
+allHiddenFromAll = All players are now hidden from each other
+allShownToAll = All players are now visible to each other

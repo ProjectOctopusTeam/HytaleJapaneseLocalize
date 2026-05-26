@@ -1,0 +1,55 @@
+desc = Server update management commands
+check.desc = Check for available updates
+download.desc = Download an available update to staging
+apply.desc = Apply a staged update and restart the server
+apply.confirm.desc = Confirm the update application
+status.desc = Show current version and update status
+cancel.desc = Cancel an in-progress download or delete staged update
+patchline.desc = Show or set the update patchline
+patchline.arg.desc = The patchline to switch to (e.g. release, stage)
+patchline.set.desc = Set the update patchline
+patchline.current = Current patchline: {patchline}
+patchline.changed = Patchline changed to: {patchline}
+not_authenticated = Cannot check for updates - server is not authenticated. Use /auth login first.
+check_failed = Failed to check for updates. See server logs for details.
+no_update = Already running the latest version.
+download_failed = Failed to download update. See server logs for details.
+download_complete = Update downloaded and staged.\nRun '/update apply --confirm' to apply and restart.
+download_in_progress = A download is already in progress. Use '/update cancel' to abort it.
+invalid_layout_download = Cannot download update: folder layout not compatible with auto-update.\nExpected Assets.zip and launcher scripts in parent directory.\nUse '/update download --force' to download anyway.
+download.force.desc = Force download even if folder layout is invalid
+downloading = Downloading update {version}...
+download_progress = Download progress: {percent}% ({downloaded} / {total})
+checking = Checking for updates...
+already_latest = Already running the latest version: {version}
+update_available = Update available: {latest} (current: {current})\nRun '/update download' to stage the update.
+status = Version: {version}\nPatchline: {patchline}\nStaged: {staged}\nLatest: {latest}\nDownloading: {downloading}
+nothing_to_cancel = No download in progress and no staged update to cancel.
+download_cancelled = Download cancelled.
+cancel_failed = Failed to delete staged update. See server logs for details.
+cancelled = Staged update {version} has been cancelled and deleted.
+no_staged = No staged update to apply. Run '/update download' first.
+backup_failed = Failed to create backups. Update aborted. See server logs for details.
+apply_confirm_required = About to apply update {version} and restart the server.\nRun '/update apply --confirm' to proceed.
+applying_no_launcher = Applying update {version}...\nWarning: No launcher script detected - update files must be moved manually after shutdown.
+applying = Applying update {version}...\nServer will shut down and restart with the new version.
+disabled = Update commands are disabled by the server host.
+download_setup_hint = Update staged to updater/staging/. To complete setup, stop the server:\n\
+    1. Copy the contents of updater/staging/ to where you want the server\n\
+    2. Move your existing server files (config, saves, mods - not HytaleServer.jar) into the Server/ folder\n\
+    3. Launch using start.sh or start.bat
+setup.desc = Extract launcher wrapper scripts to the parent directory
+setup.force.desc = Force setup even if directory name is unexpected or scripts already exist
+setup.not_jar = Cannot run setup: not running from a JAR file (dev/IDE mode).
+setup.invalid_directory = Warning: the server is not running from a directory named 'Server/'.\n\
+    The wrapper scripts expect the server JAR to be in a 'Server/' subdirectory.\n\
+    Use '/update setup --force' to write the scripts anyway.
+setup.already_exist = Wrapper scripts already exist in the parent directory.\n\
+    Use '/update setup --force' to overwrite them.
+setup.complete = Launcher scripts (start.sh, start.bat) written to the parent directory.\n\
+    Stop the server and use start.sh or start.bat to launch going forward.
+setup.failed = Failed to extract wrapper scripts. See server logs for details.
+setup.no_assets = Warning: Assets.zip not found in the parent directory.\n\
+    The launcher scripts expect Assets.zip alongside start.sh/start.bat.\n\
+    Copy your Assets.zip there, or use '/update download --force' to download the full package.
+bootstrap_complete = Bootstrap install complete. Launch the server with start.sh or start.bat from the current directory.

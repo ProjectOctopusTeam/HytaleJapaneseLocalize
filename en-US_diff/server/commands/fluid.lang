@@ -1,0 +1,13 @@
+desc = Fluid debug commands.
+fluidArgType.desc = A fluid asset ID.
+get.desc = Gets the fluid at the target position.
+set.desc = Changes the fluid at the target position.
+setradius.desc = Changes the fluid at the player position in a given radius.
+set.fluid.desc = The fluid type to set
+set.level.desc = The fluid level to set
+set.offset.desc = Position offset from target block
+get.offset.desc = Position offset from target block
+setradius.radius.desc = Radius in blocks to fill
+setradius.fluid.desc = The fluid type to set
+setradius.level.desc = The fluid level to set
+setradius.offset.desc = Position offset from target block

@@ -1,0 +1,9 @@
+desc = Commands for playing sound events
+2d.desc = Play a 2D sound event
+3d.desc = Play a 3D sound event at a specific position
+play.sound.desc = The sound event to play
+play3d.sound.desc = The sound event to play
+play3d.position.desc = The position where the sound will be played (x y z)
+category.desc = The sound category (SFX, Music, etc.)
+category.default = SFX
+all.desc = Play the sound to all players instead of just the sender

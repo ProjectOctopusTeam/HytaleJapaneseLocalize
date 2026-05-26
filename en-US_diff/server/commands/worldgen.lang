@@ -1,0 +1,13 @@
+reload.alreadyInProgress = Worldgen reload already in progress!
+reload.abort = Someone else started a worldgen reload at the same time. Aborting.
+desc = World generation configuration commands
+reload.desc = Reload world generation configuration
+reload.clear.desc = Clear all chunks after reloading
+reload.started = Reloading worldgen
+reload.complete = Reloaded worldgen
+reload.failed = Failed to load/reload worldgen: {error}
+reload.chunkSavingDisabled = Chunk saving disabled
+reload.chunkSavingEnabled = Chunk saving enabled
+reload.regeneratingLoadedChunks = Regenerating loaded chunks...
+reload.deletingChunks = Deleting chunks...
+reload.deletingChunksProgress = Deleting chunks: {progress, number}%

@@ -1,9 +1,9 @@
 desc = サウンドイベントを再生するコマンド
-2d.desc = 2Dサウンドイベントを再生します
-3d.desc = 指定した位置で3Dサウンドイベントを再生します
+2d.desc = 2Dサウンドイベントを再生する
+3d.desc = 指定した位置で3Dサウンドイベントを再生する
 play.sound.desc = 再生するサウンドイベント
 play3d.sound.desc = 再生するサウンドイベント
 play3d.position.desc = サウンドを再生する位置（x y z）
 category.desc = サウンドカテゴリ（SFX、Musicなど）
 category.default = SFX
-all.desc = 送信者のみではなく全プレイヤーにサウンドを再生します
+all.desc = 送信者だけでなくすべてのプレイヤーにサウンドを再生する

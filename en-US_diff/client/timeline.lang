@@ -1,0 +1,9 @@
+frame = Frame
+currentFrame = Frame: {frame, number}
+tabs.properties = Properties
+tabs.events = Events
+toolbar.addActor = Add Actor
+toolbar.restart = Restart ({keybind})
+toolbar.togglePause = Toggle Pause ({keybind})
+toolbar.toggleLoop = Toggle Loop
+events.add = Add Event

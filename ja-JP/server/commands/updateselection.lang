@@ -1,4 +1,4 @@
-desc = 選択範囲を更新します
+desc = 選択範囲を更新する
 xMin.desc = X座標の最小値
 yMin.desc = Y座標の最小値
 zMin.desc = Z座標の最小値

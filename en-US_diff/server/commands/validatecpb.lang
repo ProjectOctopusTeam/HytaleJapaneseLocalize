@@ -1,0 +1,4 @@
+desc = Validate CPB (Compressed Prefab Buffer) files
+path.desc = The path to validate (optional, validates all asset packs if not specified)
+failed = Failed:\n{failed}\n
+invalidPath = Invalid path - must be within the working directory.

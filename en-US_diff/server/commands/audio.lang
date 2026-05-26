@@ -1,0 +1,20 @@
+desc = Manage the audio pipeline
+music.desc = Manage the per-player forced-music override
+music.force.desc = Force a specific MusicContainer to play on the target players, overriding AmbienceFX selection
+music.force.arg.musiccontainerid.desc = The MusicContainer asset ID to force
+music.force.success = Forced music set to "{music}" on {count, plural, one {1 player} other {{count, number} players}}
+music.clear.desc = Clear the forced-music override on the target players so AmbienceFX selection resumes
+music.clear.success = Forced music cleared on {count, plural, one {1 player} other {{count, number} players}}
+state.desc = Manage AudioState axis values
+state.set.desc = Set a server-authority AudioState axis value
+state.set.arg.audiostate.desc = The AudioState axis to set
+state.set.arg.value.desc = The value name (must be one of the axis's declared Values)
+state.set.arg.fadems.desc = Optional transition duration in ms. Overrides the axis's matching edge
+state.set.arg.curve.desc = Optional transition curve
+state.set.arg.scope.desc = Target set (World = all players in the executor's world. Self = command sender only. Players = the explicit list named by --players)
+state.set.arg.players.desc = Players to target when --scope=Players
+state.set.success = AudioState ''{audioState}'' set to ''{value}'' on {count} player(s)
+state.set.error.clientAuthority = AudioState ''{audioState}'' has Authority: Client. Set from client code instead
+state.set.error.unknownValue = AudioState ''{audioState}'' has no value named ''{value}''
+state.set.error.noSender = Scope Self requires a player sender
+state.set.error.playersRequired = Scope Players requires a --players argument naming at least one target

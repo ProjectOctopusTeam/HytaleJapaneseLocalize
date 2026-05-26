@@ -1,0 +1,5 @@
+desc = Pauses/unpauses the game
+updated = The world is now {state}
+paused = paused
+unpaused = unpaused
+tooManyPlayers = Cannot pause outside singleplayer or if there is more than one player present!

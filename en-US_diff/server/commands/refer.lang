@@ -1,0 +1,7 @@
+desc = Refers a player to another server for testing.
+host.desc = Target server hostname or IP
+port.desc = Target server port
+failed = Failed to refer player: {error}
+invalidPort = Invalid port number. Must be between 1 and 65535.
+success.other = Referred {username} to {host}:{port, number}
+success.self = Connecting to {host}:{port, number}...

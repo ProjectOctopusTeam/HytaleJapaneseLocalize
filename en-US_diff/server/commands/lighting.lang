@@ -1,0 +1,8 @@
+desc = Commands for managing world lighting
+info.desc = Display lighting information
+info.detail.desc = Show detailed chunk information
+info.summary = Queue Size: {queueSize, number}\n\
+    Light Calculation: {lightCalculation}
+info.chunkDetails = Total Chunk Sections: {totalChunkSections, number}\n\
+    Chunks With Local Light: {chunksWithLocalLight, number}\n\
+    Chunks With Global Light: {chunksWithGlobalLight, number}

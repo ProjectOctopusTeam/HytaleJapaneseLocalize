@@ -1,5 +1,5 @@
-success = ブロックエンティティをスポーンしました。ID: {id}
-desc = ブロックエンティティをスポーンします
+success = ID: {id} のブロックエンティティをスポーンしました
+desc = ブロックエンティティをスポーンする
 arg.block.desc = スポーンするブロックタイプ
 arg.position.desc = ブロックをスポーンする位置
 arg.rotation.desc = ブロックの向き

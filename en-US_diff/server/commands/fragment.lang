@@ -1,0 +1,4 @@
+desc = Commands for when you're inside a portal fragment
+timer.desc = Set the remaining timer on the fragment
+timer.arg.seconds.desc = How many seconds
+timer.success = Adjusted fragment timer from {before}s to {after}s

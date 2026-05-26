@@ -1,0 +1,27 @@
+desc = Voice chat configuration
+status.desc = Show voice chat status
+status.enabledInfo = Voice chat: enabled, maxdistance={maxDistance}, fullvolumedistance={fullVolumeDistance}, muted players count: {mutedCount}
+status.disabledInfo = Voice chat: disabled, maxdistance={maxDistance}, fullvolumedistance={fullVolumeDistance}, muted players count: {mutedCount}
+enabled.desc = Enable or disable voice chat
+enabled.arg.desc = Whether voice chat is enabled
+status.enabled = Voice chat is enabled!
+status.disabled = Voice chat is disabled!
+maxdistance.desc = Set voice maximum audible distance
+maxdistance.arg.desc = Maximum distance in blocks
+maxdistance.invalid = Invalid distance: must be positive
+maxdistance.set = Voice max distance set to {distance}
+fullvolumedistance.desc = Set voice full volume distance
+fullvolumedistance.arg.desc = Full volume distance in blocks
+fullvolumedistance.invalid = Invalid distance: must be positive and less than max distance
+fullvolumedistance.set = Voice full volume distance set to {distance}
+mute.desc = Server-mute a player's voice
+mute.arg.desc = Player to mute
+mute.already = {player} is already voice muted
+mute.success = Muted {player}'s voice chat
+unmute.desc = Server-unmute a player's voice
+unmute.arg.desc = Player to unmute
+unmute.notmuted = {player} is not voice muted
+unmute.success = Unmuted {player}'s voice chat
+muted.desc = List server-muted players
+muted.empty = No players are voice muted
+muted.list = Voice muted {count, plural, one {player} other {players}} ({count}): {players}

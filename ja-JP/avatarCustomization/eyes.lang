@@ -1,10 +1,10 @@
-Medium_Eyes.name = 標準
+Medium_Eyes.name = ミディアム
 Large_Eyes.name = 大きい
 Plain_Eyes.name = バランス
 Almond_Eyes.name = アーモンド
-Square_Eyes.name = 四角
-Reptile_Eyes.name = 爬虫類
-Cat_Eyes.name = キャット
-Demonic_Eyes.name = 悪魔
-Goat_Eyes.name = ヤギ
-Balanced_Square_Eyes.name = バランス - 四角
+Square_Eyes.name = スクエア
+Reptile_Eyes.name = レプタイル
+Cat_Eyes.name = 猫目
+Demonic_Eyes.name = 悪魔の目
+Goat_Eyes.name = ヤギの目
+Balanced_Square_Eyes.name = バランス - スクエア

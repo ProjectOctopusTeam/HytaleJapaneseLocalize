@@ -1,2 +1,2 @@
-chunkLoadUsage = チャンクをロードするには `/load {chunkX} {chunkZ}` コマンドを使用してください。
-blocksInChunkTick = チャンク {chunkX}, {chunkZ} 内のすべてのブロックをティック状態にしました！
+chunkLoadUsage = `/load {chunkX} {chunkZ}`コマンドを使用してチャンクをロードしてください。
+blocksInChunkTick = チャンク({chunkX}, {chunkZ})内のすべてのブロックをティック中としてマークしました！

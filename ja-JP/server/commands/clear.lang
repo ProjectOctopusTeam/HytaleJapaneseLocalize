@@ -1,5 +1,5 @@
-desc = 選択範囲内のすべてのブロックを空にします。または指定したエリア内のすべてのブロックを空にします
-positionOne.desc = クリアしたい立方体の最初の位置
-positionTwo.desc = クリアしたい立方体の2番目の位置
+desc = 選択範囲内または指定エリア内のすべてのブロックをEmptyに設定する
+positionOne.desc = クリアしたい立方体の1つ目の位置
+positionTwo.desc = クリアしたい立方体の2つ目の位置
 noSelection = 選択範囲がありません
 success = ブロックをクリアしました。

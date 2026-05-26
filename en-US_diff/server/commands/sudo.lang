@@ -1,0 +1,4 @@
+invalidusage = Invalid usage! Valid usage: /sudo <player>
+player.desc = The player to run the command as (or "*" for all players)
+command.desc = The command to execute as the target player
+desc = Run a command as another player

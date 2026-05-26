@@ -1,8 +1,8 @@
 usage = 使い方
-usagecolon = 使い方: {usage}
-noPermissibleSubCommand = 使用可能なサブコマンドがありません
-useHelpOnAnySubCommand = サブコマンドに --help を追加してください！
-useHelpToLearnMore = 詳細は「/{command} --help」で確認してください！
-desc = コマンドのヘルプを表示します
-command.desc = 特定のコマンドのヘルプを表示します
-command.name.desc = ヘルプを表示するコマンドの名前
+usagecolon = 使い方：{usage}
+noPermissibleSubCommand = 許可されているサブコマンドがありません
+useHelpOnAnySubCommand = サブコマンドに--helpを付けてください！
+useHelpToLearnMore = "/{command} --help"を使って詳細を確認してください！
+desc = コマンドのヘルプを表示する
+command.desc = 特定のコマンドのヘルプを表示する
+command.name.desc = ヘルプを表示するコマンド名

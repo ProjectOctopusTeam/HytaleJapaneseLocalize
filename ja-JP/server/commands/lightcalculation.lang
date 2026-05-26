@@ -1,1 +1,1 @@
-setCalculationWithDelegate = デリゲート '{delegate}' を使用してチャンクのライティング計算をフルブライトに設定しました！
+setCalculationWithDelegate = チャンクのライティング計算をデリゲート'{delegate}'で全輝度に設定しました！

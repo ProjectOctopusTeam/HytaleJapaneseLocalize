@@ -1,0 +1,8 @@
+buttons.Inventory = Inventory
+buttons.Map = Map
+buttons.ContentCreation = Creative Tools
+buttons.ContentCreation.disabledTooltip = The creative menu is only available in Creative mode.
+buttons.ContentCreation.disabledTooltip.title = CREATIVE MODE
+buttons.ContentCreation.disabledTooltip.description = In creative mode you gain access to powerful editing tools. To swap to creative mode, use '/op self' or '/setgroup WorldEditor' for your friends, then toggle gamemode with "{key}" hotkey.
+buttons.ContentCreation.disabledTooltipUnassigned.description = In creative mode you gain access to powerful editing tools. To swap to creative mode, use '/op self' or '/setgroup WorldEditor' for your friends, then type '/gm c'.
+earlyAccess = Early Access

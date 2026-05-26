@@ -1,2 +1,3 @@
-timeInfo = {worldName} の時刻サイクルが {time} で {msg}
-desc = 時間の経過をトグルします。
+timeInfo = "{worldName}"のタイムサイクルが{time}で一時停止されました
+timeInfoResumed = "{worldName}"のタイムサイクルが{time}で再開されました
+desc = 時間の経過を切り替える。

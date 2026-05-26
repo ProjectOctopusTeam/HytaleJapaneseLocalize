@@ -1,0 +1,30 @@
+load.usage = Use the command `/chunk load {chunkX} {chunkZ}` to load the chunk.
+serialized = Serialized chunk data to console.
+serialized.failed = Failed to serialize chunk. Please check console.
+chunk = Chunk {chunkX}, {chunkZ}:\n\
+  \tFlags: \n\
+    \t\tStart Init: {startInit}\n\
+    \t\tInit: {init}\n\
+    \t\tNewly Generated: {newlyGenerated}\n\
+    \t\tOn Disk: {onDisk}\n\
+    \t\tTicking: {ticking}\n\
+  \tKeep Loaded: {keepLoaded}\n\
+  \tNeeds Saving: {saving}\n\
+  \tMetadata:\n\
+  \tBlockChunk:\n\
+    \t\tNeeds Saving: {savingChunk}
+section = \t\tSection {index}:\n
+dataType = \t\t\tData Type: {data}\n
+sectionInfo = \t\t\tHas Ticking: {ticking}\n\
+      \t\t\tIs Solid Air: {solidAir}\n\
+      \t\t\tBlock Count: {count}\n\
+      \t\t\tBlock Counts: {counts}
+blockStateChunk = \tBlock State Chunk:\n\
+    \t\tNeeds Saving: {saving}\n\
+    \t\tBlock States: {countStates}\n\
+    \t\tUnknown Block States: {countUnknown}\n\
+    \t\tSendable Block States: {countSendable}\n\
+    \t\tTickable Block States: {countTickable}\n\
+  \tEntity Chunk:\n\
+    \t\tNeeds Saving: {savingEntity}\n\
+    \t\tEntities: {countEntities}

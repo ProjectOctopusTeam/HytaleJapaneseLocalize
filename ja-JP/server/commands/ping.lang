@@ -1,10 +1,10 @@
 desc = ネットワークのping情報
-detail.desc = 詳細なping情報を表示します
-clear.desc = ping情報の履歴をクリアします
-graph.desc = ping情報をグラフとして表示します
+detail.desc = 詳細なping情報を表示する
+clear.desc = ping情報の履歴をクリアする
+graph.desc = ping情報をグラフとして出力する
 graph.width.desc = グラフの幅
 graph.width.default = 100
 graph.height.desc = グラフの高さ
 graph.height.default = 10
 graph.period = Pingグラフ {time}:\n
-historyCleared = Ping履歴をクリアしました
+historyCleared = pingの履歴をクリアしました

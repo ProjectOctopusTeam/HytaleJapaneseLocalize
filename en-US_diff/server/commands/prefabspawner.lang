@@ -1,0 +1,22 @@
+desc = View and edit properties on a prefab spawner block
+spawnerNotFoundAtTarget = Could not find prefab spawner at target block {pos}
+get.desc = Print the properties of the target prefab spawner block
+get.path = Current Prefab Path: {prefab}
+get.fitsHeightmap = - FitHeightmap = {fitHeightmap}
+get.inheritsSeed = - InheritSeed = {inheritSeed}
+get.inheritsHeightCheck = - InheritHeightCheck = {inheritHeightCheck}
+get.defaultWeight = - DefaultWeight: {weight}
+get.weights = - PrefabWeights: {weights}
+set.desc = Sets a prefab path for a BlockSpawner block you look at | [heightMap]: Sets if a prefab should attempt to follow the heightmap | [inheritSeed]: Sets if a prefab should inherit its parent's worldgen-id | [inheritHeightCheck]: Sets if a prefab should use its parent's HeightCondition | [defaultWeight] Sets the default weight that is assigned to prefabs that do not have a weight mapping assigned
+set = Set PrefabSpawner!
+weight.desc = Sets the weight of an individual prefab file when the spawner's path points to a folder of prefabs | <prefab> The name of the prefab file excluding the file extension | <weight> The weight value to assign to the prefab or -1 to remove the weight
+weight.remove = Removed weight for Prefab {prefab}
+weight.set = Set weight for Prefab {prefab} to {weight}
+position.desc = The position of the prefab spawner (or raycast from player if not specified)
+set.prefab.desc = The prefab path to set
+set.fitHeightmap.desc = Whether to fit the heightmap (true/false)
+set.inheritSeed.desc = Whether to inherit the seed (true/false)
+set.inheritHeightCheck.desc = Whether to inherit height check (true/false)
+set.defaultWeight.desc = The default weight for prefabs
+weight.prefab.desc = The prefab path
+weight.weight.desc = The weight (negative to remove)

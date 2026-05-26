@@ -1,0 +1,5 @@
+desc = Stack selection
+count.desc = The number of times to stack
+direction.desc = The direction to stack
+spacing.desc = The spacing between stacked copies
+empty.desc = Stack only empty blocks

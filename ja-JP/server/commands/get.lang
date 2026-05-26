@@ -1,1 +1,1 @@
-success = ({x, number}, {y, number}, {z, number}) の {id} はレベル {level, number} です
+success = ({x, number}, {y, number}, {z, number})の{id}のレベルは{level, number}です

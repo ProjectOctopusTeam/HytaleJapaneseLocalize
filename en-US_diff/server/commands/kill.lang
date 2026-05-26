@@ -1,0 +1,4 @@
+success.self = You killed yourself
+success.other = Killed {username}
+desc = Kills and respawns the player
+other.desc = Kill another player

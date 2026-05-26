@@ -1,8 +1,8 @@
-desc = プレイヤー位置のデバッグを行います（クライアントのデシンク対応）
-result = 現在の位置情報:\n\
-    位置: {bodyPosition}\n\
-    回転: {bodyRotation}\n\
-    頭部回転: {headRotation}\n\
-    テレポート: {teleport}\n\
-    保留中のテレポート: {pendingTeleport}
-notify = 現在地に青いデバッグオブジェクトをスポーンしました。
+desc = プレイヤー位置のデバッグを補助する（クライアントの同期ズレ向け）
+result = あなたの位置情報：\n\
+    位置：{bodyPosition}\n\
+    回転：{bodyRotation}\n\
+    頭の回転：{headRotation}\n\
+    テレポート：{teleport}\n\
+    保留中のテレポート：{pendingTeleport}
+notify = あなたの現在位置に青いデバッグオブジェクトを生成しました。

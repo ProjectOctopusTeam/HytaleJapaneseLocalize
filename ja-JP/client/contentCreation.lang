@@ -1,45 +1,45 @@
 pageTitle = クリエイティブツール
-introText = ここからHytaleのコンテンツ制作を支援するさまざまなツールやエディターにアクセスできます。\n\
+introText = ここからHytaleのコンテンツ作成に役立つさまざまなツールやエディターにアクセスできます。\n\
 \n\
-上のメニューからツールを選択して始めてください。
+上のメニューからツールを選んで始めましょう。
 notification.noBlockTargeted = アセットエディターで開くにはブロックをターゲットにする必要があります。
 modal.blockbench.installRequired.title = Blockbenchのインストールが必要です
-modal.blockbench.installRequired.text = 3Dモデル編集にBlockbenchを使用しています。Blockbenchがインストールされていないようです。\n\nHytaleからBlockbenchを起動するには、インストーラーを使用してインストールする必要があります。\n\n今すぐ公式サイトからインストールしますか？
+modal.blockbench.installRequired.text = 3Dモデル編集にBlockbenchを使用しています。Blockbenchがインストールされていないようです。\n\nインストーラーを使用してBlockbenchをインストールした場合にのみ、HytaleからBlockbenchを起動できます。\n\nウェブサイトから今すぐインストールしますか？
 modal.blockbench.installRequired.confirm = Blockbenchをインストール
 modal.blockbench.pluginRequired.title = Hytaleプラグインが必要です
-modal.blockbench.pluginRequired.text = Blockbenchはインストールされていますが、Hytaleプラグインが見つかりません。\n\nHytaleプラグインをインストールしてください。インストール手順はBlockbenchの公式サイトで確認できます。
+modal.blockbench.pluginRequired.text = Blockbenchはインストールされていますが、Hytaleプラグインがありません。\n\nHytaleプラグインをインストールしてください。インストール手順はBlockbenchのウェブサイトで確認できます。
 modal.blockbench.pluginRequired.confirm = インストール手順を表示
 modal.blockbench.launchFailed.title = Blockbenchの起動に失敗しました
 modal.blockbench.launchFailed.text = システムにBlockbenchが見つかりましたが、起動できませんでした。\n\nBlockbenchを手動で起動してみてください。
 navigation.assets = アセット
 navigation.assetEditor = アセットエディター
 navigation.assetEditor.tooltipTitle = アセットエディターアプリを起動
-navigation.assetEditor.tooltipDesc = ゲームの設定アセットをリアルタイムで編集できる外部プログラムを起動します。ALT+Bのホットキーで素早く起動、またはSHIFT+Hでホバー中のアイテム/ブロックを開けます。
+navigation.assetEditor.tooltipDesc = [TMP] ゲーム設定アセットをリアルタイム編集できる外部プログラムを起動します。
 navigation.blockbench = モデルエディター
 navigation.blockbench.tooltipTitle = Blockbenchアプリを起動（モデルエディター）
-navigation.blockbench.tooltipDesc = Hytale用のモデルやアニメーションを作成します。
+navigation.blockbench.tooltipDesc = Hytale用の独自のモデルやアニメーションを作成します。
 navigation.nodeeditor = アセットノードエディター
 navigation.nodeeditor.tooltipTitle = アセットノードエディターアプリを起動
-navigation.nodeeditor.tooltipDesc = ビジュアルスクリプトのノードエディターでアセットを編集します。
-navigation.machinima = マキニマ
-navigation.machinima.tooltipTitle = マキニマエディターを開く
-navigation.machinima.tooltipDesc = マキニマエディターを使ってHytale内で映像作品を制作します。
+navigation.nodeeditor.tooltipDesc = ビジュアルスクリプティングノードエディターを使用してアセットを編集します。
+navigation.machinima = マシニマ
+navigation.machinima.tooltipTitle = マシニマエディターを開く
+navigation.machinima.tooltipDesc = マシニマエディターを使ってHytale内で独自の映像を作成します。
 navigation.buildertools = ビルダーツール
 navigation.buildertools.tooltipTitle = ビルダーツールを開く
 navigation.buildertools.tooltipDesc = ブロック編集ツール（選択、ブラシ、スカルプトなど）\n\
 \n\
-クリエイティブインベントリのツールタブにあるブロック編集ツールでワールドのブロックを編集できます。
-modal.nodeeditor.nonsupported.title = 未対応のプラットフォーム
-modal.nodeeditor.nonsupported.text = ノードエディターは現在お使いのプラットフォームに対応していません。\n\n現時点ではWindowsのみ対応しており、すべてのPCプラットフォームへの対応を進めています。
+クリエイティブインベントリのツールタブにあるブロック編集ツールを使って、ワールドのブロックを編集します。
+modal.nodeeditor.nonsupported.title = サポートされていないプラットフォーム
+modal.nodeeditor.nonsupported.text = ノードエディターは現在お使いのプラットフォームではサポートされていません。
 navigation.worldtools = ワールド
 navigation.worldtools.prefabEditor = プレハブエディター
-navigation.worldtools.prefabEditor.tooltipTitle = 別のスペースでプレハブを作成・編集します。
+navigation.worldtools.prefabEditor.tooltipTitle = 別の空間でプレハブを作成または編集します。
 navigation.worldtools.prefabList = プレハブリスト
-navigation.worldtools.prefabList.tooltipTitle = ユーザーが作成したプレハブを一覧表示します。クリックすると貼り付けツールに読み込まれます。
+navigation.worldtools.prefabList.tooltipTitle = ユーザーが作成したすべてのプレハブを一覧表示します。クリックするとペーストツールに読み込まれます。
 navigation.worldtools.spawnEntity = エンティティをスポーン
 navigation.worldtools.spawnParticle = パーティクルをスポーン
 navigation.worldtools.changeModel = プレイヤーモデルを変更
-navigation.worldtools.tintChunk = チャンクをティント
+navigation.worldtools.tintChunk = チャンクに色付け
 navigation.worldtools.instances = インスタンス
 navigation.worldtools.playSound = サウンドを再生
 navigation.worldtools.playSound.tooltipTitle = サウンドイベントを参照して再生します。

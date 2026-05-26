@@ -1,0 +1,68 @@
+desc = Manage server authentication
+status.desc = Show current authentication status
+status.format = === Server Authentication Status ===\n\
+    Connection Auth: {connectionMode}\n\
+    Token Source: {tokenMode}\n\
+    Profile: {profile}\n\
+    Session Token: {sessionToken}\n\
+    Identity Token: {identityToken}\n\
+    Expiry: {expiry}\n\
+    Certificate: {certificate}
+status.remaining = {hours}:{minutes}:{seconds} remaining
+status.expired = EXPIRED
+status.certificate.unknown = Unknown
+status.certificate.notLoaded = Not loaded
+status.connectionMode.authenticated = Authenticated (mTLS + JWT)
+status.connectionMode.offline = Offline
+status.connectionMode.insecure = Insecure (dev)
+status.mode.none = Not authenticated
+status.mode.singleplayer = Singleplayer
+status.mode.external = External Session
+status.mode.oauthBrowser = OAuth Browser
+status.mode.oauthDevice = OAuth Device
+status.mode.oauthStore = OAuth Store
+status.tokenPresent = Present
+status.tokenMissing = Missing
+status.help = Use '/auth login browser' or '/auth login device' to authenticate.
+status.pending = Profile selection pending. Use '/auth select <number>' to choose:
+login.desc = Authenticate the server
+login.singleplayer = Login not available in singleplayer mode. Tokens are provided by the client.
+login.alreadyAuthenticated = Server is already authenticated. Use '/auth logout' first.
+login.browser.desc = Start OAuth2 browser flow (for local servers)
+login.browser.starting = Starting OAuth2 browser flow. Check browser or console for URL.
+login.browser.success = Authentication successful! Use '/auth status' to view details.
+login.browser.failed = Browser authentication failed. Check server logs.
+login.device.desc = Start OAuth2 device flow (for headless/remote servers)
+login.device.starting = Starting OAuth2 device flow. Check console for verification URL.
+login.device.success = Authentication successful! Use '/auth status' to view details.
+login.device.failed = Device authentication failed. Check server logs.
+login.pending = Multiple profiles available. Use '/auth select <number>' to choose:
+logout.desc = Clear server credentials
+logout.singleplayer = Logout not available in singleplayer mode.
+logout.notAuthenticated = Server is not currently authenticated.
+logout.success = Server logged out. Previous mode: {previousMode}
+select.desc = Select a game profile when multiple are available
+select.noPending = No profile selection pending. Run '/auth login' first.
+select.success = Profile selected! Use '/auth status' to view details.
+select.failed = Failed to complete authentication with selected profile.
+select.availableProfiles = Available profiles:
+select.usage = Use '/auth select <number>' or '/auth select <username>'
+select.profileItem = [{index, number}] {username} ({uuid})
+select.profile.desc = Profile number or username to select
+select.variant.desc = Select a profile by number or username
+cancel.desc = Cancel active login flow
+cancel.singleplayer = Not applicable in singleplayer mode.
+cancel.success = Active login flow cancelled.
+cancel.nothing = No active login flow to cancel.
+persistence.desc = View or change credential storage method
+persistence.singleplayer = Not applicable in singleplayer mode.
+persistence.current = Credential storage: {type}
+persistence.changed = Credential storage changed to: {type}
+persistence.unknownType = Unknown storage type: {type}
+persistence.available = Available types: {types}
+persistence.type.desc = Storage type (e.g. Memory, File)
+persistence.variant.desc = Change credential storage method
+login.persistence.memory = WARNING: Credentials stored in memory only - they will be lost on restart!\n\
+    To persist credentials, run: /auth persistence <type>\n\
+    Available types: {types}
+login.persistence.saved = Credentials saved using: {type}

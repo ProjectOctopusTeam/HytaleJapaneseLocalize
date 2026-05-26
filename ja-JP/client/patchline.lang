@@ -1,10 +1,10 @@
-launchNotification.title = プレリリース パッチライン
+launchNotification.title = プレリリースパッチライン
 launchNotification.text = Hytaleのプレリリースパッチラインを実行しています。\n\n\
-    このバージョンには実験的な機能やバグが含まれている場合があります。\n\n\
+    このバージョンには実験的な機能やバグが含まれる場合があります。\n\n\
     皆さんのフィードバックがゲームの改善に役立ちます！
 worldWarning.title = パッチライン警告
-worldWarning.text = 異なるパッチラインのワールドを開こうとしています。\n\n\
-    このワールドを開くと、セーブデータに影響を与える変更が生じる可能性があります。\n\n\
-    続行前にバックアップコピーを作成することをお勧めします。
-worldWarning.openAnyway = このまま開く
+worldWarning.text = 別のパッチラインを使用してワールドを開こうとしています。\n\n\
+    このワールドを開くと、セーブデータに影響を与える変更が加わる可能性があります。\n\n\
+    続行する前にバックアップコピーを作成することをお勧めします。
+worldWarning.openAnyway = とにかく開く
 worldWarning.duplicateWorld = ワールドを複製

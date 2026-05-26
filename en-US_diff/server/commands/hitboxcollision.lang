@@ -1,0 +1,13 @@
+desc = Commands to add/remove a HitboxCollision component to an entity/yourself
+add.desc = Command to add a HitboxCollision component to an entity/yourself
+add.entity.desc = Command to add a HitboxCollision component to an entity
+add.entityArg.desc = The entity to add the component to
+add.self.desc = Command to add a HitboxCollision component to yourself
+add.hitboxCollisionConfig.desc = The hitbox collision config to use
+remove.desc = Command to remove a HitboxCollision component from an entity/yourself
+remove.entity.desc = Command to remove a HitboxCollision component from an entity
+remove.entityArg.desc = The entity to remove the component from
+remove.self.desc = Command to remove a HitboxCollision component from yourself
+add.success = HitboxCollision component added!
+add.alreadyAdded = HitboxCollision component already added!
+remove.success = HitboxCollision component removed!

@@ -1,7 +1,7 @@
-desc = スリープオフセットを取得または設定します
-percent.desc = パーセンテージで表示/設定します
-offset.desc = 設定するスリープオフセット値
-setPercent = スリープオフセットのパーセンテージを設定しました: {newValue}（変更前: {oldValue}）
+desc = スリープオフセットを取得または設定する
+percent.desc = パーセントで表示/設定する
+offset.desc = 設定するスリープオフセットの値
+setPercent = スリープオフセットのパーセントを設定しました: {newValue}（変更前: {oldValue}）
 set = スリープオフセットを設定しました: {newValue}（変更前: {oldValue}）
-getPercent = スリープオフセットのパーセンテージ: {value}
+getPercent = スリープオフセットのパーセント: {value}
 getOffset = スリープオフセット: {value}

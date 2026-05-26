@@ -1,7 +1,7 @@
-desc = ボイドイベント関連コマンド（ポータルフラグメント用）
-start.desc = ポータルボイドイベントの開始をテストします
-start.alreadyRunning = イベントはすでに実行中で、このコマンドでは停止できません
-start.overrode = ワールドをポータルワールドとして扱うようにオーバーライドしました
-start.botchedConfig = {config} ゲームプレイ設定にポータル情報がないためオーバーライドに失敗しました
-start.success = ボイドイベントが開始されたかもしれません！
-start.overrideArg = 現在のワールドをポータルワールドにハックしてオーバーライドします
+desc = ボイドイベント関連のコマンド（ポータルフラグメント用）
+start.desc = ポータルのボイドイベントの開始をテストする
+start.alreadyRunning = イベントはすでに実行中であり、このコマンドでは停止できません
+start.overrode = 現在のワールドをポータルワールドに見せかけるよう上書きしました
+start.botchedConfig = {config} ゲームプレイ設定にポータル情報がないため、上書きに失敗しました
+start.success = ボイドイベントが開始された可能性があります！
+start.overrideArg = 現在のワールドをポータルワールドに無理やり変換するよう上書きします

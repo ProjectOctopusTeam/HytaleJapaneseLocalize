@@ -1,0 +1,7 @@
+desc = Commands for toggling lighting data sending
+local.desc = Toggle sending local lighting data
+local.enabled.desc = Whether to enable or disable sending local lighting data
+global.desc = Toggle sending global lighting data
+global.enabled.desc = Whether to enable or disable sending global lighting data
+localLightingStatus = Send Local Lighting has been {enabled, select, true {enabled} other {disabled}}
+globalLightingStatus = Send Global Lighting has been {enabled, select, true {enabled} other {disabled}}

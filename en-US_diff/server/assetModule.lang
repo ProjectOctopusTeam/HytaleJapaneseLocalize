@@ -1,0 +1,2 @@
+outOfDatePacks = The following asset {count, plural, one {pack is} other {packs are}} targeting an older server version.\n\
+    It is recommended to update {count, plural, one {this asset pack} other {these asset packs}} to ensure compatibility:{mods}

@@ -1,0 +1,11 @@
+desc = Commands related to the parkour system
+add.desc = Add a checkpoint
+add.index.desc = The index of the checkpoint to add
+add.success = Checkpoint added!
+add.failed = A checkpoint with this index already exists, remove it before adding a new one!
+reset.desc = Reset your current progress
+reset.success = Your progress has been reset!
+remove.desc = Remove a checkpoint
+remove.index.desc = The index of the checkpoint to remove
+remove.success = Checkpoint removed!
+remove.failed = No checkpoint with this index found!

@@ -1,0 +1,4 @@
+starting = Starting a backup...
+complete = Backup completed!
+notConfigured = The server must be started with --backup-dir to use this command!
+desc = Run a backup of the universe

@@ -1,0 +1,7 @@
+title = Open External Website?
+text = You are about to open the website "{url}" in a web browser. \n\
+\n\
+Be cautious when visiting links from other players, especially if they ask for personal information.\n\
+\n\
+Are you sure you want to proceed?
+confirm = Open Website

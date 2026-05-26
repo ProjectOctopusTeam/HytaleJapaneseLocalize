@@ -1,0 +1,8 @@
+usage = Usage
+usagecolon = Usage: {usage}
+noPermissibleSubCommand = No permissible subcommands
+useHelpOnAnySubCommand = Append --help to any subcommand!
+useHelpToLearnMore = Use "/{command} --help" to learn more!
+desc = Display command help
+command.desc = Show help for a specific command
+command.name.desc = The name of the command to get help for

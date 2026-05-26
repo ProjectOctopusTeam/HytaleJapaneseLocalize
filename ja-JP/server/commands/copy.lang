@@ -1,9 +1,9 @@
-desc = 選択範囲の内容をワールドからコピーし、貼り付け用にクリップボードに保存します
-noEntities.desc = コピーからエンティティを除外します（デフォルトではエンティティが含まれます）
-entitiesonly.desc = エンティティのみをコピーします（ブロックは含みません）
-empty.desc = コピーに空のブロックを含めます
-keepanchors.desc = コピーにアンカーブロックを保持します
-playerAnchor.desc = プレイヤーの現在位置をクリップボードのアンカーポイントとして使用します
+desc = ワールドの選択範囲の内容をコピーし、クリップボードに保存してペーストできるようにする
+noEntities.desc = コピーからエンティティを除外する（デフォルトではエンティティを含む）
+entitiesonly.desc = エンティティのみコピーする（ブロックなし）
+empty.desc = コピーに空のブロックを含める
+keepanchors.desc = コピーにアンカーブロックを保持する
+playerAnchor.desc = プレイヤーの現在位置をクリップボードのアンカーポイントとして使用する
 xMin.desc = X座標の最小値
 yMin.desc = Y座標の最小値
 zMin.desc = Z座標の最小値

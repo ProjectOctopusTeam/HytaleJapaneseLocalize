@@ -1,0 +1,3 @@
+timeInfo = Time cycle paused in "{worldName}" at {time}
+timeInfoResumed = Time cycle resumed in "{worldName}" at {time}
+desc = Toggle the passing of time.

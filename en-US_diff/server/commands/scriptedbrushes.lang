@@ -1,0 +1,11 @@
+desc = Scripted brushes related commands.
+clear.desc = Clears your brush config and disables it.
+exit.desc = Exits a running debug state or stops an incomplete execution.
+info.desc = Information on the current brush configuration.
+list.desc = Lists the brush config operations that are currently set.
+load.desc = Loads a scripted brush by name, or opens the brush picker UI if no name is provided.
+load.byName.desc = Loads a scripted brush by name.
+load.brushName.desc = The name of the scripted brush asset to load.
+step.desc = Advances one or more steps into your order of operations brush config debug.
+step.steps.desc = The number of operations to step through.
+step.steps.default = A single step.

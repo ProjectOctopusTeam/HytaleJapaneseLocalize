@@ -1,0 +1,2 @@
+desc = Echos the text you input to the user.
+message.desc = The message to send to the user of this command

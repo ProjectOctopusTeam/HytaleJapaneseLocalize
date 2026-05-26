@@ -1,0 +1,7 @@
+desc = Void-event related commands (for portal fragments)
+start.desc = Test starting the portal void event
+start.alreadyRunning = Event already running and this command can't stop it
+start.overrode = Overrode your world to pretend it's a portal world
+start.botchedConfig = Failed to override because the {config} gameplay config is missing Portal info
+start.success = Maybe void event started!
+start.overrideArg = Will override your current world hack it into a portal world

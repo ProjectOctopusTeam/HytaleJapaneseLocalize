@@ -1,15 +1,15 @@
 desc = インタラクション実行コマンド
-run.desc = インタラクションを実行します
+run.desc = インタラクションを実行する
 run.interactionType.desc = 実行するインタラクションのタイプ
-run.started = インタラクションを開始しました: {type}
-run.rootNotFound = インタラクションタイプ {type} のルートインタラクションが見つかりません
-run.interactionAssetNotFound = インタラクションタイプ {type} のルートインタラクションアセット '{root}' が見つかりません
-runSpecific.desc = IDを指定して特定のインタラクションを実行します
+run.started = インタラクションを開始しました：{type}
+run.rootNotFound = インタラクションタイプ{type}のルートインタラクションが見つかりません
+run.interactionAssetNotFound = インタラクションタイプ{type}のルートインタラクションアセット'{root}'が見つかりません
+runSpecific.desc = 指定したIDのインタラクションを実行する
 runSpecific.rootinteraction.desc = 実行するルートインタラクションアセット
-runSpecific.started = インタラクションを開始しました: {type}、ルート: {root}
-snapshotSource.desc = インタラクションのスナップショットソースを取得または設定します
-snapshotSource.get = スナップショットソース: {source}
-snapshotSource.set.desc = インタラクションのスナップショットソースを設定します
-snapshotSource.set.snapshotSource.desc = 設定するスナップショットソース（CLIENT または SERVER）
-snapshotSource.set = スナップショットソースを {source} に設定しました
-clear.desc = プレイヤーのインタラクションをクリアします
+runSpecific.started = インタラクションを開始しました：タイプ={type}、ルート={root}
+snapshotSource.desc = インタラクションのスナップショットソースを取得または設定する
+snapshotSource.get = スナップショットソース：{source}
+snapshotSource.set.desc = インタラクションのスナップショットソースを設定する
+snapshotSource.set.snapshotSource.desc = 設定するスナップショットソース（CLIENTまたはSERVER）
+snapshotSource.set = スナップショットソースを{source}に設定しました
+clear.desc = プレイヤーのインタラクションをクリアする

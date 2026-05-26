@@ -1,6 +1,6 @@
-desc = ホットバーを非表示にしてHudManagerシステムが正常に動作しているかテストします
-reset.desc = HUDを非表示にする代わりにリセット（表示）します
+desc = HudManagerシステムが正常に動作しているかテストするためにホットバーを非表示にする
+reset.desc = 非表示にする代わりにHUDをリセット（表示）する
 shown.self = ホットバーHUDを表示しました
-shown.other = {username} のホットバーHUDを表示しました
+shown.other = {username}のホットバーHUDを表示しました
 hidden.self = ホットバーHUDを非表示にしました
-hidden.other = {username} のホットバーHUDを非表示にしました
+hidden.other = {username}のホットバーHUDを非表示にしました

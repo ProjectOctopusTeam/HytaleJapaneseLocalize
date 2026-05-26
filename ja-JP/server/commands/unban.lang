@@ -1,2 +1,2 @@
-desc = プレイヤーのBANを解除します
-player.desc = BAN解除するプレイヤー（ユーザー名またはUUID）
+desc = プレイヤーのBANを解除する
+player.desc = BANを解除するプレイヤー（ユーザー名またはUUID）

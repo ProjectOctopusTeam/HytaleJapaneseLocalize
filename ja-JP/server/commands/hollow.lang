@@ -1,6 +1,6 @@
-desc = 選択範囲の内側（指定した厚さの壁を除く）にマテリアルを設定します
+desc = 指定した厚さの壁を除いた選択範囲の内側に素材を設定する
 blockType.desc = 内側に設定するブロックタイプ
 thickness.desc = そのままにする壁の厚さ
-floor.desc = 操作に選択範囲の底面を含めます
-roof.desc = 操作に選択範囲の上面を含めます
-perimeter.desc = 操作に選択範囲の上面と底面を含めます
+floor.desc = 操作に選択範囲の底面を含める
+roof.desc = 操作に選択範囲の天面を含める
+perimeter.desc = 操作に選択範囲の天面と底面を含める

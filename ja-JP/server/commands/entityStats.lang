@@ -1,4 +1,4 @@
-success = EntityStat "{name}" を {value} に設定しました！
-entityStatNotFound = EntityStat "{name}" が見つかりませんでした！
-valueReset = "{name}" をリセットしました: {value, number}
-value = {name}: {value, number}
+success = EntityStat「{name}」を{value}に設定しました！
+entityStatNotFound = EntityStat「{name}」が見つかりません！
+valueReset = 「{name}」をリセットしました：{value, number}
+value = {name}：{value, number}

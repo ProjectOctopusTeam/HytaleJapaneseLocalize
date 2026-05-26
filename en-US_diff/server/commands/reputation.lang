@@ -1,0 +1,11 @@
+check.value.desc = Check reputation value
+check.value.reputationGroupId.desc = The reputation group to check the value for
+check.rank.desc = Check reputation rank
+check.rank.reputationGroupId.desc = The reputation group to check the rank for
+add.desc = Add/sub value
+add.reputationGroupId.desc = The reputation group to add to
+add.value.desc = The amount to add (can be negative)
+set.desc = Set value
+set.reputationGroupId.desc = The reputation group to set
+set.value.desc = The value to set the reputation to
+desc = Commands for handling reputation
