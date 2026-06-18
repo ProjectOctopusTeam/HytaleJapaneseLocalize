@@ -57,6 +57,7 @@ messages.packOutsideDirectory = Pack path is outside the allowed directory
 messages.packAlreadyExistsAtPath = A pack already exists at this path
 messages.packCreated = Asset pack has been created successfully
 messages.packCreationFailed = Failed to create asset pack
+messages.invalidServerVersion = Invalid ServerVersion range. See the modder documentation for valid syntax (e.g. *, >=0.5.0, 0.5.x, ^0.5.0).
 messages.invalidTargetDirectory = Invalid target directory
 messages.packDeleted = Asset pack deleted successfully
 messages.packDeletionFailed = Failed to delete asset pack
@@ -65,4 +66,3 @@ buttons.useModel = Use Model
 buttons.resetModel = Reset Model
 buttons.createAndEquipItem = Create and Equip Item
 buttons.createAndUseModel = Create and Use Model
-messages.invalidServerVersion = Invalid ServerVersion range. See the modder documentation for valid syntax (e.g. *, >=0.5.0, 0.5.x, ^0.5.0).

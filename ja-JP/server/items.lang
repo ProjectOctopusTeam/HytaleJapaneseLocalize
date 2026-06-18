@@ -2046,15 +2046,6 @@ Rail.name = レール
 Recipe_Book_Magic_Air.name = 大気の魔導書
 Recipe_Book_Magic_Void.name = ヴォイドの魔導書
 Recipe_Page.name = レシピページ
-Recipe_Plant_Seeds_Health1.name = レシピ：ブラッドローズの種
-Recipe_Plant_Seeds_Health2.name = レシピ：ブラッドキャップキノコの胞子
-Recipe_Plant_Seeds_Health3.name = レシピ：ブラッドリーフの種
-Recipe_Plant_Seeds_Stamina1.name = レシピ：ストームシスルの種
-Recipe_Plant_Seeds_Stamina2.name = レシピ：ストームキャップキノコの胞子
-Recipe_Plant_Seeds_Stamina3.name = レシピ：ストームラッシュの種
-Recipe_Plant_Seeds_Mana1.name = レシピ：アジュールファーンの種
-Recipe_Plant_Seeds_Mana2.name = レシピ：アジュールキャップキノコの胞子
-Recipe_Plant_Seeds_Mana3.name = レシピ：アジュールケルプの種
 Rock_Aqua.name = アクア石
 Rock_Aqua_Brick.name = アクアレンガ
 Rock_Aqua_Brick_Beam.name = アクアレンガ - ビーム
@@ -3819,13 +3810,9 @@ Food_Salad_Berry.description = [TMP] 即座に体力を<color is="#ffffff">10%</
 Food_Salad_Mushroom.description = [TMP] 即座に体力を<color is="#ffffff">10%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生II</color>\n• <color is="#ffffff">スタミナ強化II</color>\n\n持続時間：<color is="#ffffff">2:30</color>
 Food_Salad_Caesar.description = [TMP] 即座に体力を<color is="#ffffff">15%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生III</color>\n• <color is="#ffffff">スタミナ強化III</color>\n\n持続時間：<color is="#ffffff">6:00</color>
 Food_Pie_Apple.description = [TMP] 即座に体力を<color is="#ffffff">15%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生III</color>\n• <color is="#ffffff">スタミナ強化III</color>\n\n持続時間：<color is="#ffffff">6:00</color>
-Recipe_Food_Pie_Apple.name = [TMP] レシピ：アップルパイ
 Recipe_Food_Pie_Apple.description = [TMP] <item is="Food_Pie_Apple"/>のレシピを習得する。\n\n即座に体力を<color is="#ffffff">15%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生III</color>\n• <color is="#ffffff">スタミナ強化III</color>\n\n持続時間：<color is="#ffffff">6:00</color>
-Recipe_Food_Pie_Pumpkin.name = [TMP] レシピ：パンプキンパイ
 Recipe_Food_Pie_Pumpkin.description = [TMP] <item is="Food_Pie_Pumpkin"/>のレシピを習得する。\n\n即座に体力を<color is="#ffffff">15%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生III</color>\n• <color is="#ffffff">スタミナ強化III</color>\n\n持続時間：<color is="#ffffff">6:00</color>
-Recipe_Food_Pie_Meat.name = [TMP] レシピ：ミートパイ
 Recipe_Food_Pie_Meat.description = [TMP] <item is="Food_Pie_Meat"/>のレシピを習得する。\n\n即座に体力を<color is="#ffffff">15%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生III</color>\n• <color is="#ffffff">体力強化III</color>\n\n持続時間：<color is="#ffffff">6:00</color>
-Recipe_Food_Salad_Caesar.name = [TMP] レシピ：シーザーサラダ
 Recipe_Food_Salad_Caesar.description = [TMP] <item is="Food_Salad_Caesar"/>のレシピを習得する。\n\n即座に体力を<color is="#ffffff">15%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生III</color>\n• <color is="#ffffff">スタミナ強化III</color>\n\n持続時間：<color is="#ffffff">6:00</color>
 Food_Pie_Pumpkin.description = [TMP] 即座に体力を<color is="#ffffff">15%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生III</color>\n• <color is="#ffffff">スタミナ強化III</color>\n\n持続時間：<color is="#ffffff">6:00</color>
 Food_Wildmeat_Cooked.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n• <color is="#ffffff">体力強化I</color>\n\n持続時間：<color is="#ffffff">0:45</color>

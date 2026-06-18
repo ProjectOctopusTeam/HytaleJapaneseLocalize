@@ -14,6 +14,7 @@ window.assets = Assets
 window.validation = Validation
 window.preview = Preview
 window.properties = Properties
+window.textEditor = Text Editor
 mainMenu.connection.connecting = Connecting to server...
 mainMenu.connection.authenticating = Authenticating...
 mainMenu.title = Open Editor
@@ -256,6 +257,8 @@ errors.exportInProgress = An export is still in progress
 errors.cannotRevealUnexportedAsset = Cannot show file in explorer/finder because the file has not been exported yet.
 errors.cannotRevealLocalServerAsset = You can find the file '{filePath}' in the 'mods/' folder of your world save folder.
 errors.cannotPasteWrongType = Cannot paste value: invalid type
+errors.cannotUpdateJsonAsset = Unable to update json asset, unknown error
+errors.failedToOpenWorkspace = Failed to open workspace
 messages.assetExport.success.simple = Exported assets
 messages.assetExport.success = {count} assets have been exported
 messages.assetExport.none = No assets have been exported
@@ -279,8 +282,10 @@ diagnosticsTooltip.hasChildWarnings = Some child properties contain warnings.
 configEditor.errors.failedToLoad = Failed to load editor. Check log for more details
 configEditor.showAllProperties = Show All Properties
 tabs.popup.close = Close
+tabs.popup.closeOthers = Close Others
 tabs.popup.closeAll = Close All
 tabs.popup.copyId = Copy ID
+tabs.popup.copyPath = Copy Path
 weatherDaytimeBar.togglePauseTime = Pause/Continue time
 weatherDaytimeBar.previousDay = Set to previous day
 weatherDaytimeBar.nextDay = Set to next day
@@ -327,6 +332,7 @@ packModal.errors.groupRequired = Pack group is required
 packModal.errors.versionRequired = Version is required
 packModal.errors.versionInvalid = Invalid version format. Use semantic versioning (e.g., 1.0.0, 2.1.3-beta, 1.0.0+build123)
 packModal.errors.serverVersionRequired = Server version is required
+packModal.errors.serverVersionInvalid = Server version must be a valid SemverRange (e.g. *, >=0.5.0, 0.5.x, ^0.5.0).
 packModal.field.targetDirectory = Target Directory
 packModal.targetDirectory.worldMods = World Mods Folder ({path})
 packModal.targetDirectory.globalMods = Global Mods Folder ({path})
@@ -359,9 +365,3 @@ WARNING: This is a DANGEROUS operation!\n\
 Only proceed if you fully understand the consequences.
 deletePackModal.confirmButton = Delete Pack
 newAssetButton.readOnlyPackTooltip = You cannot create new assets because the selected asset pack is read-only.
-tabs.popup.closeOthers = Close Others
-tabs.popup.copyPath = Copy Path
-errors.cannotUpdateJsonAsset = Unable to update json asset, unknown error
-packModal.errors.serverVersionInvalid = Server version must be a valid SemverRange (e.g. *, >=0.5.0, 0.5.x, ^0.5.0).
-window.textEditor = Text Editor
-errors.failedToOpenWorkspace = Failed to open workspace

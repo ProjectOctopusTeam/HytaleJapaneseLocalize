@@ -1,3 +1,7 @@
+compass.north = N
+compass.east = E
+compass.south = S
+compass.west = W
 playerList.onlinePlayers = Online Players
 playerList.username = Username
 playerList.ping = Ping

@@ -1,14 +1,4 @@
 desc = ワールドのアンビエンスを管理する
-setmusic.desc = ワールドに強制アンビエンスミュージックを設定する
-setmusic.arg.ambiencefxid.desc = 音楽のAmbienceFX ID
-setmusic.success = ワールドの強制アンビエンスミュージックを{ambience}に設定しました
-setmusicstate.desc = 現在のセグメントにミュージックステートを設定する
-setmusicstate.arg.statename.desc = ステートプリセットの名前
-setmusicstate.arg.fadeduration.desc = クロスフェードの秒数
-setmusicstate.success = ミュージックステートを{state}に設定し、{fade}秒のフェードを適用しました
-setmusicstate.notfound = ミュージックステート''{state}''が見つかりません
-clear.desc = ワールドのすべての強制アンビエンス設定をリセットする
-clear.success = すべての強制アンビエンス設定をリセットしました
 emitter.desc = ワールドのアンビエントエミッターを管理する
 emitter.add.arg.soundEvent.name = サウンドイベント
 emitter.add.arg.soundEvent.usage = サウンドイベントのアセットID

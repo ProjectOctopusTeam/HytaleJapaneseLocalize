@@ -49,3 +49,7 @@ chat.suggestions.section.suggestions = [TMP] 候補
 chat.suggestions.section.optional = [TMP] 任意
 voip.overflow = [TMP] 他{overflow}人が話しています
 chat.suggestions.variant.noargs = [TMP] <引数なし>
+compass.north = 北
+compass.east = 東
+compass.south = 南
+compass.west = 西

@@ -2,5 +2,5 @@ desc = Give armor to players based on a search string
 typeNotFound = Failed to find armor of type '{type}'!
 success = Armor given!
 player.desc = The target player (use '*' for all players)
-search.desc = The armor type to search for (e.g., 'Iron', 'Gold')
+search.desc = The armor type to search for (e.g., "Iron", "Gold")
 set.desc = Clear existing armor before adding new armor

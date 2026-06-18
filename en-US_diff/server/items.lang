@@ -313,6 +313,9 @@ Debug_Combo.name = Debug Combo Item
 Debug_Continue.name = Debug Interaction Item
 Debug_Continue_Equip.name = Debug Continue Equip Hands
 Debug_Continue_Equip_Legs.name = Debug Continue Equip Legs
+Debug_Durability_Condition.name = Debug Durability Condition Item
+Debug_Falling_Barrel.name = Debug Falling Barrel
+Debug_Falling_Explosive.name = Debug Falling Explosive
 Debug_Forking.name = Debug Block
 Debug_Forking_2.name = Debug Block
 Debug_Projectile.name = Debug Projectile Item
@@ -322,6 +325,7 @@ Debug_Stick.name = The Stick
 Debug_Stick_Delay.name = The Stick of Delayed Charging
 Debug_Stick_Parry.name = The Stick of Parrying
 Debug_Stick_Slow.name = Slow Stick
+Debug_Stick_Spawn_Deployable.name = The Stick of Deployable Spawning
 Debug_Stick_Stun.name = The Stun Stick
 Deco_Bone_Full.name = Bone
 Deco_Bone_Pile.name = Pile of Bones
@@ -512,6 +516,8 @@ Filter_Rock.name = Filter - Rock
 Filter_Rock.description = A brush filter that matches natural rock blocks. Use in the Mask slot of builder tools to only affect rock when painting or replacing.
 Filter_Soils.name = Filter - Soils
 Filter_Soils.description = A brush filter that matches dirt and grass terrain. Use in the Mask slot of builder tools to only affect soil blocks when painting or replacing.
+Filter_Fluids.name = Filter - Fluids
+Filter_Fluids.description = A brush filter that matches fluids. Use in the Mask slot of builder tools to only affect fluids when painting or replacing.
 Filter_Gravel.name = Filter - Gravel
 Filter_Gravel.description = A brush filter that matches gravel and pebbles. Use in the Mask slot of builder tools to only affect gravel when painting or replacing.
 Filter_Snow.name = Filter - Snow
@@ -2043,18 +2049,10 @@ Prototype_Wood_Softwood_Fence_Platform.name = Prototype - Softwood - Fence Platf
 Prototype_Wood_Tropicalwood_Fence_Platform.name = Prototype - Tropical Wood Fence Platform
 Rail_Kart.name = Rail Cart
 Rail.name = Rail
+RecipeItem.name = [TMP] Recipe: {itemName}
 Recipe_Book_Magic_Air.name = Air Grimoire
 Recipe_Book_Magic_Void.name = Void Grimoire
 Recipe_Page.name = Recipe Page
-Recipe_Plant_Seeds_Health1.name = Recipe: Blood Rose Seed
-Recipe_Plant_Seeds_Health2.name = Recipe: Bloodcap Mushroom Spawn
-Recipe_Plant_Seeds_Health3.name = Recipe: Blood Leaf Seed
-Recipe_Plant_Seeds_Stamina1.name = Recipe: Storm Thistle Seed
-Recipe_Plant_Seeds_Stamina2.name = Recipe: Stormcap Mushroom Spawn
-Recipe_Plant_Seeds_Stamina3.name = Recipe: Storm Rush Seed
-Recipe_Plant_Seeds_Mana1.name = Recipe: Azure Fern Seed
-Recipe_Plant_Seeds_Mana2.name = Recipe: Azurecap Mushroom Spawn
-Recipe_Plant_Seeds_Mana3.name = Recipe: Azure Kelp Seed
 Rock_Aqua.name = Aqua Stone
 Rock_Aqua_Brick.name = Aqua Brick
 Rock_Aqua_Brick_Beam.name = Aqua Brick - Beam
@@ -3822,13 +3820,9 @@ Food_Salad_Berry.description = [TMP] Instantly restores <color is="#ffffff">10%<
 Food_Salad_Mushroom.description = [TMP] Instantly restores <color is="#ffffff">10%</color> health and grants:\n\n• <color is="#ffffff">Health Regen II</color>\n• <color is="#ffffff">Stamina Boost II</color>\n\nDuration: <color is="#ffffff">2:30</color>
 Food_Salad_Caesar.description = [TMP] Instantly restores <color is="#ffffff">15%</color> health and grants:\n\n• <color is="#ffffff">Health Regen III</color>\n• <color is="#ffffff">Stamina Boost III</color>\n\nDuration: <color is="#ffffff">6:00</color>
 Food_Pie_Apple.description = [TMP] Instantly restores <color is="#ffffff">15%</color> health and grants:\n\n• <color is="#ffffff">Health Regen III</color>\n• <color is="#ffffff">Stamina Boost III</color>\n\nDuration: <color is="#ffffff">6:00</color>
-Recipe_Food_Pie_Apple.name = [TMP] Recipe: Apple Pie
 Recipe_Food_Pie_Apple.description = [TMP] Teaches the <item is="Food_Pie_Apple"/> recipe.\n\nInstantly restores <color is="#ffffff">15%</color> health and grants:\n\n• <color is="#ffffff">Health Regen III</color>\n• <color is="#ffffff">Stamina Boost III</color>\n\nDuration: <color is="#ffffff">6:00</color>
-Recipe_Food_Pie_Pumpkin.name = [TMP] Recipe: Pumpkin Pie
 Recipe_Food_Pie_Pumpkin.description = [TMP] Teaches the <item is="Food_Pie_Pumpkin"/> recipe.\n\nInstantly restores <color is="#ffffff">15%</color> health and grants:\n\n• <color is="#ffffff">Health Regen III</color>\n• <color is="#ffffff">Stamina Boost III</color>\n\nDuration: <color is="#ffffff">6:00</color>
-Recipe_Food_Pie_Meat.name = [TMP] Recipe: Meat Pie
 Recipe_Food_Pie_Meat.description = [TMP] Teaches the <item is="Food_Pie_Meat"/> recipe.\n\nInstantly restores <color is="#ffffff">15%</color> health and grants:\n\n• <color is="#ffffff">Health Regen III</color>\n• <color is="#ffffff">Health Boost III</color>\n\nDuration: <color is="#ffffff">6:00</color>
-Recipe_Food_Salad_Caesar.name = [TMP] Recipe: Caesar Salad
 Recipe_Food_Salad_Caesar.description = [TMP] Teaches the <item is="Food_Salad_Caesar"/> recipe.\n\nInstantly restores <color is="#ffffff">15%</color> health and grants:\n\n• <color is="#ffffff">Health Regen III</color>\n• <color is="#ffffff">Stamina Boost III</color>\n\nDuration: <color is="#ffffff">6:00</color>
 Food_Pie_Pumpkin.description = [TMP] Instantly restores <color is="#ffffff">15%</color> health and grants:\n\n• <color is="#ffffff">Health Regen III</color>\n• <color is="#ffffff">Stamina Boost III</color>\n\nDuration: <color is="#ffffff">6:00</color>
 Food_Wildmeat_Cooked.description = [TMP] Instantly restores <color is="#ffffff">5%</color> health and grants:\n\n• <color is="#ffffff">Health Regen I</color>\n• <color is="#ffffff">Health Boost I</color>\n\nDuration: <color is="#ffffff">0:45</color>
@@ -4099,11 +4093,4 @@ Metal_Copper_Roof_Flat.name = Copper Roof - Flat
 Metal_Iron_Fence.name = Iron - Fence
 Metal_Bronze_Fence.name = Bronze - Fence
 Metal_Copper_Fence.name = Copper - Fence
-Debug_Falling_Barrel.name = Debug Falling Barrel
-Debug_Stick_Spawn_Deployable.name = The Stick of Deployable Spawning
 Unknown.name = Unknown
-Debug_Durability_Condition.name = Debug Durability Condition Item
-Debug_Falling_Explosive.name = Debug Falling Explosive
-Filter_Fluids.name = Filter - Fluids
-Filter_Fluids.description = A brush filter that matches fluids. Use in the Mask slot of builder tools to only affect fluids when painting or replacing.
-RecipeItem.name = [TMP] Recipe: {itemName}

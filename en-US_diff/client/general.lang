@@ -61,6 +61,7 @@ disconnect.editorNotSupported = Editor isn't supported on this server!
 disconnect.identityTokenMissingScope = Invalid identity token: missing {scope} scope
 disconnect.identityTokenUuidMismatch = Invalid identity token: UUID mismatch
 disconnect.invalidAccessToken = Invalid access token
+disconnect.invalidAccessTokenClockSkew = Invalid access token.\nYour system time appears to be about {minutes} minutes off. Please sync your system time and reconnect.
 disconnect.invalidIdentityToken = Invalid or expired identity token
 disconnect.invalidPasswordResponse = Invalid password response
 disconnect.invalidSkin = Your skin contains parts that aren't available on this server.\nThis usually happens when assets are out of sync.\n\n{details}

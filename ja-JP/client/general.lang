@@ -104,3 +104,4 @@ p2p.tryManualPortForwarding = 手動ポートフォワーディングを試す�
 p2p.failedToOpenWorldTimeout = ワールドの開放に失敗しました: 接続のセットアップがタイムアウトしました。
 flyCamera.nowControllingPlayer = プレイヤーを操作中です。
 flyCamera.nowControllingCamera = カメラを操作中です。
+disconnect.invalidAccessTokenClockSkew = アクセストークンが無効です。\nシステム時刻が約{minutes}分ずれているようです。システム時刻を同期してから再接続してください。

@@ -1,6 +1,5 @@
 desc = Sets the global block mask
 clear.desc = Clears/disables the global block mask
-mask.desc = The block mask to set
 save.desc = [TMP] Save the current global mask as a preset
 save.name.desc = [TMP] Name for the preset
 save.noMask = [TMP] No global mask is currently set
@@ -8,3 +7,4 @@ load.desc = [TMP] Load a mask preset as the global mask
 load.name.desc = [TMP] Name of the preset to load
 load.empty = [TMP] Preset data is empty
 load.failed = [TMP] Failed to load mask preset: {reason}
+mask.desc = The block mask to set

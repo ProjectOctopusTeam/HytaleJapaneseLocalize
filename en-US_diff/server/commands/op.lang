@@ -1,6 +1,7 @@
 desc = Commands for managing operator permissions
 self.nonVanillaPermissions = The permissions system on this server is handled by a third-party plugin and this command is unsupported.
 self.singleplayerOwnerReq = Cannot use this command. This is a singleplayer server and you aren't the owner.
+self.currentlyOpNote = [TMP] You're already OP!
 self.multiplayerTip = As this is a standalone server, OP yourself (/{uuidCommand}) in the '{permissionFile}' file while the server is off, or temporarily use the '{launchArg}' program launch argument.
 self.added = You're now OP!
 self.removed = No longer OP.
@@ -15,4 +16,3 @@ removed = {username} is no longer an operator.
 removed.target = You have been removed as operator.
 already = {username} is already an operator.
 notOp = {username} is not an operator.
-self.currentlyOpNote = [TMP] You're already OP!

@@ -1,2 +1,2 @@
-desc = Submerges the selection with a fluid. Use 'Empty' to unsubmerge the section.
+desc = Submerges the selection with a fluid. Use "Empty" to unsubmerge the section.
 fluidType.desc = The type of fluid to submerge with

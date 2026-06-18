@@ -1,14 +1,4 @@
 desc = Manage ambience in worlds
-setmusic.desc = Sets the forced ambience music on the world
-setmusic.arg.ambiencefxid.desc = The ID of the AmbienceFX for the music
-setmusic.success = World forced ambience music set to {ambience}
-setmusicstate.desc = Sets the music state on the current Segment
-setmusicstate.arg.statename.desc = The name of the state preset
-setmusicstate.arg.fadeduration.desc = Crossfade duration in seconds
-setmusicstate.success = Music state set to {state} with {fade}s fade
-setmusicstate.notfound = Music state ''{state}'' not found
-clear.desc = Resets all forced ambience settings on the world
-clear.success = All forced ambience settings were reset
 emitter.desc = Manages ambient emitters in worlds
 emitter.add.arg.soundEvent.name = Sound Event
 emitter.add.arg.soundEvent.usage = A sound event asset ID

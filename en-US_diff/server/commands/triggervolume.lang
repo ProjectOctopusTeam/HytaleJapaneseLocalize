@@ -55,6 +55,18 @@ test.msg.enter = [TMP] Test: Entered volume
 test.msg.exit = [TMP] Test: Exited volume
 test.msg.tick = [TMP] Test: Tick (2s interval)
 test.msg.conditional = [TMP] Test: Random chance condition accepted
+test.msg.cooldownConditionPerPlayerAccepted = [TMP] Test: Per-player cooldown condition accepted
+test.msg.cooldownConditionPerPlayerRejected = [TMP] Test: Per-player cooldown condition rejected
+test.msg.cooldownConditionWholeVolumeAccepted = [TMP] Test: Whole-volume cooldown condition accepted
+test.msg.cooldownConditionWholeVolumeRejected = [TMP] Test: Whole-volume cooldown condition rejected
+test.msg.gameModeAccepted = [TMP] Test: Game mode condition accepted
+test.msg.gameModeRejected = [TMP] Test: Game mode condition rejected
+test.msg.permissionAccepted = [TMP] Test: Permission condition accepted
+test.msg.permissionRejected = [TMP] Test: Permission condition rejected
+test.msg.itemAccepted = [TMP] Test: Held item condition accepted
+test.msg.itemRejected = [TMP] Test: Hold Potion_Empty to accept this condition
+test.msg.afterDelayAccepted = [TMP] Test: After-delay condition accepted
+test.msg.afterDelayRejected = [TMP] Test: After-delay condition rejected
 test.msg.delayed = [TMP] Test: This message was delayed by 2 seconds
 test.msg.seq1 = [TMP] Test: Sequence step 1 (immediate)
 test.msg.seq2 = [TMP] Test: Sequence step 2 (1s delay)
@@ -64,6 +76,14 @@ test.msg.titleSecondary = [TMP] You have discovered a test area
 test.msg.oneShot = [TMP] Test: One-shot! This volume will now self-destruct
 test.msg.cooldownPerPlayer = [TMP] Test: Per-player cooldown (5s) - re-enter after 5s to trigger again
 test.msg.cooldownTotal = [TMP] Test: Total cooldown (10s) - no one can trigger for 10s
+test.msg.blockPlaced = [TMP] Test: Soil_Dirt was placed inside this volume
+test.msg.tagMutationEnter = [TMP] Test: Adding tvtest_state=active to this volume
+test.msg.tagAdded = [TMP] Test: TAG_ADDED fired for tvtest_state=active
+test.msg.tagRemoved = [TMP] Test: TAG_REMOVED fired for tvtest_state=active
+test.msg.remoteControllerEnter = [TMP] Test: Controller adding tvtest_remote_state=armed to the separate target volume
+test.msg.remoteControllerExit = [TMP] Test: Controller removing tvtest_remote_state from the separate target volume
+test.msg.remoteTagAdded = [TMP] Test: Remote target activated from tag add and passed tvtest_remote_state=armed condition
+test.msg.remoteTagRemoved = [TMP] Test: Remote target activated from tag remove and passed tvtest_remote_state=armed condition
 enabletag.desc = [TMP] Enable all volumes with a given tag.
 enabletag.tag.desc = [TMP] Tag to match.
 enabletag.tagNotFound = [TMP] Tag '{tag}' is not registered
@@ -94,23 +114,3 @@ effects.desc = [TMP] Open the effect editor for a trigger volume.
 effects.volumeName.desc = [TMP] Volume name (uses selection if omitted).
 effects.noSelection = [TMP] No volume specified and no volume selected. Select a volume first or provide a name.
 effects.group.desc = [TMP] Open the group editor instead of this volume's editor.
-test.msg.cooldownConditionPerPlayerAccepted = [TMP] Test: Per-player cooldown condition accepted
-test.msg.cooldownConditionPerPlayerRejected = [TMP] Test: Per-player cooldown condition rejected
-test.msg.cooldownConditionWholeVolumeAccepted = [TMP] Test: Whole-volume cooldown condition accepted
-test.msg.cooldownConditionWholeVolumeRejected = [TMP] Test: Whole-volume cooldown condition rejected
-test.msg.gameModeAccepted = [TMP] Test: Game mode condition accepted
-test.msg.gameModeRejected = [TMP] Test: Game mode condition rejected
-test.msg.permissionAccepted = [TMP] Test: Permission condition accepted
-test.msg.permissionRejected = [TMP] Test: Permission condition rejected
-test.msg.itemAccepted = [TMP] Test: Held item condition accepted
-test.msg.itemRejected = [TMP] Test: Hold Potion_Empty to accept this condition
-test.msg.afterDelayAccepted = [TMP] Test: After-delay condition accepted
-test.msg.afterDelayRejected = [TMP] Test: After-delay condition rejected
-test.msg.blockPlaced = [TMP] Test: Soil_Dirt was placed inside this volume
-test.msg.tagMutationEnter = [TMP] Test: Adding tvtest_state=active to this volume
-test.msg.tagAdded = [TMP] Test: TAG_ADDED fired for tvtest_state=active
-test.msg.tagRemoved = [TMP] Test: TAG_REMOVED fired for tvtest_state=active
-test.msg.remoteControllerEnter = [TMP] Test: Controller adding tvtest_remote_state=armed to the separate target volume
-test.msg.remoteControllerExit = [TMP] Test: Controller removing tvtest_remote_state from the separate target volume
-test.msg.remoteTagAdded = [TMP] Test: Remote target activated from tag add and passed tvtest_remote_state=armed condition
-test.msg.remoteTagRemoved = [TMP] Test: Remote target activated from tag remove and passed tvtest_remote_state=armed condition
