@@ -5,4 +5,4 @@ result = あなたの位置情報：\n\
     頭の回転：{headRotation}\n\
     テレポート：{teleport}\n\
     保留中のテレポート：{pendingTeleport}
-notify = あなたの現在位置に青いデバッグオブジェクトを生成しました。
+notify = あなたの現在位置に青いデバッグオブジェクトを生成しました.

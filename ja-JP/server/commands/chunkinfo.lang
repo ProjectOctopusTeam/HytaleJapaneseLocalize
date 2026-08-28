@@ -1,6 +1,6 @@
-load.usage = `/chunk load {chunkX} {chunkZ}`コマンドを使用してチャンクをロードしてください。
-serialized = チャンクデータをコンソールにシリアライズしました。
-serialized.failed = チャンクのシリアライズに失敗しました。コンソールを確認してください。
+load.usage = `/chunk load {chunkX} {chunkZ}`コマンドを使用してチャンクをロードしてください.
+serialized = チャンクデータをコンソールにシリアライズしました.
+serialized.failed = チャンクのシリアライズに失敗しました. コンソールを確認してください.
 chunk = チャンク{chunkX}, {chunkZ}：\n\
   \tフラグ：\n\
     \t\t初期化開始：{startInit}\n\

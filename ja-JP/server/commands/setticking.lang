@@ -1,2 +1,2 @@
 desc = ワールドのティックを有効にするかどうかを設定する
-ticking.desc = ティックを有効にする場合はtrue、無効にする場合はfalse
+ticking.desc = ティックを有効にする場合はtrue, 無効にする場合はfalse

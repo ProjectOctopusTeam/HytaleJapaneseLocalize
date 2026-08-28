@@ -3,7 +3,7 @@ effect.desc = 適用するカメラエフェクト
 damage.desc = 特定のエフェクトやダメージソースをテストするためにターゲットプレイヤーにダメージを与える
 damage.cause.desc = ダメージの原因
 damage.amount.desc = 適用するダメージ量
-damage.success = カメラダメージエフェクト "{effect}" を追加しました: cause={cause}、damage={amount}
+damage.success = カメラダメージエフェクト "{effect}" を追加しました: cause={cause}, damage={amount}
 debug.desc = 指定した強度でターゲットプレイヤーにカメラエフェクトを追加する
 debug.intensity.desc = カメラエフェクトの強度
 debug.success = カメラエフェクト "{effect}" を追加しました: intensity={intensity}

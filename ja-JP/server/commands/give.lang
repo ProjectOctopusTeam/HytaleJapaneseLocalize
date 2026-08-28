@@ -1,4 +1,4 @@
-insufficientInvSpace = {item}を{quantity, number}個付与できません。インベントリの空きが不足しています。
+insufficientInvSpace = {item}を{quantity, number}個付与できません. インベントリの空きが不足しています.
 gave = {targetUsername}に{item}を{quantity, number}個付与しました
 received = {item}を{quantity, number}個受け取りました
 item.desc = 付与するアイテム

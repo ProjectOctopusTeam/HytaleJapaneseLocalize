@@ -22,4 +22,4 @@ watching = {username}の観戦を開始しました
 watchingTarget = 対象のエンティティの観戦を開始しました
 cantWatchTarget = 現在そのエンティティは観戦できません
 freed = カメラを取り外しました
-targetLost = 観戦対象がいなくなったため、自由飛行に戻ります
+targetLost = 観戦対象がいなくなったため, 自由飛行に戻ります

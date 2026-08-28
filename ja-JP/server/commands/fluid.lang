@@ -1,8 +1,8 @@
-desc = フルイドデバッグコマンド。
-fluidArgType.desc = フルイドアセットID。
-get.desc = ターゲット位置のフルイドを取得する。
-set.desc = ターゲット位置のフルイドを変更する。
-setradius.desc = 指定した半径内のプレイヤー位置のフルイドを変更する。
+desc = フルイドデバッグコマンド.
+fluidArgType.desc = フルイドアセットID.
+get.desc = ターゲット位置のフルイドを取得する.
+set.desc = ターゲット位置のフルイドを変更する.
+setradius.desc = 指定した半径内のプレイヤー位置のフルイドを変更する.
 set.fluid.desc = 設定するフルイドタイプ
 set.level.desc = 設定するフルイドレベル
 set.offset.desc = ターゲットブロックからの位置オフセット

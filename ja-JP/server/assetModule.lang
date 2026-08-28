@@ -1,2 +1,2 @@
-outOfDatePacks = 以下のアセット{count, plural, one {パックは} other {パックは}}古いサーバーバージョンをターゲットにしています。\n\
-    互換性を確保するため、{count, plural, one {このアセットパック} other {これらのアセットパック}}を更新することをお勧めします:{mods}
+outOfDatePacks = 以下のアセット{count, plural, one {パックは} other {パックは}}古いサーバーバージョンをターゲットにしています.\n\
+    互換性を確保するため, {count, plural, one {このアセットパック} other {これらのアセットパック}}を更新することをお勧めします:{mods}

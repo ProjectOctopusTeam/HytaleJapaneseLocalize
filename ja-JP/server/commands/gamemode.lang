@@ -1,6 +1,6 @@
 alreadyInMode.other = {username}はすでにこのゲームモードです
 alreadyInMode.self = あなたはすでにこのゲームモードです
-gamemode.desc = 設定するゲームモード（adventure、creative、またはその略称：a、c）
+gamemode.desc = 設定するゲームモード（adventure, creative, またはその略称：a, c）
 success.other = {username}のゲームモードを{mode}に設定しました
 success.self = あなたのゲームモードを{mode}に設定しました
 desc = プレイヤーのゲームモードを変更する

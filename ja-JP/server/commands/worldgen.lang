@@ -1,5 +1,5 @@
 reload.alreadyInProgress = ワールド生成の再読み込みがすでに進行中です！
-reload.abort = 他の誰かが同時にワールド生成の再読み込みを開始しました。中止します。
+reload.abort = 他の誰かが同時にワールド生成の再読み込みを開始しました. 中止します.
 desc = ワールド生成設定のコマンド
 reload.desc = ワールド生成設定を再読み込みする
 reload.clear.desc = 再読み込み後にすべてのチャンクをクリアする

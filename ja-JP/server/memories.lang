@@ -17,9 +17,9 @@ categories.Undead.title = アンデッド
 categories.Voidspawn.title = ヴォイドの産物
 categories.Voidtaken.title = ヴォイドに取り込まれし者
 unlock.title = メモリー機能がアンロックされました！
-unlock.bullet1 = ヴォイドの呪いがオービスを閉じ込めていますが、それを打ち破る方法があるかもしれません。
-unlock.bullet2 = オービスの心臓部には神が宿っています。オービスのさまざまな生き物のメモリーを探し出し、ここに記録して彼女の意志を取り戻してください。
-unlock.bullet3 = インベントリに特別なセクションが追加され、限られた数のメモリーを保存できるようになりました。 \nオービスの心臓部に持ち帰り、さまざまな報酬をアンロックしてください。
+unlock.bullet1 = ヴォイドの呪いがオービスを閉じ込めていますが, それを打ち破る方法があるかもしれません.
+unlock.bullet2 = オービスの心臓部には神が宿っています. オービスのさまざまな生き物のメモリーを探し出し, ここに記録して彼女の意志を取り戻してください.
+unlock.bullet3 = インベントリに特別なセクションが追加され, 限られた数のメモリーを保存できるようになりました. \nオービスの心臓部に持ち帰り, さまざまな報酬をアンロックしてください.
 unlock.discoverMemories = メモリーを発見する
 general.title = メモリー
 general.noMemories = 復元するメモリーがありません
@@ -27,11 +27,11 @@ general.categories = カテゴリー
 general.recordNum = {count, number} 個の{count, plural, one {メモリーを} other {メモリーを}}復元する
 general.collected = 新しい記憶を集めました！"{memoryTitle}" を発見しました！
 general.featureUnlockedNotification = メモリーがアンロックされました！オービスの様々なバージョンを探索してメモリーを集めましょう！
-general.featureUnlockedMessage = メモリー機能がアンロックされました！\n生き物と遭遇するとメモリーを収集し、インベントリに保存されます。\nこれらのメモリーをオービスの心臓部に持ち帰り、記録して報酬をアンロックしましょう！
-general.discovered.tooltipText = 新しいメモリーを発見しました！\n\n忘れられた神殿のオービスの心臓部に戻って復元してください。
+general.featureUnlockedMessage = メモリー機能がアンロックされました！\n生き物と遭遇するとメモリーを収集し, インベントリに保存されます.\nこれらのメモリーをオービスの心臓部に持ち帰り, 記録して報酬をアンロックしましょう！
+general.discovered.tooltipText = 新しいメモリーを発見しました！\n\n忘れられた神殿のオービスの心臓部に戻って復元してください.
 general.undiscovered.tooltipText = このメモリーを発見するために探索を続けましょう！
 general.memoriesLevelProgress = メモリーレベル: {level} (次のレベルまで{count, plural, one {1つのメモリー} other {{count, number}つのメモリー}})
-general.chestLocked.tooltipText = <color is="#990000"><b>ロック中</b></color> \n<color is="#888888">{count, number} 個の{count, plural, one {メモリーを} other {メモリーを}}復元するとアンロックされます。</color>
+general.chestLocked.tooltipText = <color is="#990000"><b>ロック中</b></color> \n<color is="#888888">{count, number} 個の{count, plural, one {メモリーを} other {メモリーを}}復元するとアンロックされます. </color>
 general.chestActive.tooltipText = <color is="#1eab1e"><b>アンロック済み</b></color> \n<color is="#888888">{count, number} 個の{count, plural, one {メモリー} other {メモリー}}</color>
 general.chestActive.level1.rewards = \n以下のクラフトが可能になります:\n• +3 装飾チェスト (家具作業台)\n• +2 永遠の種 (農夫の作業台)\n\n作業中
 general.chestActive.level2.rewards = \n以下のクラフトが可能になります:\n• +3 装飾チェスト (家具作業台)\n• +4 永遠の種 (農夫の作業台)\n\n+1 最大テレポーター数\n\n作業中
@@ -40,4 +40,4 @@ general.chestActive.level4.rewards = \n以下のクラフトが可能になり�
 general.chestActive.level5.rewards = \n以下のクラフトが可能になります:\n• 収穫トロフィー (農夫の作業台)\n• +2 装飾チェスト (家具作業台)\n• +2 永遠の種 (農夫の作業台)\n\n+2 最大テレポーター数\n\n作業中
 general.memoriesLevelMax = メモリーレベル: {level} (最大レベル)
 general.totalCollected = 収集合計: {current}/{max}
-general.foundIn = {location}で発見、{dateValue, date}
+general.foundIn = {location}で発見, {dateValue, date}

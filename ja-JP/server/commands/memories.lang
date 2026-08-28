@@ -11,4 +11,4 @@ unlockAll.success = すべてのメモリーをアンロックしました
 setCount.desc = テスト用に記録されたメモリーの数を設定する
 setCount.count.desc = 記録するメモリーの数
 setCount.success = 記録されたメモリーを{actual, number}に設定しました（要求値：{requested, number}）
-setCount.invalid = 無効な数値です。0以上でなければなりません。
+setCount.invalid = 無効な数値です. 0以上でなければなりません.

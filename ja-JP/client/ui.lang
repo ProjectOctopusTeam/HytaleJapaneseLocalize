@@ -18,7 +18,7 @@ social.openWorld.text = ワールドをフレンドに公開して{name}を招�
 social.removeFriend.title = フレンドを削除
 social.removeFriend.text = {name}をフレンドから削除しますか？
 social.blockPlayer.title = プレイヤーをブロック
-social.blockPlayer.text = {name}をブロックしますか？フレンドから削除されます。
+social.blockPlayer.text = {name}をブロックしますか？フレンドから削除されます.
 social.header.inYourWorld = あなたのワールドにいる - {count}
 social.header.friendRequests = フレンドリクエスト - {count}
 social.header.online = オンライン - {count}
@@ -28,30 +28,30 @@ social.tab.local = ローカル
 social.tab.online = オンライン
 social.party.leave = 離脱
 social.notifications.title = 通知
-social.notifications.empty = 通知はありません。
+social.notifications.empty = 通知はありません.
 social.blocked.title = ブロック済み
-social.blocked.empty = ブロックしたプレイヤーはいません。
-social.subtitle.friend_request = <b><color is="#D1DAE6">{playerName}</color></b>からフレンドリクエストが届きました。
-social.subtitle.party_invite = <b><color is="#D1DAE6">{playerName}</color></b>からパーティーへの招待が届きました。
-social.subtitle.world_invite = <b><color is="#D1DAE6">{playerName}</color></b>からワールドへの招待が届きました。
+social.blocked.empty = ブロックしたプレイヤーはいません.
+social.subtitle.friend_request = <b><color is="#D1DAE6">{playerName}</color></b>からフレンドリクエストが届きました.
+social.subtitle.party_invite = <b><color is="#D1DAE6">{playerName}</color></b>からパーティーへの招待が届きました.
+social.subtitle.world_invite = <b><color is="#D1DAE6">{playerName}</color></b>からワールドへの招待が届きました.
 social.add_friend.title = フレンドを追加
 social.add_friend.placeholder = フレンドのネームタグを検索
 social.add_friend.send = 送信
 social.add_friend.back = 戻る
 social.add_friend.invite_sent = 招待を送信しました！
-social.add_friend.invitation_failed = フレンドリクエストを送信できませんでした。しばらくしてから再試行してください。
-social.add_friend.error.alreadyFriends = すでにこのプレイヤーとフレンドです。
-social.add_friend.error.alreadyRequested = すでにこのプレイヤーにフレンドリクエストを送信しています。
-social.add_friend.error.duplicatePendingInvite = すでに保留中の招待があります。
-social.add_friend.error.selfTarget = 自分をフレンドとして追加することはできません。
-social.add_friend.error.blockedByYou = このプレイヤーをブロックしています。フレンドリクエストを送るにはブロックを解除してください。
-social.add_friend.error.blockedByThem = このプレイヤーはあなたからのフレンドリクエストを受け付けていません。
-social.add_friend.error.requestLimitExceeded = フレンドリクエストの上限に達しました。後で再試行してください。
-social.add_friend.error.unknownUsername = そのネームタグのプレイヤーが見つかりません。
-social.add_friend.error.notAllowed = このフレンドリクエストを送信する権限がありません。
-social.add_friend.error.timeout = フレンドサービスの応答がタイムアウトしました。再試行してください。
-social.add_friend.error.serverError = フレンドサービスに現在問題が発生しています。しばらくしてから再試行してください。
-social.add_friend.error.network = フレンドサービスに接続できませんでした。接続を確認して再試行してください。
+social.add_friend.invitation_failed = フレンドリクエストを送信できませんでした. しばらくしてから再試行してください.
+social.add_friend.error.alreadyFriends = すでにこのプレイヤーとフレンドです.
+social.add_friend.error.alreadyRequested = すでにこのプレイヤーにフレンドリクエストを送信しています.
+social.add_friend.error.duplicatePendingInvite = すでに保留中の招待があります.
+social.add_friend.error.selfTarget = 自分をフレンドとして追加することはできません.
+social.add_friend.error.blockedByYou = このプレイヤーをブロックしています. フレンドリクエストを送るにはブロックを解除してください.
+social.add_friend.error.blockedByThem = このプレイヤーはあなたからのフレンドリクエストを受け付けていません.
+social.add_friend.error.requestLimitExceeded = フレンドリクエストの上限に達しました. 後で再試行してください.
+social.add_friend.error.unknownUsername = そのネームタグのプレイヤーが見つかりません.
+social.add_friend.error.notAllowed = このフレンドリクエストを送信する権限がありません.
+social.add_friend.error.timeout = フレンドサービスの応答がタイムアウトしました. 再試行してください.
+social.add_friend.error.serverError = フレンドサービスに現在問題が発生しています. しばらくしてから再試行してください.
+social.add_friend.error.network = フレンドサービスに接続できませんでした. 接続を確認して再試行してください.
 social.header.inGame = ゲーム中 - {count}
 social.header.onDiscord = Discord中 - {count}
 social.header.offline = オフライン - {count}
@@ -92,5 +92,5 @@ social.toast.dismiss = 辞退
 social.party.createTooltip = パーティを作成する
 social.party.memberStatus = パーティ中
 social.settings.tooltip = ソーシャル設定を開く
-social.discord.linkPrompt = Discord アカウントを連携してフレンドを見つけ、ステータスを共有しましょう
+social.discord.linkPrompt = Discord アカウントを連携してフレンドを見つけ, ステータスを共有しましょう
 social.discord.linkButton = 連携する

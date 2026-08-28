@@ -1,4 +1,4 @@
 noComponent = プレイヤーにChunkTrackerコンポーネントがありません
 set = {username}のチャンクネットワーク送信を{enabled}に設定しました
-sendNetworkChunks.desc = チャンクをネットワーク経由で自分に送信するかどうか。
-desc = ネットワーク経由のチャンク送信を停止する。
+sendNetworkChunks.desc = チャンクをネットワーク経由で自分に送信するかどうか.
+desc = ネットワーク経由のチャンク送信を停止する.

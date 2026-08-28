@@ -6,4 +6,4 @@ reset.desc = コンフィグからロガーを削除する
 setLogger = ロガー "{name}" のレベルを {level} に設定しました{saved}
 removedLogger = ロガー "{name}" を設定から削除しました！
 setLoggerNoSave = ロガー "{name}" のレベルは {level} に設定されています
-invalidLevel = "{input}" は有効なログレベルではありません！{level} を使用します。
+invalidLevel = "{input}" は有効なログレベルではありません！{level} を使用します.

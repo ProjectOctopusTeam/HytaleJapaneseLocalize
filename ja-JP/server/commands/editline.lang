@@ -1,11 +1,11 @@
 desc = 2点間にブロックの直線を描く
-start.desc = 開始位置（x y z、~で相対座標指定可）
-end.desc = 終了位置（x y z、~で相対座標指定可）
+start.desc = 開始位置（x y z, ~で相対座標指定可）
+end.desc = 終了位置（x y z, ~で相対座標指定可）
 material.desc = ブロック素材パターン（例：Rock_StoneまたはRock_Stone,Soil_Grass）
 width.desc = 線の幅（デフォルト：1）
 height.desc = 線の高さ（デフォルト：1）
 wallThickness.desc = 中空の線の壁の厚さ（0=中実）
-shape.desc = 線のシェイプ（Cube、Sphere、Cylinder、Coneなど）
-origin.desc = シェイプの原点（Center、Bottom、Top）
+shape.desc = 線のシェイプ（Cube, Sphere, Cylinder, Coneなど）
+origin.desc = シェイプの原点（Center, Bottom, Top）
 spacing.desc = 線に沿ったブロックの間隔（デフォルト：1）
 density.desc = 各ブロックが配置されるランダム確率（1〜100）（デフォルト：100）

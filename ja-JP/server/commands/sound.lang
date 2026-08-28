@@ -4,6 +4,6 @@ desc = サウンドイベントを再生するコマンド
 play.sound.desc = 再生するサウンドイベント
 play3d.sound.desc = 再生するサウンドイベント
 play3d.position.desc = サウンドを再生する位置（x y z）
-category.desc = サウンドカテゴリ（SFX、Musicなど）
+category.desc = サウンドカテゴリ（SFX, Musicなど）
 category.default = SFX
 all.desc = 送信者だけでなくすべてのプレイヤーにサウンドを再生する

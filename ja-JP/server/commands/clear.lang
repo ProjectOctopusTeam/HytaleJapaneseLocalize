@@ -2,4 +2,4 @@ desc = 選択範囲内または指定エリア内のすべてのブロックをE
 positionOne.desc = クリアしたい立方体の1つ目の位置
 positionTwo.desc = クリアしたい立方体の2つ目の位置
 noSelection = 選択範囲がありません
-success = ブロックをクリアしました。
+success = ブロックをクリアしました.

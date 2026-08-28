@@ -1,21 +1,21 @@
 desc = オーディオパイプラインを管理します
 music.desc = プレイヤーごとの強制音楽オーバーライドを管理します
-music.force.desc = 対象プレイヤーに特定のミュージックコンテナを強制再生し、AmbienceFXの選択を上書きします
+music.force.desc = 対象プレイヤーに特定のミュージックコンテナを強制再生し, AmbienceFXの選択を上書きします
 music.force.arg.musiccontainerid.desc = 強制するミュージックコンテナのアセットID
 music.force.success = {count, plural, one {1人} other {{count, number}人}}のプレイヤーに強制音楽を「{music}」に設定しました
-music.clear.desc = 対象プレイヤーの強制音楽オーバーライドをクリアし、AmbienceFXの選択を再開します
+music.clear.desc = 対象プレイヤーの強制音楽オーバーライドをクリアし, AmbienceFXの選択を再開します
 music.clear.success = {count, plural, one {1人} other {{count, number}人}}のプレイヤーの強制音楽をクリアしました
 state.desc = AudioState軸の値を管理します
 state.set.desc = サーバー権限のAudioState軸の値を設定します
 state.set.arg.audiostate.desc = 設定するAudioState軸
 state.set.arg.value.desc = 値の名前（軸で宣言されたValuesのいずれかである必要があります）
-state.set.arg.fadems.desc = 任意のトランジション時間（ミリ秒）。軸の対応するエッジを上書きします
+state.set.arg.fadems.desc = 任意のトランジション時間（ミリ秒）. 軸の対応するエッジを上書きします
 state.set.arg.curve.desc = 任意のトランジションカーブ
-state.set.arg.scope.desc = 対象セット（World = 実行者のワールドの全プレイヤー、Self = コマンド送信者のみ、Players = --playersで指定した明示的なリスト）
+state.set.arg.scope.desc = 対象セット（World = 実行者のワールドの全プレイヤー, Self = コマンド送信者のみ, Players = --playersで指定した明示的なリスト）
 state.set.arg.players.desc = --scope=Playersの場合に対象とするプレイヤー
 state.set.success = AudioState "{audioState}" を {count, plural, one {1人のプレイヤー} other {{count, number}人のプレイヤー}}に対して "{value}" に設定しました
-state.set.error.clientAuthority = AudioState "{audioState}" は Authority: Client です。クライアント側のコードから設定してください
+state.set.error.clientAuthority = AudioState "{audioState}" は Authority: Client です. クライアント側のコードから設定してください
 state.set.error.unknownValue = AudioState "{audioState}" に "{value}" という名前の値はありません
 state.set.error.noSender = スコープSelfにはプレイヤーの送信者が必要です
-state.set.error.playersRequired = スコープPlayersには、少なくとも1つの対象を指定する--players引数が必要です
-music.force.unresolved = "{music}" を強制できません: ネストされたMusicContainerの参照を1つ以上解決できませんでした（インラインの子アセットがサーバー側の検証に失敗した可能性があります）。未解決の参照: {refs}。
+state.set.error.playersRequired = スコープPlayersには, 少なくとも1つの対象を指定する--players引数が必要です
+music.force.unresolved = "{music}" を強制できません: ネストされたMusicContainerの参照を1つ以上解決できませんでした（インラインの子アセットがサーバー側の検証に失敗した可能性があります）. 未解決の参照: {refs}.

@@ -1,3 +1,3 @@
-notify_players = サーバーアップデート {version} が利用可能です。管理者が「/update download」を実行してステージングできます。
-auto_apply_warning = アップデート {version} は{minutes, plural, one {1分} other {{minutes}分}}後に自動的に適用されます。進捗を保存してください。
-auto_apply_now = アップデート {version} が今すぐ適用されます。サーバーを再起動しています...
+notify_players = サーバーアップデート {version} が利用可能です. 管理者が「/update download」を実行してステージングできます.
+auto_apply_warning = アップデート {version} は{minutes, plural, one {1分} other {{minutes}分}}後に自動的に適用されます. 進捗を保存してください.
+auto_apply_now = アップデート {version} が今すぐ適用されます. サーバーを再起動しています...

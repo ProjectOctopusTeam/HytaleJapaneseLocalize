@@ -1,8 +1,8 @@
-cannotUseCommandDuringExec = 設定実行中はこのコマンドを使用できません。'/sb exit'を使用して実行を停止してください。
-noHotbarComponent = プレイヤーエンティティにホットバーコンポーネントがありません。
-cleared = スクリプトブラシをクリアしました。
-debug.notStarted = デバッグステップを行う前に実行を開始してください。
-debug.finished = すべての操作の実行が完了しました。
+cannotUseCommandDuringExec = 設定実行中はこのコマンドを使用できません. '/sb exit'を使用して実行を停止してください.
+noHotbarComponent = プレイヤーエンティティにホットバーコンポーネントがありません.
+cleared = スクリプトブラシをクリアしました.
+debug.notStarted = デバッグステップを行う前に実行を開始してください.
+debug.finished = すべての操作の実行が完了しました.
 debug.executed = 実行済みの操作
 list.sequentialOperation = {index, number}：{name}
 list.globalOperation = {name}：

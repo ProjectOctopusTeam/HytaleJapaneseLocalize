@@ -3,5 +3,5 @@ self.desc = 自分自身の権限グループを設定する
 other.desc = 別のプレイヤーの権限グループを設定する
 group.desc = 割り当てる権限グループ
 player.desc = グループを割り当てるプレイヤー
-success = {uuid} のグループを "{group}" に設定しました。
+success = {uuid} のグループを "{group}" に設定しました.
 unknownGroup = 不明な権限グループです: "{group}"

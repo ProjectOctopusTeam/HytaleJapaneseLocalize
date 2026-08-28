@@ -1,5 +1,5 @@
 desc = ワールドで使用するライティング計算方法を変更する
-calculation.desc = ライティング計算タイプ（flood、fullbright）
+calculation.desc = ライティング計算タイプ（flood, fullbright）
 invalidate.desc = 計算タイプ変更後にロード済みチャンクを無効化する
 setCalculation = チャンクの光源計算を "{calculation}" に設定しました！
 alreadyFullBright = チャンクのライティング計算はすでに全輝度に設定されています！

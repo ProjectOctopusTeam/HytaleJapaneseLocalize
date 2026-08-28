@@ -8,5 +8,5 @@ sidescroller.success = カメラを横スクロールビューに設定しまし
 demo.desc = カメラデモモードのコマンド
 demo.activate.desc = カメラデモモードを有効にする
 demo.deactivate.desc = カメラデモモードを無効にする
-demo.enabled = カメラデモを有効にしました。
-demo.disabled = カメラデモを無効にしました。
+demo.enabled = カメラデモを有効にしました.
+demo.disabled = カメラデモを無効にしました.

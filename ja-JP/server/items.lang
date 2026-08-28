@@ -141,54 +141,54 @@ Armor_Wool_Chest.name = ウールのチュニック
 Armor_Wool_Hands.name = ウールのブレスレット
 Armor_Wool_Head.name = ウールのフード
 Armor_Wool_Legs.name = ウールのブーツ
-Bandage_Crude.description = 素早く体力を回復するために使用する。\n\n<i>粗末ではあるが、このタイプの包帯はある失われた文明の騎士たちに好まれていた。戦場で一般的な素材から簡単に作れるためである。</i>
+Bandage_Crude.description = 素早く体力を回復するために使用する.\n\n<i>粗末ではあるが, このタイプの包帯はある失われた文明の騎士たちに好まれていた. 戦場で一般的な素材から簡単に作れるためである. </i>
 Bandage_Crude.name = 包帯
 Bandage_Potion_Test.name = 包帯ポーションテスト
 Barrier.name = バリアブロック
-Barrier.description = エリアを封鎖するための透明なブロック。
-Bench_Alchemy.description = ポーションやエリクサーを作成するために使用する。\n\n<i>古の錬金術師たちは永遠の命の秘密を長年探し求めた。その崇高な目標を達成したとも言えるが、おそらく彼らが想像していた形ではないだろう。</i>
+Barrier.description = エリアを封鎖するための透明なブロック.
+Bench_Alchemy.description = ポーションやエリクサーを作成するために使用する.\n\n<i>古の錬金術師たちは永遠の命の秘密を長年探し求めた. その崇高な目標を達成したとも言えるが, おそらく彼らが想像していた形ではないだろう. </i>
 Bench_Alchemy.name = 錬金術師の作業台
-Bench_Arcane.description = 様々な秘術の道具を作成するために使用する。\n\n<i>秘術はただの人間がアバターの力に最も近づいた手段である。もっと早く習得していれば、これほど容易に惑わされることはなかったかもしれない。</i>
+Bench_Arcane.description = 様々な秘術の道具を作成するために使用する.\n\n<i>秘術はただの人間がアバターの力に最も近づいた手段である. もっと早く習得していれば, これほど容易に惑わされることはなかったかもしれない. </i>
 Bench_Arcane.name = 秘術師の作業台
-Bench_Architects.description = 建築ブロックや家具を作成するために使用する。アバターにも少しの快適さは必要だ！
+Bench_Architects.description = 建築ブロックや家具を作成するために使用する. アバターにも少しの快適さは必要だ！
 Bench_Architects.name = 建築家の作業台
-Bench_Armory.description = あらゆる工房の中心。高度な防具や武器を鍛えるために使用する。
+Bench_Armory.description = あらゆる工房の中心. 高度な防具や武器を鍛えるために使用する.
 Bench_Armory.name = 鍛冶炉
-Bench_Armour.description = 基本的な防具を製作するために使用する。
+Bench_Armour.description = 基本的な防具を製作するために使用する.
 Bench_Armour.name = 甲冑師の作業台
-Bench_Builders.description = 構造的な建築ブロックを作成するために使用する。
+Bench_Builders.description = 構造的な建築ブロックを作成するために使用する.
 Bench_Builders.name = 建設家の作業台
-Bench_Furniture.description = 家具、収納、装飾品を製作して自分の家をカスタマイズするために使用する。
+Bench_Furniture.description = 家具, 収納, 装飾品を製作して自分の家をカスタマイズするために使用する.
 Bench_Furniture.name = 家具作業台
-Bench_Campfire.description = 基本的な食事を調理する。\n\n<i>多くの冒険者にとって、素朴なたき火があればそこを「家」と呼ぶのに十分だ。その温もりに包まれながら揺るぎない絆が生まれ、すべての偉大な物語はその炎から始まった。</i>
+Bench_Campfire.description = 基本的な食事を調理する.\n\n<i>多くの冒険者にとって, 素朴なたき火があればそこを「家」と呼ぶのに十分だ. その温もりに包まれながら揺るぎない絆が生まれ, すべての偉大な物語はその炎から始まった. </i>
 Bench_Campfire.name = たき火
-Coop_Chicken.description = <item is="Tool_Capture_Crate"/>で捕まえたニワトリをここで飼育できる。
+Coop_Chicken.description = <item is="Tool_Capture_Crate"/>で捕まえたニワトリをここで飼育できる.
 Coop_Chicken.name = ニワトリ小屋
-Bench_Cooking.description = 高度な料理を作れる本格的なキッチン。
+Bench_Cooking.description = 高度な料理を作れる本格的なキッチン.
 Bench_Cooking.name = シェフのコンロ
-Bench_Farming.description = 農業アクセサリーや動物の餌を製作するために使用する。
+Bench_Farming.description = 農業アクセサリーや動物の餌を製作するために使用する.
 Bench_Farming.name = 農家の作業台
-Bench_Furnace.description = 鉱石を金属バーに加工するために使用する。アップグレードすると製錬時間が短縮され、収納量が増加する。
+Bench_Furnace.description = 鉱石を金属バーに加工するために使用する. アップグレードすると製錬時間が短縮され, 収納量が増加する.
 Bench_Furnace.name = 溶鉱炉
-Bench_Loom.description = 布や魔法のアイテムを素材に加工するために使用する。
+Bench_Loom.description = 布や魔法のアイテムを素材に加工するために使用する.
 Bench_Loom.name = 織機
 Bench_Lumbermill.name = 木こりの台
 Bench_Memories.name = オービスの心臓
-Bench_Memories.description = <i>この像の近くでは、かすかな声が聞こえる。境界の向こうから、元の世界から来た存在のこだまが。</i>
-Bench_Salvage.description = 一部のアイテムを素材に分解するために使用できる。
+Bench_Memories.description = <i>この像の近くでは, かすかな声が聞こえる. 境界の向こうから, 元の世界から来た存在のこだまが. </i>
+Bench_Salvage.description = 一部のアイテムを素材に分解するために使用できる.
 Bench_Salvage.name = 解体師の作業台
-Bench_Tannery.description = 生皮をレザーに加工するために使用する。アップグレードすると加工時間が短縮され、収納量が増加する。
+Bench_Tannery.description = 生皮をレザーに加工するために使用する. アップグレードすると加工時間が短縮され, 収納量が増加する.
 Bench_Tannery.name = なめし台
-Bench_Trough.description = 農業アクセサリーや動物の餌を製作するために使用する。
+Bench_Trough.description = 農業アクセサリーや動物の餌を製作するために使用する.
 Bench_Trough.name = 飼い葉桶 - 給餌台
-Bench_Weapon.description = 基本的な武器を作るために使用する。
+Bench_Weapon.description = 基本的な武器を作るために使用する.
 Bench_Weapon.name = 鍛冶師の金床
-Bench_WorkBench.description = より複雑な道具やアイテムを製作できる作業台。\n\n<i>職人として生まれた者はいない。アバターでさえ技を磨く時間が必要だ。特に他者の領域のルールに縛られている場合はなおさらだ。</i>
+Bench_WorkBench.description = より複雑な道具やアイテムを製作できる作業台.\n\n<i>職人として生まれた者はいない. アバターでさえ技を磨く時間が必要だ. 特に他者の領域のルールに縛られている場合はなおさらだ. </i>
 Bench_WorkBench.name = 作業台
 Block_Spawner_Block.name = ブロックスポナー
-Block_Spawner_Block.description = BlockSpawnerTableアセットからブロックをスポーンします。設置後にインタラクトして設定できます。
+Block_Spawner_Block.description = BlockSpawnerTableアセットからブロックをスポーンします. 設置後にインタラクトして設定できます.
 Block_Spawner_Block_Large.name = 大型ブロックスポナー
-Block_Spawner_Block_Large.description = ブロックスポナーの大型版。BlockSpawnerTableアセットからブロックをスポーンします。設置後にインタラクトして設定できます。
+Block_Spawner_Block_Large.description = ブロックスポナーの大型版. BlockSpawnerTableアセットからブロックをスポーンします. 設置後にインタラクトして設定できます.
 Block_Spawner_Butterfly.name = チョウスポナー
 Block_Spawner_TempleSparks.name = 火花スポナー
 Block_Spawner_Wind.name = 風スポナー
@@ -292,11 +292,11 @@ Cloth_Roof_Yellow_Flap.name = 黄色い布の屋根 - フラップ
 Cloth_Roof_Yellow_Flat.name = 黄色い布の屋根 - 水平
 Cloth_Roof_Yellow_Vertical.name = 黄色い布の屋根 - 垂直
 Container_Bucket.name = 木製バケツ
-Container_Bucket.description = <color is="#ffffff">水</color>を入れたり、<color is="#ffffff">牛</color>のミルクを搾るために使用できる。
+Container_Bucket.description = <color is="#ffffff">水</color>を入れたり, <color is="#ffffff">牛</color>のミルクを搾るために使用できる.
 Container_Bucket_Water.name = 木製バケツ（水）
-Container_Bucket_Water.description = ワールドに設置できる<color is="#ffffff">水</color>が入っている。
+Container_Bucket_Water.description = ワールドに設置できる<color is="#ffffff">水</color>が入っている.
 Container_Bucket_Milk.name = 木製バケツ（ミルク）
-Container_Bucket_Milk.description = <color is="#ffffff">解毒</color>効果のある<color is="#ffffff">ミルク</color>が入っている。
+Container_Bucket_Milk.description = <color is="#ffffff">解毒</color>効果のある<color is="#ffffff">ミルク</color>が入っている.
 Container_Bucket_Mosshorn_Milk.name = 木製バケツ（モスホーンミルク）
 Container_Bucket_Mosshorn_Milk.description = <i>これは飲まない方がいいかもしれない…</i>
 Debug_Armor_D_Chest_Of_Damage_Reduction.name = デバッグ用レザー胸当て（ダメージ軽減）
@@ -339,11 +339,11 @@ Deco_Bone_Spine.name = 骨の棘
 Deco_Book_Pile_Large.name = 大きな本の山
 Deco_Book_Pile_Small.name = 小さな本の山
 Deco_Bucket.name = 古代のバケツ
-Deco_Bucket.description = <color is="#ffffff">水</color>を入れたり、<color is="#ffffff">牛</color>のミルクを搾るために使用できる。
+Deco_Bucket.description = <color is="#ffffff">水</color>を入れたり, <color is="#ffffff">牛</color>のミルクを搾るために使用できる.
 Deco_Bucket_Water.name = 古代のバケツ（水）
-Deco_Bucket_Water.description = ワールドに設置できる<color is="#ffffff">水</color>が入っている。
+Deco_Bucket_Water.description = ワールドに設置できる<color is="#ffffff">水</color>が入っている.
 Deco_Bucket_Milk.name = 古代のバケツ（ミルク）
-Deco_Bucket_Milk.description = <color is="#ffffff">解毒</color>効果のある<color is="#ffffff">ミルク</color>が入っている。
+Deco_Bucket_Milk.description = <color is="#ffffff">解毒</color>効果のある<color is="#ffffff">ミルク</color>が入っている.
 Deco_Bucket_Mosshorn_Milk.name = 古代のバケツ（モスホーンミルク）
 Deco_Bucket_Mosshorn_Milk.description = <i>これは飲まない方がいいかもしれない…</i>
 Deco_Campfire_Off.name = 消えた炭
@@ -369,7 +369,7 @@ Deco_Iron_Chains_Vertical.name = 鉄のチェーン
 Deco_Iron_Stack.name = 鉄の格子の束
 Deco_Kweebec_Plush.name = クウィーベックのぬいぐるみ
 Deco_Trophy_Harvest.name = 収穫のトロフィー
-Deco_Trophy_Harvest.description = <i>計り知れない価値を持つ遺物――少なくとも、そう見る者たちにとっては。その形はオービスのアバターの寵愛を映し出している。</i>
+Deco_Trophy_Harvest.description = <i>計り知れない価値を持つ遺物――少なくとも, そう見る者たちにとっては. その形はオービスのアバターの寵愛を映し出している. </i>
 Deco_Lantern.name = ランタン
 Deco_Lever.name = レバー
 Deco_Map.name = 古い地図
@@ -479,9 +479,9 @@ Deco_SpiderWeb_Full.name = クモの巣
 Deco_Spider_Cocoon.name = クモの繭
 Deco_Starfish.name = ヒトデ
 Deco_Tankard.name = タンカード
-Deco_Tankard.description = [TMP] <color is="#ffffff">水</color>を入れて料理に使用できる。
+Deco_Tankard.description = [TMP] <color is="#ffffff">水</color>を入れて料理に使用できる.
 Deco_Tankard_Water.name = タンカード（水）
-Deco_Tankard_Water.description = [TMP] 料理に使用できる<color is="#ffffff">水</color>が入っている。
+Deco_Tankard_Water.description = [TMP] 料理に使用できる<color is="#ffffff">水</color>が入っている.
 Deco_Target.name = 藁の的
 Deco_Trash.name = ゴミ
 Deco_Trash_Pile_Large.name = 大きなゴミの山
@@ -492,39 +492,39 @@ Deco_Treasure_Pile_Small.name = 小さな宝の山
 Deco_Trork_Cage.name = トロークの檻
 Deco_Wallchain.name = 壁のリング
 Editor_Anchor.name = エディターアンカー
-Editor_Anchor.description = プレハブのアンカーポイントを示す。プレハブ作成時は原点の位置に配置する。
+Editor_Anchor.description = プレハブのアンカーポイントを示す. プレハブ作成時は原点の位置に配置する.
 Editor_Block.name = エディターブロック
-Editor_Block.description = レベルデザイン用の可視プレースホルダーブロック。ゲームプレイには影響しない。
+Editor_Block.description = レベルデザイン用の可視プレースホルダーブロック. ゲームプレイには影響しない.
 Editor_Empty.name = エディター空白
-Editor_Empty.description = プレハブ内の空きスペースを表す。プレハブ配置時にブロックを明示的にクリアするために使用する。
+Editor_Empty.description = プレハブ内の空きスペースを表す. プレハブ配置時にブロックを明示的にクリアするために使用する.
 Egg_Spawner_Lantern.name = エッグスポナー - ペットランタン
 Egg_Spawner_Kweebec_Razorleaf.name = エッグスポナー - クウィーベックレイザーリーフ
 Egg_Spawner_Sheep.name = エッグスポナー - ヒツジ
 Egg_Spawner_Trork.name = エッグスポナー - トローク
 Farming_Collar.name = ペットのカラー
-Filter_Air_Block.description = 空気/空きブロックに一致するブラシフィルター。建築ツールのマスクスロットで使用して、塗装または置換時に空気ブロックのみに影響させる。
+Filter_Air_Block.description = 空気/空きブロックに一致するブラシフィルター. 建築ツールのマスクスロットで使用して, 塗装または置換時に空気ブロックのみに影響させる.
 Filter_Air_Block.name = フィルター - 空気ブロック
-Filter_PlantsAndTrees.description = 植物と木に一致するブラシフィルター。建築ツールのマスクスロットで使用して、塗装または置換時に植生のみに影響させる。
+Filter_PlantsAndTrees.description = 植物と木に一致するブラシフィルター. 建築ツールのマスクスロットで使用して, 塗装または置換時に植生のみに影響させる.
 Filter_PlantsAndTrees.name = フィルター - 植物と木
-Filter_TreeLeaves.description = 木の葉ブロックに一致するブラシフィルター。建築ツールのマスクスロットで使用して、塗装または置換時に葉のみに影響させる。
+Filter_TreeLeaves.description = 木の葉ブロックに一致するブラシフィルター. 建築ツールのマスクスロットで使用して, 塗装または置換時に葉のみに影響させる.
 Filter_TreeLeaves.name = フィルター - 木の葉
 Filter_Rock.name = フィルター - 岩
-Filter_Rock.description = 天然の岩ブロックに一致するブラシフィルター。建築ツールのマスクスロットで使用して、塗装または置換時に岩のみに影響させる。
+Filter_Rock.description = 天然の岩ブロックに一致するブラシフィルター. 建築ツールのマスクスロットで使用して, 塗装または置換時に岩のみに影響させる.
 Filter_Soils.name = フィルター - 土壌
-Filter_Soils.description = 土と草の地形に一致するブラシフィルター。建築ツールのマスクスロットで使用して、塗装または置換時に土壌ブロックのみに影響させる。
+Filter_Soils.description = 土と草の地形に一致するブラシフィルター. 建築ツールのマスクスロットで使用して, 塗装または置換時に土壌ブロックのみに影響させる.
 Filter_Gravel.name = フィルター - 砂利
-Filter_Gravel.description = 砂利と小石に一致するブラシフィルター。建築ツールのマスクスロットで使用して、塗装または置換時に砂利のみに影響させる。
+Filter_Gravel.description = 砂利と小石に一致するブラシフィルター. 建築ツールのマスクスロットで使用して, 塗装または置換時に砂利のみに影響させる.
 Filter_Snow.name = フィルター - 雪
-Filter_Snow.description = 雪ブロックに一致するブラシフィルター。建築ツールのマスクスロットで使用して、塗装または置換時に雪のみに影響させる。
+Filter_Snow.description = 雪ブロックに一致するブラシフィルター. 建築ツールのマスクスロットで使用して, 塗装または置換時に雪のみに影響させる.
 Filter_Ores.name = フィルター - 鉱石
-Filter_Ores.description = 鉱石ブロックに一致するブラシフィルター。建築ツールのマスクスロットで使用して、塗装または置換時に鉱石のみに影響させる。
+Filter_Ores.description = 鉱石ブロックに一致するブラシフィルター. 建築ツールのマスクスロットで使用して, 塗装または置換時に鉱石のみに影響させる.
 Filter_PlantScatter.name = フィルター - 植物散布
-Filter_PlantScatter.description = 小さな地面の植物に一致するブラシフィルター。建築ツールのマスクスロットで使用して、塗装または置換時に植物散布のみに影響させる。
+Filter_PlantScatter.description = 小さな地面の植物に一致するブラシフィルター. 建築ツールのマスクスロットで使用して, 塗装または置換時に植物散布のみに影響させる.
 Filter_AllScatter.name = フィルター - 全散布
-Filter_AllScatter.description = すべての散布オブジェクトに一致するブラシフィルター。建築ツールのマスクスロットで使用して、塗装または置換時に散布のみに影響させる。
-Filter_TreeWood.description = 木の幹と枝のブロックに一致するブラシフィルター。建築ツールのマスクスロットで使用して、塗装または置換時に木材のみに影響させる。
+Filter_AllScatter.description = すべての散布オブジェクトに一致するブラシフィルター. 建築ツールのマスクスロットで使用して, 塗装または置換時に散布のみに影響させる.
+Filter_TreeWood.description = 木の幹と枝のブロックに一致するブラシフィルター. 建築ツールのマスクスロットで使用して, 塗装または置換時に木材のみに影響させる.
 Filter_TreeWood.name = フィルター - 木材
-Filter_TreeWoodAndLeaves.description = 木材と葉ブロックの両方に一致するブラシフィルター。建築ツールのマスクスロットで使用して、塗装または置換時に木のみに影響させる。
+Filter_TreeWoodAndLeaves.description = 木材と葉ブロックの両方に一致するブラシフィルター. 建築ツールのマスクスロットで使用して, 塗装または置換時に木のみに影響させる.
 Filter_TreeWoodAndLeaves.name = フィルター - 木材と葉
 Fluid_Lava.name = 溶岩
 Fluid_Poison.name = 毒
@@ -592,7 +592,7 @@ Furniture_Christmas_Chest_Small_Green.name = 小さな緑のクリスマスパ�
 Furniture_Christmas_Chest_Small_Red.name = 小さな赤いクリスマスパッケージ
 Furniture_Christmas_Chest_Small_RedDotted.name = 小さな赤い水玉クリスマスパッケージ
 Furniture_Christmas_Chest_Small_White.name = 小さな白いクリスマスパッケージ
-Furniture_Crude_Bed.description = 設置すると、アバターのリスポーン地点をこの場所に設定できる。
+Furniture_Crude_Bed.description = 設置すると, アバターのリスポーン地点をこの場所に設定できる.
 Furniture_Crude_Bed.name = 粗末な寝袋
 Furniture_Crude_Brazier.name = 小さなたき火
 Furniture_Crude_Candle.name = キャンドル
@@ -606,7 +606,7 @@ Furniture_Crude_Sign.name = 粗末な看板
 Furniture_Crude_Stool.name = 粗末なスツール
 Furniture_Crude_Table.name = 粗末なテーブル
 Furniture_Crude_Torch.name = 粗末なたいまつ
-Furniture_Crude_Torch.description = <i>オービス最後の民にとって、火は文明を高みへと押し上げた創造の源であると同時に、最終的に彼らの滅亡をもたらした力でもあった。</i>
+Furniture_Crude_Torch.description = <i>オービス最後の民にとって, 火は文明を高みへと押し上げた創造の源であると同時に, 最終的に彼らの滅亡をもたらした力でもあった. </i>
 Furniture_Crude_Trapdoor.name = 粗末な落とし戸
 Furniture_Crude_Wardrobe.name = 粗末なワードローブ
 Furniture_Crude_Window.name = 粗末な窓
@@ -819,7 +819,7 @@ Furniture_Temple_Dark_Pot.name = 闇の神殿の壺
 Furniture_Temple_Dark_Shelf.name = 闇の神殿の棚
 Furniture_Temple_Dark_Sign.name = 闇の神殿の看板
 Furniture_Temple_Dark_Statue.name = 守護者の彫像
-Furniture_Temple_Dark_Statue.description = <i>ささやき声がアウトランダーたちをこの寒冷地に定住させたわけではなかった。しかし彼らが到着した時、すでにそのささやきが存在していたことは疑いようのない事実である。</i>
+Furniture_Temple_Dark_Statue.description = <i>ささやき声がアウトランダーたちをこの寒冷地に定住させたわけではなかった. しかし彼らが到着した時, すでにそのささやきが存在していたことは疑いようのない事実である. </i>
 Furniture_Temple_Dark_Statue_Gaia.name = アウトランダーの神の彫像
 Furniture_Temple_Dark_Stool.name = 闇の神殿のスツール
 Furniture_Temple_Dark_Table.name = 闇の神殿のテーブル
@@ -876,7 +876,7 @@ Furniture_Temple_Scarak_Platform.name = 原初のスカラクのプラットフ�
 Furniture_Temple_Scarak_Pot.name = 原初のスカラクの壺
 Furniture_Temple_Scarak_Secondary_Pot.name = 原初のスカラクの壺
 Furniture_Temple_Scarak_Statue.name = 創造主の彫像
-Furniture_Temple_Scarak_Statue.description = <i>滅びたスカラクたちにはるか昔に忘れられたが、創造主の彫像のいくつかは最も古い廃墟に今も立っている。それを偶然発見した少数の探検家たちは、失望と不承認の感覚が漂っていると語るだけだ――まるで石そのものが、最初で最後のスカラク女帝の下で行われた残虐行為の沈黙の目撃者として汚されているかのように。</i>
+Furniture_Temple_Scarak_Statue.description = <i>滅びたスカラクたちにはるか昔に忘れられたが, 創造主の彫像のいくつかは最も古い廃墟に今も立っている. それを偶然発見した少数の探検家たちは, 失望と不承認の感覚が漂っていると語るだけだ――まるで石そのものが, 最初で最後のスカラク女帝の下で行われた残虐行為の沈黙の目撃者として汚されているかのように. </i>
 Furniture_Temple_Scarak_Window.name = 原初のスカラクの窓
 Furniture_Temple_Wind_Candle.name = 風の神殿のキャンドル
 Furniture_Temple_Wind_Chandelier.name = 風の神殿のシャンデリア
@@ -927,7 +927,7 @@ Furniture_Village_Wardrobe.name = シンプルな木製ワードローブ
 Furniture_Village_Window.name = シンプルな木製窓
 Geyzer_Spawner1.name = ガイザースポナー 5秒
 Greenscreen.name = グリーンスクリーン
-Greenscreen.description = マシニマ収録や動画制作のための単色グリーン背景ブロック。
+Greenscreen.description = マシニマ収録や動画制作のための単色グリーン背景ブロック.
 Glider.name = グライダー
 Glider.description = 制作中
 Halloween_Basket_Pumpkin.name = ハロウィンかぼちゃバスケット
@@ -935,21 +935,21 @@ Halloween_Basket_Straw.name = ハロウィン藁バスケット
 Halloween_Broomstick.name = ハロウィンほうき
 Halloween_Wagon.name = ハロウィンワゴン
 Ingredient_Bar_Adamantite.name = アダマンタイトインゴット
-Ingredient_Bar_Adamantite.description = <item is="Ore_Adamantite"/>を採掘するには高品質なつるはしが必要。\n\n<i>この希少な金属はかつてクルーシブルの民の発展に欠かせないものだった。かつての栄光の面影はほとんど残っていないが、焦土の深部には今も強靭な鉱石の痕跡が見つかる。</i>
+Ingredient_Bar_Adamantite.description = <item is="Ore_Adamantite"/>を採掘するには高品質なつるはしが必要.\n\n<i>この希少な金属はかつてクルーシブルの民の発展に欠かせないものだった. かつての栄光の面影はほとんど残っていないが, 焦土の深部には今も強靭な鉱石の痕跡が見つかる. </i>
 Ingredient_Bar_Bronze.name = ブロンズインゴット
 Ingredient_Bar_Cobalt.name = コバルトインゴット
-Ingredient_Bar_Cobalt.description = <i>アウトランダーの神話では、この金属は溶けていても触れると冷たいと言われている。確かめることは得策ではないが、その産地である彼らの領土の厳寒の山頂や凍てついた洞窟を考えると、その話にも一理あるかもしれない。</i>
+Ingredient_Bar_Cobalt.description = <i>アウトランダーの神話では, この金属は溶けていても触れると冷たいと言われている. 確かめることは得策ではないが, その産地である彼らの領土の厳寒の山頂や凍てついた洞窟を考えると, その話にも一理あるかもしれない. </i>
 Ingredient_Bar_Copper.name = 銅インゴット
-Ingredient_Bar_Copper.description = オービス全域で見つかる鉱石から製錬される一般的な金属。
+Ingredient_Bar_Copper.description = オービス全域で見つかる鉱石から製錬される一般的な金属.
 Ingredient_Bar_Gold.name = 金インゴット
 Ingredient_Bar_Iron.name = 鉄インゴット
-Ingredient_Bar_Iron.description = 天然に豊富に存在し、信頼できる強度を持つことから、一般的な道具や武器を作るのに最適な素材である。
+Ingredient_Bar_Iron.description = 天然に豊富に存在し, 信頼できる強度を持つことから, 一般的な道具や武器を作るのに最適な素材である.
 Ingredient_Bar_Mithril.name = ミスリルインゴット
 Ingredient_Bar_Onyxium.name = オニキシウムインゴット
 Ingredient_Bar_Prisma.name = プリズマインゴット
 Ingredient_Bar_Silver.name = 銀インゴット
 Ingredient_Bar_Thorium.name = ソリウムインゴット
-Ingredient_Bar_Thorium.description = <i>フェランはこの金属を自ら使うことはないが、灼熱の砂漠と乾燥した荒地にある鉱床を厳しく監視している。永年の敵が再び台頭した場合、これらの埋蔵量が最初に狙われる場所となるだろう。</i>
+Ingredient_Bar_Thorium.description = <i>フェランはこの金属を自ら使うことはないが, 灼熱の砂漠と乾燥した荒地にある鉱床を厳しく監視している. 永年の敵が再び台頭した場合, これらの埋蔵量が最初に狙われる場所となるだろう. </i>
 Ingredient_Bolt_Cindercloth.name = シンダークロスの布地
 Ingredient_Bolt_Cotton.name = コットンの布地
 Ingredient_Bolt_Linen.name = リネンの布地
@@ -959,7 +959,7 @@ Ingredient_Bolt_Silk.name = シルクの布地
 Ingredient_Bolt_Stormsilk.name = ストームシルクの布地
 Ingredient_Bolt_Wool.name = ウールの布地
 Ingredient_Bone_Fragment.name = 骨の破片
-Ingredient_Bone_Fragment.description = <i>オービスの最も進んだ文明には共通の特徴があった――それが最終的に彼らの滅亡を招いた傲慢さだ。これらの骨の破片と、それが採取された呪われた生き物は、踏み込まない方が良い道があることを思い起こさせるものとなるだろう。</i>
+Ingredient_Bone_Fragment.description = <i>オービスの最も進んだ文明には共通の特徴があった――それが最終的に彼らの滅亡を招いた傲慢さだ. これらの骨の破片と, それが採取された呪われた生き物は, 踏み込まない方が良い道があることを思い起こさせるものとなるだろう. </i>
 Ingredient_Charcoal.name = 木炭
 Ingredient_Crystal_Blue.name = 青いクリスタルの破片
 Ingredient_Crystal_Cyan.name = シアンのクリスタルの破片
@@ -970,13 +970,13 @@ Ingredient_Crystal_Red.name = 赤いクリスタルの破片
 Ingredient_Crystal_White.name = 白いクリスタルの破片
 Ingredient_Crystal_Yellow.name = 黄色いクリスタルの破片
 Ingredient_Fabric_Scrap_Cindercloth.name = シンダークロスの端切れ
-Ingredient_Fabric_Scrap_Cindercloth.description = <i>呪われた炎がクルーシブルを焼き尽くした時、何一つ変わらないものはなかった。かつての住民の焦げた骨から救い出されたこの布の端切れでさえ、今も不思議な熱を放ち続けている。</i>
+Ingredient_Fabric_Scrap_Cindercloth.description = <i>呪われた炎がクルーシブルを焼き尽くした時, 何一つ変わらないものはなかった. かつての住民の焦げた骨から救い出されたこの布の端切れでさえ, 今も不思議な熱を放ち続けている. </i>
 Ingredient_Fabric_Scrap_Cotton.name = コットンの端切れ
 Ingredient_Fabric_Scrap_Linen.name = リネンの端切れ
-Ingredient_Fabric_Scrap_Linen.description = オービスの多くの種族が衣服を作るために使用する一般的な布の端切れ。
+Ingredient_Fabric_Scrap_Linen.description = オービスの多くの種族が衣服を作るために使用する一般的な布の端切れ.
 Ingredient_Fabric_Scrap_Prismaloom.name = プリズマルームの端切れ
 Ingredient_Fabric_Scrap_Shadoweave.name = シャドウウィーブの端切れ
-Ingredient_Fabric_Scrap_Shadoweave.description = <i>この重い布地は、静かで沈鬱な闇をまとい、アウトランダーたちがヴォイドとの最初の交わりを持つ前に考案されたものだ。今も彼らの衣服の核心的な素材であり続けているが、その製法の秘密はとうの昔に失われた。</i>
+Ingredient_Fabric_Scrap_Shadoweave.description = <i>この重い布地は, 静かで沈鬱な闇をまとい, アウトランダーたちがヴォイドとの最初の交わりを持つ前に考案されたものだ. 今も彼らの衣服の核心的な素材であり続けているが, その製法の秘密はとうの昔に失われた. </i>
 Ingredient_Fabric_Scrap_Silk.name = シルクの端切れ
 Ingredient_Fabric_Scrap_Stormsilk.name = ストームシルクの端切れ
 Ingredient_Fabric_Scrap_Wool.name = ウールの端切れ
@@ -987,28 +987,28 @@ Ingredient_Feathers_Red.name = 赤い羽
 Ingredient_Fibre.name = 植物繊維
 Ingredient_Hay.name = 干し草の俵
 Ingredient_Hide_Dark.name = ダークハイド
-Ingredient_Hide_Dark.description = <item is="Bench_Tannery"/>で<item is="Ingredient_Leather_Dark"/>に加工できる。
+Ingredient_Hide_Dark.description = <item is="Bench_Tannery"/>で<item is="Ingredient_Leather_Dark"/>に加工できる.
 Ingredient_Hide_Heavy.name = ヘビーハイド
-Ingredient_Hide_Heavy.description = <item is="Bench_Tannery"/>で<item is="Ingredient_Leather_Heavy"/>に加工できる。
+Ingredient_Hide_Heavy.description = <item is="Bench_Tannery"/>で<item is="Ingredient_Leather_Heavy"/>に加工できる.
 Ingredient_Hide_Light.name = ライトハイド
-Ingredient_Hide_Light.description = <item is="Bench_Tannery"/>で<item is="Ingredient_Leather_Light"/>に加工できる。
+Ingredient_Hide_Light.description = <item is="Bench_Tannery"/>で<item is="Ingredient_Leather_Light"/>に加工できる.
 Ingredient_Hide_Medium.name = ミディアムハイド
-Ingredient_Hide_Medium.description = <item is="Bench_Tannery"/>で<item is="Ingredient_Leather_Medium"/>に加工できる。
+Ingredient_Hide_Medium.description = <item is="Bench_Tannery"/>で<item is="Ingredient_Leather_Medium"/>に加工できる.
 Ingredient_Hide_Prismic.name = プリズマティックハイド
-Ingredient_Hide_Prismic.description = <item is="Bench_Tannery"/>で<item is="Ingredient_Leather_Prismic"/>に加工できる。
+Ingredient_Hide_Prismic.description = <item is="Bench_Tannery"/>で<item is="Ingredient_Leather_Prismic"/>に加工できる.
 Ingredient_Hide_Scaled.name = スケールドハイド
-Ingredient_Hide_Scaled.description = <item is="Bench_Tannery"/>で<item is="Ingredient_Leather_Scaled"/>に加工できる。
+Ingredient_Hide_Scaled.description = <item is="Bench_Tannery"/>で<item is="Ingredient_Leather_Scaled"/>に加工できる.
 Ingredient_Hide_Soft.name = ソフトハイド
-Ingredient_Hide_Soft.description = <item is="Bench_Tannery"/>で<item is="Ingredient_Leather_Soft"/>に加工できる。
+Ingredient_Hide_Soft.description = <item is="Bench_Tannery"/>で<item is="Ingredient_Leather_Soft"/>に加工できる.
 Ingredient_Hide_Storm.name = ストームハイド
-Ingredient_Hide_Storm.description = <item is="Bench_Tannery"/>で<item is="Ingredient_Leather_Storm"/>に加工できる。
+Ingredient_Hide_Storm.description = <item is="Bench_Tannery"/>で<item is="Ingredient_Leather_Storm"/>に加工できる.
 Ingredient_Leather_Dark.name = ダークレザー
 Ingredient_Leather_Heavy.name = ヘビーレザー
-Ingredient_Leather_Heavy.description = 頂点捕食者の厚い皮から加工される。\n\n<i>すべての狩人は神話の中でのみ語られる生き物を仕留めることを夢見ている。英雄の時代に協力し合った少数の者を除けば、ほとんどの狩人はクマやオオカミなどの頂点捕食者で満足しなければならない。</i>
+Ingredient_Leather_Heavy.description = 頂点捕食者の厚い皮から加工される.\n\n<i>すべての狩人は神話の中でのみ語られる生き物を仕留めることを夢見ている. 英雄の時代に協力し合った少数の者を除けば, ほとんどの狩人はクマやオオカミなどの頂点捕食者で満足しなければならない. </i>
 Ingredient_Leather_Light.name = ライトレザー
-Ingredient_Leather_Light.description = 荒野に広く生息する一般的な獲物の皮から加工される。
+Ingredient_Leather_Light.description = 荒野に広く生息する一般的な獲物の皮から加工される.
 Ingredient_Leather_Medium.name = ミディアムレザー
-Ingredient_Leather_Medium.description = 中型の脅威や装甲獣の丈夫な皮から加工される。
+Ingredient_Leather_Medium.description = 中型の脅威や装甲獣の丈夫な皮から加工される.
 Ingredient_Leather_Prismic.name = プリズマティックレザー
 Ingredient_Leather_Scaled.name = スケールドレザー
 Ingredient_Leather_Soft.name = ソフトレザー
@@ -1017,19 +1017,19 @@ Ingredient_Motes_Light.name = 光の微粒子
 Ingredient_Poop.name = ふん
 Ingredient_Powder_Boom.name = 爆発粉末
 Ingredient_Fire_Essence.name = 炎のエッセンス
-Ingredient_Fire_Essence.description = <i>このエネルギーはかつてクルーシブルの職人たちの夢に形を与えていた。今日では、荒廃した火山地帯に生息する生き物の中にかすかに残るだけだ。</i>
+Ingredient_Fire_Essence.description = <i>このエネルギーはかつてクルーシブルの職人たちの夢に形を与えていた. 今日では, 荒廃した火山地帯に生息する生き物の中にかすかに残るだけだ. </i>
 Ingredient_Ice_Essence.name = 氷のエッセンス
-Ingredient_Ice_Essence.description = <i>アウトランダーたちが炎を拒み、同胞と袂を分かった時、彼らは代わりに寒冷地と、押し寄せる氷河の中に宿る脆くも強き力へと向かった。</i>
+Ingredient_Ice_Essence.description = <i>アウトランダーたちが炎を拒み, 同胞と袂を分かった時, 彼らは代わりに寒冷地と, 押し寄せる氷河の中に宿る脆くも強き力へと向かった. </i>
 Ingredient_Life_Essence.name = 生命のエッセンス
-Ingredient_Life_Essence.description = <i>オービスの植物の周辺に豊富に存在する、溢れ出る生命エネルギーの一形態。十分な濃度があれば、かつてなかった場所に知性を芽生えさせることさえできるかもしれない。</i>
+Ingredient_Life_Essence.description = <i>オービスの植物の周辺に豊富に存在する, 溢れ出る生命エネルギーの一形態. 十分な濃度があれば, かつてなかった場所に知性を芽生えさせることさえできるかもしれない. </i>
 Ingredient_Life_Essence_Concentrated.name = 上位の生命のエッセンス
-Ingredient_Life_Essence_Concentrated.description = <color is="#3e9049">生命のエッセンス100個</color>相当の集合体。
+Ingredient_Life_Essence_Concentrated.description = <color is="#3e9049">生命のエッセンス100個</color>相当の集合体.
 Ingredient_Lightning_Essence.name = 雷のエッセンス
-Ingredient_Lightning_Essence.description = <i>荒れ狂う嵐は何世紀にもわたって多くの生き物を引き寄せてきた。そのような魔力の真の源は見つかっていないが、その残滓から生まれたエレメンタルたちは今も大地をさまよっている。</i>
+Ingredient_Lightning_Essence.description = <i>荒れ狂う嵐は何世紀にもわたって多くの生き物を引き寄せてきた. そのような魔力の真の源は見つかっていないが, その残滓から生まれたエレメンタルたちは今も大地をさまよっている. </i>
 Ingredient_Void_Essence.name = ヴォイドのエッセンス
-Ingredient_Void_Essence.description = <i>ヴォイドの生き物がこのエッセンスを生み出すのか、それともその存在を維持するためにエッセンスが必要なのかは不明だ。確かなことは、両者は切っても切れない関係にあるということだ。</i>
+Ingredient_Void_Essence.description = <i>ヴォイドの生き物がこのエッセンスを生み出すのか, それともその存在を維持するためにエッセンスが必要なのかは不明だ. 確かなことは, 両者は切っても切れない関係にあるということだ. </i>
 Ingredient_Water_Essence.name = 水のエッセンス
-Ingredient_Water_Essence.description = <i>魚でさえ魔力と自然な親和性を持っている。水がエラを通過するにつれて、その濃度は増していく。おそらくそこにこそ、オービスの最も暗い深海に潜む深淵の生き物の秘密が隠されているのだろう。</i>
+Ingredient_Water_Essence.description = <i>魚でさえ魔力と自然な親和性を持っている. 水がエラを通過するにつれて, その濃度は増していく. おそらくそこにこそ, オービスの最も暗い深海に潜む深淵の生き物の秘密が隠されているのだろう. </i>
 Ingredient_Sinue_Cindersinue.name = シンダーシニュー
 Ingredient_Stick.name = 棒
 Ingredient_Strap_Leather.name = レザーストラップ
@@ -1041,7 +1041,7 @@ Media_RemoteControl.name = メディアリモコン
 Objective_Bounty.name = 賞金
 Objective_Treasure_Map.name = 宝の地図
 Ore_Adamantite.name = アダマンタイト鉱石
-Ore_Adamantite.description = <item is="Bench_Furnace"/>で<item is="Ingredient_Bar_Adamantite"/>に製錬できる。
+Ore_Adamantite.description = <item is="Bench_Furnace"/>で<item is="Ingredient_Bar_Adamantite"/>に製錬できる.
 Ore_Adamantite_Basalt.name = アダマンタイト鉱石 - 玄武岩
 Ore_Adamantite_Shale.name = アダマンタイト鉱石 - 頁岩
 Ore_Adamantite_Slate.name = アダマンタイト鉱石 - スレート
@@ -1049,7 +1049,7 @@ Ore_Adamantite_Stone.name = アダマンタイト鉱石 - 石
 Ore_Adamantite_Volcanic.name = アダマンタイト鉱石 - 火山岩
 Ore_Adamantite_Magma.name = アダマンタイト鉱石 - マグマ
 Ore_Cobalt.name = コバルト鉱石
-Ore_Cobalt.description = <item is="Bench_Furnace"/>で<item is="Ingredient_Bar_Cobalt"/>に製錬できる。
+Ore_Cobalt.description = <item is="Bench_Furnace"/>で<item is="Ingredient_Bar_Cobalt"/>に製錬できる.
 Ore_Cobalt_Basalt.name = コバルト鉱石 - 玄武岩
 Ore_Cobalt_Sandstone.name = コバルト鉱石 - 砂岩
 Ore_Cobalt_Shale.name = コバルト鉱石 - 頁岩
@@ -1057,14 +1057,14 @@ Ore_Cobalt_Slate.name = コバルト鉱石 - スレート
 Ore_Cobalt_Stone.name = コバルト鉱石 - 石
 Ore_Cobalt_Volcanic.name = コバルト鉱石 - 火山岩
 Ore_Copper.name = 銅鉱石
-Ore_Copper.description = <item is="Bench_Furnace"/>で<item is="Ingredient_Bar_Copper"/>に製錬できる。
+Ore_Copper.description = <item is="Bench_Furnace"/>で<item is="Ingredient_Bar_Copper"/>に製錬できる.
 Ore_Copper_Basalt.name = 銅鉱石 - 玄武岩
 Ore_Copper_Sandstone.name = 銅鉱石 - 砂岩
 Ore_Copper_Shale.name = 銅鉱石 - 頁岩
 Ore_Copper_Stone.name = 銅鉱石 - 石
 Ore_Copper_Volcanic.name = 銅鉱石 - 火山岩
 Ore_Gold.name = 金鉱石
-Ore_Gold.description = <item is="Bench_Furnace"/>で<item is="Ingredient_Bar_Gold"/>に製錬できる。
+Ore_Gold.description = <item is="Bench_Furnace"/>で<item is="Ingredient_Bar_Gold"/>に製錬できる.
 Ore_Gold_Basalt.name = 金鉱石 - 玄武岩
 Ore_Gold_Sandstone.name = 金鉱石 - 砂岩
 Ore_Gold_Shale.name = 金鉱石 - 頁岩
@@ -1072,7 +1072,7 @@ Ore_Gold_Stone.name = 金鉱石 - 石
 Ore_Gold_Volcanic.name = 金鉱石 - 火山岩
 Ore_Gold_Calcite.name = 金鉱石 - 石灰岩
 Ore_Iron.name = 鉄鉱石
-Ore_Iron.description = <item is="Bench_Furnace"/>で<item is="Ingredient_Bar_Iron"/>に製錬できる。
+Ore_Iron.description = <item is="Bench_Furnace"/>で<item is="Ingredient_Bar_Iron"/>に製錬できる.
 Ore_Iron_Basalt.name = 鉄鉱石 - 玄武岩
 Ore_Iron_Sandstone.name = 鉄鉱石 - 砂岩
 Ore_Iron_Shale.name = 鉄鉱石 - 頁岩
@@ -1080,23 +1080,23 @@ Ore_Iron_Slate.name = 鉄鉱石 - スレート
 Ore_Iron_Stone.name = 鉄鉱石 - 石
 Ore_Iron_Volcanic.name = 鉄鉱石 - 火山岩
 Ore_Mithril.name = ミスリル鉱石
-Ore_Mithril.description = <item is="Bench_Furnace"/>で<item is="Ingredient_Bar_Mithril"/>に製錬できる。
+Ore_Mithril.description = <item is="Bench_Furnace"/>で<item is="Ingredient_Bar_Mithril"/>に製錬できる.
 Ore_Mithril_Basalt.name = ミスリル鉱石 - 玄武岩
 Ore_Mithril_Magma.name = ミスリル鉱石 - マグマ
 Ore_Mithril_Slate.name = ミスリル鉱石 - スレート
 Ore_Mithril_Stone.name = ミスリル鉱石 - 石
 Ore_Mithril_Volcanic.name = ミスリル鉱石 - 火山岩
 Ore_Onyxium.name = オニキシウム鉱石
-Ore_Onyxium.description = <item is="Bench_Furnace"/>で<item is="Ingredient_Bar_Onyxium"/>に製錬できる。
+Ore_Onyxium.description = <item is="Bench_Furnace"/>で<item is="Ingredient_Bar_Onyxium"/>に製錬できる.
 Ore_Onyxium_Basalt.name = オニキシウム鉱石 - 玄武岩
 Ore_Onyxium_Stone.name = オニキシウム鉱石 - 石
 Ore_Onyxium_Shale.name = オニキシウム鉱石 - 頁岩
 Ore_Onyxium_Volcanic.name = オニキシウム鉱石 - 火山岩
 Ore_Onyxium_Sandstone.name = オニキシウム鉱石 - 砂岩
 Ore_Prisma.name = プリズマ鉱石
-Ore_Prisma.description = <item is="Bench_Furnace"/>で<item is="Ingredient_Bar_Prisma"/>に製錬できる。
+Ore_Prisma.description = <item is="Bench_Furnace"/>で<item is="Ingredient_Bar_Prisma"/>に製錬できる.
 Ore_Silver.name = 銀鉱石
-Ore_Silver.description = <item is="Bench_Furnace"/>で<item is="Ingredient_Bar_Silver"/>に製錬できる。
+Ore_Silver.description = <item is="Bench_Furnace"/>で<item is="Ingredient_Bar_Silver"/>に製錬できる.
 Ore_Silver_Basalt.name = 銀鉱石 - 玄武岩
 Ore_Silver_Sandstone.name = 銀鉱石 - 砂岩
 Ore_Silver_Shale.name = 銀鉱石 - 頁岩
@@ -1104,7 +1104,7 @@ Ore_Silver_Slate.name = 銀鉱石 - スレート
 Ore_Silver_Stone.name = 銀鉱石 - 石
 Ore_Silver_Volcanic.name = 銀鉱石 - 火山岩
 Ore_Thorium.name = ソリウム鉱石
-Ore_Thorium.description = <item is="Bench_Furnace"/>で<item is="Ingredient_Bar_Thorium"/>に製錬できる。
+Ore_Thorium.description = <item is="Bench_Furnace"/>で<item is="Ingredient_Bar_Thorium"/>に製錬できる.
 Ore_Thorium_Basalt.name = ソリウム鉱石 - 玄武岩
 Ore_Thorium_Sandstone.name = ソリウム鉱石 - 砂岩
 Ore_Thorium_Shale.name = ソリウム鉱石 - 頁岩
@@ -1576,31 +1576,31 @@ Plant_Moss_Wall_Red.name = 赤い壁のコケ
 Plant_Moss_Wall_Yellow.name = 黄色い壁のコケ
 Plant_Moss_Yellow.name = 黄色いコケ
 Plant_Petals_Azure.name = アジュールの花びら
-Plant_Petals_Azure.description = [TMP] アジュールファーン、アジュールキャップキノコ、アジュールケルプを破壊することで入手できる。
+Plant_Petals_Azure.description = [TMP] アジュールファーン, アジュールキャップキノコ, アジュールケルプを破壊することで入手できる.
 Plant_Petals_Black.name = 黒い花びら
-Plant_Petals_Black.description = [TMP] 黒い花を破壊することで入手できる。
+Plant_Petals_Black.description = [TMP] 黒い花を破壊することで入手できる.
 Plant_Petals_Blood.name = 血の花びら
-Plant_Petals_Blood.description = [TMP] ブラッドローズ、ブラッドキャップキノコ、ブラッドリーフを破壊することで入手できる。
+Plant_Petals_Blood.description = [TMP] ブラッドローズ, ブラッドキャップキノコ, ブラッドリーフを破壊することで入手できる.
 Plant_Petals_Blue.name = 青い花びら
-Plant_Petals_Blue.description = [TMP] 青い花を破壊することで入手できる。
+Plant_Petals_Blue.description = [TMP] 青い花を破壊することで入手できる.
 Plant_Petals_Cyan.name = シアンの花びら
-Plant_Petals_Cyan.description = [TMP] シアンの花を破壊することで入手できる。
+Plant_Petals_Cyan.description = [TMP] シアンの花を破壊することで入手できる.
 Plant_Petals_Green.name = 緑の花びら
-Plant_Petals_Green.description = [TMP] 緑の花を破壊することで入手できる。
+Plant_Petals_Green.description = [TMP] 緑の花を破壊することで入手できる.
 Plant_Petals_Orange.name = オレンジの花びら
-Plant_Petals_Orange.description = [TMP] オレンジの花を破壊することで入手できる。
+Plant_Petals_Orange.description = [TMP] オレンジの花を破壊することで入手できる.
 Plant_Petals_Pink.name = ピンクの花びら
-Plant_Petals_Pink.description = [TMP] ピンクの花を破壊することで入手できる。
+Plant_Petals_Pink.description = [TMP] ピンクの花を破壊することで入手できる.
 Plant_Petals_Purple.name = 紫の花びら
-Plant_Petals_Purple.description = [TMP] 紫の花を破壊することで入手できる。
+Plant_Petals_Purple.description = [TMP] 紫の花を破壊することで入手できる.
 Plant_Petals_Red.name = 赤い花びら
-Plant_Petals_Red.description = [TMP] 赤い花を破壊することで入手できる。
+Plant_Petals_Red.description = [TMP] 赤い花を破壊することで入手できる.
 Plant_Petals_Storm.name = ストームの花びら
-Plant_Petals_Storm.description = [TMP] ストームシスル、ストームキャップキノコ、ストームの苗木を破壊することで入手できる。
+Plant_Petals_Storm.description = [TMP] ストームシスル, ストームキャップキノコ, ストームの苗木を破壊することで入手できる.
 Plant_Petals_White.name = 白い花びら
-Plant_Petals_White.description = [TMP] 白い花を破壊することで入手できる。
+Plant_Petals_White.description = [TMP] 白い花を破壊することで入手できる.
 Plant_Petals_Yellow.name = 黄色い花びら
-Plant_Petals_Yellow.description = [TMP] 黄色い花を破壊することで入手できる。
+Plant_Petals_Yellow.description = [TMP] 黄色い花を破壊することで入手できる.
 Plant_Reeds_Arid.name = パピルスのアシ
 Plant_Reeds_Lava.name = 溶岩のアシ
 Plant_Reeds_Marsh.name = 川のアシ
@@ -1612,78 +1612,78 @@ Plant_Roots_Cave.name = ぶら下がる洞窟の根
 Plant_Roots_Cave_Small.name = 洞窟の根
 Plant_Roots_Leafy.name = 葉の多い洞窟の根
 Plant_Sapling_Ash.name = トネリコの苗木
-Plant_Sapling_Ash.description = [TMP] <color is="#ffffff">トネリコの木</color>に成長する。\n• <color is="#ffffff">硬木</color>が採れる\n\n成長時間:\n• <color is="#4ade80">5</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">2</color> <color is="#ffffff">日</color>
+Plant_Sapling_Ash.description = [TMP] <color is="#ffffff">トネリコの木</color>に成長する.\n• <color is="#ffffff">硬木</color>が採れる\n\n成長時間:\n• <color is="#4ade80">5</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">2</color> <color is="#ffffff">日</color>
 Plant_Sapling_Apple.name = りんごの苗木
-Plant_Sapling_Apple.description = [TMP] <color is="#ffffff">りんごの木</color>に成長する。\n• <color is="#ffffff">硬木</color>が採れる\n• <color is="#4ade80">8</color>個の<color is="#ffffff">りんご</color>が育つ\n• りんごは<color is="#4ade80">12</color><color is="#ffffff">時間</color>ごとに再成長する\n\n成長時間:\n• <color is="#4ade80">5</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">5</color> <color is="#ffffff">日</color>
+Plant_Sapling_Apple.description = [TMP] <color is="#ffffff">りんごの木</color>に成長する.\n• <color is="#ffffff">硬木</color>が採れる\n• <color is="#4ade80">8</color>個の<color is="#ffffff">りんご</color>が育つ\n• りんごは<color is="#4ade80">12</color><color is="#ffffff">時間</color>ごとに再成長する\n\n成長時間:\n• <color is="#4ade80">5</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">5</color> <color is="#ffffff">日</color>
 Plant_Sapling_Azure.name = アジュールの苗木
-Plant_Sapling_Azure.description = [TMP] <color is="#ffffff">アジュールの木</color>に成長する。\n• <color is="#ffffff">アジュールウッド</color>が採れる\n\n成長時間:\n• <color is="#4ade80">5</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">2</color> <color is="#ffffff">日</color>
+Plant_Sapling_Azure.description = [TMP] <color is="#ffffff">アジュールの木</color>に成長する.\n• <color is="#ffffff">アジュールウッド</color>が採れる\n\n成長時間:\n• <color is="#4ade80">5</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">2</color> <color is="#ffffff">日</color>
 Plant_Sapling_Amber.name = 琥珀色の苗木
-Plant_Sapling_Amber.description = [TMP] <color is="#ffffff">琥珀色の木</color>に成長する。\n• <color is="#ffffff">ゴールデンウッド</color>が採れる\n\n成長時間:\n• <color is="#4ade80">2</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">1</color> <color is="#ffffff">日</color>
+Plant_Sapling_Amber.description = [TMP] <color is="#ffffff">琥珀色の木</color>に成長する.\n• <color is="#ffffff">ゴールデンウッド</color>が採れる\n\n成長時間:\n• <color is="#4ade80">2</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">1</color> <color is="#ffffff">日</color>
 Plant_Seeds_Amber.name = 琥珀色の種袋
 Plant_Sapling_Aspen.name = アスペンの苗木
-Plant_Sapling_Aspen.description = [TMP] <color is="#ffffff">アスペンの木</color>に成長する。\n• <color is="#ffffff">軟木</color>が採れる\n\n成長時間:\n• <color is="#4ade80">5</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">2</color> <color is="#ffffff">日</color>
+Plant_Sapling_Aspen.description = [TMP] <color is="#ffffff">アスペンの木</color>に成長する.\n• <color is="#ffffff">軟木</color>が採れる\n\n成長時間:\n• <color is="#4ade80">5</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">2</color> <color is="#ffffff">日</color>
 Plant_Sapling_Bamboo.name = 竹の苗木
-Plant_Sapling_Bamboo.description = [TMP] <color is="#ffffff">竹</color>に成長する。\n• <color is="#ffffff">熱帯材</color>が採れる\n\n成長時間:\n• <color is="#4ade80">5</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">2</color> <color is="#ffffff">日</color>
+Plant_Sapling_Bamboo.description = [TMP] <color is="#ffffff">竹</color>に成長する.\n• <color is="#ffffff">熱帯材</color>が採れる\n\n成長時間:\n• <color is="#4ade80">5</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">2</color> <color is="#ffffff">日</color>
 Plant_Sapling_Banyan.name = バニヤンの苗木
-Plant_Sapling_Banyan.description = [TMP] <color is="#ffffff">バニヤンの木</color>に成長する。\n• <color is="#ffffff">軟木</color>が採れる\n\n成長時間:\n• <color is="#4ade80">3</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">1</color> <color is="#ffffff">日</color>
+Plant_Sapling_Banyan.description = [TMP] <color is="#ffffff">バニヤンの木</color>に成長する.\n• <color is="#ffffff">軟木</color>が採れる\n\n成長時間:\n• <color is="#4ade80">3</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">1</color> <color is="#ffffff">日</color>
 Plant_Sapling_Beech.name = ブナの苗木
-Plant_Sapling_Beech.description = [TMP] <color is="#ffffff">ブナの木</color>に成長する。\n• <color is="#ffffff">軟木</color>が採れる\n\n成長時間:\n• <color is="#4ade80">5</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">2</color> <color is="#ffffff">日</color>
+Plant_Sapling_Beech.description = [TMP] <color is="#ffffff">ブナの木</color>に成長する.\n• <color is="#ffffff">軟木</color>が採れる\n\n成長時間:\n• <color is="#4ade80">5</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">2</color> <color is="#ffffff">日</color>
 Plant_Sapling_Birch.name = 白樺の苗木
-Plant_Sapling_Birch.description = [TMP] <color is="#ffffff">白樺の木</color>に成長する。\n• <color is="#ffffff">軽木</color>が採れる\n\n成長時間:\n• <color is="#4ade80">5</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">2</color> <color is="#ffffff">日</color>
+Plant_Sapling_Birch.description = [TMP] <color is="#ffffff">白樺の木</color>に成長する.\n• <color is="#ffffff">軽木</color>が採れる\n\n成長時間:\n• <color is="#4ade80">5</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">2</color> <color is="#ffffff">日</color>
 Plant_Sapling_Bottletree.name = ボトルツリーの苗木
-Plant_Sapling_Bottletree.description = [TMP] <color is="#ffffff">ボトルツリー</color>に成長する。\n• <color is="#ffffff">乾燥材</color>が採れる\n\n成長時間:\n• <color is="#4ade80">5</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">2</color> <color is="#ffffff">日</color>
+Plant_Sapling_Bottletree.description = [TMP] <color is="#ffffff">ボトルツリー</color>に成長する.\n• <color is="#ffffff">乾燥材</color>が採れる\n\n成長時間:\n• <color is="#4ade80">5</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">2</color> <color is="#ffffff">日</color>
 Plant_Sapling_Camphor.name = クスノキの苗木
-Plant_Sapling_Camphor.description = [TMP] <color is="#ffffff">クスノキ</color>に成長する。\n• <color is="#ffffff">軽木</color>が採れる\n\n成長時間:\n• <color is="#4ade80">1</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">N/A</color>
+Plant_Sapling_Camphor.description = [TMP] <color is="#ffffff">クスノキ</color>に成長する.\n• <color is="#ffffff">軽木</color>が採れる\n\n成長時間:\n• <color is="#4ade80">1</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">N/A</color>
 Plant_Seeds_Camphor.name = クスノキの種袋
 Plant_Sapling_Cedar.name = 杉の苗木
-Plant_Sapling_Cedar.description = [TMP] <color is="#ffffff">杉の木</color>に成長する。\n• <color is="#ffffff">ダークウッド</color>が採れる\n\n成長時間:\n• <color is="#4ade80">5</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">2</color> <color is="#ffffff">日</color>
+Plant_Sapling_Cedar.description = [TMP] <color is="#ffffff">杉の木</color>に成長する.\n• <color is="#ffffff">ダークウッド</color>が採れる\n\n成長時間:\n• <color is="#4ade80">5</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">2</color> <color is="#ffffff">日</color>
 Plant_Sapling_Crystal.name = クリスタルの苗木
-Plant_Sapling_Crystal.description = [TMP] <color is="#ffffff">クリスタルの木</color>に成長する。\n• <color is="#ffffff">木材</color>が採れる\n\n成長時間:\n• <color is="#4ade80">5</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">2</color> <color is="#ffffff">日</color>
+Plant_Sapling_Crystal.description = [TMP] <color is="#ffffff">クリスタルの木</color>に成長する.\n• <color is="#ffffff">木材</color>が採れる\n\n成長時間:\n• <color is="#4ade80">5</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">2</color> <color is="#ffffff">日</color>
 Plant_Sapling_Dry.name = 乾いた苗木
-Plant_Sapling_Dry.description = [TMP] <color is="#ffffff">乾いた木</color>に成長する。\n• <color is="#ffffff">乾燥材</color>が採れる\n\n成長時間:\n• <color is="#4ade80">5</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">2</color> <color is="#ffffff">日</color>
+Plant_Sapling_Dry.description = [TMP] <color is="#ffffff">乾いた木</color>に成長する.\n• <color is="#ffffff">乾燥材</color>が採れる\n\n成長時間:\n• <color is="#4ade80">5</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">2</color> <color is="#ffffff">日</color>
 Plant_Sapling_Fig_Blue.name = 青いイチジクの苗木
-Plant_Sapling_Fig_Blue.description = [TMP] <color is="#ffffff">青いイチジクの木</color>に成長する。\n• <color is="#ffffff">レッドウッド</color>が採れる\n\n成長時間:\n• <color is="#4ade80">4</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">2</color> <color is="#ffffff">日</color>
+Plant_Sapling_Fig_Blue.description = [TMP] <color is="#ffffff">青いイチジクの木</color>に成長する.\n• <color is="#ffffff">レッドウッド</color>が採れる\n\n成長時間:\n• <color is="#4ade80">4</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">2</color> <color is="#ffffff">日</color>
 Plant_Seeds_Fig_Blue.name = 青いイチジクの種袋
 Plant_Sapling_Fire.name = 炎の苗木
-Plant_Sapling_Fire.description = [TMP] <color is="#ffffff">炎の木</color>に成長する。\n• <color is="#ffffff">ブラックウッド</color>が採れる\n\n成長時間:\n• <color is="#4ade80">3</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">1</color> <color is="#ffffff">日</color>
+Plant_Sapling_Fire.description = [TMP] <color is="#ffffff">炎の木</color>に成長する.\n• <color is="#ffffff">ブラックウッド</color>が採れる\n\n成長時間:\n• <color is="#4ade80">3</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">1</color> <color is="#ffffff">日</color>
 Plant_Sapling_Gumboab.name = ガムボアブの苗木
-Plant_Sapling_Gumboab.description = [TMP] <color is="#ffffff">ガムボアブの木</color>に成長する。\n• <color is="#ffffff">軽木</color>が採れる\n\n成長時間:\n• <color is="#4ade80">5</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">2</color> <color is="#ffffff">日</color>
+Plant_Sapling_Gumboab.description = [TMP] <color is="#ffffff">ガムボアブの木</color>に成長する.\n• <color is="#ffffff">軽木</color>が採れる\n\n成長時間:\n• <color is="#4ade80">5</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">2</color> <color is="#ffffff">日</color>
 Plant_Sapling_Ice.name = フロストウッドの苗木
-Plant_Sapling_Ice.description = [TMP] <color is="#ffffff">フロストウッドの木</color>に成長する。\n• <color is="#ffffff">フロストウッド</color>が採れる\n\n成長時間:\n• <color is="#4ade80">5</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">2</color> <color is="#ffffff">日</color>
+Plant_Sapling_Ice.description = [TMP] <color is="#ffffff">フロストウッドの木</color>に成長する.\n• <color is="#ffffff">フロストウッド</color>が採れる\n\n成長時間:\n• <color is="#4ade80">5</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">2</color> <color is="#ffffff">日</color>
 Plant_Sapling_Jungle.name = ジャングルの苗木
-Plant_Sapling_Jungle.description = [TMP] <color is="#ffffff">ジャングルの木</color>に成長する。\n• <color is="#ffffff">グリーンウッド</color>が採れる\n\n成長時間:\n• <color is="#4ade80">2</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">1</color> <color is="#ffffff">日</color>
+Plant_Sapling_Jungle.description = [TMP] <color is="#ffffff">ジャングルの木</color>に成長する.\n• <color is="#ffffff">グリーンウッド</color>が採れる\n\n成長時間:\n• <color is="#4ade80">2</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">1</color> <color is="#ffffff">日</color>
 Plant_Sapling_Maple.name = メープルの苗木
-Plant_Sapling_Maple.description = [TMP] <color is="#ffffff">メープルの木</color>に成長する。\n• <color is="#ffffff">レッドウッド</color>が採れる\n\n成長時間:\n• <color is="#4ade80">4</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">2</color> <color is="#ffffff">日</color>
+Plant_Sapling_Maple.description = [TMP] <color is="#ffffff">メープルの木</color>に成長する.\n• <color is="#ffffff">レッドウッド</color>が採れる\n\n成長時間:\n• <color is="#4ade80">4</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">2</color> <color is="#ffffff">日</color>
 Plant_Sapling_Oak.name = オークの苗木
-Plant_Sapling_Oak.description = [TMP] <color is="#ffffff">オークの木</color>に成長する。\n• <color is="#ffffff">硬木</color>が採れる\n\n成長時間:\n• <color is="#4ade80">7</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">3</color> <color is="#ffffff">日</color>
+Plant_Sapling_Oak.description = [TMP] <color is="#ffffff">オークの木</color>に成長する.\n• <color is="#ffffff">硬木</color>が採れる\n\n成長時間:\n• <color is="#4ade80">7</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">3</color> <color is="#ffffff">日</color>
 Plant_Sapling_Palo.name = パロの苗木
-Plant_Sapling_Palo.description = [TMP] <color is="#ffffff">パロの木</color>に成長する。\n• <color is="#ffffff">グリーンウッド</color>が採れる\n\n成長時間:\n• <color is="#4ade80">2</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">1</color> <color is="#ffffff">日</color>
+Plant_Sapling_Palo.description = [TMP] <color is="#ffffff">パロの木</color>に成長する.\n• <color is="#ffffff">グリーンウッド</color>が採れる\n\n成長時間:\n• <color is="#4ade80">2</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">1</color> <color is="#ffffff">日</color>
 Plant_Sapling_Palm.name = ヤシの苗木
-Plant_Sapling_Palm.description = [TMP] <color is="#ffffff">ヤシの木</color>に成長する。\n• <color is="#ffffff">ゴールデンウッド</color>が採れる\n\n成長時間:\n• <color is="#4ade80">5</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">2</color> <color is="#ffffff">日</color>
+Plant_Sapling_Palm.description = [TMP] <color is="#ffffff">ヤシの木</color>に成長する.\n• <color is="#ffffff">ゴールデンウッド</color>が採れる\n\n成長時間:\n• <color is="#4ade80">5</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">2</color> <color is="#ffffff">日</color>
 Plant_Sapling_Petrified.name = 石化した松の苗木
-Plant_Sapling_Petrified.description = [TMP] <color is="#ffffff">石化した松の木</color>に成長する。\n• <color is="#ffffff">枯れ木</color>が採れる\n\n成長時間:\n• <color is="#4ade80">4</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">2</color> <color is="#ffffff">日</color>
+Plant_Sapling_Petrified.description = [TMP] <color is="#ffffff">石化した松の木</color>に成長する.\n• <color is="#ffffff">枯れ木</color>が採れる\n\n成長時間:\n• <color is="#4ade80">4</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">2</color> <color is="#ffffff">日</color>
 Plant_Seeds_Petrified.name = 石化した松の種袋
 Plant_Sapling_Poisoned.name = 毒の苗木
-Plant_Sapling_Poisoned.description = [TMP] <color is="#ffffff">毒の木</color>に成長する。\n• <color is="#ffffff">枯れ木</color>が採れる\n\n成長時間:\n• <color is="#4ade80">4</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">2</color> <color is="#ffffff">日</color>
+Plant_Sapling_Poisoned.description = [TMP] <color is="#ffffff">毒の木</color>に成長する.\n• <color is="#ffffff">枯れ木</color>が採れる\n\n成長時間:\n• <color is="#4ade80">4</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">2</color> <color is="#ffffff">日</color>
 Plant_Seeds_Poisoned.name = 毒の種袋
 Plant_Sapling_Redwood.name = レッドウッドの苗木
-Plant_Sapling_Redwood.description = [TMP] <color is="#ffffff">レッドウッドの木</color>に成長する。\n• <color is="#ffffff">レッドウッド</color>が採れる\n\n成長時間:\n• <color is="#4ade80">5</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">2</color> <color is="#ffffff">日</color>
+Plant_Sapling_Redwood.description = [TMP] <color is="#ffffff">レッドウッドの木</color>に成長する.\n• <color is="#ffffff">レッドウッド</color>が採れる\n\n成長時間:\n• <color is="#4ade80">5</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">2</color> <color is="#ffffff">日</color>
 Plant_Sapling_Sallow.name = サロウの苗木
-Plant_Sapling_Sallow.description = [TMP] <color is="#ffffff">サロウの木</color>に成長する。\n• <color is="#ffffff">ゴールデンウッド</color>が採れる\n\n成長時間:\n• <color is="#4ade80">4</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">2</color> <color is="#ffffff">日</color>
+Plant_Sapling_Sallow.description = [TMP] <color is="#ffffff">サロウの木</color>に成長する.\n• <color is="#ffffff">ゴールデンウッド</color>が採れる\n\n成長時間:\n• <color is="#4ade80">4</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">2</color> <color is="#ffffff">日</color>
 Plant_Sapling_Spiral.name = スパイラルの苗木
-Plant_Sapling_Spiral.description = [TMP] <color is="#ffffff">スパイラルの木</color>に成長する。\n• <color is="#ffffff">木材</color>が採れる\n\n成長時間:\n• <color is="#4ade80">1</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">N/A</color>
+Plant_Sapling_Spiral.description = [TMP] <color is="#ffffff">スパイラルの木</color>に成長する.\n• <color is="#ffffff">木材</color>が採れる\n\n成長時間:\n• <color is="#4ade80">1</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">N/A</color>
 Plant_Sapling_Stormbark.name = ストームバークの苗木
-Plant_Sapling_Stormbark.description = [TMP] <color is="#ffffff">ストームバークの木</color>に成長する。\n• <color is="#ffffff">木材</color>が採れる\n\n成長時間:\n• <color is="#4ade80">4</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">2</color> <color is="#ffffff">日</color>
+Plant_Sapling_Stormbark.description = [TMP] <color is="#ffffff">ストームバークの木</color>に成長する.\n• <color is="#ffffff">木材</color>が採れる\n\n成長時間:\n• <color is="#4ade80">4</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">2</color> <color is="#ffffff">日</color>
 Plant_Seeds_Stormbark.name = ストームバークの種袋
 Plant_Sapling_Spruce.name = トウヒの苗木
-Plant_Sapling_Spruce.description = [TMP] <color is="#ffffff">トウヒの木</color>に成長する。\n• <color is="#ffffff">硬木</color>が採れる\n\n成長時間:\n• <color is="#4ade80">5</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">2</color> <color is="#ffffff">日</color>
+Plant_Sapling_Spruce.description = [TMP] <color is="#ffffff">トウヒの木</color>に成長する.\n• <color is="#ffffff">硬木</color>が採れる\n\n成長時間:\n• <color is="#4ade80">5</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">2</color> <color is="#ffffff">日</color>
 Plant_Sapling_Spruce_Frozen.name = 凍ったトウヒの苗木
-Plant_Sapling_Spruce_Frozen.description = [TMP] <color is="#ffffff">凍ったトウヒの木</color>に成長する。\n• <color is="#ffffff">硬木</color>が採れる\n\n成長時間:\n• <color is="#4ade80">5</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">2</color> <color is="#ffffff">日</color>
+Plant_Sapling_Spruce_Frozen.description = [TMP] <color is="#ffffff">凍ったトウヒの木</color>に成長する.\n• <color is="#ffffff">硬木</color>が採れる\n\n成長時間:\n• <color is="#4ade80">5</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">2</color> <color is="#ffffff">日</color>
 Plant_Sapling_Wisteria_Wild.name = 野生の藤の苗木
-Plant_Sapling_Wisteria_Wild.description = [TMP] <color is="#ffffff">野生の藤の木</color>に成長する。\n• <color is="#ffffff">ゴールデンウッド</color>が採れる\n\n成長時間:\n• <color is="#4ade80">4</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">2</color> <color is="#ffffff">日</color>
+Plant_Sapling_Wisteria_Wild.description = [TMP] <color is="#ffffff">野生の藤の木</color>に成長する.\n• <color is="#ffffff">ゴールデンウッド</color>が採れる\n\n成長時間:\n• <color is="#4ade80">4</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">2</color> <color is="#ffffff">日</color>
 Plant_Seeds_Wisteria_Wild.name = 野生の藤の種袋
 Plant_Sapling_Windwillow.name = ウィローの苗木
-Plant_Sapling_Windwillow.description = [TMP] <color is="#ffffff">ウィローの木</color>に成長する。\n• <color is="#ffffff">木材</color>が採れる\n\n成長時間:\n• <color is="#4ade80">2</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">1</color> <color is="#ffffff">日</color>
+Plant_Sapling_Windwillow.description = [TMP] <color is="#ffffff">ウィローの木</color>に成長する.\n• <color is="#ffffff">木材</color>が採れる\n\n成長時間:\n• <color is="#4ade80">2</color> <color is="#ffffff">段階</color>\n• <color is="#4ade80">1</color> <color is="#ffffff">日</color>
 Plant_Seaweed_Arid_Red.name = 赤い乾燥した海草
 Plant_Seaweed_Arid_Short.name = 短い乾燥した海草
 Plant_Seaweed_Arid_Stack.name = 乾燥した海草の束
@@ -1749,22 +1749,22 @@ Plant_Seeds_Fire.name = 炎の種袋
 Plant_Seeds_Frostwood.name = フロストウッドの種袋
 Plant_Seeds_Gumboab.name = ガムボアブの種袋
 Plant_Seeds_Health1.name = ブラッドローズの種袋
-Plant_Seeds_Health1.description = [TMP] <item is="Soil_Dirt_Crystal"/>に植える必要がある。
+Plant_Seeds_Health1.description = [TMP] <item is="Soil_Dirt_Crystal"/>に植える必要がある.
 Plant_Seeds_Health2.name = ブラッドキャップの胞子袋
-Plant_Seeds_Health2.description = [TMP] <item is="Soil_Dirt_Crystal"/>に植える必要がある。
+Plant_Seeds_Health2.description = [TMP] <item is="Soil_Dirt_Crystal"/>に植える必要がある.
 Plant_Seeds_Health3.name = ブラッドリーフの種袋
-Plant_Seeds_Health3.description = [TMP] 高さ2ブロックの壁に沿って<item is="Soil_Dirt_Crystal"/>に植える必要がある。
+Plant_Seeds_Health3.description = [TMP] 高さ2ブロックの壁に沿って<item is="Soil_Dirt_Crystal"/>に植える必要がある.
 Plant_Seeds_Jungle.name = ジャングルの種袋
 Plant_Seeds_Lettuce.name = レタスの種袋
 Plant_Seeds_Lettuce.description = レタスを育てる
 Plant_Seeds_Lettuce_Eternal.name = レタスの種袋（永遠）
 Plant_Seeds_Lettuce_Eternal.description = レタスを育てる
 Plant_Seeds_Mana1.name = アジュールファーンの種袋
-Plant_Seeds_Mana1.description = [TMP] <item is="Soil_Dirt_Crystal"/>に植える必要がある。
+Plant_Seeds_Mana1.description = [TMP] <item is="Soil_Dirt_Crystal"/>に植える必要がある.
 Plant_Seeds_Mana2.name = アジュールキャップの胞子袋
-Plant_Seeds_Mana2.description = [TMP] <item is="Soil_Dirt_Crystal"/>に植える必要がある。
+Plant_Seeds_Mana2.description = [TMP] <item is="Soil_Dirt_Crystal"/>に植える必要がある.
 Plant_Seeds_Mana3.name = アジュールケルプの種袋
-Plant_Seeds_Mana3.description = [TMP] 水の近くの<item is="Soil_Dirt_Crystal"/>に植える必要がある。
+Plant_Seeds_Mana3.description = [TMP] 水の近くの<item is="Soil_Dirt_Crystal"/>に植える必要がある.
 Plant_Seeds_Maple.name = メープルの種袋
 Plant_Seeds_Mushroom.name = キノコの胞子袋
 Plant_Seeds_Oak.name = オークの種袋
@@ -1791,11 +1791,11 @@ Plant_Seeds_Rice_Eternal.description = 米を育てる
 Plant_Seeds_Sallow.name = サロウの種袋
 Plant_Seeds_Spiral.name = スパイラルの種袋
 Plant_Seeds_Stamina1.name = ストームシスルの種袋
-Plant_Seeds_Stamina1.description = [TMP] <item is="Soil_Dirt_Crystal"/>に植える必要がある。
+Plant_Seeds_Stamina1.description = [TMP] <item is="Soil_Dirt_Crystal"/>に植える必要がある.
 Plant_Seeds_Stamina2.name = ストームキャップの胞子袋
-Plant_Seeds_Stamina2.description = [TMP] <item is="Soil_Dirt_Crystal"/>に植える必要がある。
+Plant_Seeds_Stamina2.description = [TMP] <item is="Soil_Dirt_Crystal"/>に植える必要がある.
 Plant_Seeds_Stamina3.name = ストームの苗木の種袋
-Plant_Seeds_Stamina3.description = [TMP] 金ブロックの近くの<item is="Soil_Dirt_Crystal"/>に植える必要がある。
+Plant_Seeds_Stamina3.description = [TMP] 金ブロックの近くの<item is="Soil_Dirt_Crystal"/>に植える必要がある.
 Plant_Seeds_Sunflower.name = ひまわりの種袋
 Plant_Seeds_Test_Tree.name = テストツリーの種
 Plant_Seeds_Tomato.name = トマトの種袋
@@ -1831,11 +1831,11 @@ Plant_Vine_Wall_Dry.name = 乾いたつる
 Plant_Vine_Wall_Poisoned.name = 毒のアイビー
 Plant_Vine_Wall_Winter.name = つる
 Leave_Instance.name = インスタンスを出る
-Leave_Instance.description = インスタンスを出るために使用する。
+Leave_Instance.description = インスタンスを出るために使用する.
 Forgotten_Temple_Portal_Enter.name = 忘れられた神殿の入口
-Forgotten_Temple_Portal_Enter.description = 忘れられた神殿に入るために使用する。
+Forgotten_Temple_Portal_Enter.description = 忘れられた神殿に入るために使用する.
 Forgotten_Temple_Portal_Exit.name = 忘れられた神殿の出口
-Forgotten_Temple_Portal_Exit.description = インスタンスを出るために使用する。
+Forgotten_Temple_Portal_Exit.description = インスタンスを出るために使用する.
 Portal_Exit.name = 出口ポータル
 Portal_Inner_Example1.name = 内部ポータルブロック
 Portal_Inner_Example_Config.name = 内部ポータルブロック
@@ -1844,35 +1844,35 @@ Launchpad.name = 発射台
 Portal_Pad_Wind.name = ワープ台
 Portal_Pad_Zone2.name = ダンジョンポータル
 Portal_Prefab.name = プレハブポータル
-PortalKey.description = このフラグメントを訪れるには<item is="Portal_Device"/>に置く。\n制作中
+PortalKey.description = このフラグメントを訪れるには<item is="Portal_Device"/>に置く.\n制作中
 PortalKey_Windsurf_Valley.name = フラグメント：オービス - ウィンドライダー・バレー
-PortalKey_Windsurf_Valley.description = <msg key="server.items.PortalKey.description"/>\n\n<i>フェランは何よりも自由を重んじる。そしてその自由がもっとも体現されているのが、ウィンドライダー・バレーを吹き抜ける風だ。</i>
+PortalKey_Windsurf_Valley.description = <msg key="server.items.PortalKey.description"/>\n\n<i>フェランは何よりも自由を重んじる. そしてその自由がもっとも体現されているのが, ウィンドライダー・バレーを吹き抜ける風だ. </i>
 PortalKey_Jungles.name = フラグメント：オービス - タル・ケシの隠れ処
-PortalKey_Jungles.description = <msg key="server.items.PortalKey.description"/>\n\n<i>古代文明が残した荒廃した不毛の地の深奥に、太古の楽園が息づいている。</i>
+PortalKey_Jungles.description = <msg key="server.items.PortalKey.description"/>\n\n<i>古代文明が残した荒廃した不毛の地の深奥に, 太古の楽園が息づいている. </i>
 PortalKey_Taiga.name = フラグメント：オービス - ドラゴンスパイア・ウィールド
-PortalKey_Taiga.description = <msg key="server.items.PortalKey.description"/>\n\n<i>アウトランダーでさえ、ささやき声がどれほど誘おうとも、足を踏み入れようとしない凍てついた森がある。</i>
+PortalKey_Taiga.description = <msg key="server.items.PortalKey.description"/>\n\n<i>アウトランダーでさえ, ささやき声がどれほど誘おうとも, 足を踏み入れようとしない凍てついた森がある. </i>
 PortalKey_Hederas_Lair.name = フラグメント：オービス - ザ・ドレッド・ウェイド
-PortalKey_Hederas_Lair.description = <msg key="server.items.PortalKey.description"/>\n\n<i>オービスの薄暗い深部に潜む恐怖を体験した者はほとんどいない。</i>
+PortalKey_Hederas_Lair.description = <msg key="server.items.PortalKey.description"/>\n\n<i>オービスの薄暗い深部に潜む恐怖を体験した者はほとんどいない. </i>
 PortalKey_Henges.name = フラグメント：オービス - サイレント・ヘンジ
-PortalKey_Henges.description = <msg key="server.items.PortalKey.description"/>\n\n<i>謎めいたヘンジが凍てついた大地にそびえ立つ。</i>
+PortalKey_Henges.description = <msg key="server.items.PortalKey.description"/>\n\n<i>謎めいたヘンジが凍てついた大地にそびえ立つ. </i>
 Portal_Device.name = 古代の門
-Portal_Device.description = これをベースに設置して障壁を打ち破り、他のフラグメントへと旅立とう！<i>\n制作中。\n\n呪いはガイアのオービスを閉ざし続けているが、それを覆うヴォイドを貫く方法がある。</i>
+Portal_Device.description = これをベースに設置して障壁を打ち破り, 他のフラグメントへと旅立とう！<i>\n制作中.\n\n呪いはガイアのオービスを閉ざし続けているが, それを覆うヴォイドを貫く方法がある. </i>
 Hub_Portal_Zone3_Taiga1.name = ゾーン3タイガポータル
-Hub_Portal_Zone3_Taiga1.description = ゾーン3タイガにテレポートするポータル。クロスロードで使用される。
+Hub_Portal_Zone3_Taiga1.description = ゾーン3タイガにテレポートするポータル. クロスロードで使用される.
 Hub_Portal_Default.name = 探索ワールド生成ポータル
-Hub_Portal_Default.description = 探索ワールド生成にテレポートするポータル。クロスロードで使用される。
+Hub_Portal_Default.description = 探索ワールド生成にテレポートするポータル. クロスロードで使用される.
 Hub_Portal_Flat.name = フラットワールド生成ポータル
-Hub_Portal_Flat.description = フラットワールド生成にテレポートするポータル。クロスロードで使用される。
+Hub_Portal_Flat.description = フラットワールド生成にテレポートするポータル. クロスロードで使用される.
 Instance_Gateway.name = インスタンスゲートウェイ
-Instance_Gateway.description = 異なるインスタンスへ移動できるゲートウェイ。インタラクトして目的地を設定する。
+Instance_Gateway.description = 異なるインスタンスへ移動できるゲートウェイ. インタラクトして目的地を設定する.
 Portal_Return.name = 帰還ポータル
 Portal_Return.description = フラグメントからの出口だ！
 VoidInvasion_Portal.name = ヴォイド侵攻ポータル
-VoidInvasion_Portal.description = フラグメント内のヴォイド侵攻用ユーティリティブロック。
+VoidInvasion_Portal.description = フラグメント内のヴォイド侵攻用ユーティリティブロック.
 Potion_Antidote.name = 解毒薬
-Potion_Antidote.description = 毒を治療し、一時的な免疫を付与する。
+Potion_Antidote.description = 毒を治療し, 一時的な免疫を付与する.
 Potion_Empty.name = 空のポーション瓶
-Potion_Empty.description = <item is="Bench_Furnace"/>で砂を製錬することで入手できる。
+Potion_Empty.description = <item is="Bench_Furnace"/>で砂を製錬することで入手できる.
 Potion_Empty_Large.name = 大きなポーション瓶
 Potion_Empty_Small.name = 小さなポーション瓶
 Decorative_Potion_Template.name = テンプレート装飾ポーション
@@ -1898,37 +1898,37 @@ Potion_Regen_Stamina_Large.name = 大きな装飾ポーション（オレンジ�
 Potion_Regen_Stamina_Small.name = 小さな装飾ポーション（オレンジ）
 Potion_Template.name = テンプレートポーション
 Potion_Health_Lesser.name = 下位の回復ポーション
-Potion_Health_Lesser.description = [TMP] 即座に体力を15%回復し、5秒後にさらに15%回復する。ダメージを受けると効果が解除される。
+Potion_Health_Lesser.description = [TMP] 即座に体力を15%回復し, 5秒後にさらに15%回復する. ダメージを受けると効果が解除される.
 Potion_Health_Small.name = 小さな回復ポーション
-Potion_Health_Small.description = [TMP] 即座に体力を15%回復し、5秒後にさらに30%回復する。ダメージを受けると効果が解除される。
+Potion_Health_Small.description = [TMP] 即座に体力を15%回復し, 5秒後にさらに30%回復する. ダメージを受けると効果が解除される.
 Potion_Health.name = 回復ポーション
-Potion_Health.description = [TMP] 即座に体力を25%回復し、5秒後にさらに35%回復する。ダメージを受けると効果が解除される。
+Potion_Health.description = [TMP] 即座に体力を25%回復し, 5秒後にさらに35%回復する. ダメージを受けると効果が解除される.
 Potion_Health_Greater.name = 上位の回復ポーション
-Potion_Health_Greater.description = [TMP] 即座に体力を25%回復し、5秒後にさらに50%回復する。ダメージを受けると効果が解除される。
+Potion_Health_Greater.description = [TMP] 即座に体力を25%回復し, 5秒後にさらに50%回復する. ダメージを受けると効果が解除される.
 Potion_Health_Large.name = 大型回復ポーション
-Potion_Health_Large.description = 即座に体力を35%回復し、5秒後にさらに55%回復する。ダメージを受けると効果が解除される。
+Potion_Health_Large.description = 即座に体力を35%回復し, 5秒後にさらに55%回復する. ダメージを受けると効果が解除される.
 Potion_Stamina_Lesser.name = 下位のスタミナポーション
-Potion_Stamina_Lesser.description = [TMP] 即座にスタミナを30%回復する。クールダウン15秒。
+Potion_Stamina_Lesser.description = [TMP] 即座にスタミナを30%回復する. クールダウン15秒.
 Potion_Stamina_Small.name = 小さなスタミナポーション
-Potion_Stamina_Small.description = [TMP] 即座にスタミナを45%回復する。クールダウン15秒。
+Potion_Stamina_Small.description = [TMP] 即座にスタミナを45%回復する. クールダウン15秒.
 Potion_Stamina.name = スタミナポーション
-Potion_Stamina.description = [TMP] 即座にスタミナを60%回復する。クールダウン15秒。
+Potion_Stamina.description = [TMP] 即座にスタミナを60%回復する. クールダウン15秒.
 Potion_Stamina_Greater.name = 上位のスタミナポーション
-Potion_Stamina_Greater.description = [TMP] 即座にスタミナを75%回復する。クールダウン15秒。
+Potion_Stamina_Greater.description = [TMP] 即座にスタミナを75%回復する. クールダウン15秒.
 Potion_Stamina_Large.name = 大型スタミナポーション
-Potion_Stamina_Large.description = [TMP] 即座にスタミナを90%回復する。クールダウン15秒。
+Potion_Stamina_Large.description = [TMP] 即座にスタミナを90%回復する. クールダウン15秒.
 Potion_Signature_Lesser.name = 下位のエネルギーポーション
-Potion_Signature_Lesser.description = [TMP] 30秒かけて武器のシグネチャーエネルギーを30%生成する。
+Potion_Signature_Lesser.description = [TMP] 30秒かけて武器のシグネチャーエネルギーを30%生成する.
 Potion_Signature_Small.name = 小さなエネルギーポーション
-Potion_Signature_Small.description = [TMP] 30秒かけて武器のシグネチャーエネルギーを45%生成する。
+Potion_Signature_Small.description = [TMP] 30秒かけて武器のシグネチャーエネルギーを45%生成する.
 Potion_Signature.name = エネルギーポーション
-Potion_Signature.description = [TMP] 30秒かけて武器のシグネチャーエネルギーを60%生成する。
+Potion_Signature.description = [TMP] 30秒かけて武器のシグネチャーエネルギーを60%生成する.
 Potion_Signature_Greater.name = 上位のエネルギーポーション
-Potion_Signature_Greater.description = [TMP] 30秒かけて武器のシグネチャーエネルギーを75%生成する。
+Potion_Signature_Greater.description = [TMP] 30秒かけて武器のシグネチャーエネルギーを75%生成する.
 Potion_Signature_Large.name = 大型エネルギーポーション
-Potion_Signature_Large.description = [TMP] 30秒かけて武器のシグネチャーエネルギーを90%生成する。
+Potion_Signature_Large.description = [TMP] 30秒かけて武器のシグネチャーエネルギーを90%生成する.
 Prefab_Spawner_Block.name = プレハブスポナー
-Prefab_Spawner_Block.description = ワールド生成時にプレハブをスポーンさせる。ブロックにインタラクトして設定を編集するか、/prefabspawnerコマンドを使用する。\n\n/prefabspawner set <prefabPath>を使用してプレハブのパスを設定する。
+Prefab_Spawner_Block.description = ワールド生成時にプレハブをスポーンさせる. ブロックにインタラクトして設定を編集するか, /prefabspawnerコマンドを使用する.\n\n/prefabspawner set <prefabPath>を使用してプレハブのパスを設定する.
 Prototype_Ancient_Sign_Hanging.name = プロトタイプ - 古代のぶら下がり看板
 Prototype_Bookshelf_Bottom_Edge.name = プロトタイプ - 本棚 - 下辺
 Prototype_Bookshelf_Bottom_Left_Corner.name = プロトタイプ - 本棚 - 左下コーナー
@@ -2174,7 +2174,7 @@ Rock_Crystal_Yellow_Medium.name = 黄色いクリスタル - 中
 Rock_Crystal_Yellow_Small.name = 黄色いクリスタル - 小
 Rock_Gem_Diamond.name = ダイヤモンド
 Rock_Gem_Emerald.name = エメラルド
-Rock_Gem_Emerald.description = <i>強力なゴーレムの心臓はしばしばこの宝石で形成されている。かつて秘術師たちは、地下深くにある豊富な鉱脈を探し当てるために、より工業的な採掘者の助けを借りた。</i>
+Rock_Gem_Emerald.description = <i>強力なゴーレムの心臓はしばしばこの宝石で形成されている. かつて秘術師たちは, 地下深くにある豊富な鉱脈を探し当てるために, より工業的な採掘者の助けを借りた. </i>
 Rock_Gem_Ruby.name = ルビー
 Rock_Gem_Sapphire.name = サファイア
 Rock_Gem_Topaz.name = トパーズ
@@ -2579,10 +2579,10 @@ Rubble_Basalt_Medium.name = 玄武岩の瓦礫 - 中
 Rubble_Calcite.name = 方解石の瓦礫
 Rubble_Calcite_Medium.name = 方解石の瓦礫 - 中
 Rubble_Chalk.name = チョークの瓦礫
-Rubble_Chalk.description = [TMP] <item is="Bench_Salvage"/>で敷石を分解することでも入手できる。
+Rubble_Chalk.description = [TMP] <item is="Bench_Salvage"/>で敷石を分解することでも入手できる.
 Rubble_Chalk_Medium.name = チョークの瓦礫 - 中
 Rubble_Magma_Cooled.name = 冷えたマグマの瓦礫
-Rubble_Magma_Cooled.description = [TMP] <item is="Bench_Salvage"/>で敷石を分解することでも入手できる。
+Rubble_Magma_Cooled.description = [TMP] <item is="Bench_Salvage"/>で敷石を分解することでも入手できる.
 Rubble_Magma_Cooled_Medium.name = 冷えたマグマの瓦礫 - 中
 Rubble_Ice.name = 氷の塊
 Rubble_Ice_Medium.name = 氷の塊 - 中
@@ -2601,7 +2601,7 @@ Rubble_Shale_Medium.name = 頁岩の瓦礫 - 中
 Rubble_Slate.name = スレートの瓦礫
 Rubble_Slate_Medium.name = スレートの瓦礫 - 中
 Rubble_Stone.name = 石の瓦礫
-Rubble_Stone.description = <item is="Bench_Salvage"/>で敷石を分解することでも入手できる。
+Rubble_Stone.description = <item is="Bench_Salvage"/>で敷石を分解することでも入手できる.
 Rubble_Stone_Medium.name = 石の瓦礫 - 中
 Rubble_Stone_Mossy.name = 苔むした石の瓦礫
 Rubble_Stone_Mossy_Medium.name = 苔むした石の瓦礫 - 中
@@ -2674,7 +2674,7 @@ Soil_Dirt_Cold.name = 冷たい土
 Soil_Dirt_Cold_Half.name = 冷たい土 - ハーフスラブ
 Soil_Dirt_Cold_Stairs.name = 冷たい土 - 階段
 Soil_Dirt_Crystal.name = 結晶化した土
-Soil_Dirt_Crystal.description = クリスタルを含んだ土壌。
+Soil_Dirt_Crystal.description = クリスタルを含んだ土壌.
 Soil_Dirt_Dry.name = 乾いた土
 Soil_Dirt_Dry_Half.name = 乾いた土 - ハーフスラブ
 Soil_Dirt_Dry_Stairs.name = 乾いた土 - 階段
@@ -2779,7 +2779,7 @@ Survival_Trap_Spike_Iron.name = 金属スパイクトラップ
 Survival_Trap_Spike_Wood.name = 木製スパイクトラップ
 Survival_Trap_Spike_Wood_Large.name = 大型木製スパイクトラップ
 Sword_Signature_Test.name = テスト用鉄の剣
-Teleporter.description = 別のテレポーターと接続する。2つ設置するとワープリンクが作られる。
+Teleporter.description = 別のテレポーターと接続する. 2つ設置するとワープリンクが作られる.
 Memory_Particle.name = 記憶
 Template_Crop.name = テンプレート作物
 Template_Crop_Berry_Block.name = テンプレートベリーの茂み
@@ -2798,7 +2798,7 @@ Template_Weapon_Mace.name = テンプレートメイス
 Template_Weapon_Crossbow.name = テンプレートクロスボウ
 Template_Weapon_Shield.name = テンプレートシールド
 Template_Weapon_Battleaxe.name = テンプレートバトルアックス
-Test_All_Rotation.description = 「全方向」回転タイプをテストするために使用する。実際には階段ではない。
+Test_All_Rotation.description = 「全方向」回転タイプをテストするために使用する. 実際には階段ではない.
 Test_All_Rotation.name = プロトタイプ全方向回転
 Test_Backpack.name = テスト用バックパックアイテム
 Test_Camera_Item.name = テスト用カメラアイテム
@@ -2809,28 +2809,28 @@ Tinkering_Target_Dummy.name = 練習用ダミー
 Tool_Bark_Scraper.name = 樹皮削り
 Tool_Capture_Crate.name = 捕獲箱
 Tool_Capture_Crate.nameFull = 捕獲箱（{npc}）
-Tool_Capture_Crate.description = 小動物を捕まえて家に連れ帰るために使用する。
+Tool_Capture_Crate.description = 小動物を捕まえて家に連れ帰るために使用する.
 Tool_Feedbag.name = 餌袋
-Tool_Feedbag.description = 動物の餌が入った袋。飼いならした動物を引き寄せるために使用できる。
+Tool_Feedbag.description = 動物の餌が入った袋. 飼いならした動物を引き寄せるために使用できる.
 Tool_Fertilizer.name = 肥料袋
-Tool_Fertilizer.description = 耕した土に肥料を与えるために使用する。肥料を与えた作物は<color is="#4ade80">2倍</color>速く成長する。
+Tool_Fertilizer.description = 耕した土に肥料を与えるために使用する. 肥料を与えた作物は<color is="#4ade80">2倍</color>速く成長する.
 Tool_Fertilizer_Crystal.name = クリスタル肥料袋
-Tool_Fertilizer_Crystal.description = <item is="Soil_Dirt_Tilled"/>に使用して結晶化させます。<item is="Soil_Dirt_Crystal"/>では錬金植物を育てられます。水やりや施肥はできません。
+Tool_Fertilizer_Crystal.description = <item is="Soil_Dirt_Tilled"/>に使用して結晶化させます. <item is="Soil_Dirt_Crystal"/>では錬金植物を育てられます. 水やりや施肥はできません.
 Tool_Fishing_Trap.name = 釣り罠
-Tool_Fishing_Trap.description = 水面の上に設置して時間をかけて魚を捕る。
+Tool_Fishing_Trap.description = 水面の上に設置して時間をかけて魚を捕る.
 Tool_Trap_Bait.name = 魚の餌（野生）
-Tool_Trap_Bait.description = 釣り罠に使用して、より短時間でより高品質な魚を得る。
+Tool_Trap_Bait.description = 釣り罠に使用して, より短時間でより高品質な魚を得る.
 Tool_Growth_Potion.name = 成長段階ポーション
-Tool_Growth_Potion.description = 開発者用ツール。左クリックで段階を減らし、右クリックで段階を増やす。農業ブロックに使用できる。
+Tool_Growth_Potion.description = 開発者用ツール. 左クリックで段階を減らし, 右クリックで段階を増やす. 農業ブロックに使用できる.
 Tool_Hammer_Crude.name = 粗末な建築用ハンマー
-Tool_Hammer_Crude.description = 構造的な建築ブロックの外観を変えるために使用する。
+Tool_Hammer_Crude.description = 構造的な建築ブロックの外観を変えるために使用する.
 Tool_Hammer_Iron.name = 鉄の建築用ハンマー
-Tool_Hammer_Iron.description = 構造的な建築ブロックの外観を変えるために使用する。\n\n耐久性が向上した粗末なハンマーの改良版。
+Tool_Hammer_Iron.description = 構造的な建築ブロックの外観を変えるために使用する.\n\n耐久性が向上した粗末なハンマーの改良版.
 Tool_Hatchet_Adamantite.name = アダマンタイトのハチェット
 Tool_Hatchet_Cobalt.name = コバルトのハチェット
 Tool_Hatchet_Copper.name = 銅のハチェット
 Tool_Hatchet_Crude.name = 粗末なハチェット
-Tool_Hatchet_Crude.description = 木を伐採するのに効果的。\n\n<i>クウィーベックたちは一部の文化が木材を資源として必要としていることを認めている。そのような刃を持って彼らの森に入ることを避けさえすれば、彼らがそれを問題にすることはまずないだろう。</i>
+Tool_Hatchet_Crude.description = 木を伐採するのに効果的.\n\n<i>クウィーベックたちは一部の文化が木材を資源として必要としていることを認めている. そのような刃を持って彼らの森に入ることを避けさえすれば, 彼らがそれを問題にすることはまずないだろう. </i>
 Tool_Hatchet_Iron.name = 鉄のハチェット
 Tool_Hatchet_Mithril.name = ミスリルのハチェット
 Tool_Hatchet_Onyxium.name = オニキシウムのハチェット
@@ -2840,43 +2840,43 @@ Tool_Hoe_Copper.name = 銅のクワ
 Tool_Hoe_Crude.name = 粗末なクワ
 Tool_Hoe_Iron.name = 鉄のクワ
 Tool_Hoe_Thorium.name = ソリウムのクワ
-Tool_Hoe.description = 土や草を耕すために使用する。
+Tool_Hoe.description = 土や草を耕すために使用する.
 Tool_Map.name = マップ
 Tool_Pickaxe_Adamantite.name = アダマンタイトのツルハシ
 Tool_Pickaxe_Cobalt.name = コバルトのツルハシ
 Tool_Pickaxe_Copper.name = 銅のツルハシ
 Tool_Pickaxe_Crude.name = 粗末なツルハシ
-Tool_Pickaxe_Crude.description = 石や鉱石ブロックを壊すのに優れている。\n\n<i>ゴブリン公爵たちが地下領域を完全支配できていない唯一の理由は、このツールが何なのかをまだ理解していないことだ。</i>
+Tool_Pickaxe_Crude.description = 石や鉱石ブロックを壊すのに優れている.\n\n<i>ゴブリン公爵たちが地下領域を完全支配できていない唯一の理由は, このツールが何なのかをまだ理解していないことだ. </i>
 Tool_Pickaxe_Iron.name = 鉄のツルハシ
 Tool_Pickaxe_Mithril.name = ミスリルのツルハシ
 Tool_Pickaxe_Onyxium.name = オニキシウムのツルハシ
 Tool_Pickaxe_Scrap.name = スクラップのツルハシ
 Tool_Pickaxe_Thorium.name = ソリウムのツルハシ
 Tool_Pickaxe_Wood.name = 木製のツルハシ
-Tool_Repair_Kit_Crude.description = ツール、武器、防具を修理するために使用する。修理されたアイテムは最大耐久値の最大20%を失う。
+Tool_Repair_Kit_Crude.description = ツール, 武器, 防具を修理するために使用する. 修理されたアイテムは最大耐久値の最大20%を失う.
 Tool_Repair_Kit_Crude.name = 粗末な修理キット
-Tool_Repair_Kit_Iron.description = ツール、武器、防具を修理するために使用する。修理されたアイテムは最大耐久値の最大10%を失う。
+Tool_Repair_Kit_Iron.description = ツール, 武器, 防具を修理するために使用する. 修理されたアイテムは最大耐久値の最大10%を失う.
 Tool_Repair_Kit_Iron.name = 修理キット
 Tool_Repair_Kit_Rare.name = レアな修理キット
-Tool_Sap_Shunt.description = 木に一回だけ使用できる。時間をかけてゆっくりと樹液を溜める。
+Tool_Sap_Shunt.description = 木に一回だけ使用できる. 時間をかけてゆっくりと樹液を溜める.
 Tool_Sap_Shunt.name = 樹液シャント
 Tool_Shears_Basic.name = 粗末なハサミ
-Tool_Shears_Basic.description = 羊の毛を刈ったり、様々な植物を収穫するために使用できる。
+Tool_Shears_Basic.description = 羊の毛を刈ったり, 様々な植物を収穫するために使用できる.
 Tool_Shovel_Cobalt.name = コバルトのシャベル
 Tool_Shovel_Copper.name = 銅のシャベル
 Tool_Shovel_Crude.name = 粗末なシャベル
 Tool_Shovel_Iron.name = 鉄のシャベル
 Tool_Shovel_Thorium.name = ソリウムのシャベル
-Tool_Shovel.description = 複数の土ブロックを同時に壊す。
+Tool_Shovel.description = 複数の土ブロックを同時に壊す.
 Tool_Sickle_Crude.name = 粗末な鎌
 Tool_Sickle_Copper.name = 銅の鎌
 Tool_Sickle_Iron.name = 鉄の鎌
 Tool_Sickle_Steel_Rusty.name = 錆びた鋼鉄の鎌
-Tool_Sickle.description = 一振りで複数の作物を収穫できる。
+Tool_Sickle.description = 一振りで複数の作物を収穫できる.
 Tool_Watering_Can.name = 空のじょうろ
-Tool_Watering_Can.description = 使用するには水を入れる。水をやった作物は<color is="#4ade80">2.5倍</color>速く成長する。
+Tool_Watering_Can.description = 使用するには水を入れる. 水をやった作物は<color is="#4ade80">2.5倍</color>速く成長する.
 Tool_Watering_Can_Full.name = じょうろ
-Tool_Watering_Can_Full.description = 耕した土の作物に水をやるために使用する。水をやった作物は<color is="#4ade80">2.5倍</color>速く成長する。
+Tool_Watering_Can_Full.description = 耕した土の作物に水をやるために使用する. 水をやった作物は<color is="#4ade80">2.5倍</color>速く成長する.
 Trap_Ancient_Platform.name = 割れた古代プラットフォームトラップ
 Trap_Ice.name = 割れた氷のトラップ
 Trap_Slate.name = 割れたスレートのトラップ
@@ -2888,13 +2888,13 @@ TriggerTool_Pickup.name = トリガーツール - 拾う
 TriggerTool_Select.name = トリガーツール - 選択
 Trigger_Block.name = トリガーブロック
 UpgradeBackpack_1.name = バックパックを解放
-UpgradeBackpack_1.description = 消費するとバックパックが解放される。
+UpgradeBackpack_1.description = 消費するとバックパックが解放される.
 UpgradeBackpack_2.name = バックパックアップグレードI
-UpgradeBackpack_2.description = バックパックの容量を増やす。
+UpgradeBackpack_2.description = バックパックの容量を増やす.
 UpgradeBackpack_3.name = バックパックアップグレードII
-UpgradeBackpack_3.description = バックパックの容量をさらに増やす。
+UpgradeBackpack_3.description = バックパックの容量をさらに増やす.
 Utility_Bag_Seed.name = 種袋
-Utility_Bag_Seed.description = 実験的なコンテナ。自己責任で使用すること。
+Utility_Bag_Seed.description = 実験的なコンテナ. 自己責任で使用すること.
 Utility_Helipack.name = ヘリパック
 Utility_Leather_Backpack.name = レザーバックパック
 Utility_Leather_Medium_Backpack.name = 大型バックパック
@@ -3091,7 +3091,7 @@ Weapon_Spellbook_Frost.name = 霜の魔法書
 Weapon_Spellbook_Grimoire_Brown.name = 茶色の魔導書
 Weapon_Spellbook_Grimoire_Purple.name = 紫の魔導書
 Weapon_Spellbook_Rekindle_Embers.name = 魔導書：残り火を再燃させる
-Weapon_Spellbook_Rekindle_Embers.description = 近くの骨の山からスケルトンの手下を蘇らせる。\n\n• 炎の元素に縛られていた種族の骨にのみ適用される。\n• 手下は召喚者を失った時、または5分後に消滅する。\n\n<color is="#ccaa00">手下1体を蘇らせるごとに魔導書を1冊消費する。</color>
+Weapon_Spellbook_Rekindle_Embers.description = 近くの骨の山からスケルトンの手下を蘇らせる.\n\n• 炎の元素に縛られていた種族の骨にのみ適用される.\n• 手下は召喚者を失った時, または5分後に消滅する.\n\n<color is="#ccaa00">手下1体を蘇らせるごとに魔導書を1冊消費する. </color>
 Weapon_Staff_Adamantite.name = アダマンタイトの杖
 Weapon_Staff_Bo_Bamboo.name = 竹の棒
 Weapon_Staff_Bo_Wood.name = 木製の棒
@@ -3102,9 +3102,9 @@ Weapon_Staff_Cobalt.name = コバルトの杖
 Weapon_Staff_Copper.name = 銅の杖
 Weapon_Staff_Crystal_Fire_Trork.name = トロークの杖
 Weapon_Staff_Crystal_Flame.name = 炎のクリスタル杖
-Weapon_Staff_Crystal_Flame.description = <item is="Ingredient_Fire_Essence"/>を消費する。\n\n<color is="#ccaa00">制作中</color>
+Weapon_Staff_Crystal_Flame.description = <item is="Ingredient_Fire_Essence"/>を消費する.\n\n<color is="#ccaa00">制作中</color>
 Weapon_Staff_Crystal_Ice.name = 氷のクリスタル杖
-Weapon_Staff_Crystal_Ice.description = <item is="Ingredient_Ice_Essence"/>を消費する。\n\n<color is="#ccaa00">制作中</color>
+Weapon_Staff_Crystal_Ice.description = <item is="Ingredient_Ice_Essence"/>を消費する.\n\n<color is="#ccaa00">制作中</color>
 Weapon_Staff_Crystal_Purple.name = 紫のクリスタル杖
 Weapon_Staff_Crystal_Red.name = 赤いクリスタル杖
 Weapon_Staff_Doomed.name = 滅びのアウトランダーの杖
@@ -3125,7 +3125,7 @@ Weapon_Sword_Bronze_Ancient.name = 古代ブロンズの剣
 Weapon_Sword_Cobalt.name = コバルトの剣
 Weapon_Sword_Copper.name = 銅の剣
 Weapon_Sword_Crude.name = 粗末な剣
-Weapon_Sword_Crude.description = <i>英雄の時代においてさえ、粗末な素材で最初の武器を作ることは、冒険者への道における通過儀礼だった。</i>
+Weapon_Sword_Crude.description = <i>英雄の時代においてさえ, 粗末な素材で最初の武器を作ることは, 冒険者への道における通過儀礼だった. </i>
 Weapon_Sword_Cutlass.name = カットラス
 Weapon_Sword_Doomed.name = 滅びのアウトランダーの剣
 Weapon_Sword_Frost.name = 霜の剣
@@ -3641,11 +3641,11 @@ Wood_Wisteria_Wild_Trunk.description = 建設家の作業台でゴールデン�
 Wood_Wisteria_Wild_Trunk_Full.name = 野生の藤の木の幹
 Prototype_Geyser.name = プロトタイプガイザースポナー
 Ingredient_Chitin_Sturdy.name = 丈夫なキチン
-Ingredient_Chitin_Sturdy.description = <i>この弾力性のある素材は、各地に生息する多くの生き物の外骨格を形成している。</i>
+Ingredient_Chitin_Sturdy.description = <i>この弾力性のある素材は, 各地に生息する多くの生き物の外骨格を形成している. </i>
 Ingredient_Voidheart.name = ヴォイドハート
-Ingredient_Voidheart.description = <i>ヴォイドの上位住民の、今も鼓動し続ける心臓。\n\nすべての生き物がヴォイドから生まれるわけではないが、取り込まれ堕落したものでさえ、この同じ萎んだ心臓を持つことがある。</i>
+Ingredient_Voidheart.description = <i>ヴォイドの上位住民の, 今も鼓動し続ける心臓.\n\nすべての生き物がヴォイドから生まれるわけではないが, 取り込まれ堕落したものでさえ, この同じ萎んだ心臓を持つことがある. </i>
 Ingredient_Sac_Venom.name = 毒嚢
-Ingredient_Sac_Venom.description = <i>オービスにはあらゆる形と大きさの毒を持つ生き物が生息している。フェランたちがその毒から作った解毒薬はかつて各地で珍重されていた。</i>
+Ingredient_Sac_Venom.description = <i>オービスにはあらゆる形と大きさの毒を持つ生き物が生息している. フェランたちがその毒から作った解毒薬はかつて各地で珍重されていた. </i>
 Prototype_Rock_Chalk_Brick_Pipe_Corner.name = チョークレンガパイプ - コーナー
 Prototype_Rock_Chalk_Brick_Pipe_Short.name = チョークレンガパイプ - 短
 Prototype_Rock_Concrete_Brick.name = コンクリートレンガ
@@ -3773,60 +3773,60 @@ Rock_Runic_Darkblue_Brick_Pipe_Short.name = ダークブルーのルーンレン
 Rock_Runic_Darkblue_Brick_Stairs.name = ダークブルーのルーンレンガ - 階段
 Rock_Runic_Darkblue_Brick_Wall.name = ダークブルーのルーンレンガ - 壁
 Rock_Salt.name = 塩ブロック
-Rock_Salt.description = <item is="Bench_Cooking"/>で精製できる。
+Rock_Salt.description = <item is="Bench_Cooking"/>で精製できる.
 Rock_Salt_Half.name = 塩 - ハーフスラブ
 Rock_Slate_Cobble_Corner.name = スレートの敷石 - コーナー
-Plant_Fruit_Apple.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>\n<color is="#ffffff">ヤギ</color>、<color is="#ffffff">ラム</color>、<color is="#ffffff">ムフロン</color>に好まれる。
-Plant_Fruit_Berries_Red.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>
-Plant_Fruit_Berries_Blue.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>
-Plant_Fruit_Orange.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>
-Plant_Fruit_Pear.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>
-Plant_Fruit_Azure.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>
-Plant_Fruit_Coconut.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>
-Plant_Fruit_Mango.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>
-Plant_Fruit_Pinkberry.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>
-Plant_Fruit_Poison.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>
-Plant_Fruit_Spiral.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>
-Plant_Fruit_Windwillow.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>
-Plant_Crop_Carrot_Item.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>\n<color is="#ffffff">ウサギ</color>、<color is="#ffffff">バニー</color>、<color is="#ffffff">ウマ</color>に好まれる。
-Plant_Crop_Corn_Item.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>\n<color is="#ffffff">ニワトリ</color>と<color is="#ffffff">シチメンチョウ</color>に好まれる。
-Plant_Crop_Potato_Item.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>\n<color is="#ffffff">モスホーン</color>に好まれる。
-Plant_Crop_Pumpkin_Item.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>\n<color is="#ffffff">イノシシ</color>に好まれる。
-Plant_Crop_Onion_Item.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>\n<color is="#ffffff">イボイノシシ</color>に好まれる。
-Plant_Crop_Lettuce_Item.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>\n<color is="#ffffff">ウシ</color>と<color is="#ffffff">ヒツジ</color>に好まれる。
-Plant_Crop_Turnip_Item.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>\n<color is="#ffffff">ブタ</color>に好まれる。
-Plant_Crop_Tomato_Item.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>\n<color is="#ffffff">ラクダ</color>に好まれる。
-Plant_Crop_Rice_Item.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>
-Plant_Crop_Cauliflower_Item.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>\n<color is="#ffffff">バイソン</color>に好まれる。
-Plant_Crop_Chilli_Item.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>\n<color is="#ffffff">スクリル</color>に好まれる。
-Plant_Crop_Aubergine_Item.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>\n<color is="#ffffff">野生のブタ</color>に好まれる。
-Plant_Mushroom_Brown.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>
-Plant_Mushroom_Red.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>
-Food_Vegetable_Cooked.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n• <color is="#ffffff">スタミナ強化I</color>\n\n持続時間：<color is="#ffffff">0:45</color>
-Food_Kebab_Fruit.description = [TMP] 即座に体力を<color is="#ffffff">10%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生II</color>\n• <color is="#ffffff">スタミナ強化II</color>\n\n持続時間：<color is="#ffffff">2:30</color>
-Food_Kebab_Vegetable.description = [TMP] 即座に体力を<color is="#ffffff">10%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生II</color>\n• <color is="#ffffff">スタミナ強化II</color>\n\n持続時間：<color is="#ffffff">2:30</color>
-Food_Kebab_Mushroom.description = [TMP] 即座に体力を<color is="#ffffff">10%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生II</color>\n• <color is="#ffffff">スタミナ強化II</color>\n\n持続時間：<color is="#ffffff">2:30</color>
-Food_Salad_Berry.description = [TMP] 即座に体力を<color is="#ffffff">10%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生II</color>\n• <color is="#ffffff">スタミナ強化II</color>\n\n持続時間：<color is="#ffffff">2:30</color>
-Food_Salad_Mushroom.description = [TMP] 即座に体力を<color is="#ffffff">10%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生II</color>\n• <color is="#ffffff">スタミナ強化II</color>\n\n持続時間：<color is="#ffffff">2:30</color>
-Food_Salad_Caesar.description = [TMP] 即座に体力を<color is="#ffffff">15%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生III</color>\n• <color is="#ffffff">スタミナ強化III</color>\n\n持続時間：<color is="#ffffff">6:00</color>
-Food_Pie_Apple.description = [TMP] 即座に体力を<color is="#ffffff">15%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生III</color>\n• <color is="#ffffff">スタミナ強化III</color>\n\n持続時間：<color is="#ffffff">6:00</color>
-Recipe_Food_Pie_Apple.description = [TMP] <item is="Food_Pie_Apple"/>のレシピを習得する。\n\n即座に体力を<color is="#ffffff">15%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生III</color>\n• <color is="#ffffff">スタミナ強化III</color>\n\n持続時間：<color is="#ffffff">6:00</color>
-Recipe_Food_Pie_Pumpkin.description = [TMP] <item is="Food_Pie_Pumpkin"/>のレシピを習得する。\n\n即座に体力を<color is="#ffffff">15%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生III</color>\n• <color is="#ffffff">スタミナ強化III</color>\n\n持続時間：<color is="#ffffff">6:00</color>
-Recipe_Food_Pie_Meat.description = [TMP] <item is="Food_Pie_Meat"/>のレシピを習得する。\n\n即座に体力を<color is="#ffffff">15%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生III</color>\n• <color is="#ffffff">体力強化III</color>\n\n持続時間：<color is="#ffffff">6:00</color>
-Recipe_Food_Salad_Caesar.description = [TMP] <item is="Food_Salad_Caesar"/>のレシピを習得する。\n\n即座に体力を<color is="#ffffff">15%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生III</color>\n• <color is="#ffffff">スタミナ強化III</color>\n\n持続時間：<color is="#ffffff">6:00</color>
-Food_Pie_Pumpkin.description = [TMP] 即座に体力を<color is="#ffffff">15%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生III</color>\n• <color is="#ffffff">スタミナ強化III</color>\n\n持続時間：<color is="#ffffff">6:00</color>
-Food_Wildmeat_Cooked.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n• <color is="#ffffff">体力強化I</color>\n\n持続時間：<color is="#ffffff">0:45</color>
-Food_Fish_Grilled.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n• <color is="#ffffff">体力強化I</color>\n\n持続時間：<color is="#ffffff">0:45</color>
-Food_Kebab_Meat.description = [TMP] 即座に体力を<color is="#ffffff">10%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生II</color>\n• <color is="#ffffff">体力強化II</color>\n\n持続時間：<color is="#ffffff">2:30</color>
-Food_Pie_Meat.description = [TMP] 即座に体力を<color is="#ffffff">15%</color>回復し、以下を付与する：\n\n• <color is="#ffffff">体力再生III</color>\n• <color is="#ffffff">体力強化III</color>\n\n持続時間：<color is="#ffffff">6:00</color>
-Food_Wildmeat_Raw.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復する。
-Food_Fish_Raw.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復する。
-Food_Pork_Raw.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復する。
-Food_Chicken_Raw.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復する。
-Food_Beef_Raw.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復する。
-Food_Bread.description = [TMP] 即座に体力を<color is="#ffffff">15%</color>回復する。
-Food_Popcorn.description = [TMP] 即座に体力を<color is="#ffffff">15%</color>回復する。
-Food_Cheese.description = [TMP] 即座に体力を<color is="#ffffff">15%</color>回復する。
+Plant_Fruit_Apple.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し, 以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>\n<color is="#ffffff">ヤギ</color>, <color is="#ffffff">ラム</color>, <color is="#ffffff">ムフロン</color>に好まれる.
+Plant_Fruit_Berries_Red.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し, 以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>
+Plant_Fruit_Berries_Blue.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し, 以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>
+Plant_Fruit_Orange.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し, 以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>
+Plant_Fruit_Pear.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し, 以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>
+Plant_Fruit_Azure.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し, 以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>
+Plant_Fruit_Coconut.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し, 以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>
+Plant_Fruit_Mango.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し, 以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>
+Plant_Fruit_Pinkberry.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し, 以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>
+Plant_Fruit_Poison.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し, 以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>
+Plant_Fruit_Spiral.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し, 以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>
+Plant_Fruit_Windwillow.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し, 以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>
+Plant_Crop_Carrot_Item.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し, 以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>\n<color is="#ffffff">ウサギ</color>, <color is="#ffffff">バニー</color>, <color is="#ffffff">ウマ</color>に好まれる.
+Plant_Crop_Corn_Item.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し, 以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>\n<color is="#ffffff">ニワトリ</color>と<color is="#ffffff">シチメンチョウ</color>に好まれる.
+Plant_Crop_Potato_Item.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し, 以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>\n<color is="#ffffff">モスホーン</color>に好まれる.
+Plant_Crop_Pumpkin_Item.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し, 以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>\n<color is="#ffffff">イノシシ</color>に好まれる.
+Plant_Crop_Onion_Item.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し, 以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>\n<color is="#ffffff">イボイノシシ</color>に好まれる.
+Plant_Crop_Lettuce_Item.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し, 以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>\n<color is="#ffffff">ウシ</color>と<color is="#ffffff">ヒツジ</color>に好まれる.
+Plant_Crop_Turnip_Item.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し, 以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>\n<color is="#ffffff">ブタ</color>に好まれる.
+Plant_Crop_Tomato_Item.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し, 以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>\n<color is="#ffffff">ラクダ</color>に好まれる.
+Plant_Crop_Rice_Item.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し, 以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>
+Plant_Crop_Cauliflower_Item.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し, 以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>\n<color is="#ffffff">バイソン</color>に好まれる.
+Plant_Crop_Chilli_Item.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し, 以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>\n<color is="#ffffff">スクリル</color>に好まれる.
+Plant_Crop_Aubergine_Item.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し, 以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>\n<color is="#ffffff">野生のブタ</color>に好まれる.
+Plant_Mushroom_Brown.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し, 以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>
+Plant_Mushroom_Red.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し, 以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n\n持続時間：<color is="#ffffff">0:45</color>
+Food_Vegetable_Cooked.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し, 以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n• <color is="#ffffff">スタミナ強化I</color>\n\n持続時間：<color is="#ffffff">0:45</color>
+Food_Kebab_Fruit.description = [TMP] 即座に体力を<color is="#ffffff">10%</color>回復し, 以下を付与する：\n\n• <color is="#ffffff">体力再生II</color>\n• <color is="#ffffff">スタミナ強化II</color>\n\n持続時間：<color is="#ffffff">2:30</color>
+Food_Kebab_Vegetable.description = [TMP] 即座に体力を<color is="#ffffff">10%</color>回復し, 以下を付与する：\n\n• <color is="#ffffff">体力再生II</color>\n• <color is="#ffffff">スタミナ強化II</color>\n\n持続時間：<color is="#ffffff">2:30</color>
+Food_Kebab_Mushroom.description = [TMP] 即座に体力を<color is="#ffffff">10%</color>回復し, 以下を付与する：\n\n• <color is="#ffffff">体力再生II</color>\n• <color is="#ffffff">スタミナ強化II</color>\n\n持続時間：<color is="#ffffff">2:30</color>
+Food_Salad_Berry.description = [TMP] 即座に体力を<color is="#ffffff">10%</color>回復し, 以下を付与する：\n\n• <color is="#ffffff">体力再生II</color>\n• <color is="#ffffff">スタミナ強化II</color>\n\n持続時間：<color is="#ffffff">2:30</color>
+Food_Salad_Mushroom.description = [TMP] 即座に体力を<color is="#ffffff">10%</color>回復し, 以下を付与する：\n\n• <color is="#ffffff">体力再生II</color>\n• <color is="#ffffff">スタミナ強化II</color>\n\n持続時間：<color is="#ffffff">2:30</color>
+Food_Salad_Caesar.description = [TMP] 即座に体力を<color is="#ffffff">15%</color>回復し, 以下を付与する：\n\n• <color is="#ffffff">体力再生III</color>\n• <color is="#ffffff">スタミナ強化III</color>\n\n持続時間：<color is="#ffffff">6:00</color>
+Food_Pie_Apple.description = [TMP] 即座に体力を<color is="#ffffff">15%</color>回復し, 以下を付与する：\n\n• <color is="#ffffff">体力再生III</color>\n• <color is="#ffffff">スタミナ強化III</color>\n\n持続時間：<color is="#ffffff">6:00</color>
+Recipe_Food_Pie_Apple.description = [TMP] <item is="Food_Pie_Apple"/>のレシピを習得する.\n\n即座に体力を<color is="#ffffff">15%</color>回復し, 以下を付与する：\n\n• <color is="#ffffff">体力再生III</color>\n• <color is="#ffffff">スタミナ強化III</color>\n\n持続時間：<color is="#ffffff">6:00</color>
+Recipe_Food_Pie_Pumpkin.description = [TMP] <item is="Food_Pie_Pumpkin"/>のレシピを習得する.\n\n即座に体力を<color is="#ffffff">15%</color>回復し, 以下を付与する：\n\n• <color is="#ffffff">体力再生III</color>\n• <color is="#ffffff">スタミナ強化III</color>\n\n持続時間：<color is="#ffffff">6:00</color>
+Recipe_Food_Pie_Meat.description = [TMP] <item is="Food_Pie_Meat"/>のレシピを習得する.\n\n即座に体力を<color is="#ffffff">15%</color>回復し, 以下を付与する：\n\n• <color is="#ffffff">体力再生III</color>\n• <color is="#ffffff">体力強化III</color>\n\n持続時間：<color is="#ffffff">6:00</color>
+Recipe_Food_Salad_Caesar.description = [TMP] <item is="Food_Salad_Caesar"/>のレシピを習得する.\n\n即座に体力を<color is="#ffffff">15%</color>回復し, 以下を付与する：\n\n• <color is="#ffffff">体力再生III</color>\n• <color is="#ffffff">スタミナ強化III</color>\n\n持続時間：<color is="#ffffff">6:00</color>
+Food_Pie_Pumpkin.description = [TMP] 即座に体力を<color is="#ffffff">15%</color>回復し, 以下を付与する：\n\n• <color is="#ffffff">体力再生III</color>\n• <color is="#ffffff">スタミナ強化III</color>\n\n持続時間：<color is="#ffffff">6:00</color>
+Food_Wildmeat_Cooked.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し, 以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n• <color is="#ffffff">体力強化I</color>\n\n持続時間：<color is="#ffffff">0:45</color>
+Food_Fish_Grilled.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復し, 以下を付与する：\n\n• <color is="#ffffff">体力再生I</color>\n• <color is="#ffffff">体力強化I</color>\n\n持続時間：<color is="#ffffff">0:45</color>
+Food_Kebab_Meat.description = [TMP] 即座に体力を<color is="#ffffff">10%</color>回復し, 以下を付与する：\n\n• <color is="#ffffff">体力再生II</color>\n• <color is="#ffffff">体力強化II</color>\n\n持続時間：<color is="#ffffff">2:30</color>
+Food_Pie_Meat.description = [TMP] 即座に体力を<color is="#ffffff">15%</color>回復し, 以下を付与する：\n\n• <color is="#ffffff">体力再生III</color>\n• <color is="#ffffff">体力強化III</color>\n\n持続時間：<color is="#ffffff">6:00</color>
+Food_Wildmeat_Raw.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復する.
+Food_Fish_Raw.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復する.
+Food_Pork_Raw.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復する.
+Food_Chicken_Raw.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復する.
+Food_Beef_Raw.description = [TMP] 即座に体力を<color is="#ffffff">5%</color>回復する.
+Food_Bread.description = [TMP] 即座に体力を<color is="#ffffff">15%</color>回復する.
+Food_Popcorn.description = [TMP] 即座に体力を<color is="#ffffff">15%</color>回復する.
+Food_Cheese.description = [TMP] 即座に体力を<color is="#ffffff">15%</color>回復する.
 Furniture_Cybercity_Windows_Purple.name = プロトタイプ - サイバーシティウィンドウ - 上下パープル
 Furniture_Cybercity_Windows_Red.name = プロトタイプ - サイバーシティウィンドウ - 上下レッド
 Furniture_Cybercity_Windows_Yellow.name = プロトタイプ - サイバーシティウィンドウ - 上下イエロー
@@ -4089,7 +4089,7 @@ Unknown.name = 不明
 Debug_Durability_Condition.name = デバッグ用耐久状態アイテム
 Debug_Falling_Explosive.name = デバッグ用落下爆発物
 Filter_Fluids.name = フィルター - 流体
-Filter_Fluids.description = 流体に一致するブラシフィルターです。ペイントや置き換え時に流体のみに影響を与えるには、ビルダーツールのマスクスロットで使用してください。
+Filter_Fluids.description = 流体に一致するブラシフィルターです. ペイントや置き換え時に流体のみに影響を与えるには, ビルダーツールのマスクスロットで使用してください.
 RecipeItem.name = レシピ：{itemName}
 Debug_Beacon_Horn.name = デバッグ用ビーコンホルン
 Debug_Companion_Block_Spawner.name = デバッグ用コンパニオンブロックスポナー
@@ -4116,10 +4116,10 @@ Prototype_Spider_Cocoon_Falling.name = [TMP] プロトタイプ - 落下する�
 Soil_Leaves_Full.name = 完全な落ち葉土
 Test_PlaceBlockProcedure.name = テスト用PlaceBlockProcedure
 Weapon_Test_Zoom_Rifle.name = テスト用ライフルズーム
-Weapon_Test_Zoom_Rifle.description = 可変ズーム付きのテスト用ライフル。二次操作を長押しすると照準を覗き込み、視点が3段階のズームレベルを切り替えます。一次操作で発射します。
+Weapon_Test_Zoom_Rifle.description = 可変ズーム付きのテスト用ライフル. 二次操作を長押しすると照準を覗き込み, 視点が3段階のズームレベルを切り替えます. 一次操作で発射します.
 Weapon_Test_Sniper_Rifle.name = テスト用スナイパーズーム
-Weapon_Test_Sniper_Rifle.description = テスト用のスナイパーライフル。二次操作を長押しすると高倍率スコープを覗き込みます。一次操作をクリックするたびに1発発射します。
+Weapon_Test_Sniper_Rifle.description = テスト用のスナイパーライフル. 二次操作を長押しすると高倍率スコープを覗き込みます. 一次操作をクリックするたびに1発発射します.
 Weapon_Shortbow_Test_Zoom.name = テスト用弓ズーム
-Weapon_Shortbow_Test_Zoom.description = 狙っている間にズームインするテスト用ショートボウ。一次操作を長押しすると引き絞り、視点が寄ります。離すと発射してズームアウトします。
+Weapon_Shortbow_Test_Zoom.description = 狙っている間にズームインするテスト用ショートボウ. 一次操作を長押しすると引き絞り, 視点が寄ります. 離すと発射してズームアウトします.
 Build_Lightsource_Green.name = 緑の建築用光源
 Debug_Movement_Boots.name = デバッグ用移動ブーツ

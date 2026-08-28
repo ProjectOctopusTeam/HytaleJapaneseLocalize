@@ -1,7 +1,7 @@
 desc = ボイスチャットの設定
 status.desc = ボイスチャットの状態を表示する
-status.enabledInfo = ボイスチャット: 有効、最大距離={maxDistance}、フル音量距離={fullVolumeDistance}、ミュート中のプレイヤー数: {mutedCount}
-status.disabledInfo = ボイスチャット: 無効、最大距離={maxDistance}、フル音量距離={fullVolumeDistance}、ミュート中のプレイヤー数: {mutedCount}
+status.enabledInfo = ボイスチャット: 有効, 最大距離={maxDistance}, フル音量距離={fullVolumeDistance}, ミュート中のプレイヤー数: {mutedCount}
+status.disabledInfo = ボイスチャット: 無効, 最大距離={maxDistance}, フル音量距離={fullVolumeDistance}, ミュート中のプレイヤー数: {mutedCount}
 enabled.desc = ボイスチャットを有効または無効にする
 enabled.arg.desc = ボイスチャットを有効にするかどうか
 status.enabled = ボイスチャットが有効です！

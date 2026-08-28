@@ -1,4 +1,4 @@
-loaded = # = ホット、& = コールド、% = ロード中、X = アンロード要、' ' = 未ロード\n\
+loaded = # = ホット, & = コールド, % = ロード中, X = アンロード要, ' ' = 未ロード\n\
     {grid}\n\
     表示半径：{viewRadius, number}\n\
     送信済み表示半径：{sentViewRadius, number}\n\

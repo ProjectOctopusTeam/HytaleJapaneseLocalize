@@ -1,5 +1,5 @@
 droplistSet = ドロップリストを設定しました！
 currentDroplist = 現在のドロップリスト: {droplist}
-noDroplist = このコンテナにはドロップリストがありません。
+noDroplist = このコンテナにはドロップリストがありません.
 setDroplist.desc = 見ているチェストのドロップリストを設定する
 getDroplist.desc = 見ているチェストのドロップリストを取得する

@@ -1,8 +1,8 @@
 buttons.Inventory = インベントリ
 buttons.Map = マップ
 buttons.ContentCreation = クリエイティブツール
-buttons.ContentCreation.disabledTooltip = クリエイティブメニューはクリエイティブモードでのみ使用できます。
+buttons.ContentCreation.disabledTooltip = クリエイティブメニューはクリエイティブモードでのみ使用できます.
 buttons.ContentCreation.disabledTooltip.title = クリエイティブモード
-buttons.ContentCreation.disabledTooltip.description = クリエイティブモードでは強力な編集ツールを使用できます。クリエイティブモードに切り替えるには、「/op self」を使用するか、フレンドには「/setgroup WorldEditor」を使用し、「{key}」ホットキーでゲームモードを切り替えてください。
-buttons.ContentCreation.disabledTooltipUnassigned.description = クリエイティブモードでは強力な編集ツールを使用できます。クリエイティブモードに切り替えるには、「/op self」を使用するか、フレンドには「/setgroup WorldEditor」を使用し、「/gm c」と入力してください。
+buttons.ContentCreation.disabledTooltip.description = クリエイティブモードでは強力な編集ツールを使用できます. クリエイティブモードに切り替えるには, 「/op self」を使用するか, フレンドには「/setgroup WorldEditor」を使用し, 「{key}」ホットキーでゲームモードを切り替えてください.
+buttons.ContentCreation.disabledTooltipUnassigned.description = クリエイティブモードでは強力な編集ツールを使用できます. クリエイティブモードに切り替えるには, 「/op self」を使用するか, フレンドには「/setgroup WorldEditor」を使用し, 「/gm c」と入力してください.
 earlyAccess = アーリーアクセス

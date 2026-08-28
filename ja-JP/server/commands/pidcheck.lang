@@ -6,4 +6,4 @@ PIDRunning = PID: {pid} {running}
 desc = PIDが実行中かどうかを確認する
 singleplayer.desc = シングルプレイヤーモードでクライアントのPIDを確認する
 pid.desc = 確認するプロセスID
-pidRequired = --singleplayer が指定されていない場合、PIDの指定が必要です
+pidRequired = --singleplayer が指定されていない場合, PIDの指定が必要です

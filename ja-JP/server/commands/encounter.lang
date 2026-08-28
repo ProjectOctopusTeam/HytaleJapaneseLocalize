@@ -5,4 +5,4 @@ add.desc = 現在の位置にエンカウンターマネージャーを追加す
 add.arg.encounter.desc = エンカウンターマネージャーの定義
 add.added = エンカウンターマネージャー "{encounterId}" を現在の位置に追加しました
 add.failed = エンカウンターマネージャー "{encounterId}" のスポーンに失敗しました
-add.notspawnable = エンカウンターマネージャー "{id}" は抽象定義のため、直接スポーンできません
+add.notspawnable = エンカウンターマネージャー "{id}" は抽象定義のため, 直接スポーンできません

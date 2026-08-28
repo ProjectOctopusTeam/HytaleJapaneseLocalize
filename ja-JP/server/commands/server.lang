@@ -26,7 +26,7 @@ stats.memory.usage = \\t初期値: {init}\\n\
     \\t空き: {free}
 gc.desc = サーバーに強制的にGCを実行させる
 gc.forcedgc = GCを強制実行しました！解放されたメモリ: {bytes}
-gc.forcedgc.increased = GCを強制実行しましたが解放されませんでした。{bytes} 増加しました。サーバーが正常に動作している可能性があります！
+gc.forcedgc.increased = GCを強制実行しましたが解放されませんでした. {bytes} 増加しました. サーバーが正常に動作している可能性があります！
 dump.desc = サーバーの状態をダンプする
 dump.dumpingState = 現在のサーバー状態をダンプ中！
 dump.finished = ダンプが完了しました！ファイルの保存先: {filepath}

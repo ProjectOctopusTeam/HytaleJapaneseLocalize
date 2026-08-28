@@ -1,4 +1,4 @@
-extentsThresholdNeeded = 閾値{threshold}を使用した場合、必要なフィラーブロックの総数は{nb}です
+extentsThresholdNeeded = 閾値{threshold}を使用した場合, 必要なフィラーブロックの総数は{nb}です
 notFound = 名前が "{name}" のヒットボックスはありません
 boundingBox = バウンディングボックス：{box}
 details.header = 詳細ボックス
