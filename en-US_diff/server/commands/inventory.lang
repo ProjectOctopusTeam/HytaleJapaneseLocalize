@@ -1,7 +1,7 @@
 desc = Manage player inventories
 backpack.size = Your backpack capacity has now increased to {capacity, number}!
-backpack.upgradeNotApplied = [TMP] Your backpack is already at this capacity or larger than what this upgrade grants.
-backpack.usePreviousUpgrade = [TMP] You need to use the previous upgrade before you can use this one.
+backpack.upgradeNotApplied = Your backpack is already at this capacity or larger than what this upgrade grants.
+backpack.usePreviousUpgrade = You need to use the previous upgrade before you can use this one.
 backpack.resized = Backpack capacity resized to {capacity, number} (dropped {dropped, plural,\
     one {1 item}\
     other {{dropped, number} items}})

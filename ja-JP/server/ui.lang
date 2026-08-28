@@ -1,5 +1,5 @@
 diagramcraftingwindow.invalidCategory = 無効なカテゴリーが選択されました！
-diagramcraftingwindow.noOutputItem = 出力アイテムが設定されていません。このアクションを送信できないはずです！
+diagramcraftingwindow.noOutputItem = 出力アイテムが設定されていません！
 diagramcraftingwindow.failedVerifyRecipy = レシピの検証に失敗しました？
 itemcategory.benches = 作業台
 itemcategory.containers = コンテナ

@@ -9,3 +9,4 @@ timeline.label.frame = フレーム: {frame}
 timeline.label.duration = 長さ: {duration}
 timeline.label.fps = 再生速度:
 timeline.tooltip.keyframe = フレーム: {time}
+colorPicker.opacity = 不透明度

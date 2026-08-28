@@ -18,3 +18,4 @@ list.desc = List prefabs
 list.storeType.desc = The store type (server, asset, worldgen)
 list.text.desc = Show as text instead of opening UI
 invalidStoreType = {storeType} is not a valid prefab store!
+save.compressed.desc = If specified, saves as a compressed .lpf file regardless of block count

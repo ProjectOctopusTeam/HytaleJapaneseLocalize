@@ -62,3 +62,4 @@ tests.Test_Throw_NPC = NPCが他のNPCをプレイヤーに向けて投げるこ
 tests.Test_Trigger_Spawners = NPCが近くの手動スポーンマーカーをトリガーすることを確認する
 tests.Test_Weather_Sensor = NPCが雨が降っているかどうかを報告することを確認する
 tests.Test_Bird_Land = NPCが離陸し、干し草ブロックに正常に着陸することを確認する
+tests.Test_State_Evaluator_TimeSinceLastUsed = プレイヤーが範囲内にいる間、NPCがActivated状態に入るまでに5秒のクールダウンがあることを検証する

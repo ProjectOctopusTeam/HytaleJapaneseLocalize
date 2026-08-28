@@ -1,0 +1,9 @@
+radius.desc = The maximum view radius in chunks
+get = Max view radius is set to {radius, number} chunks
+set = Max view radius has been set to {radius, number} chunks
+mustBePositive = Max view radius must be a positive number
+noHigherThan = Max view radius cannot be higher than {max, number} chunks
+reset = Max view radius has been reset to {radius, number} chunks
+desc = Get, set, or reset the maximum view radius for players
+set.desc = Set the maximum view radius for players
+reset.desc = Reset the maximum view radius to the default

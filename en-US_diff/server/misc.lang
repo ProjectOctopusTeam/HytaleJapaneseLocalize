@@ -1,0 +1,4 @@
+hardcore.global.gameOver.title = Game Over
+hardcore.global.gameOver.subtitle = No lives remaining
+hardcore.global.gameOver.deathMessage = Game over!
+hardcore.global.gameOver.deathScreenMessage = No lives remaining. The game is over for everyone.

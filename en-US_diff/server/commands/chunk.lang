@@ -24,26 +24,26 @@ forcetick.desc = Force all blocks in a chunk to tick
 forcetick.position.desc = The chunk position (x, z)
 regenerate.desc = Regenerate chunk
 regenerate.position.desc = The chunk position (x, z)
-regenerate.success = Chunk at {chunkX}, {chunkZ} in world '{worldName}' has been regenerated!
+regenerate.success = Chunk at {chunkX}, {chunkZ} in world "{worldName}" has been regenerated!
 marksave.position.desc = The chunk position (x, z)
-marksave.markingAlreadyLoaded = Marking chunk at {x}, {z} in '{worldName}' to be saved and was already loaded!
-marksave.loaded = Marking chunk at {x}, {z} in '{worldName}' to be saved and was loaded!
-load.alreadyLoaded = Chunk at {chunkX}, {chunkZ} in '{worldName}' is already loaded!
-load.loading = Loading chunk at {chunkX}, {chunkZ} in '{worldName}'!
-load.loaded = Done loading chunk at {chunkX}, {chunkZ} in '{worldName}'!
-unload.alreadyUnloaded = Chunk at {chunkX}, {chunkZ} in '{worldName}' is already unloaded!
-unload.success = Unloaded chunk at {chunkX}, {chunkZ} in '{worldName}'!
+marksave.markingAlreadyLoaded = Marking chunk at {x}, {z} in "{worldName}" to be saved and was already loaded!
+marksave.loaded = Marking chunk at {x}, {z} in "{worldName}" to be saved and was loaded!
+load.alreadyLoaded = Chunk at {chunkX}, {chunkZ} in "{worldName}" is already loaded!
+load.loading = Loading chunk at {chunkX}, {chunkZ} in "{worldName}"!
+load.loaded = Done loading chunk at {chunkX}, {chunkZ} in "{worldName}"!
+unload.alreadyUnloaded = Chunk at {chunkX}, {chunkZ} in "{worldName}" is already unloaded!
+unload.success = Unloaded chunk at {chunkX}, {chunkZ} in "{worldName}"!
 fixheight.desc = Regenerate chunk lighting
 fixheight.position.desc = The chunk position (x, z)
 lighting.position.desc = The chunk position (x, y, z)
 loaded.desc = Display loaded chunk information for a player
 tracker.desc = Display chunk tracker information for a player
-maxsendrate.desc = Set or view chunk send rate settings for a player
-maxsendrate.sec.desc = Max chunks per second. Omit argument to set to default.
-maxsendrate.sec.set = Set max chunks per second: {value, number}
-maxsendrate.tick.desc = Max chunks per tick. Omit argument to set to default.
-maxsendrate.tick.set = Set max chunks per tick: {value, number}
-maxsendrate.summary = Max chunk send rate:\n\
+maxsendrate.desc = Set or view section send rate settings for a player
+maxsendrate.sec.desc = Max sections per second. Omit argument to set to default.
+maxsendrate.sec.set = Set max sections per second: {value, number}
+maxsendrate.tick.desc = Max sections per tick. Omit argument to set to default.
+maxsendrate.tick.set = Set max sections per tick: {value, number}
+maxsendrate.summary = Max section send rate:\n\
     \tPer second: {perSecond, number}\n\
     \tPer tick: {perTick, number}
 fixHeightMap.started = Fixing height map...
@@ -52,3 +52,29 @@ fixHeightMap.invalidatingLighting = Invalidating lighting...
 fixHeightMap.waitingForLighting = Waiting for lighting in chunk ({x, number}, {z, number}) to update
 fixHeightMap.lightingFinished = Chunk ({x, number}, {z, number}) lighting finished
 fixHeightMap.lightingError = Chunk ({x, number}, {z, number}) taking too long, giving up!
+shape.desc = Render a debug cube for each loaded section for a player, colored by hot/cold
+shape.success = Rendered {count, number} debug cubes
+shape.hotOnly.desc = Only render cubes for hot sections
+savequeue.desc = Show section save queue depth and in-flight save counts
+savequeue.summary = Save queue for '{worldName}':\n\
+    \tColumn queue depth: {queueDepth, number}\n\
+    \tDirty sections waiting: {dirtySections, number}\n\
+    \tDirty entity sections waiting: {dirtyEntitySections, number}\n\
+    \tDirty entities waiting: {dirtyEntities, number}\n\
+    \tIn-flight saves: {inFlight, number} / {max, number}\n\
+    \tPending futures: {pending, number}\n\
+    \tTotal starts: {starts, number}\n\
+    \tTotal completions: {completions, number}\n\
+    \tOutstanding (starts - completions): {outstanding, number}
+storagestats.desc = Dump stats from the active chunk storage backend
+storagestats.json.desc = Write the full metric snapshot to a JSON file under dumps/
+storagestats.noMetrics = The current chunk storage backend does not expose metrics
+storagestats.dumped = Storage stats dumped to: {filepath}
+storagestats.header = Chunk storage stats for '{worldName}' ({provider})
+storagestats.loader.header = Loader: {className}
+storagestats.saver.header = Saver: {className}
+storagestats.counter = \t{key}: {value}
+storagestats.rates.header = \t{op} rates:
+storagestats.rates.row = \t\t{period}: {summary}
+storagestats.group.header = \t{label}:
+storagestats.group.row = \t\t{key}: {value}

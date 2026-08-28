@@ -6,12 +6,12 @@ loaded = # = ホット、& = コールド、% = ロード中、X = アンロー�
     チャンク受信準備完了：{readyForChunks}\n\
     ロード済み：{loaded, number}\n\
     ロード中：{loading, number}
-summary = チャンク：\n\
-    \t1秒あたりの最大チャンク数：{maxChunksPerSecond, number}\n\
-    \t1ティックあたりの最大チャンク数：{maxChunksPerTick, number}\n\
-    \tチャンクロード半径：\n\
-    \t\t最小：{minChunkLoadedRadius, number}\n\
-    \t\t最大ホットロード：{maxHotChunkLoadedRadius, number}\n\
-    \tロード済みチャンク（プレイヤー）：{loadedPlayerChunks, number}\n\
-    \tロード中チャンク（プレイヤー）：{loadingPlayerChunks, number}\n\
-    ロード済みチャンク（ワールド）：{loadedWorldChunks, number}
+summary = セクション:\n\
+    \t毎秒の最大セクション数: {maxSectionsPerSecond, number}\n\
+    \t1ティックあたりの最大セクション数: {maxSectionsPerTick, number}\n\
+    \tチャンク読み込み半径:\n\
+    \t\t最小: {minChunkLoadedRadius, number}\n\
+    \t\tホット読み込みの最大: {maxHotChunkLoadedRadius, number}\n\
+    \t読み込み済みセクション (プレイヤー): {loadedPlayerSections, number}\n\
+    \t読み込み中セクション (プレイヤー): {loadingPlayerSections, number}\n\
+    読み込み済みチャンク (ワールド): {loadedWorldChunks, number}

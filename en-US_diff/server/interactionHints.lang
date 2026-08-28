@@ -18,4 +18,6 @@ trade = Press [{key}] to trade
 mount = Press [{key}] to mount
 burst = Press [{key}] to burst {name}
 pickup = Press [{key}] to pick up {name}
-inspect = [TMP] Press [{key}] to inspect {name}
+inspect = Press [{key}] to inspect {name}
+carry = Press [{key}] to carry
+openOrCarry = Press [{key}] to open\nHold [{key}] to carry

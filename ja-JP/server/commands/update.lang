@@ -53,3 +53,12 @@ setup.no_assets = 警告: 親ディレクトリに Assets.zip が見つかりま
     ランチャースクリプトは start.sh/start.bat と同じ場所に Assets.zip があることを前提としています。\\n\
     Assets.zip をそこにコピーするか、'/update download --force' を使用してフルパッケージをダウンロードしてください。
 bootstrap_complete = ブートストラップのインストールが完了しました。現在のディレクトリから start.sh または start.bat を使用してサーバーを起動してください。
+unknown = 不明
+status.none = なし
+status.not_checked = 未確認
+status.up_to_date = 最新
+status.available = {version} が利用可能
+status.not_downloading = いいえ
+status.download_starting = 開始中...
+status.downloading = {percent}% ({downloaded} / {total})
+status.downloading_eta = {percent}% ({downloaded} / {total}) 残り時間: {eta}

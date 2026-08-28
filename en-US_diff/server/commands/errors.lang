@@ -1,7 +1,7 @@
 waitForBoot = The server is still booting up, please retry the command in a moment.
-noSuchPlayer = No such player '{username}'.
-noSuchWorld = No such world '{name}'.
-noSuchEnum = Could not find enum of type {type} with a name: '{name}'.
+noSuchPlayer = No such player "{username}".
+noSuchWorld = No such world "{name}".
+noSuchEnum = Could not find enum of type {type} with a name: "{name}".
 worldUnspecified = Ambiguous world argument
 permission = You don't have permission to execute that command! Requires {permission}
 sender = Wrong sender type, expecting {sender}
@@ -9,7 +9,7 @@ noWorld = No world exists or is specified
 playerNotInWorld = Player is not in valid world
 targetNotInWorld = Target is not in valid world
 targetNotFound = Target {uuid} not found
-chunkNotLoaded = Chunk at {chunkX}, {chunkZ} is not loaded in world '{world}'
+chunkNotLoaded = Chunk at {chunkX}, {chunkZ} is not loaded in world "{world}"
 no_entity_in_view = No entity in view! Either look at an entity or use --{option}=<uuid>
 playerOrArg = Sender must be a player or provide the --{option} option!
 relativePositionArg = Sender must be a player to use relative coordinates!
@@ -23,3 +23,4 @@ npc.unknown_role = Unknown NPC role: {role}
 npc.unknown_debug_preset = Unknown debug preset: {preset}
 spawnIndexOutOfRange = Spawn index is out of range
 playerOnly = This command can only be used by players
+noSuchCodecKey = Could not find codec of type {type} with a key: "{key}".

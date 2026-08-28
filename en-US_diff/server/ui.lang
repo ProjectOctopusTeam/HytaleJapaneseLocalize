@@ -1,5 +1,5 @@
 diagramcraftingwindow.invalidCategory = Invalid Category selected!
-diagramcraftingwindow.noOutputItem = No output item was set you shouldn't be able to send this action! tsk tsk
+diagramcraftingwindow.noOutputItem = No output item was set!
 diagramcraftingwindow.failedVerifyRecipy = Failed to verify the recipe?
 itemcategory.benches = Benches
 itemcategory.containers = Containers

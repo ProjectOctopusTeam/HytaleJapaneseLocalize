@@ -62,3 +62,4 @@ tests.Test_Throw_NPC = Verify NPC launches other NPCs at the player
 tests.Test_Trigger_Spawners = Verify that NPC triggers nearby manual spawn markers
 tests.Test_Weather_Sensor = Verify that NPC reports when it's raining and when it isn't
 tests.Test_Bird_Land = Verify that NPC takes off and then successfully lands on hay blocks
+tests.Test_State_Evaluator_TimeSinceLastUsed = Verify that NPC has a 5s cooldown between entering Activated state while player is within range

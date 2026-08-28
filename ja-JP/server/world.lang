@@ -1,2 +1,2 @@
-spawn.notSet = ワールド'{worldName}'にはスポーン地点が設定されていません！
-notFound = ワールド'{worldName}'が見つかりませんでした！
+spawn.notSet = ワールド "{worldName}" にはスポーン地点が設定されていません！
+notFound = ワールド "{worldName}" が見つかりませんでした！

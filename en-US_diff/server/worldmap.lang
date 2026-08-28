@@ -5,3 +5,4 @@ markers.create.creationDisabled = Creating markers is disabled!
 markers.edit.tooFar = You may not edit a marker that far away from you!
 markers.edit.notOwner = You may not edit other players' markers!
 markers.edit.notFound = Couldn't find the map marker you're trying to edit!
+markers.debug.name = Debug Marker

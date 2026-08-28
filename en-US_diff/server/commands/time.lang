@@ -9,10 +9,10 @@ period.midday.desc = Set the world time to midday
 period.midnight.desc = Set the world time to midnight
 period.dawn.desc = Sets the world time to dawn.
 period.dusk.desc = Sets the world time to dusk.
-setPeriod.dawn = [TMP] Set time in world "{worldName}" to {time} (Dawn)
-setPeriod.midday = [TMP] Set time in world "{worldName}" to {time} (Midday)
-setPeriod.dusk = [TMP] Set time in world "{worldName}" to {time} (Dusk)
-setPeriod.midnight = [TMP] Set time in world "{worldName}" to {time} (Midnight)
+setPeriod.dawn = Set time in world "{worldName}" to {time} (Dawn)
+setPeriod.midday = Set time in world "{worldName}" to {time} (Midday)
+setPeriod.dusk = Set time in world "{worldName}" to {time} (Dusk)
+setPeriod.midnight = Set time in world "{worldName}" to {time} (Midnight)
 set.timeArg.desc = The hour of the day (between 0 and 24) to set the time to
 dilation.desc = Change the time dilation scaling of the server, also modifies any online clients with the updated value
 dilation.timeDilation.desc = The time dilation value (must be >0.01 and <=4)

@@ -1,0 +1,14 @@
+desc = Spawn and control prefab preview holograms
+none = You have no active prefab preview. Spawn one first.
+spawn.desc = Spawn a prefab preview hologram at your position
+spawn.prefab.desc = The prefab to preview
+spawn.layers.desc = How many bottom layers to show
+spawn.layers.default = All layers
+spawned = Spawned prefab preview for {prefab}
+layers.desc = Set how many bottom layers your preview shows
+layers.count.desc = Number of bottom layers to show
+layersSet = Prefab preview now shows {count} layers
+remove.desc = Remove your active prefab preview, or all previews within a radius
+remove.radius.desc = Remove all prefab previews within this many blocks of you
+removed = Removed prefab preview
+removedRadius = Removed {count, plural, one {1 prefab preview} other {{count, number} prefab previews}}

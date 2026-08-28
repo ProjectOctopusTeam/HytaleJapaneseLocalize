@@ -1,0 +1,8 @@
+desc = Encounter manager commands
+argtype.name = Encounter
+argtype.usage = An encounter manager asset ID
+add.desc = Add an encounter manager at your location
+add.arg.encounter.desc = The encounter manager definition
+add.added = Added encounter manager "{encounterId}" at your location
+add.failed = Failed to spawn encounter manager "{encounterId}"
+add.notspawnable = Encounter manager "{id}" is abstract and cannot be spawned directly

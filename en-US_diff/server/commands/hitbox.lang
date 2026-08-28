@@ -1,5 +1,5 @@
 extentsThresholdNeeded = Using the extents threshold of {threshold} the total number of filler blocks needed is: {nb}
-notFound = No hitbox with name '{name}'
+notFound = No hitbox with name "{name}"
 boundingBox = Bounding Box: {box}
 details.header = Detail Boxes
 box = (({minX, number}, {minY, number}, {minZ, number}), ({maxX, number}, {maxY, number}, {maxZ, number}))

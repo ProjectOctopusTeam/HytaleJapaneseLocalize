@@ -6,12 +6,12 @@ loaded = # = Hot, & = Cold, % = Loading, X = Needs Unload, ' ' = Not loaded\n\
     Ready For Chunks: {readyForChunks}\n\
     Loaded: {loaded, number}\n\
     Loading: {loading, number}
-summary = Chunks:\n\
-    \tMax chunks per second: {maxChunksPerSecond, number}\n\
-    \tMax chunks per tick: {maxChunksPerTick, number}\n\
+summary = Sections:\n\
+    \tMax sections per second: {maxSectionsPerSecond, number}\n\
+    \tMax sections per tick: {maxSectionsPerTick, number}\n\
     \tChunk loaded radius:\n\
     \t\tMin: {minChunkLoadedRadius, number}\n\
     \t\tMax hot loaded: {maxHotChunkLoadedRadius, number}\n\
-    \tLoaded chunks (player): {loadedPlayerChunks, number}\n\
-    \tLoading chunks (player): {loadingPlayerChunks, number}\n\
+    \tLoaded sections (player): {loadedPlayerSections, number}\n\
+    \tLoading sections (player): {loadingPlayerSections, number}\n\
     Loaded chunks (world): {loadedWorldChunks, number}

@@ -1,6 +1,6 @@
 desc = プレイヤーにダメージを与える
 other.desc = 別のプレイヤーにダメージを与える
-disabled = /!\\ GameplayConfigでプレイヤーダメージが無効になっています！
+disabled = GameplayConfigによりプレイヤーへのダメージは無効になっています！
 arg.amount.desc = 与える生ダメージ量
 arg.silent.desc = 攻撃者/被攻撃者へのチャットメッセージを送信するかどうか
 dealt = {victim}に{damage}ダメージを与えました

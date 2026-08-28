@@ -6,3 +6,4 @@ useHelpToLearnMore = Use "/{command} --help" to learn more!
 desc = Display command help
 command.desc = Show help for a specific command
 command.name.desc = The name of the command to get help for
+console.header = Commands (use "/help <command>" for details):
