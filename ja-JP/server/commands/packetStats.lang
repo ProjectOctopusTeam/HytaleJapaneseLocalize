@@ -1,6 +1,6 @@
 desc = 特定のパケットの統計情報を表示する
 packet.desc = 統計情報を取得するパケット名
-notFound = '{name}'のパケット統計情報が見つかりません
+notFound = "{name}" のパケット統計が見つかりません
 notAvailable = パケット統計情報が利用できません
 row = 件数：{count, number}、サイズ：{size}、平均：{avg}、最小：{min}、最大：{max}
 stats = パケット{name} [#{id, number}] 統計情報\n\

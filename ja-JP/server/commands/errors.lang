@@ -1,7 +1,7 @@
 waitForBoot = サーバーはまだ起動中です。しばらくしてからコマンドを再試行してください。
-noSuchPlayer = プレイヤー'{username}'が存在しません。
-noSuchWorld = ワールド'{name}'が存在しません。
-noSuchEnum = タイプ{type}のenum名'{name}'が見つかりません。
+noSuchPlayer = "{username}" というプレイヤーは存在しません。
+noSuchWorld = "{name}" というワールドは存在しません。
+noSuchEnum = 名前が "{name}" の {type} 型の列挙値が見つかりませんでした。
 worldUnspecified = ワールドの引数が曖昧です
 permission = そのコマンドを実行する権限がありません！必要な権限：{permission}
 sender = 送信者のタイプが違います。{sender}が必要です
@@ -9,7 +9,7 @@ noWorld = ワールドが存在しないか指定されていません
 playerNotInWorld = プレイヤーが有効なワールドにいません
 targetNotInWorld = ターゲットが有効なワールドにいません
 targetNotFound = ターゲット{uuid}が見つかりません
-chunkNotLoaded = ワールド'{world}'のチャンク({chunkX}, {chunkZ})がロードされていません
+chunkNotLoaded = ワールド "{world}" では {chunkX}, {chunkZ} のチャンクが読み込まれていません
 no_entity_in_view = 視界内にエンティティがありません！エンティティを見るか--{option}=<uuid>を使用してください
 playerOrArg = 送信者はプレイヤーであるか、--{option}オプションを指定する必要があります！
 relativePositionArg = 相対座標を使用するには送信者がプレイヤーである必要があります！
@@ -23,3 +23,4 @@ npc.unknown_debug_preset = 不明なデバッグプリセット：{preset}
 spawnIndexOutOfRange = スポーンインデックスが範囲外です
 playerOnly = このコマンドはプレイヤーのみ使用できます
 targetConflict = --player と --all を同時に使用することはできません。いずれか一方のターゲットモードを選択してください
+noSuchCodecKey = キーが "{key}" の {type} 型のコーデックが見つかりませんでした。

@@ -1,2 +1,7 @@
-desc = Commands for managing and editing world-gen v2
-create.desc = Open the Biome Creator dialog
+desc = Commands for managing and editing world-gen v2.
+create.desc = Open the Biome Creator dialog.
+concurrency.desc = Sets the world-gen V2 worker thread count. Resets on server restart.
+concurrency.low.desc = World-gen V2 thread count for low priority chunk requests. Generally for chunks that are out of any player's view. Use 0 to restore to server default.
+concurrency.normal.desc = World-gen V2 thread count for normal priority chunk requests. Generally for chunks that are in a player's view. Use 0 to restore to server default.
+concurrency.high.desc = World-gen V2 thread count for high priority chunk requests. For chunks that are needed immediately, such as player teleport destinations or immediately next to players. Use 0 to restore to server default.
+concurrency.confirmation = Thread Count:\n\tLow Priority: {low} / {available}\n\tNormal Priority: {normal} / {available}\n\tHigh Priority: {high} / {available}

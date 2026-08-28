@@ -1,0 +1,6 @@
+desc = Flood fill the connected open space around you with the specified block types
+args.radius.desc = Maximum distance (in blocks) to fill outward from you
+args.replacement.desc = A list of block types to fill the open space with
+success = Filling the open space around you with {key}
+notOpen = You must be standing in open space to flood fill
+tooLarge = The open space is too large to flood fill within radius {radius}

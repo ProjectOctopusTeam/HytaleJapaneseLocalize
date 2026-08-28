@@ -9,3 +9,4 @@ timeline.label.frame = Frame: {frame}
 timeline.label.duration = Duration: {duration}
 timeline.label.fps = Playback Speed:
 timeline.tooltip.keyframe = Frame: {time}
+colorPicker.opacity = Opacity

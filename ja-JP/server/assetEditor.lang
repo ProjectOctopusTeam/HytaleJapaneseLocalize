@@ -66,3 +66,10 @@ buttons.resetModel = モデルをリセット
 buttons.createAndEquipItem = アイテムを作成して装備
 buttons.createAndUseModel = モデルを作成して使用
 messages.invalidServerVersion = サーバーバージョンの範囲が無効です。有効な構文については Modder ドキュメントを参照してください（例：*、>=0.5.0、0.5.x、^0.5.0）。
+messages.renameAsset.crossPackUnsupported = アセットパック間でのアセットの名前変更はサポートされていません
+messages.recomputeTextureColor.notBlockType = 現在のアセットはブロックタイプではありません
+messages.recomputeTextureColor.noTexture = このブロックタイプにテクスチャが見つかりません
+messages.recomputeTextureColor.fileNotFound = テクスチャファイルが見つかりません
+messages.recomputeTextureColor.success = 算出した色: {color}
+messages.fetchAutoCompleteDataFailed = 不明またはnullのオートコンプリートデータセットです
+buttons.recomputeTextureColor = テクスチャ色を再計算

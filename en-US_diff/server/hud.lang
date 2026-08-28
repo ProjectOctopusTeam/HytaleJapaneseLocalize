@@ -1,0 +1,4 @@
+spectating.title = Spectating
+inputBinding.spectateFreeCamera = Free camera
+inputBinding.spectateNextPlayer = Next player
+inputBinding.spectatePreviousPlayer = Previous player

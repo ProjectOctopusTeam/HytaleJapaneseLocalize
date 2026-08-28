@@ -18,3 +18,4 @@ list.desc = プレハブを一覧表示する
 list.storeType.desc = ストアの種類（server、asset、worldgen）
 list.text.desc = UIを開かずにテキストとして表示する
 invalidStoreType = {storeType} は有効なプレハブストアではありません！
+save.compressed.desc = 指定すると、ブロック数に関係なく圧縮された.lpfファイルとして保存する

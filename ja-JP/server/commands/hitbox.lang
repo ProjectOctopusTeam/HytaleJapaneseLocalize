@@ -1,5 +1,5 @@
 extentsThresholdNeeded = 閾値{threshold}を使用した場合、必要なフィラーブロックの総数は{nb}です
-notFound = 名前'{name}'のヒットボックスが見つかりません
+notFound = 名前が "{name}" のヒットボックスはありません
 boundingBox = バウンディングボックス：{box}
 details.header = 詳細ボックス
 box = (({minX, number}, {minY, number}, {minZ, number}), ({maxX, number}, {maxY, number}, {maxZ, number}))

@@ -9,3 +9,5 @@ link.success = Successfully linked your server to server discovery.
 unlink.desc = Unlink your server from server discovery.
 unlink.notLinked = Your server isn't linked to server discovery.
 unlink.success = Successfully unlinked your server from server discovery.
+link.profileMismatch = Your server is authenticated as a different game profile than the one that owns this listing. Use the owning profile, or change the listing's Server Profile.
+link.failed = Couldn't reach server discovery. Please try again later.

@@ -1,3 +1,4 @@
 desc = 新しいワールドを追加する
 arg.name.desc = 作成するワールドの名前
 arg.gen.desc = 使用するジェネレーターのID
+arg.storage.desc = 使用するストレージプロバイダーのID

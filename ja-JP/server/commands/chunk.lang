@@ -24,31 +24,57 @@ forcetick.desc = チャンク内のすべてのブロックを強制ティック
 forcetick.position.desc = チャンクの位置（x, z）
 regenerate.desc = チャンクを再生成する
 regenerate.position.desc = チャンクの位置（x, z）
-regenerate.success = ワールド'{worldName}'のチャンク({chunkX}, {chunkZ})を再生成しました！
+regenerate.success = ワールド "{worldName}" の {chunkX}, {chunkZ} のチャンクを再生成しました！
 marksave.position.desc = チャンクの位置（x, z）
-marksave.markingAlreadyLoaded = ワールド'{worldName}'のチャンク({x}, {z})を保存対象としてマークしました（すでにロード済み）！
-marksave.loaded = ワールド'{worldName}'のチャンク({x}, {z})を保存対象としてマークしロードしました！
-load.alreadyLoaded = ワールド'{worldName}'のチャンク({chunkX}, {chunkZ})はすでにロードされています！
-load.loading = ワールド'{worldName}'のチャンク({chunkX}, {chunkZ})をロード中！
-load.loaded = ワールド'{worldName}'のチャンク({chunkX}, {chunkZ})のロードが完了しました！
-unload.alreadyUnloaded = ワールド'{worldName}'のチャンク({chunkX}, {chunkZ})はすでにアンロードされています！
-unload.success = ワールド'{worldName}'のチャンク({chunkX}, {chunkZ})をアンロードしました！
+marksave.markingAlreadyLoaded = "{worldName}" の {x}, {z} のチャンクを保存対象としてマークしました。このチャンクはすでに読み込まれていました！
+marksave.loaded = "{worldName}" の {x}, {z} のチャンクを保存対象としてマークし、読み込みました！
+load.alreadyLoaded = "{worldName}" の {chunkX}, {chunkZ} のチャンクはすでに読み込まれています！
+load.loading = "{worldName}" の {chunkX}, {chunkZ} のチャンクを読み込んでいます！
+load.loaded = "{worldName}" の {chunkX}, {chunkZ} のチャンクの読み込みが完了しました！
+unload.alreadyUnloaded = "{worldName}" の {chunkX}, {chunkZ} のチャンクはすでにアンロードされています！
+unload.success = "{worldName}" の {chunkX}, {chunkZ} のチャンクをアンロードしました！
 fixheight.desc = チャンクのライティングを再生成する
 fixheight.position.desc = チャンクの位置（x, z）
 lighting.position.desc = チャンクの位置（x, y, z）
 loaded.desc = プレイヤーのロード済みチャンク情報を表示する
 tracker.desc = プレイヤーのチャンクトラッカー情報を表示する
-maxsendrate.desc = プレイヤーのチャンク送信レート設定を表示または変更する
-maxsendrate.sec.desc = 1秒あたりの最大チャンク数。引数を省略するとデフォルトに設定。
-maxsendrate.sec.set = 1秒あたりの最大チャンク数を設定しました：{value, number}
-maxsendrate.tick.desc = 1ティックあたりの最大チャンク数。引数を省略するとデフォルトに設定。
-maxsendrate.tick.set = 1ティックあたりの最大チャンク数を設定しました：{value, number}
-maxsendrate.summary = チャンク送信レートの最大値：\n\
-    \t1秒あたり：{perSecond, number}\n\
-    \t1ティックあたり：{perTick, number}
+maxsendrate.desc = プレイヤーのセクション送信レート設定を確認・設定する
+maxsendrate.sec.desc = 毎秒の最大セクション数。引数を省略するとデフォルトに設定されます。
+maxsendrate.sec.set = 毎秒の最大セクション数を設定しました: {value, number}
+maxsendrate.tick.desc = 1ティックあたりの最大セクション数。引数を省略するとデフォルトに設定されます。
+maxsendrate.tick.set = 1ティックあたりの最大セクション数を設定しました: {value, number}
+maxsendrate.summary = 最大セクション送信レート:\n\
+    \t毎秒: {perSecond, number}\n\
+    \t1ティックあたり: {perTick, number}
 fixHeightMap.started = ハイトマップを修正中...
 fixHeightMap.done = 完了！
 fixHeightMap.invalidatingLighting = ライティングを無効化中...
 fixHeightMap.waitingForLighting = チャンク({x, number}, {z, number})のライティング更新を待機中
 fixHeightMap.lightingFinished = チャンク({x, number}, {z, number})のライティングが完了しました
 fixHeightMap.lightingError = チャンク({x, number}, {z, number})が時間内に完了しませんでした。スキップします！
+shape.desc = プレイヤーの読み込み済みセクションごとに、ホット/コールドで色分けしたデバッグキューブを描画する
+shape.success = {count, number} 個のデバッグキューブを描画しました
+shape.hotOnly.desc = ホットなセクションのキューブのみを描画する
+savequeue.desc = セクション保存キューの深さと処理中の保存件数を表示する
+savequeue.summary = '{worldName}' の保存キュー:\n\
+    \tカラムキューの深さ: {queueDepth, number}\n\
+    \t待機中のダーティセクション: {dirtySections, number}\n\
+    \t待機中のダーティエンティティセクション: {dirtyEntitySections, number}\n\
+    \t待機中のダーティエンティティ: {dirtyEntities, number}\n\
+    \t処理中の保存: {inFlight, number} / {max, number}\n\
+    \t保留中のフューチャー: {pending, number}\n\
+    \t開始合計: {starts, number}\n\
+    \t完了合計: {completions, number}\n\
+    \t未完了 (開始 - 完了): {outstanding, number}
+storagestats.desc = アクティブなチャンクストレージバックエンドの統計を出力する
+storagestats.json.desc = メトリクスのスナップショット全体を dumps/ 以下のJSONファイルに書き出す
+storagestats.noMetrics = 現在のチャンクストレージバックエンドはメトリクスを公開していません
+storagestats.dumped = ストレージ統計を次の場所に出力しました: {filepath}
+storagestats.header = '{worldName}' のチャンクストレージ統計 ({provider})
+storagestats.loader.header = ローダー: {className}
+storagestats.saver.header = セーバー: {className}
+storagestats.counter = \t{key}: {value}
+storagestats.rates.header = \t{op} のレート:
+storagestats.rates.row = \t\t{period}: {summary}
+storagestats.group.header = \t{label}:
+storagestats.group.row = \t\t{key}: {value}

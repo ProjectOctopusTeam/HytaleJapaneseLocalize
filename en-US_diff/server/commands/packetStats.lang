@@ -1,6 +1,6 @@
 desc = Display packet statistics for a specific packet
 packet.desc = The name of the packet to get statistics for
-notFound = No packet stats found for '{name}'
+notFound = No packet stats found for "{name}"
 notAvailable = Packet stats not available
 row = Count: {count, number}, Size: {size}, Avg: {avg}, Min: {min}, Max: {max}
 stats = Packet {name} [#{id, number}] Stats\n\

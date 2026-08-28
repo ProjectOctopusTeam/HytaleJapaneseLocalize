@@ -13,8 +13,9 @@ state.set.arg.fadems.desc = Optional transition duration in ms. Overrides the ax
 state.set.arg.curve.desc = Optional transition curve
 state.set.arg.scope.desc = Target set (World = all players in the executor's world. Self = command sender only. Players = the explicit list named by --players)
 state.set.arg.players.desc = Players to target when --scope=Players
-state.set.success = AudioState ''{audioState}'' set to ''{value}'' on {count} player(s)
-state.set.error.clientAuthority = AudioState ''{audioState}'' has Authority: Client. Set from client code instead
-state.set.error.unknownValue = AudioState ''{audioState}'' has no value named ''{value}''
+state.set.success = AudioState "{audioState}" set to "{value}" on {count, plural, one {1 player} other {{count, number} players}}
+state.set.error.clientAuthority = AudioState "{audioState}" has Authority: Client. Set from client code instead
+state.set.error.unknownValue = AudioState "{audioState}" has no value named "{value}"
 state.set.error.noSender = Scope Self requires a player sender
 state.set.error.playersRequired = Scope Players requires a --players argument naming at least one target
+music.force.unresolved = Cannot force "{music}": one or more nested MusicContainer references failed to resolve (likely an inline child failed server-side asset validation). Unresolved references: {refs}.

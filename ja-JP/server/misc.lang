@@ -1,0 +1,4 @@
+hardcore.global.gameOver.title = ゲームオーバー
+hardcore.global.gameOver.subtitle = 残りライフがありません
+hardcore.global.gameOver.deathMessage = ゲームオーバー！
+hardcore.global.gameOver.deathScreenMessage = 残りライフがありません。全員のゲームが終了しました。

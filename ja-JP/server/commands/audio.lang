@@ -13,8 +13,9 @@ state.set.arg.fadems.desc = 任意のトランジション時間（ミリ秒）�
 state.set.arg.curve.desc = 任意のトランジションカーブ
 state.set.arg.scope.desc = 対象セット（World = 実行者のワールドの全プレイヤー、Self = コマンド送信者のみ、Players = --playersで指定した明示的なリスト）
 state.set.arg.players.desc = --scope=Playersの場合に対象とするプレイヤー
-state.set.success = AudioState「{audioState}」を{count}人のプレイヤーに対して「{value}」に設定しました
-state.set.error.clientAuthority = AudioState「{audioState}」はAuthority: Clientです。クライアントコードから設定してください
-state.set.error.unknownValue = AudioState「{audioState}」に「{value}」という名前の値は存在しません
+state.set.success = AudioState "{audioState}" を {count, plural, one {1人のプレイヤー} other {{count, number}人のプレイヤー}}に対して "{value}" に設定しました
+state.set.error.clientAuthority = AudioState "{audioState}" は Authority: Client です。クライアント側のコードから設定してください
+state.set.error.unknownValue = AudioState "{audioState}" に "{value}" という名前の値はありません
 state.set.error.noSender = スコープSelfにはプレイヤーの送信者が必要です
 state.set.error.playersRequired = スコープPlayersには、少なくとも1つの対象を指定する--players引数が必要です
+music.force.unresolved = "{music}" を強制できません: ネストされたMusicContainerの参照を1つ以上解決できませんでした（インラインの子アセットがサーバー側の検証に失敗した可能性があります）。未解決の参照: {refs}。

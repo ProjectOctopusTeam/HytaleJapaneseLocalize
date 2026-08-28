@@ -1,0 +1,10 @@
+desc = ゲームフラグのコマンド
+list.desc = すべてのゲームフラグを一覧表示する
+list.empty = ゲームフラグは設定されていません
+get.desc = ゲームフラグを表示する
+key.desc = フラグ名
+set.desc = ゲームフラグを設定する
+set.value.desc = 設定する値
+remove.desc = ゲームフラグを削除する
+remove.success = ゲームフラグ "{key}" を削除しました
+entry = {key} = {value}

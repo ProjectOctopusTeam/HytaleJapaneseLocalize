@@ -1,3 +1,4 @@
 desc = Add a new world
 arg.name.desc = The name of the world to create
 arg.gen.desc = The id of the generator to use
+arg.storage.desc = The id of the storage provider to use

@@ -1,9 +1,9 @@
 desc = Commands for managing operator permissions
 self.nonVanillaPermissions = The permissions system on this server is handled by a third-party plugin and this command is unsupported.
 self.singleplayerOwnerReq = Cannot use this command. This is a singleplayer server and you aren't the owner.
-self.currentlyOpNote = [TMP] You're already OP!
-self.multiplayerTip = As this is a standalone server, OP yourself (/{uuidCommand}) in the '{permissionFile}' file while the server is off, or temporarily use the '{launchArg}' program launch argument.
-self.added = You're now OP!
+self.currentlyOpNote = You are already OP!
+self.multiplayerTip = As this is a standalone server, OP yourself (/{uuidCommand}) in the "{permissionFile}" file while the server is off, or temporarily use the "{launchArg}" program launch argument.
+self.added = You are now OP!
 self.removed = No longer OP.
 self.desc = Adds you to the OP permission group
 add.desc = Adds a player to the operator permission group

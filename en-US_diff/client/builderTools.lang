@@ -1,22 +1,22 @@
 name = Builder Tools
 selectTool = Select Tool
 useTool = Use Tool
-canNotUse = Can't use builder tools outside of Creative mode!
+canNotUse = Can't use this builder tool outside of Creative mode!
 selectATool = Left-click a builder tool in your inventory or hotbar to configure it.
 noToolSettings = This tool doesn't require configuration.
 favorites.nameTitle = Tool Favorite Name
 favorites.nameDescription = Please enter a name for this favorite tool
 settings.Fullbright.description = Enable fullbright mode, making all blocks fully lit regardless of light level
-settings.Fog.description = [TMP] Toggle fog rendering
-settings.timeOfDay.description = [TMP] Controls the time of day.\n\
+settings.Fog.description = Toggle fog rendering
+settings.timeOfDay.description = Controls the time of day.\n\
 \n\
-NOTE: This does not control the world's time of day, only your own time of day. Resetting will revert time of day back to the worlds time.
-settings.weather.description = [TMP] Controls the weather.\n\
+NOTE: This does not control the world's time of day - only your own time of day. Resetting will revert time of day back to the world's time.
+settings.weather.description = Controls the weather.\n\
 \n\
-NOTE: This does not control the world's weather, only your own weather.
-settings.pauseTime.description = [TMP] Pauses the time of day.\n\
+NOTE: This does not control the world's weather - only your own weather.
+settings.pauseTime.description = Pauses the time of day.\n\
 \n\
-NOTE: This does not pause the world's time of day, only your own time of day.
+NOTE: This does not pause the world's time of day - only your own time of day.
 settings.ToolReachDistance.name = Reach Distance
 settings.ToolReachDistance.description = Specifies the max (or locked) reach distance to use for tools
 settings.ToolDelayMin.name = Tool Delay Min
@@ -52,32 +52,32 @@ settings.HideNotifications.description = Hide notifications while in Creative mo
 settings.HideChat.description = Hide the chat window while in Creative mode
 settings.HideHeldItem.description = Hide the item in your hand while in Creative mode
 settings.ShowEntityMarkers.description = Show entity markers while in Creative mode
-settings.CreativeInteractionDistance.name = [TMP] Block Place Distance
-settings.CreativeInteractionDistance.description = [TMP] Controls the maximum distance you can place a block in creative mode.
-settings.AirPlacement.name = [TMP] Air Placing
-settings.AirPlacement.description = [TMP] Allows you to place blocks in the air. Use the mouse scroll wheel to increase/decrease place distance.
-settings.FreePlace.name = [TMP] Free Place
-settings.FreePlace.description = [TMP] Allows you to freely place blocks in any direction. Best used while placing blocks rapidly.
-settings.NoPhysics.name = [TMP] No Physics
-settings.NoPhysics.description = [TMP] Allows you to disable block physics and lets you place any block anywhere.
-settings.HighlightBlockTarget.name = [TMP] Highlight Block Target
-settings.HighlightBlockTarget.description = [TMP] Highlight the block you are looking at.
-settings.QuickReplace.name = [TMP] Replace
-settings.QuickReplace.description = [TMP] Replaces the block you are looking at with the one you are holding.
-settings.QuickRetype.name = [TMP] Retype
-settings.QuickRetype.description = [TMP] Replaces the material of the block you are looking at with the one you are holding, but keeps the shape/variant of the block you are looking at.
-settings.Extrude.name = [TMP] Extrude
-settings.Extrude.description = [TMP] Extrudes the block placed by clicking and dragging in a direction you want.
-settings.SurfaceDraw.name = [TMP] Draw
-settings.SurfaceDraw.description = [TMP] Draw blocks where you are looking by clicking and dragging on a block face. The block face used and drag direction determines where drawing will happen.
-settings.FastPlace.name = [TMP] Fast Place
-settings.FastPlace.description = [TMP] Place blocks faster.
-settings.Eraser.name = [TMP] Eraser
-settings.Eraser.description = [TMP] Break blocks faster.
-settings.PlaceMode.name = [TMP] Place Mode
-settings.PlaceMode.description = [TMP] Changes the way you place blocks.
-settings.PlaceModeDefault = [TMP] Default
-settings.CyclePlaceMode = [TMP] Place mode changed to: {mode}
+settings.CreativeInteractionDistance.name = Block Place Distance
+settings.CreativeInteractionDistance.description = Controls the maximum distance you can place a block in Creative mode.
+settings.AirPlacement.name = Air Placing
+settings.AirPlacement.description = Allows you to place blocks in the air. Use the mouse scroll wheel to increase/decrease place distance.
+settings.FreePlace.name = Free Place
+settings.FreePlace.description = Allows you to freely place blocks in any direction. Best used while placing blocks rapidly.
+settings.NoPhysics.name = No Physics
+settings.NoPhysics.description = Allows you to disable block physics and lets you place any block anywhere.
+settings.HighlightBlockTarget.name = Highlight Block Target
+settings.HighlightBlockTarget.description = Highlight the block you are looking at.
+settings.QuickReplace.name = Replace
+settings.QuickReplace.description = Replaces the block you are looking at with the one you are holding.
+settings.QuickRetype.name = Retype
+settings.QuickRetype.description = Replaces the material of the block you are looking at with the one you are holding, but keeps the shape/variant of the block you are looking at.
+settings.Extrude.name = Extrude
+settings.Extrude.description = Extrudes the block placed by clicking and dragging in a direction you want.
+settings.SurfaceDraw.name = Draw
+settings.SurfaceDraw.description = Draw blocks where you are looking by clicking and dragging on a block face. The block face used and drag direction determines where drawing will happen.
+settings.FastPlace.name = Fast Place
+settings.FastPlace.description = Place blocks faster.
+settings.Eraser.name = Eraser
+settings.Eraser.description = Break blocks faster.
+settings.PlaceMode.name = Place Mode
+settings.PlaceMode.description = Changes the way you place blocks.
+settings.PlaceModeDefault = Default
+settings.CyclePlaceMode = Place mode changed to: {mode}
 panel.settings = Settings
 panel.brushes = Brushes
 panel.brushSettings = Brushes
@@ -88,36 +88,36 @@ quickSettings.title = Creative Mode Quick Settings
 panel.clearSelection = Clear selection
 panel.enableEmptyFilter = Enable "Empty" filter
 panel.useCustomMaskCommandEntry = Use custom mask command entry
-panel.maskPresetBlank = [TMP] [ Blank ]
-panel.addMask = [TMP] Add Mask
-panel.saveMaskPreset = [TMP] Save Mask
-panel.deleteMaskPreset = [TMP] Delete Mask
-panel.maskPresetName = [TMP] Preset Name...
-panel.maskCommandPlaceholder =[TMP] Enter mask command...
-panel.maskPresetConfirm = [TMP] Confirm
-panel.maskPresetCancel = [TMP] Cancel
-panel.maskPresetDropdown = [TMP] Mask Presets
-panel.maskType.targetblock = [TMP] Target
-panel.maskType.targetblock.description = [TMP] Replace only blocks in this list
-panel.maskType.aboveblock = [TMP] Above >
-panel.maskType.aboveblock.description = [TMP] Replace only blocks above the ones in this list
-panel.maskType.not = [TMP] Not !
-panel.maskType.not.description = [TMP] Don't replace blocks in this list
-panel.maskType.belowblock = [TMP] Below <
-panel.maskType.belowblock.description = [TMP] Replace only blocks below the ones in this list
-panel.maskType.adjacentblock = [TMP] Adjacent ~
-panel.maskType.adjacentblock.description = [TMP] Replace only blocks next to the ones in this list
-panel.maskType.neighborblock = [TMP] Neighbor ^
-panel.maskType.neighborblock.description = [TMP] Replace only blocks touching the ones in this list
-panel.maskType.command = [TMP] Command
-panel.maskType.command.description = [TMP] Use mask commands to build a mask. The following symbols represent mask types:\n\
+panel.maskPresetBlank = [ Blank ]
+panel.addMask = Add Mask
+panel.saveMaskPreset = Save Mask
+panel.deleteMaskPreset = Delete Mask
+panel.maskPresetName = Preset Name...
+panel.maskCommandPlaceholder =Enter mask command...
+panel.maskPresetConfirm = Confirm
+panel.maskPresetCancel = Cancel
+panel.maskPresetDropdown = Mask Presets
+panel.maskType.targetblock = Target
+panel.maskType.targetblock.description = Replace only blocks in this list
+panel.maskType.aboveblock = Above >
+panel.maskType.aboveblock.description = Replace only blocks above the ones in this list
+panel.maskType.not = Not !
+panel.maskType.not.description = Don't replace blocks in this list
+panel.maskType.belowblock = Below <
+panel.maskType.belowblock.description = Replace only blocks below the ones in this list
+panel.maskType.adjacentblock = Adjacent ~
+panel.maskType.adjacentblock.description = Replace only blocks next to the ones in this list
+panel.maskType.neighborblock = Neighbor ^
+panel.maskType.neighborblock.description = Replace only blocks touching the ones in this list
+panel.maskType.command = Command
+panel.maskType.command.description = Use mask commands to build a mask. The following symbols represent mask types:\n\
 \n\
 Above = >\nBelow = <\nNot = !\nAdjacent = ~\nNeighbor = ^\n\
 \n\
 Example: To mask grass blocks that are above dirt, you do:\n\
 \n\
 Soil_Grass,>Soil_Dirt
-panel.maskInvert = [TMP] Invert\n\
+panel.maskInvert = Invert\n\
 \n\
 Turns the current mask type into its opposite. For example, inverting a mask type of Above would make it search for blocks that aren't Above, which is equal to Below.
 replace.materialsToReplace = Materials to be replaced:
@@ -128,9 +128,9 @@ legend.setMask = Set as mask
 legend.addMask = Add to mask
 legend.changeHeight = Change height of shape
 legend.changeWidth = Change width of shape
-legend.changeLength = [TMP] Change length of shape
-legend.increaseDepth = [TMP] Adds depth
-legend.decreaseDepth = [TMP] Removes depth
+legend.changeLength = Change length of shape
+legend.increaseDepth = Adds depth
+legend.decreaseDepth = Removes depth
 legend.changeRotation = Change rotation direction
 legend.favoriteMaterials = Favorite materials
 legend.selectedMaterial = Selected material
@@ -141,45 +141,45 @@ legend.addRemoveFavorite = Add/remove favorite material
 legend.alt = Alt +
 legend.shiftalt = Shift + Alt +
 legend.shift = Shift +
-legend.ScriptedBrushPage.Title = [TMP] Scriptable Brushes
-legend.ScriptedBrushPage.Description = [TMP] This is a brush made in the Node Editor without any coding. If you want to make your own brush like this one, you can:
-legend.ScriptedBrushPage.ToolSettings = [TMP] Open the creative tool settings.
-legend.ScriptedBrushPage.ExampleScriptedBrush.Title = [TMP] Opening the Node Editor for Scripted Brushes:
-legend.ScriptedBrushPage.ExampleScriptedBrush.Description = [TMP] 1. Go to Assets > Asset Node Editor.\n\
+legend.ScriptedBrushPage.Title = Scriptable Brushes
+legend.ScriptedBrushPage.Description = This is a brush made in the Node Editor without any coding. If you want to make your own brush like this one, you can:
+legend.ScriptedBrushPage.ToolSettings = Open the creative tool settings.
+legend.ScriptedBrushPage.ExampleScriptedBrush.Title = Opening the Node Editor for Scripted Brushes:
+legend.ScriptedBrushPage.ExampleScriptedBrush.Description = 1. Go to Assets > Asset Node Editor.\n\
 2. The Node Editor tool will pop up.\n\
-3. In the Node Editor, click on Root Node: Demo Workspace and select Scriptable Brush. If asked if you want to continue, say OK.\n\
+3. In the Node Editor, click on Root Node: Demo Workspace and select Scriptable Brush. If asked if you want to continue, click OK.\n\
 4. You are now in the Scriptable Brush workspace and can make a brush!
-legend.ScriptedBrushPage.NodeEditorBasics.Title = [TMP] Scriptable Brush Node Editor Basics:
-legend.ScriptedBrushPage.NodeEditorBasics.Description = [TMP] Now that you are in the workspace, you can make your brush by:\n\
-- Using right-click to create a Node\n\
+legend.ScriptedBrushPage.NodeEditorBasics.Title = Scriptable Brush Node Editor Basics:
+legend.ScriptedBrushPage.NodeEditorBasics.Description = Now that you are in the workspace, you can make your brush by:\n\
+- Using right-click to create a Node.\n\
 - Using left-click on the bubble on the created Node and drag it to the bubble on the Root Node to connect it.
-legend.ScriptedBrushPage.NodeEditorSavingAndTesting.Title = [TMP] Saving and Testing:
-legend.ScriptedBrushPage.NodeEditorSavingAndTesting.Description = [TMP] 1. Go to File > Save or Save As, and save it to an Asset Pack.\n\
+legend.ScriptedBrushPage.NodeEditorSavingAndTesting.Title = Saving and Testing:
+legend.ScriptedBrushPage.NodeEditorSavingAndTesting.Description = 1. Go to File > Save or Save As, and save it to an Asset Pack.\n\
 2. Go back to your game, and equip a Paint Brush Tool in your hand.\n\
 3. Type in chat /sb load, and go to the brush you made.\n\
 4. You can now start using your brush!
-legend.SelectTargetMaterial = [TMP] Select targeted material
-legend.AddTargetMaterial = [TMP] Add targeted material as multi-material
-legend.UndoLastBrush = [TMP] Undo last brush action
-legend.RedoLastUndo = [TMP] Redo last undone action
-legend.TipsAndTricks.Title = [TMP] Tips and Tricks
-legend.TipsAndTricks.Description = [TMP] Here are some tips and tricks for how to use this brush:
-legend.EditInventoryProperties = [TMP] Edit the brush's settings from the inventory
-legend.SettingDescription = [TMP] Below are descriptions of what each setting does for this brush:
-legend.BlockMasking = [TMP] Block Masking
-legend.BlockMaskingDescription = [TMP] Allows you to set materials to the brush that limit changes to blocks that match those materials
-legend.BlockMaskingMenuDescription = [TMP] To see all the masking options and what they do, you can:
-legend.BrushMenuMaskingTab = [TMP] Open the Brush Settings
-legend.BlockMaskingMenuTabDescription = [TMP] Open the Brush Masking Tab (near top right)
-legend.CreatingAndUsingMask = [TMP] Saving/Delete Mask Presets:
-legend.CreatingAndUsingMask.Description = [TMP] The "Save Mask" button allows you to save your mask as a preset to be used again.\n\
+legend.SelectTargetMaterial = Select targeted material
+legend.AddTargetMaterial = Add targeted material as multi-material
+legend.UndoLastBrush = Undo last brush action
+legend.RedoLastUndo = Redo last undone action
+legend.TipsAndTricks.Title = Tips and Tricks
+legend.TipsAndTricks.Description = Here are some tips and tricks for how to use this brush:
+legend.EditInventoryProperties = Edit the brush's settings from the inventory
+legend.SettingDescription = Below are descriptions of what each setting does for this brush:
+legend.BlockMasking = Block Masking
+legend.BlockMaskingDescription = Allows you to set materials to the brush that limit changes to blocks that match those materials.
+legend.BlockMaskingMenuDescription = To see all the masking options and what they do, you can:
+legend.BrushMenuMaskingTab = Open the Brush Settings
+legend.BlockMaskingMenuTabDescription = Open the Brush Masking Tab (near top right)
+legend.CreatingAndUsingMask = Saving/Delete Mask Presets:
+legend.CreatingAndUsingMask.Description = The "Save Mask" button allows you to save your mask as a preset to be used again.\n\
 The "Delete Mask" button will delete the current mask preset you have loaded.
-legend.InvertingMask = [TMP] Inverting a Mask:
-legend.InvertingMask.Description = [TMP] The "Invert" button allows you to invert your current mask type to cover the opposite.\n\
+legend.InvertingMask = Inverting a Mask:
+legend.InvertingMask.Description = The "Invert" button allows you to invert your current mask type to cover the opposite.\n\
 \n\
 For example, if the mask type is Above then it becomes Below.
-legend.PaintBrush.Page1.Title = [TMP] Paint Brush
-legend.PaintBrush.Page1.Description = [TMP] The Paint Brush Tool allows you to place and remove blocks in different shapes, sizes, and materials
+legend.PaintBrush.Page1.Title = Paint Brush
+legend.PaintBrush.Page1.Description = The Paint Brush Tool allows you to place and remove blocks in different shapes, sizes, and materials.
 legend.PaintBrush.Page1.DestroyBlocks = Destroy blocks where you're aiming
 legend.PaintBrush.Page1.PlaceBlocks = Place blocks where you're aiming, according to the material you've set
 legend.PaintBrush.Page1.SelectTargetMaterial = Select targeted material
@@ -196,229 +196,229 @@ legend.PaintBrush.Page2.ShowSurfaceMoveTool = Show Surface Move Tool
 legend.PaintBrush.Page2.ShowSurfaceRotationTool = Show Surface Rotation Tool
 legend.PaintBrush.Page2.UseBrush = Use Brush
 legend.PaintBrush.Page2.ExitAxisLockMode = Exit Axis Lock mode
-legend.CaveBrush.Page1.Title = [TMP] Cave Brush
-legend.CaveBrush.Page1.Description = [TMP] The Cave Brush Tool allows you to make caves and ravines.
-legend.CaveBrush.Page1.DecorateArea = [TMP] Add cave decorations where you're aiming
-legend.CaveBrush.Page1.ShapeArea = [TMP] Sculpt the cave area where you're aiming
-legend.CaveBrush.Page2.BlockTip.Title = [TMP] Customizing a Cave:
-legend.CaveBrush.Page2.BlockTip.Description = [TMP] You can customize what blocks the cave is made out of by dragging and dropping blocks from the inventory into the settings.\n\nYou can also remove blocks by double-clicking on blocks in the setting.
-legend.CaveBrush.Page2.Example1.Title = [TMP] Making and Decorating a Cave:
-legend.CaveBrush.Page2.Example1.Description = [TMP] 1. Look at the ground, the side of a mountain, or a solid chunk of land.\n\
+legend.CaveBrush.Page1.Title = Cave Brush
+legend.CaveBrush.Page1.Description = The Cave Brush Tool allows you to make caves and ravines.
+legend.CaveBrush.Page1.DecorateArea = Add cave decorations where you're aiming
+legend.CaveBrush.Page1.ShapeArea = Sculpt the cave area where you're aiming
+legend.CaveBrush.Page2.BlockTip.Title = Customizing a Cave:
+legend.CaveBrush.Page2.BlockTip.Description = You can customize what blocks the cave is made out of by dragging and dropping blocks from the inventory into the settings.\n\nYou can also remove blocks by double-clicking on blocks in the setting.
+legend.CaveBrush.Page2.Example1.Title = Making and Decorating a Cave:
+legend.CaveBrush.Page2.Example1.Description = 1. Look at the ground, the side of a mountain, or a solid chunk of land.\n\
 2. Hold down the sculpt key, usually Right-Click, to start sculpting the shape of the cave.\n\
 3. In the sculpted cave, look at the floor and hold down the decorate key, usually Left-Click, to add decorations.\n\
 4. In the sculpted cave, look at the ceiling and hold down the decorate key, usually Left-Click, to add decorations.\n\
 5. You now have a cave with decorations!
-legend.CaveBrush.Page3.Title = [TMP] Settings (1/2)
-legend.CaveBrush.Page3.CaveBlocks.Title = [TMP] Cave Blocks:
-legend.CaveBrush.Page3.CaveBlocks.Description = [TMP] - The blocks to make the cave out of.
-legend.CaveBrush.Page3.CaveBlockDecorations.Title = [TMP] Cave Block Decorations:
-legend.CaveBrush.Page3.CaveBlockDecorations.Description = [TMP] - The blocks to decorate the cave floor with on the sides of the Floor Blocks. Comes with a Density slider to control how many to place.
-legend.CaveBrush.Page3.TopDecorations.Title = [TMP] Top Decorations:
-legend.CaveBrush.Page3.TopDecorations.Description = [TMP] - The blocks to decorate the cave ceiling with. Comes with a Density slider to control how many to place.
-legend.CaveBrush.Page3.FloorBlocks.Title = [TMP] Floor Blocks:
-legend.CaveBrush.Page3.FloorBlocks.Description = [TMP] - The blocks to decorate the cave floor with. Comes with a Density slider to control how many to place.
-legend.CaveBrush.Page3.FloorDecorations.Title = [TMP] Floor Decorations:
-legend.CaveBrush.Page3.FloorDecorations.Description = [TMP] - The blocks to place as decoration on top of the Floor Blocks. Comes with a Density slider to control how many to place.
-legend.CaveBrush.Page3.OreBlocks.Title = [TMP] Ore Blocks:
-legend.CaveBrush.Page3.OreBlocks.Description = [TMP] - The ore blocks to place around the cave. Comes with a Density slider to control how many to place.
-legend.CaveBrush.Page4.Title = [TMP] Settings (2/2)
-legend.CaveBrush.Page4.Randomize.Title = [TMP] Randomize:
-legend.CaveBrush.Page4.Randomize.Description = [TMP] - When checked, makes the shape smaller or larger at random when shaping the cave.
-legend.CaveBrush.Page4.MeltStrength.Title = [TMP] Melt Strength:
-legend.CaveBrush.Page4.MeltStrength.Description = [TMP] - Controls the carving strength of the brush. Higher = removes more blocks, Lower = removes less blocks.
-legend.CaveBrush.Page4.SmoothStrength.Title = [TMP] Smooth Strength:
-legend.CaveBrush.Page4.SmoothStrength.Description = [TMP] - Controls the smoothing strength of the brush. Higher = more smooth, Lower = less smooth.
-legend.BoulderBrush.Page1.Title = [TMP] Boulder Brush
-legend.BoulderBrush.Page1.Description = [TMP] The Boulder Brush Tool allows you to make boulders and rock formations.
-legend.BoulderBrush.Page1.DecorateArea = [TMP] Decorate the boulder where you're aiming
-legend.BoulderBrush.Page1.ShapeArea = [TMP] Place a boulder where you're aiming
-legend.BoulderBrush.Page2.BlockTip.Title = [TMP] Customizing a Boulder:
-legend.BoulderBrush.Page2.BlockTip.Description = [TMP] You can customize what blocks the boulder is made out of by dragging and dropping blocks from the inventory into the settings.\n\nYou can also remove blocks by double-clicking on blocks in the setting.
-legend.BoulderBrush.Page2.Example1.Title = [TMP] Making and Decorating a Boulder:
-legend.BoulderBrush.Page2.Example1.Description = [TMP] 1. Look at the ground.\n\
-2. Press the place key, usually Right-Click, to place a boulder\n\
+legend.CaveBrush.Page3.Title = Settings (1/2)
+legend.CaveBrush.Page3.CaveBlocks.Title = Cave Blocks:
+legend.CaveBrush.Page3.CaveBlocks.Description = - The blocks to make the cave out of.
+legend.CaveBrush.Page3.CaveBlockDecorations.Title = Cave Block Decorations:
+legend.CaveBrush.Page3.CaveBlockDecorations.Description = - The blocks to decorate the cave floor with on the sides of the Floor Blocks. Comes with a Density slider to control how many to place.
+legend.CaveBrush.Page3.TopDecorations.Title = Top Decorations:
+legend.CaveBrush.Page3.TopDecorations.Description = - The blocks to decorate the cave ceiling with. Comes with a Density slider to control how many to place.
+legend.CaveBrush.Page3.FloorBlocks.Title = Floor Blocks:
+legend.CaveBrush.Page3.FloorBlocks.Description = - The blocks to decorate the cave floor with. Comes with a Density slider to control how many to place.
+legend.CaveBrush.Page3.FloorDecorations.Title = Floor Decorations:
+legend.CaveBrush.Page3.FloorDecorations.Description = - The blocks to place as decoration on top of the Floor Blocks. Comes with a Density slider to control how many to place.
+legend.CaveBrush.Page3.OreBlocks.Title = Ore Blocks:
+legend.CaveBrush.Page3.OreBlocks.Description = - The ore blocks to place around the cave. Comes with a Density slider to control how many to place.
+legend.CaveBrush.Page4.Title = Settings (2/2)
+legend.CaveBrush.Page4.Randomize.Title = Randomize:
+legend.CaveBrush.Page4.Randomize.Description = - When checked, makes the shape smaller or larger at random when shaping the cave.
+legend.CaveBrush.Page4.MeltStrength.Title = Melt Strength:
+legend.CaveBrush.Page4.MeltStrength.Description = - Controls the carving strength of the brush. Higher = removes more blocks, Lower = removes fewer blocks.
+legend.CaveBrush.Page4.SmoothStrength.Title = Smooth Strength:
+legend.CaveBrush.Page4.SmoothStrength.Description = - Controls the smoothing strength of the brush. Higher = more smooth, Lower = less smooth.
+legend.BoulderBrush.Page1.Title = Boulder Brush
+legend.BoulderBrush.Page1.Description = The Boulder Brush Tool allows you to make boulders and rock formations.
+legend.BoulderBrush.Page1.DecorateArea = Decorate the boulder where you're aiming
+legend.BoulderBrush.Page1.ShapeArea = Place a boulder where you're aiming
+legend.BoulderBrush.Page2.BlockTip.Title = Customizing a Boulder:
+legend.BoulderBrush.Page2.BlockTip.Description = You can customize what blocks the boulder is made out of by dragging and dropping blocks from the inventory into the settings.\n\nYou can also remove blocks by double-clicking on blocks in the setting.
+legend.BoulderBrush.Page2.Example1.Title = Making and Decorating a Boulder:
+legend.BoulderBrush.Page2.Example1.Description = 1. Look at the ground.\n\
+2. Press the place key, usually Right-Click, to place a boulder.\n\
 3. Change the Origin to Center.\n\
 4. Look at the boulder and press the decorate key, usually Left-Click, to add decorations.\n\
 5. You now have a boulder with decorations!
-legend.BoulderBrush.Page3.Title = [TMP] Settings (1/2)
-legend.BoulderBrush.Page3.RockBlocks.Title = [TMP] Rock Blocks:
-legend.BoulderBrush.Page3.RockBlocks.Description = [TMP] - The blocks to make the boulder out of.
-legend.BoulderBrush.Page3.TopBlocks.Title = [TMP] Top Blocks:
-legend.BoulderBrush.Page3.TopBlocks.Description = [TMP] - The blocks to decorate the top of the boulder. Comes with a Density slider to control how many to place.
-legend.BoulderBrush.Page3.TopDecor.Title = [TMP] Top Decor:
-legend.BoulderBrush.Page3.TopDecor.Description = [TMP] - The blocks to place on top of the Top Blocks. Comes with a Density slider to control how many to place.
-legend.BoulderBrush.Page3.RockDecor.Title = [TMP] Rock Decor:
-legend.BoulderBrush.Page3.RockDecor.Description = [TMP] - The blocks to place on top of the Rock Blocks. Comes with a Density slider to control how many to place.
-legend.BoulderBrush.Page3.BoulderPoints.Title = [TMP] Boulder Points:
-legend.BoulderBrush.Page3.BoulderPoints.Description = [TMP] - The number of sub-boulders to use to make the boulder. The sub-boulders can be spaced with Boulder Radius to make one boulder, or a group of boulders.
-legend.BoulderBrush.Page3.BoulderRadius.Title = [TMP] Boulder Radius:
-legend.BoulderBrush.Page3.BoulderRadius.Description = [TMP] - Controls the spacing between the Boulder Points. This can be used to make the boulder wider, or create a group of boulders.
-legend.BoulderBrush.Page4.Title = [TMP] Settings (2/2)
-legend.BoulderBrush.Page4.Randomization.Title = [TMP] Randomization:
-legend.BoulderBrush.Page4.Randomization.Description = [TMP] - Controls how random the boulder looks. Higher = more random, Lower = less random.
-legend.BoulderBrush.Page4.Smoothness.Title = [TMP] Smoothness:
-legend.BoulderBrush.Page4.Smoothness.Description = [TMP] - Controls how smooth the boulder is. Higher = more smooth, Lower = less smooth.
-legend.BoulderBrush.Page4.StackSize.Title = [TMP] Stack Size (Advanced):
-legend.BoulderBrush.Page4.StackSize.Description = [TMP] - Controls how many times to stack the boulder using it's Width. This is a different way to shape boulders. The boulder will place the current shape down, move it up by the Height, decrease the Width, and place again and keep doing this.
-legend.BoulderBrush.Page4.StackRandomization.Title = [TMP] Stack Randomization (Advanced):
-legend.BoulderBrush.Page4.StackRandomization.Description = [TMP] - The randomization between the height layers of the boulder. Higher = more random, Lower = less random.
-legend.BoulderBrush.Page4.StackTip.Title = [TMP] Advanced Settings Tip:
-legend.BoulderBrush.Page4.StackTip.Description = [TMP] - To see how the Stack Size and Stack Randomization work, turn Smoothness to 0, Shape to Cube, Stack Size to above 0, and try out different Width and Heights.
-legend.BuildingBrush.Page1.Title = [TMP] Building Brush
-legend.BuildingBrush.Page1.Description = [TMP] The Building Brush Tool allows you to make buildings and form structures.
-legend.BuildingBrush.Page1.ShapeArea = [TMP] Place a building where you're aiming
-legend.BuildingBrush.Page2.BlockTip.Title = [TMP] Customizing a Building:
-legend.BuildingBrush.Page2.BlockTip.Description = [TMP] You can customize what blocks the building is made out of by dragging and dropping blocks from the inventory into the settings.\n\nYou can also remove blocks by double-clicking on blocks in the setting.
-legend.BuildingBrush.Page2.Example1.Title = [TMP] Making a Tower with Windows:
-legend.BuildingBrush.Page2.Example1.Description = [TMP] 1. Use the settings to make Width and Height to what you want.\n\
+legend.BoulderBrush.Page3.Title = Settings (1/2)
+legend.BoulderBrush.Page3.RockBlocks.Title = Rock Blocks:
+legend.BoulderBrush.Page3.RockBlocks.Description = - The blocks to make the boulder out of.
+legend.BoulderBrush.Page3.TopBlocks.Title = Top Blocks:
+legend.BoulderBrush.Page3.TopBlocks.Description = - The blocks to decorate the top of the boulder. Comes with a Density slider to control how many to place.
+legend.BoulderBrush.Page3.TopDecor.Title = Top Decor:
+legend.BoulderBrush.Page3.TopDecor.Description = - The blocks to place on top of the Top Blocks. Comes with a Density slider to control how many to place.
+legend.BoulderBrush.Page3.RockDecor.Title = Rock Decor:
+legend.BoulderBrush.Page3.RockDecor.Description = - The blocks to place on top of the Rock Blocks. Comes with a Density slider to control how many to place.
+legend.BoulderBrush.Page3.BoulderPoints.Title = Boulder Points:
+legend.BoulderBrush.Page3.BoulderPoints.Description = - The number of sub-boulders to use to make the boulder. The sub-boulders can be spaced with Boulder Radius to make one boulder, or a group of boulders.
+legend.BoulderBrush.Page3.BoulderRadius.Title = Boulder Radius:
+legend.BoulderBrush.Page3.BoulderRadius.Description = - Controls the spacing between the Boulder Points. This can be used to make the boulder wider, or create a group of boulders.
+legend.BoulderBrush.Page4.Title = Settings (2/2)
+legend.BoulderBrush.Page4.Randomization.Title = Randomization:
+legend.BoulderBrush.Page4.Randomization.Description = - Controls how random the boulder looks. Higher = more random, Lower = less random.
+legend.BoulderBrush.Page4.Smoothness.Title = Smoothness:
+legend.BoulderBrush.Page4.Smoothness.Description = - Controls how smooth the boulder is. Higher = more smooth, Lower = less smooth.
+legend.BoulderBrush.Page4.StackSize.Title = Stack Size (Advanced):
+legend.BoulderBrush.Page4.StackSize.Description = - Controls how many times to stack the boulder using its Width. This is a different way to shape boulders. The boulder will place the current shape down, move it up by the Height, decrease the Width, and place again and keep doing this.
+legend.BoulderBrush.Page4.StackRandomization.Title = Stack Randomization (Advanced):
+legend.BoulderBrush.Page4.StackRandomization.Description = - The randomization between the height layers of the boulder. Higher = more random, Lower = less random.
+legend.BoulderBrush.Page4.StackTip.Title = Advanced Settings Tip:
+legend.BoulderBrush.Page4.StackTip.Description = - To see how the Stack Size and Stack Randomization work, turn Smoothness to 0, Shape to Cube, Stack Size to above 0, and try out different Width and Heights.
+legend.BuildingBrush.Page1.Title = Building Brush
+legend.BuildingBrush.Page1.Description = The Building Brush Tool allows you to make buildings and form structures.
+legend.BuildingBrush.Page1.ShapeArea = Place a building where you're aiming
+legend.BuildingBrush.Page2.BlockTip.Title = Customizing a Building:
+legend.BuildingBrush.Page2.BlockTip.Description = You can customize what blocks the building is made out of by dragging and dropping blocks from the inventory into the settings.\n\nYou can also remove blocks by double-clicking on blocks in the setting.
+legend.BuildingBrush.Page2.Example1.Title = Making a Tower with Windows:
+legend.BuildingBrush.Page2.Example1.Description = 1. Use the settings to make Width and Height to what you want.\n\
 2. Change the Number of Floors to how many floors you want the tower to have.\n\
 3. Change the Number of Windows to how many windows you want, and change the Window Radius so that the windows are placed properly in the wall. Windows take trial and error currently to get them placed properly in the wall.\n\
 4. Change the Roof settings to be what you want.\n\
 5. Press the place key, usually Right-Click, to place the building.\n\
 6. You now have a tower!
-legend.BuildingBrush.Page3.Title = [TMP] Settings
-legend.BuildingBrush.Page3.MainBlock.Title = [TMP] Main Block:
-legend.BuildingBrush.Page3.MainBlock.Description = [TMP] - The main blocks to make the building out of.
-legend.BuildingBrush.Page3.SecondaryBlock.Title = [TMP] Secondary Block:
-legend.BuildingBrush.Page3.SecondaryBlock.Description = [TMP] - The blocks used as decoration across the center of the walls of the building.
-legend.BuildingBrush.Page3.FloorBlock.Title = [TMP] Floor Block:
-legend.BuildingBrush.Page3.FloorBlock.Description = [TMP] - The blocks used for the floors in the building.
-legend.BuildingBrush.Page3.EnableWindows.Title = [TMP] Enable Windows:
-legend.BuildingBrush.Page3.EnableWindows.Description = [TMP] - Enables windows to be placed on the building.
-legend.BuildingBrush.Page3.WindowRadius.Title = [TMP] Window Radius:
-legend.BuildingBrush.Page3.WindowRadius.Description = [TMP] - The radius of where the windows should be placed. This setting may take playing around with to get it right.
-legend.BuildingBrush.Page3.EnableRoof.Title = [TMP] Enable Roof:
-legend.BuildingBrush.Page3.EnableRoof.Description = [TMP] - Enables the roof to be placed on the building. Turning off the roof is good for making walls.
-legend.DecorationBrush.Page1.Title = [TMP] Decoration Brush
-legend.DecorationBrush.Page1.Description = [TMP] The Decoration Brush Tool allows you to paint decoration.
-legend.DecorationBrush.Page1.DecorateArea = [TMP] Clear blocks that match the blocks in Blocks to Clear.
-legend.DecorationBrush.Page1.ShapeArea = [TMP] Paint the decorations where you're aiming
-legend.DecorationBrush.Page2.BlockTip.Title = [TMP] Customizing the Decorations:
-legend.DecorationBrush.Page2.BlockTip.Description = [TMP] You can customize what blocks are used for the decorations by dragging and dropping blocks from the inventory into the settings.\n\nYou can also remove blocks by double-clicking on blocks in the setting.
-legend.DecorationBrush.Page2.Example1.Title = [TMP] Clearing an area and adding ground decorations:
-legend.DecorationBrush.Page2.Example1.Description = [TMP] 1. Find an area you want to add decorations.\n\
+legend.BuildingBrush.Page3.Title = Settings
+legend.BuildingBrush.Page3.MainBlock.Title = Main Block:
+legend.BuildingBrush.Page3.MainBlock.Description = - The main blocks to make the building out of.
+legend.BuildingBrush.Page3.SecondaryBlock.Title = Secondary Block:
+legend.BuildingBrush.Page3.SecondaryBlock.Description = - The blocks used as decoration across the center of the walls of the building.
+legend.BuildingBrush.Page3.FloorBlock.Title = Floor Block:
+legend.BuildingBrush.Page3.FloorBlock.Description = - The blocks used for the floors in the building.
+legend.BuildingBrush.Page3.EnableWindows.Title = Enable Windows:
+legend.BuildingBrush.Page3.EnableWindows.Description = - Enables windows to be placed on the building.
+legend.BuildingBrush.Page3.WindowRadius.Title = Window Radius:
+legend.BuildingBrush.Page3.WindowRadius.Description = - The radius of where the windows should be placed. This setting may take playing around with to get it right.
+legend.BuildingBrush.Page3.EnableRoof.Title = Enable Roof:
+legend.BuildingBrush.Page3.EnableRoof.Description = - Enables the roof to be placed on the building. Turning off the roof is good for making walls.
+legend.DecorationBrush.Page1.Title = Decoration Brush
+legend.DecorationBrush.Page1.Description = The Decoration Brush Tool allows you to paint decoration.
+legend.DecorationBrush.Page1.DecorateArea = Clear blocks that match the blocks in Blocks to Clear.
+legend.DecorationBrush.Page1.ShapeArea = Paint the decorations where you're aiming
+legend.DecorationBrush.Page2.BlockTip.Title = Customizing the Decorations:
+legend.DecorationBrush.Page2.BlockTip.Description = You can customize what blocks are used for the decorations by dragging and dropping blocks from the inventory into the settings.\n\nYou can also remove blocks by double-clicking on blocks in the setting.
+legend.DecorationBrush.Page2.Example1.Title = Clearing an area and adding ground decorations:
+legend.DecorationBrush.Page2.Example1.Description = 1. Find an area you want to add decorations.\n\
 2. Hold down the clearing key, usually Left-Click, to remove blocks from the area.\n\
 3. Open the settings and add any decorations you want into the settings.\n\
 4. Hold down the painting key, usually Right-Click, to paint the decorations on the area.\n\
 5. You have now decorated the area!
-legend.DecorationBrush.Page3.Title = [TMP] Settings
-legend.DecorationBrush.Page3.BlocksToClear.Title = [TMP] Blocks to Clear:
-legend.DecorationBrush.Page3.BlocksToClear.Description = [TMP] - The blocks to clear when using the clear blocks key, usually Left-Click.
-legend.DecorationBrush.Page3.FloorBlocks.Title = [TMP] Floor Blocks:
-legend.DecorationBrush.Page3.FloorBlocks.Description = [TMP] - The blocks to decorate with. Comes with a Density slider to control how many to place.
-legend.DecorationBrush.Page3.DecorationBlocks.Title = [TMP] Decoration Blocks:
-legend.DecorationBrush.Page3.DecorationBlocks.Description = [TMP] - The blocks to place on top of Floor Blocks. Comes with a Density slider to control how many to place.
-legend.ForestBrush.Page1.Title = [TMP] Forest Brush
-legend.ForestBrush.Page1.Description = [TMP] The Forest Brush Tool allows you to make forests and leafy brush.
-legend.ForestBrush.Page1.DecorateArea = [TMP] Add the selected decorations type where you're aiming
-legend.ForestBrush.Page1.ShapeArea = [TMP] Paints the ground where you're aiming
-legend.ForestBrush.Page2.BlockTip.Title = [TMP] Customizing a Forest:
-legend.ForestBrush.Page2.BlockTip.Description = [TMP] You can customize what blocks the forest is made out of by dragging and dropping blocks from the inventory into the settings.\n\nYou can also remove blocks by double-clicking on blocks in the setting.
-legend.ForestBrush.Page2.Example1.Title = [TMP] Making and Decorating a Forest:
-legend.ForestBrush.Page2.Example1.Description = [TMP] 1. Look at the area where you want to make the forest.\n\
+legend.DecorationBrush.Page3.Title = Settings
+legend.DecorationBrush.Page3.BlocksToClear.Title = Blocks to Clear:
+legend.DecorationBrush.Page3.BlocksToClear.Description = - The blocks to clear when using the clear blocks key, usually Left-Click.
+legend.DecorationBrush.Page3.FloorBlocks.Title = Floor Blocks:
+legend.DecorationBrush.Page3.FloorBlocks.Description = - The blocks to decorate with. Comes with a Density slider to control how many to place.
+legend.DecorationBrush.Page3.DecorationBlocks.Title = Decoration Blocks:
+legend.DecorationBrush.Page3.DecorationBlocks.Description = - The blocks to place on top of Floor Blocks. Comes with a Density slider to control how many to place.
+legend.ForestBrush.Page1.Title = Forest Brush
+legend.ForestBrush.Page1.Description = The Forest Brush Tool allows you to make forests and leafy brush.
+legend.ForestBrush.Page1.DecorateArea = Add the selected decorations type where you're aiming
+legend.ForestBrush.Page1.ShapeArea = Paints the ground where you're aiming
+legend.ForestBrush.Page2.BlockTip.Title = Customizing a Forest:
+legend.ForestBrush.Page2.BlockTip.Description = You can customize what blocks the forest is made out of by dragging and dropping blocks from the inventory into the settings.\n\nYou can also remove blocks by double-clicking on blocks in the setting.
+legend.ForestBrush.Page2.Example1.Title = Making and Decorating a Forest:
+legend.ForestBrush.Page2.Example1.Description = 1. Look at the area where you want to make the forest.\n\
 2. Hold down the paint ground key, usually Right-Click, to start painting the forest floor.\n\
 3. Add ground decorations by changing the type to Foliage, and adding the blocks you want to use for plants in the Foliage Blocks.\n\
 4. Hold down the decorate key, usually Left-Click, to place the foliage decorations.\n\
 5. Add trees by changing the type to Trees.\n\
 6. Hold down the decorate key, usually Left-Click, to place the trees.\n\
 7. You now have a forest!
-legend.ForestBrush.Page3.Title = [TMP] Settings
-legend.ForestBrush.Page3.NumDecorations.Title = [TMP] # of Decorations:
-legend.ForestBrush.Page3.NumDecorations.Description = [TMP] - The number of decorations to place. Only applies when the Decoration Types is set to Trees or Boulders.
-legend.ForestBrush.Page3.DecorationSpacing.Title = [TMP] Decoration Spacing:
-legend.ForestBrush.Page3.DecorationSpacing.Description = [TMP] - The spacing between decorations to be placed. Only applies when the Decoration Types is set to Trees or Boulders.
-legend.ForestBrush.Page3.FloorBlocks.Title = [TMP] Floor Blocks:
-legend.ForestBrush.Page3.FloorBlocks.Description = [TMP] - The blocks to decorate the forest floor with. Comes with a Density slider to control how many to place.
-legend.ForestBrush.Page3.FloorOutlineBlocks.Title = [TMP] Floor Outline Blocks:
-legend.ForestBrush.Page3.FloorOutlineBlocks.Description = [TMP] - The blocks to decorate the outline of the forest floor with. Comes with a Density slider to control how many to place.
-legend.ForestBrush.Page3.FloorPatchBlocks.Title = [TMP] Floor Patch Blocks:
-legend.ForestBrush.Page3.FloorPatchBlocks.Description = [TMP] - The blocks to place randomly throughout the forest floor for decoration. Comes with a Density slider to control how many to place.
-legend.ForestBrush.Page3.FoliageBlocks.Title = [TMP] Foliage Blocks:
-legend.ForestBrush.Page3.FoliageBlocks.Description = [TMP] - The blocks to use for foliage on the forest floor. Comes with a Density slider to control how many to place. Only applies when the Decoration Types is set to Foliage.
-legend.MountainBrush.Page1.Title = [TMP] Mountain Brush
-legend.MountainBrush.Page1.Description = [TMP] The Mountain Brush Tool allows you to sculpt mountains and terrain.
-legend.MountainBrush.Page1.ShapeArea = [TMP] Sculpt a mountain where you're aiming
-legend.MountainBrush.Page2.BlockTip.Title = [TMP] Customizing a Mountain:
-legend.MountainBrush.Page2.BlockTip.Description = [TMP] You can customize what blocks the mountain is made out of by dragging and dropping blocks from the inventory into the settings.\n\nYou can also remove blocks by double-clicking on blocks in the setting.
-legend.MountainBrush.Page2.Example1.Title = [TMP] Making a Mountain:
-legend.MountainBrush.Page2.Example1.Description = [TMP] 1. Look at the ground.\n\
+legend.ForestBrush.Page3.Title = Settings
+legend.ForestBrush.Page3.NumDecorations.Title = # of Decorations:
+legend.ForestBrush.Page3.NumDecorations.Description = - The number of decorations to place. Only applies when the Decoration Types is set to Trees or Boulders.
+legend.ForestBrush.Page3.DecorationSpacing.Title = Decoration Spacing:
+legend.ForestBrush.Page3.DecorationSpacing.Description = - The spacing between decorations to be placed. Only applies when the Decoration Types is set to Trees or Boulders.
+legend.ForestBrush.Page3.FloorBlocks.Title = Floor Blocks:
+legend.ForestBrush.Page3.FloorBlocks.Description = - The blocks to decorate the forest floor with. Comes with a Density slider to control how many to place.
+legend.ForestBrush.Page3.FloorOutlineBlocks.Title = Floor Outline Blocks:
+legend.ForestBrush.Page3.FloorOutlineBlocks.Description = - The blocks to decorate the outline of the forest floor with. Comes with a Density slider to control how many to place.
+legend.ForestBrush.Page3.FloorPatchBlocks.Title = Floor Patch Blocks:
+legend.ForestBrush.Page3.FloorPatchBlocks.Description = - The blocks to place randomly throughout the forest floor for decoration. Comes with a Density slider to control how many to place.
+legend.ForestBrush.Page3.FoliageBlocks.Title = Foliage Blocks:
+legend.ForestBrush.Page3.FoliageBlocks.Description = - The blocks to use for foliage on the forest floor. Comes with a Density slider to control how many to place. Only applies when the Decoration Types is set to Foliage.
+legend.MountainBrush.Page1.Title = Mountain Brush
+legend.MountainBrush.Page1.Description = The Mountain Brush Tool allows you to sculpt mountains and terrain.
+legend.MountainBrush.Page1.ShapeArea = Sculpt a mountain where you're aiming
+legend.MountainBrush.Page2.BlockTip.Title = Customizing a Mountain:
+legend.MountainBrush.Page2.BlockTip.Description = You can customize what blocks the mountain is made out of by dragging and dropping blocks from the inventory into the settings.\n\nYou can also remove blocks by double-clicking on blocks in the setting.
+legend.MountainBrush.Page2.Example1.Title = Making a Mountain:
+legend.MountainBrush.Page2.Example1.Description = 1. Look at the ground.\n\
 2. Customize the blocks to use for the mountain by placing blocks in the Layer settings.\n\
 3. Hold down the sculpt key, usually Right-Click, to start sculpting the shape of the mountain.\n\
 4. You now can sculpt mountains!
-legend.MountainBrush.Page2.Example2.Title = [TMP] Making a Valley:
-legend.MountainBrush.Page2.Example2.Description = [TMP] 1. Look at the ground.\n\
+legend.MountainBrush.Page2.Example2.Title = Making a Valley:
+legend.MountainBrush.Page2.Example2.Description = 1. Look at the ground.\n\
 2. Change the Number of Points to 1, and Point Spacing to above 40.\n\
 3. Hold down the sculpt key, usually Right-Click, to start sculpting. Notice that you now have 2 places where the terrain is being formed.\n\
 4. Sculpt in a straight line moving up and down to build up a cliff on both sides.\n\
 5. You now can sculpt a valley! This ability can also be used to make multiple mountains or details in the mountains at the same time.
-legend.MountainBrush.Page3.Title = [TMP] Settings
-legend.MountainBrush.Page3.TopLayer.Title = [TMP] Top Layer:
-legend.MountainBrush.Page3.TopLayer.Description = [TMP] - The blocks that will be on the top of the terrain.
-legend.MountainBrush.Page3.MiddleLayer.Title = [TMP] Middle Layer:
-legend.MountainBrush.Page3.MiddleLayer.Description = [TMP] - The blocks that will be in the middle of the terrain.
-legend.MountainBrush.Page3.BottomLayer.Title = [TMP] Bottom Layer:
-legend.MountainBrush.Page3.BottomLayer.Description = [TMP] - The blocks that will be on the bottom of the terrain.
-legend.MountainBrush.Page3.NumberOfPoints.Title = [TMP] Number of Points:
-legend.MountainBrush.Page3.NumberOfPoints.Description = [TMP] - The number of points to use to sculpt the mountains.
-legend.MountainBrush.Page3.PointSpacing.Title = [TMP] Point Spacing:
-legend.MountainBrush.Page3.PointSpacing.Description = [TMP] - The spacing between the Number of Points used to sculpt the mountain.
-legend.MountainBrush.Page3.Smoothness.Title = [TMP] Smoothness:
-legend.MountainBrush.Page3.Smoothness.Description = [TMP] - Controls how smooth the sculpted terrain will be. Higher = more smooth, lower = less smooth
-legend.PathBrush.Page1.Title = [TMP] Path Brush
-legend.PathBrush.Page1.Description = [TMP] The Path Brush Tool allows you to make paths.
-legend.PathBrush.Page1.DecorateArea = [TMP] Adds half-blocks near level changes to make the path smoother
-legend.PathBrush.Page1.ShapeArea = [TMP] Draw a path where you're aiming
-legend.PathBrush.Page2.BlockTip.Title = [TMP] Customizing a Path:
-legend.PathBrush.Page2.BlockTip.Description = [TMP] You can customize what blocks the path is made out of by dragging and dropping blocks from the inventory into the settings.\n\nYou can also remove blocks by double-clicking on blocks in the setting.
-legend.PathBrush.Page2.Example1.Title = [TMP] Making a Path:
-legend.PathBrush.Page2.Example1.Description = [TMP] 1. Look at the ground.\n\
+legend.MountainBrush.Page3.Title = Settings
+legend.MountainBrush.Page3.TopLayer.Title = Top Layer:
+legend.MountainBrush.Page3.TopLayer.Description = - The blocks that will be on the top of the terrain.
+legend.MountainBrush.Page3.MiddleLayer.Title = Middle Layer:
+legend.MountainBrush.Page3.MiddleLayer.Description = - The blocks that will be in the middle of the terrain.
+legend.MountainBrush.Page3.BottomLayer.Title = Bottom Layer:
+legend.MountainBrush.Page3.BottomLayer.Description = - The blocks that will be on the bottom of the terrain.
+legend.MountainBrush.Page3.NumberOfPoints.Title = Number of Points:
+legend.MountainBrush.Page3.NumberOfPoints.Description = - The number of points to use to sculpt the mountains.
+legend.MountainBrush.Page3.PointSpacing.Title = Point Spacing:
+legend.MountainBrush.Page3.PointSpacing.Description = - The spacing between the Number of Points used to sculpt the mountain.
+legend.MountainBrush.Page3.Smoothness.Title = Smoothness:
+legend.MountainBrush.Page3.Smoothness.Description = - Controls how smooth the sculpted terrain will be. Higher = more smooth, lower = less smooth.
+legend.PathBrush.Page1.Title = Path Brush
+legend.PathBrush.Page1.Description = The Path Brush Tool allows you to make paths.
+legend.PathBrush.Page1.DecorateArea = Adds half-blocks near level changes to make the path smoother
+legend.PathBrush.Page1.ShapeArea = Draw a path where you're aiming
+legend.PathBrush.Page2.BlockTip.Title = Customizing a Path:
+legend.PathBrush.Page2.BlockTip.Description = You can customize what blocks the path is made out of by dragging and dropping blocks from the inventory into the settings.\n\nYou can also remove blocks by double-clicking on blocks in the setting.
+legend.PathBrush.Page2.Example1.Title = Making a Path:
+legend.PathBrush.Page2.Example1.Description = 1. Look at the ground.\n\
 2. Customize the blocks to use for the path by placing blocks in the settings.\n\
 3. Hold down the draw key, usually Right-Click, to start drawing the path.\n\
-4. Hold down the half-block key, usually Left-Click, to place down half-blocks near un-level area to make them smoother.\n\
+4. Hold down the half-block key, usually Left-Click, to place down half-blocks near un-level areas to make them smoother.\n\
 5. You now have a path with decorations!
-legend.PathBrush.Page3.Title = [TMP] Settings
-legend.PathBrush.Page3.PathBlocks.Title = [TMP] Path Blocks:
-legend.PathBrush.Page3.PathBlocks.Description = [TMP] - The main blocks the path will be made out of. Comes with a Density slider to control how many to place.
-legend.PathBrush.Page3.OutlineBlocks.Title = [TMP] Outline Blocks:
-legend.PathBrush.Page3.OutlineBlocks.Description = [TMP] - The blocks to place on the outline of the path. Comes with a Density slider to control how many to place. Comes with a Width slider to control how wide it will be.
-legend.PathBrush.Page3.DecorationBlocks.Title = [TMP] Decoration Blocks:
-legend.PathBrush.Page3.DecorationBlocks.Description = [TMP] - The blocks to add as decorations along the path. Comes with a Density slider to control how many to place. Comes with a Width slider to control how wide it will be.
-legend.PathBrush.Page3.HalfBlocks.Title = [TMP] Half-Blocks on Path:
-legend.PathBrush.Page3.HalfBlocks.Description = [TMP] - The half-blocks to be placed near un-level areas to make them smoother.
-legend.PathBrush.Page3.ClearObstacles.Title = [TMP] Clear Obstacles:
-legend.PathBrush.Page3.ClearObstacles.Description = [TMP] - If enabled, removes obstacles in the way of the path.
-legend.RiverBrush.Page1.Title = [TMP] River Brush
-legend.RiverBrush.Page1.Description = [TMP] The River Brush Tool allows you to make rivers and oceans.
-legend.RiverBrush.Page1.DecorateArea = [TMP] Adds decorations where you're aiming
-legend.RiverBrush.Page1.ShapeArea = [TMP] Draw a river where you're aiming
-legend.RiverBrush.Page2.BlockTip.Title = [TMP] Customizing a River:
-legend.RiverBrush.Page2.BlockTip.Description = [TMP] You can customize what blocks the river is made out of by dragging and dropping blocks from the inventory into the settings.\n\nYou can also remove blocks by double-clicking on blocks in the setting.
-legend.RiverBrush.Page2.Example1.Title = [TMP] Making a River/Waterfall:
-legend.RiverBrush.Page2.Example1.Description = [TMP] 1. Look at a surface.\n\
+legend.PathBrush.Page3.Title = Settings
+legend.PathBrush.Page3.PathBlocks.Title = Path Blocks:
+legend.PathBrush.Page3.PathBlocks.Description = - The main blocks the path will be made out of. Comes with a Density slider to control how many to place.
+legend.PathBrush.Page3.OutlineBlocks.Title = Outline Blocks:
+legend.PathBrush.Page3.OutlineBlocks.Description = - The blocks to place on the outline of the path. Comes with a Density slider to control how many to place. Comes with a Width slider to control how wide it will be.
+legend.PathBrush.Page3.DecorationBlocks.Title = Decoration Blocks:
+legend.PathBrush.Page3.DecorationBlocks.Description = - The blocks to add as decorations along the path. Comes with a Density slider to control how many to place. Comes with a Width slider to control how wide it will be.
+legend.PathBrush.Page3.HalfBlocks.Title = Half-Blocks on Path:
+legend.PathBrush.Page3.HalfBlocks.Description = - The half-blocks to be placed near un-level areas to make them smoother.
+legend.PathBrush.Page3.ClearObstacles.Title = Clear Obstacles:
+legend.PathBrush.Page3.ClearObstacles.Description = - If enabled, removes obstacles in the way of the path.
+legend.RiverBrush.Page1.Title = River Brush
+legend.RiverBrush.Page1.Description = The River Brush Tool allows you to make rivers and oceans.
+legend.RiverBrush.Page1.DecorateArea = Adds decorations where you're aiming
+legend.RiverBrush.Page1.ShapeArea = Draw a river where you're aiming
+legend.RiverBrush.Page2.BlockTip.Title = Customizing a River:
+legend.RiverBrush.Page2.BlockTip.Description = You can customize what blocks the river is made out of by dragging and dropping blocks from the inventory into the settings.\n\nYou can also remove blocks by double-clicking on blocks in the setting.
+legend.RiverBrush.Page2.Example1.Title = Making a River/Waterfall:
+legend.RiverBrush.Page2.Example1.Description = 1. Look at a surface.\n\
 2. Customize the blocks to use for the river by placing blocks in the settings.\n\
 3. Hold down the draw key, usually Right-Click, to start drawing the river.\n\
 4. Hold down the decoration key, usually Left-Click, to place down decorations on the side of the river, under the water, and on top of the water.\n\
-5. You now have a river, and or waterfall!
-legend.RiverBrush.Page3.Title = [TMP] Settings
-legend.RiverBrush.Page3.FluidMaterial.Title = [TMP] Fluid Material:
-legend.RiverBrush.Page3.FluidMaterial.Description = [TMP] - The fluid material the river will be made out of.
-legend.RiverBrush.Page3.SurfaceBlocks.Title = [TMP] Blocks above Fluid:
-legend.RiverBrush.Page3.SurfaceBlocks.Description = [TMP] - The blocks to place on the side and under the fluid of the river. Comes with a Density slider to control how many to place. Comes with a Width slider to control how wide it will be.
-legend.RiverBrush.Page3.SubsurfaceBlocks.Title = [TMP] Blocks under Fluid:
-legend.RiverBrush.Page3.SubsurfaceBlocks.Description = [TMP] - The blocks to place under the fluid of the river. Comes with a Density slider to control how many to place.
-legend.RiverBrush.Page3.UnderDecorations.Title = [TMP] Decorations under Fluid:
-legend.RiverBrush.Page3.UnderDecorations.Description = [TMP] - The decorations to add under the fluid. Comes with a Density slider to control how many to place.
-legend.RiverBrush.Page3.SideDecorations.Title = [TMP] Decorations on side of Fluid:
-legend.RiverBrush.Page3.SideDecorations.Description = [TMP] - The decorations to add on the side of the river. Comes with a Density slider to control how many to place.
-legend.RiverBrush.Page3.TopDecorations.Title = [TMP] Decorations on top of the Fluid:
-legend.RiverBrush.Page3.TopDecorations.Description = [TMP] - The decorations to add on the top of the river. Comes with a Density slider to control how many to place.
-legend.SpiralBrush.Page1.Title = [TMP] Spiral Brush
-legend.SpiralBrush.Page1.Description = [TMP] The Spiral Brush Tool allows you to make spirals and circular patterns.
-legend.SpiralBrush.Page1.ShapeArea = [TMP] Place a spiral where you're aiming
-legend.SpiralBrush.Page2.BlockTip.Title = [TMP] Customizing a Spiral:
-legend.SpiralBrush.Page2.BlockTip.Description = [TMP] You can customize what blocks the spiral is made out of by dragging and dropping blocks from the inventory into the settings.\n\nYou can also remove blocks by double-clicking on blocks in the setting.
-legend.SpiralBrush.Page2.Example1.Title = [TMP] Making a Custom Spiral:
-legend.SpiralBrush.Page2.Example1.Description = [TMP] 1. Look at a surface.\n\
+5. You now have a river and/or waterfall!
+legend.RiverBrush.Page3.Title = Settings
+legend.RiverBrush.Page3.FluidMaterial.Title = Fluid Material:
+legend.RiverBrush.Page3.FluidMaterial.Description = - The fluid material the river will be made out of.
+legend.RiverBrush.Page3.SurfaceBlocks.Title = Blocks above Fluid:
+legend.RiverBrush.Page3.SurfaceBlocks.Description = - The blocks to place on the side and under the fluid of the river. Comes with a Density slider to control how many to place. Comes with a Width slider to control how wide it will be.
+legend.RiverBrush.Page3.SubsurfaceBlocks.Title = Blocks under Fluid:
+legend.RiverBrush.Page3.SubsurfaceBlocks.Description = - The blocks to place under the fluid of the river. Comes with a Density slider to control how many to place.
+legend.RiverBrush.Page3.UnderDecorations.Title = Decorations under Fluid:
+legend.RiverBrush.Page3.UnderDecorations.Description = - The decorations to add under the fluid. Comes with a Density slider to control how many to place.
+legend.RiverBrush.Page3.SideDecorations.Title = Decorations on side of Fluid:
+legend.RiverBrush.Page3.SideDecorations.Description = - The decorations to add on the side of the river. Comes with a Density slider to control how many to place.
+legend.RiverBrush.Page3.TopDecorations.Title = Decorations on top of the Fluid:
+legend.RiverBrush.Page3.TopDecorations.Description = - The decorations to add on the top of the river. Comes with a Density slider to control how many to place.
+legend.SpiralBrush.Page1.Title = Spiral Brush
+legend.SpiralBrush.Page1.Description = The Spiral Brush Tool allows you to make spirals and circular patterns.
+legend.SpiralBrush.Page1.ShapeArea = Place a spiral where you're aiming
+legend.SpiralBrush.Page2.BlockTip.Title = Customizing a Spiral:
+legend.SpiralBrush.Page2.BlockTip.Description = You can customize what blocks the spiral is made out of by dragging and dropping blocks from the inventory into the settings.\n\nYou can also remove blocks by double-clicking on blocks in the setting.
+legend.SpiralBrush.Page2.Example1.Title = Making a Custom Spiral:
+legend.SpiralBrush.Page2.Example1.Description = 1. Look at a surface.\n\
 2. Customize the blocks to use for the spiral by placing blocks in the settings.\n\
 3. Change the Number of Points to be what you need. Higher = more points in the spiral, Lower = less points in the spiral.\n\
 4. Change the Radius to be 15. This will make it wide enough to see what the tool does.\n\
@@ -427,56 +427,56 @@ legend.SpiralBrush.Page2.Example1.Description = [TMP] 1. Look at a surface.\n\
 7. You can also add smoothing to the spiral by changing the Smoothness to be higher than 0.\n\
 8. You can also choose to Hollow Center to make the center of the spiral made of air.\n\
 9. You now have a spiral!
-legend.SpiralBrush.Page3.Title = [TMP] Settings
-legend.SpiralBrush.Page3.NumberPoints.Title = [TMP] Number of Points:
-legend.SpiralBrush.Page3.NumberPoints.Description = [TMP] - The number of points on the spiral.
-legend.SpiralBrush.Page3.Radius.Title = [TMP] Radius:
-legend.SpiralBrush.Page3.Radius.Description = [TMP] - The radius of the spiral, which is how wide it will be.
-legend.SpiralBrush.Page3.VerticalSpacing.Title = [TMP] Vertical Spacing:
-legend.SpiralBrush.Page3.VerticalSpacing.Description = [TMP] - How far apart each point in the spiral is from each other, which is how tall it will be.
-legend.SpiralBrush.Page3.Flip.Title = [TMP] Flip
-legend.SpiralBrush.Page3.Flip.Description = [TMP] - Flips the order the spiral is drawn.
-legend.SpiralBrush.Page3.RotateDirection.Title = [TMP] Rotate Direction
-legend.SpiralBrush.Page3.RotateDirection.Description = [TMP] - Rotates the spiral 180 degrees.
-legend.SpiralBrush.Page3.InvertDirection.Title = [TMP] Invert Direction
-legend.SpiralBrush.Page3.InvertDirection.Description = [TMP] - Inverts the direction the spiral is drawn.
-legend.SpiralBrush.Page3.Smoothness.Title = [TMP] Smoothness
-legend.SpiralBrush.Page3.Smoothness.Description = [TMP] - Controls how smooth the spiral will be. Higher = more smooth, Lower = less smooth.
-legend.SpiralBrush.Page3.HollowCenter.Title = [TMP] Hollow Center
-legend.SpiralBrush.Page3.HollowCenter.Description = [TMP] - If enabled, replaces the center of the spiral with air from where you clicked.
-legend.RevolveTool.Page1.Title = [TMP] Revolve Tool
-legend.RevolveTool.Page1.Description = [TMP] The Revolve Tool allows you to rotate and paste a selection. This tool will only work if a selection has been made.
-legend.RevolveTool.Page1.ShapeArea = [TMP] Does the revolve. Depending on what settings you are using, it will do the revolve around where you are aiming, or yourself.
-legend.RevolveTool.Page2.Example1.Title = [TMP] Revolving with the Brush:
-legend.RevolveTool.Page2.Example1.Description = [TMP] 1. Make a selection that you want to have revolved.\n\
+legend.SpiralBrush.Page3.Title = Settings
+legend.SpiralBrush.Page3.NumberPoints.Title = Number of Points:
+legend.SpiralBrush.Page3.NumberPoints.Description = - The number of points on the spiral.
+legend.SpiralBrush.Page3.Radius.Title = Radius:
+legend.SpiralBrush.Page3.Radius.Description = - The radius of the spiral, which is how wide it will be.
+legend.SpiralBrush.Page3.VerticalSpacing.Title = Vertical Spacing:
+legend.SpiralBrush.Page3.VerticalSpacing.Description = - How far apart each point in the spiral is from each other, which is how tall it will be.
+legend.SpiralBrush.Page3.Flip.Title = Flip
+legend.SpiralBrush.Page3.Flip.Description = - Flips the order the spiral is drawn.
+legend.SpiralBrush.Page3.RotateDirection.Title = Rotate Direction
+legend.SpiralBrush.Page3.RotateDirection.Description = - Rotates the spiral 180 degrees.
+legend.SpiralBrush.Page3.InvertDirection.Title = Invert Direction
+legend.SpiralBrush.Page3.InvertDirection.Description = - Inverts the direction the spiral is drawn.
+legend.SpiralBrush.Page3.Smoothness.Title = Smoothness
+legend.SpiralBrush.Page3.Smoothness.Description = - Controls how smooth the spiral will be. Higher = more smooth, Lower = less smooth.
+legend.SpiralBrush.Page3.HollowCenter.Title = Hollow Center
+legend.SpiralBrush.Page3.HollowCenter.Description = - If enabled, replaces the center of the spiral with air from where you clicked.
+legend.RevolveTool.Page1.Title = Revolve Tool
+legend.RevolveTool.Page1.Description = The Revolve Tool allows you to rotate and paste a selection. This tool will only work if a selection has been made.
+legend.RevolveTool.Page1.ShapeArea = Does the revolve. Depending on what settings you are using, it will do the revolve around where you are aiming, or yourself.
+legend.RevolveTool.Page2.Example1.Title = Revolving with the Brush:
+legend.RevolveTool.Page2.Example1.Description = 1. Make a selection that you want to have revolved.\n\
 2. Equip the Revolve Tool.\n\
 3. Set settings to what you want.\n\
 4. Aim the brush to where you want the selection to be revolved around.\n\
 5. Press the revolve key, usually Right-Click.\n\
 6. You now have revolved your selection!
-legend.RevolveTool.Page2.Example2.Title = [TMP] Making a Full Circle around Yourself:
-legend.RevolveTool.Page2.Example2.Description = [TMP] 1. Make a selection that you want to have revolved.\n\
+legend.RevolveTool.Page2.Example2.Title = Making a Full Circle around Yourself:
+legend.RevolveTool.Page2.Example2.Description = 1. Make a selection that you want to have revolved.\n\
 2. Equip the Revolve Tool.\n\
 3. Set the Fully Revolve setting to checked, and change the Target to Player (Self).\n\
 4. Move yourself so you are some blocks away from your selection.\n\
 5. Press the revolve key, usually Right-Click.\n\
 6. You now fully revolved the selection around yourself!
-legend.RevolveTool.Page3.Title = [TMP] Settings
-legend.RevolveTool.Page3.Sampling.Title = [TMP] Fill Strategy:
-legend.RevolveTool.Page3.Sampling.Description = [TMP] - The strategy to fill holes in the revolve. Revolving can sometimes leave holes, this will attempt to fill those holes.
-legend.RevolveTool.Page3.FullyRevolve.Title = [TMP] Fully Revolve:
-legend.RevolveTool.Page3.FullyRevolve.Description = [TMP] - Will revolve the selection entirely in a circle. This will ignore the Place Count and entirely revolve the selection.
-legend.RevolveTool.Page3.PlaceCount.Title = [TMP] Paste Count:
-legend.RevolveTool.Page3.PlaceCount.Description = [TMP] - Controls how many times to paste the selection in the revolve. For example, if this set to 5 then the selection will paste 5 times.
-legend.RevolveTool.Page3.CenterAround.Title = [TMP] Center Around:
-legend.RevolveTool.Page3.CenterAround.Description = [TMP] - Controls the target to revolve around. Brush Target = revolve around where the brush is aimed, Player (Self) = revolves around where you are.
-legend.RevolveTool.Page3.UseCustomDistance.Title = [TMP] Use Custom Radius:
-legend.RevolveTool.Page3.UseCustomDistance.Description = [TMP] - Pastes and revolves the selection where aimed, and uses Custom Radius to control the spacing from the center.
-legend.RevolveTool.Page3.PlaceDistance.Title = [TMP] Custom Radius:
-legend.RevolveTool.Page3.PlaceDistance.Description = [TMP] - The radius to control the spacing between the center and the revolve points. Higher = more wide, Lower = less wide.
-legend.RevolveTool.Page4.Title = [TMP] Settings (2/2)
+legend.RevolveTool.Page3.Title = Settings
+legend.RevolveTool.Page3.Sampling.Title = Fill Strategy:
+legend.RevolveTool.Page3.Sampling.Description = - The strategy to fill holes in the revolve. Revolving can sometimes leave holes, this will attempt to fill those holes.
+legend.RevolveTool.Page3.FullyRevolve.Title = Fully Revolve:
+legend.RevolveTool.Page3.FullyRevolve.Description = - Will revolve the selection entirely in a circle. This will ignore the Place Count and entirely revolve the selection.
+legend.RevolveTool.Page3.PlaceCount.Title = Paste Count:
+legend.RevolveTool.Page3.PlaceCount.Description = - Controls how many times to paste the selection in the revolve. For example, if this set to 5 then the selection will paste 5 times.
+legend.RevolveTool.Page3.CenterAround.Title = Center Around:
+legend.RevolveTool.Page3.CenterAround.Description = - Controls the target to revolve around. Brush Target = revolve around where the brush is aimed, Player (Self) = revolves around where you are.
+legend.RevolveTool.Page3.UseCustomDistance.Title = Use Custom Radius:
+legend.RevolveTool.Page3.UseCustomDistance.Description = - Pastes and revolves the selection where aimed, and uses Custom Radius to control the spacing from the center.
+legend.RevolveTool.Page3.PlaceDistance.Title = Custom Radius:
+legend.RevolveTool.Page3.PlaceDistance.Description = - The radius to control the spacing between the center and the revolve points. Higher = more wide, Lower = less wide.
+legend.RevolveTool.Page4.Title = Settings (2/2)
 legend.LineBrush.Page1.Title = Line Brush
-legend.LineBrush.Page1.Description = Allows you to build straight lines of blocks
+legend.LineBrush.Page1.Description = Allows you to build straight lines of blocks.
 legend.LineBrush.Page1.StartOrAddPoint = Start or add point to the line
 legend.LineBrush.Page1.CancelLine = Cancel Line
 legend.LineBrush.Page1.SnapToAngles = Hold to enable snapping to different 45° angles
@@ -593,8 +593,8 @@ legend.PasteTool.Page1.PastePrefab = Paste prefab; hold to brush prefab
 legend.PasteTool.Page1.StickPrefab = Attach the prefab to your target or detach if already attached
 legend.PasteTool.Page1.RotatePrefabY = Rotate around Y
 legend.PasteTool.Page1.RotatePrefabLookAxis = Rotate around look axis
-legend.PasteTool.Page1.FlipPrefab = [TMP] Flip prefab along facing axis
-legend.PasteTool.Page1.CyclePreviewMode = [TMP] Cycle preview mode (Blocks / Outline / Target)
+legend.PasteTool.Page1.FlipPrefab = Flip prefab along facing axis
+legend.PasteTool.Page1.CyclePreviewMode = Cycle preview mode (Blocks / Outline / Target)
 legend.PasteTool.Page1.CycleOrigin = Cycle origin (Bottom/Center/Top)
 legend.PasteTool.Page2.Title = Modifier Keys
 legend.PasteTool.Page2.ShiftPrefabLeftRight = Shift prefab left or right
@@ -621,18 +621,18 @@ legend.SculptBrush.Page1.SelectTargetMaterial = Select targeted material
 legend.SculptBrush.Page1.UndoLastBrush = Undo last brush action
 legend.SculptBrush.Page1.RedoLastUndo = Redo last undone action
 legend.SculptBrush.Page1.EditInventoryProperties = Edit materials, size, shape, and other properties from the inventory
-legend.SculptBrush.Page2.Title = [TMP] Sampling
-legend.SculptBrush.Page2.Intro = [TMP] How surrounding blocks are weighted during smoothing
-legend.SculptBrush.Page2.Normal.Name = [TMP] Normal
-legend.SculptBrush.Page2.Normal.Description = [TMP] Faces weighted most, edges less, corners least
-legend.SculptBrush.Page2.Uniform.Name = [TMP] Uniform
-legend.SculptBrush.Page2.Uniform.Description = [TMP] All 26 neighbors weighted equally
-legend.SculptBrush.Page2.Gaussian.Name = [TMP] Gaussian
-legend.SculptBrush.Page2.Gaussian.Description = [TMP] More center weighted than Normal
-legend.SculptBrush.Page2.Neighbor.Name = [TMP] Neighbor
-legend.SculptBrush.Page2.Neighbor.Description = [TMP] Only the 6 directly adjacent faces count
-legend.SculptBrush.Page2.Square.Name = [TMP] Square
-legend.SculptBrush.Page2.Square.Description = [TMP] Like Neighbor but samples a wider cuboid region
+legend.SculptBrush.Page2.Title = Sampling
+legend.SculptBrush.Page2.Intro = How surrounding blocks are weighted during smoothing.
+legend.SculptBrush.Page2.Normal.Name = Normal
+legend.SculptBrush.Page2.Normal.Description = Faces weighted most, edges less, corners least.
+legend.SculptBrush.Page2.Uniform.Name = Uniform
+legend.SculptBrush.Page2.Uniform.Description = All 26 neighbors weighted equally.
+legend.SculptBrush.Page2.Gaussian.Name = Gaussian
+legend.SculptBrush.Page2.Gaussian.Description = More center weighted than Normal.
+legend.SculptBrush.Page2.Neighbor.Name = Neighbor
+legend.SculptBrush.Page2.Neighbor.Description = Only the 6 directly adjacent faces count.
+legend.SculptBrush.Page2.Square.Name = Square
+legend.SculptBrush.Page2.Square.Description = Like Neighbor but samples a wider cuboid region.
 legend.SelectionTool.Page1.Title = Basic Selections
 legend.SelectionTool.Page1.CreatingSelection = Creating a Selection:
 legend.SelectionTool.Page1.HoldAndDrag = 1. Hold and drag to select first axis, then release
@@ -709,7 +709,7 @@ legend.SelectPrefabTool.Page1.UnselectPrefab = Unselect the currently selected p
 legend.SelectPrefabTool.Page1.EditingPrefabs = Editing Prefabs:
 legend.SelectPrefabTool.Page1.OpenSaveUI = Open the save/settings UI
 legend.SelectPrefabTool.Page1.UpdateBoundingBox = Update the selected prefab's bounding box to your current selection
-legend.SelectPrefabTool.Page1.TeleportToPrefab = Open teleport to prefab UI
+legend.SelectPrefabTool.Page1.TeleportToPrefab = Open 'Teleport to Prefab' UI
 legend.SelectPrefabTool.Page1.QuickAccess = Quick Access:
 legend.SelectPrefabTool.Page1.SwitchWorlds = Go back to last world
 legend.SelectPrefabTool.Page1.SetAnchor = Set the anchor point at the position you are looking at
@@ -721,9 +721,9 @@ legend.EntityTool.Page1.Description = Spawn NPCs and models of items, blocks, an
 legend.EntityTool.Page1.SelectingEntities = Selecting Entities:
 legend.EntityTool.Page1.SelectEntity = Select/grab entity
 legend.EntityTool.Page1.FreeMove = Free move entity (hold and drag)
-legend.EntityTool.Page1.CancelMovement = [TMP] Cancel movement / Cycle between the entities you are looking at
+legend.EntityTool.Page1.CancelMovement = Cancel movement / Cycle between the entities you are looking at
 legend.EntityTool.Page1.AdjustDistance = Adjust entity distance
-legend.EntityTool.Page1.PreciseDistance = [TMP] Precise distance adjustment
+legend.EntityTool.Page1.PreciseDistance = Precise distance adjustment
 legend.EntityTool.Page2.Title = Transform Modes
 legend.EntityTool.Page2.TransformModes = Transform Modes:
 legend.EntityTool.Page2.TranslateMode = Enter movement mode
@@ -740,87 +740,87 @@ legend.EntityTool.Page3.MovementOptions = Movement Options:
 legend.EntityTool.Page3.SurfaceLock = Toggle surface lock mode
 legend.EntityTool.Page3.SpawnUI = Spawn UI:
 legend.EntityTool.Page3.OpenSpawnUI = Open Entity Spawn UI
-legend.TriggerVolumeTool.Page1.Title = [TMP] Trigger Volume Tool
-legend.TriggerVolumeTool.Page1.Description = [TMP] Trigger volumes fire effects when entities enter, exit, or interact.
-legend.TriggerVolumeTool.Page1.EditingEffects = [TMP] Edit Effects:
-legend.TriggerVolumeTool.Page1.EditEffects = [TMP] Edit selected volume's effects
-legend.TriggerVolumeTool.Page1.CreatingVolumes = [TMP] Creating Volumes:
-legend.TriggerVolumeTool.Page1.CreateClick = [TMP] Click to place, click again to confirm
-legend.TriggerVolumeTool.Page1.CancelCreation = [TMP] Cancel creation
-legend.TriggerVolumeTool.Page1.MovingAndResizing = [TMP] Moving & Resizing:
-legend.TriggerVolumeTool.Page1.DragFaceResize = [TMP] Drag face to resize
-legend.TriggerVolumeTool.Page1.ShiftDragFaceMove = [TMP] Drag face to move along that axis
-legend.TriggerVolumeTool.Page1.DragGizmo = [TMP] Drag gizmo to move
-legend.TriggerVolumeTool.Page1.DeleteVolume = [TMP] Delete selected volume
-legend.TriggerVolumeTool.Page1.ConfigureTool = [TMP] Configure tool and selected volume
-legend.TriggerVolumeTool.Page2.Title = [TMP] Grouping
-legend.TriggerVolumeTool.Page2.Description = [TMP] Group volumes to move them together as one unit.
-legend.TriggerVolumeTool.Page2.MultiSelect = [TMP] Multi-Select:
-legend.TriggerVolumeTool.Page2.ShiftClickMultiSelect = [TMP] Click a volume's body to toggle multi-select
-legend.TriggerVolumeTool.Page2.ClickSelectGroup = [TMP] Click grouped volume to select entire group
-legend.TriggerVolumeTool.Page2.DoubleClickSelectSingle = [TMP] Double-click grouped volume to select individual
-legend.TriggerVolumeTool.Page2.GroupingVolumes = [TMP] Grouping:
-legend.TriggerVolumeTool.Page2.GroupVolumes = [TMP] Group selected volumes
-legend.TriggerVolumeTool.Page2.UngroupVolumes = [TMP] Ungroup
-legend.TriggerVolumeTool.Page2.GroupBehavior = [TMP] Grouped volumes move together and share a color. Moving any member moves the whole group.
-legend.TriggerVolumeTool.Page2.OtherActions = [TMP] More Actions:
-legend.TriggerVolumeTool.Page2.CycleShape = [TMP] Cycle shape
-legend.TriggerVolumeTool.Page2.DuplicateVolume = [TMP] Duplicate selected volume
-triggerVolume.shapeChanged = [TMP] Shape: {shape}
-triggerVolume.groupFailed = [TMP] Cannot group: not enough ungrouped volumes selected
-triggerVolume.groupSkipped = [TMP] {count} already-grouped {count, plural, one {volume was} other {volumes were}} skipped
-triggerVolume.settings.shape = [TMP] Shape
-triggerVolume.settings.shape.box = [TMP] Box
-triggerVolume.settings.shape.sphere = [TMP] Sphere
-triggerVolume.settings.shape.cylinder = [TMP] Cylinder
-triggerVolume.settings.origin = [TMP] Origin
-triggerVolume.settings.origin.bottom = [TMP] Bottom
-triggerVolume.settings.origin.center = [TMP] Center
-triggerVolume.settings.origin.top = [TMP] Top
-triggerVolume.settings.editVolume = [TMP] Edit Volume
-triggerVolume.settings.deleteVolume = [TMP] Delete Volume
+legend.TriggerVolumeTool.Page1.Title = Trigger Volume Tool
+legend.TriggerVolumeTool.Page1.Description = Trigger volumes fire effects when entities enter, exit, or interact.
+legend.TriggerVolumeTool.Page1.EditingEffects = Edit Effects:
+legend.TriggerVolumeTool.Page1.EditEffects = Edit selected volume's effects
+legend.TriggerVolumeTool.Page1.CreatingVolumes = Creating Volumes:
+legend.TriggerVolumeTool.Page1.CreateClick = Click to place. Click again to confirm
+legend.TriggerVolumeTool.Page1.CancelCreation = Cancel creation
+legend.TriggerVolumeTool.Page1.MovingAndResizing = Moving & Resizing:
+legend.TriggerVolumeTool.Page1.DragFaceResize = Drag face to resize
+legend.TriggerVolumeTool.Page1.ShiftDragFaceMove = Drag face to move along that axis
+legend.TriggerVolumeTool.Page1.DragGizmo = Drag gizmo to move
+legend.TriggerVolumeTool.Page1.DeleteVolume = Delete selected volume
+legend.TriggerVolumeTool.Page1.ConfigureTool = Configure tool and selected volume
+legend.TriggerVolumeTool.Page2.Title = Grouping
+legend.TriggerVolumeTool.Page2.Description = Group volumes to move them together as one unit.
+legend.TriggerVolumeTool.Page2.MultiSelect = Multi-Select:
+legend.TriggerVolumeTool.Page2.ShiftClickMultiSelect = Click a volume's body to toggle multi-select
+legend.TriggerVolumeTool.Page2.ClickSelectGroup = Click grouped volume to select entire group
+legend.TriggerVolumeTool.Page2.DoubleClickSelectSingle = Double-click grouped volume to select individual
+legend.TriggerVolumeTool.Page2.GroupingVolumes = Grouping:
+legend.TriggerVolumeTool.Page2.GroupVolumes = Group selected volumes
+legend.TriggerVolumeTool.Page2.UngroupVolumes = Ungroup
+legend.TriggerVolumeTool.Page2.GroupBehavior = Grouped volumes move together and share a color. Moving any member moves the whole group.
+legend.TriggerVolumeTool.Page2.OtherActions = More Actions:
+legend.TriggerVolumeTool.Page2.CycleShape = Cycle shape
+legend.TriggerVolumeTool.Page2.DuplicateVolume = Duplicate selected volume
+triggerVolume.shapeChanged = Shape: {shape}
+triggerVolume.groupFailed = Cannot group: not enough ungrouped volumes selected
+triggerVolume.groupSkipped = {count} already-grouped {count, plural, one {volume was} other {volumes were}} skipped
+triggerVolume.settings.shape = Shape
+triggerVolume.settings.shape.box = Box
+triggerVolume.settings.shape.sphere = Sphere
+triggerVolume.settings.shape.cylinder = Cylinder
+triggerVolume.settings.origin = Origin
+triggerVolume.settings.origin.bottom = Bottom
+triggerVolume.settings.origin.center = Center
+triggerVolume.settings.origin.top = Top
+triggerVolume.settings.editVolume = Edit Volume
+triggerVolume.settings.deleteVolume = Delete Volume
 triggerVolume.settings.tool.title = [TMP] Tool
-triggerVolume.settings.shape.tooltip = [TMP] The shape of new trigger volumes you place in the world
-triggerVolume.settings.origin.tooltip = [TMP] Where the volume is anchored when placed. Bottom places it on the ground, Center places it at eye level
-triggerVolume.settings.snapToBlocks = [TMP] Snap to Blocks
-triggerVolume.settings.snapToBlocks.tooltip = [TMP] When enabled, moving or resizing a volume snaps to block boundaries.
-selection.settings.showTriggerVolumes = [TMP] Show Trigger Volumes
-selection.settings.showTriggerVolumes.tooltip = [TMP] Show all trigger volumes while this tool is held.
-legend.Extrude.Page1.Title = [TMP] Extrude Tool
-legend.Extrude.Page1.Description = [TMP] Extrude, Shrink, or Fill an area with blocks
-legend.Extrude.Page1.CycleMode = [TMP] Cycle between modes
-legend.Extrude.Page1.ExtrudeShrinkMode = [TMP] Extrude / Shrink Mode:
-legend.Extrude.Page1.FillMode = [TMP] Fill Mode:
-legend.Extrude.Page1.Extrude = [TMP] Extrude blocks - the black blocks.
-legend.Extrude.Page1.Shrink = [TMP] Shrink blocks - the red blocks.
-legend.Extrude.Page1.Fill = [TMP] Fills blocks by replacing air with material
-legend.Extrude.Page2.ExtrudeTip.Title = [TMP] Extruding
-legend.Extrude.Page2.ExtrudeTip.Description = [TMP] Extruding is expanding blocks outward in a direction. Length and Width control how much of the surface is extruded, and changing the depth will control how far it is extruded.\n\
+triggerVolume.settings.shape.tooltip = The shape of new trigger volumes you place in the world
+triggerVolume.settings.origin.tooltip = Where the volume is anchored when placed. Bottom places it on the ground, Center places it at eye level
+triggerVolume.settings.snapToBlocks = Snap to Blocks
+triggerVolume.settings.snapToBlocks.tooltip = When enabled, moving or resizing a volume snaps to block boundaries.
+selection.settings.showTriggerVolumes = Show Trigger Volumes
+selection.settings.showTriggerVolumes.tooltip = Show all trigger volumes while this tool is held.
+legend.Extrude.Page1.Title = Extrude Tool
+legend.Extrude.Page1.Description = Extrude, Shrink, or Fill an area with blocks.
+legend.Extrude.Page1.CycleMode = Cycle between modes
+legend.Extrude.Page1.ExtrudeShrinkMode = Extrude / Shrink Mode:
+legend.Extrude.Page1.FillMode = Fill Mode:
+legend.Extrude.Page1.Extrude = Extrude blocks - the black blocks.
+legend.Extrude.Page1.Shrink = Shrink blocks - the red blocks.
+legend.Extrude.Page1.Fill = Fills blocks by replacing air with material
+legend.Extrude.Page2.ExtrudeTip.Title = Extruding
+legend.Extrude.Page2.ExtrudeTip.Description = Extruding is expanding blocks outward in a direction. Length and Width control how much of the surface is extruded, and changing the depth will control how far it is extruded.\n\
 \n\
 If there are no materials in the block selector, it will extrude the blocks you are aiming at.
-legend.Extrude.Page2.ShrinkTip.Title = [TMP] Shrinking
-legend.Extrude.Page2.ShrinkTip.Description = [TMP] Shrinking is deleting blocks inward in a direction. Length and Width control how much of the surface is shrunk, and changing the depth will control how far it is shrunk.
-legend.Extrude.Page2.FillTip.Title = [TMP] Filling
-legend.Extrude.Page2.FillTip.Description = [TMP] Filling is replacing empty blocks in the tool area with a material. If the area you are filling is larger than the bounds of the fill area, it will stay within the bounds of that area.
-legend.Extrude.Page3.Title = [TMP] Advanced Settings
-legend.Extrude.Page3.FilterTip.Title = [TMP] Filters
-legend.Extrude.Page3.FilterTip.Description = [TMP] Below are the different filters for extruding/shrinking:
-legend.Extrude.Page3.FilterAll.Title = [TMP] All:
-legend.Extrude.Page3.FilterAll.Description = [TMP] - Uses all blocks
-legend.Extrude.Page3.FilterMaterial.Title = [TMP] Same Material:
-legend.Extrude.Page3.FilterMaterial.Description = [TMP] - Uses only blocks that have the same material as the block being looked at
-legend.Extrude.Page3.FilterShape.Title = [TMP] Same Shape:
-legend.Extrude.Page3.FilterShape.Description = [TMP] - Uses only blocks that have the same shape as the block being looked at
-legend.Extrude.Page3.FilterFullBlocks.Title = [TMP] Full Blocks:
-legend.Extrude.Page3.FilterFullBlocks.Description = [TMP] - Uses only blocks that are full solid blocks. This excludes blocks like Leaves and other shrubbery.
-legend.Extrude.Page3.FilterNotFullBlocks.Title = [TMP] Not Full Blocks:
-legend.Extrude.Page3.FilterNotFullBlocks.Description = [TMP] - Uses only blocks that are NOT full solid blocks. This only includes blocks like Leaves and other shrubbery.
-legend.Extrude.Page3.StrategyTip.Title = [TMP] Strategy
-legend.Extrude.Page3.StrategyTip.Description = [TMP] Below are the different strategies for extruding/shrinking:
-legend.Extrude.Page3.StrategyDefault.Title = [TMP] Default:
-legend.Extrude.Page3.StrategyDefault.Description = [TMP] - The area effected will only include blocks touching air.
-legend.Extrude.Page3.StrategyAll.Title = [TMP] All:
-legend.Extrude.Page3.StrategyAll.Description = [TMP] - The area effected will include all blocks, even blocks that cannot be seen on the surface (underground).
+legend.Extrude.Page2.ShrinkTip.Title = Shrinking
+legend.Extrude.Page2.ShrinkTip.Description = Shrinking is deleting blocks inward in a direction. Length and Width control how much of the surface is shrunk, and changing the depth will control how far it is shrunk.
+legend.Extrude.Page2.FillTip.Title = Filling
+legend.Extrude.Page2.FillTip.Description = Filling is replacing empty blocks in the tool area with a material. If the area you are filling is larger than the bounds of the fill area, it will stay within the bounds of that area.
+legend.Extrude.Page3.Title = Advanced Settings
+legend.Extrude.Page3.FilterTip.Title = Filters
+legend.Extrude.Page3.FilterTip.Description = Below are the different filters for extruding/shrinking:
+legend.Extrude.Page3.FilterAll.Title = All:
+legend.Extrude.Page3.FilterAll.Description = - Uses all blocks.
+legend.Extrude.Page3.FilterMaterial.Title = Same Material:
+legend.Extrude.Page3.FilterMaterial.Description = - Uses only blocks that have the same material as the block being looked at.
+legend.Extrude.Page3.FilterShape.Title = Same Shape:
+legend.Extrude.Page3.FilterShape.Description = - Uses only blocks that have the same shape as the block being looked at.
+legend.Extrude.Page3.FilterFullBlocks.Title = Full Blocks:
+legend.Extrude.Page3.FilterFullBlocks.Description = - Uses only blocks that are full solid blocks. This excludes blocks like Leaves and other shrubbery.
+legend.Extrude.Page3.FilterNotFullBlocks.Title = Not Full Blocks:
+legend.Extrude.Page3.FilterNotFullBlocks.Description = - Uses only blocks that are NOT full solid blocks. This only includes blocks like Leaves and other shrubbery.
+legend.Extrude.Page3.StrategyTip.Title = Strategy
+legend.Extrude.Page3.StrategyTip.Description = Below are the different strategies for extruding/shrinking:
+legend.Extrude.Page3.StrategyDefault.Title = Default:
+legend.Extrude.Page3.StrategyDefault.Description = - The area affected will only include blocks touching air.
+legend.Extrude.Page3.StrategyAll.Title = All:
+legend.Extrude.Page3.StrategyAll.Description = - The area affected will include all blocks, even blocks that cannot be seen on the surface (underground).
 panel.selectedEntity = Selected Entity
 panel.entitySettings = Entity Tool Settings
 paste.offset = Offset
@@ -828,11 +828,11 @@ paste.resetOffset = Reset
 paste.rotation = Rotation
 paste.resetRotation = Reset
 paste.loadPrefab = Load Prefab
-paste.previewMode = [TMP] Preview
-paste.previewMode.Blocks = [TMP] Blocks
-paste.previewMode.Outline = [TMP] Outline
-paste.previewMode.Target = [TMP] Target
-paste.bypassNonSolidBlocks = [TMP] Place on Solid Blocks
+paste.previewMode = Preview
+paste.previewMode.Blocks = Blocks
+paste.previewMode.Outline = Outline
+paste.previewMode.Target = Target
+paste.bypassNonSolidBlocks = Place on Solid Blocks
 panel.noSelection = No entity selected
 panel.entityType = Type
 panel.entityModel = Model
@@ -915,17 +915,175 @@ brush.log.addedFavoriteMaterial = Added to favorite materials: {block}
 log.brushMaterialChanged = Brush Material changed to: {value}
 log.brushKeyChanged = Brush Key changed to: {value}
 log.argChanged = {key} changed to: {value}
-log.invalidBlockType = '{block}' is not a valid block type
-log.gmaskSave = [TMP] Saved global mask preset '{name}'.
-log.gmaskPresetNotFound = [TMP] Mask preset '{name}' not found.
-extrudeTool.mode = [TMP] Mode
-extrudeTool.filter = [TMP] Filter
-extrudeTool.strategy = [TMP] Strategy
-pasteTool.origin = [TMP] Origin: {origin}
-pasteTool.origin.anchor = [TMP] Anchor
-pasteTool.origin.bottom = [TMP] Bottom
-pasteTool.origin.center = [TMP] Center
-pasteTool.origin.top = [TMP] Top
-pasteTool.positionLock = [TMP] Paste tool position {state}.
-pasteTool.positionLock.locked = [TMP] locked
-pasteTool.positionLock.unlocked = [TMP] unlocked
+log.invalidBlockType = "{block}" is not a valid block type
+log.gmaskSave = Saved global mask preset "{name}".
+log.gmaskPresetNotFound = Mask preset "{name}" not found.
+extrudeTool.mode = Mode
+extrudeTool.filter = Filter
+extrudeTool.strategy = Strategy
+pasteTool.origin = Origin: {origin}
+pasteTool.origin.anchor = Anchor
+pasteTool.origin.bottom = Bottom
+pasteTool.origin.center = Center
+pasteTool.origin.top = Top
+pasteTool.positionLock = Paste tool position {state}.
+pasteTool.positionLock.locked = locked
+pasteTool.positionLock.unlocked = unlocked
+panel.palettes = Palettes
+legend.TriggerVolumeTool.Page2.RenameVolume = Rename selected volume
+legend.TriggerVolumeTool.Page2.RotateVolume = Toggle rotate mode (box volumes)
+triggerVolume.rename.title = Rename Volume
+triggerVolume.rename.placeholder = New volume name
+triggerVolume.rename.save = Rename
+triggerVolume.rename.invalidId = Name must be 1-64 characters: letters, numbers, and underscores only.
+triggerVolume.rotateBoxOnly = Only box volumes can be rotated.
+triggerVolume.rename.collision = A volume with that name already exists.
+legend.PointTool.Page1.Title = Point Tool
+legend.PointTool.Page1.Description = Points are 1x1x1 markers with a position, rotation, and tags.
+legend.PointTool.Page1.Placing = Placing:
+legend.PointTool.Page1.PlaceClick = Click a block face to place a point
+legend.PointTool.Page1.Deselect = Deselect
+legend.PointTool.Page1.MovingAndRotating = Moving & Rotating:
+legend.PointTool.Page1.DragGizmo = Drag gizmo to move
+legend.PointTool.Page1.ToggleRotate = Toggle rotation gizmo
+legend.PointTool.Page1.FreeMove = Free-move selected point to cursor
+legend.PointTool.Page1.ToggleShape = Toggle shape (block / sphere)
+legend.PointTool.Page1.OpenInspector = Edit name and tags
+legend.PointTool.Page1.Duplicate = Duplicate selected point
+legend.PointTool.Page1.Delete = Delete selected point
+legend.PointTool.Page1.MultiSelect = Multi-Select:
+legend.PointTool.Page1.ShiftClickMultiSelect = Click a point to toggle multi-select
+legend.PointTool.Page1.ShiftClickSpawnAtFeet = Click empty space to spawn a sphere at your feet
+point.settings.defaultShape = Default Shape
+point.settings.defaultShape.tooltip = The shape used for new points you place in the world.
+point.settings.shape.block = Block
+point.settings.shape.sphere = Sphere
+point.settings.surfaceLock = Lock to Surface
+point.settings.surfaceLock.tooltip = When enabled, free-move places the point on the block surface under the cursor.
+point.settings.gridSnap = Grid Snap
+point.settings.gridSnap.tooltip = When enabled, point movement snaps to the grid size.
+point.settings.spawnPitch = Spawn With Look Pitch
+point.settings.spawnPitch.tooltip = When enabled, spawning a point at your feet (Shift + Click) also applies your up/down look angle.
+point.settings.gridSize = Grid Size
+point.settings.editPoint = Edit Point
+point.settings.deletePoint = Delete Point
+selection.setTo.sized = Selection set to #{index} - [{x} x {y} x {z}]
+selection.setTo.empty = Selection set to #{index} - Empty
+legend.Color.Page1.Title = Color Tool
+legend.Color.Page1.Description = Color or Re-color blocks in an area using various coloring styles.
+legend.Color.Page1.CycleMode = Cycle between modes
+legend.Color.Page1.NextShape = Next shape
+legend.Color.Page1.PrevShape = Previous shape
+legend.Color.Page1.ColoringMode.Title = Coloring Mode:
+legend.Color.Page1.ColoringMode.Description = Replaces blocks with ones you choose, or finds the closest matching color blocks to use.
+legend.Color.Page1.GradientMode.Title = Gradient Mode:
+legend.Color.Page1.GradientMode.Description = Paint a gradient onto a surface using different shapes and blending.
+legend.Color.Page1.ShadingMode.Title = Shading Mode:
+legend.Color.Page1.ShadingMode.Description = Paint a surface with realistic coloring based on light and angles of surrounding blocks.
+legend.Color.Page2.GradientModeTip.Title = Gradient Mode
+legend.Color.Page2.GradientModeTip.Description = Allows you to paint many colors at a time to create a gradient.
+legend.Color.Page2.GradientModeTip.PaintArea = Click and drag to create the reference area to control the gradient.
+legend.Color.Page2.GradientModeTip.Paint = Paint the colors onto the area.
+legend.Color.Page2.GradientModeTip.ResetGuidingLine = Reset the Gradient Line.
+legend.Color.Page2.GradientModeTip.HowToUse.Title = Controlling the painting area:
+legend.Color.Page2.GradientModeTip.HowToUse.Description = 1. Click and drag to create the area to paint.\n2. Click and drag on the red and green boxes to extend the area to paint.\n3. Click and drag on the white boxes to control how much area a color will cover.
+legend.Color.Page2.GradientModeTip.Blend.Title = Blend:
+legend.Color.Page2.GradientModeTip.Blend.Description = The blend controls how much the colors will gradually blend into each other.\n\nLow blend = Colors won't be mixed together.\nHigh blend = Colors will be mixed together.
+legend.Color.Page3.ShadingModeTip.Title = Shading Mode
+legend.Color.Page3.ShadingModeTip.Description = Allows you to paint an area based on light/darkness and surrounding blocks.
+legend.Color.Page3.ShadingModeTip.Manual.Title = Manual
+legend.Color.Page3.ShadingModeTip.Manual.Description = Left-click to lighten the area, Right-click to darken the area.
+legend.Color.Page3.ShadingModeTip.Auto.Title = Auto
+legend.Color.Page3.ShadingModeTip.Auto.Description = Automatically shade the area using nearby blocks with both light and dark.
+legend.Color.Page3.ShadingModeTip.Custom.Title = Custom
+legend.Color.Page3.ShadingModeTip.Custom.Description = Customize what blocks to use for the shading, blocks added first are the lightest, and blocks added last are darkest.
+legend.Color.Page3.ShadingModeTip.Settings.Title = Settings
+legend.Color.Page3.ShadingModeTip.Settings.Description = Shading depends heavily on the settings you choose to achieve what you want. See next page for more information on settings.
+legend.Color.Page4.ShadingModeTip.LightSource.Title = Light Source
+legend.Color.Page4.ShadingModeTip.LightSource.Description = Controls the light source to use for shading.\n\nPlayer = Color is brightest the closer you are to the clicked area.\nBrush Center = Color is brightest the closer the block is to the brush center.\nSun = Color is brightest by contact with the sky.\nAngle = Color is brightest based on it's slope. Flatter = brighter, Steeper = darker.
+legend.Color.Page4.ShadingModeTip.Intensity.Title = Intensity
+legend.Color.Page4.ShadingModeTip.Intensity.Description = Controls the intensity of the shading.\n\nLower = less detail.\nHigher = more detail.
+legend.Color.Page4.ShadingModeTip.EdgeBlend.Title = Edge Blend
+legend.Color.Page4.ShadingModeTip.EdgeBlend.Description = Controls the amount of blending done around the edges of the brush.\n\nLower = less blending at the edge.\nHigher = more blending at the edge.
+legend.Color.Page5.ColoringModeTip.Title = Coloring Mode
+legend.Color.Page5.ColoringModeTip.Description = Allows you to quickly replace all the blocks that are the same as the one you are looking at.
+legend.Color.Page5.ColoringModeTip.Normal.Title = Normal
+legend.Color.Page5.ColoringModeTip.Normal.Description = Replace a single type of block with another type of block or blocks.
+legend.Color.Page5.ColoringModeTip.Auto.Title = Smart Match
+legend.Color.Page5.ColoringModeTip.Auto.Description = Replace a block based on it's type, and if no type is found, then use a block that is similar in color that does have the same type.
+legend.Palette.Page1.Title = Palette Tool
+legend.Palette.Page1.Description = Create, delete, and edit block palettes.
+legend.Palette.Page1.OpenPaletteEditor = Opens the Palette Editor
+legend.Palette.Page1.PaletteEditor.Title = Palette Editor
+legend.Palette.Page1.PaletteEditor.Description = The Palette Editor has several tools to allow you to create your own block palettes to be used while building.\n\
+\n\
+A palette is created by dragging and dropping blocks into the Palette's section towards the bottom. You can save your palette to be re-used as you please, and also delete palettes you no longer use.\n\
+\n\
+More info on the Palette Editor is on the next page.
+legend.Palette.Page1.PaletteSettings = View your saved Palettes.
+legend.Palette.Page1.Usage.Title = Using a saved Palette
+legend.Palette.Page1.Usage.Description = Palettes that are saved can be re-used. You can load them into your hotbar, edit, save, and delete them.
+legend.Palette.Page2.Title = Palette Editor
+legend.Palette.Page2.Description = Allows you to edit palettes using color based tools.
+legend.Palette.Page2.BlockPicker.Title = Color/Block Picker
+legend.Palette.Page2.BlockPicker.Description = The Color Picker at the top suggests blocks that are similar in color to what you choose.\n\
+\n\
+You can also give it a block to have it try and find other blocks that have a similar color.
+legend.Palette.Page2.Gradient.Title = Gradient
+legend.Palette.Page2.Gradient.Description = The Gradient section in the middle gives you the ability to input blocks to find similar blocks between them to create smooth color transitions.\n\
+\n\
+Typically, putting a block on the far left and right in the slots give the fullest gradient between the two.
+legend.BlockSpawner.Page1.Title = Block Spawner
+legend.BlockSpawner.Page1.Description = Place in a prefab to configure a block to spawn at that location with loot drops.
+legend.BlockSpawner.Page1.Interact = Opens the menu to configure the block spawner.
+legend.BlockSpawner.Page1.Configuring.Title = Configuring
+legend.BlockSpawner.Page1.Configuring.Description = The Block Spawner Asset dropdown allows you to select which BlockSpawnerTable asset to use for the block.
+legend.BlockSpawner.Page1.Editing.Title = Editing / Viewing Assets
+legend.BlockSpawner.Page1.Editing.Description = The Edit / Create Block Spawner Asset button takes you to a new menu that allows you to work with BlockSpawnerTable assets.\n\nYou can select an existing asset from the dropdown, or start adding entries to create a new one. Each asset contains entries that have the following:\n\nBlock Type = Container block to spawn.\n\nWeight = Weight for an entry between 0 - 1. The closer to 1, the more likely it will be used.\n\nDroplist = The drop asset to use to allow items to spawn in the block.
+legend.BlockSpawner.Page1.AssetEditor.Title = Asset Editor
+legend.BlockSpawner.Page1.AssetEditor.Description = The Asset Editor, which is accessed in the Creative Tools, can be used to further configure BlockSpawnerTable or Drop assets.
+paste.previewMode.tooltip = Sets how the clipboard shows in the world before you paste.
+paste.previewMode.Blocks.tooltip = Shows the clipboard as solid blocks with textures.
+paste.previewMode.Outline.tooltip = Shows only the outline of the clipboard.
+paste.previewMode.Target.tooltip = Hides the clipboard. Shows only a marker on the target block.
+paste.bypassNonSolidBlocks.tooltip = When enabled, the target ignores blocks without collision, such as grass and plants. The paste goes on the solid block below them.
+panel.entityModelSearchPlaceholder = Search...
+panel.collisionType.rotated = Hard - Rotated
+brush.log.setBrushMode = Set mode to: {mode}
+paletteEditor.title = Palette Editor
+paletteEditor.hex = Hex
+paletteEditor.suggestedBlocks = Suggested Blocks
+paletteEditor.loading = Building color index...
+paletteEditor.filter.all = All
+paletteEditor.filter.fullBlocks = Full Blocks
+paletteEditor.filter.decorations = Decorations
+paletteEditor.gradientHelper = Gradient
+paletteEditor.gradientHelper.description = How to use:\n\
+\n\
+Drag and drop blocks into the slots and the empty ones between them will be filled in with blocks/colors to create a smooth transition between them.
+paletteEditor.savePalette = Save Palette
+paletteEditor.deletePalette = Delete Palette
+paletteEditor.palettes = Palettes
+paletteEditor.paletteBlank = None
+paletteEditor.filterDropdown.description = Filters the blocks suggested by:\n\
+\n\
+Full Blocks = Only full blocks\n\
+Decorations = Only decorations and variants\n\
+All = All blocks
+paletteTool.openEditor = Open Palette Editor
+paletteTool.delete = Delete Palette
+paletteTool.copy = Copy Palette to Hotbar
+paletteTool.searchPlaceholder = Search palettes...
+paletteEditor.tab.editor = Edit Palettes
+paletteEditor.tab.list = View Palettes
+colorTool.mode = Mode
+colorTool.brushShape = Brush Shape
+colorTool.gradientShape = Gradient Shape
+colorTool.shadingSubMode = Shading Mode
+colorTool.shadingLightSource = Light Source
+colorTool.addMaterial = Add Material
+colorTool.coloringSubMode = Color Mode
+colorTool.palettePreset = Palette Preset
+colorTool.palettePreset.placeholder = None
+pasteTool.pasting = Pasting...
+selectionTool.tooLargeForTransform = Selection too large to transform. Use the Paste tool.

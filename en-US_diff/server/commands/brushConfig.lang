@@ -12,4 +12,4 @@ list.setting = \t{name} => {value}
 loaded = Loaded scripted brush: {name}
 load.error.notFound = Scripted brush not found: {name}
 load.error.noHotbar = No hotbar component found on player entity
-load.error.loadFailed = Failed to load scripted brush '{name}': {error}
+load.error.loadFailed = Failed to load scripted brush "{name}": {error}

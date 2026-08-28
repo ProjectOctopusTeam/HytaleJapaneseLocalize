@@ -5,3 +5,4 @@ markers.create.creationDisabled = マーカーの作成が無効になってい�
 markers.edit.tooFar = 遠すぎるマーカーは編集できません！
 markers.edit.notOwner = 他のプレイヤーのマーカーは編集できません！
 markers.edit.notFound = 編集しようとしているマップマーカーが見つかりません！
+markers.debug.name = デバッグマーカー

@@ -1,0 +1,10 @@
+desc = Game flag commands
+list.desc = List all game flags
+list.empty = No game flags set
+get.desc = Show a game flag
+key.desc = The flag name
+set.desc = Set a game flag
+set.value.desc = The value to set
+remove.desc = Remove a game flag
+remove.success = Removed game flag "{key}"
+entry = {key} = {value}

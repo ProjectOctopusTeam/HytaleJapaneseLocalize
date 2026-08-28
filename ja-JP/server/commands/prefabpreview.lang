@@ -1,0 +1,14 @@
+desc = プレハブプレビューのホログラムをスポーン・操作する
+none = 有効なプレハブプレビューがありません。先にスポーンしてください。
+spawn.desc = 現在の位置にプレハブプレビューのホログラムをスポーンする
+spawn.prefab.desc = プレビューするプレハブ
+spawn.layers.desc = 下から何層まで表示するか
+spawn.layers.default = すべての層
+spawned = {prefab} のプレハブプレビューをスポーンしました
+layers.desc = プレビューで下から何層まで表示するかを設定する
+layers.count.desc = 表示する下層の数
+layersSet = プレハブプレビューは {count} 層を表示するようになりました
+remove.desc = 有効なプレハブプレビュー、または一定半径内のすべてのプレビューを削除する
+remove.radius.desc = 自分から指定したブロック数以内のプレハブプレビューをすべて削除する
+removed = プレハブプレビューを削除しました
+removedRadius = {count, plural, one {1件のプレハブプレビュー} other {{count, number}件のプレハブプレビュー}}を削除しました

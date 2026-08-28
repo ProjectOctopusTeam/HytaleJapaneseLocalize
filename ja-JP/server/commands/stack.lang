@@ -2,4 +2,4 @@ desc = 選択範囲をスタックする
 count.desc = スタックする回数
 direction.desc = スタックする方向
 spacing.desc = スタックされたコピー間の間隔
-empty.desc = 空のブロックのみスタックする
+empty.desc = スタック対象に空ブロックを含める

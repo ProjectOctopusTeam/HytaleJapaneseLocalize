@@ -4,4 +4,4 @@ set.delay.desc = シミュレートする遅延（ミリ秒）
 set.success = レイテンシーシミュレーションを{millis}ミリ秒に設定しました
 reset.desc = プレイヤーの接続のレイテンシーシミュレーションをリセット（削除）する
 reset.success = レイテンシーシミュレーションをリセットしました
-unsupported = [TMP]Latency simulation is not supported for this connection type
+unsupported = この接続タイプではレイテンシシミュレーションはサポートされていません

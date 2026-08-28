@@ -3,7 +3,7 @@ run.desc = インタラクションを実行する
 run.interactionType.desc = 実行するインタラクションのタイプ
 run.started = インタラクションを開始しました：{type}
 run.rootNotFound = インタラクションタイプ{type}のルートインタラクションが見つかりません
-run.interactionAssetNotFound = インタラクションタイプ{type}のルートインタラクションアセット'{root}'が見つかりません
+run.interactionAssetNotFound = インタラクションタイプ {type} のルートインタラクションアセット "{root}" が見つかりません
 runSpecific.desc = 指定したIDのインタラクションを実行する
 runSpecific.rootinteraction.desc = 実行するルートインタラクションアセット
 runSpecific.started = インタラクションを開始しました：タイプ={type}、ルート={root}

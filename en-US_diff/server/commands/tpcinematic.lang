@@ -1,0 +1,8 @@
+desc = Teleport to specific coordinates behind a cinematic camera
+x.desc = The X coordinate
+y.desc = The Y coordinate
+z.desc = The Z coordinate
+height.desc = How high the camera rises above the path, in blocks (fly-over only)
+style.desc = Camera path: flyover, arc, orbit, or dolly
+invalidCoordinates = Coordinates must be finite numbers.
+success = Cinematic teleport to ({x, number}, {y, number}, {z, number}).
