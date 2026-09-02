@@ -1,27 +1,27 @@
 desc = ボイスチャットの設定
 status.desc = ボイスチャットの状態を表示する
-status.enabledInfo = ボイスチャット: 有効、最大距離={maxDistance}、フル音量距離={fullVolumeDistance}、ミュート中のプレイヤー数: {mutedCount}
-status.disabledInfo = ボイスチャット: 無効、最大距離={maxDistance}、フル音量距離={fullVolumeDistance}、ミュート中のプレイヤー数: {mutedCount}
+status.enabledInfo = ボイスチャット: 有効、maxdistance={maxDistance}、fullvolumedistance={fullVolumeDistance}、ミュート中のプレイヤー数: {mutedCount}
+status.disabledInfo = ボイスチャット: 無効、maxdistance={maxDistance}、fullvolumedistance={fullVolumeDistance}、ミュート中のプレイヤー数: {mutedCount}
 enabled.desc = ボイスチャットを有効または無効にする
 enabled.arg.desc = ボイスチャットを有効にするかどうか
-status.enabled = ボイスチャットが有効です！
-status.disabled = ボイスチャットが無効です！
-maxdistance.desc = ボイスの最大聴こえる距離を設定する
-maxdistance.arg.desc = 最大距離（ブロック単位）
-maxdistance.invalid = 無効な距離: 正の値である必要があります
+status.enabled = ボイスチャットは有効です！
+status.disabled = ボイスチャットは無効です！
+maxdistance.desc = ボイスが聞こえる最大距離を設定する
+maxdistance.arg.desc = 最大距離(ブロック単位)
+maxdistance.invalid = 無効な距離です: 正の値である必要があります
 maxdistance.set = ボイスの最大距離を {distance} に設定しました
-fullvolumedistance.desc = ボイスのフル音量距離を設定する
-fullvolumedistance.arg.desc = フル音量距離（ブロック単位）
-fullvolumedistance.invalid = 無効な距離: 正の値かつ最大距離未満である必要があります
-fullvolumedistance.set = ボイスのフル音量距離を {distance} に設定しました
+fullvolumedistance.desc = ボイスが最大音量で聞こえる距離を設定する
+fullvolumedistance.arg.desc = 最大音量となる距離(ブロック単位)
+fullvolumedistance.invalid = 無効な距離です: 正の値かつ最大距離未満である必要があります
+fullvolumedistance.set = ボイスの最大音量距離を {distance} に設定しました
 mute.desc = プレイヤーのボイスをサーバー側でミュートする
 mute.arg.desc = ミュートするプレイヤー
-mute.already = {player} はすでにボイスミュートされています
+mute.already = {player} はすでにボイスをミュートされています
 mute.success = {player} のボイスチャットをミュートしました
-unmute.desc = プレイヤーのボイスのサーバーミュートを解除する
+unmute.desc = プレイヤーのボイスのサーバー側ミュートを解除する
 unmute.arg.desc = ミュートを解除するプレイヤー
-unmute.notmuted = {player} はボイスミュートされていません
+unmute.notmuted = {player} はボイスをミュートされていません
 unmute.success = {player} のボイスチャットのミュートを解除しました
-muted.desc = サーバーミュート中のプレイヤーを一覧表示する
-muted.empty = ボイスミュートされているプレイヤーはいません
-muted.list = ボイスミュート中の{count, plural, one {プレイヤー} other {プレイヤー}}（{count}人）: {players}
+muted.desc = サーバー側でミュート中のプレイヤーを一覧表示する
+muted.empty = ボイスをミュートされているプレイヤーはいません
+muted.list = ボイスをミュート中の{count, plural, one {プレイヤー} other {プレイヤー}}({count}): {players}

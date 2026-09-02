@@ -1,7 +1,7 @@
 desc = アイテムをスポーンする
 item.desc = スポーンするアイテム
-quantity.desc = スポーンするアイテムの数量（デフォルト: 1）
+quantity.desc = スポーンするアイテムの個数(デフォルト: 1)
 count.desc = スポーンするアイテムエンティティの数
-force.desc = アイテムを投げる際の力の倍率（デフォルト: 1.0）
-spawned = {quantity}個の {item} をスポーンしました
-spawnedMultiple = {quantity}個の {item} を持つアイテムエンティティを {count} 個スポーンしました（合計: {total}個の {item}）
+force.desc = アイテムを投げる力の倍率(デフォルト: 1.0)
+spawned = {item} を{quantity}個スポーンしました
+spawnedMultiple = {item} を{quantity}個ずつ持つアイテムエンティティを{count}個スポーンしました(合計: {item} {total}個)

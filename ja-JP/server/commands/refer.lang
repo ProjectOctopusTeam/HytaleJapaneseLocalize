@@ -1,7 +1,7 @@
-desc = テスト用に別のサーバーへプレイヤーを転送する
+desc = テスト用にプレイヤーを別のサーバーへ転送する。
 host.desc = 転送先サーバーのホスト名またはIP
 port.desc = 転送先サーバーのポート
 failed = プレイヤーの転送に失敗しました: {error}
-invalidPort = ポート番号が無効です。1〜65535の範囲で指定してください。
+invalidPort = ポート番号が無効です。1から65535の間で指定してください。
 success.other = {username} を {host}:{port, number} に転送しました
-success.self = {host}:{port, number} に接続中...
+success.self = {host}:{port, number} に接続しています...

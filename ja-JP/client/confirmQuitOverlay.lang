@@ -1,4 +1,4 @@
 title = ゲームを終了
 text = 本当に終了しますか？
 buttons.returnToGame = ゲームに戻る
-buttons.quitToDesktop = デスクトップに終了
+buttons.quitToDesktop = デスクトップに戻る

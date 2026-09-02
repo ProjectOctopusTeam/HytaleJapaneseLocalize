@@ -1,10 +1,10 @@
-desc = プレイヤーカメラを操作するコマンド
-reset.desc = カメラをデフォルトビューにリセットする
-reset.success = カメラをデフォルトビューにリセットしました
-topdown.desc = カメラを真上から見下ろすビューに設定する
-topdown.success = カメラを真上から見下ろすビューに設定しました
-sidescroller.desc = カメラを横スクロールビューに設定する
-sidescroller.success = カメラを横スクロールビューに設定しました
+desc = プレイヤーのカメラを操作するコマンド
+reset.desc = カメラをデフォルト視点に戻す
+reset.success = カメラをデフォルト視点に戻しました
+topdown.desc = カメラを見下ろし視点に設定する
+topdown.success = カメラを見下ろし視点に設定しました
+sidescroller.desc = カメラを横スクロール視点に設定する
+sidescroller.success = カメラを横スクロール視点に設定しました
 demo.desc = カメラデモモードのコマンド
 demo.activate.desc = カメラデモモードを有効にする
 demo.deactivate.desc = カメラデモモードを無効にする

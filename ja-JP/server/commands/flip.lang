@@ -1,3 +1,3 @@
 desc = クリップボード内のブロックを反転する
-direction.desc = 反転する方向（x、y、またはz軸）
-direction.invalid = 無効な方向または軸です: "{input}"。次のいずれかを使用してください: forward, backward, left, right, up, down, X, Y, Z
+direction.desc = 反転する方向(x、y、z軸)
+direction.invalid = 無効な方向または軸です: "{input}"。使用できる値: forward、backward、left、right、up、down、X、Y、Z

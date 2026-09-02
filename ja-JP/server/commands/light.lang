@@ -1,5 +1,5 @@
-get = ワールド"{worldName}"の({x}, {y}, {z})のライト：赤={red}、緑={green}、青={blue}、空={sky}
-getHex = ワールド"{worldName}"の({x}, {y}, {z})のライト：#{hex}
-get.desc = 指定した位置のライト値を取得する
-get.position.desc = 位置（x y z）
-get.hex.desc = ライト値を16進数形式で表示する
+get = ワールド "{worldName}" の {x}, {y}, {z} の光は 赤: {red}、緑: {green}、青: {blue}、空: {sky} です
+getHex = ワールド "{worldName}" の {x}, {y}, {z} の光は #{hex} です
+get.desc = 指定した位置の光の値を取得する
+get.position.desc = 位置(x y z)
+get.hex.desc = 光の値を16進数で表示する

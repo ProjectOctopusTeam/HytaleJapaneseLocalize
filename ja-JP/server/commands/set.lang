@@ -1,5 +1,5 @@
-desc = 選択範囲内のすべてのブロックを指定したブロックタイプに設定する
+desc = 選択範囲内のすべてのブロックを指定したブロックタイプにする
 args.blocktype.desc = 選択範囲に設定するブロックタイプ
-unknownFluid = 不明な流体（または流体が指定されていません）
-maxFluidLevelClamped = 最大流体レベルを {level, number} に制限しました
-success = {x, number}, {y, number}, {z, number} をレベル {level, number} の {id} に設定しました
+unknownFluid = 不明な液体です(または液体が指定されていません)
+maxFluidLevelClamped = 液体の最大レベルを {level, number} に制限します
+success = {x, number}, {y, number}, {z, number} を {id}(レベル {level, number})に設定しました

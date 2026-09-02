@@ -2,48 +2,48 @@ name = ビルダーツール
 selectTool = ツールを選択
 useTool = ツールを使用
 canNotUse = このビルダーツールはクリエイティブモード以外では使用できません！
-selectATool = インベントリまたはホットバーのビルダーツールを左クリックして設定します。
-noToolSettings = このツールは設定が不要です。
-favorites.nameTitle = ツールのお気に入り名
+selectATool = インベントリまたはホットバーのビルダーツールを左クリックすると設定できます。
+noToolSettings = このツールに設定項目はありません。
+favorites.nameTitle = お気に入りツールの名前
 favorites.nameDescription = このお気に入りツールの名前を入力してください
-settings.Fullbright.description = フルブライトモードを有効にし、すべてのブロックを光源に関わらず完全に照らします
-settings.Fog.description = フォグレンダリングの切り替え
-settings.timeOfDay.description = 時刻を制御します。\n\
+settings.Fullbright.description = フルブライトモードを有効にし、光レベルにかかわらずすべてのブロックを完全に明るく表示します
+settings.Fog.description = 霧の描画を切り替えます
+settings.timeOfDay.description = 時刻を設定します。\n\
 \n\
-注意: これはワールドの時刻を制御するものではなく、自分自身の時刻のみを制御します。リセットするとワールドの時刻に戻ります。
-settings.weather.description = 天気を制御します。\n\
+注意: これはワールドの時刻ではなく、自分だけの時刻を変更します。リセットするとワールドの時刻に戻ります。
+settings.weather.description = 天候を設定します。\n\
 \n\
-注意: これはワールドの天気を制御するものではなく、自分自身の天気のみを制御します。
-settings.pauseTime.description = 時刻を一時停止します。\n\
+注意: これはワールドの天候ではなく、自分だけの天候を変更します。
+settings.pauseTime.description = 時刻の進行を停止します。\n\
 \n\
-注意: これはワールドの時刻を一時停止するものではなく、自分自身の時刻のみを一時停止します。
-settings.ToolReachDistance.name = リーチ距離
-settings.ToolReachDistance.description = ツールに使用する最大（またはロック）リーチ距離を指定します
-settings.ToolDelayMin.name = ツール最小遅延
-settings.ToolDelayMin.description = ツール使用間の最小遅延（ms）を指定します
-settings.UndoGroupSize.description = 1つの元に戻すエントリにまとめるブラシ実行回数。低い値ほど細かく元に戻せ、高い値ほど長いストロークの元に戻す回数が減ります。
-settings.GizmoScale.description = 画面上の回転・移動ギズモのサイズを制御します
+注意: これはワールドの時刻ではなく、自分だけの時刻を停止します。
+settings.ToolReachDistance.name = 届く距離
+settings.ToolReachDistance.description = ツールで届く最大(または固定の)距離を指定します
+settings.ToolDelayMin.name = ツールの最小待ち時間
+settings.ToolDelayMin.description = ツールの各使用の間に許可される最小の待ち時間(ミリ秒)を指定します
+settings.UndoGroupSize.description = 1回の「元に戻す」にまとめるブラシ実行の回数。小さくすると細かく元に戻せ、大きくすると長いストロークでの手数が減ります。
+settings.GizmoScale.description = 回転・移動ギズモの画面上の大きさを設定します
 settings.BrushOpacity.name = ブラシの不透明度
-settings.BrushOpacity.description = レンダリングされたブラシツールの不透明度を制御します
+settings.BrushOpacity.description = 描画されるブラシツールの不透明度を設定します
 settings.SelectionOpacity.name = 選択ボックスの不透明度
-settings.SelectionOpacity.description = 選択ボックスの不透明度を制御します。
+settings.SelectionOpacity.description = 選択ボックスの不透明度を設定します。
 settings.SelectionPanelOpacity.name = 選択パネルの不透明度
-settings.SelectionPanelOpacity.description = 選択ボックスのドラッグ可能なパネルの不透明度を制御します。
-settings.FlightInertia.name = 飛行ドリフト
-settings.FlightInertia.description = クリエイティブ飛行に慣性と徐々に減速する効果を追加します（0 = 即時停止、100 = 最大ドリフト）
+settings.SelectionPanelOpacity.description = 選択ボックス上のドラッグ可能なパネルの不透明度を設定します。
+settings.FlightInertia.name = 飛行の慣性
+settings.FlightInertia.description = クリエイティブ飛行に慣性と緩やかな減速を加えます(0で即停止、100で最大の慣性)
 settings.FlightMode.name = 飛行モード
-settings.FlightMode.description = その場でホバーするか、カメラ方向に飛行するかを選択します
+settings.FlightMode.description = その場でホバリングするか、カメラの向きに飛ぶかを選びます
 settings.DisplayLegend.name = 凡例を表示
-settings.DisplayLegend.description = コントロールのヒントが表示されるビルダーツール凡例パネルの表示/非表示を切り替えます
-settings.NoClip.name = 衝突無効
-settings.NoClip.description = 飛行時の衝突検出を無効にし、ブロックを通り抜けられるようにします
-settings.AllowNPCDetection.name = NPCに見える
-settings.AllowNPCDetection.description = 有効にすると、クリエイティブモード中にNPCがあなたを検知して反応できます
-settings.RespondToHit.name = ヒットに反応する
-settings.RespondToHit.description = 有効にすると、クリエイティブモード中の無敵状態でもノックバックなどのヒット効果を受けます
-settings.BrushShapeRendering.name = ブラシブロックレンダリング
-settings.BrushShapeRendering.description = ブラシプレビューのレンダリングをワイヤーフレームとブロックスタイルで切り替えます
-settings.FlightSpeedMultiplier.description = 飛行・移動速度を調整します
+settings.DisplayLegend.description = 操作ヒントが載ったビルダーツールの凡例パネルを表示/非表示にします
+settings.NoClip.name = 当たり判定なし
+settings.NoClip.description = 飛行中の当たり判定を無効にし、ブロックをすり抜けられるようにします
+settings.AllowNPCDetection.name = NPCから見える
+settings.AllowNPCDetection.description = 有効にすると、クリエイティブモード中でもNPCがあなたを認識して反応します
+settings.RespondToHit.name = 攻撃に反応する
+settings.RespondToHit.description = 有効にすると、クリエイティブモードで無敵状態でもノックバックなどの被弾効果を受けます
+settings.BrushShapeRendering.name = ブラシのブロック描画
+settings.BrushShapeRendering.description = ブラシのプレビュー表示を、ワイヤーフレームとブロック表示で切り替えます
+settings.FlightSpeedMultiplier.description = 飛行と移動の速度を調整します
 settings.BrushSoundVolume.description = ブラシツールの効果音の音量を調整します
 settings.HideHud.description = すべてのHUD要素を非表示にします
 settings.HideHotbar.description = クリエイティブモード中にホットバーを非表示にします
@@ -53,31 +53,31 @@ settings.HideChat.description = クリエイティブモード中にチャット
 settings.HideHeldItem.description = クリエイティブモード中に手持ちアイテムを非表示にします
 settings.ShowEntityMarkers.description = クリエイティブモード中にエンティティマーカーを表示します
 settings.CreativeInteractionDistance.name = ブロック設置距離
-settings.CreativeInteractionDistance.description = クリエイティブモードでブロックを設置できる最大距離を制御します。
+settings.CreativeInteractionDistance.description = クリエイティブモードでブロックを設置できる最大距離を設定します。
 settings.AirPlacement.name = 空中設置
 settings.AirPlacement.description = 空中にブロックを設置できるようにします。マウスホイールで設置距離を増減できます。
-settings.FreePlace.name = フリー設置
-settings.FreePlace.description = ブロックを任意の方向に自由に設置できるようにします。ブロックを素早く連続設置するときに最適です。
-settings.NoPhysics.name = 物理無効
-settings.NoPhysics.description = ブロックの物理を無効にし、どこにでもブロックを設置できるようにします。
-settings.HighlightBlockTarget.name = ブロックターゲットをハイライト
-settings.HighlightBlockTarget.description = 見ているブロックをハイライトします。
-settings.QuickReplace.name = 置き換え
-settings.QuickReplace.description = 見ているブロックを持っているブロックで置き換えます。
+settings.FreePlace.name = 自由設置
+settings.FreePlace.description = どの方向にも自由にブロックを設置できます。素早く連続して設置するときに便利です。
+settings.NoPhysics.name = 物理なし
+settings.NoPhysics.description = ブロックの物理を無効にし、どのブロックもどこにでも設置できるようにします。
+settings.HighlightBlockTarget.name = 対象ブロックを強調
+settings.HighlightBlockTarget.description = 見ているブロックを強調表示します。
+settings.QuickReplace.name = 置換
+settings.QuickReplace.description = 見ているブロックを、手に持っているブロックに置き換えます。
 settings.QuickRetype.name = 素材変更
-settings.QuickRetype.description = 見ているブロックの素材を持っているブロックの素材に置き換えますが、見ているブロックの形状/バリアントは維持します。
+settings.QuickRetype.description = 見ているブロックの素材を手に持っているものに置き換えつつ、形状やバリエーションは元のまま保ちます。
 settings.Extrude.name = 押し出し
-settings.Extrude.description = クリックしてドラッグすることで、希望する方向にブロックを押し出します。
+settings.Extrude.description = クリックしてドラッグした方向に、設置したブロックを押し出します。
 settings.SurfaceDraw.name = 描画
-settings.SurfaceDraw.description = ブロック面をクリックしてドラッグすることで、見ている場所にブロックを描画します。使用するブロック面とドラッグ方向によって描画される場所が決まります。
+settings.SurfaceDraw.description = ブロックの面をクリックしてドラッグすると、見ている場所にブロックを描画します。使用する面とドラッグ方向によって描画される位置が決まります。
 settings.FastPlace.name = 高速設置
-settings.FastPlace.description = ブロックをより速く設置します。
+settings.FastPlace.description = ブロックを素早く設置します。
 settings.Eraser.name = 消しゴム
-settings.Eraser.description = ブロックをより速く破壊します。
+settings.Eraser.description = ブロックを素早く壊します。
 settings.PlaceMode.name = 設置モード
 settings.PlaceMode.description = ブロックの設置方法を変更します。
 settings.PlaceModeDefault = デフォルト
-settings.CyclePlaceMode = 設置モードが{mode}に変更されました
+settings.CyclePlaceMode = 設置モードを次に変更しました: {mode}
 panel.settings = 設定
 panel.brushes = ブラシ
 panel.brushSettings = ブラシ
@@ -86,43 +86,43 @@ panel.palettes = パレット
 panel.maskSettings = マスク設定
 panel.quickSettings = 設定
 quickSettings.title = クリエイティブモードのクイック設定
-panel.clearSelection = 選択をクリア
+panel.clearSelection = 選択範囲を解除
 panel.enableEmptyFilter = 「空」フィルターを有効にする
-panel.useCustomMaskCommandEntry = カスタムマスクコマンドエントリを使用
-panel.maskPresetBlank = [ 空白 ]
+panel.useCustomMaskCommandEntry = カスタムのマスクコマンド入力を使用
+panel.maskPresetBlank = [ 空 ]
 panel.addMask = マスクを追加
 panel.saveMaskPreset = マスクを保存
 panel.deleteMaskPreset = マスクを削除
 panel.maskPresetName = プリセット名...
 panel.maskCommandPlaceholder =マスクコマンドを入力...
-panel.maskPresetConfirm = 確認
+panel.maskPresetConfirm = 確定
 panel.maskPresetCancel = キャンセル
-panel.maskPresetDropdown = マスクプリセット
-panel.maskType.targetblock = ターゲット
-panel.maskType.targetblock.description = リスト内のブロックのみ置き換える
+panel.maskPresetDropdown = マスクのプリセット
+panel.maskType.targetblock = 対象
+panel.maskType.targetblock.description = この一覧のブロックのみを置き換えます
 panel.maskType.aboveblock = 上 >
-panel.maskType.aboveblock.description = リスト内のブロックより上にあるブロックのみ置き換える
+panel.maskType.aboveblock.description = この一覧のブロックの上にあるブロックのみを置き換えます
 panel.maskType.not = 除外 !
-panel.maskType.not.description = リスト内のブロックを置き換えない
-panel.maskType.belowblock = 下 
-panel.maskType.belowblock.description = リスト内のブロックより下にあるブロックのみ置き換える
+panel.maskType.not.description = この一覧のブロックは置き換えません
+panel.maskType.belowblock = 下 <
+panel.maskType.belowblock.description = この一覧のブロックの下にあるブロックのみを置き換えます
 panel.maskType.adjacentblock = 隣接 ~
-panel.maskType.adjacentblock.description = リスト内のブロックの隣にあるブロックのみ置き換える
-panel.maskType.neighborblock = 近接 ^
-panel.maskType.neighborblock.description = リスト内のブロックに接しているブロックのみ置き換える
+panel.maskType.adjacentblock.description = この一覧のブロックの隣にあるブロックのみを置き換えます
+panel.maskType.neighborblock = 近傍 ^
+panel.maskType.neighborblock.description = この一覧のブロックに接しているブロックのみを置き換えます
 panel.maskType.command = コマンド
-panel.maskType.command.description = マスクコマンドを使用してマスクを構築します。以下の記号はマスクの種類を表します：\n\
+panel.maskType.command.description = マスクコマンドでマスクを組み立てます。次の記号がマスクの種類を表します:\n\
 \n\
-上 = >\n下 = <\n除外 = !\n隣接 = ~\n近接 = ^\n\
+上 = >\n下 = <\n除外 = !\n隣接 = ~\n近傍 = ^\n\
 \n\
-例：土の上にある草ブロックをマスクするには：\n\
+例: 土の上にある草ブロックをマスクするには、次のように入力します:\n\
 \n\
 Soil_Grass,>Soil_Dirt
 panel.maskInvert = 反転\n\
 \n\
-現在のマスクタイプをその逆に変換します。例えば、「上」のマスクタイプを反転すると、「上」以外のブロック、つまり「下」と同等の条件を検索するようになります。
+現在のマスクの種類を逆にします。たとえば「上」を反転すると「上ではない」ブロックを探すようになり、これは「下」と同じ意味になります。
 replace.materialsToReplace = 置き換える素材:
-replace.replaceWith = 置き換え先:
+replace.replaceWith = 置き換え後:
 legend.title = 凡例
 legend.pickMaterial = 素材を選択
 legend.setMask = マスクに設定
@@ -134,8 +134,8 @@ legend.increaseDepth = 深さを増やす
 legend.decreaseDepth = 深さを減らす
 legend.changeRotation = 回転方向を変更
 legend.favoriteMaterials = お気に入り素材
-legend.selectedMaterial = 選択された素材
-legend.shiftFasterChange = Shiftを押すと変更が速くなります
+legend.selectedMaterial = 選択中の素材
+legend.shiftFasterChange = Shiftを押している間は変化が速くなります
 legend.undo = 元に戻す
 legend.redo = やり直す
 legend.addRemoveFavorite = お気に入り素材を追加/削除
@@ -143,438 +143,438 @@ legend.alt = Alt +
 legend.shiftalt = Shift + Alt +
 legend.shift = Shift +
 legend.ScriptedBrushPage.Title = スクリプタブルブラシ
-legend.ScriptedBrushPage.Description = これはコードを使わずにノードエディターで作られたブラシです。このようなブラシを自作したい場合は:
-legend.ScriptedBrushPage.ToolSettings = クリエイティブツールの設定を開く。
-legend.ScriptedBrushPage.ExampleScriptedBrush.Title = スクリプタブルブラシのノードエディターを開く:
-legend.ScriptedBrushPage.ExampleScriptedBrush.Description = 1. アセット > アセットノードエディターを開きます。\n\
-2. ノードエディターツールが表示されます。\n\
-3. ノードエディターで「Root Node: Demo Workspace」をクリックし、「Scriptable Brush」を選択します。続行するか尋ねられたらOKをクリックします。\n\
-4. これでスクリプタブルブラシのワークスペースに入り、ブラシを作成できます！
-legend.ScriptedBrushPage.NodeEditorBasics.Title = スクリプタブルブラシのノードエディター基礎:
-legend.ScriptedBrushPage.NodeEditorBasics.Description = ワークスペースに入ったら、次の手順でブラシを作成できます:\n\
+legend.ScriptedBrushPage.Description = これはコードを書かずにノードエディターで作られたブラシです。同じようなブラシを自分で作るには、次の手順で行います:
+legend.ScriptedBrushPage.ToolSettings = クリエイティブツールの設定を開きます。
+legend.ScriptedBrushPage.ExampleScriptedBrush.Title = スクリプタブルブラシ用のノードエディターを開く:
+legend.ScriptedBrushPage.ExampleScriptedBrush.Description = 1. アセット > アセットノードエディター を開きます。\n\
+2. ノードエディターのツールが表示されます。\n\
+3. ノードエディターで「Root Node: Demo Workspace」をクリックし、Scriptable Brush を選びます。続行するか聞かれたら OK をクリックします。\n\
+4. スクリプタブルブラシのワークスペースに入り、ブラシを作れるようになります！
+legend.ScriptedBrushPage.NodeEditorBasics.Title = スクリプタブルブラシのノードエディター入門:
+legend.ScriptedBrushPage.NodeEditorBasics.Description = ワークスペースに入ったら、次の手順でブラシを作れます:\n\
 - 右クリックでノードを作成します。\n\
-- 作成したノードのバブルを左クリックし、ルートノードのバブルまでドラッグして接続します。
+- 作成したノードの丸い部分を左クリックしてドラッグし、ルートノードの丸い部分につなげます。
 legend.ScriptedBrushPage.NodeEditorSavingAndTesting.Title = 保存とテスト:
-legend.ScriptedBrushPage.NodeEditorSavingAndTesting.Description = 1. ファイル > 保存または名前を付けて保存で、アセットパックに保存します。\n\
-2. ゲームに戻り、手にペイントブラシツールを装備します。\n\
-3. チャットで /sb load と入力し、作成したブラシに移動します。\n\
-4. これでブラシを使用できます！
-legend.SelectTargetMaterial = ターゲット素材を選択
-legend.AddTargetMaterial = ターゲット素材をマルチ素材として追加
-legend.UndoLastBrush = 最後のブラシ操作を元に戻す
-legend.RedoLastUndo = 最後に元に戻した操作をやり直す
-legend.TipsAndTricks.Title = ヒントとテクニック
-legend.TipsAndTricks.Description = このブラシの使い方のヒントとテクニックです:
+legend.ScriptedBrushPage.NodeEditorSavingAndTesting.Description = 1. ファイル > 保存 または 名前を付けて保存 で、アセットパックに保存します。\n\
+2. ゲームに戻り、ペイントブラシツールを手に持ちます。\n\
+3. チャットで /sb load と入力し、作成したブラシを選びます。\n\
+4. これでブラシを使い始められます！
+legend.SelectTargetMaterial = 狙った素材を選択
+legend.AddTargetMaterial = 狙った素材をマルチ素材として追加
+legend.UndoLastBrush = 直前のブラシ操作を元に戻す
+legend.RedoLastUndo = 直前に取り消した操作をやり直す
+legend.TipsAndTricks.Title = ヒントとコツ
+legend.TipsAndTricks.Description = このブラシの使い方のヒントとコツを紹介します:
 legend.EditInventoryProperties = インベントリからブラシの設定を編集
-legend.SettingDescription = 各設定のこのブラシへの効果の説明:
-legend.BlockMasking = ブロックマスキング
-legend.BlockMaskingDescription = ブラシに素材を設定し、その素材に一致するブロックだけを変更対象にできます。
-legend.BlockMaskingMenuDescription = すべてのマスキングオプションとその効果を確認するには:
+legend.SettingDescription = このブラシの各設定の説明は以下のとおりです:
+legend.BlockMasking = ブロックマスク
+legend.BlockMaskingDescription = ブラシに素材を設定し、その素材に一致するブロックだけに変更を限定できます。
+legend.BlockMaskingMenuDescription = マスクの全オプションとその動作を確認するには、次の手順で行います:
 legend.BrushMenuMaskingTab = ブラシ設定を開く
-legend.BlockMaskingMenuTabDescription = ブラシマスキングタブを開く（右上付近）
-legend.CreatingAndUsingMask = マスクプリセットの保存／削除：
-legend.CreatingAndUsingMask.Description = 「マスクを保存」ボタンを使用すると、マスクをプリセットとして保存して再利用できます。\n\
-「マスクを削除」ボタンは、現在読み込まれているマスクプリセットを削除します。
-legend.InvertingMask = マスクの反転：
-legend.InvertingMask.Description = 「反転」ボタンを使用すると、現在のマスクタイプを逆の範囲をカバーするように反転できます。\n\
+legend.BlockMaskingMenuTabDescription = ブラシのマスクタブ(右上付近)を開く
+legend.CreatingAndUsingMask = マスクプリセットの保存/削除:
+legend.CreatingAndUsingMask.Description = 「マスクを保存」ボタンで、現在のマスクをプリセットとして保存し再利用できます。\n\
+「マスクを削除」ボタンは、現在読み込んでいるマスクプリセットを削除します。
+legend.InvertingMask = マスクの反転:
+legend.InvertingMask.Description = 「反転」ボタンで、現在のマスクの種類を逆の意味に切り替えられます。\n\
 \n\
-例えば、マスクタイプが「上」の場合、「下」に変わります。
+たとえばマスクの種類が「上」なら「下」になります。
 legend.PaintBrush.Page1.Title = ペイントブラシ
-legend.PaintBrush.Page1.Description = ペイントブラシツールでは、さまざまな形状・サイズ・素材でブロックを設置・削除できます。
-legend.PaintBrush.Page1.DestroyBlocks = 狙っている場所のブロックを破壊
-legend.PaintBrush.Page1.PlaceBlocks = 設定した素材で狙っている場所にブロックを設置
-legend.PaintBrush.Page1.SelectTargetMaterial = ターゲット素材を選択
-legend.PaintBrush.Page1.AddTargetMaterial = ターゲット素材をマルチ素材として追加
-legend.PaintBrush.Page1.UndoLastBrush = 最後のブラシ操作を元に戻す
-legend.PaintBrush.Page1.RedoLastUndo = 最後に元に戻した操作をやり直す
-legend.PaintBrush.Page1.EditInventoryProperties = インベントリから素材、サイズ、形状などのプロパティを編集
+legend.PaintBrush.Page1.Description = ペイントブラシツールでは、さまざまな形状・サイズ・素材でブロックを設置・除去できます。
+legend.PaintBrush.Page1.DestroyBlocks = 狙った場所のブロックを破壊する
+legend.PaintBrush.Page1.PlaceBlocks = 設定した素材で、狙った場所にブロックを設置する
+legend.PaintBrush.Page1.SelectTargetMaterial = 狙った素材を選択
+legend.PaintBrush.Page1.AddTargetMaterial = 狙った素材をマルチ素材として追加
+legend.PaintBrush.Page1.UndoLastBrush = 直前のブラシ操作を元に戻す
+legend.PaintBrush.Page1.RedoLastUndo = 直前に取り消した操作をやり直す
+legend.PaintBrush.Page1.EditInventoryProperties = インベントリから素材・サイズ・形状などのプロパティを編集
 legend.PaintBrush.Page1.AirPlacementTitle = 空中設置
-legend.PaintBrush.Page1.AirPlacementHotkey = 空中設置ターゲットモードを切り替え
+legend.PaintBrush.Page1.AirPlacementHotkey = 空中設置の照準モードを切り替え
 legend.PaintBrush.Page1.AirPlacementDistanceChange = 空中設置の距離を変更
 legend.PaintBrush.Page2.AxisLock = 軸ロック
-legend.PaintBrush.Page2.AxisLockDescription = ブラシを平らで移動・回転可能な面に固定できます。次のホットキーで面モードの表示、編集、終了ができます。
-legend.PaintBrush.Page2.ShowSurfaceMoveTool = 面移動ツールを表示
-legend.PaintBrush.Page2.ShowSurfaceRotationTool = 面回転ツールを表示
+legend.PaintBrush.Page2.AxisLockDescription = ブラシを、移動・回転できる平らな面に貼り付けられます。次のホットキーで面の表示・編集・終了ができます。
+legend.PaintBrush.Page2.ShowSurfaceMoveTool = 面の移動ツールを表示
+legend.PaintBrush.Page2.ShowSurfaceRotationTool = 面の回転ツールを表示
 legend.PaintBrush.Page2.UseBrush = ブラシを使用
 legend.PaintBrush.Page2.ExitAxisLockMode = 軸ロックモードを終了
 legend.CaveBrush.Page1.Title = 洞窟ブラシ
-legend.CaveBrush.Page1.Description = 洞窟ブラシツールを使用すると、洞窟や渓谷を作成できます。
-legend.CaveBrush.Page1.DecorateArea = 狙っている場所に洞窟の装飾を追加
-legend.CaveBrush.Page1.ShapeArea = 狙っている場所の洞窟エリアを形成
-legend.CaveBrush.Page2.BlockTip.Title = 洞窟をカスタマイズ:
-legend.CaveBrush.Page2.BlockTip.Description = インベントリから設定にブロックをドラッグ＆ドロップすることで、洞窟を構成するブロックをカスタマイズできます。\n\n設定のブロックをダブルクリックして削除することもできます。
+legend.CaveBrush.Page1.Description = 洞窟ブラシツールでは、洞窟や渓谷を作れます。
+legend.CaveBrush.Page1.DecorateArea = 狙った場所に洞窟の装飾を追加する
+legend.CaveBrush.Page1.ShapeArea = 狙った場所の洞窟の形を彫る
+legend.CaveBrush.Page2.BlockTip.Title = 洞窟のカスタマイズ:
+legend.CaveBrush.Page2.BlockTip.Description = インベントリから設定欄へブロックをドラッグ&ドロップすると、洞窟を構成するブロックをカスタマイズできます。\n\nまた、設定欄のブロックをダブルクリックすると削除できます。
 legend.CaveBrush.Page2.Example1.Title = 洞窟を作って装飾する:
-legend.CaveBrush.Page2.Example1.Description = 1. 地面、山の側面、または固い土地のかたまりを見ます。\n\
-2. スカルプトキー（通常は右クリック）を押し続けて洞窟の形状を彫刻します。\n\
-3. 彫刻した洞窟の中で、床を見て装飾キー（通常は左クリック）を押し続けて装飾を追加します。\n\
-4. 彫刻した洞窟の中で、天井を見て装飾キー（通常は左クリック）を押し続けて装飾を追加します。\n\
+legend.CaveBrush.Page2.Example1.Description = 1. 地面、山の斜面、または地面の塊を見ます。\n\
+2. 彫るキー(通常は右クリック)を押し続けて、洞窟の形を彫り始めます。\n\
+3. 彫った洞窟の中で床を見ながら、装飾キー(通常は左クリック)を押し続けて装飾を追加します。\n\
+4. 洞窟の中で天井を見ながら、装飾キー(通常は左クリック)を押し続けて装飾を追加します。\n\
 5. これで装飾付きの洞窟ができました！
-legend.CaveBrush.Page3.Title = 設定（1/2）
-legend.CaveBrush.Page3.CaveBlocks.Title = 洞窟ブロック:
+legend.CaveBrush.Page3.Title = 設定 (1/2)
+legend.CaveBrush.Page3.CaveBlocks.Title = 洞窟のブロック:
 legend.CaveBrush.Page3.CaveBlocks.Description = - 洞窟を構成するブロック。
-legend.CaveBrush.Page3.CaveBlockDecorations.Title = 洞窟ブロック装飾:
-legend.CaveBrush.Page3.CaveBlockDecorations.Description = - 床ブロックの側面に洞窟の床を装飾するブロック。配置数を制御する密度スライダーがあります。
-legend.CaveBrush.Page3.TopDecorations.Title = 上部装飾:
-legend.CaveBrush.Page3.TopDecorations.Description = - 洞窟の天井を装飾するブロック。配置数を制御する密度スライダーがあります。
-legend.CaveBrush.Page3.FloorBlocks.Title = 床ブロック:
-legend.CaveBrush.Page3.FloorBlocks.Description = - 洞窟の床を装飾するブロック。配置数を制御する密度スライダーがあります。
-legend.CaveBrush.Page3.FloorDecorations.Title = 床装飾:
-legend.CaveBrush.Page3.FloorDecorations.Description = - 床ブロックの上に装飾として設置するブロック。配置数を制御する密度スライダーがあります。
+legend.CaveBrush.Page3.CaveBlockDecorations.Title = 洞窟ブロックの装飾:
+legend.CaveBrush.Page3.CaveBlockDecorations.Description = - 床のブロックの脇で洞窟の床を装飾するブロック。設置量を調整する密度スライダーが付いています。
+legend.CaveBrush.Page3.TopDecorations.Title = 天井の装飾:
+legend.CaveBrush.Page3.TopDecorations.Description = - 洞窟の天井を装飾するブロック。設置量を調整する密度スライダーが付いています。
+legend.CaveBrush.Page3.FloorBlocks.Title = 床のブロック:
+legend.CaveBrush.Page3.FloorBlocks.Description = - 洞窟の床を装飾するブロック。設置量を調整する密度スライダーが付いています。
+legend.CaveBrush.Page3.FloorDecorations.Title = 床の装飾:
+legend.CaveBrush.Page3.FloorDecorations.Description = - 床のブロックの上に装飾として設置するブロック。設置量を調整する密度スライダーが付いています。
 legend.CaveBrush.Page3.OreBlocks.Title = 鉱石ブロック:
-legend.CaveBrush.Page3.OreBlocks.Description = - 洞窟の周囲に配置する鉱石ブロック。配置数を制御する密度スライダーがあります。
-legend.CaveBrush.Page4.Title = 設定（2/2）
+legend.CaveBrush.Page3.OreBlocks.Description = - 洞窟の周囲に配置する鉱石ブロック。設置量を調整する密度スライダーが付いています。
+legend.CaveBrush.Page4.Title = 設定 (2/2)
 legend.CaveBrush.Page4.Randomize.Title = ランダム化:
-legend.CaveBrush.Page4.Randomize.Description = - チェックすると、洞窟の形状を作るときにランダムに大小が変わります。
-legend.CaveBrush.Page4.MeltStrength.Title = 溶解強度:
-legend.CaveBrush.Page4.MeltStrength.Description = - ブラシの掘削強度を制御します。高いほど多くのブロックを削除し、低いほど削除するブロックが少なくなります。
-legend.CaveBrush.Page4.SmoothStrength.Title = 平滑化強度:
-legend.CaveBrush.Page4.SmoothStrength.Description = - ブラシの平滑化強度を制御します。高いほど滑らかで、低いほど粗くなります。
+legend.CaveBrush.Page4.Randomize.Description = - 有効にすると、洞窟を形作る際に形状の大きさがランダムに変化します。
+legend.CaveBrush.Page4.MeltStrength.Title = 溶かす強さ:
+legend.CaveBrush.Page4.MeltStrength.Description = - ブラシで削る強さを設定します。高いほど多くのブロックが削られ、低いほど削られる量が減ります。
+legend.CaveBrush.Page4.SmoothStrength.Title = 滑らかさの強さ:
+legend.CaveBrush.Page4.SmoothStrength.Description = - ブラシの平滑化の強さを設定します。高いほど滑らかに、低いほど粗くなります。
 legend.BoulderBrush.Page1.Title = 岩ブラシ
-legend.BoulderBrush.Page1.Description = 岩ブラシツールを使用すると、巨石や岩の地形を作成できます。
-legend.BoulderBrush.Page1.DecorateArea = 狙っている場所の岩に装飾を追加
-legend.BoulderBrush.Page1.ShapeArea = 狙っている場所に岩を設置
-legend.BoulderBrush.Page2.BlockTip.Title = 岩をカスタマイズ:
-legend.BoulderBrush.Page2.BlockTip.Description = インベントリから設定にブロックをドラッグ＆ドロップすることで、岩を構成するブロックをカスタマイズできます。\n\n設定のブロックをダブルクリックして削除することもできます。
+legend.BoulderBrush.Page1.Description = 岩ブラシツールでは、岩や岩石群を作れます。
+legend.BoulderBrush.Page1.DecorateArea = 狙った場所の岩を装飾する
+legend.BoulderBrush.Page1.ShapeArea = 狙った場所に岩を設置する
+legend.BoulderBrush.Page2.BlockTip.Title = 岩のカスタマイズ:
+legend.BoulderBrush.Page2.BlockTip.Description = インベントリから設定欄へブロックをドラッグ&ドロップすると、岩を構成するブロックをカスタマイズできます。\n\nまた、設定欄のブロックをダブルクリックすると削除できます。
 legend.BoulderBrush.Page2.Example1.Title = 岩を作って装飾する:
 legend.BoulderBrush.Page2.Example1.Description = 1. 地面を見ます。\n\
-2. 設置キー（通常は右クリック）を押して岩を設置します。\n\
-3. 原点を中心に変更します。\n\
-4. 岩を見て装飾キー（通常は左クリック）を押し、装飾を追加します。\n\
+2. 設置キー(通常は右クリック)を押して岩を置きます。\n\
+3. 原点を「中央」に変更します。\n\
+4. 岩を見ながら装飾キー(通常は左クリック)を押して装飾を追加します。\n\
 5. これで装飾付きの岩ができました！
-legend.BoulderBrush.Page3.Title = 設定（1/2）
-legend.BoulderBrush.Page3.RockBlocks.Title = 岩ブロック:
+legend.BoulderBrush.Page3.Title = 設定 (1/2)
+legend.BoulderBrush.Page3.RockBlocks.Title = 岩のブロック:
 legend.BoulderBrush.Page3.RockBlocks.Description = - 岩を構成するブロック。
-legend.BoulderBrush.Page3.TopBlocks.Title = 上部ブロック:
-legend.BoulderBrush.Page3.TopBlocks.Description = - 岩の上部を装飾するブロック。配置数を制御する密度スライダーがあります。
-legend.BoulderBrush.Page3.TopDecor.Title = 上部装飾:
-legend.BoulderBrush.Page3.TopDecor.Description = - 上部ブロックの上に設置するブロック。配置数を制御する密度スライダーがあります。
-legend.BoulderBrush.Page3.RockDecor.Title = 岩装飾:
-legend.BoulderBrush.Page3.RockDecor.Description = - 岩ブロックの上に設置するブロック。配置数を制御する密度スライダーがあります。
-legend.BoulderBrush.Page3.BoulderPoints.Title = 岩ポイント:
-legend.BoulderBrush.Page3.BoulderPoints.Description = - 岩を構成するサブ岩の数。サブ岩は岩半径で間隔を空けて1つの岩または岩の群れを作ることができます。
-legend.BoulderBrush.Page3.BoulderRadius.Title = 岩半径:
-legend.BoulderBrush.Page3.BoulderRadius.Description = - 岩ポイント間の間隔を制御します。岩を広げたり、岩の群れを作ったりするのに使えます。
-legend.BoulderBrush.Page4.Title = 設定（2/2）
+legend.BoulderBrush.Page3.TopBlocks.Title = 上部のブロック:
+legend.BoulderBrush.Page3.TopBlocks.Description = - 岩の上部を装飾するブロック。設置量を調整する密度スライダーが付いています。
+legend.BoulderBrush.Page3.TopDecor.Title = 上部の装飾:
+legend.BoulderBrush.Page3.TopDecor.Description = - 上部のブロックの上に設置するブロック。設置量を調整する密度スライダーが付いています。
+legend.BoulderBrush.Page3.RockDecor.Title = 岩の装飾:
+legend.BoulderBrush.Page3.RockDecor.Description = - 岩のブロックの上に設置するブロック。設置量を調整する密度スライダーが付いています。
+legend.BoulderBrush.Page3.BoulderPoints.Title = 岩のポイント数:
+legend.BoulderBrush.Page3.BoulderPoints.Description = - 岩を構成する小岩の数。岩の半径で間隔を空けると、1つの大きな岩にも、岩の群れにもできます。
+legend.BoulderBrush.Page3.BoulderRadius.Title = 岩の半径:
+legend.BoulderBrush.Page3.BoulderRadius.Description = - 岩のポイント間の間隔を設定します。岩を横に広げたり、岩の群れを作ったりできます。
+legend.BoulderBrush.Page4.Title = 設定 (2/2)
 legend.BoulderBrush.Page4.Randomization.Title = ランダム化:
-legend.BoulderBrush.Page4.Randomization.Description = - 岩の見た目のランダム性を制御します。高いほどランダムで、低いほど規則的になります。
+legend.BoulderBrush.Page4.Randomization.Description = - 岩の見た目のランダムさを設定します。高いほどランダムに、低いほど規則的になります。
 legend.BoulderBrush.Page4.Smoothness.Title = 滑らかさ:
-legend.BoulderBrush.Page4.Smoothness.Description = - 岩の滑らかさを制御します。高いほど滑らかで、低いほど粗くなります。
-legend.BoulderBrush.Page4.StackSize.Title = スタックサイズ（上級）:
-legend.BoulderBrush.Page4.StackSize.Description = - 岩を幅に応じて何回積み重ねるかを制御します。これは岩を形作る別の方法です。現在の形状を設置し、高さの分だけ上に移動して幅を縮め、再び設置する、という動作を繰り返します。
-legend.BoulderBrush.Page4.StackRandomization.Title = スタックのランダム化（上級）:
-legend.BoulderBrush.Page4.StackRandomization.Description = - 岩の高さレイヤー間のランダム化。高いほどランダムで、低いほど規則的になります。
+legend.BoulderBrush.Page4.Smoothness.Description = - 岩の滑らかさを設定します。高いほど滑らかに、低いほど粗くなります。
+legend.BoulderBrush.Page4.StackSize.Title = 積み重ねの数(上級):
+legend.BoulderBrush.Page4.StackSize.Description = - 幅を使って岩を何回積み重ねるかを設定します。岩を形作る別の方法です。現在の形状を置き、高さの分だけ上に移動し、幅を減らしてまた置く、という動作を繰り返します。
+legend.BoulderBrush.Page4.StackRandomization.Title = 積み重ねのランダム化(上級):
+legend.BoulderBrush.Page4.StackRandomization.Description = - 岩の各段の間のランダムさ。高いほどランダムに、低いほど規則的になります。
 legend.BoulderBrush.Page4.StackTip.Title = 上級設定のヒント:
-legend.BoulderBrush.Page4.StackTip.Description = - スタックサイズとスタックランダム化の効果を確認するには、滑らかさを0に、形状をキューブに、スタックサイズを0以上に設定し、幅と高さを様々に試してみてください。
+legend.BoulderBrush.Page4.StackTip.Description = - 積み重ねの数と積み重ねのランダム化の効果を確認するには、滑らかさを0、形状を立方体、積み重ねの数を1以上にして、幅と高さをいろいろ試してみてください。
 legend.BuildingBrush.Page1.Title = 建物ブラシ
-legend.BuildingBrush.Page1.Description = 建物ブラシツールを使用すると、建物や構造物を作成できます。
-legend.BuildingBrush.Page1.ShapeArea = 狙っている場所に建物を設置
-legend.BuildingBrush.Page2.BlockTip.Title = 建物をカスタマイズ:
-legend.BuildingBrush.Page2.BlockTip.Description = インベントリから設定にブロックをドラッグ＆ドロップすることで、建物を構成するブロックをカスタマイズできます。\n\n設定のブロックをダブルクリックして削除することもできます。
+legend.BuildingBrush.Page1.Description = 建物ブラシツールでは、建物や構造物を作れます。
+legend.BuildingBrush.Page1.ShapeArea = 狙った場所に建物を設置する
+legend.BuildingBrush.Page2.BlockTip.Title = 建物のカスタマイズ:
+legend.BuildingBrush.Page2.BlockTip.Description = インベントリから設定欄へブロックをドラッグ&ドロップすると、建物を構成するブロックをカスタマイズできます。\n\nまた、設定欄のブロックをダブルクリックすると削除できます。
 legend.BuildingBrush.Page2.Example1.Title = 窓付きの塔を作る:
-legend.BuildingBrush.Page2.Example1.Description = 1. 設定で幅と高さを希望のサイズに設定します。\n\
-2. 塔のフロア数に「フロア数」を変更します。\n\
-3. 「窓の数」を希望の数に変更し、窓が壁に適切に配置されるよう「窓の半径」を変更します。窓を壁に正しく配置するには試行錯誤が必要です。\n\
-4. 屋根の設定を希望通りに変更します。\n\
-5. 設置キー（通常は右クリック）を押して建物を設置します。\n\
+legend.BuildingBrush.Page2.Example1.Description = 1. 設定で幅と高さを好みの値にします。\n\
+2. 階数を、塔に持たせたい階数に変更します。\n\
+3. 窓の数を好みの数にし、窓が壁に正しく収まるように窓の半径を調整します。窓の配置は現状、試行錯誤が必要です。\n\
+4. 屋根の設定を好みに合わせて変更します。\n\
+5. 設置キー(通常は右クリック)を押して建物を置きます。\n\
 6. これで塔ができました！
 legend.BuildingBrush.Page3.Title = 設定
-legend.BuildingBrush.Page3.MainBlock.Title = メインブロック:
-legend.BuildingBrush.Page3.MainBlock.Description = - 建物を構成するメインブロック。
-legend.BuildingBrush.Page3.SecondaryBlock.Title = セカンダリブロック:
-legend.BuildingBrush.Page3.SecondaryBlock.Description = - 建物の壁の中央に装飾として使用するブロック。
-legend.BuildingBrush.Page3.FloorBlock.Title = 床ブロック:
-legend.BuildingBrush.Page3.FloorBlock.Description = - 建物のフロアに使用するブロック。
+legend.BuildingBrush.Page3.MainBlock.Title = 主要ブロック:
+legend.BuildingBrush.Page3.MainBlock.Description = - 建物を構成する主要なブロック。
+legend.BuildingBrush.Page3.SecondaryBlock.Title = 副次ブロック:
+legend.BuildingBrush.Page3.SecondaryBlock.Description = - 建物の壁の中央に装飾として使われるブロック。
+legend.BuildingBrush.Page3.FloorBlock.Title = 床のブロック:
+legend.BuildingBrush.Page3.FloorBlock.Description = - 建物の各階の床に使われるブロック。
 legend.BuildingBrush.Page3.EnableWindows.Title = 窓を有効にする:
 legend.BuildingBrush.Page3.EnableWindows.Description = - 建物に窓を設置できるようにします。
 legend.BuildingBrush.Page3.WindowRadius.Title = 窓の半径:
-legend.BuildingBrush.Page3.WindowRadius.Description = - 窓を設置する半径。この設定は調整が必要な場合があります。
+legend.BuildingBrush.Page3.WindowRadius.Description = - 窓を配置する位置の半径。うまく収めるには調整が必要な場合があります。
 legend.BuildingBrush.Page3.EnableRoof.Title = 屋根を有効にする:
-legend.BuildingBrush.Page3.EnableRoof.Description = - 建物に屋根を設置できるようにします。屋根をオフにすると壁を作るのに便利です。
+legend.BuildingBrush.Page3.EnableRoof.Description = - 建物に屋根を設置できるようにします。屋根をオフにすると壁だけを作るのに便利です。
 legend.DecorationBrush.Page1.Title = 装飾ブラシ
-legend.DecorationBrush.Page1.Description = 装飾ブラシツールを使用すると、装飾をペイントできます。
-legend.DecorationBrush.Page1.DecorateArea = クリアするブロックのリスト内のブロックを消去
-legend.DecorationBrush.Page1.ShapeArea = 狙っている場所に装飾をペイント
-legend.DecorationBrush.Page2.BlockTip.Title = 装飾をカスタマイズ:
-legend.DecorationBrush.Page2.BlockTip.Description = インベントリから設定にブロックをドラッグ＆ドロップすることで、装飾に使用するブロックをカスタマイズできます。\n\n設定のブロックをダブルクリックして削除することもできます。
-legend.DecorationBrush.Page2.Example1.Title = エリアをクリアして地面の装飾を追加する:
-legend.DecorationBrush.Page2.Example1.Description = 1. 装飾を追加したいエリアを見つけます。\n\
-2. クリアキー（通常は左クリック）を押し続けてエリアからブロックを削除します。\n\
-3. 設定を開いて、追加したい装飾を設定に追加します。\n\
-4. ペイントキー（通常は右クリック）を押し続けてエリアに装飾をペイントします。\n\
-5. エリアが装飾されました！
+legend.DecorationBrush.Page1.Description = 装飾ブラシツールでは、装飾を描けます。
+legend.DecorationBrush.Page1.DecorateArea = 「除去するブロック」に一致するブロックを除去する。
+legend.DecorationBrush.Page1.ShapeArea = 狙った場所に装飾を描く
+legend.DecorationBrush.Page2.BlockTip.Title = 装飾のカスタマイズ:
+legend.DecorationBrush.Page2.BlockTip.Description = インベントリから設定欄へブロックをドラッグ&ドロップすると、装飾に使うブロックをカスタマイズできます。\n\nまた、設定欄のブロックをダブルクリックすると削除できます。
+legend.DecorationBrush.Page2.Example1.Title = 範囲を整地して地面の装飾を追加する:
+legend.DecorationBrush.Page2.Example1.Description = 1. 装飾を追加したい場所を見つけます。\n\
+2. 除去キー(通常は左クリック)を押し続けて、その範囲のブロックを取り除きます。\n\
+3. 設定を開き、使いたい装飾を追加します。\n\
+4. 描画キー(通常は右クリック)を押し続けて、その範囲に装飾を描きます。\n\
+5. これで範囲の装飾が完了しました！
 legend.DecorationBrush.Page3.Title = 設定
-legend.DecorationBrush.Page3.BlocksToClear.Title = クリアするブロック:
-legend.DecorationBrush.Page3.BlocksToClear.Description = - クリアブロックキー（通常は左クリック）でクリアするブロック。
-legend.DecorationBrush.Page3.FloorBlocks.Title = 床ブロック:
-legend.DecorationBrush.Page3.FloorBlocks.Description = - 装飾に使用するブロック。配置数を制御する密度スライダーがあります。
+legend.DecorationBrush.Page3.BlocksToClear.Title = 除去するブロック:
+legend.DecorationBrush.Page3.BlocksToClear.Description = - 除去キー(通常は左クリック)を使ったときに取り除くブロック。
+legend.DecorationBrush.Page3.FloorBlocks.Title = 地面のブロック:
+legend.DecorationBrush.Page3.FloorBlocks.Description = - 装飾に使うブロック。設置量を調整する密度スライダーが付いています。
 legend.DecorationBrush.Page3.DecorationBlocks.Title = 装飾ブロック:
-legend.DecorationBrush.Page3.DecorationBlocks.Description = - 床ブロックの上に設置するブロック。配置数を制御する密度スライダーがあります。
-legend.ForestBrush.Page1.Title = 森ブラシ
-legend.ForestBrush.Page1.Description = 森ブラシツールを使用すると、森や茂みを作成できます。
-legend.ForestBrush.Page1.DecorateArea = 狙っている場所に選択した装飾タイプを追加
-legend.ForestBrush.Page1.ShapeArea = 狙っている場所の地面をペイント
-legend.ForestBrush.Page2.BlockTip.Title = 森をカスタマイズ:
-legend.ForestBrush.Page2.BlockTip.Description = インベントリから設定にブロックをドラッグ＆ドロップすることで、森を構成するブロックをカスタマイズできます。\n\n設定のブロックをダブルクリックして削除することもできます。
+legend.DecorationBrush.Page3.DecorationBlocks.Description = - 地面のブロックの上に設置するブロック。設置量を調整する密度スライダーが付いています。
+legend.ForestBrush.Page1.Title = フォレストブラシ
+legend.ForestBrush.Page1.Description = フォレストブラシツールでは、森や茂みを作れます。
+legend.ForestBrush.Page1.DecorateArea = 狙った場所に選択中の種類の装飾を追加する
+legend.ForestBrush.Page1.ShapeArea = 狙った場所の地面を描く
+legend.ForestBrush.Page2.BlockTip.Title = 森のカスタマイズ:
+legend.ForestBrush.Page2.BlockTip.Description = インベントリから設定欄へブロックをドラッグ&ドロップすると、森を構成するブロックをカスタマイズできます。\n\nまた、設定欄のブロックをダブルクリックすると削除できます。
 legend.ForestBrush.Page2.Example1.Title = 森を作って装飾する:
-legend.ForestBrush.Page2.Example1.Description = 1. 森を作りたいエリアを見ます。\n\
-2. 地面ペイントキー（通常は右クリック）を押し続けて森の地面をペイントします。\n\
-3. タイプをフォリアに変更し、植物に使用するブロックをフォリアブロックに追加して地面の装飾を追加します。\n\
-4. 装飾キー（通常は左クリック）を押し続けてフォリア装飾を設置します。\n\
-5. タイプを木に変更します。\n\
-6. 装飾キー（通常は左クリック）を押し続けて木を設置します。\n\
+legend.ForestBrush.Page2.Example1.Description = 1. 森を作りたい場所を見ます。\n\
+2. 地面を描くキー(通常は右クリック)を押し続けて、森の地面を描き始めます。\n\
+3. 種類を「草木」に変更し、植物に使いたいブロックを「草木のブロック」に追加して地面の装飾を加えます。\n\
+4. 装飾キー(通常は左クリック)を押し続けて、草木の装飾を設置します。\n\
+5. 種類を「木」に変更して木を追加します。\n\
+6. 装飾キー(通常は左クリック)を押し続けて、木を設置します。\n\
 7. これで森ができました！
 legend.ForestBrush.Page3.Title = 設定
 legend.ForestBrush.Page3.NumDecorations.Title = 装飾の数:
-legend.ForestBrush.Page3.NumDecorations.Description = - 設置する装飾の数。装飾タイプが木または岩の場合にのみ適用されます。
+legend.ForestBrush.Page3.NumDecorations.Description = - 設置する装飾の数。装飾の種類が「木」または「岩」のときのみ適用されます。
 legend.ForestBrush.Page3.DecorationSpacing.Title = 装飾の間隔:
-legend.ForestBrush.Page3.DecorationSpacing.Description = - 設置される装飾間の間隔。装飾タイプが木または岩の場合にのみ適用されます。
-legend.ForestBrush.Page3.FloorBlocks.Title = 床ブロック:
-legend.ForestBrush.Page3.FloorBlocks.Description = - 森の地面を装飾するブロック。配置数を制御する密度スライダーがあります。
-legend.ForestBrush.Page3.FloorOutlineBlocks.Title = 床アウトラインブロック:
-legend.ForestBrush.Page3.FloorOutlineBlocks.Description = - 森の地面のアウトラインを装飾するブロック。配置数を制御する密度スライダーがあります。
-legend.ForestBrush.Page3.FloorPatchBlocks.Title = 床パッチブロック:
-legend.ForestBrush.Page3.FloorPatchBlocks.Description = - 装飾として森の地面にランダムに設置するブロック。配置数を制御する密度スライダーがあります。
-legend.ForestBrush.Page3.FoliageBlocks.Title = フォリアブロック:
-legend.ForestBrush.Page3.FoliageBlocks.Description = - 森の地面のフォリアに使用するブロック。配置数を制御する密度スライダーがあります。装飾タイプがフォリアの場合にのみ適用されます。
+legend.ForestBrush.Page3.DecorationSpacing.Description = - 設置する装飾どうしの間隔。装飾の種類が「木」または「岩」のときのみ適用されます。
+legend.ForestBrush.Page3.FloorBlocks.Title = 地面のブロック:
+legend.ForestBrush.Page3.FloorBlocks.Description = - 森の地面を装飾するブロック。設置量を調整する密度スライダーが付いています。
+legend.ForestBrush.Page3.FloorOutlineBlocks.Title = 地面の縁のブロック:
+legend.ForestBrush.Page3.FloorOutlineBlocks.Description = - 森の地面の縁を装飾するブロック。設置量を調整する密度スライダーが付いています。
+legend.ForestBrush.Page3.FloorPatchBlocks.Title = 地面のまだらブロック:
+legend.ForestBrush.Page3.FloorPatchBlocks.Description = - 森の地面全体に装飾としてランダムに配置するブロック。設置量を調整する密度スライダーが付いています。
+legend.ForestBrush.Page3.FoliageBlocks.Title = 草木のブロック:
+legend.ForestBrush.Page3.FoliageBlocks.Description = - 森の地面の草木に使うブロック。設置量を調整する密度スライダーが付いています。装飾の種類が「草木」のときのみ適用されます。
 legend.MountainBrush.Page1.Title = 山ブラシ
-legend.MountainBrush.Page1.Description = 山ブラシツールを使用すると、山や地形を彫刻できます。
-legend.MountainBrush.Page1.ShapeArea = 狙っている場所に山を彫刻
-legend.MountainBrush.Page2.BlockTip.Title = 山をカスタマイズ:
-legend.MountainBrush.Page2.BlockTip.Description = インベントリから設定にブロックをドラッグ＆ドロップすることで、山を構成するブロックをカスタマイズできます。\n\n設定のブロックをダブルクリックして削除することもできます。
+legend.MountainBrush.Page1.Description = 山ブラシツールでは、山や地形を彫れます。
+legend.MountainBrush.Page1.ShapeArea = 狙った場所に山を彫る
+legend.MountainBrush.Page2.BlockTip.Title = 山のカスタマイズ:
+legend.MountainBrush.Page2.BlockTip.Description = インベントリから設定欄へブロックをドラッグ&ドロップすると、山を構成するブロックをカスタマイズできます。\n\nまた、設定欄のブロックをダブルクリックすると削除できます。
 legend.MountainBrush.Page2.Example1.Title = 山を作る:
 legend.MountainBrush.Page2.Example1.Description = 1. 地面を見ます。\n\
-2. レイヤー設定にブロックを設置して、山に使用するブロックをカスタマイズします。\n\
-3. スカルプトキー（通常は右クリック）を押し続けて山の形状を彫刻します。\n\
-4. これで山を彫刻できます！
+2. レイヤーの設定にブロックを入れて、山に使うブロックをカスタマイズします。\n\
+3. 彫るキー(通常は右クリック)を押し続けて、山の形を彫り始めます。\n\
+4. これで山を彫れるようになりました！
 legend.MountainBrush.Page2.Example2.Title = 谷を作る:
 legend.MountainBrush.Page2.Example2.Description = 1. 地面を見ます。\n\
-2. ポイント数を1に、ポイント間隔を40以上に変更します。\n\
-3. スカルプトキー（通常は右クリック）を押し続けて彫刻します。地形が2か所で形成されていることに気づきます。\n\
-4. 上下に移動しながら直線で彫刻して両側に崖を作ります。\n\
-5. これで谷を彫刻できます！この機能は複数の山や同時に山のディテールを作るのにも使えます。
+2. ポイント数を1に、ポイントの間隔を40以上に変更します。\n\
+3. 彫るキー(通常は右クリック)を押し続けて彫り始めます。地形が形成される場所が2か所になっているはずです。\n\
+4. 上下に動かしながらまっすぐ彫り進め、両側に崖を作ります。\n\
+5. これで谷を彫れるようになりました！この方法は、複数の山を同時に作ったり、山にディテールを加えたりするのにも使えます。
 legend.MountainBrush.Page3.Title = 設定
 legend.MountainBrush.Page3.TopLayer.Title = 上層:
-legend.MountainBrush.Page3.TopLayer.Description = - 地形の上部に配置されるブロック。
+legend.MountainBrush.Page3.TopLayer.Description = - 地形の最上部に配置されるブロック。
 legend.MountainBrush.Page3.MiddleLayer.Title = 中層:
-legend.MountainBrush.Page3.MiddleLayer.Description = - 地形の中部に配置されるブロック。
+legend.MountainBrush.Page3.MiddleLayer.Description = - 地形の中間に配置されるブロック。
 legend.MountainBrush.Page3.BottomLayer.Title = 下層:
-legend.MountainBrush.Page3.BottomLayer.Description = - 地形の下部に配置されるブロック。
+legend.MountainBrush.Page3.BottomLayer.Description = - 地形の最下部に配置されるブロック。
 legend.MountainBrush.Page3.NumberOfPoints.Title = ポイント数:
-legend.MountainBrush.Page3.NumberOfPoints.Description = - 山を彫刻するために使用するポイントの数。
-legend.MountainBrush.Page3.PointSpacing.Title = ポイント間隔:
-legend.MountainBrush.Page3.PointSpacing.Description = - 山を彫刻するために使用するポイント間の間隔。
+legend.MountainBrush.Page3.NumberOfPoints.Description = - 山を彫るのに使うポイントの数。
+legend.MountainBrush.Page3.PointSpacing.Title = ポイントの間隔:
+legend.MountainBrush.Page3.PointSpacing.Description = - 山を彫るのに使う各ポイントの間隔。
 legend.MountainBrush.Page3.Smoothness.Title = 滑らかさ:
-legend.MountainBrush.Page3.Smoothness.Description = - 造形した地形をどれだけ滑らかにするかを制御します。高いほど滑らかに、低いほど粗くなります。
-legend.PathBrush.Page1.Title = 道ブラシ
-legend.PathBrush.Page1.Description = 道ブラシツールを使用すると、道を作成できます。
-legend.PathBrush.Page1.DecorateArea = 段差の近くにハーフブロックを追加して道を滑らかにする
-legend.PathBrush.Page1.ShapeArea = 狙っている場所に道を引く
-legend.PathBrush.Page2.BlockTip.Title = 道をカスタマイズ:
-legend.PathBrush.Page2.BlockTip.Description = インベントリから設定にブロックをドラッグ＆ドロップすることで、道を構成するブロックをカスタマイズできます。\n\n設定のブロックをダブルクリックして削除することもできます。
+legend.MountainBrush.Page3.Smoothness.Description = - 彫った地形の滑らかさを設定します。高いほど滑らかに、低いほど粗くなります。
+legend.PathBrush.Page1.Title = パスブラシ
+legend.PathBrush.Page1.Description = パスブラシツールでは、道を作れます。
+legend.PathBrush.Page1.DecorateArea = 段差の近くにハーフブロックを追加して道をなだらかにする
+legend.PathBrush.Page1.ShapeArea = 狙った場所に道を描く
+legend.PathBrush.Page2.BlockTip.Title = 道のカスタマイズ:
+legend.PathBrush.Page2.BlockTip.Description = インベントリから設定欄へブロックをドラッグ&ドロップすると、道を構成するブロックをカスタマイズできます。\n\nまた、設定欄のブロックをダブルクリックすると削除できます。
 legend.PathBrush.Page2.Example1.Title = 道を作る:
 legend.PathBrush.Page2.Example1.Description = 1. 地面を見ます。\n\
-2. 設定でブロックを配置して、道に使うブロックをカスタマイズします。\n\
-3. 描画キー（通常は右クリック）を押し続けて道を描き始めます。\n\
-4. ハーフブロックキー（通常は左クリック）を押し続けると、段差のある場所にハーフブロックを置いて滑らかにできます。\n\
+2. 設定にブロックを入れて、道に使うブロックをカスタマイズします。\n\
+3. 描画キー(通常は右クリック)を押し続けて、道を描き始めます。\n\
+4. ハーフブロックキー(通常は左クリック)を押し続けて、段差の近くにハーフブロックを置き、なだらかにします。\n\
 5. これで装飾付きの道ができました！
 legend.PathBrush.Page3.Title = 設定
-legend.PathBrush.Page3.PathBlocks.Title = 道ブロック:
-legend.PathBrush.Page3.PathBlocks.Description = - 道を構成するメインブロック。配置数を制御する密度スライダーがあります。
-legend.PathBrush.Page3.OutlineBlocks.Title = アウトラインブロック:
-legend.PathBrush.Page3.OutlineBlocks.Description = - 道のアウトラインに設置するブロック。配置数を制御する密度スライダーと、幅を制御する幅スライダーがあります。
+legend.PathBrush.Page3.PathBlocks.Title = 道のブロック:
+legend.PathBrush.Page3.PathBlocks.Description = - 道の本体を構成するブロック。設置量を調整する密度スライダーが付いています。
+legend.PathBrush.Page3.OutlineBlocks.Title = 縁のブロック:
+legend.PathBrush.Page3.OutlineBlocks.Description = - 道の縁に設置するブロック。設置量を調整する密度スライダーと、幅を調整する幅スライダーが付いています。
 legend.PathBrush.Page3.DecorationBlocks.Title = 装飾ブロック:
-legend.PathBrush.Page3.DecorationBlocks.Description = - 道に沿って装飾として追加するブロック。配置数を制御する密度スライダーと、幅を制御する幅スライダーがあります。
+legend.PathBrush.Page3.DecorationBlocks.Description = - 道沿いに装飾として追加するブロック。設置量を調整する密度スライダーと、幅を調整する幅スライダーが付いています。
 legend.PathBrush.Page3.HalfBlocks.Title = 道のハーフブロック:
-legend.PathBrush.Page3.HalfBlocks.Description = - 段差の近くに設置して滑らかにするハーフブロック。
-legend.PathBrush.Page3.ClearObstacles.Title = 障害物をクリア:
-legend.PathBrush.Page3.ClearObstacles.Description = - 有効にすると、道の邪魔になる障害物を削除します。
-legend.RiverBrush.Page1.Title = 川ブラシ
-legend.RiverBrush.Page1.Description = 川ブラシツールを使用すると、川や海を作成できます。
-legend.RiverBrush.Page1.DecorateArea = 狙っている場所に装飾を追加
-legend.RiverBrush.Page1.ShapeArea = 狙っている場所に川を引く
-legend.RiverBrush.Page2.BlockTip.Title = 川をカスタマイズ:
-legend.RiverBrush.Page2.BlockTip.Description = インベントリから設定にブロックをドラッグ＆ドロップすることで、川を構成するブロックをカスタマイズできます。\n\n設定のブロックをダブルクリックして削除することもできます。
-legend.RiverBrush.Page2.Example1.Title = 川/滝を作る:
-legend.RiverBrush.Page2.Example1.Description = 1. 地面を見ます。\n\
-2. 設定でブロックを配置して、川に使うブロックをカスタマイズします。\n\
-3. 描画キー（通常は右クリック）を押し続けて川を描き始めます。\n\
-4. 装飾キー（通常は左クリック）を押し続けると、川の側面・水中・水上に装飾を配置できます。\n\
+legend.PathBrush.Page3.HalfBlocks.Description = - 段差の近くに置いて、なだらかにするためのハーフブロック。
+legend.PathBrush.Page3.ClearObstacles.Title = 障害物を除去:
+legend.PathBrush.Page3.ClearObstacles.Description = - 有効にすると、道の途中にある障害物を取り除きます。
+legend.RiverBrush.Page1.Title = リバーブラシ
+legend.RiverBrush.Page1.Description = リバーブラシツールでは、川や海を作れます。
+legend.RiverBrush.Page1.DecorateArea = 狙った場所に装飾を追加する
+legend.RiverBrush.Page1.ShapeArea = 狙った場所に川を描く
+legend.RiverBrush.Page2.BlockTip.Title = 川のカスタマイズ:
+legend.RiverBrush.Page2.BlockTip.Description = インベントリから設定欄へブロックをドラッグ&ドロップすると、川を構成するブロックをカスタマイズできます。\n\nまた、設定欄のブロックをダブルクリックすると削除できます。
+legend.RiverBrush.Page2.Example1.Title = 川や滝を作る:
+legend.RiverBrush.Page2.Example1.Description = 1. 面を見ます。\n\
+2. 設定にブロックを入れて、川に使うブロックをカスタマイズします。\n\
+3. 描画キー(通常は右クリック)を押し続けて、川を描き始めます。\n\
+4. 装飾キー(通常は左クリック)を押し続けて、川の脇・水中・水面上に装飾を置きます。\n\
 5. これで川や滝ができました！
 legend.RiverBrush.Page3.Title = 設定
-legend.RiverBrush.Page3.FluidMaterial.Title = 流体素材:
-legend.RiverBrush.Page3.FluidMaterial.Description = - 川を構成する流体素材。
-legend.RiverBrush.Page3.SurfaceBlocks.Title = 流体上部のブロック:
-legend.RiverBrush.Page3.SurfaceBlocks.Description = - 川の流体の側面と下に設置するブロック。配置数を制御する密度スライダーと幅スライダーがあります。
-legend.RiverBrush.Page3.SubsurfaceBlocks.Title = 流体下部のブロック:
-legend.RiverBrush.Page3.SubsurfaceBlocks.Description = - 川の流体の下に設置するブロック。配置数を制御する密度スライダーがあります。
-legend.RiverBrush.Page3.UnderDecorations.Title = 流体下部の装飾:
-legend.RiverBrush.Page3.UnderDecorations.Description = - 流体の下に追加する装飾。配置数を制御する密度スライダーがあります。
-legend.RiverBrush.Page3.SideDecorations.Title = 流体側面の装飾:
-legend.RiverBrush.Page3.SideDecorations.Description = - 川の側面に追加する装飾。配置数を制御する密度スライダーがあります。
-legend.RiverBrush.Page3.TopDecorations.Title = 流体上面の装飾:
-legend.RiverBrush.Page3.TopDecorations.Description = - 川の上面に追加する装飾。配置数を制御する密度スライダーがあります。
-legend.SpiralBrush.Page1.Title = 螺旋ブラシ
-legend.SpiralBrush.Page1.Description = 螺旋ブラシツールを使用すると、螺旋や円形パターンを作成できます。
-legend.SpiralBrush.Page1.ShapeArea = 狙っている場所に螺旋を設置
-legend.SpiralBrush.Page2.BlockTip.Title = 螺旋をカスタマイズ:
-legend.SpiralBrush.Page2.BlockTip.Description = インベントリから設定にブロックをドラッグ＆ドロップすることで、螺旋を構成するブロックをカスタマイズできます。\n\n設定のブロックをダブルクリックして削除することもできます。
-legend.SpiralBrush.Page2.Example1.Title = カスタム螺旋を作る:
+legend.RiverBrush.Page3.FluidMaterial.Title = 液体の素材:
+legend.RiverBrush.Page3.FluidMaterial.Description = - 川を構成する液体の素材。
+legend.RiverBrush.Page3.SurfaceBlocks.Title = 液体より上のブロック:
+legend.RiverBrush.Page3.SurfaceBlocks.Description = - 川の液体の脇と下に設置するブロック。設置量を調整する密度スライダーと、幅を調整する幅スライダーが付いています。
+legend.RiverBrush.Page3.SubsurfaceBlocks.Title = 液体の下のブロック:
+legend.RiverBrush.Page3.SubsurfaceBlocks.Description = - 川の液体の下に設置するブロック。設置量を調整する密度スライダーが付いています。
+legend.RiverBrush.Page3.UnderDecorations.Title = 液体の下の装飾:
+legend.RiverBrush.Page3.UnderDecorations.Description = - 液体の下に追加する装飾。設置量を調整する密度スライダーが付いています。
+legend.RiverBrush.Page3.SideDecorations.Title = 液体の脇の装飾:
+legend.RiverBrush.Page3.SideDecorations.Description = - 川の脇に追加する装飾。設置量を調整する密度スライダーが付いています。
+legend.RiverBrush.Page3.TopDecorations.Title = 液体の上の装飾:
+legend.RiverBrush.Page3.TopDecorations.Description = - 川の上に追加する装飾。設置量を調整する密度スライダーが付いています。
+legend.SpiralBrush.Page1.Title = らせんブラシ
+legend.SpiralBrush.Page1.Description = らせんブラシツールでは、らせんや円形の模様を作れます。
+legend.SpiralBrush.Page1.ShapeArea = 狙った場所にらせんを設置する
+legend.SpiralBrush.Page2.BlockTip.Title = らせんのカスタマイズ:
+legend.SpiralBrush.Page2.BlockTip.Description = インベントリから設定欄へブロックをドラッグ&ドロップすると、らせんを構成するブロックをカスタマイズできます。\n\nまた、設定欄のブロックをダブルクリックすると削除できます。
+legend.SpiralBrush.Page2.Example1.Title = 自分好みのらせんを作る:
 legend.SpiralBrush.Page2.Example1.Description = 1. 面を見ます。\n\
-2. 設定にブロックを設置して、螺旋に使用するブロックをカスタマイズします。\n\
-3. 必要なポイント数に変更します。高いほど螺旋のポイントが多く、低いほど少なくなります。\n\
-4. 半径を15に設定します。これでツールの効果が分かりやすくなります。\n\
-5. 上向きの螺旋が必要な場合は、垂直間隔を0より大きくします。\n\
-6. フリップ、回転方向、または反転方向チェックボックスで螺旋の描画方向を変更できます。\n\
-7. 滑らかさを0より大きくすることで螺旋に平滑化を追加できます。\n\
-8. 中心を空洞にすることで螺旋の中心を空気で構成することもできます。\n\
-9. これで螺旋ができました！
+2. 設定にブロックを入れて、らせんに使うブロックをカスタマイズします。\n\
+3. ポイント数を好みの値に変更します。高いほどらせんのポイントが増え、低いほど減ります。\n\
+4. 半径を15にします。ツールの動きが分かる程度の大きさになります。\n\
+5. 上に伸びるらせんにしたい場合は、垂直方向の間隔を0より大きくします。\n\
+6. 反転、回転方向、方向を反転のチェックで、らせんの描かれ方を変えられます。\n\
+7. 滑らかさを0より大きくすると、らせんに滑らかさを加えられます。\n\
+8. 中心を中空にすると、らせんの中心を空気にできます。\n\
+9. これでらせんができました！
 legend.SpiralBrush.Page3.Title = 設定
 legend.SpiralBrush.Page3.NumberPoints.Title = ポイント数:
-legend.SpiralBrush.Page3.NumberPoints.Description = - 螺旋のポイント数。
+legend.SpiralBrush.Page3.NumberPoints.Description = - らせん上のポイントの数。
 legend.SpiralBrush.Page3.Radius.Title = 半径:
-legend.SpiralBrush.Page3.Radius.Description = - 螺旋の半径（幅）。
-legend.SpiralBrush.Page3.VerticalSpacing.Title = 垂直間隔:
-legend.SpiralBrush.Page3.VerticalSpacing.Description = - 螺旋の各ポイント間の距離（高さ）。
+legend.SpiralBrush.Page3.Radius.Description = - らせんの半径。らせんの広がりの大きさになります。
+legend.SpiralBrush.Page3.VerticalSpacing.Title = 垂直方向の間隔:
+legend.SpiralBrush.Page3.VerticalSpacing.Description = - らせんの各ポイント間の距離。らせんの高さになります。
 legend.SpiralBrush.Page3.Flip.Title = 反転
-legend.SpiralBrush.Page3.Flip.Description = - 螺旋を描く順序を反転します。
+legend.SpiralBrush.Page3.Flip.Description = - らせんが描かれる順序を反転します。
 legend.SpiralBrush.Page3.RotateDirection.Title = 回転方向
-legend.SpiralBrush.Page3.RotateDirection.Description = - 螺旋を180度回転させます。
+legend.SpiralBrush.Page3.RotateDirection.Description = - らせんを180度回転します。
 legend.SpiralBrush.Page3.InvertDirection.Title = 方向を反転
-legend.SpiralBrush.Page3.InvertDirection.Description = - 螺旋が描かれる方向を反転します。
+legend.SpiralBrush.Page3.InvertDirection.Description = - らせんが描かれる向きを反転します。
 legend.SpiralBrush.Page3.Smoothness.Title = 滑らかさ
-legend.SpiralBrush.Page3.Smoothness.Description = - 螺旋の滑らかさを制御します。高いほど滑らかで、低いほど粗くなります。
-legend.SpiralBrush.Page3.HollowCenter.Title = 中心を空洞にする
-legend.SpiralBrush.Page3.HollowCenter.Description = - 有効にすると、クリックした場所から螺旋の中心を空気で置き換えます。
-legend.RevolveTool.Page1.Title = 回転ツール
-legend.RevolveTool.Page1.Description = 回転ツールを使用すると、選択範囲を回転・貼り付けできます。このツールは選択範囲がある場合にのみ機能します。
-legend.RevolveTool.Page1.ShapeArea = 回転を実行します。設定に応じて、狙っている場所またはあなた自身の周りで回転します。
-legend.RevolveTool.Page2.Example1.Title = ブラシで回転する:
-legend.RevolveTool.Page2.Example1.Description = 1. 回転させたい選択範囲を作ります。\n\
-2. 回転ツールを装備します。\n\
-3. 設定を希望通りに設定します。\n\
-4. ブラシを選択範囲を回転させたい場所に向けます。\n\
-5. 回転キー（通常は右クリック）を押します。\n\
-6. 選択範囲が回転しました！
-legend.RevolveTool.Page2.Example2.Title = 自分の周りで完全な円を作る:
-legend.RevolveTool.Page2.Example2.Description = 1. 回転させたい選択範囲を作ります。\n\
-2. 回転ツールを装備します。\n\
-3. 「完全回転」設定をチェックし、ターゲットをプレイヤー（自分）に変更します。\n\
-4. 選択範囲から少し離れた場所に移動します。\n\
-5. 回転キー（通常は右クリック）を押します。\n\
-6. 選択範囲が自分の周りで完全に回転しました！
+legend.SpiralBrush.Page3.Smoothness.Description = - らせんの滑らかさを設定します。高いほど滑らかに、低いほど粗くなります。
+legend.SpiralBrush.Page3.HollowCenter.Title = 中心を中空にする
+legend.SpiralBrush.Page3.HollowCenter.Description = - 有効にすると、クリックした位置かららせんの中心を空気に置き換えます。
+legend.RevolveTool.Page1.Title = 回転配置ツール
+legend.RevolveTool.Page1.Description = 回転配置ツールでは、選択範囲を回転させながら貼り付けられます。選択範囲がある場合のみ機能します。
+legend.RevolveTool.Page1.ShapeArea = 回転配置を実行します。設定によって、狙った場所を中心に回すか、自分を中心に回すかが決まります。
+legend.RevolveTool.Page2.Example1.Title = ブラシで回転配置する:
+legend.RevolveTool.Page2.Example1.Description = 1. 回転配置したい範囲を選択します。\n\
+2. 回転配置ツールを装備します。\n\
+3. 設定を好みに合わせます。\n\
+4. 選択範囲を回したい中心にブラシを向けます。\n\
+5. 回転配置キー(通常は右クリック)を押します。\n\
+6. これで選択範囲を回転配置できました！
+legend.RevolveTool.Page2.Example2.Title = 自分の周りに一周させる:
+legend.RevolveTool.Page2.Example2.Description = 1. 回転配置したい範囲を選択します。\n\
+2. 回転配置ツールを装備します。\n\
+3. 「全周に配置」にチェックを入れ、中心を「プレイヤー(自分)」に変更します。\n\
+4. 選択範囲から少し離れた位置に移動します。\n\
+5. 回転配置キー(通常は右クリック)を押します。\n\
+6. これで自分の周りに選択範囲を一周させられました！
 legend.RevolveTool.Page3.Title = 設定
-legend.RevolveTool.Page3.Sampling.Title = 充填戦略:
-legend.RevolveTool.Page3.Sampling.Description = - 回転の穴を充填する戦略。回転により穴が生じることがあり、これで充填を試みます。
-legend.RevolveTool.Page3.FullyRevolve.Title = 完全回転:
-legend.RevolveTool.Page3.FullyRevolve.Description = - 選択範囲を完全に円形に回転させます。貼り付け回数を無視して選択範囲を完全に回転させます。
+legend.RevolveTool.Page3.Sampling.Title = 充填の方式:
+legend.RevolveTool.Page3.Sampling.Description = - 回転配置でできた隙間を埋める方式。回転配置では隙間ができることがあり、それを埋めようとします。
+legend.RevolveTool.Page3.FullyRevolve.Title = 全周に配置:
+legend.RevolveTool.Page3.FullyRevolve.Description = - 選択範囲を円状に一周させて配置します。貼り付け回数の設定は無視されます。
 legend.RevolveTool.Page3.PlaceCount.Title = 貼り付け回数:
-legend.RevolveTool.Page3.PlaceCount.Description = - 回転で選択範囲を貼り付ける回数を制御します。例えば5に設定すると選択範囲が5回貼り付けられます。
-legend.RevolveTool.Page3.CenterAround.Title = 中心:
-legend.RevolveTool.Page3.CenterAround.Description = - 回転する対象を制御します。ブラシターゲット = ブラシが向いている場所の周りで回転、プレイヤー（自分）= 自分の位置の周りで回転。
+legend.RevolveTool.Page3.PlaceCount.Description = - 回転配置で選択範囲を何回貼り付けるかを設定します。たとえば5に設定すると5回貼り付けられます。
+legend.RevolveTool.Page3.CenterAround.Title = 回転の中心:
+legend.RevolveTool.Page3.CenterAround.Description = - 回転の中心となる対象を設定します。ブラシの対象位置=ブラシを向けた場所を中心に回し、プレイヤー(自分)=自分の位置を中心に回します。
 legend.RevolveTool.Page3.UseCustomDistance.Title = カスタム半径を使用:
-legend.RevolveTool.Page3.UseCustomDistance.Description = - 狙った場所に選択範囲を貼り付け・回転させ、カスタム半径で中心からの距離を制御します。
+legend.RevolveTool.Page3.UseCustomDistance.Description = - 狙った場所に選択範囲を貼り付けて回転配置し、カスタム半径で中心からの間隔を調整します。
 legend.RevolveTool.Page3.PlaceDistance.Title = カスタム半径:
-legend.RevolveTool.Page3.PlaceDistance.Description = - 中心と回転ポイント間の距離を制御する半径。高いほど広く、低いほど狭くなります。
-legend.RevolveTool.Page4.Title = 設定（2/2）
+legend.RevolveTool.Page3.PlaceDistance.Description = - 中心と回転配置のポイントとの間隔を調整する半径。高いほど広く、低いほど狭くなります。
+legend.RevolveTool.Page4.Title = 設定 (2/2)
 legend.LineBrush.Page1.Title = ラインブラシ
-legend.LineBrush.Page1.Description = ブロックで直線を作成できます。
-legend.LineBrush.Page1.StartOrAddPoint = ラインのポイントを開始または追加
-legend.LineBrush.Page1.CancelLine = ラインをキャンセル
-legend.LineBrush.Page1.SnapToAngles = 押し続けると異なる45°角度へのスナップが有効になります
-legend.LineBrush.Page1.EditInventoryProperties = インベントリから素材、サイズ、その他のプロパティを編集
+legend.LineBrush.Page1.Description = ブロックでまっすぐな線を作れます。
+legend.LineBrush.Page1.StartOrAddPoint = 線を開始する、または線にポイントを追加する
+legend.LineBrush.Page1.CancelLine = 線をキャンセル
+legend.LineBrush.Page1.SnapToAngles = 押している間、45度単位のスナップを有効にする
+legend.LineBrush.Page1.EditInventoryProperties = インベントリから素材・サイズなどのプロパティを編集
 legend.MachinimaTool.Page1.Title = はじめに
-legend.MachinimaTool.Page1.Description = アクター、カメラ、パーティクル、サウンドなどを使ってキーフレームアニメーションを作成しましょう！シネマティクスやカットシーンに最適です。
-legend.MachinimaTool.Page1.OpensMenu = マシニマエディターUIを開く
-legend.MachinimaTool.Page1.BaseCommand = すべてのマシニマ操作のベースコマンド
+legend.MachinimaTool.Page1.Description = アクター、カメラ、パーティクル、サウンドなどを使ってキーフレームアニメーションを作れます！シネマティックやカットシーンに最適です。
+legend.MachinimaTool.Page1.OpensMenu = マシニマエディターのUIを開く
+legend.MachinimaTool.Page1.BaseCommand = すべてのマシニマ操作の基本コマンド
 legend.MachinimaTool.Page1.Scenes = シーン\n\
-シーンはマシニマのコンテナです。すべてのアクター、キーフレーム、設定を格納します。
-legend.MachinimaTool.Page1.CreatingFirstScene = 最初のシーンを作成する\n\
-1. マシニマに良い場所を見つけます\n\
+シーンはマシニマの入れ物です。すべてのアクター、キーフレーム、設定を保持します。
+legend.MachinimaTool.Page1.CreatingFirstScene = 最初のシーンを作る\n\
+1. マシニマに適した場所を見つけます\n\
 2. マシニマメニューを開きます\n\
-3. +アイコンをクリックして新しいシーンを作成します\n\
+3. + アイコンをクリックして新しいシーンを作成します\n\
 4. 最初のアクターを追加しましょう！
 legend.MachinimaTool.Page1.Actors = アクター\n\
-アクターはキーフレームアニメーション可能なオブジェクトです。次のページでアクタータイプを確認してください。
+アクターはキーフレームでアニメーションできるオブジェクトです。アクターの種類は次のページを参照してください。
 legend.MachinimaTool.Page1.AddingCameraActor = カメラアクターを追加する\n\
-1. カメラを置きたい場所に位置取ります\n\
+1. カメラを置きたい位置に自分を移動します\n\
 2. マシニマメニューを開きます\n\
-3. シーンリストの下の+アイコンをクリックします\n\
-4. ドロップダウンから「カメラ」を選択します\n\
-5. カメラをクリックして位置を変更でき、Cを押してカメラビューを切り替えられます！
-legend.MachinimaTool.Page2.Title = アクタータイプ
-legend.MachinimaTool.Page2.Description = アクタータイプによってマシニマでの役割が異なります。すべてが位置、回転、その他の値を制御できるアニメーション可能なオブジェクトです。アクターはマシニマメニューから追加します
+3. シーン一覧の下にある + アイコンをクリックします\n\
+4. ドロップダウンから「Camera」を選びます\n\
+5. これでカメラをクリックして位置を変えたり、Cキーでカメラ視点を切り替えたりできます！
+legend.MachinimaTool.Page2.Title = アクターの種類
+legend.MachinimaTool.Page2.Description = アクターの種類によって、マシニマでの役割が異なります。いずれも位置・回転などの値を制御できるアニメーション可能なオブジェクトです。アクターはマシニマメニューから追加します
 legend.MachinimaTool.Page2.CameraHeader = カメラ
-legend.MachinimaTool.Page2.CameraDesc = カメラをパスに沿って移動させ、FOVや速度などの様々な設定をアニメーションできます。
+legend.MachinimaTool.Page2.CameraDesc = カメラをパスに沿って動かし、視野角や速度などの設定をアニメーションできます。
 legend.MachinimaTool.Page2.EntityHeader = エンティティ
-legend.MachinimaTool.Page2.EntityDesc = モデルを持つアニメーション可能なキャラクター。体/頭の回転とアニメーションイベントをサポートします。
+legend.MachinimaTool.Page2.EntityDesc = モデルを持つアニメーションキャラクター。胴体・頭部の回転やアニメーションイベントに対応します。
 legend.MachinimaTool.Page2.PlayerHeader = プレイヤー
 legend.MachinimaTool.Page2.PlayerDesc = エンティティと同様で、ローカルプレイヤーを参照します。
 legend.MachinimaTool.Page2.ReferenceHeader = リファレンス
-legend.MachinimaTool.Page2.ReferenceDesc = 不可視のマーカーポイント。ターゲットや参照位置に便利です。カメラターゲットをポイントに追従させることができます。
+legend.MachinimaTool.Page2.ReferenceDesc = 目に見えないマーカー地点。ターゲットや基準位置に便利です。カメラのターゲットに設定して追跡させられます。
 legend.MachinimaTool.Page2.ItemHeader = アイテム
-legend.MachinimaTool.Page2.ItemDesc = ワールドにアイテムを表示します。位置を変えてアニメーションできます。
+legend.MachinimaTool.Page2.ItemDesc = ワールドにアイテムを表示します。配置やアニメーションが可能です。
 legend.MachinimaTool.Page2.AddActorCommand = コマンド: .mach actor add [type] [name]\n\
-タイプ: camera, entity, player, ref, item
+種類: camera、entity、player、ref、item
 legend.MachinimaTool.Page3.Title = 再生コントロール
-legend.MachinimaTool.Page3.Description = 再生コントロールを使用すると、すべてのアクターをキーフレームパスに沿ってアニメーションさせてシーンをプレビューできます。時間をスクラブしたり、キーフレーム間をジャンプしたり、アニメーションをテストするために使用します。すべてのフレームでキーフレームパスに沿ってすべてのアクターが更新されます。
+legend.MachinimaTool.Page3.Description = 再生コントロールでは、すべてのアクターをキーフレームのパスに沿って動かし、シーンをプレビューできます。時間の移動、キーフレーム間のジャンプ、アニメーションの確認に使います。各フレームで、すべてのアクターがキーフレームのパスに沿って更新され、アニメーションが実行されます。
 legend.MachinimaTool.Page3.TogglePause = 再生/一時停止を切り替え
-legend.MachinimaTool.Page3.ContinuousPlayback = 連続再生を切り替え（ループ）
-legend.MachinimaTool.Page3.AutoRestart = シーン終了時の自動再起動を切り替え
-legend.MachinimaTool.Page3.RestartScene = シーンを最初から再起動
-legend.MachinimaTool.Page3.EndScene = 最終フレームにスキップ
-legend.MachinimaTool.Page3.NavigationTitle = フレームナビゲーション:
-legend.MachinimaTool.Page3.FrameScrub = フレームをスクラブ（押し続けると連続）
-legend.MachinimaTool.Page3.JumpKeyframe = 前/次のキーフレームポイントにジャンプ
-legend.MachinimaTool.Page3.SpeedModifiers = Shiftで2倍速、Altで0.5倍速
-legend.MachinimaTool.Page4.Title = キーフレーム編集
-legend.MachinimaTool.Page4.Description = キーフレームはアクターの位置、回転、設定を特定の時点で定義します。システムはキーフレーム間を補間して滑らかなアニメーションパスを作成します。キーフレームを追加してモーションを作り、編集してタイミングと位置を調整します。
-legend.MachinimaTool.Page4.AddKeyframe = アクタートラックの末尾に新しいキーフレームを追加し、アニメーションを延長
-legend.MachinimaTool.Page4.AddAtCurrentFrame = 現在の再生位置にキーフレームを挿入
-legend.MachinimaTool.Page4.CopyKeyframe = 選択したキーフレームの設定をコピーして別のアクターやフレームに貼り付け
-legend.MachinimaTool.Page4.DeleteKeyframe = ホバーしているキーフレームを削除
-legend.MachinimaTool.Page4.EditKeyframe = ギズモを開いてキーフレームの位置と回転を調整
-legend.MachinimaTool.Page4.MoveActor = アクターパス全体を一括で移動
-legend.MachinimaTool.Page4.EditFrameTime = このキーフレームがタイムラインで発生する時刻を変更
-legend.MachinimaTool.Page4.AdjustFrameTime = キーフレームのタイミングを前後に微調整
+legend.MachinimaTool.Page3.ContinuousPlayback = 連続再生(ループ)を切り替え
+legend.MachinimaTool.Page3.AutoRestart = シーン終了時の自動リスタートを切り替え
+legend.MachinimaTool.Page3.RestartScene = シーンを最初から再生し直す
+legend.MachinimaTool.Page3.EndScene = 最終フレームへスキップ
+legend.MachinimaTool.Page3.NavigationTitle = フレーム移動:
+legend.MachinimaTool.Page3.FrameScrub = フレームを移動(押し続けると連続移動)
+legend.MachinimaTool.Page3.JumpKeyframe = 前/次のキーフレームへジャンプ
+legend.MachinimaTool.Page3.SpeedModifiers = SHIFTで2倍速、ALTで0.5倍速
+legend.MachinimaTool.Page4.Title = キーフレームの編集
+legend.MachinimaTool.Page4.Description = キーフレームは、特定の時点でのアクターの位置・回転・設定を定義します。キーフレーム間は補間され、滑らかなアニメーションのパスが作られます。キーフレームを追加して動きを作り、編集してタイミングや位置を調整しましょう。
+legend.MachinimaTool.Page4.AddKeyframe = アクターのトラックの末尾に新しいキーフレームを追加し、アニメーションを延長する
+legend.MachinimaTool.Page4.AddAtCurrentFrame = 現在の再生位置にキーフレームを挿入する
+legend.MachinimaTool.Page4.CopyKeyframe = 選択したキーフレームの設定をコピーし、別のアクターやフレームに貼り付ける
+legend.MachinimaTool.Page4.DeleteKeyframe = カーソルを合わせているキーフレームを削除する
+legend.MachinimaTool.Page4.EditKeyframe = ギズモを開いてキーフレームの位置と回転を調整する
+legend.MachinimaTool.Page4.MoveActor = アクターのパス全体をまとめて移動する
+legend.MachinimaTool.Page4.EditFrameTime = このキーフレームがタイムライン上のいつ発生するかを変更する
+legend.MachinimaTool.Page4.AdjustFrameTime = キーフレームのタイミングを前後に微調整する
 legend.MachinimaTool.Page5.Title = マウス操作
-legend.MachinimaTool.Page5.Description = ワールドのキーフレームノードをクリックして操作:
-legend.MachinimaTool.Page5.SelectKeyframe = キーフレームを選択（自由移動モードに入る）
-legend.MachinimaTool.Page5.JumpToKeyframe = アクティブに設定してフレームにジャンプ
-legend.MachinimaTool.Page5.GizmoTitle = ギズモコントロール:
-legend.MachinimaTool.Page5.TranslationGizmo = 移動ギズモを開く（軸ロック）
-legend.MachinimaTool.Page5.RotationGizmo = 回転ギズモを開く（頭/体）
+legend.MachinimaTool.Page5.Description = ワールド内のキーフレームノードをクリックして操作します:
+legend.MachinimaTool.Page5.SelectKeyframe = キーフレームを選択(自由移動モードに入る)
+legend.MachinimaTool.Page5.JumpToKeyframe = アクティブに設定してそのフレームへジャンプ
+legend.MachinimaTool.Page5.GizmoTitle = ギズモ操作:
+legend.MachinimaTool.Page5.TranslationGizmo = 移動ギズモを開く(軸ロック)
+legend.MachinimaTool.Page5.RotationGizmo = 回転ギズモを開く(頭部/胴体)
 legend.MachinimaTool.Page5.FreeMoveTitle = 自由移動モード:
-legend.MachinimaTool.Page5.FreeMoveDescription = 左クリックで位置を確定、右クリックでキャンセル。\n\
-Shiftを押しながら距離でサーフェスにスナップ。\n\
-Altを押しながらサーフェススナップを無視。
+legend.MachinimaTool.Page5.FreeMoveDescription = 左クリックで位置を確定、右クリックでキャンセルします。\n\
+SHIFTを押している間は、離れた面にスナップします。\n\
+ALTを押している間は、面へのスナップを無視します。
 legend.MachinimaTool.Page6.Title = 選択モード
-legend.MachinimaTool.Page6.Description = 選択モードは変形ツール使用時に何が移動するかを決定します。再配置したい対象に応じて適切なモードを選択してください。
-legend.MachinimaTool.Page6.CycleMode = 選択モードを切り替え
-legend.MachinimaTool.Page6.KeyframeModeTitle = キーフレームモード（デフォルト）
-legend.MachinimaTool.Page6.KeyframeModeDesc = 選択したキーフレームのみを移動します。他のキーフレームに影響を与えずにアクターパス上の個々のポイントを正確に調整するのに使用します。
+legend.MachinimaTool.Page6.Description = 選択モードによって、変形ツール使用時に何が動くかが決まります。動かしたい対象に応じて適切なモードを選んでください。
+legend.MachinimaTool.Page6.CycleMode = 選択モードを順に切り替え
+legend.MachinimaTool.Page6.KeyframeModeTitle = キーフレームモード(デフォルト)
+legend.MachinimaTool.Page6.KeyframeModeDesc = 選択したキーフレームのみを移動します。他のキーフレームに影響を与えず、アクターのパス上の個々の点を細かく調整するのに使います。
 legend.MachinimaTool.Page6.ActorModeTitle = アクターモード
-legend.MachinimaTool.Page6.ActorModeDesc = 選択したアクターのすべてのキーフレームを一緒に移動します。パス全体が一単位としてシフトされ、アニメーションの形状が保たれます。
+legend.MachinimaTool.Page6.ActorModeDesc = 選択したアクターのすべてのキーフレームをまとめて移動します。パス全体が一体として動くため、アニメーションの形は保たれます。
 legend.MachinimaTool.Page6.SceneModeTitle = シーンモード
-legend.MachinimaTool.Page6.SceneModeDesc = シーン全体の原点を移動し、すべてのアクターとそのパスを一緒にシフトします。マシニマ全体を別のエリアに移動するのに便利です。
-legend.MachinimaTool.Page7.Title = 表示 & 原点
-legend.MachinimaTool.Page7.DisplayTitle = 表示切り替え:
-legend.MachinimaTool.Page7.ToggleDisplay = エディターオーバーレイ表示を切り替え
-legend.MachinimaTool.Page7.TogglePathNodes = パスノードの表示を切り替え
+legend.MachinimaTool.Page6.SceneModeDesc = シーンの原点を移動し、すべてのアクターとそのパスをまとめて動かします。マシニマ全体を別の場所へ移すときに便利です。
+legend.MachinimaTool.Page7.Title = 表示と原点
+legend.MachinimaTool.Page7.DisplayTitle = 表示の切り替え:
+legend.MachinimaTool.Page7.ToggleDisplay = エディターのオーバーレイ表示を切り替え
+legend.MachinimaTool.Page7.TogglePathNodes = パスのノード表示を切り替え
 legend.MachinimaTool.Page7.ToggleCamera = カメラアクターのオン/オフを切り替え
-legend.MachinimaTool.Page7.ToggleFrustum = カメラフラスタム表示を切り替え
-legend.MachinimaTool.Page7.OriginTitle = シーン原点コントロール:
-legend.MachinimaTool.Page7.GoToOrigin = シーン原点にテレポート
-legend.MachinimaTool.Page7.SetOrigin = シーン原点をプレイヤー位置に設定
-legend.MachinimaTool.Page7.OffsetToOrigin = シーン全体をプレイヤー位置にオフセット
-legend.MachinimaTool.Page8.Title = パス & カーブ
-legend.MachinimaTool.Page8.Description = キーフレームの補間方法を選択:
-legend.MachinimaTool.Page8.LinearHeader = リニア（デフォルト）
-legend.MachinimaTool.Page8.LinearDesc = キーフレーム間の直線。シンプルで予測可能な移動。
+legend.MachinimaTool.Page7.ToggleFrustum = カメラの視錐台表示を切り替え
+legend.MachinimaTool.Page7.OriginTitle = シーン原点の操作:
+legend.MachinimaTool.Page7.GoToOrigin = シーンの原点にテレポート
+legend.MachinimaTool.Page7.SetOrigin = シーンの原点をプレイヤーの位置に設定
+legend.MachinimaTool.Page7.OffsetToOrigin = シーン全体をプレイヤーの位置にオフセット
+legend.MachinimaTool.Page8.Title = パスとカーブ
+legend.MachinimaTool.Page8.Description = キーフレームの補間方法を選びます:
+legend.MachinimaTool.Page8.LinearHeader = 直線(デフォルト)
+legend.MachinimaTool.Page8.LinearDesc = キーフレーム間を直線でつなぎます。単純で予測しやすい動きになります。
 legend.MachinimaTool.Page8.BezierHeader = ベジェ
-legend.MachinimaTool.Page8.BezierDesc = ドラッグしてパスを形成できるコントロールハンドル付きの滑らかなカーブ。
+legend.MachinimaTool.Page8.BezierDesc = ドラッグして形を整えられる制御ハンドル付きの滑らかなカーブです。
 legend.MachinimaTool.Page8.SplineHeader = スプライン
-legend.MachinimaTool.Page8.SplineDesc = すべてのキーフレームを通る自動的な滑らかなカーブ。
-legend.MachinimaTool.Page8.BezierCommands = パスコマンド:
+legend.MachinimaTool.Page8.SplineDesc = すべてのキーフレームを通る、自動的に滑らかなカーブです。
+legend.MachinimaTool.Page8.BezierCommands = パスのコマンド:
 legend.MachinimaTool.Page8.EnableBezier = ベジェを有効にする
 legend.MachinimaTool.Page8.SmoothBezier = ハンドルを滑らかにする
 legend.MachinimaTool.Page8.EnableSpline = スプラインを有効にする
@@ -582,268 +582,268 @@ legend.MachinimaTool.Page9.Title = コンソールコマンド
 legend.MachinimaTool.Page9.SceneCommands = シーン: .mach scene [load | copy | rename]
 legend.MachinimaTool.Page9.ActorCommands = アクター: .mach actor [list | add | remove | set | model | move | clone | rotate | scale | clear]
 legend.MachinimaTool.Page9.EventCommands = イベント: .mach event [list | add | remove]\n\
-イベントタイプ: animation, camera, command, particle, target
+イベントの種類: animation、camera、command、particle、target
 legend.MachinimaTool.Page9.FileCommands = ファイル: .mach save | load | files | autosave [seconds]
 legend.MachinimaTool.Page9.UtilityCommands = ユーティリティ: .mach tool | speed [value] | align | restart
 legend.PasteTool.Page1.Title = プレハブ貼り付けブラシ
-legend.PasteTool.Page1.Description = ブラシのようにプレハブを素早く貼り付けられます。ペイントブラシのほとんどの機能をサポートします。
-legend.PasteTool.Page1.LoadPrefabOrCopy = プレハブを読み込むかコピーした選択範囲を使用
-legend.PasteTool.Page1.UseSelectionContents = 選択範囲の内容を使用するには、選択ツールで範囲を選択し、「/copy」と入力してから、ペーストツールに戻ってコピーした内容を使用してください
-legend.PasteTool.Page1.OpensPrefabList = プレハブリストを開く。クリックして読み込みます
-legend.PasteTool.Page1.PastePrefab = プレハブを貼り付ける。押し続けるとブラシで貼り付けます
-legend.PasteTool.Page1.StickPrefab = プレハブをターゲットに固定するか、すでに固定されていれば解除
-legend.PasteTool.Page1.RotatePrefabY = Y軸で回転
-legend.PasteTool.Page1.RotatePrefabLookAxis = 視線軸を中心に回転
-legend.PasteTool.Page1.FlipPrefab = 前方軸に沿ってプレハブを反転
-legend.PasteTool.Page1.CyclePreviewMode = プレビューモードを切り替え（ブロック / アウトライン / ターゲット）
-legend.PasteTool.Page1.CycleOrigin = 原点を切り替え（底/中央/上）
-legend.PasteTool.Page2.Title = モディファイヤーキー
-legend.PasteTool.Page2.ShiftPrefabLeftRight = プレハブを左右にシフト
-legend.PasteTool.Page2.ShiftPrefabForwardBackward = プレハブを前後にシフト
-legend.PasteTool.Page2.ShiftPrefabUp = プレハブを上にシフト
-legend.PasteTool.Page2.ShiftPrefabDown = プレハブを下にシフト
-legend.PasteTool.Page2.ResetShifting = シフトをリセット
+legend.PasteTool.Page1.Description = ブラシのように素早くプレハブを貼り付けられます。ペイントブラシのほとんどの機能に対応しています。
+legend.PasteTool.Page1.LoadPrefabOrCopy = プレハブを読み込むか、選択範囲をコピーする
+legend.PasteTool.Page1.UseSelectionContents = 選択範囲の内容を使うには、選択ツールで範囲を選んで "/copy" と入力し、ペーストツールに戻ってコピーを使用してください
+legend.PasteTool.Page1.OpensPrefabList = プレハブ一覧を開く。プレハブをクリックすると読み込まれます
+legend.PasteTool.Page1.PastePrefab = プレハブを貼り付ける。押し続けるとブラシのように連続で貼り付けます
+legend.PasteTool.Page1.StickPrefab = プレハブを対象に貼り付ける(すでに貼り付いている場合は解除)
+legend.PasteTool.Page1.RotatePrefabY = Y軸まわりに回転
+legend.PasteTool.Page1.RotatePrefabLookAxis = 視線軸まわりに回転
+legend.PasteTool.Page1.FlipPrefab = 正面軸でプレハブを反転
+legend.PasteTool.Page1.CyclePreviewMode = プレビューモードを切り替え(ブロック/輪郭/ターゲット)
+legend.PasteTool.Page1.CycleOrigin = 原点を切り替え(下/中央/上)
+legend.PasteTool.Page2.Title = 修飾キー
+legend.PasteTool.Page2.ShiftPrefabLeftRight = プレハブを左右にずらす
+legend.PasteTool.Page2.ShiftPrefabForwardBackward = プレハブを前後にずらす
+legend.PasteTool.Page2.ShiftPrefabUp = プレハブを上にずらす
+legend.PasteTool.Page2.ShiftPrefabDown = プレハブを下にずらす
+legend.PasteTool.Page2.ResetShifting = ずらしをリセット
 legend.PasteTool.Page2.ResetRotation = 回転をリセット
-legend.TintBrush.Page1.Title = 色付けブラシ
-legend.TintBrush.Page1.Description = ブロックに色をペイントまたはブレンドできます。
-legend.TintBrush.Page1.BlendTints = 狙っている場所の色をブレンド
-legend.TintBrush.Page1.PaintTints = 狙っている場所に色をペイント
-legend.TintBrush.Page1.PickColor = ターゲットから色をコピー
-legend.TintBrush.Page1.UndoLastBrush = 最後のブラシ操作を元に戻す
-legend.TintBrush.Page1.RedoLastUndo = 最後に元に戻した操作をやり直す
-legend.TintBrush.Page1.EditInventoryProperties = インベントリから色、不透明度、サイズ、形状を編集
+legend.TintBrush.Page1.Title = 色合いブラシ
+legend.TintBrush.Page1.Description = ブロックの色合いを塗ったり、なじませたりできます。
+legend.TintBrush.Page1.BlendTints = 狙った場所の色合いをなじませる
+legend.TintBrush.Page1.PaintTints = 狙った場所に自分の色を塗る
+legend.TintBrush.Page1.PickColor = 対象から色合いをコピーする
+legend.TintBrush.Page1.UndoLastBrush = 直前のブラシ操作を元に戻す
+legend.TintBrush.Page1.RedoLastUndo = 直前に取り消した操作をやり直す
+legend.TintBrush.Page1.EditInventoryProperties = インベントリから色・不透明度・サイズ・形状を編集
 legend.SculptBrush.Page1.Title = スカルプトブラシ
-legend.SculptBrush.Page1.Description = 地形を正確に彫刻してブレンドするために地形を持ち上げたり下げたりできます。ペイントブラシのほとんどの機能をサポートします。
-legend.SculptBrush.Page1.MeltAwayBlocks = 狙っている場所のブロックをレイヤーごとに溶かして除去
-legend.SculptBrush.Page1.RaiseLayer = 狙っている場所のブロック層を持ち上げる
-legend.SculptBrush.Page1.Smooth = 荒い地形を滑らかにする
-legend.SculptBrush.Page1.MaterialSelectedDescription = 素材が選択されているとき、狙っている場所にその素材のレイヤーを設置します
-legend.SculptBrush.Page1.SelectTargetMaterial = ターゲット素材を選択
-legend.SculptBrush.Page1.UndoLastBrush = 最後のブラシ操作を元に戻す
-legend.SculptBrush.Page1.RedoLastUndo = 最後に元に戻した操作をやり直す
-legend.SculptBrush.Page1.EditInventoryProperties = インベントリから素材、サイズ、形状などのプロパティを編集
+legend.SculptBrush.Page1.Description = 地形を隆起・沈降させ、形をより正確に彫ったりなじませたりできます。ペイントブラシのほとんどの機能に対応しています。
+legend.SculptBrush.Page1.MeltAwayBlocks = 狙った場所のブロックを層ごとに削り取る
+legend.SculptBrush.Page1.RaiseLayer = 狙った場所にブロックの層を盛り上げる
+legend.SculptBrush.Page1.Smooth = 粗い地形を滑らかにする
+legend.SculptBrush.Page1.MaterialSelectedDescription = 素材を選択している場合、狙った場所にその素材の層を設置します
+legend.SculptBrush.Page1.SelectTargetMaterial = 狙った素材を選択
+legend.SculptBrush.Page1.UndoLastBrush = 直前のブラシ操作を元に戻す
+legend.SculptBrush.Page1.RedoLastUndo = 直前に取り消した操作をやり直す
+legend.SculptBrush.Page1.EditInventoryProperties = インベントリから素材・サイズ・形状などのプロパティを編集
 legend.SculptBrush.Page2.Title = サンプリング
-legend.SculptBrush.Page2.Intro = 平滑化の際に周囲のブロックがどのように重み付けされるか。
+legend.SculptBrush.Page2.Intro = 平滑化の際に周囲のブロックをどう重み付けするか。
 legend.SculptBrush.Page2.Normal.Name = 通常
-legend.SculptBrush.Page2.Normal.Description = 面の重みが最も大きく、辺は小さめ、角が最も小さくなります。
+legend.SculptBrush.Page2.Normal.Description = 面を最も重視し、辺は中程度、角は最も軽く重み付けします。
 legend.SculptBrush.Page2.Uniform.Name = 均一
-legend.SculptBrush.Page2.Uniform.Description = 26個の隣接ブロックすべてを均等に重み付けします。
-legend.SculptBrush.Page2.Gaussian.Name = ガウス
-legend.SculptBrush.Page2.Gaussian.Description = 通常よりも中心の重みが大きくなります。
-legend.SculptBrush.Page2.Neighbor.Name = 近接
-legend.SculptBrush.Page2.Neighbor.Description = 直接隣接する6つの面のみを対象にします。
-legend.SculptBrush.Page2.Square.Name = 四角
-legend.SculptBrush.Page2.Square.Description = 隣接と似ていますが、より広い直方体の範囲をサンプリングします。
-legend.SelectionTool.Page1.Title = 基本的な選択
-legend.SelectionTool.Page1.CreatingSelection = 選択範囲を作成する:
-legend.SelectionTool.Page1.HoldAndDrag = 1. 押し続けてドラッグして最初の軸を選択し、離す
-legend.SelectionTool.Page1.AdjustAndClick = 2. マウスを調整し、もう一度クリックして3つ目の次元を設定
-legend.SelectionTool.Page1.ClearSelection = 選択をクリア
-legend.SelectionTool.Page1.ClickDragPanels = 選択パネルをクリック＆ドラッグ
-legend.SelectionTool.Page1.ChangeSelectionSize = 選択サイズを変更
-legend.SelectionTool.Page1.MoveSelection = 選択を移動
+legend.SculptBrush.Page2.Uniform.Description = 26個の隣接ブロックすべてを等しく重み付けします。
+legend.SculptBrush.Page2.Gaussian.Name = ガウシアン
+legend.SculptBrush.Page2.Gaussian.Description = 通常よりも中心を重視します。
+legend.SculptBrush.Page2.Neighbor.Name = 近傍
+legend.SculptBrush.Page2.Neighbor.Description = 面で直接接する6方向のみを対象にします。
+legend.SculptBrush.Page2.Square.Name = 角形
+legend.SculptBrush.Page2.Square.Description = 近傍と似ていますが、より広い直方体の範囲をサンプリングします。
+legend.SelectionTool.Page1.Title = 基本の選択
+legend.SelectionTool.Page1.CreatingSelection = 選択範囲の作り方:
+legend.SelectionTool.Page1.HoldAndDrag = 1. 押しながらドラッグして最初の軸を選び、離します
+legend.SelectionTool.Page1.AdjustAndClick = 2. マウスを動かして調整し、もう一度クリックして3つ目の寸法を決めます
+legend.SelectionTool.Page1.ClearSelection = 選択範囲を解除
+legend.SelectionTool.Page1.ClickDragPanels = 選択パネルをクリック&ドラッグ
+legend.SelectionTool.Page1.ChangeSelectionSize = 選択範囲のサイズを変更
+legend.SelectionTool.Page1.MoveSelection = 選択範囲を移動
 legend.SelectionTool.Page1.ExtrudeFace = 面を押し出す
-legend.SelectionTool.Page1.MultipleSelections = 複数の選択:
-legend.SelectionTool.Page1.NextSelection = 次の選択
-legend.SelectionTool.Page1.PreviousSelection = 前の選択
-legend.SelectionTool.Page1.SetRedPoint = ターゲットに赤ポイントを設定
-legend.SelectionTool.Page1.SetGreenPoint = ターゲットに緑ポイントを設定
+legend.SelectionTool.Page1.MultipleSelections = 複数の選択範囲:
+legend.SelectionTool.Page1.NextSelection = 次の選択範囲
+legend.SelectionTool.Page1.PreviousSelection = 前の選択範囲
+legend.SelectionTool.Page1.SetRedPoint = 赤い点を対象位置に設定
+legend.SelectionTool.Page1.SetGreenPoint = 緑の点を対象位置に設定
 legend.SelectionTool.Page2.Title = コピー / 移動 / 回転
-legend.SelectionTool.Page2.WithSelectionCreated = 選択範囲がある状態で:
+legend.SelectionTool.Page2.WithSelectionCreated = 選択範囲を作成した状態で:
 legend.SelectionTool.Page2.ShowMoveTool = 移動ツールを表示
-legend.SelectionTool.Page2.AttachToCursor = 選択範囲をカーソルに固定
+legend.SelectionTool.Page2.AttachToCursor = 選択範囲をカーソルに貼り付ける
 legend.SelectionTool.Page2.ShowRotationTool = 回転ツールを表示
 legend.SelectionTool.Page2.PasteAndExit = 貼り付けて終了
-legend.SelectionTool.Page2.DuplicatePasteContinue = 複製、貼り付け、続行
+legend.SelectionTool.Page2.DuplicatePasteContinue = 複製して貼り付け、続行
 legend.SelectionTool.Page2.CancelMovement = 移動と回転をキャンセル
 legend.SelectionTool.Page2.DuplicateSelection = 選択範囲を複製し、移動/回転モードに入る
-legend.SelectionTool.Page2.UsingYourSelection = 選択範囲を使用する:
+legend.SelectionTool.Page2.UsingYourSelection = 選択範囲の使い方:
 legend.SelectionTool.Page2.CopySelection = 選択範囲をコピー
-legend.SelectionTool.Page2.SwitchToPaste = 貼り付けツールに切り替え
-legend.SelectionTool.Page2.CopyUsageOptions = その後、ペーストツール（ブラシ＋プレビュー）または「/paste」コマンドを使用してください
-legend.SelectionTool.Page2.SavingPrefabs = プレハブを保存する:
+legend.SelectionTool.Page2.SwitchToPaste = ペーストツールに切り替え
+legend.SelectionTool.Page2.CopyUsageOptions = その後、ペーストツール(ブラシ + プレビュー)または "/paste" コマンドを使用します
+legend.SelectionTool.Page2.SavingPrefabs = プレハブの保存:
 legend.SelectionTool.Page2.SavePrefabCommand = チャットコマンドで選択範囲をプレハブとして保存
-legend.SelectionTool.Page2.LoadPrefabReference = UIからのプレハブ読み込みはペーストツール凡例を参照
-legend.SelectionTool.Page3.Title = 選択コマンド
+legend.SelectionTool.Page2.LoadPrefabReference = UIからプレハブを読み込む方法は、ペーストツールの凡例を参照してください
+legend.SelectionTool.Page3.Title = 選択範囲のコマンド
 legend.SelectionTool.Page3.BasicCommands = 基本コマンド:\n\
-- /set [選択範囲をブロックに設定]\n\
-- /clear [選択範囲内のすべてのブロックをクリア]\n\
-- /walls [選択範囲に壁を追加]\n\
-- /move [向いている方向に選択範囲の内容を移動]\n\
-- /undo と /redo [X回元に戻す/やり直す]\n\
-- /copy [選択範囲をクリップボードにコピー]\n\
-- /cut [選択範囲をクリップボードに切り取り]\n\
-- /paste [クリップボードを現在位置に貼り付け]\n\
-- /stack [向いている方向に選択範囲をX回スタック]\n\
-- /replace [一つの素材を別の素材に置き換え]\n\
-- /hollow [中央を空洞にして形状を中抜き]\n\
-- /flip [向いている方向にブロックを鏡像化]\n\
-- /rotate [選択範囲を回転]\n\
-- /expand [向いている方向に選択範囲を拡張]\n\
-- /contract [選択範囲を距離分縮小]\n\
-- /deselect [選択ボックスをクリア]
-legend.SelectionTool.Page3.SeeHelpMenu = 「/help」メニューで、選択範囲に対して実行できるその他のコマンドを確認しましょう！
-legend.RulerTool.Page1.Title = 基本的な計測
-legend.RulerTool.Page1.Description = ルーラーツールを使用すると、3D空間の複数のポイント間の距離を計測でき、複数の計測ラインをサポートします。
-legend.RulerTool.Page1.PlacePoint = ターゲット位置に計測ポイントを設置
-legend.RulerTool.Page1.EndCurrentLine = 現在の計測ラインを終了して新しいラインを開始
-legend.RulerTool.Page1.SnapToAngles = 押し続けると正確な計測のために45°角度へのスナップが有効になります
-legend.RulerTool.Page1.DistanceMeasurement = 各ポイントと各ラインセグメントに沿って距離の計測が表示されます。ラインは色分けされています: 赤（X軸）、緑（Y軸）、青（Z軸）、白（対角線）
-legend.RulerTool.Page2.Title = ポイント & ラインの編集
-legend.RulerTool.Page2.PointEditing = 既存のポイントの編集:
-legend.RulerTool.Page2.MovePoint = 既存のポイントを右クリックして掴んで移動
-legend.RulerTool.Page2.DropPoint = もう一度右クリックして新しい位置にポイントを置く
-legend.RulerTool.Page2.DeletePoint = ホバーしているポイントを削除
-legend.RulerTool.Page2.ClearCurrentLine = 現在のラインからすべてのポイントをクリア
-legend.RulerTool.Page2.ClearAllLines = すべてのラインをクリアしてツールをリセット
-legend.RulerTool.Page3.Title = 複数の計測ライン
-legend.RulerTool.Page3.Description = ルーラーツールは複数の独立した計測ラインの作成と管理をサポートします。各ラインは独立して追跡され、別々に編集できます。
-legend.RulerTool.Page3.NextLine = 次の計測ラインに切り替え
-legend.RulerTool.Page3.PreviousLine = 前の計測ラインに切り替え
-legend.RulerTool.Page3.SwitchToLine = 別のラインのポイントを左クリックしてそのラインに切り替え
-legend.RulerTool.Page3.WorkflowTip = ヒント: 1つのラインにポイントを設置したら、左クリックで終了し自動的に新しいラインが開始されます。非アクティブなラインは透明度を下げて表示されます。
+- /set [選択範囲をブロックで埋める]\n\
+- /clear [選択範囲のブロックをすべて消す]\n\
+- /walls [選択範囲に壁を追加する]\n\
+- /move [選択範囲の内容を向いている方向に移動する]\n\
+- /undo と /redo [X回、元に戻す/やり直す]\n\
+- /copy [選択範囲をクリップボードにコピーする]\n\
+- /cut [選択範囲をクリップボードに切り取る]\n\
+- /paste [現在位置にクリップボードを貼り付ける]\n\
+- /stack [向いている方向に選択範囲をX回積み重ねる]\n\
+- /replace [ある素材を別の素材に置き換える]\n\
+- /hollow [中心を空にして形状を中空にする]\n\
+- /flip [見ている方向でブロックを反転する]\n\
+- /rotate [選択範囲を回転する]\n\
+- /expand [見ている方向に選択範囲を広げる]\n\
+- /contract [選択範囲を指定距離だけ縮める]\n\
+- /deselect [選択ボックスを解除する]
+legend.SelectionTool.Page3.SeeHelpMenu = 選択範囲に対して使えるその他のコマンドは "/help" メニューを参照してください！
+legend.RulerTool.Page1.Title = 基本の計測
+legend.RulerTool.Page1.Description = 定規ツールでは、3D空間の複数の点の間の距離を計測できます。複数の計測線にも対応しています。
+legend.RulerTool.Page1.PlacePoint = 狙った位置に計測点を置く
+legend.RulerTool.Page1.EndCurrentLine = 現在の計測線を終了して新しい線を始める
+legend.RulerTool.Page1.SnapToAngles = 押している間、45度単位のスナップを有効にして正確に計測する
+legend.RulerTool.Page1.DistanceMeasurement = 距離は各点と各線分に沿って表示されます。線は色分けされています: 赤(X軸)、緑(Y軸)、青(Z軸)、白(斜め)
+legend.RulerTool.Page2.Title = 点と線の編集
+legend.RulerTool.Page2.PointEditing = 既存の点を編集する:
+legend.RulerTool.Page2.MovePoint = 既存の点を右クリックすると、つかんで移動できます
+legend.RulerTool.Page2.DropPoint = もう一度右クリックすると、その位置に点を置きます
+legend.RulerTool.Page2.DeletePoint = カーソルを合わせている点を削除
+legend.RulerTool.Page2.ClearCurrentLine = 現在の線の点をすべて消す
+legend.RulerTool.Page2.ClearAllLines = すべての線を消してツールをリセット
+legend.RulerTool.Page3.Title = 複数の計測線
+legend.RulerTool.Page3.Description = 定規ツールでは、複数の独立した計測線を作成・管理できます。各線は個別に管理され、別々に編集できます。
+legend.RulerTool.Page3.NextLine = 次の計測線に切り替える
+legend.RulerTool.Page3.PreviousLine = 前の計測線に切り替える
+legend.RulerTool.Page3.SwitchToLine = 別の線の点を左クリックすると、その線に切り替わります
+legend.RulerTool.Page3.WorkflowTip = ヒント: 1本の線に点を置いたあと、左クリックでその線を確定し、自動的に新しい線を開始できます。使用中でない線は薄く表示されます。
 legend.SelectPrefabTool.Page1.Title = プレハブセレクター
-legend.SelectPrefabTool.Page1.Description = プレハブエディターはプレハブを編集して再保存するための一時的な環境を作成します。保存せずにプレハブエディターを離れると変更は失われます。
-legend.SelectPrefabTool.Page1.SelectingPrefabs = プレハブを選択する:
-legend.SelectPrefabTool.Page1.SelectPrefab = アンカーをクリックしてプレハブを選択
-legend.SelectPrefabTool.Page1.UnselectPrefab = 現在選択されているプレハブを選択解除
-legend.SelectPrefabTool.Page1.EditingPrefabs = プレハブを編集する:
-legend.SelectPrefabTool.Page1.OpenSaveUI = 保存/設定UIを開く
-legend.SelectPrefabTool.Page1.UpdateBoundingBox = 選択したプレハブの境界ボックスを現在の選択範囲に更新
-legend.SelectPrefabTool.Page1.TeleportToPrefab = 「プレハブにテレポート」UIを開く
+legend.SelectPrefabTool.Page1.Description = プレハブエディターは、プレハブを編集して保存し直すための一時的な環境を作ります。保存せずにプレハブエディターを離れると、変更は失われます。
+legend.SelectPrefabTool.Page1.SelectingPrefabs = プレハブの選択:
+legend.SelectPrefabTool.Page1.SelectPrefab = アンカーをクリックしてプレハブを選択する
+legend.SelectPrefabTool.Page1.UnselectPrefab = 現在選択中のプレハブの選択を解除する
+legend.SelectPrefabTool.Page1.EditingPrefabs = プレハブの編集:
+legend.SelectPrefabTool.Page1.OpenSaveUI = 保存/設定のUIを開く
+legend.SelectPrefabTool.Page1.UpdateBoundingBox = 選択中のプレハブのバウンディングボックスを現在の選択範囲に更新する
+legend.SelectPrefabTool.Page1.TeleportToPrefab = 「プレハブへテレポート」のUIを開く
 legend.SelectPrefabTool.Page1.QuickAccess = クイックアクセス:
-legend.SelectPrefabTool.Page1.SwitchWorlds = 前のワールドに戻る
-legend.SelectPrefabTool.Page1.SetAnchor = 見ている位置にアンカーポイントを設定
+legend.SelectPrefabTool.Page1.SwitchWorlds = 直前のワールドに戻る
+legend.SelectPrefabTool.Page1.SetAnchor = 見ている位置にアンカー地点を設定する
 legend.SelectPrefabTool.Page1.UsefulCommands = 便利なコマンド:
-legend.SelectPrefabTool.Page1.KillCommand = /pedit kill - 選択したプレハブからすべてのエンティティを削除\n\
-/pedit exit - 変更を保存せずにプレハブエディターを終了
+legend.SelectPrefabTool.Page1.KillCommand = /pedit kill - 選択中のプレハブからすべてのエンティティを削除します\n\
+/pedit exit - 変更を保存せずにプレハブエディターを終了します
 legend.EntityTool.Page1.Title = エンティティツール
-legend.EntityTool.Page1.Description = NPCやアイテム、ブロック、生き物のモデルをスポーンします。ワールド内のエンティティを選択、移動、回転、スケールします。
-legend.EntityTool.Page1.SelectingEntities = エンティティを選択する:
-legend.EntityTool.Page1.SelectEntity = エンティティを選択/掴む
-legend.EntityTool.Page1.FreeMove = エンティティを自由移動（押し続けてドラッグ）
-legend.EntityTool.Page1.CancelMovement = 移動をキャンセル / 見ているエンティティ間を切り替え
-legend.EntityTool.Page1.AdjustDistance = エンティティの距離を調整
-legend.EntityTool.Page1.PreciseDistance = 精密な距離調整
+legend.EntityTool.Page1.Description = NPCや、アイテム・ブロック・生き物のモデルをスポーンできます。ワールド内のエンティティを選択・移動・回転・スケール変更できます。
+legend.EntityTool.Page1.SelectingEntities = エンティティの選択:
+legend.EntityTool.Page1.SelectEntity = エンティティを選択/つかむ
+legend.EntityTool.Page1.FreeMove = エンティティを自由に移動(押しながらドラッグ)
+legend.EntityTool.Page1.CancelMovement = 移動をキャンセル / 見ているエンティティを順に切り替え
+legend.EntityTool.Page1.AdjustDistance = エンティティまでの距離を調整
+legend.EntityTool.Page1.PreciseDistance = 距離の微調整
 legend.EntityTool.Page2.Title = 変形モード
 legend.EntityTool.Page2.TransformModes = 変形モード:
 legend.EntityTool.Page2.TranslateMode = 移動モードに入る
 legend.EntityTool.Page2.RotateMode = 回転モードに入る
 legend.EntityTool.Page2.RotateHeadMode = 頭部回転モードに入る
-legend.EntityTool.Page2.FreeMoveMode = カーソルに固定
-legend.EntityTool.Page2.Scale = 選択したエンティティをスケール
+legend.EntityTool.Page2.FreeMoveMode = カーソルに貼り付ける
+legend.EntityTool.Page2.Scale = 選択中のエンティティのスケールを変更
 legend.EntityTool.Page3.Title = アクション
-legend.EntityTool.Page3.EntityActions = エンティティアクション:
-legend.EntityTool.Page3.Clone = 選択したエンティティをクローン
-legend.EntityTool.Page3.Remove = 選択したエンティティを削除
-legend.EntityTool.Page3.Freeze = エンティティのフリーズを切り替え
-legend.EntityTool.Page3.MovementOptions = 移動オプション:
-legend.EntityTool.Page3.SurfaceLock = サーフェスロックモードを切り替え
+legend.EntityTool.Page3.EntityActions = エンティティの操作:
+legend.EntityTool.Page3.Clone = 選択中のエンティティを複製
+legend.EntityTool.Page3.Remove = 選択中のエンティティを削除
+legend.EntityTool.Page3.Freeze = エンティティの停止を切り替え
+legend.EntityTool.Page3.MovementOptions = 移動のオプション:
+legend.EntityTool.Page3.SurfaceLock = 面へのロックモードを切り替え
 legend.EntityTool.Page3.SpawnUI = スポーンUI:
-legend.EntityTool.Page3.OpenSpawnUI = エンティティスポーンUIを開く
+legend.EntityTool.Page3.OpenSpawnUI = エンティティのスポーンUIを開く
 legend.TriggerVolumeTool.Page1.Title = トリガーボリュームツール
-legend.TriggerVolumeTool.Page1.Description = トリガーボリュームは、エンティティが入ったとき、出たとき、またはインタラクションしたときにエフェクトを発動します。
-legend.TriggerVolumeTool.Page1.EditingEffects = エフェクトの編集：
-legend.TriggerVolumeTool.Page1.EditEffects = 選択中のボリュームのエフェクトを編集する
-legend.TriggerVolumeTool.Page1.CreatingVolumes = ボリュームを作成する:
+legend.TriggerVolumeTool.Page1.Description = トリガーボリュームは、エンティティが出入りしたり操作したりしたときにエフェクトを発動します。
+legend.TriggerVolumeTool.Page1.EditingEffects = エフェクトの編集:
+legend.TriggerVolumeTool.Page1.EditEffects = 選択中のボリュームのエフェクトを編集
+legend.TriggerVolumeTool.Page1.CreatingVolumes = ボリュームの作成:
 legend.TriggerVolumeTool.Page1.CreateClick = クリックで配置。もう一度クリックで確定
 legend.TriggerVolumeTool.Page1.CancelCreation = 作成をキャンセル
-legend.TriggerVolumeTool.Page1.MovingAndResizing = 移動とサイズ変更：
-legend.TriggerVolumeTool.Page1.DragFaceResize = 面をドラッグしてサイズを変更する
-legend.TriggerVolumeTool.Page1.ShiftDragFaceMove = 面をドラッグしてその軸に沿って移動する
-legend.TriggerVolumeTool.Page1.DragGizmo = ギズモをドラッグして移動する
-legend.TriggerVolumeTool.Page1.DeleteVolume = 選択したボリュームを削除
-legend.TriggerVolumeTool.Page1.ConfigureTool = ツールと選択したボリュームを設定
+legend.TriggerVolumeTool.Page1.MovingAndResizing = 移動とサイズ変更:
+legend.TriggerVolumeTool.Page1.DragFaceResize = 面をドラッグしてサイズ変更
+legend.TriggerVolumeTool.Page1.ShiftDragFaceMove = 面をドラッグしてその軸方向に移動
+legend.TriggerVolumeTool.Page1.DragGizmo = ギズモをドラッグして移動
+legend.TriggerVolumeTool.Page1.DeleteVolume = 選択中のボリュームを削除
+legend.TriggerVolumeTool.Page1.ConfigureTool = ツールと選択中のボリュームを設定
 legend.TriggerVolumeTool.Page2.Title = グループ化
-legend.TriggerVolumeTool.Page2.Description = ボリュームをグループ化して一緒に移動します。
+legend.TriggerVolumeTool.Page2.Description = ボリュームをグループ化すると、まとめて移動できます。
 legend.TriggerVolumeTool.Page2.MultiSelect = 複数選択:
-legend.TriggerVolumeTool.Page2.ShiftClickMultiSelect = ボリュームの本体をクリックして複数選択を切り替える
+legend.TriggerVolumeTool.Page2.ShiftClickMultiSelect = ボリュームの本体をクリックして複数選択を切り替え
 legend.TriggerVolumeTool.Page2.ClickSelectGroup = グループ化されたボリュームをクリックしてグループ全体を選択
 legend.TriggerVolumeTool.Page2.DoubleClickSelectSingle = グループ化されたボリュームをダブルクリックして個別に選択
 legend.TriggerVolumeTool.Page2.GroupingVolumes = グループ化:
-legend.TriggerVolumeTool.Page2.GroupVolumes = 選択したボリュームをグループ化
-legend.TriggerVolumeTool.Page2.UngroupVolumes = グループ解除
-legend.TriggerVolumeTool.Page2.GroupBehavior = グループ化されたボリュームは一緒に移動し、色を共有します。いずれかのメンバーを移動するとグループ全体が移動します。
-legend.TriggerVolumeTool.Page2.OtherActions = その他の操作：
-legend.TriggerVolumeTool.Page2.CycleShape = 形状を切り替える
-legend.TriggerVolumeTool.Page2.DuplicateVolume = 選択中のボリュームを複製する
-legend.TriggerVolumeTool.Page2.RenameVolume = 選択したボリュームの名前を変更
-legend.TriggerVolumeTool.Page2.RotateVolume = 回転モードを切り替え（ボックスボリューム）
-triggerVolume.rename.title = ボリューム名を変更
+legend.TriggerVolumeTool.Page2.GroupVolumes = 選択中のボリュームをグループ化
+legend.TriggerVolumeTool.Page2.UngroupVolumes = グループを解除
+legend.TriggerVolumeTool.Page2.GroupBehavior = グループ化されたボリュームは一緒に動き、同じ色になります。どれか1つを動かすとグループ全体が動きます。
+legend.TriggerVolumeTool.Page2.OtherActions = その他の操作:
+legend.TriggerVolumeTool.Page2.CycleShape = 形状を切り替え
+legend.TriggerVolumeTool.Page2.DuplicateVolume = 選択中のボリュームを複製
+legend.TriggerVolumeTool.Page2.RenameVolume = 選択中のボリュームの名前を変更
+legend.TriggerVolumeTool.Page2.RotateVolume = 回転モードを切り替え(ボックス型のみ)
+triggerVolume.rename.title = ボリュームの名前を変更
 triggerVolume.rename.placeholder = 新しいボリューム名
 triggerVolume.rename.save = 名前を変更
 triggerVolume.rename.invalidId = 名前は1〜64文字で、英数字とアンダースコアのみ使用できます。
-triggerVolume.rotateBoxOnly = 回転できるのはボックスボリュームのみです。
+triggerVolume.rotateBoxOnly = 回転できるのはボックス型のボリュームのみです。
 triggerVolume.rename.collision = その名前のボリュームはすでに存在します。
 legend.PointTool.Page1.Title = ポイントツール
-legend.PointTool.Page1.Description = ポイントは位置・回転・タグを持つ1x1x1のマーカーです。
-legend.PointTool.Page1.Placing = 配置:
-legend.PointTool.Page1.PlaceClick = ブロックの面をクリックしてポイントを配置
+legend.PointTool.Page1.Description = ポイントは、位置・回転・タグを持つ 1x1x1 のマーカーです。
+legend.PointTool.Page1.Placing = 設置:
+legend.PointTool.Page1.PlaceClick = ブロックの面をクリックしてポイントを設置
 legend.PointTool.Page1.Deselect = 選択を解除
 legend.PointTool.Page1.MovingAndRotating = 移動と回転:
 legend.PointTool.Page1.DragGizmo = ギズモをドラッグして移動
 legend.PointTool.Page1.ToggleRotate = 回転ギズモを切り替え
-legend.PointTool.Page1.FreeMove = 選択したポイントをカーソル位置へ自由に移動
-legend.PointTool.Page1.ToggleShape = 形状を切り替え（ブロック / 球）
+legend.PointTool.Page1.FreeMove = 選択中のポイントをカーソルへ自由移動
+legend.PointTool.Page1.ToggleShape = 形状を切り替え(ブロック / 球)
 legend.PointTool.Page1.OpenInspector = 名前とタグを編集
-legend.PointTool.Page1.Duplicate = 選択したポイントを複製
-legend.PointTool.Page1.Delete = 選択したポイントを削除
+legend.PointTool.Page1.Duplicate = 選択中のポイントを複製
+legend.PointTool.Page1.Delete = 選択中のポイントを削除
 legend.PointTool.Page1.MultiSelect = 複数選択:
 legend.PointTool.Page1.ShiftClickMultiSelect = ポイントをクリックして複数選択を切り替え
-legend.PointTool.Page1.ShiftClickSpawnAtFeet = 何もない場所をクリックして足元に球をスポーン
+legend.PointTool.Page1.ShiftClickSpawnAtFeet = 何もない場所をクリックすると、足元に球を生成
 triggerVolume.shapeChanged = 形状: {shape}
-triggerVolume.groupFailed = グループ化できません: グループ化されていないボリュームが十分に選択されていません
-triggerVolume.groupSkipped = すでにグループ化されている{count}件の{count, plural, one {ボリュームがスキップされました} other {ボリュームがスキップされました}}
+triggerVolume.groupFailed = グループ化できません: グループ化されていないボリュームの選択数が足りません
+triggerVolume.groupSkipped = すでにグループ化されている{count, plural, one {ボリューム} other {ボリューム}} {count} 個をスキップしました
 triggerVolume.settings.shape = 形状
 triggerVolume.settings.shape.box = ボックス
 triggerVolume.settings.shape.sphere = 球
 triggerVolume.settings.shape.cylinder = 円柱
 triggerVolume.settings.origin = 原点
-triggerVolume.settings.origin.bottom = 底
+triggerVolume.settings.origin.bottom = 下
 triggerVolume.settings.origin.center = 中央
 triggerVolume.settings.origin.top = 上
 triggerVolume.settings.editVolume = ボリュームを編集
 triggerVolume.settings.deleteVolume = ボリュームを削除
-triggerVolume.settings.shape.tooltip = ワールドに設置する新しいトリガーボリュームの形状
-triggerVolume.settings.origin.tooltip = 設置時にボリュームが固定される場所。底は地面に設置し、中央は目の高さに設置します
+triggerVolume.settings.shape.tooltip = ワールドに新しく設置するトリガーボリュームの形状
+triggerVolume.settings.origin.tooltip = 設置時にボリュームを固定する基準。下は地面に、中央は目線の高さに配置します
 triggerVolume.settings.snapToBlocks = ブロックにスナップ
-triggerVolume.settings.snapToBlocks.tooltip = 有効にすると、ボリュームの移動またはリサイズがブロック境界にスナップします。
-point.settings.defaultShape = デフォルトの形状
-point.settings.defaultShape.tooltip = ワールドに新しく配置するポイントに使用される形状です。
+triggerVolume.settings.snapToBlocks.tooltip = 有効にすると、ボリュームの移動やサイズ変更がブロックの境界にスナップします。
+point.settings.defaultShape = 既定の形状
+point.settings.defaultShape.tooltip = ワールドに新しく設置するポイントに使う形状。
 point.settings.shape.block = ブロック
 point.settings.shape.sphere = 球
-point.settings.surfaceLock = 表面に固定
-point.settings.surfaceLock.tooltip = 有効にすると、自由移動でカーソル下のブロック表面にポイントを配置します。
-point.settings.gridSnap = グリッドスナップ
+point.settings.surfaceLock = 面にロック
+point.settings.surfaceLock.tooltip = 有効にすると、自由移動でカーソル下のブロック表面にポイントを置きます。
+point.settings.gridSnap = グリッドにスナップ
 point.settings.gridSnap.tooltip = 有効にすると、ポイントの移動がグリッドサイズにスナップします。
-point.settings.spawnPitch = 視点の上下角度を反映してスポーン
-point.settings.spawnPitch.tooltip = 有効にすると、足元にポイントをスポーンする（Shift + クリック）際に、視点の上下角度も反映されます。
+point.settings.spawnPitch = 視線の上下角も適用
+point.settings.spawnPitch.tooltip = 有効にすると、足元にポイントを生成(Shift + クリック)する際に、視線の上下角も適用されます。
 point.settings.gridSize = グリッドサイズ
 point.settings.editPoint = ポイントを編集
 point.settings.deletePoint = ポイントを削除
 selection.settings.showTriggerVolumes = トリガーボリュームを表示
-selection.settings.showTriggerVolumes.tooltip = このツールを持っているときにすべてのトリガーボリュームを表示します。
+selection.settings.showTriggerVolumes.tooltip = このツールを持っている間、すべてのトリガーボリュームを表示します。
 selection.setTo.sized = 選択範囲を #{index} に設定 - [{x} x {y} x {z}]
 selection.setTo.empty = 選択範囲を #{index} に設定 - 空
 legend.Extrude.Page1.Title = 押し出しツール
-legend.Extrude.Page1.Description = 範囲をブロックで押し出す・縮める・埋めることができます。
-legend.Extrude.Page1.CycleMode = モードを切り替え
-legend.Extrude.Page1.ExtrudeShrinkMode = 押し出し/縮小モード:
+legend.Extrude.Page1.Description = 範囲をブロックで押し出し・縮小・充填できます。
+legend.Extrude.Page1.CycleMode = モードを順に切り替え
+legend.Extrude.Page1.ExtrudeShrinkMode = 押し出し / 縮小モード:
 legend.Extrude.Page1.FillMode = 充填モード:
 legend.Extrude.Page1.Extrude = ブロックを押し出す - 黒いブロック。
-legend.Extrude.Page1.Shrink = ブロックを縮小する - 赤いブロック。
-legend.Extrude.Page1.Fill = 空気を素材で置き換えてブロックを充填
+legend.Extrude.Page1.Shrink = ブロックを縮める - 赤いブロック。
+legend.Extrude.Page1.Fill = 空気を素材に置き換えてブロックを埋めます
 legend.Extrude.Page2.ExtrudeTip.Title = 押し出し
-legend.Extrude.Page2.ExtrudeTip.Description = 押し出しはブロックをある方向に外側に拡張することです。長さと幅でサーフェスのどの部分が押し出されるかを制御し、深さを変えると押し出される距離を制御できます。\n\
+legend.Extrude.Page2.ExtrudeTip.Description = 押し出しは、ブロックをある方向に外側へ広げる操作です。長さと幅で押し出す面の大きさを、深さでどこまで押し出すかを設定します。\n\
 \n\
-ブロックセレクターに素材がない場合、狙っているブロックを押し出します。
+ブロック選択欄に素材がない場合は、狙っているブロックがそのまま押し出されます。
 legend.Extrude.Page2.ShrinkTip.Title = 縮小
-legend.Extrude.Page2.ShrinkTip.Description = 縮小はブロックをある方向に内側に削除することです。長さと幅でサーフェスのどの部分が縮小されるかを制御し、深さを変えると縮小される距離を制御できます。
+legend.Extrude.Page2.ShrinkTip.Description = 縮小は、ブロックをある方向に内側へ削る操作です。長さと幅で削る面の大きさを、深さでどこまで削るかを設定します。
 legend.Extrude.Page2.FillTip.Title = 充填
-legend.Extrude.Page2.FillTip.Description = 充填はツールエリア内の空のブロックを素材で置き換えることです。充填するエリアが充填エリアの境界より大きい場合、その境界内に留まります。
+legend.Extrude.Page2.FillTip.Description = 充填は、ツール範囲内の空のブロックを素材で置き換える操作です。埋める対象が充填範囲より大きい場合でも、その範囲内に収まります。
 legend.Extrude.Page3.Title = 詳細設定
 legend.Extrude.Page3.FilterTip.Title = フィルター
-legend.Extrude.Page3.FilterTip.Description = 押し出し/縮小の各フィルターです:
+legend.Extrude.Page3.FilterTip.Description = 押し出し/縮小で使えるフィルターは次のとおりです:
 legend.Extrude.Page3.FilterAll.Title = すべて:
 legend.Extrude.Page3.FilterAll.Description = - すべてのブロックを対象にします。
 legend.Extrude.Page3.FilterMaterial.Title = 同じ素材:
@@ -851,125 +851,125 @@ legend.Extrude.Page3.FilterMaterial.Description = - 見ているブロックと�
 legend.Extrude.Page3.FilterShape.Title = 同じ形状:
 legend.Extrude.Page3.FilterShape.Description = - 見ているブロックと同じ形状のブロックのみを対象にします。
 legend.Extrude.Page3.FilterFullBlocks.Title = フルブロック:
-legend.Extrude.Page3.FilterFullBlocks.Description = - フルな固体ブロックのみを使用します。葉や低木などのブロックは除外されます。
+legend.Extrude.Page3.FilterFullBlocks.Description = - 完全な立体ブロックのみを対象にします。葉やその他の低木などは除外されます。
 legend.Extrude.Page3.FilterNotFullBlocks.Title = フルブロック以外:
-legend.Extrude.Page3.FilterNotFullBlocks.Description = - フルな固体ブロックでないブロックのみを使用します。葉や低木などのブロックのみが含まれます。
-legend.Extrude.Page3.StrategyTip.Title = 戦略
-legend.Extrude.Page3.StrategyTip.Description = 押し出し/縮小の各戦略です:
+legend.Extrude.Page3.FilterNotFullBlocks.Description = - 完全な立体ブロック以外のみを対象にします。葉やその他の低木などが含まれます。
+legend.Extrude.Page3.StrategyTip.Title = ストラテジー
+legend.Extrude.Page3.StrategyTip.Description = 押し出し/縮小で使えるストラテジーは次のとおりです:
 legend.Extrude.Page3.StrategyDefault.Title = デフォルト:
-legend.Extrude.Page3.StrategyDefault.Description = - 対象範囲には空気に接しているブロックのみが含まれます。
+legend.Extrude.Page3.StrategyDefault.Description = - 空気に接しているブロックのみが対象になります。
 legend.Extrude.Page3.StrategyAll.Title = すべて:
-legend.Extrude.Page3.StrategyAll.Description = - 対象範囲には、表面から見えないブロック（地中のブロック）も含めたすべてのブロックが含まれます。
+legend.Extrude.Page3.StrategyAll.Description = - 表面から見えないブロック(地中)も含め、すべてのブロックが対象になります。
 legend.Color.Page1.Title = カラーツール
-legend.Color.Page1.Description = さまざまな塗り方で、範囲内のブロックに色を付けたり塗り直したりします。
-legend.Color.Page1.CycleMode = モードを切り替え
+legend.Color.Page1.Description = さまざまな配色スタイルで、範囲内のブロックを着色・再着色できます。
+legend.Color.Page1.CycleMode = モードを順に切り替え
 legend.Color.Page1.NextShape = 次の形状
 legend.Color.Page1.PrevShape = 前の形状
 legend.Color.Page1.ColoringMode.Title = カラーリングモード:
-legend.Color.Page1.ColoringMode.Description = ブロックを選んだブロックに置き換えるか、最も色の近いブロックを探して使用します。
+legend.Color.Page1.ColoringMode.Description = 選んだブロックに置き換えるか、最も色が近いブロックを探して使用します。
 legend.Color.Page1.GradientMode.Title = グラデーションモード:
-legend.Color.Page1.GradientMode.Description = さまざまな形状とブレンドを使って、表面にグラデーションを描きます。
+legend.Color.Page1.GradientMode.Description = さまざまな形状とブレンドで、面にグラデーションを塗れます。
 legend.Color.Page1.ShadingMode.Title = シェーディングモード:
-legend.Color.Page1.ShadingMode.Description = 光と周囲のブロックの角度に基づいて、リアルな色合いで表面を塗ります。
+legend.Color.Page1.ShadingMode.Description = 光や周囲のブロックの角度に基づいて、面にリアルな配色を塗れます。
 legend.Color.Page2.GradientModeTip.Title = グラデーションモード
-legend.Color.Page2.GradientModeTip.Description = 一度に多くの色を塗ってグラデーションを作成できます。
-legend.Color.Page2.GradientModeTip.PaintArea = クリックしてドラッグし、グラデーションを制御する基準範囲を作成します。
-legend.Color.Page2.GradientModeTip.Paint = 範囲に色を塗ります。
-legend.Color.Page2.GradientModeTip.ResetGuidingLine = グラデーションラインをリセットします。
+legend.Color.Page2.GradientModeTip.Description = 多数の色を一度に塗って、グラデーションを作れます。
+legend.Color.Page2.GradientModeTip.PaintArea = クリック&ドラッグで、グラデーションを制御する基準範囲を作ります。
+legend.Color.Page2.GradientModeTip.Paint = その範囲に色を塗ります。
+legend.Color.Page2.GradientModeTip.ResetGuidingLine = グラデーション線をリセットします。
 legend.Color.Page2.GradientModeTip.HowToUse.Title = 塗る範囲の調整:
-legend.Color.Page2.GradientModeTip.HowToUse.Description = 1. クリックしてドラッグし、塗る範囲を作成します。\n2. 赤と緑のボックスをクリックしてドラッグし、塗る範囲を広げます。\n3. 白いボックスをクリックしてドラッグし、各色が占める範囲を調整します。
+legend.Color.Page2.GradientModeTip.HowToUse.Description = 1. クリック&ドラッグで塗る範囲を作ります。\n2. 赤と緑のボックスをクリック&ドラッグして、塗る範囲を広げます。\n3. 白いボックスをクリック&ドラッグして、各色が占める範囲を調整します。
 legend.Color.Page2.GradientModeTip.Blend.Title = ブレンド:
-legend.Color.Page2.GradientModeTip.Blend.Description = ブレンドは色同士がどれだけ緩やかに混ざり合うかを制御します。\n\nブレンドが低い = 色は混ざりません。\nブレンドが高い = 色が混ざり合います。
+legend.Color.Page2.GradientModeTip.Blend.Description = ブレンドは、色どうしがどれだけ徐々に混ざり合うかを制御します。\n\nブレンドが低い = 色が混ざりません。\nブレンドが高い = 色が混ざり合います。
 legend.Color.Page3.ShadingModeTip.Title = シェーディングモード
-legend.Color.Page3.ShadingModeTip.Description = 明るさ・暗さと周囲のブロックに基づいて範囲を塗ることができます。
+legend.Color.Page3.ShadingModeTip.Description = 明暗と周囲のブロックに基づいて範囲を塗れます。
 legend.Color.Page3.ShadingModeTip.Manual.Title = 手動
-legend.Color.Page3.ShadingModeTip.Manual.Description = 左クリックで範囲を明るく、右クリックで範囲を暗くします。
+legend.Color.Page3.ShadingModeTip.Manual.Description = 左クリックで範囲を明るく、右クリックで暗くします。
 legend.Color.Page3.ShadingModeTip.Auto.Title = 自動
-legend.Color.Page3.ShadingModeTip.Auto.Description = 近くのブロックを使い、明暗の両方で範囲を自動的に陰影付けします。
+legend.Color.Page3.ShadingModeTip.Auto.Description = 周囲のブロックを使い、明るい部分と暗い部分の両方で自動的に陰影を付けます。
 legend.Color.Page3.ShadingModeTip.Custom.Title = カスタム
-legend.Color.Page3.ShadingModeTip.Custom.Description = 陰影に使うブロックをカスタマイズします。先に追加したブロックほど明るく、後に追加したブロックほど暗くなります。
+legend.Color.Page3.ShadingModeTip.Custom.Description = 陰影に使うブロックを自分で指定します。先に追加したブロックほど明るく、後に追加したブロックほど暗くなります。
 legend.Color.Page3.ShadingModeTip.Settings.Title = 設定
-legend.Color.Page3.ShadingModeTip.Settings.Description = シェーディングの仕上がりは選んだ設定に大きく左右されます。設定の詳細は次のページをご覧ください。
+legend.Color.Page3.ShadingModeTip.Settings.Description = シェーディングは選ぶ設定に大きく左右されます。設定の詳細は次のページを参照してください。
 legend.Color.Page4.ShadingModeTip.LightSource.Title = 光源
-legend.Color.Page4.ShadingModeTip.LightSource.Description = 陰影に使用する光源を制御します。\n\nプレイヤー = クリックした範囲に近いほど色が明るくなります。\nブラシ中心 = ブラシの中心に近いブロックほど色が明るくなります。\n太陽 = 空に接しているほど色が明るくなります。\n角度 = 傾斜に応じて明るさが決まります。平らなほど明るく、急なほど暗くなります。
-legend.Color.Page4.ShadingModeTip.Intensity.Title = 強度
-legend.Color.Page4.ShadingModeTip.Intensity.Description = 陰影の強度を制御します。\n\n低い = ディテールが少なくなります。\n高い = ディテールが多くなります。
-legend.Color.Page4.ShadingModeTip.EdgeBlend.Title = エッジブレンド
-legend.Color.Page4.ShadingModeTip.EdgeBlend.Description = ブラシの縁付近でのブレンド量を制御します。\n\n低い = 縁でのブレンドが少なくなります。\n高い = 縁でのブレンドが多くなります。
+legend.Color.Page4.ShadingModeTip.LightSource.Description = 陰影に使う光源を設定します。\n\nプレイヤー = クリックした場所に近いほど明るくなります。\nブラシの中心 = ブラシの中心に近いブロックほど明るくなります。\n太陽 = 空に接しているほど明るくなります。\n角度 = 傾斜に応じて明るさが決まります。平らなほど明るく、急なほど暗くなります。
+legend.Color.Page4.ShadingModeTip.Intensity.Title = 強さ
+legend.Color.Page4.ShadingModeTip.Intensity.Description = 陰影の強さを設定します。\n\n低い = ディテールが少なくなります。\n高い = ディテールが多くなります。
+legend.Color.Page4.ShadingModeTip.EdgeBlend.Title = 縁のブレンド
+legend.Color.Page4.ShadingModeTip.EdgeBlend.Description = ブラシの縁でどれだけブレンドするかを設定します。\n\n低い = 縁のブレンドが弱くなります。\n高い = 縁のブレンドが強くなります。
 legend.Color.Page5.ColoringModeTip.Title = カラーリングモード
-legend.Color.Page5.ColoringModeTip.Description = 見ているブロックと同じブロックをすばやくすべて置き換えることができます。
+legend.Color.Page5.ColoringModeTip.Description = 見ているブロックと同じブロックをまとめて素早く置き換えられます。
 legend.Color.Page5.ColoringModeTip.Normal.Title = 通常
-legend.Color.Page5.ColoringModeTip.Normal.Description = 1種類のブロックを別のブロック（複数可）に置き換えます。
+legend.Color.Page5.ColoringModeTip.Normal.Description = 1種類のブロックを、別の種類のブロックに置き換えます。
 legend.Color.Page5.ColoringModeTip.Auto.Title = スマートマッチ
-legend.Color.Page5.ColoringModeTip.Auto.Description = ブロックの種類に基づいて置き換えます。同じ種類が見つからない場合は、その種類を持つ色の近いブロックを使用します。
+legend.Color.Page5.ColoringModeTip.Auto.Description = ブロックの種類に基づいて置き換え、同じ種類が見つからない場合は、その種類を持つ色の近いブロックを使用します。
 legend.Palette.Page1.Title = パレットツール
-legend.Palette.Page1.Description = ブロックパレットを作成・削除・編集します。
+legend.Palette.Page1.Description = ブロックパレットの作成・削除・編集ができます。
 legend.Palette.Page1.OpenPaletteEditor = パレットエディターを開く
 legend.Palette.Page1.PaletteEditor.Title = パレットエディター
-legend.Palette.Page1.PaletteEditor.Description = パレットエディターには、建築時に使う自分だけのブロックパレットを作成するためのツールが揃っています。\n\
+legend.Palette.Page1.PaletteEditor.Description = パレットエディターには、建築で使う自分専用のブロックパレットを作るためのツールがそろっています。\n\
 \n\
-パレットは、下部のパレット欄にブロックをドラッグ＆ドロップして作成します。作成したパレットは保存して自由に再利用でき、不要になったパレットは削除できます。\n\
+パレットは、下部のパレット欄にブロックをドラッグ&ドロップして作成します。作ったパレットは保存して再利用でき、使わなくなったパレットは削除できます。\n\
 \n\
 パレットエディターの詳細は次のページにあります。
-legend.Palette.Page1.PaletteSettings = 保存したパレットを表示します。
-legend.Palette.Page1.Usage.Title = 保存したパレットの使用
-legend.Palette.Page1.Usage.Description = 保存したパレットは再利用できます。ホットバーへの読み込み、編集、保存、削除が可能です。
+legend.Palette.Page1.PaletteSettings = 保存済みのパレットを表示します。
+legend.Palette.Page1.Usage.Title = 保存したパレットを使う
+legend.Palette.Page1.Usage.Description = 保存したパレットは再利用できます。ホットバーに読み込んだり、編集・保存・削除したりできます。
 legend.Palette.Page2.Title = パレットエディター
 legend.Palette.Page2.Description = 色を基準にしたツールでパレットを編集できます。
 legend.Palette.Page2.BlockPicker.Title = カラー/ブロックピッカー
-legend.Palette.Page2.BlockPicker.Description = 上部のカラーピッカーは、選んだ色に近い色のブロックを提案します。\n\
+legend.Palette.Page2.BlockPicker.Description = 上部のカラーピッカーは、選んだ色に近いブロックを提案します。\n\
 \n\
-ブロックを指定して、それに近い色の他のブロックを探させることもできます。
+ブロックを指定して、色の近い他のブロックを探させることもできます。
 legend.Palette.Page2.Gradient.Title = グラデーション
-legend.Palette.Page2.Gradient.Description = 中央のグラデーション欄では、ブロックを入力するとその間を埋める近い色のブロックが探され、滑らかな色の移り変わりを作成できます。\n\
+legend.Palette.Page2.Gradient.Description = 中央のグラデーション欄では、ブロックを入力すると、その間を埋める色の近いブロックが見つかり、滑らかな色の移り変わりを作れます。\n\
 \n\
-通常は左端と右端のスロットにブロックを置くと、2つの間で最も広いグラデーションが得られます。
+通常は、左端と右端のスロットにブロックを置くと、両者の間で最も豊かなグラデーションが得られます。
 legend.BlockSpawner.Page1.Title = ブロックスポナー
-legend.BlockSpawner.Page1.Description = プレハブ内に配置すると、その位置にルートドロップ付きのブロックをスポーンするよう設定できます。
+legend.BlockSpawner.Page1.Description = プレハブ内に設置して、その位置にドロップ付きのブロックをスポーンさせる設定ができます。
 legend.BlockSpawner.Page1.Interact = ブロックスポナーを設定するメニューを開きます。
 legend.BlockSpawner.Page1.Configuring.Title = 設定
-legend.BlockSpawner.Page1.Configuring.Description = ブロックスポナーアセットのドロップダウンで、このブロックに使用するBlockSpawnerTableアセットを選択できます。
+legend.BlockSpawner.Page1.Configuring.Description = ブロックスポナーアセットのドロップダウンで、このブロックに使うBlockSpawnerTableアセットを選択できます。
 legend.BlockSpawner.Page1.Editing.Title = アセットの編集 / 表示
-legend.BlockSpawner.Page1.Editing.Description = 「ブロックスポナーアセットを編集 / 作成」ボタンを押すと、BlockSpawnerTableアセットを扱う新しいメニューに移動します。\n\nドロップダウンから既存のアセットを選択するか、エントリを追加して新規作成できます。各アセットのエントリには次の項目があります:\n\nブロックタイプ = スポーンするコンテナブロック。\n\n重み = 0〜1のエントリの重み。1に近いほど選ばれやすくなります。\n\nドロップリスト = ブロック内にアイテムをスポーンさせるために使用するドロップアセット。
+legend.BlockSpawner.Page1.Editing.Description = 「ブロックスポナーアセットを編集 / 作成」ボタンから、BlockSpawnerTableアセットを扱うメニューに移動できます。\n\nドロップダウンから既存のアセットを選ぶか、項目を追加して新規作成できます。各アセットの項目は次の内容を持ちます。\n\nブロックタイプ = スポーンさせるコンテナブロック。\n\n重み = 0〜1の範囲の重み。1に近いほど選ばれやすくなります。\n\nドロップリスト = ブロック内にアイテムを生成するためのドロップアセット。
 legend.BlockSpawner.Page1.AssetEditor.Title = アセットエディター
-legend.BlockSpawner.Page1.AssetEditor.Description = クリエイティブツールからアクセスできるアセットエディターを使うと、BlockSpawnerTableやドロップアセットをさらに詳しく設定できます。
-panel.selectedEntity = 選択したエンティティ
-panel.entitySettings = エンティティツール設定
+legend.BlockSpawner.Page1.AssetEditor.Description = クリエイティブツールから開けるアセットエディターでは、BlockSpawnerTableやドロップのアセットをさらに詳しく設定できます。
+panel.selectedEntity = 選択中のエンティティ
+panel.entitySettings = エンティティツールの設定
 paste.offset = オフセット
 paste.resetOffset = リセット
 paste.rotation = 回転
 paste.resetRotation = リセット
 paste.loadPrefab = プレハブを読み込む
 paste.previewMode = プレビュー
-paste.previewMode.tooltip = 貼り付ける前にクリップボードをワールド上でどのように表示するかを設定します。
+paste.previewMode.tooltip = 貼り付ける前に、クリップボードをワールドにどう表示するかを設定します。
 paste.previewMode.Blocks = ブロック
 paste.previewMode.Blocks.tooltip = クリップボードをテクスチャ付きの実体ブロックとして表示します。
-paste.previewMode.Outline = アウトライン
+paste.previewMode.Outline = 輪郭
 paste.previewMode.Outline.tooltip = クリップボードの輪郭のみを表示します。
 paste.previewMode.Target = ターゲット
-paste.previewMode.Target.tooltip = クリップボードを非表示にし、ターゲットブロック上のマーカーのみを表示します。
-paste.bypassNonSolidBlocks = 固体ブロックの上に配置
-paste.bypassNonSolidBlocks.tooltip = 有効にすると、草や植物など当たり判定のないブロックをターゲットが無視します。貼り付けはその下の実体ブロックに対して行われます。
+paste.previewMode.Target.tooltip = クリップボードを表示せず、対象ブロックにマーカーのみを表示します。
+paste.bypassNonSolidBlocks = 実体ブロックに設置
+paste.bypassNonSolidBlocks.tooltip = 有効にすると、草や植物など当たり判定のないブロックを対象から除外し、その下の実体ブロックに貼り付けます。
 panel.noSelection = エンティティが選択されていません
-panel.entityType = タイプ
+panel.entityType = 種類
 panel.entityModel = モデル
 panel.entityModelSearchPlaceholder = 検索...
 panel.entityName = 名前
 panel.entityPosition = 位置
 panel.entityRotation = 回転
 panel.entityScale = スケール
-panel.entityAllowPickup = 拾得を許可
-panel.entityCollision = 衝突
+panel.entityAllowPickup = 取得を許可
+panel.entityCollision = 当たり判定
 panel.collisionType.none = なし
 panel.collisionType.soft = ソフト
 panel.collisionType.hard = ハード
-panel.collisionType.rotated = ハード - 回転
-panel.entityClone = クローン
+panel.collisionType.rotated = ハード - 回転あり
+panel.entityClone = 複製
 panel.entityRemove = 削除
 panel.entityPin = エンティティを固定
 panel.entityUnpin = エンティティの固定を解除
-panel.surfaceLock = サーフェスに固定
-panel.gridSnap = グリッドスナップ
+panel.surfaceLock = 面にロック
+panel.gridSnap = グリッドにスナップ
 panel.gridSize = グリッドサイズ
 commands.log.argValueChanged = {argKey}が{argValue}に変更されました
 commands.mode = モード
@@ -986,7 +986,7 @@ commands.includeEntities = エンティティを含む
 commands.wall.thickness = 厚さ
 commands.wall.roof = 屋根
 commands.wall.floor = 床
-commands.stack.count = 数
+commands.stack.count = 回数
 commands.stack.spacing = 間隔
 commands.move.distance = 距離
 commands.clear.description = 現在の選択範囲内のすべてのブロックをクリアします。
@@ -1015,9 +1015,9 @@ entityModel.fallback.item = アイテム #{id}
 entityModel.fallback.model = モデル #{id}
 entityModel.fallback.block = ブロック #{id}
 entityModel.fallback.unknown = #{id}
-panel.entityLightEnabled = ライトを有効化
-panel.entityLightColor = ライトカラー
-panel.entityLightRadius = 光量半径
+panel.entityLightEnabled = 発光を有効にする
+panel.entityLightColor = 光の色
+panel.entityLightRadius = 明るい範囲の半径
 panel.npcDebug = NPCデバッグ
 panel.npcState = 状態
 panel.npcHealth = 体力
@@ -1025,29 +1025,29 @@ panel.npcStamina = スタミナ
 panel.npcSpeed = 速度
 panel.npcTarget = ターゲット
 panel.npcTarget.none = なし
-brush.log.setPaintMode = ペイントブラシのペイントモードを{value}に設定しました
-brush.log.setBrushOrigin = ブラシの原点を{origin}に設定しました
-brush.log.setBrushShape = ブラシの形状を{shape}に設定しました
+brush.log.setPaintMode = ペイントブラシのペイントモードを次に設定しました: {value}
+brush.log.setBrushOrigin = ブラシの原点を次に設定しました: {origin}
+brush.log.setBrushShape = ブラシの形状を次に設定しました: {shape}
 brush.log.setBrushMode = モードを次に設定しました: {mode}
 brush.log.removedFavoriteMaterial = お気に入り素材から削除しました: {block}
 brush.log.addedFavoriteMaterial = お気に入り素材に追加しました: {block}
-log.brushMaterialChanged = ブラシ素材が{value}に変更されました
-log.brushKeyChanged = ブラシキーが{value}に変更されました
-log.argChanged = {key}が{value}に変更されました
+log.brushMaterialChanged = ブラシの素材を次に変更しました: {value}
+log.brushKeyChanged = ブラシのキーを次に変更しました: {value}
+log.argChanged = {key}を次に変更しました: {value}
 log.invalidBlockType = "{block}" は有効なブロックタイプではありません
 log.gmaskSave = グローバルマスクのプリセット "{name}" を保存しました。
-log.gmaskPresetNotFound = マスクプリセット "{name}" が見つかりません。
+log.gmaskPresetNotFound = マスクのプリセット "{name}" が見つかりません。
 paletteEditor.title = パレットエディター
 paletteEditor.hex = Hex
 paletteEditor.suggestedBlocks = 候補のブロック
-paletteEditor.loading = カラーインデックスを構築中...
+paletteEditor.loading = 色インデックスを構築中...
 paletteEditor.filter.all = すべて
 paletteEditor.filter.fullBlocks = フルブロック
 paletteEditor.filter.decorations = 装飾
 paletteEditor.gradientHelper = グラデーション
 paletteEditor.gradientHelper.description = 使い方:\n\
 \n\
-スロットにブロックをドラッグ＆ドロップすると、その間の空きスロットが滑らかに移り変わるブロック・色で埋められます。
+スロットにブロックをドラッグ&ドロップすると、その間の空きスロットが色の近いブロックで埋められ、滑らかな移り変わりが作られます。
 paletteEditor.savePalette = パレットを保存
 paletteEditor.deletePalette = パレットを削除
 paletteEditor.palettes = パレット
@@ -1055,7 +1055,7 @@ paletteEditor.paletteBlank = なし
 paletteEditor.filterDropdown.description = 候補として表示するブロックを絞り込みます:\n\
 \n\
 フルブロック = フルブロックのみ\n\
-装飾 = 装飾とそのバリエーションのみ\n\
+装飾 = 装飾とバリエーションのみ\n\
 すべて = すべてのブロック
 paletteTool.openEditor = パレットエディターを開く
 paletteTool.delete = パレットを削除
@@ -1065,23 +1065,23 @@ paletteEditor.tab.editor = パレットを編集
 paletteEditor.tab.list = パレットを表示
 extrudeTool.mode = モード
 extrudeTool.filter = フィルター
-extrudeTool.strategy = 戦略
+extrudeTool.strategy = ストラテジー
 colorTool.mode = モード
-colorTool.brushShape = ブラシ形状
-colorTool.gradientShape = グラデーション形状
+colorTool.brushShape = ブラシの形状
+colorTool.gradientShape = グラデーションの形状
 colorTool.shadingSubMode = シェーディングモード
 colorTool.shadingLightSource = 光源
 colorTool.addMaterial = 素材を追加
 colorTool.coloringSubMode = カラーモード
-colorTool.palettePreset = パレットプリセット
+colorTool.palettePreset = パレットのプリセット
 colorTool.palettePreset.placeholder = なし
 pasteTool.origin = 原点: {origin}
 pasteTool.origin.anchor = アンカー
-pasteTool.origin.bottom = 下部
+pasteTool.origin.bottom = 下
 pasteTool.origin.center = 中央
-pasteTool.origin.top = 上部
-pasteTool.positionLock = ペーストツールの位置が{state}されました。
-pasteTool.positionLock.locked = ロック
-pasteTool.positionLock.unlocked = ロック解除
+pasteTool.origin.top = 上
+pasteTool.positionLock = ペーストツールの位置を{state}しました。
+pasteTool.positionLock.locked = 固定
+pasteTool.positionLock.unlocked = 固定解除
 pasteTool.pasting = 貼り付け中...
-selectionTool.tooLargeForTransform = 選択範囲が大きすぎて変形できません。貼り付けツールを使用してください。
+selectionTool.tooLargeForTransform = 選択範囲が大きすぎて変形できません。ペーストツールを使用してください。

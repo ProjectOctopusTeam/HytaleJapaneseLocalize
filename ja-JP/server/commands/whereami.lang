@@ -1,4 +1,4 @@
-header = 現在地:\n\
+header = 現在の状態:\n\
   ワールド: {world}\n\
   チャンク: {chunkX, number}, {chunkY, number}, {chunkZ, number}\n\
   座標: {posX, number}, {posY, number}, {posZ, number}\n\
@@ -6,7 +6,7 @@ header = 現在地:\n\
   方向: {direction}\n\
   軸方向: {axisDirection}\n\
   軸: {axis}
-header.other = {username} の現在地:\n\
+header.other = {username} の現在の状態:\n\
   ワールド: {world}\n\
   チャンク: {chunkX, number}, {chunkY, number}, {chunkZ, number}\n\
   座標: {posX, number}, {posY, number}, {posZ, number}\n\
@@ -15,6 +15,6 @@ header.other = {username} の現在地:\n\
   軸方向: {axisDirection}\n\
   軸: {axis}
 needsSaving = 保存が必要: {needsSaving}
-chunkNotLoaded = チャンクがロードされていません！
+chunkNotLoaded = チャンクが読み込まれていません！
 desc = プレイヤーの現在地を表示する
-other.desc = 別のプレイヤーの現在地を表示する
+other.desc = 他のプレイヤーの現在地を表示する

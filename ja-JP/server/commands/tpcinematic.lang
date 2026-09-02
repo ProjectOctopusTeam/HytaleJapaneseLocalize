@@ -1,8 +1,8 @@
-desc = シネマティックカメラの演出とともに指定した座標へテレポートする
+desc = シネマティックカメラを伴って指定座標にテレポートする
 x.desc = X座標
 y.desc = Y座標
 z.desc = Z座標
-height.desc = カメラが経路の上にどれだけ高く上がるか（ブロック単位、フライオーバーのみ）
-style.desc = カメラ経路: flyover、arc、orbit、dolly
-invalidCoordinates = 座標は有限の数値である必要があります。
+height.desc = カメラが経路の上に上昇する高さ(ブロック単位、フライオーバー時のみ)
+style.desc = カメラの経路: flyover、arc、orbit、dolly
+invalidCoordinates = 座標には有限の数値を指定してください。
 success = ({x, number}, {y, number}, {z, number}) へシネマティックテレポートしました。

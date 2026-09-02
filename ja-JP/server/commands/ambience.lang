@@ -1,9 +1,9 @@
-desc = ワールドのアンビエンスを管理する
-emitter.desc = ワールドのアンビエントエミッターを管理する
+desc = ワールドの環境音を管理する
+emitter.desc = ワールドの環境音エミッターを管理する
 emitter.add.arg.soundEvent.name = サウンドイベント
 emitter.add.arg.soundEvent.usage = サウンドイベントのアセットID
-emitter.add.arg.soundEvent.desc = このエミッターから再生するループサウンドイベント
-emitter.add.desc = ワールドのこの位置にアンビエントエミッターエンティティを追加する
-emitter.add.failed = サウンドイベント "{soundEventId}" のアンビエントエミッターのスポーンに失敗しました
-emitter.add.notLooping = サウンドイベント "{soundEventId}" はループサウンドイベントではありません！
-emitter.add.added = サウンドイベント "{soundEventId}" のアンビエントエミッターを現在の位置に追加しました
+emitter.add.arg.soundEvent.desc = このエミッターからループ再生するサウンドイベント
+emitter.add.desc = ワールドのこの位置に環境音エミッターを追加する
+emitter.add.failed = サウンドイベント "{soundEventId}" の環境音エミッターをスポーンできませんでした
+emitter.add.notLooping = サウンドイベント "{soundEventId}" はループ再生のサウンドイベントではありません！
+emitter.add.added = 現在地にサウンドイベント "{soundEventId}" の環境音エミッターを追加しました

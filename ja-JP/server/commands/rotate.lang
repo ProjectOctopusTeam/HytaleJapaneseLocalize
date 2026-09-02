@@ -1,8 +1,8 @@
-desc = クリップボードを回転させる
-angle.desc = 回転角度（90の倍数である必要があります）
-axis.desc = 回転させる軸
-axis.variant.desc = 軸を中心に指定角度回転させる（90度単位）
-yaw.desc = ヨーの回転角度（Y軸周り、度単位）
-pitch.desc = ピッチの回転角度（X軸周り、度単位）
-roll.desc = ロールの回転角度（Z軸周り、度単位）
-arbitrary.variant.desc = 任意のヨー/ピッチ/ロール角で回転させる
+desc = クリップボードを回転する
+angle.desc = 回転する角度(90の倍数)
+axis.desc = 回転の中心となる軸
+axis.variant.desc = 軸を中心に角度で回転する(90度単位)
+yaw.desc = ヨー回転の角度(Y軸まわり、度)
+pitch.desc = ピッチ回転の角度(X軸まわり、度)
+roll.desc = ロール回転の角度(Z軸まわり、度)
+arbitrary.variant.desc = 任意のヨー/ピッチ/ロール角で回転する

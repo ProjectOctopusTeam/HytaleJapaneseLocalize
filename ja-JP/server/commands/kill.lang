@@ -1,4 +1,4 @@
-success.self = 自分自身をキルしました
-success.other = {username}をキルしました
-desc = プレイヤーをキルしてリスポーンさせる
-other.desc = 別のプレイヤーをキルする
+success.self = 自分を倒しました
+success.other = {username} を倒しました
+desc = プレイヤーを倒してリスポーンさせる
+other.desc = 他のプレイヤーを倒す

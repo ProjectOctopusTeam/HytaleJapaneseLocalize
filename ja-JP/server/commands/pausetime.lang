@@ -1,3 +1,3 @@
-timeInfo = "{worldName}"のタイムサイクルが{time}で一時停止されました
-timeInfoResumed = "{worldName}"のタイムサイクルが{time}で再開されました
+timeInfo = ワールド "{worldName}" の時間サイクルを {time} で停止しました
+timeInfoResumed = ワールド "{worldName}" の時間サイクルを {time} で再開しました
 desc = 時間の経過を切り替える。

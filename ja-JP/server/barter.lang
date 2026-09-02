@@ -1,10 +1,10 @@
-klops_merchant.title = クロップス商人
-kweebec_merchant.title = ルートリング商人
-customUI.barterPage.restocksToday = 今日 {restockTime, time} に再入荷
-customUI.barterPage.restocksTomorrow = 明日 {restockTime, time} に再入荷
-customUI.barterPage.restocksInDays = {days} {days, plural, one {日} other {日}}後に再入荷
+klops_merchant.title = クロップスの商人
+kweebec_merchant.title = ルートリングの商人
+customUI.barterPage.restocksToday = 本日 {restockTime, time} に補充
+customUI.barterPage.restocksTomorrow = 明日 {restockTime, time} に補充
+customUI.barterPage.restocksInDays = {days}{days, plural, one {日} other {日}}後に補充
 customUI.barterPage.noStock = 在庫切れ
 customUI.barterPage.inStock = 在庫: {count}
 customUI.barterPage.quantityStock = 所持: {count}
 customUI.barterPage.invalidItem = 無効なアイテム
-customUI.barterPage.cost = コスト:
+customUI.barterPage.cost = 価格:

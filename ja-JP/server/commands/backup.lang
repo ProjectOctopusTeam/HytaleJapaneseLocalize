@@ -1,4 +1,4 @@
-starting = バックアップを開始中...
+starting = バックアップを開始します...
 complete = バックアップが完了しました！
-notConfigured = このコマンドを使用するにはサーバーを--backup-dirオプションで起動する必要があります！
+notConfigured = このコマンドを使用するには、--backup-dir を指定してサーバーを起動する必要があります！
 desc = ユニバースのバックアップを実行する

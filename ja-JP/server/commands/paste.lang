@@ -1,3 +1,3 @@
-desc = クリップボードの内容を貼り付ける
-position.desc = 貼り付ける位置
-technical.desc = 空のブロックを空気の代わりにEditor_Emptyブロックとして貼り付ける
+desc = クリップボードの内容をペーストする
+position.desc = ペーストする位置
+technical.desc = 空ブロックを空気ではなく Editor_Empty ブロックとしてペーストする

@@ -1,6 +1,6 @@
-get = 最大プレイヤー数は{maxPlayers, number}に設定されています
+get = 最大プレイヤー数は {maxPlayers, number} に設定されています
 getInfinite = 最大プレイヤー数は無制限に設定されています
-set = 最大プレイヤー数を{maxPlayers, number}に設定しました
+set = 最大プレイヤー数を {maxPlayers, number} に設定しました
 setInfinite = 最大プレイヤー数を無制限に設定しました
 amount.desc = サーバーに接続できる最大プレイヤー数
 desc = 最大プレイヤー数を設定する

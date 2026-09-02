@@ -1,21 +1,21 @@
-load.usage = `/chunk load {chunkX} {chunkZ}`コマンドを使用してチャンクをロードしてください。
+load.usage = チャンクを読み込むには `/chunk load {chunkX} {chunkZ}` コマンドを使用してください。
 serialized = チャンクデータをコンソールにシリアライズしました。
 serialized.failed = チャンクのシリアライズに失敗しました。コンソールを確認してください。
-chunk = チャンク{chunkX}, {chunkZ}：\n\
-  \tフラグ：\n\
-    \t\t初期化開始：{startInit}\n\
-    \t\t初期化済み：{init}\n\
-    \t\t新規生成：{newlyGenerated}\n\
-    \t\tディスク上：{onDisk}\n\
-    \t\tティック中：{ticking}\n\
-  \tロード維持：{keepLoaded}\n\
-  \t保存が必要：{saving}\n\
-  \tメタデータ：\n\
-  \tブロックチャンク：\n\
-    \t\t保存が必要：{savingChunk}
-section = \t\tセクション{index}：\n
-dataType = \t\t\tデータタイプ：{data}\n
-sectionInfo = \t\t\tティック有り：{ticking}\n\
-      \t\t\tソリッドエア：{solidAir}\n\
-      \t\t\tブロック数：{count}\n\
-      \t\t\tブロック数（詳細）：{counts}
+chunk = チャンク {chunkX}, {chunkZ}:\n\
+  \tフラグ: \n\
+    \t\t初期化開始: {startInit}\n\
+    \t\t初期化済み: {init}\n\
+    \t\t新規生成: {newlyGenerated}\n\
+    \t\tディスク上: {onDisk}\n\
+    \t\tティック中: {ticking}\n\
+  \t読み込み保持: {keepLoaded}\n\
+  \t保存が必要: {saving}\n\
+  \tメタデータ:\n\
+  \tBlockChunk:\n\
+    \t\t保存が必要: {savingChunk}
+section = \t\tセクション {index}:\n
+dataType = \t\t\tデータ型: {data}\n
+sectionInfo = \t\t\tティックあり: {ticking}\n\
+      \t\t\t固体の空気: {solidAir}\n\
+      \t\t\tブロック数: {count}\n\
+      \t\t\tブロック数の内訳: {counts}

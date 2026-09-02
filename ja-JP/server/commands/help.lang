@@ -1,9 +1,9 @@
 usage = 使い方
-usagecolon = 使い方：{usage}
-noPermissibleSubCommand = 許可されているサブコマンドがありません
-useHelpOnAnySubCommand = サブコマンドに--helpを付けてください！
-useHelpToLearnMore = "/{command} --help"を使って詳細を確認してください！
-console.header = コマンド一覧（詳細は "/help <command>" を使用してください）:
+usagecolon = 使い方: {usage}
+noPermissibleSubCommand = 使用できるサブコマンドはありません
+useHelpOnAnySubCommand = どのサブコマンドにも --help を付けられます！
+useHelpToLearnMore = 詳しくは "/{command} --help" を使用してください！
+console.header = コマンド一覧(詳細は "/help <command>" を使用):
 desc = コマンドのヘルプを表示する
 command.desc = 特定のコマンドのヘルプを表示する
 command.name.desc = ヘルプを表示するコマンド名

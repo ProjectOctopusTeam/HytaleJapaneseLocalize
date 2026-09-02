@@ -5,33 +5,33 @@ oasis = ウィンドライダー渓谷
 jungles = タルケシの隠れ家
 boreal = ドラゴンスパイアの森
 discoverySubtitle = オービスの断片
-incomplete.description = <b>このフラグメント内のエネルギーはまだ最終形を取っていません。内部で遭遇するすべてのもの——伝承、機能、形態——は、その真の姿を待っています。</b>
-hederas_lair.description = オービスの暗い深部に潜む恐怖を経験した者はほとんどいません。変わらずに帰還した者はさらに少ない。\n\
+incomplete.description = <b>この断片に宿るエネルギーは、まだ最終的な形を成していません。ここで出会うすべて——伝承も、機能も、姿かたちも——が、真の形を待っています。</b>
+hederas_lair.description = オービスの暗い深部に潜む恐怖を味わった者はほとんどいません。変わり果てずに戻った者は、さらに少ないのです。\n\
 \n\
 <msg key="server.portals.incomplete.description"/>
-boreal.description = ウィスパーがどれほど誘惑しても、アウトランダーでさえ足を踏み入れる勇気を持てない凍てついた森があります。\n\
+boreal.description = ささやきがどれほど誘おうとも、アウトランダーですら足を踏み入れようとしない凍てついた森があります。\n\
 \n\
-この地域の名前にまつわる伝説は数多く語られています：空を覆う山々、雲に触れる巨木、あるいは峰々の間で眠る元素の氷から生まれた古代の生き物。\n\
-\n\
-<msg key="server.portals.incomplete.description"/>
-henges.description = 時に、真実と虚構の境界線が曖昧になります。古代の関門があなたに見せるすべてのフラグメントが、あなたが求める真実を持っているわけではありません。\n\
-\n\
-しかし、目的なく存在するものは何もないはずです。それは別の疑問へと導くかもしれません：誰がこの古代の関門を建て、なぜ建てたのか？\n\
+この地の名にまつわる伝説は数知れません。空を覆い隠す山々、雲をかすめる大樹、あるいは元素の氷から生まれ峰々の間で眠る古代の生き物——。\n\
 \n\
 <msg key="server.portals.incomplete.description"/>
-oasis.description = フェランは自由を何よりも大切にし、ウィンドライダー渓谷の風ほどその自由を体現している場所はありません。\n\
+henges.description = 時として、真実と虚構の境界は曖昧になります。古代の関門が見せる断片のすべてが、あなたの求める真実を宿しているとは限りません。\n\
 \n\
-歴史の最も暗い時代に彼らはここに避難所を求め、そびえ立つ峡谷の壁が彼らを視界から隠してくれるキャンプを設営しました。\n\
-\n\
-<msg key="server.portals.incomplete.description"/>
-jungles.description = 古代文明が残した荒廃した荒野の深い地下に、原始的な楽園が栄えています。\n\
+とはいえ、意味なく存在するものなどないはずです。それは別の問いへと導くのかもしれません——誰が、何のためにこの古代の関門を築いたのか。\n\
 \n\
 <msg key="server.portals.incomplete.description"/>
-taiga.tip1 = <color is="#05c09a">神話の獣がここで眠っています、永遠の\n\
-眠りに縛られて。</color>
+oasis.description = フェランは何よりも自由を重んじます。そしてその自由が最も色濃く息づくのが、ウィンドライダー渓谷を渡る風の中です。\n\
+\n\
+歴史上最も暗い時代、彼らはここに逃れ、そびえ立つ峡谷の壁に身を隠すようにして野営地を築きました。\n\
+\n\
+<msg key="server.portals.incomplete.description"/>
+jungles.description = 古代文明が残した荒涼たる不毛の地のはるか地下に、太古の楽園が息づいています。\n\
+\n\
+<msg key="server.portals.incomplete.description"/>
+taiga.tip1 = <color is="#05c09a">神話の獣がここで、永遠の眠りに\n\
+縛られています。</color>
 hederas_lair.tip1 = <color is="#05c09a">貪欲な脅威が沼の中心に潜んでいます。</color>
-hederas_lair.tip2 = <color is="#05c09a">濁った浅瀬には危険な生物が生息しています。</color>
-windsurf_valley.tip1 = <color is="#05c09a">時折、魔術師の塔がここで見つかることがあります。</color>
+hederas_lair.tip2 = <color is="#05c09a">濁った浅瀬には危険な生き物がすみついています。</color>
+windsurf_valley.tip1 = <color is="#05c09a">まれに、魔術師の塔がここで見つかることがあります。</color>
 tags.orbis = [TMP] オービス
 tabs.zone1 = [TMP] ゾーン1
 tags.corrupted = [TMP] 汚染
@@ -40,16 +40,16 @@ tags.frost = [TMP] 氷結
 tags.lush = [TMP] 緑豊か
 tags.desolate = [TMP] 荒廃
 tags.glider = [TMP] 滑空
-device.blockTypeMisconfigured = ポータルブロックの{x}, {y}, {z}でのタイプが無効です。アセットの設定ミスです
+device.blockTypeMisconfigured = {x}, {y}, {z} のポータルブロックの種類が無効です。アセットの設定ミスです
 device.blockStateMisconfigured = ポータルブロックの状態 "{state}" が存在しません。アセットの設定ミスです
-device.blockEntityMisconfigured = ポータルブロックには「Portal」ブロックコンポーネントが必要です。アセットの設定ミスです
-device.internalErrorSpawning = ポータルのスポーン中に内部エラーが発生しました
-device.worldNoSpawn = このポータルはまだ準備ができていません。帰還コンジットをチャネリング中です！
-device.worldIsDead = このポータルのターゲットワールドは存在しないか、消滅しました
-device.refInvalid = エンティティ参照が無効です！ワールドにいますか？
-device.blockEntityRefInvalid = 関連するブロックエンティティ参照が無効です！
+device.blockEntityMisconfigured = ポータルブロックには "Portal" ブロックコンポーネントが必要です。アセットの設定ミスです
+device.internalErrorSpawning = ポータルの生成中に内部エラーが発生しました
+device.worldNoSpawn = このポータルはまだ準備できていません。帰還用のコンジットを構築中です！
+device.worldIsDead = このポータルの接続先ワールドは存在しないか、消滅しました
+device.refInvalid = エンティティ参照が無効です！ワールド内にいますか？
+device.blockEntityRefInvalid = 関連するブロックエンティティの参照が無効です！
 device.notInPortalWorld = ポータルワールドにいないため、何も起こりません！
-device.adjusted = ポータルデバイスが無効だったため、調整されました！
-attuningToWorld = ポータルがこのワールドでのあなたの新しい存在に同調中です...
-portalWorld.unnamed = 名称不明
-exit.marker = フラグメント出口
+device.adjusted = ポータル装置が無効だったため、調整されました！
+attuningToWorld = ポータルがこのワールドでのあなたの存在に同調しています...
+portalWorld.unnamed = 名称未設定
+exit.marker = 断片の出口

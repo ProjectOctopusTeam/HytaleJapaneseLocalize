@@ -1,4 +1,4 @@
-desc = マウントしているものからdismountする
-dismountAttempted = dismountを試みました
-dismountOther = {username}をdismountしました
-other.desc = 別のプレイヤーをdismountさせる
+desc = 騎乗しているものから降りる
+dismountAttempted = 降車を試みました
+dismountOther = {username} を降ろしました
+other.desc = 他のプレイヤーを降ろす

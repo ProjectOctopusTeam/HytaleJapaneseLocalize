@@ -1,21 +1,21 @@
 desc = サーバー関連のコマンド
-stats.desc = サーバーをホストしているマシンの統計情報を表示する
-stats.fullInfoUnavailable = 詳細情報を取得できません（サポートされていないホスト）
-stats.cpu.desc = CPUの統計情報を表示する
+stats.desc = サーバーをホストしているマシンの統計を表示する
+stats.fullInfoUnavailable = 完全な情報を取得できません(未対応のホスト)
+stats.cpu.desc = CPUの統計を表示する
 stats.cpu.fullUsageInfo = システムCPU使用率: {systemLoad, number}\n\
     プロセスCPU使用率: {processLoad, number}
-stats.cpu.usageInfo = 負荷平均: {loadAverage, number}\n\
+stats.cpu.usageInfo = ロードアベレージ: {loadAverage, number}\n\
     プロセス稼働時間: {processUptime}
-stats.gc.desc = GCの統計情報を表示する
+stats.gc.desc = GCの統計を表示する
 stats.gc.usageInfo = 名前: {name}\n\
     メモリプール名: {poolNames}\n\
-    コレクション回数: {collectionCount, number}\n\
-    コレクション時間: {collectionTime}
-stats.memory.desc = メモリ使用量の統計情報を表示する
+    回収回数: {collectionCount, number}\n\
+    回収時間: {collectionTime}
+stats.memory.desc = メモリ使用量の統計を表示する
 stats.memory.fullUsageInfo = 物理メモリ合計: {totalPhysicalMemory}\n\
-    物理メモリ空き容量: {freePhysicalMemory}\n\
-    スワップメモリ合計: {totalSwapMemory}\n\
-    スワップメモリ空き容量: {freeSwapMemory}
+    物理メモリ空き: {freePhysicalMemory}\n\
+    スワップ合計: {totalSwapMemory}\n\
+    スワップ空き: {freeSwapMemory}
 stats.memory.usageInfo = ヒープメモリ使用量:\n{heapMemoryUsage}\n\
     非ヒープメモリ使用量:\n{nonHeapMemoryUsage}\n\
     ファイナライズ待ちオブジェクト数: {objectsPendingFinalizationCount, number}
@@ -25,10 +25,10 @@ stats.memory.usage = \t初期値: {init}\n\
     \t最大: {max}\n\
     \t空き: {free}
 gc.desc = サーバーに強制的にGCを実行させる
-gc.forcedgc = GCを強制実行しました！解放されたメモリ: {bytes}
-gc.forcedgc.increased = GCを強制実行しましたが解放されませんでした。{bytes} 増加しました。サーバーが正常に動作している可能性があります！
+gc.forcedgc = GCを強制実行しました！解放: {bytes}
+gc.forcedgc.increased = GCを強制実行しました！解放されず、{bytes} 増加しました。サーバーは正常に動作していると思われます！
 dump.desc = サーバーの状態をダンプする
-dump.dumpingState = 現在のサーバー状態をダンプ中！
-dump.finished = ダンプが完了しました！ファイルの保存先: {filepath}
-dump.error = ダンプの書き込みに失敗しました: {error}
+dump.dumpingState = 現在のサーバー状態をダンプしています！
+dump.finished = ダンプが完了しました！保存先: {filepath}
+dump.error = ダンプの書き出しに失敗しました: {error}
 dump.json.desc = JSON形式でダンプする

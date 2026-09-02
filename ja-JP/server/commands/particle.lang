@@ -1,4 +1,4 @@
 desc = パーティクルシステムに関するコマンド
 spawn.desc = プレイヤーの位置にパーティクルシステムをスポーンする
-spawn.page.desc = パーティクルスポーンページを開く
+spawn.page.desc = パーティクルのスポーンページを開く
 spawn.particle.desc = スポーンするパーティクルシステム

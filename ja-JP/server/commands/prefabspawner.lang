@@ -2,21 +2,21 @@ desc = プレハブスポナーブロックのプロパティを表示・編集�
 spawnerNotFoundAtTarget = 対象ブロック {pos} にプレハブスポナーが見つかりませんでした
 get.desc = 対象のプレハブスポナーブロックのプロパティを出力する
 get.path = 現在のプレハブパス: {prefab}
-get.fitsHeightmap = - FitHeightmap = {fitHeightmap}
-get.inheritsSeed = - InheritSeed = {inheritSeed}
-get.inheritsHeightCheck = - InheritHeightCheck = {inheritHeightCheck}
-get.defaultWeight = - DefaultWeight: {weight}
-get.weights = - PrefabWeights: {weights}
-set.desc = 見ているBlockSpawnerブロックにプレハブパスを設定する | [heightMap]: プレハブが高さマップに従うかどうかを設定する | [inheritSeed]: プレハブが親のワールド生成IDを継承するかどうかを設定する | [inheritHeightCheck]: プレハブが親のHeightConditionを使用するかどうかを設定する | [defaultWeight] ウェイトマッピングが割り当てられていないプレハブに付与されるデフォルトのウェイトを設定する
+get.fitsHeightmap = - ハイトマップに合わせる = {fitHeightmap}
+get.inheritsSeed = - シードを継承 = {inheritSeed}
+get.inheritsHeightCheck = - 高さ判定を継承 = {inheritHeightCheck}
+get.defaultWeight = - 既定の重み: {weight}
+get.weights = - プレハブの重み: {weights}
+set.desc = 見ているBlockSpawnerブロックにプレハブパスを設定する | [heightMap]: プレハブがハイトマップに追従するかを設定 | [inheritSeed]: プレハブが親のworldgen-idを継承するかを設定 | [inheritHeightCheck]: プレハブが親のHeightConditionを使用するかを設定 | [defaultWeight]: 重みが割り当てられていないプレハブに適用される既定の重みを設定
 set = PrefabSpawnerを設定しました！
-weight.desc = スポナーのパスがプレハブフォルダを指している場合に個々のプレハブファイルのウェイトを設定する | <prefab> 拡張子を除いたプレハブファイル名 | <weight> プレハブに割り当てるウェイト値（-1で削除）
-weight.remove = プレハブ {prefab} のウェイトを削除しました
-weight.set = プレハブ {prefab} のウェイトを {weight} に設定しました
-position.desc = プレハブスポナーの位置（指定しない場合はプレイヤーからレイキャスト）
-set.prefab.desc = 設定するプレハブパス
-set.fitHeightmap.desc = 高さマップに合わせるかどうか（true/false）
-set.inheritSeed.desc = シードを継承するかどうか（true/false）
-set.inheritHeightCheck.desc = 高さチェックを継承するかどうか（true/false）
-set.defaultWeight.desc = プレハブのデフォルトウェイト
-weight.prefab.desc = プレハブパス
-weight.weight.desc = ウェイト（削除する場合は負の値）
+weight.desc = スポナーのパスがプレハブのフォルダーを指している場合に、個々のプレハブファイルの重みを設定する | <prefab> 拡張子を除いたプレハブファイル名 | <weight> プレハブに割り当てる重みの値(-1で削除)
+weight.remove = プレハブ {prefab} の重みを削除しました
+weight.set = プレハブ {prefab} の重みを {weight} に設定しました
+position.desc = プレハブスポナーの位置(未指定の場合はプレイヤーからのレイキャスト)
+set.prefab.desc = 設定するプレハブのパス
+set.fitHeightmap.desc = ハイトマップに合わせるかどうか(true/false)
+set.inheritSeed.desc = シードを継承するかどうか(true/false)
+set.inheritHeightCheck.desc = 高さ判定を継承するかどうか(true/false)
+set.defaultWeight.desc = プレハブの既定の重み
+weight.prefab.desc = プレハブのパス
+weight.weight.desc = 重み(負の値で削除)

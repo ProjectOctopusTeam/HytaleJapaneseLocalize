@@ -1,4 +1,4 @@
-invalidusage = 無効な使い方です！正しい使い方: /sudo <player>
-player.desc = コマンドを実行するプレイヤー（または全プレイヤーを対象にする場合は "*"）
+invalidusage = 使い方が正しくありません！正しい使い方: /sudo <player>
+player.desc = コマンドを実行させるプレイヤー("*" で全プレイヤー)
 command.desc = 対象プレイヤーとして実行するコマンド
-desc = 別のプレイヤーとしてコマンドを実行する
+desc = 他のプレイヤーとしてコマンドを実行する

@@ -1,6 +1,6 @@
 buttons.returnToGame = ゲームに戻る
-buttons.quitToDesktop = デスクトップに終了
+buttons.quitToDesktop = デスクトップに戻る
 buttons.quitToMainMenu = メインメニューに戻る
 buttons.settings = 設定
-buttons.feedback = バグ・フィードバックを送信
+buttons.feedback = バグ報告・フィードバックの送信
 buttons.onlinePlay = オンラインプレイ

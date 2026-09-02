@@ -1,7 +1,7 @@
-desc = ライティングデータの送信を切り替えるコマンド
-local.desc = ローカルライティングデータの送信を切り替える
-local.enabled.desc = ローカルライティングデータの送信を有効または無効にするかどうか
-global.desc = グローバルライティングデータの送信を切り替える
-global.enabled.desc = グローバルライティングデータの送信を有効または無効にするかどうか
-localLightingStatus = ローカルライティングの送信が{enabled, select, true {有効} other {無効}}になりました
-globalLightingStatus = グローバルライティングの送信が{enabled, select, true {有効} other {無効}}になりました
+desc = 光源データの送信を切り替えるコマンド
+local.desc = ローカル光源データの送信を切り替える
+local.enabled.desc = ローカル光源データの送信を有効にするか無効にするか
+global.desc = グローバル光源データの送信を切り替える
+global.enabled.desc = グローバル光源データの送信を有効にするか無効にするか
+localLightingStatus = ローカル光源の送信を{enabled, select, true {有効} other {無効}}にしました
+globalLightingStatus = グローバル光源の送信を{enabled, select, true {有効} other {無効}}にしました

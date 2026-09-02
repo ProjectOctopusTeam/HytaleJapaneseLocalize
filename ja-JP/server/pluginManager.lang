@@ -1,2 +1,2 @@
-outOfDatePlugins = 以下の{count, plural, one {プラグインは} other {プラグインは}}異なるサーバーバージョンをターゲットにしています。\n\
-    互換性を確保するため、{count, plural, one {このプラグイン} other {これらのプラグイン}}を更新することをお勧めします:{mods}
+outOfDatePlugins = 次の{count, plural, one {プラグイン} other {プラグイン}}は、異なるサーバーバージョンを対象としています。\n\
+    互換性を保つため、{count, plural, one {このプラグイン} other {これらのプラグイン}}を更新することをお勧めします:{mods}

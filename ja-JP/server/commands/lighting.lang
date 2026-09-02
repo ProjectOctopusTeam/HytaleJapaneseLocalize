@@ -1,8 +1,8 @@
-desc = ワールドのライティングを管理するコマンド
-info.desc = ライティング情報を表示する
+desc = ワールドの光源を管理するコマンド
+info.desc = 光源の情報を表示する
 info.detail.desc = チャンクの詳細情報を表示する
-info.summary = キューサイズ：{queueSize, number}\n\
-    ライティング計算：{lightCalculation}
-info.chunkDetails = チャンクセクションの総数：{totalChunkSections, number}\n\
-    ローカルライト付きチャンク：{chunksWithLocalLight, number}\n\
-    グローバルライト付きチャンク：{chunksWithGlobalLight, number}
+info.summary = キューのサイズ: {queueSize, number}\n\
+    光源計算: {lightCalculation}
+info.chunkDetails = チャンクセクションの総数: {totalChunkSections, number}\n\
+    ローカル光源を持つチャンク: {chunksWithLocalLight, number}\n\
+    グローバル光源を持つチャンク: {chunksWithGlobalLight, number}

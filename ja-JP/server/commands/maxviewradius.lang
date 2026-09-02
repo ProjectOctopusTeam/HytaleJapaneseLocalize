@@ -1,9 +1,9 @@
-radius.desc = 最大表示半径（チャンク単位）
+radius.desc = 最大表示半径(チャンク単位)
 get = 最大表示半径は {radius, number} チャンクに設定されています
 set = 最大表示半径を {radius, number} チャンクに設定しました
 mustBePositive = 最大表示半径は正の数である必要があります
-noHigherThan = 最大表示半径は {max, number} チャンクを超えることはできません
-reset = 最大表示半径をデフォルトの {radius, number} チャンクにリセットしました
+noHigherThan = 最大表示半径は {max, number} チャンクを超えられません
+reset = 最大表示半径を {radius, number} チャンクにリセットしました
 desc = プレイヤーの最大表示半径を取得・設定・リセットする
 set.desc = プレイヤーの最大表示半径を設定する
-reset.desc = 最大表示半径をデフォルトにリセットする
+reset.desc = 最大表示半径をデフォルトに戻す

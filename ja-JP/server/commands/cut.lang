@@ -1,8 +1,8 @@
-desc = ワールドの選択範囲の内容を切り取り、クリップボードに保存してペーストできるようにする
-noEntities.desc = 切り取りからエンティティを除外する（デフォルトではエンティティを含む）
-entitiesonly.desc = エンティティのみ切り取る（ブロックなし）
-empty.desc = 切り取りに空のブロックを含める
-keepanchors.desc = 切り取りにアンカーブロックを保持する
+desc = 選択範囲の内容をワールドから切り取り、ペースト用にクリップボードへ保存する
+noEntities.desc = 切り取りからエンティティを除外する(デフォルトでは含まれます)
+entitiesonly.desc = エンティティのみを切り取る(ブロックは含めない)
+empty.desc = 空ブロックも切り取りに含める
+keepanchors.desc = アンカーブロックを切り取りに残す
 xMin.desc = X座標の最小値
 yMin.desc = Y座標の最小値
 zMin.desc = Z座標の最小値

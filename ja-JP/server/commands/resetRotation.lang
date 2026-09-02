@@ -1,1 +1,1 @@
-desc = カメラの回転をデフォルト（pitch=0、yaw=0、roll=0）にリセットする。
+desc = カメラの回転をデフォルト(pitch=0、yaw=0、roll=0)に戻す。

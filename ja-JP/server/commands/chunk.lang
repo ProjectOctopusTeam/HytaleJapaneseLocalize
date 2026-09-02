@@ -1,74 +1,74 @@
 tint.desc = 現在いるチャンクを色付けする
-tint.get = チャンク色付けUIページを開く
-tint.color.desc = チャンクを色付けする色（16進数または整数）
-tint.radius.desc = ぼかし半径
+tint.get = チャンク色付けのUIページを開く
+tint.color.desc = チャンクを色付けする色(16進数または整数)
+tint.radius.desc = ぼかしの半径
 tint.radius.default = 5
 tint.sigma.desc = ぼかしのシグマ値
 tint.sigma.default = 1.5
-tint.blur.desc = ぼかしエフェクトを有効にする
-tint.success = チャンク({chunkX}, {chunkZ})の色付けに成功しました
-tint.success.blur = チャンク({chunkX}, {chunkZ})へのぼかし色付けに成功しました（{chunksAffected}チャンクに適用、半径：{radius}、シグマ：{sigma}）
-desc = チャンクに関するコマンド
-resend.desc = プレイヤーにすべてのチャンクを強制再送信する！
+tint.blur.desc = ぼかし効果を有効にする
+tint.success = チャンク {chunkX}, {chunkZ} の色付けに成功しました
+tint.success.blur = チャンク {chunkX}, {chunkZ} へのぼかし色付けに成功しました({chunksAffected} チャンクに適用、半径: {radius}、シグマ: {sigma})
+desc = チャンク関連のコマンド
+resend.desc = すべてのチャンクをプレイヤーに強制的に再送信する！
 resend.unloadedAll = すべてのチャンクをアンロードしました
-resend.clearcache.desc = 再送信前にチャンクキャッシュをクリアする
+resend.clearcache.desc = 再送信の前にチャンクキャッシュをクリアする
 info.desc = チャンクの情報を取得する
-info.position.desc = チャンクの位置（x, z）
+info.position.desc = チャンクの位置(x, z)
 unload.desc = ワールドのチャンクをアンロードする
-unload.position.desc = チャンクの位置（x, z）
-load.desc = ワールドのチャンクをロードする
-load.position.desc = チャンクの位置（x, z）
-load.markdirty.desc = ロード後にチャンクをダーティとしてマークする
+unload.position.desc = チャンクの位置(x, z)
+load.desc = ワールドのチャンクを読み込む
+load.position.desc = チャンクの位置(x, z)
+load.markdirty.desc = 読み込み後にチャンクを未保存(dirty)としてマークする
 marksave.desc = ワールドのチャンクを保存対象としてマークする
-forcetick.desc = チャンク内のすべてのブロックを強制ティックする
-forcetick.position.desc = チャンクの位置（x, z）
+forcetick.desc = チャンク内のすべてのブロックを強制的にティックさせる
+forcetick.position.desc = チャンクの位置(x, z)
 regenerate.desc = チャンクを再生成する
-regenerate.position.desc = チャンクの位置（x, z）
-regenerate.success = ワールド "{worldName}" の {chunkX}, {chunkZ} のチャンクを再生成しました！
-marksave.position.desc = チャンクの位置（x, z）
-marksave.markingAlreadyLoaded = "{worldName}" の {x}, {z} のチャンクを保存対象としてマークしました。このチャンクはすでに読み込まれていました！
+regenerate.position.desc = チャンクの位置(x, z)
+regenerate.success = ワールド "{worldName}" のチャンク {chunkX}, {chunkZ} を再生成しました！
+marksave.position.desc = チャンクの位置(x, z)
+marksave.markingAlreadyLoaded = "{worldName}" の {x}, {z} のチャンクを保存対象としてマークしました(すでに読み込み済みでした)！
 marksave.loaded = "{worldName}" の {x}, {z} のチャンクを保存対象としてマークし、読み込みました！
 load.alreadyLoaded = "{worldName}" の {chunkX}, {chunkZ} のチャンクはすでに読み込まれています！
 load.loading = "{worldName}" の {chunkX}, {chunkZ} のチャンクを読み込んでいます！
 load.loaded = "{worldName}" の {chunkX}, {chunkZ} のチャンクの読み込みが完了しました！
 unload.alreadyUnloaded = "{worldName}" の {chunkX}, {chunkZ} のチャンクはすでにアンロードされています！
 unload.success = "{worldName}" の {chunkX}, {chunkZ} のチャンクをアンロードしました！
-fixheight.desc = チャンクのライティングを再生成する
-fixheight.position.desc = チャンクの位置（x, z）
-lighting.position.desc = チャンクの位置（x, y, z）
-shape.desc = プレイヤーの読み込み済みセクションごとに、ホット/コールドで色分けしたデバッグキューブを描画する
-shape.success = {count, number} 個のデバッグキューブを描画しました
-shape.hotOnly.desc = ホットなセクションのキューブのみを描画する
+fixheight.desc = チャンクの光源を再生成する
+fixheight.position.desc = チャンクの位置(x, z)
+lighting.position.desc = チャンクの位置(x, y, z)
+shape.desc = 読み込み済みの各セクションについて、ホット/コールドで色分けしたデバッグ用の立方体を描画する
+shape.success = デバッグ用の立方体を {count, number} 個描画しました
+shape.hotOnly.desc = ホットなセクションのみ立方体を描画する
 tracker.desc = プレイヤーのチャンクトラッカー情報を表示する
-maxsendrate.desc = プレイヤーのセクション送信レート設定を確認・設定する
-maxsendrate.sec.desc = 毎秒の最大セクション数。引数を省略するとデフォルトに設定されます。
-maxsendrate.sec.set = 毎秒の最大セクション数を設定しました: {value, number}
-maxsendrate.tick.desc = 1ティックあたりの最大セクション数。引数を省略するとデフォルトに設定されます。
+maxsendrate.desc = プレイヤーへのセクション送信レート設定を表示または設定する
+maxsendrate.sec.desc = 1秒あたりの最大セクション数。引数を省略するとデフォルトに設定します。
+maxsendrate.sec.set = 1秒あたりの最大セクション数を設定しました: {value, number}
+maxsendrate.tick.desc = 1ティックあたりの最大セクション数。引数を省略するとデフォルトに設定します。
 maxsendrate.tick.set = 1ティックあたりの最大セクション数を設定しました: {value, number}
-maxsendrate.summary = 最大セクション送信レート:\n\
-    \t毎秒: {perSecond, number}\n\
+maxsendrate.summary = セクションの最大送信レート:\n\
+    \t1秒あたり: {perSecond, number}\n\
     \t1ティックあたり: {perTick, number}
-fixHeightMap.started = ハイトマップを修正中...
+fixHeightMap.started = ハイトマップを修復中...
 fixHeightMap.done = 完了！
-fixHeightMap.invalidatingLighting = ライティングを無効化中...
-fixHeightMap.waitingForLighting = チャンク({x, number}, {z, number})のライティング更新を待機中
-fixHeightMap.lightingFinished = チャンク({x, number}, {z, number})のライティングが完了しました
-fixHeightMap.lightingError = チャンク({x, number}, {z, number})が時間内に完了しませんでした。スキップします！
-savequeue.desc = セクション保存キューの深さと処理中の保存件数を表示する
+fixHeightMap.invalidatingLighting = 光源を無効化中...
+fixHeightMap.waitingForLighting = チャンク ({x, number}, {z, number}) の光源の更新を待っています
+fixHeightMap.lightingFinished = チャンク ({x, number}, {z, number}) の光源処理が完了しました
+fixHeightMap.lightingError = チャンク ({x, number}, {z, number}) に時間がかかりすぎているため、中断します！
+savequeue.desc = セクションの保存キューの深さと処理中の保存数を表示する
 savequeue.summary = '{worldName}' の保存キュー:\n\
     \tカラムキューの深さ: {queueDepth, number}\n\
-    \t待機中のダーティセクション: {dirtySections, number}\n\
-    \t待機中のダーティエンティティセクション: {dirtyEntitySections, number}\n\
-    \t待機中のダーティエンティティ: {dirtyEntities, number}\n\
+    \t待機中の未保存セクション: {dirtySections, number}\n\
+    \t待機中の未保存エンティティセクション: {dirtyEntitySections, number}\n\
+    \t待機中の未保存エンティティ: {dirtyEntities, number}\n\
     \t処理中の保存: {inFlight, number} / {max, number}\n\
-    \t保留中のフューチャー: {pending, number}\n\
-    \t開始合計: {starts, number}\n\
-    \t完了合計: {completions, number}\n\
-    \t未完了 (開始 - 完了): {outstanding, number}
-storagestats.desc = アクティブなチャンクストレージバックエンドの統計を出力する
-storagestats.json.desc = メトリクスのスナップショット全体を dumps/ 以下のJSONファイルに書き出す
-storagestats.noMetrics = 現在のチャンクストレージバックエンドはメトリクスを公開していません
-storagestats.dumped = ストレージ統計を次の場所に出力しました: {filepath}
+    \t保留中の処理: {pending, number}\n\
+    \t開始総数: {starts, number}\n\
+    \t完了総数: {completions, number}\n\
+    \t未完了(開始 - 完了): {outstanding, number}
+storagestats.desc = 使用中のチャンクストレージバックエンドの統計を出力する
+storagestats.json.desc = すべての指標のスナップショットを dumps/ 配下のJSONファイルに書き出す
+storagestats.noMetrics = 現在のチャンクストレージバックエンドは指標を公開していません
+storagestats.dumped = ストレージ統計を出力しました: {filepath}
 storagestats.header = '{worldName}' のチャンクストレージ統計 ({provider})
 storagestats.loader.header = ローダー: {className}
 storagestats.saver.header = セーバー: {className}

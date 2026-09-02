@@ -1,8 +1,8 @@
 desc = エンカウンターマネージャーのコマンド
 argtype.name = エンカウンター
-argtype.usage = エンカウンターマネージャーアセットのID
-add.desc = 現在の位置にエンカウンターマネージャーを追加する
+argtype.usage = エンカウンターマネージャーのアセットID
+add.desc = 現在地にエンカウンターマネージャーを追加する
 add.arg.encounter.desc = エンカウンターマネージャーの定義
-add.added = エンカウンターマネージャー "{encounterId}" を現在の位置に追加しました
+add.added = 現在地にエンカウンターマネージャー "{encounterId}" を追加しました
 add.failed = エンカウンターマネージャー "{encounterId}" のスポーンに失敗しました
 add.notspawnable = エンカウンターマネージャー "{id}" は抽象定義のため、直接スポーンできません

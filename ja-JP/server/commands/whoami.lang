@@ -2,5 +2,5 @@ header = あなたのプレイヤー情報:\n\
   UUID: {uuid}\n\
   ユーザー名: {username}\n\
   言語: {language}
-desc = あなたのプレイヤー情報を表示する
-other.desc = 別のプレイヤーの情報を表示する
+desc = 自分のプレイヤー情報を表示する
+other.desc = 他のプレイヤーの情報を表示する

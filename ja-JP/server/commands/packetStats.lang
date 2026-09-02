@@ -1,12 +1,12 @@
-desc = 特定のパケットの統計情報を表示する
-packet.desc = 統計情報を取得するパケット名
+desc = 指定したパケットの統計を表示する
+packet.desc = 統計を取得するパケットの名前
 notFound = "{name}" のパケット統計が見つかりません
-notAvailable = パケット統計情報が利用できません
-row = 件数：{count, number}、サイズ：{size}、平均：{avg}、最小：{min}、最大：{max}
-stats = パケット{name} [#{id, number}] 統計情報\n\
-    送信：\n\
-    \t合計：{sentTotal}\n\
-    \t最近：{sentRecent}\n\
-    受信：\n\
-    \t合計：{receivedTotal}\n\
-    \t最近：{receivedRecent}
+notAvailable = パケット統計を利用できません
+row = 件数: {count, number}、サイズ: {size}、平均: {avg}、最小: {min}、最大: {max}
+stats = パケット {name} [#{id, number}] の統計\n\
+    送信:\n\
+    \t合計: {sentTotal}\n\
+    \t直近: {sentRecent}\n\
+    受信:\n\
+    \t合計: {receivedTotal}\n\
+    \t直近: {receivedRecent}

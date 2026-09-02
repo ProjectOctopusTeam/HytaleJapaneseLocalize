@@ -1,8 +1,8 @@
 desc = スリープのパフォーマンスをテストする
-sleep.desc = スリープ時間（ミリ秒）
+sleep.desc = スリープ時間(ミリ秒)
 sleep.defaultDesc = 10
 count.desc = テストの繰り返し回数
 count.defaultDesc = 1000
-starting = スリープテストを開始します: 回数: {count}、スリープ: {sleep}ms（長さ: {ms}）
+starting = スリープテストを開始: 回数: {count}、スリープ: {sleep}ms(長さ: {ms})
 test = スリープテスト\n  - デルタ: 最小: {deltaMin}、最大: {deltaMax}、平均: {deltaAvg} - {deltaTime}\n  - オフセット: 最小: {offsetMin}、最大: {offsetMax}、平均: {offsetAvg} - {offsetTime}
 interrupted = スリープテストが中断されました

@@ -1,5 +1,5 @@
-desc = 選択範囲をスタックする
-count.desc = スタックする回数
-direction.desc = スタックする方向
-spacing.desc = スタックされたコピー間の間隔
-empty.desc = スタック対象に空ブロックを含める
+desc = 選択範囲を積み重ねる
+count.desc = 積み重ねる回数
+direction.desc = 積み重ねる方向
+spacing.desc = コピー間の間隔
+empty.desc = 積み重ねに空ブロックも含める

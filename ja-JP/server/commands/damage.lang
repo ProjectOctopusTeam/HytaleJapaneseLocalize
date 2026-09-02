@@ -1,9 +1,9 @@
 desc = プレイヤーにダメージを与える
-other.desc = 別のプレイヤーにダメージを与える
-disabled = GameplayConfigによりプレイヤーへのダメージは無効になっています！
+other.desc = 他のプレイヤーにダメージを与える
+disabled = GameplayConfigでプレイヤーへのダメージが無効になっています！
 arg.amount.desc = 与える生ダメージ量
-arg.silent.desc = 攻撃者/被攻撃者へのチャットメッセージを送信するかどうか
-dealt = {victim}に{damage}ダメージを与えました
-dealt.self = 自分自身に{damage}ダメージを与えました
-desyncdamage.desc = テスト用のデシンクダメージモードを切り替える
-desyncDamageEnabled = デシンクダメージ：{enabled}
+arg.silent.desc = 攻撃者と被害者にチャットメッセージを送るかどうか
+dealt = {victim} に {damage} のダメージを与えました
+dealt.self = 自分に {damage} のダメージを与えました
+desyncdamage.desc = テスト用に非同期ダメージモードを切り替える
+desyncDamageEnabled = 非同期ダメージが有効: {enabled}

@@ -1,5 +1,5 @@
-desc = マウント状態を確認する
+desc = 騎乗状態を確認する
 noComponent = Mountedコンポーネントがありません
-mountedToEntity = エンティティにマウントしています
-mountedToBlock = ブロックにマウントしています
-unknownStatus = マウント状態が不明です
+mountedToEntity = エンティティに騎乗しています
+mountedToBlock = ブロックに騎乗しています
+unknownStatus = 騎乗状態が不明です
