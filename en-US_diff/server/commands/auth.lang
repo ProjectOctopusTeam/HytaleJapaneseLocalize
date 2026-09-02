@@ -58,7 +58,6 @@ persistence.desc = View or change credential storage method
 persistence.singleplayer = Not applicable in singleplayer mode.
 persistence.current = Credential storage: {type}
 persistence.changed = Credential storage changed to: {type}
-persistence.unknownType = Unknown storage type: {type}
 persistence.available = Available types: {types}
 persistence.type.desc = Storage type (e.g. Memory, File)
 persistence.variant.desc = Change credential storage method

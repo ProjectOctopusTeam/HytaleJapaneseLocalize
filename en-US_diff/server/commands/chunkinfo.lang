@@ -19,12 +19,3 @@ sectionInfo = \t\t\tHas Ticking: {ticking}\n\
       \t\t\tIs Solid Air: {solidAir}\n\
       \t\t\tBlock Count: {count}\n\
       \t\t\tBlock Counts: {counts}
-blockStateChunk = \tBlock State Chunk:\n\
-    \t\tNeeds Saving: {saving}\n\
-    \t\tBlock States: {countStates}\n\
-    \t\tUnknown Block States: {countUnknown}\n\
-    \t\tSendable Block States: {countSendable}\n\
-    \t\tTickable Block States: {countTickable}\n\
-  \tEntity Chunk:\n\
-    \t\tNeeds Saving: {savingEntity}\n\
-    \t\tEntities: {countEntities}

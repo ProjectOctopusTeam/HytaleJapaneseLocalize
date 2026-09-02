@@ -32,14 +32,14 @@ taiga.tip1 = <color is="#05c09a">神話の獣がここで眠っています、�
 hederas_lair.tip1 = <color is="#05c09a">貪欲な脅威が沼の中心に潜んでいます。</color>
 hederas_lair.tip2 = <color is="#05c09a">濁った浅瀬には危険な生物が生息しています。</color>
 windsurf_valley.tip1 = <color is="#05c09a">時折、魔術師の塔がここで見つかることがあります。</color>
-tags.orbis = [TMP] Orbis
-tabs.zone1 = [TMP] Zone 1
-tags.corrupted = [TMP] Corruption
-tags.poison = [TMP] Poison
-tags.frost = [TMP] Frost
-tags.lush = [TMP] Lush
-tags.desolate = [TMP] Desolate
-tags.glider = [TMP] Gliding
+tags.orbis = [TMP] オービス
+tabs.zone1 = [TMP] ゾーン1
+tags.corrupted = [TMP] 汚染
+tags.poison = [TMP] 毒
+tags.frost = [TMP] 氷結
+tags.lush = [TMP] 緑豊か
+tags.desolate = [TMP] 荒廃
+tags.glider = [TMP] 滑空
 device.blockTypeMisconfigured = ポータルブロックの{x}, {y}, {z}でのタイプが無効です。アセットの設定ミスです
 device.blockStateMisconfigured = ポータルブロックの状態 "{state}" が存在しません。アセットの設定ミスです
 device.blockEntityMisconfigured = ポータルブロックには「Portal」ブロックコンポーネントが必要です。アセットの設定ミスです

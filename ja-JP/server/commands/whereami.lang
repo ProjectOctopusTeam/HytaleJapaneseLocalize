@@ -1,18 +1,18 @@
-header = 現在地:\\n\
-  ワールド: {world}\\n\
-  チャンク: {chunkX, number}, {chunkY, number}, {chunkZ, number}\\n\
-  座標: {posX, number}, {posY, number}, {posZ, number}\\n\
-  視点: {yaw, number}, {pitch, number}, {roll, number}\\n\
-  方向: {direction}\\n\
-  軸方向: {axisDirection}\\n\
+header = 現在地:\n\
+  ワールド: {world}\n\
+  チャンク: {chunkX, number}, {chunkY, number}, {chunkZ, number}\n\
+  座標: {posX, number}, {posY, number}, {posZ, number}\n\
+  視点: {yaw, number}, {pitch, number}, {roll, number}\n\
+  方向: {direction}\n\
+  軸方向: {axisDirection}\n\
   軸: {axis}
-header.other = {username} の現在地:\\n\
-  ワールド: {world}\\n\
-  チャンク: {chunkX, number}, {chunkY, number}, {chunkZ, number}\\n\
-  座標: {posX, number}, {posY, number}, {posZ, number}\\n\
-  視点: {yaw, number}, {pitch, number}, {roll, number}\\n\
-  方向: {direction}\\n\
-  軸方向: {axisDirection}\\n\
+header.other = {username} の現在地:\n\
+  ワールド: {world}\n\
+  チャンク: {chunkX, number}, {chunkY, number}, {chunkZ, number}\n\
+  座標: {posX, number}, {posY, number}, {posZ, number}\n\
+  視点: {yaw, number}, {pitch, number}, {roll, number}\n\
+  方向: {direction}\n\
+  軸方向: {axisDirection}\n\
   軸: {axis}
 needsSaving = 保存が必要: {needsSaving}
 chunkNotLoaded = チャンクがロードされていません！

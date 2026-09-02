@@ -1,9 +1,9 @@
 desc = プレイヤーのインベントリを管理する
 backpack.size = バックパックの容量が{capacity, number}に増加しました！
+backpack.upgradeNotApplied = バックパックはすでにこのアップグレードで付与される容量以上になっています。
+backpack.usePreviousUpgrade = このアップグレードを使用する前に、ひとつ前のアップグレードを使用する必要があります。
 backpack.resized = バックパックの容量を{capacity, number}にリサイズしました（{dropped, plural,\
     one {1個のアイテムをドロップ}\
     other {{dropped, number}個のアイテムをドロップ}}）
 item.noItemInHand = プレイヤーはアイテムを持っている必要があります
 item.noContainerOnItem = アイテムにコンテナがありません
-backpack.upgradeNotApplied = バックパックはすでにこのアップグレードで付与される容量以上になっています。
-backpack.usePreviousUpgrade = このアップグレードを使用する前に、ひとつ前のアップグレードを使用する必要があります。

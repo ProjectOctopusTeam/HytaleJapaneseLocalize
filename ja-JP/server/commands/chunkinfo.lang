@@ -19,12 +19,3 @@ sectionInfo = \t\t\tティック有り：{ticking}\n\
       \t\t\tソリッドエア：{solidAir}\n\
       \t\t\tブロック数：{count}\n\
       \t\t\tブロック数（詳細）：{counts}
-blockStateChunk = \tブロックステートチャンク：\n\
-    \t\t保存が必要：{saving}\n\
-    \t\tブロックステート数：{countStates}\n\
-    \t\t不明なブロックステート数：{countUnknown}\n\
-    \t\t送信可能なブロックステート数：{countSendable}\n\
-    \t\tティック可能なブロックステート数：{countTickable}\n\
-  \tエンティティチャンク：\n\
-    \t\t保存が必要：{savingEntity}\n\
-    \t\tエンティティ数：{countEntities}

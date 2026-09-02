@@ -1,6 +1,7 @@
 generic = [{key}] でインタラクト
 open = [{key}] で {name} を開く
 openDoor = [{key}] で開く
+closeDoor = [{key}] を押して閉める
 gather = [{key}] で {name} を採取
 pick = [{key}] で {name} を摘む
 edit = [{key}] で編集
@@ -18,6 +19,5 @@ mount = [{key}] に乗る
 burst = [{key}] で {name} を破裂させる
 pickup = [{key}] で {name} を拾う
 inspect = [{key}] で {name} を調べる
-closeDoor = [{key}] を押して閉める
 carry = [{key}]で持ち上げる
 openOrCarry = [{key}]で開く\n[{key}]長押しで持ち上げる

@@ -1,11 +1,3 @@
-loaded = # = ホット、& = コールド、% = ロード中、X = アンロード要、' ' = 未ロード\n\
-    {grid}\n\
-    表示半径：{viewRadius, number}\n\
-    送信済み表示半径：{sentViewRadius, number}\n\
-    ホット半径：{hotRadius, number}\n\
-    チャンク受信準備完了：{readyForChunks}\n\
-    ロード済み：{loaded, number}\n\
-    ロード中：{loading, number}
 summary = セクション:\n\
     \t毎秒の最大セクション数: {maxSectionsPerSecond, number}\n\
     \t1ティックあたりの最大セクション数: {maxSectionsPerTick, number}\n\

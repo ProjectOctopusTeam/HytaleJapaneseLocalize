@@ -1,4 +1,5 @@
 timeline.tooltip.muteTrack = Mute Track
+colorPicker.opacity = Opacity
 timeline.tooltip.playPause = Play/Pause
 timeline.tooltip.stop = Stop
 timeline.tooltip.addTrack = Add Track
@@ -9,4 +10,3 @@ timeline.label.frame = Frame: {frame}
 timeline.label.duration = Duration: {duration}
 timeline.label.fps = Playback Speed:
 timeline.tooltip.keyframe = Frame: {time}
-colorPicker.opacity = Opacity

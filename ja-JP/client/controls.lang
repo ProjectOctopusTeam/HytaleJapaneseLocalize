@@ -1,4 +1,5 @@
 timeline.tooltip.muteTrack = トラックをミュート
+colorPicker.opacity = 不透明度
 timeline.tooltip.playPause = 再生/一時停止
 timeline.tooltip.stop = 停止
 timeline.tooltip.addTrack = トラックを追加
@@ -9,4 +10,3 @@ timeline.label.frame = フレーム: {frame}
 timeline.label.duration = 長さ: {duration}
 timeline.label.fps = 再生速度:
 timeline.tooltip.keyframe = フレーム: {time}
-colorPicker.opacity = 不透明度

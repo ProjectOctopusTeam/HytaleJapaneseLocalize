@@ -11,9 +11,9 @@ npcpath.nodes.waypointNotLoaded = \n  #{index} (未読み込み)
 spawn.spawnedOne = NPCをスポーンさせました: {type}
 spawn.spawnedMany = {quantity}体 NPC をスポーンさせました: {type}
 npcpath.nodes.node = \n\t#{index} ({posX}, {posY}, {posZ})\n\
-    \t\tRotation: ({rotX}, {rotY}, {rotZ})\n\
-    \t\tPause time: {time}s\n\
-    \t\tObservation angle: {angle}
+    \t\t回転: ({rotX}, {rotY}, {rotZ})\n\
+    \t\t停止時間: {time}s\n\
+    \t\t観察角度: {angle}
 tests.Test_Bird = 正しい飛行動作を確認する
 tests.Test_Block_Sensor = 彫像に近づき、それらの間を移動することを確認する
 tests.Test_Attack_Bow = 正しく照準を合わせ、遠距離攻撃を使用することを確認する
@@ -36,6 +36,7 @@ tests.Test_Chained_Path = NPCがノードを各パスの終わりに近く配置
 tests.Test_Spawn_Action = NPCが他のNPCを正しくスポーンさせることを確認する
 tests.Test_State_Evaluator_Toggle = NPCがHP50%以下で逃げ、50%以上で近づくことを確認する
 tests.Test_State_Evaluator_Sleep = NPCが夜に眠り、昼間は起きていることを確認する
+tests.Test_State_Evaluator_TimeSinceLastUsed = プレイヤーが範囲内にいる間、NPCがActivated状態に入るまでに5秒のクールダウンがあることを検証する
 tests.Test_Alarm = NPCのアラームが1日後にトリガーされることを確認します（メモは「Passed」として始まり、15秒後にアラームが設定されます）
 tests.Test_Timer_Repeating = タイマーが正しく機能することを確認する
 tests.Test_Action_Model_Attachment = NPCのアタッチメントが変更および復元されることを確認する
@@ -62,4 +63,3 @@ tests.Test_Throw_NPC = NPCが他のNPCをプレイヤーに向けて投げるこ
 tests.Test_Trigger_Spawners = NPCが近くの手動スポーンマーカーをトリガーすることを確認する
 tests.Test_Weather_Sensor = NPCが雨が降っているかどうかを報告することを確認する
 tests.Test_Bird_Land = NPCが離陸し、干し草ブロックに正常に着陸することを確認する
-tests.Test_State_Evaluator_TimeSinceLastUsed = プレイヤーが範囲内にいる間、NPCがActivated状態に入るまでに5秒のクールダウンがあることを検証する

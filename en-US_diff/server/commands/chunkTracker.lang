@@ -1,11 +1,3 @@
-loaded = # = Hot, & = Cold, % = Loading, X = Needs Unload, ' ' = Not loaded\n\
-    {grid}\n\
-    View Radius: {viewRadius, number}\n\
-    Sent View Radius: {sentViewRadius, number}\n\
-    Hot Radius: {hotRadius, number}\n\
-    Ready For Chunks: {readyForChunks}\n\
-    Loaded: {loaded, number}\n\
-    Loading: {loading, number}
 summary = Sections:\n\
     \tMax sections per second: {maxSectionsPerSecond, number}\n\
     \tMax sections per tick: {maxSectionsPerTick, number}\n\

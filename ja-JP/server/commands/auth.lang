@@ -58,7 +58,6 @@ persistence.desc = 認証情報の保存方法を表示または変更する
 persistence.singleplayer = シングルプレイヤーモードでは適用されません。
 persistence.current = 認証情報の保存方法：{type}
 persistence.changed = 認証情報の保存方法を{type}に変更しました
-persistence.unknownType = 不明な保存タイプ：{type}
 persistence.available = 利用可能なタイプ：{types}
 persistence.type.desc = 保存タイプ（例：Memory、File）
 persistence.variant.desc = 認証情報の保存方法を変更する
